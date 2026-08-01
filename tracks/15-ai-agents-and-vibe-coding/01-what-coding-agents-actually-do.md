@@ -1,26 +1,24 @@
 # Apa yang Sebenarnya Dilakukan Agen Pengkodean
 
-> Pahami dengan tepat cara kerja agen pengkodean AI — dan mengapa Anda tidak memerlukan gelar CS untuk menggunakannya secara menguntungkan.
+> Pahami secara mendalam mekanisme kerja agen pengkodean AI — serta alasan mendasar mengapa Anda tidak memerlukan latar belakang ilmu komputer untuk mengoperasikannya secara menguntungkan.
 
-**Lacak:** Agen AI & Vibe-Coding untuk Kreator
+**Lagu:** Agen AI & Vibe-Coding untuk Kreator
 **Waktu:** ~35 menit
 **Prasyarat:** Tidak ada
 
 ## Masalahnya
 
-Sebagian besar pembuat konten mendengar "buat alat Anda sendiri" dan langsung melepaskan diri — yakin bahwa membuat perangkat lunak memerlukan pendidikan ilmu komputer selama bertahun-tahun, pengetahuan tentang struktur data, dan kemampuan membaca ribuan baris kode yang terlihat asing.
+Sebagian besar pembuat konten enggan melangkah saat mendengar frasa "buat alat Anda sendiri" — merasa yakin bahwa merancang perangkat lunak menuntut pendidikan ilmu komputer bertahun-tahun, penguasaan struktur data, serta kemampuan menelaah ribuan baris kode yang terkesan rumit.
 
-Keyakinan ini akurat sebelum tahun 2023. Kini sudah tidak akurat lagi.
+Pandangan tersebut memang tepat sebelum tahun 2023. Namun, kini anggapan itu tidak lagi berlaku.
 
-Penghalangnya dulu adalah: *Anda tidak dapat membangun apa yang tidak dapat Anda tulis*. Agen pengkodean seperti Claude Code, Cursor, dan GitHub Copilot telah membalikkan hal ini: **Anda sekarang dapat membuat apa pun yang dapat Anda jelaskan dengan jelas**. Agen menulis, mengedit, men-debug, dan menjelaskan kode — Anda mengarahkannya.
+Hambatan di masa lalu adalah: *Anda tidak dapat membangun apa yang tidak dapat Anda tulis*. Agen pengkodean seperti Claude Code, Cursor, dan GitHub Copilot telah mentransformasi paradigma ini: **Anda kini sanggup menciptakan apa pun yang mampu Anda uraikan dengan jelas**. Agen mengeksekusi penulisan, penyuntingan, proses debug, hingga penjelas naskah kode — Anda memegang kendali penuh atas arahannya.
 
-Jika Anda tidak memahami perbedaan antara alat gambar AI (di mana Anda mengetikkan perintah ke UI) dan agen pengkodean AI (di mana Anda mendeskripsikan suatu program dan agen membangunnya), Anda akan kehilangan peralihan keterampilan yang paling menguntungkan dalam dekade ini.
-
----
+Apabila Anda belum memahami perbedaan mendasar antara instrumen gambar berbasis AI (di mana Anda mengetikkan perintah pada antarmuka pengguna) dan agen pengkodean AI (di mana Anda mendeskripsikan suatu program lalu agen membangunnya secara mandiri), Anda akan terlewatkan momentum peralihan keahlian paling prospektif dalam dekade ini.
 
 ## Konsep
 
-**Agen Pengkode** adalah AI yang dapat membaca, menulis, menjalankan, dan men-debug file kode secara mandiri di dalam direktori proyek Anda:
+**Agen Pengkode** merupakan AI berkapabilitas mandiri yang sanggup menelaah, merangkai, mengeksekusi, hingga men-debug berkas kode secara otonom di dalam direktori proyek Anda:
 
 ```
 Your Plain-English Instruction ──► Agent Reads Existing Files ──► Agent Writes/Edits Code ──► Agent Runs & Tests ──► Working Program
@@ -28,91 +26,90 @@ Your Plain-English Instruction ──► Agent Reads Existing Files ──► Ag
 
 ### 3 Perbedaan Utama (Agen vs. Chatbots vs. Skrip):
 
-1. **AI Chatbots (ChatGPT, web Claude.ai):** Anda menempelkan kode, kode tersebut akan membalas dengan saran di jendela obrolan. Anda menyalin-menempelkan kembali perubahan secara manual. Tidak ada akses file, tidak ada eksekusi. Bagus untuk pertanyaan, lambat untuk membangun.
-2. **Agen Pengkodean (Kode Claude, Kursor, Kopilot GitHub):** Agen beroperasi *di dalam sistem file Anda*. Itu dapat membuka file, menulis yang baru, menjalankan perintah terminal, membaca pesan kesalahan, dan mengoreksi diri sendiri — menyelesaikan tugas pemrograman multi-langkah dari satu instruksi.
-3. **Skrip Tradisional (Python, Bash):** Kode pra-tertulis yang Anda jalankan secara manual. Cepat dan murah, tetapi mengharuskan Anda menulis dan men-debug kode sendiri, atau menyewa pengembang.
+1. **AI Chatbots (ChatGPT, web Claude.ai):** Anda menyematkan kode, lalu sistem membalas dengan saran pada jendela obrolan. Anda wajib memindahkan penyesuaian tersebut secara manual. Tanpa akses berkas, tanpa eksekusi langsung. Sangat efisien untuk konsultasi, namun lamban untuk manufaktur program.
+2. **Agen Pengkodean (Claude Code, Cursor, GitHub Copilot):** Agen beroperasi secara otonom *di dalam sistem berkas Anda*. Sistem sanggup membuka berkas, merangkai dokumen baru, mengeksekusi perintah terminal, menelaah pesan kesalahan, serta melakukan koreksi mandiri — merampungkan instruksi pemrograman multi-langkah dari satu arahan tunggal.
+3. **Skrip Tradisional (Python, Bash):** Kode yang telah dirancang sebelumnya untuk dieksekusi secara manual. Efisien dan hemat biaya, namun menuntut Anda untuk merangkai dan men-debug kode secara mandiri, atau mengalokasikannya kepada pengembang profesional.
 
 ### Apa yang Dapat Dibangun Agen untuk Kreator:
-* **Batch API runner** — Skrip yang memanggil muapi 50 kali secara otomatis, menghemat waktu berjam-jam mengklik manual.
-* **Generator metadata** — Alat yang membaca folder gambar dan menulis otomatis judul CSV serta kata kunci untuk platform stok.
-* **Perluas matriks cepat** — Menghasilkan 100 variasi cepat dari templat 3 variabel dalam hitungan detik.
-* **Otomasi penerimaan klien** — Formulir yang menerima selfie dan secara otomatis memicu saluran pembuatan foto kepala.
-* **Kalkulator harga** — Alat web interaktif yang digunakan klien Anda untuk memperkirakan biaya proyek mereka.
 
----
+- **Batch API runner** — Skrip yang mengeksekusi panggilan muapi sebanyak 50 kali secara otomatis, memangkas durasi alokasi waktu dari interaksi manual.
+- **Generator metadata** — Instrumen yang menelaah direktori gambar lalu merangkai judul CSV dan kata kunci secara otomatis untuk platform penyedia stok.
+- **Perluas matriks cepat** — Memproduksi 100 variasi cepat dari templat 3 variabel dalam hitungan detik.
+- **Otomasi penerimaan klien** — Formulir interaktif yang menerima swafoto lalu memicu saluran pembuatan potret wajah secara otomatis.
+- **Kalkulator harga** — Instrumen web interaktif yang dimanfaatkan klien Anda untuk mengkalkulasi estimasi alokasi biaya proyek mereka.
 
 ## Lakukan itu
 
 ### Langkah 1: Instal Agen Pengkodean
-Pilih salah satu dari dua agen yang paling mudah diakses oleh pembuat konten:
-* **Kode Claude** (Antropis): Agen berbasis terminal. Instal melalui `npm install -g @anthropic-ai/claude-code`. Berjalan di dalam folder proyek mana pun.
-* **Cursor** (cursor.sh): Agen berbasis VS Code dengan editor kode visual yang familiar. Unduh aplikasinya, buka folder, dan mulai mengobrol di bar samping.
 
-Buka [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) untuk menyiapkan sesi pertama Anda.
+Pilih salah satu dari dua agen yang paling ramah dioperasikan oleh pembuat konten:
+
+- **Claude Code** (Anthropic): Agen berbasis terminal. Instal melalui `npm install -g @anthropic-ai/claude-code`. Berjalan fleksibel di dalam direktori proyek apa pun.
+- **Cursor** (cursor.sh): Agen berbasis VS Code yang dilengkapi editor kode visual intuitif. Unduh aplikasinya, buka direktori, dan mulailah berinteraksi pada panel samping.
+
+Buka [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) untuk menyusun persiapan sesi perdana Anda.
 
 ### Langkah 2: Berikan Agen Satu Instruksi yang Jelas
-Buka folder proyek Anda di agen. Ketik satu instruksi:
+
+Buka direktori proyek Anda pada agen. Ketik satu instruksi yang presisi:
+
 > *"Buat skrip Python bernama `batch_prompt_runner.py` yang membaca daftar perintah dari file bernama `prompts.txt` (satu perintah per baris) dan mencetak masing-masing perintah bernomor."*
 
-Agen akan membuat file, menulis kode, dan mengonfirmasi bahwa file berfungsi.
+Agen akan merancang berkas, menuliskan struktur kode, serta mengonfirmasi bahwa dokumen dapat berfungsi secara sempurna.
 
 ### Langkah 3: Jalankan Outputnya
-Jalankan file yang dibuat agen:
+
+Eksekusi berkas yang telah dirancang oleh agen:
+
 ```bash
 python batch_prompt_runner.py
 ```
-Anda akan melihat perintah Anda dicetak dan diberi nomor. Ini adalah alat pertama yang dibuat oleh agen Anda.
+
+Anda akan menyaksikan rangkaian perintah Anda ditampilkan lengkap dengan penomoran. Ini merupakan instrumen perdana yang berhasil dirancang oleh agen Anda.
 
 ### Langkah 4: Ulangi dengan Koreksi
-Beri tahu agen apa yang harus diubah dalam bahasa Inggris sederhana:
+
+Instruksikan agen mengenai penyesuaian yang diperlukan menggunakan bahasa sehari-hari yang lugas:
+
 > *"Sekarang, daripada mencetak, simpan hasilnya ke file bernama `results.txt`."*
 
-Agen mengedit skrip secara otomatis. Anda tidak membaca kodenya — Anda hanya menjelaskan perubahannya.
-
----
+Agen akan menyunting skrip secara otomatis. Anda tidak perlu menelaah kodenya — Anda cukup menguraikan penyesuaian yang diinginkan.
 
 ## Contoh yang berhasil
 
-**Sesi Agen Pertama untuk "Niche Creator Alex"**
+**Sesi Agen Perdana untuk "Niche Creator Alex"**
 
-* **Latar Belakang:** Alex menjalankan toko print-on-demand Etsy. Setiap minggu dia mengetik secara manual 30 judul produk ke dalam spreadsheet.
-* **Instruksi Agen Diberikan:** *"Tulis skrip Python yang membaca daftar nama desain dari `designs.txt` dan menghasilkan 3 variasi judul produk Etsy yang ramah SEO untuk setiap desain, menyimpan semua hasil ke `etsy_titles.csv`."*
-* **Waktu Pengerjaan Alat:** 8 menit (termasuk menginstal Kode Claude).
-* **Waktu Mingguan yang Dihemat:** 2,5 jam copywriting manual per minggu.
-* **Nilai Alat:** Jika dijual di Gumroad dengan harga $19, alat ini akan membayar kembali waktu pembuatannya setelah 3 penjualan pertama.
-
----
+- **Latar Belakang:** Alex mengelola toko print-on-demand pada platform Etsy. Setiap pekan, ia mencatat secara manual 30 judul produk ke dalam lembar kerja spreadsheet.
+- **Instruksi Agen Diberikan:** *"Tulis skrip Python yang membaca daftar nama desain dari `designs.txt` dan menghasilkan 3 variasi judul produk Etsy yang ramah SEO untuk setiap desain, menyimpan semua hasil ke `etsy_titles.csv`."*
+- **Waktu Pengerjaan Alat:** 8 menit (termasuk alokasi waktu menginstal Claude Code).
+- **Waktu Mingguan yang Dihemat:** 2,5 jam alokasi waktu copywriting manual setiap pekan.
+- **Nilai Alat:** Apabila dipasarkan melalui platform Gumroad dengan nominal $19, instrumen ini akan memberikan pengembalian investasi alokasi waktu secara penuh hanya dari 3 transaksi penjualan perdana.
 
 ## Bandingkan Alat
 
 | Platform Agen | Gaya Antarmuka | Terbaik Untuk | Biaya Bulanan |
-|---|---|---|---|
-| **Kode Claude** | Terminal (baris perintah) | Pembuat konten merasa nyaman dengan terminal dasar | ~$20/bln (Kredit API Antropis) |
-| **Kursor** | Editor visual (seperti VS Code) | Pembuat konten yang lebih menyukai antarmuka grafis | Tingkat gratis + $20/bln Pro |
-| **Kopilot GitHub** | Pelengkapan otomatis dalam editor | Kreator sudah menggunakan VS Code untuk karya lainnya | $10/bln |
-| **Agen Replit** | Berbasis browser, tanpa instalasi | Pembuat konten yang tidak menginginkan penyiapan lokal | Tersedia tingkat gratis |
-
----
+| --- | --- | --- | --- |
+| **Claude Code** | Terminal (baris perintah) | Pembuat konten yang terbiasa mengoperasikan perintah terminal dasar | ~$20/bln (Kredit API Anthropic) |
+| **Cursor** | Editor visual (seperti VS Code) | Pembuat konten yang lebih menyukai antarmuka grafis intuitif | Tingkat gratis + $20/bln Pro |
+| **GitHub Copilot** | Pelengkapan otomatis dalam editor | Kreator yang telah memanfaatkan VS Code untuk alur kerja lainnya | $10/bln |
+| **Agen Replit** | Berbasis peramban, tanpa konfigurasi lokal | Pembuat konten yang tidak menghendaki konfigurasi sistem lokal | Tersedia tingkat gratis |
 
 ## Luncurkan
 
-**Apa yang bisa Anda jual setelah pelajaran ini:**
-* **Layanan Penyiapan Agen:** Biaya **$99–$199** untuk menyiapkan dan mengonfigurasi Kode Claude atau Kursor bagi pembuat lain yang menganggap pemasangannya membingungkan. Banyak pencipta non-teknis akan membayar untuk melewatkan pengaturan terminal sepenuhnya.
+**Peluang komersialisasi pasca-pembelajaran modul ini:**
 
----
+- **Layanan Penyiapan Agen:** Menetapkan tarif **$99–$199** untuk membantu proses konfigurasi Claude Code atau Cursor bagi pembuat konten lain yang merasa kesulitan menghadapi prosedur instalasi. Banyak kreator non-teknis bersedia mengalokasikan dana demi menghindari konfigurasi terminal secara mandiri.
 
 ## Latihan
 
-1. **Mudah:** Instal Cursor atau Claude Code dan buka folder proyek kosong. Tanyakan kepada agen: *"Buat file bernama `hello.txt` yang berisi tulisan 'Output agen pertama saya'."* Konfirmasikan file telah dibuat.
-2. **Medium:** Minta agen untuk menulis skrip Python yang membaca file teks nama produk dan mengeluarkan versi huruf besar semua dari setiap nama ke dalam file baru.
-3. **Sulit:** Minta agen untuk membuat skrip yang menghasilkan 5 variasi prompt Midjourney dari satu subjek, gaya estetika, dan sudut kamera — membaca masukan dari CSV dan menulis keluaran ke CSV baru.
-
----
+1. **Mudah:** Instal Cursor atau Claude Code lalu buka direktori proyek yang masih kosong. Instruksikan agen: *"Buat file bernama `hello.txt` yang berisi tulisan 'Output agen pertama saya'."* Pastikan berkas telah terbuat secara sempurna.
+2. **Sedang:** Instruksikan agen untuk merangkai skrip Python yang menelaah berkas teks nama produk, lalu mengonversi seluruh nama tersebut menjadi format huruf kapital pada dokumen baru.
+3. **Sulit:** Minta agen untuk merancang skrip yang memproduksi 5 variasi prompt Midjourney dari satu subjek, gaya estetika, serta sudut pengambilan gambar — dengan menelaah masukan berkas CSV dan menyajikan hasilnya ke dalam dokumen CSV baru.
 
 ## Templat
 
-* [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Kerangka instruksi agen, lembar perencanaan sesi, dan pustaka perintah alat pertama.
+- [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Kerangka instruksi agen, lembar perencanaan sesi, serta pustaka perintah instrumen perdana.
 
 ---
 
-[Track Overview](README.md) · Berikutnya: [Building Your First Sellable Micro-Tool →](02-building-your-first-sellable-micro-tool.md)
+[← Track Overview](README.md) · Berikutnya: [Membangun Mikro-Tool Pertama Anda yang Dapat Dijual →](02-building-your-first-sellable-micro-tool.md)
