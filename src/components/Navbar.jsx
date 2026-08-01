@@ -9,8 +9,7 @@ import {
   LayoutDashboard, 
   Flame, 
   Menu,
-  CheckCircle2,
-  Globe
+  CheckCircle2
 } from 'lucide-react';
 import { uiTranslations } from '../data/translations';
 
@@ -22,8 +21,7 @@ export default function Navbar({
   completedCount, 
   totalModules,
   onToggleSidebar,
-  lang = 'id',
-  onToggleLang
+  lang = 'id'
 }) {
   const t = uiTranslations[lang] || uiTranslations.id;
 
@@ -97,15 +95,6 @@ export default function Navbar({
             <Search size={16} />
             <span className="search-text-desktop">{t.searchPlaceholder}</span>
             <span className="kbd-shortcut desktop-only">⌘K</span>
-          </button>
-
-          <button 
-            className="lang-toggle-btn"
-            onClick={onToggleLang}
-            title={t.switchLang}
-          >
-            <Globe size={15} />
-            <span>{lang.toUpperCase()}</span>
           </button>
 
           <div className="nav-badges">

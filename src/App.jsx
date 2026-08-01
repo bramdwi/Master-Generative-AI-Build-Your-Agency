@@ -129,7 +129,6 @@ export default function App() {
         totalModules={totalModulesCount}
         onToggleSidebar={() => setSidebarOpen(prev => !prev)}
         lang={userData.lang}
-        onToggleLang={handleToggleLang}
       />
 
       <div className="main-content">
