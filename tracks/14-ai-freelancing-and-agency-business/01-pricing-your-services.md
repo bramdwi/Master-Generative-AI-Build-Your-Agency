@@ -1,16 +1,16 @@
 # Modul 1: Menentukan Harga Layanan Anda
 
-> Beralih dari jebakan penagihan per jam ke penetapan harga berbasis nilai, tingkatan paket margin tinggi, perhitungan matematika, dan pengikatan kontrak untuk layanan pembuatan AI.
+> Bertransformasi dari jebakan billing per jam menuju penetapan harga berbasis Value, merancang tingkatan paket bermargin tinggi, mengalkulasikan kalkulasi matematis, serta mengamankan Kontrak untuk Layanan Pembuatan AI.
 
 ---
 
-## 🎯 Masalah Inti: Mengapa Penagihan Per Jam Menghancurkan Margin Bisnis AI
+## 🎯 Masalah Inti: Mengapa Billing Per Jam Merusak Margin Bisnis AI
 
-Saat Anda beralih dari alat kreatif tradisional (Photoshop, After Effects, pemodelan 3D manual) ke alur kerja AI (FLUX 1.1 Pro, Midjourney v6, Runway Gen-3 Alpha, ElevenLabs), produktivitas Anda meningkat **10x hingga 50x**.
+Tatkala Anda bertransisi dari instrumen kreatif konvensional (Photoshop, After Effects, pemodelan 3D manual) menuju alur kerja AI yang akseleratif (FLUX 1.1 Pro, Midjourney v6, Runway Gen-3 Alpha, ElevenLabs), produktivitas Anda melesat **10x hingga 50x lipat**.
 
-Jika Anda menentukan harga layanan menggunakan tarif per jam tradisional (misalnya $50/jam), **efisiensi AI akan berdampak buruk pada penghasilan Anda**:
+Apabila Anda menentukan harga Layanan mengandalkan tarif per jam konvensional (seumpama $50/jam), **efisiensi AI justru akan mencederai potensi pendapatan Anda**:
 
-### Ekonomi Produksi Tradisional vs. AI:
+### Ekonomi Produksi Konvensional vs. AI:
 
 ```
 TRADITIONAL MANUAL WORKFLOW
@@ -30,48 +30,51 @@ AI-POWERED WORKFLOW (FLUX 1.1 + COMFYUI)
 --------------------------------------------------------------------------
 ```
 
-> [!PENTING]
-> **Aturan Emas Penetapan Harga Layanan AI:** Jangan pernah mengenakan biaya untuk waktu yang dihabiskan. Biaya untuk nilai bisnis yang dikirimkan ke klien. Klien membayar untuk hasil akhir komersial dan dampak bisnisnya, bukan jumlah menit GPU Anda berjalan.
+> [!IMPORTANT]
+> **Aturan Emas Penetapan Harga Layanan AI:** Jangan pernah membebankan Biaya atas alokasi Waktu yang Anda habiskan. Bebankan Biaya berdasarkan Nilai komersial nyata yang diserahkan kepada Klien. Klien menginvestasikan dana demi melunasi Hasil Akhir komersial dan dampak bisnisnya, bukan untuk membayar durasi menit pengoperasian GPU Anda.
 
 ---
 
-## 📊 Arsitektur Penetapan Harga Berbasis Nilai
+## 📊 Arsitektur Penetapan Harga Berbasis Value
 
-Penetapan harga berdasarkan nilai mengaitkan biaya Anda dengan **pengembalian finansial atau penghematan dasar** yang diciptakan untuk klien. Daripada menghitung `Hours × Rate`, Anda menghitung `Client Value × Value Share`.
+Penetapan harga berbasis Value menyelaraskan Biaya Anda secara presisi dengan **imbal balik finansial atau efisiensi anggaran** yang berhasil diciptakan bagi Klien. Alih-alih mengalkulasikan `Hours × Rate`, Anda menetapkan kalkulasi `Client Value × Value Share`.
 
-### Rumusan Penetapan Harga Berbasis Nilai:
-$$\text{Biaya Proyek} = \text{Biaya Penggantian Pasar Tradisional} \kali (25\% - 40\%)$$
+### Formulasi Penetapan Harga Berbasis Value:
 
-> **Bahasa Inggris Biasa:** Jika produksi tradisional membebani klien sebesar $28.000, Anda mengenakan biaya **25–40% dari biaya tersebut** — yaitu, **$7.000 hingga $11.200**. Anda memperoleh sebagian kecil dari nilai simpanan Anda, sementara klien masih mengantongi sebagian besar tabungannya.
+$$\text{Biaya Proyek} = \text{Biaya Penggantian Pasar Tradisional} \times (25\% - 40\%)$$
 
-### Studi Kasus Dunia Nyata: Foto Perusahaan B2B untuk Perusahaan Teknologi yang beranggotakan 100 Orang
-1. **Kutipan Fotografi Tradisional:**
-- Tarif harian fotografer di tempat: $3.500
-- Penyewaan peralatan studio & perlengkapan pencahayaan: $1.200
-- Perjalanan & akomodasi untuk staf jarak jauh: $12.500
-- Biaya retouching per kepala ($120 × 100): $12.000
-- **Total Biaya Penggantian Tradisional: $28.700**
+> **Penjelasan Sederhana:** Apabila eksekusi produksi konvensional menelan alokasi dana Klien sebesar $28.000, Anda berhak membebankan Tarif **25–40% dari total estimasi tersebut** — yakni berada di kisaran **$7.000 hingga $11.200**. Anda mengamankan porsi yang sangat menguntungkan dari efisiensi yang diciptakan, sementara Klien tetap menikmati penghematan anggaran dalam jumlah yang signifikan.
 
-2. **Penawaran Berbasis Nilai Agensi AI Anda:**
-- Memadukan foto perusahaan tingkat studio 8k dari selfie ponsel cerdas.
-- Penyelesaian 24 jam (vs. 4 minggu tradisional).
-- Tanpa perjalanan, tanpa pemesanan tempat, tanpa waktu henti karyawan.
-- **Biaya Proyek Tetap Anda: $7.500** (Menghemat klien $21.200 sekaligus mengirimkan 10x lebih cepat).
+### Studi Kasus Nyata: Foto Perusahaan B2B untuk Entitas Teknologi Beranggotakan 100 Orang
 
-3. **Perincian Biaya Internal (COGS) Anda:**
-- Render FLUX 1.1 Pro API: $0,04 / gambar × 300 variasi = $12,00
-- Komputasi peningkatan & penyempurnaan: $5,00
-- Tinjauan auditor QA lepas pantai (1 jam): $15,00
-- **Total HPP Langsung: $32,00**
+1. **Estimasi Biaya Fotografi Konvensional:**
+   - Tarif harian fotografer di lokasi: $3.500
+   - Penyewaan perangkat studio & tata cahaya: $1.200
+   - Perjalanan & akomodasi untuk staf jarak jauh: $12.500
+   - Biaya retouching per kepala ($120 × 100): $12.000
+   - **Total Estimasi Biaya Konvensional: $28.700**
+
+2. **Penawaran Berbasis Value dari Agensi AI Anda:**
+   - Meracik foto perusahaan beresolusi 8k sekelas kualitas studio mengandalkan foto swafoto ponsel pintar.
+   - Durasi penyelesaian 24 jam (berbanding 4 minggu pada metode konvensional).
+   - Tanpa perjalanan dinas, tanpa reservasi lokasi, serta tanpa menyita waktu kerja karyawan.
+   - **Biaya Proyek Tetap Anda: $7.500** (Menghemat anggaran Klien sebesar $21.200 sekaligus menyajikan Hasil 10x lebih cepat).
+
+3. **Rincian Biaya Internal (COGS) Anda:**
+   - Eksekusi Render FLUX 1.1 Pro API: $0,04 / gambar × 300 variasi = $12,00
+   - Komputasi upscaling & penyempurnaan: $5,00
+   - Peninjauan auditor QA lepas pantai (1 jam): $15,00
+   - **Total HPP Langsung: $32,00**
 
 4. **Margin Keuntungan Anda:**
-$$\text{Laba Bersih} = \$7.500 - \$32 = \$7.468 \quad (\mathbf{99.57\% \text{ Margin Kotor}})$$
+
+$$\text{Laba Bersih} = \$7.500 - \$32 = \$7.468 \quad (\mathbf{99,57\% \text{ Margin Kotor}})$$
 
 ---
 
-## 📦 Membuat Paket Penawaran 3 Tingkat
+## 📦 Merancang Penawaran Paket 3 Tingkatan
 
-Jangan pernah memberi klien satu harga ambil atau tinggalkan. Selalu hadirkan 3 tingkatan terstruktur. Penetapan harga multi-tingkat menghilangkan tawar-menawar harga dengan mengalihkan keputusan klien dari *"Haruskah saya menyewa agen ini?"* menjadi *"Tingkat mana yang paling sesuai dengan anggaran kami?"*
+Hindari menyajikan penawaran harga tunggal yang bersifat mengikat kaku. Senantiasa hadirkan 3 Tingkatan paket yang terstruktur dengan anggun. Penetapan harga bertingkat ini secara efektif mengeliminasi tawar-menawar harga, mentransformasi sudut pandang Klien dari pertanyaan *"Apakah kami harus mempekerjakan Agensi ini?"* menjadi *"Tingkatan mana yang paling selaras dengan alokasi anggaran kami?"*
 
 ```
 +--------------------------------+  +--------------------------------+  +--------------------------------+
@@ -88,50 +91,56 @@ Jangan pernah memberi klien satu harga ambil atau tinggalkan. Selalu hadirkan 3 
 +--------------------------------+  +--------------------------------+  +--------------------------------+
 ```
 
-### Strategi Penahan Psikologis:
-1. **Tingkat 3 (Enterprise Anchor):** Dengan harga tinggi ($9.500/bln) untuk membangun posisi pasar premium dan nilai jangkar.
-2. **Tingkat 2 (Kesepakatan Target):** Disorot sebagai **"Paling Populer"** atau **"Direkomendasikan"**. Dibanderol dengan harga $5.500, yang terasa sangat murah dibandingkan Tier 3.
-3. **Tingkat 1 (Bawah Anggaran):** Ditetapkan pada $2.500 sebagai batas minimum Anda. Jika klien memilih Tingkat 1, Anda tetap mempertahankan margin 98%+.
+### Strategi Anchoring Psikologis:
+
+1. **Tier 3 (Enterprise Anchor):** Ditetapkan pada besaran investasi tinggi ($9.500/bulan) guna mengukuhkan posisi pasar yang eksklusif sekaligus menjadi jangkar pembanding Value.
+2. **Tier 2 (Target Kesepakatan):** Disorot sebagai **"Paling Populer"** atau **"Direkomendasikan"**. Dibanderol pada kisaran $5.500, yang terasa sangat rasional dan memikat apabila dibandingkan dengan Tier 3.
+3. **Tier 1 (Batas Anggaran):** Ditetapkan pada nominal $2.500 sebagai batas minimum penerimaan Proyek Anda. Apabila Klien memilih Tier 1, Anda tetap mengamankan margin fantastis di atas 98%.
 
 ---
 
-## 🔄 Harga Retainer: Membangun Pendapatan Berulang
+## 🔄 Harga Retainer: Membangun Pendapatan Berulang yang Stabil
 
-Proyek yang dilakukan sekali saja menciptakan rollercoaster pendapatan. Kunci untuk membangun agensi AI senilai $20rb+/bulan yang skalabel adalah mengubah klien satu kali menjadi pelanggan berulang bulanan ($3.000 – $10.000 / bulan).
+Proyek bersifat insidental kerap menciptakan fluktuasi pendapatan yang tidak menentu. Kunci utama dalam membangun Agensi AI berskala $20rb+/bulan yang berkelanjutan adalah mentransformasi Klien insidental menjadi Mitra bulanan berbasis Retainer ($3.000 – $10.000 / bulan).
 
-### Model Penahan Margin Tinggi di Seluruh Vertikal AI:
+### Model Retainer Bermargin Tinggi di Berbagai Vertikal AI:
 
-| AI Vertikal | Jenis Klien Target | Kiriman Retainer Bulanan | Biaya Retainer Bulanan | Perkiraan COGS Bulanan | Laba Bersih Bulanan |
-|---|---|---|---|---|---|
-| **Merchandise E-Commerce** | Merek Pakaian | 20 Grafik Merch Baru + 5 Promo Produk I2V | **$4.000 / bln** | $50,00 | **$3.950 / bln** |
-| **Pementasan Real Estat** | Pialang Kelas Atas | Pementasan Virtual untuk 10 Properti (80 Render) | **$5.500 / bln** | $65,00 | **$5.435 / bln** |
-| **Branding Perusahaan** | SaaS Teknologi Jarak Jauh | Orientasi Headshot Berkelanjutan (hingga 30 karyawan/bln) | **$3.500 / bln** | $25,00 | **$3.475 / bln** |
-| **Iklan Video Sosial** | Merek Konsumen D2C | 12 Iklan Video AI Bentuk Pendek + Sulih Suara Audio | **$7.500 / bln** | $120,00 | **$7.380 / bln** |
-
----
-
-## 💡 Menavigasi Negosiasi Harga Klien
-
-Saat klien korporat meminta diskon (*"Bisakah Anda melakukan ini dengan $3.000, bukan $5.500?"*), **jangan pernah menurunkan harga tanpa mengurangi cakupannya**. Memberikan diskon yang tidak pantas untuk menghancurkan otoritas.
-
-### Skrip Pertukaran Ruang Lingkup:
-> *"Kami ingin sekali bekerja dengan anggaran $3.000 Anda! Agar sesuai dengan tingkat investasi tersebut, kami dapat menyesuaikan paket Profesional dari 75 render menjadi 30 render, dengan penyelesaian 48 jam, bukan 24 jam. Kumpulan hasil mana yang Anda ingin kami kunci?"*
+| Vertikal AI | Target Klien | Hasil Karya Retainer Bulanan | Biaya Retainer Bulanan | Perkiraan COGS Bulanan | Laba Bersih Bulanan |
+| --- | --- | --- | --- | --- | --- |
+| **Merchandise E-Commerce** | Brand Pakaian | 20 Desain Grafis Merch Baru + 5 Promo Produk I2V | **$4.000 / bulan** | $50,00 | **$3.950 / bulan** |
+| **Pementasan Real Estat** | Agensi Properti Mewah | Virtual Staging untuk 10 Properti (80 Render) | **$5.500 / bulan** | $65,00 | **$5.435 / bulan** |
+| **Branding Perusahaan** | SaaS Teknologi Jarak Jauh | Pembuatan Headshot Karyawan Baru (hingga 30 orang/bulan) | **$3.500 / bulan** | $25,00 | **$3.475 / bulan** |
+| **Iklan Video Sosial** | Brand Konsumen D2C | 12 Iklan Video AI Berdurasi Pendek + Sulih Suara Audio | **$7.500 / bulan** | $120,00 | **$7.380 / bulan** |
 
 ---
 
-## 🛠️ Rencana Aksi Langkah demi Langkah
+## 💡 Navigasi Negosiasi Harga dengan Klien
 
-1. **Tetapkan Batas Proyek Anda:** Tetapkan ukuran kontrak minimum Anda menjadi $1.500 (jangan pernah mengutip di bawah $1.000).
-2. **Patokan Tarif Pasar Lokal:** Teliti berapa biaya yang dikenakan oleh rumah produksi tradisional di daerah Anda untuk hari pengambilan video dan retouching foto.
-3. **Unduh Templat Kalkulator Harga:** Gunakan [`templates/agency-pricing-calculator.md`](templates/agency-pricing-calculator.md) untuk menghitung margin kotor yang tepat sebelum mengirimkan proposal.
-4. **Periksa Proposal Pitch Deck Agensi:** Lihat grafik mockup pitch deck komersial:
-![Agency Pitch Deck Proposal Mockup](templates/examples/agency-pricing-deck-mockup.jpg)
-*Tonton loop video gerak proposal ([agency-pricing-deck-motion.mp4](templates/examples/agency-pricing-deck-motion.mp4) / [.gif](templates/examples/agency-pricing-deck-motion.gif)).*
+Kala Klien korporat mengajukan penyesuaian Tarif (*"Apakah memungkinkan jika Proyek ini dieksekusi dengan anggaran $3.000, bukan $5.500?"*), **pantang menurunkan harga tanpa mengoreksi Scope pekerjaan**. Memberikan pemotongan harga tanpa kompensasi penyesuaian akan merusak kredibilitas dan otoritas profesional Anda.
+
+### Skrip Penyesuaian Scope:
+
+> *"Kami akan dengan senang hati menyelaraskan penawaran dengan alokasi anggaran $3.000 Anda! Guna mengakomodasi tingkat investasi tersebut, kami dapat menyesuaikan paket Profesional dari 75 Render menjadi 30 Render, dengan durasi penyelesaian 48 jam dari yang semula 24 jam. Kombinasi Hasil mana yang paling ideal untuk kita sepakati?"*
+
+---
+
+## 🛠️ Panduan Langkah demi Langkah
+
+1. **Tetapkan Ambang Batas Proyek:** Tentukan nilai Kontrak minimum Anda pada kisaran $1.500 (hindari memberikan penawaran di bawah $1.000).
+2. **Riset Tolok Ukur Pasar Lokal:** Amati secara saksama besaran Biaya yang dibebankan oleh rumah produksi konvensional di wilayah Anda untuk sesi pengambilan foto dan pemrosesan retouching.
+3. **Unduh Templat Kalkulator Harga:** Manfaatkan [`templates/agency-pricing-calculator.md`](templates/agency-pricing-calculator.md) guna mengalkulasikan Margin Kotor secara presisi sebelum menerbitkan proposal.
+4. **Pelajari Proposal Pitch Deck Agensi:** Amati visualisasi mockup proposal pitch deck komersial berikut:
+
+<p align="center">
+<img src="templates/examples/agency-pricing-deck-motion.gif" alt="Animasi Proposal Pitch Deck Agensi" width="480">
+</p>
+<p align="center"><sub>Pratinjau Animasi Pitch Deck Agensi · Berkas Video: <a href="templates/examples/agency-pricing-deck-motion.mp4">MP4</a></sub></p>
 
 ---
 
 ## 💡 Poin Penting
-- Produktivitas AI membuat tagihan per jam bersifat bunuh diri; transisi 100% bisnis Anda ke biaya proyek berbasis nilai dan pungutan bulanan.
-- Jangkar harga Anda dengan biaya penggantian tradisional ($30rb tradisional vs $7,5rb proposal AI).
-- Selalu hadirkan proposal 3 tingkat dengan Tingkat 2 yang disorot sebagai kesepakatan target yang direkomendasikan.
-- Lindungi integritas harga Anda dengan mewajibkan pengurangan cakupan setiap kali klien meminta konsesi anggaran.
+
+- Akselerasi produktivitas AI menjadikan metode billing per jam sebagai langkah yang merugikan; alihkan 100% alur bisnis Anda menuju penetapan Biaya Proyek berbasis Value dan Kontrak Retainer bulanan.
+- Jadikan estimasi biaya penggantian konvensional sebagai jangkar penetapan harga ($30rb metode konvensional berbanding $7,5rb proposal AI).
+- Senantiasa sajikan proposal dalam 3 Tingkatan paket dengan menyoroti Tier 2 sebagai pilihan yang paling direkomendasikan.
+- Lindungi integritas penetapan harga Anda dengan mewajibkan pengurangan Scope setiap kali Klien menghendaki penyesuaian alokasi anggaran.
