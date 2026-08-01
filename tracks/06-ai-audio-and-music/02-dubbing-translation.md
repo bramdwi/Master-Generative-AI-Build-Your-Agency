@@ -1,115 +1,117 @@
-# Sulih Suara & Terjemahan AI
+# AI Dubbing & Translation
 
-> Sebuah video yang hanya berbicara dalam satu bahasa hanya menjangkau sebagian kecil dunia.
+> Video yang hanya bertutur dalam satu bahasa hanya akan menjangkau sebagian kecil ceruk dunia.
 
-**Lagu:** AI Audio & Musik
+**Track:** AI Audio & Music
+
 **Waktu:** ~45 menit
-**Prasyarat:** Kloning Suara & Dasar-dasar TTS
+
+**Prasyarat:** Voice Cloning & TTS Basics
 
 ## Masalahnya
 
-Jika Anda hanya mendistribusikan konten, iklan, atau kursus online dalam bahasa Inggris, Anda mengabaikan lebih dari 80% pengguna internet dunia. Pasar besar di Amerika Latin, Eropa, dan Asia sama sekali tidak dapat diakses oleh saluran penjualan Anda.
+Jika Anda hanya mendistribusikan konten, iklan, atau kursus online dalam bahasa Inggris, Anda mengabaikan lebih dari 80% pengguna internet global. Potensi pasar yang sangat besar di Amerika Latin, Eropa, dan Asia menjadi terisolasi dari alur pemasaran Anda.
 
-Namun, penerjemahan dan pelokalan tradisional lambat dan mahal. Anda harus menyewa spesialis terjemahan asing, mengontrak pengisi suara lokal di banyak negara, merekam trek suara mereka di studio profesional, dan secara manual menyelaraskan trek audio baru agar sesuai dengan tempo yang tepat dari garis waktu video asli.
+Namun demikian, metode penerjemahan dan lokalisasi tradisional berlangsung lambat dan membutuhkan alokasi anggaran yang besar. Anda harus menyewa spesialis penerjemah asing, mengontrak pengisi suara lokal di berbagai negara, merekam trek vokal di studio profesional, serta menyelaraskan trek audio baru secara manual agar presisi dengan tempo alur waktu video asli.
 
-Untuk memperluas jaringan konten global, Anda memerlukan proses berulang untuk menerjemahkan trek audio Anda ke beberapa bahasa asing secara otomatis, sambil mempertahankan nada, profil suara, dan perubahan emosi pembicara asli.
+Guna mengakselerasi jaringan konten global, Anda membutuhkan alur kerja yang teruji untuk menerjemahkan trek audio ke dalam berbagai bahasa asing secara otomatis, sembari mempertahankan artikulasi asli, profil vokal, dan infleksi emosional penutur.
 
 ## Konsep
 
-Terjemahan audio otomatis mengandalkan **Dubbing Suara yang Mempertahankan Nada** dan **Sinkronisasi Batas Waktu**:
+Penerjemahan audio otomatis bertumpu pada **Tone-Preserving Voice Dubbing** serta **Time-Boundary Sync**:
 
 ```
 English Voice Track  ──►  Translation Engine  ──►  Pitch/Timbre Mapping  ──►  Foreign Dub (Sync'd)
+
 ```
 
-1. **Preservasi Suara:** Model sulih suara mengekstrak resonansi vokal (timbre) dan kurva nada pembicara asli, lalu memproyeksikannya ke penyintesis ucapan bahasa target. Pembicara terdengar seperti mereka sedang berbicara bahasa asing.
-2. **Kecepatan Ekspansi:** Bahasa yang berbeda membutuhkan waktu yang berbeda untuk mengungkapkan ide yang sama. Misalnya, menerjemahkan frasa *"Otomatiskan penagihan Anda"* ke dalam bahasa Spanyol akan menghasilkan *"Automatice su facturación."* Frasa bahasa Spanyol memiliki lebih banyak suku kata dan membutuhkan waktu lebih lama untuk diucapkan. Untuk mencegah tumpang tindih, mesin terjemahan harus memampatkan sedikit kecepatan ucapan (misalnya sebesar 1,1x) agar sesuai dengan slot waktu aslinya.
-3. **Penyelarasan Garis Waktu:** Anda mengikuti [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md) untuk mengaudit batasan kode waktu, memastikan efek suara dan visual selaras sempurna dengan audio yang diterjemahkan.
+1. **Preservasi Vokal:** Model dubbing akan mengestraksi resonansi vokal (timbre) dan kurva nada penutur asli, lalu memproyeksikannya ke dalam synthesizer tuturan bahasa target. Penutur akan terdengar persis seperti diri mereka sendiri saat bertutur dalam bahasa asing.
+2. **Penyesuaian Tempo Narasi:** Bahasa yang berbeda membutuhkan durasi yang bervariasi untuk menyampaikan gagasan yang sama. Sebagai contoh, menerjemahkan frasa *"Automate your billing"* ke dalam bahasa Spanyol menghasilkan *"Automatice su facturación."* Frasa dalam bahasa Spanyol memiliki suku kata yang lebih banyak dan membutuhkan durasi penuturan yang lebih panjang. Guna mengeliminasi tumpang-tindih, engine penerjemah harus memampatkan kecepatan tuturan secara halus (misalnya sebesar 1.1x) agar muat dalam alokasi waktu asli.
+3. **Penyelarasan Alur Waktu:** Anda mengacu pada panduan kerja [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md) untuk mengaudit batasan timecode, memastikan efek suara dan elemen visual selaras secara presisi dengan audio terjemahan.
 
 ---
 
 ## Lakukan itu
 
 ### Langkah 1: Siapkan Dialog Sumber Anda
-Buka [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md). Ekspor transkrip teks video sumber Anda. Hapus semua kata pengisi. Ekstrak log kode waktu (misalnya *Baris 1: 0:00.00 hingga 0:04.50*).
 
-### Langkah 2: Konfigurasikan Mesin Terjemahan
-Buka ElevenLabs dan navigasikan ke tab **Dubbing** (atau hubungi rute API `/dubbing`). Siapkan proyek:
-* **Bahasa Sumber:** Bahasa Inggris (atau terdeteksi secara otomatis).
-* **Bahasa Target:** Spanyol (atau Jerman, Prancis, Hindi, dll.).
-* **Setelan Resolusi:** Pilih "Resolusi Tertinggi" untuk mempertahankan isolasi musik latar belakang.
+Buka panduan kerja [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md). Ekspor transkrip teks dari video sumber Anda. Eliminasi setiap kata jeda. Ekstraksi log timecode (misalnya *Baris 1: 0:00.00 hingga 0:04.50*).
+
+### Langkah 2: Konfigurasikan Engine Penerjemah
+
+Buka ElevenLabs lalu akses tab **Dubbing** (atau panggil rute API `/dubbing`). Konfigurasikan proyek:
+
+* **Source Language:** English (atau deteksi secara otomatis).
+* **Target Language:** Spanish (atau Jerman, Prancis, Hindi, dll.).
+* **Resolution Settings:** Pilih "Highest Resolution" untuk mempertahankan isolasi musik latar.
 
 ### Langkah 3: Jalankan Sintesis Dubbing
-Kirim file videonya. Mesin AI akan:
-* Pisahkan track dialog dari track musik latar menggunakan pemisahan batang.
-* Terjemahkan teks bahasa Inggris.
-* Sintesis ulang dialog dalam bahasa target menggunakan suara kloning dari pembicara asli.
-* Gabungkan kembali dialog baru dengan trek musik latar asli.
 
-### Langkah 4: Audit Kecepatan Kecepatan dan Suku Kata
-Dengarkan sulih suara asing yang dihasilkan. Perbesar garis waktu di editor Anda:
-* Periksa masalah kecepatan "chipmunk" ketika terjemahan dikompresi terlalu banyak agar sesuai dengan durasi yang singkat.
-* Jika baris terjemahan terpotong di bagian akhir, sesuaikan garis waktu editor visual dengan memisahkan klip latar belakang dan menambahkan bingkai beku 0,5 detik, sehingga trek suara selesai secara alami.
+Kirimkan berkas video. Engine AI akan:
+
+* Memisahkan trek dialog dari trek musik latar mengandalkan teknik stem splitting.
+* Menerjemahkan teks bahasa Inggris.
+* Menyintesis ulang dialog ke dalam bahasa target mengandalkan vokal kloning dari penutur asli.
+* Menggabungkan kembali dialog baru dengan trek musik latar asli.
+
+### Langkah 4: Audit Tempo dan Kecepatan Suku Kata
+
+Cermati luaran dubbing bahasa asing yang dihasilkan. Lakukan pembesaran pada alur waktu di aplikasi penyunting Anda:
+
+* Evaluasi potensi efek suara "chipmunk" di mana penerjemahan dipampatkan secara berlebihan agar muat dalam durasi yang singkat.
+* Jika kalimat terjemahan terpotong di bagian akhir, sesuaikan alur waktu pada editor visual dengan membelah cuplikan latar belakang dan menambahkan freeze frame berdurasi 0,5 detik, yang memberi ruang bagi trek vokal untuk selesai secara natural.
 
 ---
 
 ## Contoh yang berhasil
 
-<p align="center">
-<img src="templates/examples/dubbing-studio.jpg" alt="Dubbing Studio" width="280">
-<img src="templates/examples/dubbing-studio-clip.gif" alt="Gerakan Dubbing Global (I2V)" width="280">
-</p>
-<p align="center"><sub>Dubbing Studio Image (Left) ──► Image-to-Video Dubbing Motion (Right) · Audio File: <a href="templates/examples/rachel-vocal-dubbed.mp3">templates/examples/rachel-vocal-dubbed.mp3</a> · Video File: <a href="templates/examples/dubbing-studio-clip.mp4">templates/examples/dubbing-studio-clip.mp4</a></sub></p>
+**Menerjemahkan Video Panduan SaaS (Bahasa Inggris ke Bahasa Spanyol)**
 
-**Menerjemahkan Video Tutorial SaaS (Bahasa Inggris ke Bahasa Spanyol)**
-
-
-
-* **Klip Asli:** Durasi: 4,5 detik. Dialog: *"Berikut adalah cara mengurai file faktur Anda secara instan."*
-* **Hasil Sulih Suara:** Terjemahan bahasa Spanyol: *"Aquí le mustramos cómo analizar sus archivos de facturas al instante."*
+* **Cuplikan Asli:** Durasi: 4,5 detik. Dialog: *"Here is how to parse your invoice files instantly."*
+* **Luaran Dubbing:** Terjemahan bahasa Spanyol: *"Aquí le mostramos cómo analizar sus archivos de facturas al instante."*
 * **Audit Sintesis:**
-* Suara bahasa Spanyol terdengar persis seperti timbre vokal penutur bahasa Inggris.
-* Karena teks bahasa Spanyol berisi lebih banyak suku kata, mesin secara otomatis mengompres kecepatan ucapan sebesar **1,12x**.
-* Trek audio diselaraskan untuk dimulai tepat pada 0:00.00 dan berakhir pada 0:04.45.
-* **Hasilnya:** Sulih suara bahasa Spanyol sangat cocok dengan timeline video aslinya. Pengguna dapat mengekspor dan mempublikasikan video secara langsung.
+* Karakter vokal bahasa Spanyol terdengar sangat identik dengan timbre vokal penutur bahasa Inggris.
+* Dikarenakan teks bahasa Spanyol memuat suku kata yang lebih banyak, engine memampatkan kecepatan tuturan secara otomatis sebesar **1.12x**.
+* Trek audio diselaraskan untuk dimulai secara presisi pada 0:00.00 dan berakhir pada 0:04.45.
 
-> [!CATATAN]
-> Anda dapat mendengarkan demo sulih suara bahasa Spanyol dengan nada yang dipertahankan yang dihasilkan dengan alur kerja ini di sini: [rachel-vocal-dubbed.mp3](templates/examples/rachel-vocal-dubbed.mp3).
+
+* **Hasilnya:** Hasil dubbing bahasa Spanyol menyatu secara presisi pada alur waktu video asli. Pengguna dapat mengespor dan mempublikasikan video secara langsung.
 
 ---
 
 ## Bandingkan Alat
 
-| Platform / Alat | Kualitas Pelestarian Suara | Kecepatan & Penyelarasan | Terbaik untuk |
-|---|---|---|---|
-| **API Sulih Suara ElevenLabs** | Ultra-Tinggi (Mempertahankan timbre vokal dan pemisahan trek musik latar) | Bagus (Kompres otomatis kecepatan bicara agar sesuai dengan batas waktu) | Dubbing video dan iklan YouTube yang cepat dan otomatis. |
-| **Terjemahan Video HeyGen** | Tinggi (Termasuk terjemahan sinkronisasi bibir otomatis untuk mencocokkan bentuk mulut asing) | Adil | Video tatap muka dengan gerakan bibir yang sesuai dengan audio target. |
-| **Saluran Pipa Lokal (Bisikan + XTTS)** | Sedang | Manual (Membutuhkan penyelarasan garis waktu klip audio secara manual) | Pengembangan khusus tanpa biaya API. |
+| Platform / Tool | Kualitas Preservasi Vokal | Tempo & Penyelarasan | Sangat Cocok Untuk |
+| --- | --- | --- | --- |
+| **ElevenLabs Dubbing API** | Presisi Tinggi (Mempertahankan timbre vokal dan pemisahan trek musik latar) | Baik (Memampatkan kecepatan tuturan secara otomatis agar sesuai dengan batasan waktu) | Dubbing otomatis untuk video YouTube dan iklan secara cepat. |
+| **HeyGen Video Translate** | Tinggi (Menyertakan penerjemahan lip-sync otomatis agar sesuai dengan artikulasi bibir asing) | Moderat | Video face-to-camera di mana gerakan bibir selaras dengan audio target. |
+| **Local Pipeline (Whisper + XTTS)** | Moderat | Manual (Membutuhkan penyesuaian alur waktu trek audio secara manual) | Pengembangan kustom tanpa beban biaya API. |
 
-Untuk saluran B2B tanpa wajah, penggunaan API Dubbing ElevenLabs adalah pilihan paling efisien karena memproses terjemahan dan rekonstruksi audio latar belakang dalam satu saluran. Untuk video juru bicara tatap muka, HeyGen Video Translate sangat ideal karena menyesuaikan bentuk mulut dengan bahasa baru.
+Untuk saluran B2B faceless, memanfaatkan ElevenLabs Dubbing API merupakan pilihan yang paling efisien karena memproses penerjemahan dan rekonstruksi audio latar belakang dalam satu alur kerja tunggal. Untuk video juru bicara face-to-camera, HeyGen Video Translate merupakan opsi ideal karena menyelaraskan bentuk bibir dengan bahasa baru.
 
 ---
 
 ## Luncurkan
 
-**Cara mengelola saluran yang dilokalkan:**
-* **Gunakan Audio Multi-Bahasa YouTube:** YouTube memungkinkan Anda mengunggah beberapa trek audio (Inggris, Spanyol, Portugis) ke satu file video. Ini menggabungkan semua penayangan pada satu URL, sehingga meningkatkan peringkat Anda dalam algoritme.
-* **Terjemahkan metadata:** Jangan unggah trek audio berbahasa Spanyol dengan judul dan deskripsi bahasa Inggris. Terjemahkan judul, deskripsi, dan file tag menggunakan templat daftar periksa media Anda.
+**Cara mengelola saluran terlokalisasi:**
+
+* **Manfaatkan Fitur YouTube Multi-Language Audio:** YouTube memungkinkan Anda mengunggah berbagai trek audio (Inggris, Spanyol, Portugis) ke dalam satu berkas video tunggal. Hal ini mengkonsolidasikan seluruh jumlah tayangan pada satu URL tunggal, yang mendongkrak peringkat Anda pada algoritma.
+* **Terjemahkan metadata:** Hindari mengunggah trek audio bahasa Spanyol yang disertai judul dan deskripsi bahasa Inggris. Terjemahkan judul, deskripsi, dan berkas tag Anda mengandalkan templat daftar periksa media Anda.
 
 ---
 
 ## Latihan
 
-1. **Mudah:** Terjemahkan skrip 3 kalimat ke dalam bahasa Spanyol. Baca kedua versi dengan lantang dan ukur perbedaan waktu dalam durasi lisan.
-2. **Medium:** Kirimkan video berdurasi 10 detik ke mesin sulih suara otomatis. Unduh hasilnya dan audit kemiripan suaranya.
-3. **Sulit:** Menghasilkan video terjemahan dengan efek suara latar belakang. Pastikan efek suara muncul pada batas bingkai visual yang sama persis dengan aslinya, sementara audio yang diterjemahkan tetap jelas dan tersinkronisasi.
+1. **Mudah:** Terjemahkan skrip 3 kalimat ke dalam bahasa Spanyol. Lafalkan kedua versi tersebut lalu ukur perbandingan durasi tuturannya.
+2. **Sedang:** Kirimkan video berdurasi 10 detik ke engine dubbing otomatis. Unduh luaran lalu evaluasi kemiripan vokalnya.
+3. **Sulit:** Hasilkan video terjemahan yang dilengkapi efek suara latar belakang. Verifikasi bahwa efek suara muncul secara presisi pada bingkai visual yang sama dengan versi asli, sementara audio terjemahan tetap jernih dan ter-sync.
 
 ---
 
 ## Templat
 
-* [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md) — panduan terjemahan skrip, alokasi stempel waktu, dan pemeriksaan kecepatan.
+* [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md) — panduan penerjemahan skrip, alokasi timestamp, dan penyesuaian tempo kecepatan.
 
 ---
 
-[← Voice Cloning & TTS Basics](01-voice-cloning-tts.md) · Berikutnya: [Podcast Production & Audio Cleaning →](03-podcast-production.md)
+[← Sebelumnya: Voice Cloning & TTS Basics](01-voice-cloning-tts.md) · [Track overview](README.md) · Berikutnya: [Produksi Podcast & Pembersihan Audio →](03-podcast-production.md)

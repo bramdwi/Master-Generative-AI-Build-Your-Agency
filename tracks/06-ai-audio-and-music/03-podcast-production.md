@@ -2,7 +2,7 @@
 
 > Audio buruk dimatikan; audio yang bagus didengarkan berjam-jam.
 
-**Lagu:** AI Audio & Musik
+**Track:** AI Audio & Music
 **Waktu:** ~35 menit
 **Prasyarat:** Tidak ada
 
@@ -127,4 +127,4 @@ Untuk pembuat konten pemula, menggunakan Audacity atau Adobe Audition memberi An
 
 ---
 
-[← AI Dubbing & Translation](02-dubbing-translation.md) · Berikutnya: [AI Music & Sound Effects →](04-music-sfx-generation.md)
+[← Sebelumnya: AI Dubbing & Translation](02-dubbing-translation.md) · [Track overview](README.md) · Berikutnya: [AI Music & Sound Effects →](04-music-sfx-generation.md)

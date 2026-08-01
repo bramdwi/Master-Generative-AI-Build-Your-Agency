@@ -1,122 +1,131 @@
-# Musik AI & Efek Suara
+# AI Music & Sound Effects
 
-> Suara yang tepat mengubah b-roll menjadi film.
+> Kehadiran tata suara yang presisi mengubah cuplikan b-roll menjadi mahakarya sinematik.
 
-**Lagu:** AI Audio & Musik
+**Track:** AI Audio & Music
+
 **Waktu:** ~35 menit
+
 **Prasyarat:** Tidak ada
 
 ## Masalahnya
 
-Menemukan musik latar dan efek suara (SFX) berkualitas tinggi adalah hambatan besar. Situs musik stok membebankan biaya berlangganan bulanan yang mahal. Jika Anda mencoba menggunakan musik populer gratis dari internet, platform media sosial akan mendenetisasi saluran Anda, membisukan audio video, atau mengeluarkan teguran hak cipta.
+Pencarian musik latar dan efek suara (SFX) berkualitas tinggi kerap kali menjadi kendala utama. Situs musik berbayar mematok biaya langganan bulanan yang relatif tinggi. Apabila Anda memaksakan untuk memanfaatkan musik populer bebas biaya dari internet, platform media sosial akan menghentikan monetisasi saluran Anda, membisukan audio video, atau melayangkan teguran hak cipta.
 
-Meskipun Anda menemukan musik bebas hak cipta, mencocokkan tempo, suasana hati, dan lirik lagu dengan skrip video Anda adalah hal yang membuat frustrasi. Anda akhirnya menghabiskan waktu berjam-jam untuk memotong dan memudarkan trek agar sesuai.
+Sekalipun Anda berhasil menemukan musik bebas hak cipta, menyeimbangkan tempo, nuansa emosional, serta klimaks lagu agar selaras dengan skrip video merupakan proses yang menyita waktu. Anda dapat menghabiskan waktu berjam-jam sekadar memotong dan menyelaraskan trek.
 
-Untuk menjalankan pabrik konten yang cepat, Anda perlu membuat loop latar belakang khusus yang bebas hak cipta dan efek suara spesifik sesuai permintaan, dan mengotomatiskan penempatannya dalam campuran video Anda.
+Guna mengelola content factory yang terakselerasi, Anda wajib mampu menghasilkan musik latar bebas hak cipta yang kustom serta efek suara spesifik sesuai kebutuhan, sekaligus mengotomatisasi penataannya di dalam racikan video Anda.
 
 ## Konsep
 
-Pipeline untuk perakitan audio video menggunakan **Generative Audio Prompts** dan **Auto-Ducking**:
+Alur penyusunan audio video bertumpu pada **Generative Audio Prompts** serta **Auto-Ducking**:
 
-### 1. Matriks Perintah BGM:
-Daripada meminta mesin musik AI dengan suasana abstrak (misalnya *"musik coding keren"*), tulis perintah musik terstruktur yang menentukan **Tempo (BPM)**, **Genre**, **Instrumen Utama**, dan **Pengecualian Vokal** (selalu tentukan *"tanpa vokal"* atau *"hanya instrumental"* untuk mencegah suara AI bersaing dengan narator Anda).
+### 1. The BGM Prompt Matrix:
 
-### 2. Sumber SFX Terisolasi:
-Efek suara (suara mendesing, klik UI, slide kertas) harus dihasilkan secara terpisah. Gunakan rumus di [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) untuk menghasilkan trek bersih tanpa gema atau gema latar belakang sehingga menyatu secara alami dengan adegan video apa pun.
+Daripada memberikan instruksi abstrak ke engine musik AI (misalnya *"cool coding music"*), susunlah prompt musik yang terstruktur dengan merincikan **Tempo (BPM)**, **Genre**, **Lead Instruments**, serta **Vocal Exclusions** (senantiasa tegaskan *"no vocals"* atau *"instrumental only"* agar vokal buatan AI tidak bertabrakan dengan narator).
 
-### 3. Merunduk Otomatis:
-Trek musik latar belakang harus secara otomatis diperkecil volumenya setiap kali narator berbicara:
+### 2. Penataan SFX Terisolasi:
+
+Efek suara (swus, klik antarmuka, gesekan kertas) wajib dihasilkan secara terisolasi. Manfaatkan formulasi dalam [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) untuk menghasilkan trek jernih tanpa gema atau pemantulan suara latar belakang, sehingga mampu menyatu secara natural ke dalam adegan video mana pun.
+
+### 3. Auto-Ducking:
+
+Intensitas volume trek musik latar wajib menurun secara otomatis setiap kali narator bertutur:
 
 ```
 [Voice Track A1 (Speaking)] ──► Auto-Ducks ──► [Music Track A2 (-18dB)]
 [Voice Track A1 (Silence)]  ──► Auto-Boosts ──► [Music Track A2 (-12dB)]
+
 ```
 
 ---
 
 ## Lakukan itu
 
-### Langkah 1: Hasilkan Trek Latar Belakang
-Pilih rumus dari [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md). Buka mesin musik AI (mis., Suno atau Udio).
-* *Contoh perintah:* `"120 BPM, clean corporate tech house loop. Minimalist synthesizer, warm deep bass, soft digital percussion, optimistic mood. Instrumental only, seamless audio loop, high fidelity."`
-Buat dan unduh loop instrumental `.mp3`.
+### Langkah 1: Hasilkan Trek Musik Latar
 
-### Langkah 2: Hasilkan SFX Transisi Tertentu
-Buka ElevenLabs dan pilih alat **Efek Suara** (atau hubungi `/sound-effects` API). Hasilkan suara transisi:
-* *Permintaan:* `"Cinematic sub-bass whoosh transition sound effect, deep low rumble, clean isolated track."`
-Unduh file keluaran.
+Pilih formulasi dari [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md). Buka engine musik AI (misalnya Suno atau Udio).
 
-### Langkah 3: Siapkan Saluran Timeline
-Buka editor video Anda. Siapkan tata letak trek standar:
-* **Trek A1:** Narasi sulih suara (volume: 0dB).
-* **Trek A2:** Efek Suara (SFX) (volume: -6dB).
-* **Trek A3:** Musik Latar Belakang (BGM) (volume: -18dB).
+* *Contoh prompt:* `"120 BPM, clean corporate tech house loop. Minimalist synthesizer, warm deep bass, soft digital percussion, optimistic mood. Instrumental only, seamless audio loop, high fidelity."`
+Hasilkan dan unduh berkas instrumen `.mp3`.
 
-### Langkah 4: Konfigurasikan Pengecilan Otomatis
-Jika editor Anda mendukung pengelak otomatis (misalnya Premiere Pro atau CapCut):
-* Pilih trek musik (A3) dan aktifkan tombol "Merunduk".
-* Tautkan ke trek sulih suara (A1).
-* Atur jumlah pengecilan ke **-18dB** saat suara terdeteksi, dan konfigurasikan kecepatan fade-in/fade-out ke **0,3 detik**.
-* Jika mengedit secara manual, letakkan bingkai utama pada garis volume A3, turunkan volume ke -18dB selama bagian berbicara dan naikkan ke -12dB selama pemisahan visual.
+### Langkah 2: Hasilkan Efek Suara Transisi Spesifik
+
+Buka ElevenLabs lalu pilih instrumen **Sound Effects** (atau panggil API `/sound-effects`). Hasilkan tata suara transisi:
+
+* *Prompt:* `"Cinematic sub-bass whoosh transition sound effect, deep low rumble, clean isolated track."`
+Unduh berkas luaran.
+
+### Langkah 3: Konfigurasikan Saluran Alur Waktu
+
+Buka aplikasi penyunting video Anda. Konfigurasikan tata letak trek standar:
+
+* **Track A1:** Narasi pengisi suara (volume: 0dB).
+* **Track A2:** Efek Suara (SFX) (volume: -6dB).
+* **Track A3:** Musik Latar (BGM) (volume: -18dB).
+
+### Langkah 4: Konfigurasikan Auto-Ducking
+
+Jika aplikasi penyunting Anda mendukung fitur auto-ducking (seperti Premiere Pro atau CapCut):
+
+* Pilih trek musik (A3) lalu aktifkan tuas "Ducking".
+* Tautkan ke trek pengisi suara (A1).
+* Atur besaran penurunan volume pada **-18dB** saat tuturan terdeteksi, serta atur kecepatan transisi fade-in/fade-out pada **0,3 detik**.
+* Jika menyunting secara manual, tempatkan keyframes pada garis volume A3, turunkan volume ke -18dB selama sesi tuturan dan naikkan ke -12dB saat jeda visual berlangsung.
 
 ---
 
 ## Contoh yang berhasil
 
-<p align="center">
-<img src="templates/examples/ai-music-workstation.jpg" alt="Stasiun Kerja Musik" width="280">
-<img src="templates/examples/ai-music-workstation-clip.gif" alt="Synthesizer Visualizer Motion (I2V)" width="280">
-</p>
-<p align="center"><sub>Synthesizer Workstation Image (Left) ──► Image-to-Video Visualizer Motion (Right) · Video File: <a href="templates/examples/ai-music-workstation-clip.mp4">templates/examples/ai-music-workstation-clip.mp4</a></sub></p>
+**Perancangan Tata Suara untuk Iklan SaaS Vertikal Berdurasi 15 Detik**
 
-**Desain Suara untuk Iklan SaaS Vertikal 15 Detik**
+* **Trek Pengisi Suara:** Narator bertutur dari rentang 0:00 hingga 0:03, jeda hening dari 0:03 hingga 0:06 (peragaan visual), lalu bertutur kembali dari 0:06 hingga 0:15.
+* **Trek Musik:** Menghasilkan irama tech house 120 BPM.
+* **Keyframes Ducking:**
+* **0:00 - 0:03:** Volume musik diatur pada **-18dB** (vokal sedang bertutur).
+* **0:03 - 0:06:** Volume musik naik ke **-12dB** (khusus peragaan visual).
+* **0:06 - 0:15:** Volume musik turun kembali ke **-18dB** (vokal menyuarakan CTA).
 
 
+* **Penataan SFX:** Menambahkan efek suara klik digital pada rentang 0:03.50 saat kursor layar menekan tombol pada antarmuka.
 
-* **Voice Track:** Narator berbicara dari 0:00 hingga 0:03, mengheningkan cipta dari 0:03 hingga 0:06 (demo visual), berbicara dari 0:06 hingga 0:15.
-* **Trek Musik:** menghasilkan loop rumah teknologi 120 BPM.
-* **Frame utama merunduk:**
-* **0:00 - 0:03:** Volume musik disetel ke **-18dB** (vokal berbicara).
-* **0:03 - 0:06:** Volume musik meningkat menjadi **-12dB** (hanya demo visual).
-* **0:06 - 0:15:** Volume musik turun kembali ke **-18dB** (vokal berbicara CTA).
-* **Penempatan SFX:** Menambahkan efek suara klik UI digital pada 0:03.50 saat kursor layar mengklik tombol di layar.
-
-**Hasilnya:** Suara jernih dan mudah dimengerti. Selama pemisahan visual, volume musik ditingkatkan secara alami untuk mengisi kekosongan. Klik transisi membuat demo antarmuka terasa responsif.
+**Hasilnya:** Vokal narasi terdengar jernih dan mudah dipahami. Saat jeda visual berlangsung, volume musik terakselerasi secara alami untuk mengisi ruang hening. Efek suara klik transisi membuat demonstrasi antarmuka terasa sangat responsif.
 
 ---
 
 ## Bandingkan Alat
 
-| Platform / Alat | Tujuan Generasi | Kontrol Keluaran Audio | Terbaik untuk |
-|---|---|---|---|
-| **Suno / Udio** | Lagu kreatif berdurasi penuh dan loop musik latar | Bagus (Mendukung loop ekstensi) | Membuat trek latar belakang yang unik dan spesifik genre. |
-| **Mubert / Soundraw** | Audio latar belakang yang berpusat pada loop | Tinggi (Memungkinkan mematikan batang tertentu seperti drum atau synth) | Trek latar belakang yang cepat dan modular untuk saluran B2B. |
-| **SebelasLabs SFX** | Efek suara yang spesifik dan terisolasi | Instan (Menghasilkan klip suara terisolasi 2-4 detik) | Sumber suara transisi khusus dan ketukan tombol. |
+| Platform / Tool | Tujuan Generasi | Kendali Luaran Audio | Sangat Cocok Untuk |
+| --- | --- | --- | --- |
+| **Suno / Udio** | Lagu utuh dan trek musik latar berulang yang kreatif | Baik (Mendukung ekstensi pengulangan) | Merancang trek latar belakang yang unik dan spesifik sesuai genre. |
+| **Mubert / Soundraw** | Audio latar belakang berfokus pada perulangan ritme | Tinggi (Memungkinkan penyenyapan instrumen spesifik seperti drum atau synth) | Trek latar modul terakselerasi untuk saluran B2B. |
+| **ElevenLabs SFX** | Efek suara spesifik yang terisolasi | Instan (Menghasilkan cuplikan suara terisolasi berdurasi 2-4 detik) | Pengadaan efek suara transisi dan sentuhan tombol kustom. |
 
-Untuk saluran pemasaran B2B, Soundraw sangat efektif karena Anda dapat membisukan trek melodi secara manual, hanya menyimpan trek drum dan bass sehingga tidak mengganggu sulih suara. Untuk detail desain suara (suara mendesing, klik UI), ElevenLabs SFX menyediakan suara yang bersih dan terisolasi.
+Untuk saluran pemasaran B2B, Soundraw sangat efektif karena Anda dapat menyenyapkan trek melodi secara manual, dengan hanya mempertahankan trek drum dan bass agar tidak mengganggu narasi pengisi suara. Untuk detail perancangan suara (swus, klik antarmuka), ElevenLabs SFX menyajikan trek suara yang jernih dan terisolasi.
 
 ---
 
 ## Luncurkan
 
-**Cara mengatur perpustakaan suara Anda:**
-* **Bangun brankas SFX:** Simpan perpustakaan lokal berisi efek suara yang paling sering Anda gunakan (misalnya `whoosh_fast.wav`, `click_modern.wav`). Daripada membuatnya untuk setiap video, imporlah dari brankas Anda untuk mempercepat pengeditan.
-* **Gunakan volume musik yang konstan:** Jangan biarkan volume musik Anda melebihi -10dB. Jika musik terlalu keras, speaker ponsel akan memampatkan seluruh track audio, sehingga suara sulih suara terdistorsi dan sulit didengar.
+**Cara mengorganisasi pustaka suara Anda:**
+
+* **Bangun brankas SFX:** Simpan pustaka lokal untuk efek suara yang paling sering digunakan (misalnya `whoosh_fast.wav`, `click_modern.wav`). Alih-alih menghasilkan ulang untuk setiap video, impor dari brankas Anda untuk mempercepat proses penyuntingan.
+* **Gunakan intensitas volume musik yang stabil:** Hindari menyetel volume musik melampaui batas -10dB. Jika musik terlalu nyaring, pengeras suara perangkat seluler akan memampatkan keseluruhan trek audio, yang membuat pengisi suara terdengar terdistorsi dan sulit ditangkap.
 
 ---
 
 ## Latihan
 
-1. **Mudah:** Buat loop latar belakang 1 menit menggunakan Mubert atau Suno. Pastikan prompt berisi "instrumental" dan "loop".
-2. **Medium:** Impor trek suara dan trek musik. Terapkan bingkai utama volume manual untuk menurunkan volume musik sebesar 6dB selama bagian berbicara.
-3. **Sulit:** Menghasilkan 3 efek suara transisi yang berbeda menggunakan mesin SFX. Impor ke editor Anda dan sejajarkan agar sesuai dengan bingkai visual yang tepat dari tampilan logo atau potongan video.
+1. **Mudah:** Hasilkan trek latar berulang berdurasi 1 menit mengandalkan Mubert atau Suno. Pastikan prompt memuat instruksi "instrumental" dan "loop".
+2. **Sedang:** Impor trek vokal dan trek musik. Terapkan keyframes volume manual untuk menurunkan volume musik sebesar 6dB selama sesi tuturan berlangsung.
+3. **Sulit:** Hasilkan 3 efek suara transisi yang berbeda mengandalkan engine SFX. Impor ke dalam editor Anda lalu selaraskan agar presisi dengan bingkai visual logo atau pemotongan video.
 
 ---
 
 ## Templat
 
-* [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) — loop musik, penanda suasana hati, dan tombol prompt efek suara transisi.
+* [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) — trek musik berulang, penanda nuansa emosional, dan kunci prompt efek suara transisi.
 
 ---
 
-[← Podcast Production & Audio Cleaning](03-podcast-production.md) · Berikutnya: [Singing Voice Conversion & Vocal Synthesis →](05-singing-vocal-synthesis.md)
+[← Sebelumnya: Produksi Podcast & Pembersihan Audio](03-podcast-production.md) · [Track overview](README.md) · Berikutnya: [Singing Voice Conversion & Vocal Synthesis →](05-singing-vocal-synthesis.md)
