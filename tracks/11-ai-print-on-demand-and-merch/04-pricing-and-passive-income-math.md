@@ -1,32 +1,31 @@
-# Penetapan Harga & Matematika Pendapatan Pasif untuk POD
+# Pricing & Passive-Income Math for POD
 
-> Ekonomi unit utama, biaya pencatatan pasar, dan perhitungan konversi untuk membuat katalog POD yang menguntungkan.
+> Kuasai unit economics, biaya listing marketplace, serta perhitungannya untuk membangun katalog POD yang menguntungkan.
 
-**Lacak:** AI Print-on-Demand & Desain Merchandise
+**Lagu:** AI Print-on-Demand & Desain Merchandise
 **Waktu:** ~35 menit
-**Prasyarat:** [01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md), [02: POD Platform Basics](02-print-on-demand-platform-basics.md), [03: Building a Catalog](03-building-a-catalog-without-repeating.md)
+**Prasyarat:** Merancang AI Art yang Menjual untuk Merch, Dasar-Dasar Platform Print-on-Demand, Building a Catalog Without Repeating Yourself
 
 ## Masalahnya
 
-Banyak penjual POD menghasilkan penjualan tetapi akhirnya **kehilangan uang** di akhir bulan. Mereka memberi harga kaos seharga $19,99 tanpa memperhitungkan biaya platform tersembunyi:
-* Biaya daftar Etsy ($0,20 per daftar).
-* Biaya pemrosesan pembayaran Etsy (biaya transaksi 6,5% + 3% + biaya pembayaran $0,25).
-* Biaya garmen dasar pemasok cetak ($9,50) + ongkos kirim ($4,75).
-* Pembelanjaan iklan atau biaya pemasaran ($2 - $5 per penjualan).
+Banyak seller POD yang berhasil menghasilkan transaksi penjualan, namun justru mengalami **kerugian** pada akhir bulan. Mereka menetapkan harga t-shirt sebesar $19.99 tanpa memperhitungkan biaya tersembunyi dari platform:
 
-Setelah dikurangi semua biaya, kemeja seharga $19,99 menghasilkan margin keuntungan negatif. Anda memerlukan model penetapan harga matematis yang tepat untuk memastikan setiap penjualan menghasilkan **laba bersih $7 hingga $12** yang sehat.
+- Biaya listing Etsy ($0.20 per listing).
+- Biaya pemrosesan pembayaran Etsy (6.5% biaya transaksi + 3% + $0.25 biaya pembayaran).
+- Biaya dasar pakaian dari print supplier ($9.50) + pengiriman ($4.75).
+- Biaya iklan atau ad spend ($2 - $5 per transaksi).
 
-> **Catatan tentang biaya Etsy:** Etsy membebankan biaya pendaftaran $0,20, biaya transaksi 6,5% dari harga jual, dan biaya pemrosesan pembayaran ~3% + $0,25. Jika digabungkan, totalnya kira-kira **9,5–10% dari harga eceran Anda** — yang merupakan model yang digunakan di bawah ini.
+Setelah memotong seluruh biaya tersebut, penjualan t-shirt seharga $19.99 justru menghasilkan net profit margin yang negatif. Anda memerlukan model kalkulasi harga yang presisi guna memastikan setiap transaksi mampu memberikan **net profit bersih sebesar $7 hingga $12**.
 
----
+> **Catatan mengenai biaya Etsy:** Etsy mengenakan biaya listing sebesar $0.20, biaya transaksi sebesar 6.5% dari harga jual, serta biaya pemrosesan pembayaran sekitar 3% + $0.25. Secara akumulatif, total biaya tersebut mencapai kisaran **9.5–10% dari harga retail Anda** — yang menjadi acuan pada model kalkulasi di bawah ini.
 
 ## Konsep
 
-Rumus Laba POD menentukan laba bersih per unit yang terjual:
+Rumus POD Profit menentukan net profit bersih dari setiap unit yang terjual:
 
-$$\text{Laba Bersih} = \text{Harga Eceran} - (\text{Biaya Pemasok Cetak} + \text{Pengiriman}) - \text{Biaya Pasar} - \text{Pembelanjaan Iklan}$$
+$$\text{Net Profit} = \text{Retail Price} - (\text{Print Supplier Cost} + \text{Shipping}) - \text{Marketplace Fees} - \text{Ad Spend}$$
 
-### Rincian Unit Ekonomi (Contoh T-Shirt):
+### Rincian Unit Economics (Contoh T-Shirt):
 
 ```
 Retail Sale Price:           $24.99
@@ -38,72 +37,65 @@ Etsy Fees (~10% total):      -$2.50
 NET PROFIT PER SALE:          $8.49 (34% Net Margin)
 ```
 
----
-
 ## Lakukan itu
 
-### Langkah 1: Biaya Pemasok Dasar Tolok Ukur
-Buka [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md). Masukkan biaya produksi dan pengiriman dasar untuk produk inti Anda:
-* **T-Shirt (Bella+Canvas 3001):** Cetakan $9,25 + ongkos kirim $4,75 = **Dasar $14,00**.
-* **Mug Keramik (11oz Putih):** $4,50 cetakan + $5,00 ongkos kirim = **$9,50 Dasar**.
-* **Hoodie Kelas Berat (Gildan 18000):** Cetakan $18,50 + ongkos kirim $7,50 = **Dasar $26,00**.
+### Langkah 1: Tetapkan Tolak Ukur Base Supplier Costs
 
-### Langkah 2: Tetapkan Target Harga Eceran untuk 35%+ Margin Bersih
-* Tetapkan Harga Eceran T-Shirt menjadi **$24,99** (Laba Bersih: **$8,49**).
-* Tetapkan Harga Eceran Mug Keramik menjadi **$17,99** (Laba Bersih: **$6,69**).
-* Tetapkan Harga Eceran Hoodie Kelas Berat menjadi **$44,99** (Laba Bersih: **$14,49**).
+Buka panduan kerja [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md). Masukkan biaya produksi dasar serta biaya pengiriman untuk produk utama Anda:
 
-### Langkah 3: Jalankan Proyeksi Pendapatan Katalog
-Hitung pendapatan bulanan pasif berdasarkan ukuran katalog dan rata-rata tingkat konversi toko (1,5% - 2,5%):
-* **Ukuran Katalog:** 100 Daftar Aktif.
-* **Tampilan Toko Bulanan:** 10.000 pengunjung.
-* **Pesanan (Tingkat Konversi 2,0%):** 200 penjualan/bulan.
-* **Laba Bersih Bulanan (200 penjualan × laba rata-rata $8,50):** **Pendapatan pasif $1.700 / bulan**.
+- **T-Shirt (Bella+Canvas 3001):** $9.25 cetak + $4.75 pengiriman = **$14.00 Base**.
+- **Ceramic Mug (11oz White):** $4.50 cetak + $5.00 pengiriman = **$9.50 Base**.
+- **Heavyweight Hoodie (Gildan 18000):** $18.50 cetak + $7.50 pengiriman = **$26.00 Base**.
 
----
+### Langkah 2: Tetapkan Target Retail Prices untuk Target Net Margins 35%+
+
+- Tetapkan Retail Price T-Shirt pada angka **$24.99** (Net Profit: **$8.49**).
+- Tetapkan Retail Price Ceramic Mug pada angka **$17.99** (Net Profit: **$6.69**).
+- Tetapkan Retail Price Heavyweight Hoodie pada angka **$44.99** (Net Profit: **$14.49**).
+
+### Langkah 3: Jalankan Proyeksi Revenue Katalog
+
+Kalkulasikan potensi passive monthly income berdasarkan skala katalog serta rata-rata conversion rate toko (1.5% - 2.5%):
+
+- **Skala Katalog:** 100 Active Listings.
+- **Monthly Store Views:** 10,000 pengunjung.
+- **Transaksi (2.0% Conversion Rate):** 200 penjualan/bulan.
+- **Monthly Net Profit (200 penjualan × rata-rata profit $8.50):** **$1,700 / bulan passive income**.
 
 ## Contoh yang berhasil
 
-**Kinerja Finansial 30 Hari "Urban Vector Merch Studio"**
+**Performa Keuangan 30 Hari dari "Urban Vector Merch Studio"**
 
-* **Katalog Aktif:** 120 listingan POD di Etsy & Shopify.
-* **Total Unit Terjual:** 340 kaos, mug, dan hoodies.
-* **Pendapatan Kotor:** **$8.650,00**.
-* **Produksi & Pengiriman Pemasok (Printify):** -$4,620.00.
-* **Biaya Pasar & Pembayaran:** -$865,00.
-* **Pembelanjaan Iklan Etsy:** -$650,00.
-* **Laba Bersih Bulanan:** **$2.515,00** (Margin Laba Bersih 29,1%).
-
----
+- **Katalog Aktif:** 120 POD listings di seluruh platform Etsy & Shopify.
+- **Total Unit Terjual:** 340 t-shirts, mugs, dan hoodies.
+- **Gross Revenue:** **$8,650.00**.
+- **Biaya Produksi & Pengiriman Supplier (Printify):** -$4,620.00.
+- **Biaya Marketplace & Pemrosesan Pembayaran:** -$865.00.
+- **Etsy Ads Spend:** -$650.00.
+- **Net Monthly Profit:** **$2,515.00** (29.1% Net Profit Margin).
 
 ## Bandingkan Alat
 
-| Alat Keuangan | Tujuan | Metrik Kunci Dilacak |
-|---|---|---|
-| **Analisis Etsy / Shopify** | Pelacakan konversi & sumber lalu lintas | Tingkat Konversi & AOV |
-| **Cetak Kalkulator Keuntungan** | COGS instan dan estimasi pengiriman | Margin Kotor% |
-| **Google Spreadsheet/Matriks Excel** | Pemodelan laba bersih setelah biaya & iklan | Pendapatan Bersih Bulanan |
-
----
+| Alat Keuangan | Peruntukan | Metrik Utama yang Dipantau |
+| --- | --- | --- |
+| **Etsy / Shopify Analytics** | Pelacakan konversi & sumber trafik | Conversion Rate & AOV |
+| **Printify Profit Calculator** | Estimasi instan COGS dan pengiriman | Gross Margin % |
+| **Google Sheets / Excel Matrix** | Pemodelan net profit setelah potongan biaya & iklan | Monthly Net Income |
 
 ## Luncurkan
 
-* **Tawarkan Pengiriman Gratis dengan Bundling:** Sertakan pengiriman dalam harga eceran (misalnya, harga baju seharga $28,99 dengan "PENGIRIMAN GRATIS") untuk meningkatkan peringkat pencarian Etsy dan tingkat konversi pembeli.
-
----
+- **Sajikan Penawaran Free Shipping melalui Metode Bundling:** Integrasikan biaya pengiriman ke dalam harga retail (seumpama menetapkan harga t-shirt sebesar $28.99 disertai keterangan "FREE SHIPPING") guna meningkatkan visibilitas pada peringkat pencarian Etsy serta mengoptimalkan conversion rate pembeli.
 
 ## Latihan
 
-1. **Mudah:** Hitung laba bersih untuk mug keramik dengan harga $18,99 dengan biaya dasar $4,50 dan biaya pengiriman $5,00.
-2. **Sedang:** Gunakan lembar harga Anda untuk membuat model katalog 50 produk yang menghasilkan 50 penjualan per bulan.
-3. **Sulit:** Siapkan matriks harga dinamis yang memperhitungkan 10% pembelanjaan iklan Etsy sambil mempertahankan laba minimum $8,00 per penjualan.
-
----
+1. **Mudah:** Kalkulasikan net profit untuk sebuah ceramic mug yang dibanderol seharga $18.99 dengan biaya dasar $4.50 serta biaya pengiriman sebesar $5.00.
+2. **Sedang:** Manfaatkan lembar kalkulasi harga Anda untuk memodelkan katalog berisikan 50 produk yang menghasilkan 50 transaksi penjualan per bulan.
+3. **Hard:** Susun matriks harga dinamis yang mengalokasikan 10% Etsy ad spend dengan tetap mempertahankan batas minimal profit sebesar $8.00 per transaksi.
 
 ## Templat
 
-* [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — Spreadsheet laba dinamis, rumus biaya platform, dan tolok ukur COGS.
+- [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — Lembar kerja profit dinamis, formulasi biaya platform, serta tolak ukur COGS.
 
 ---
 
-[← Building a Catalog](03-building-a-catalog-without-repeating.md) · [Track Overview](README.md)
+[← Sebelum: Membangun Katalog Produk](03-building-a-catalog-without-repeating.md) · [Track overview](README.md)
