@@ -2,7 +2,7 @@
 
 > Mentransformasi hasil AI art generation menjadi grafis vektor beresolusi tinggi yang tajam dan siap untuk pencetakan Direct-to-Garment (DTG).
 
-**Lagu:** AI Print-on-Demand & Desain Merchandise
+**Track:** AI Print-on-Demand & Desain Merchandise
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 

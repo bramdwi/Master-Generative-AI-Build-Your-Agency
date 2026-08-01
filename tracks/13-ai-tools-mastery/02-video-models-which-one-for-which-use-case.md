@@ -2,7 +2,7 @@
 
 > Kuasai ekosistem pembuatan video AI: Runway Gen-3 Alpha, Kling 1.5, Luma Dream Machine, Sora, serta Seedance 2 I2V.
 
-**Lagu:** Penguasaan Alat AI
+**Track:** Penguasaan Alat AI
 **Waktu:** ~40 menit
 **Prasyarat:** Image Models — Which One for Which Use Case
 

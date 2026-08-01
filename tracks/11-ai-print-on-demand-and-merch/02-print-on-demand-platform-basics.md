@@ -2,7 +2,7 @@
 
 > Otomatiskan proses produksi, fulfillment, serta penyelarasan toko di seluruh platform Etsy, Shopify, dan pemasok POD.
 
-**Lagu:** AI Print-on-Demand & Desain Merchandise
+**Track:** AI Print-on-Demand & Desain Merchandise
 **Waktu:** ~35 menit
 **Prasyarat:** Merancang AI Art yang Menjual untuk Merch
 

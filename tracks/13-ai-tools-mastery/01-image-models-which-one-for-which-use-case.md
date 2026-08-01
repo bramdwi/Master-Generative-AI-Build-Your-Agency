@@ -2,7 +2,7 @@
 
 > Panduan komprehensif dan matriks keputusan teknis untuk memilih AI image generation model yang tepat bagi setiap hasil kreatif komersial.
 
-**Lagu:** Penguasaan Alat AI
+**Track:** Penguasaan Alat AI
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 

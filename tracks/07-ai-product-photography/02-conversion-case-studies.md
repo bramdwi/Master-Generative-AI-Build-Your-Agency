@@ -2,7 +2,7 @@
 
 > Gambar bersih mendapat klik; gambar kontekstual mendapatkan penjualan.
 
-**Lagu:** Fotografi Produk AI & E-commerce
+**Track:** Fotografi Produk AI & E-commerce
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 

@@ -2,7 +2,7 @@
 
 > Hindari persaingan konsumen senilai $5 dengan menjual paket tim B2B yang mahal ke perusahaan korporat.
 
-**Lagu:** Foto & Potret AI
+**Track:** Foto & Potret AI
 **Waktu:** ~45 menit
 **Prasyarat:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md)
 

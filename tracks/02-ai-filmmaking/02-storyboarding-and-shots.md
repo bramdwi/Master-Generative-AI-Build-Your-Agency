@@ -2,7 +2,7 @@
 
 > Storyboard merupakan cetak biru yang menghindarkan Anda dari pemborosan credit saat mengeksekusi pembuatan video secara acak.
 
-**Lagu:** Pembuatan Film AI
+**Track:** Pembuatan Film AI
 **Waktu:** ~40 menit
 **Prasyarat:** Skenario & Pembuatan Cerita
 

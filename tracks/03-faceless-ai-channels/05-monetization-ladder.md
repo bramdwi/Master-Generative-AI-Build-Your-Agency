@@ -2,7 +2,7 @@
 
 > Jangan menunggu sejuta penayangan; membangun tangga untuk dijual kepada seribu orang pertama.
 
-**Lagu:** Saluran AI Tanpa Wajah
+**Track:** Saluran AI Tanpa Wajah
 **Waktu:** ~30 menit
 **Prasyarat:** Pemilihan Niche & Pipeline Skrip, RPM Jujur & Matematika Penghasilan
 

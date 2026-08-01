@@ -2,7 +2,7 @@
 
 > Mentransformasi micro-tool sederhana menjadi pundi-pundi pendapatan pasif yang mengalir secara berkelanjutan melalui optimalisasi platform Gumroad, LemonSqueezy, serta strategi kemitraan affiliate network.
 
-**Lagu:** Agen AI & Vibe-Coding untuk Kreator
+**Track:** Agen AI & Vibe-Coding untuk Kreator
 **Waktu:** ~40 menit
 **Prasyarat:** Membangun Micro-Tool Pertama Anda yang Dapat Dijual, Alur Kerja Vibe-Coding
 

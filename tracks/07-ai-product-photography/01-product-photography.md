@@ -2,7 +2,7 @@
 
 > Latar belakang premium mengubah produk Anda dari murah menjadi premium.
 
-**Lagu:** Fotografi Produk AI & E-commerce
+**Track:** Fotografi Produk AI & E-commerce
 **Waktu:** ~45 menit
 **Prasyarat:** Tidak ada
 

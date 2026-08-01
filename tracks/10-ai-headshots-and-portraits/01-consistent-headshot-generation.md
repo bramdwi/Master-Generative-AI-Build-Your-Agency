@@ -2,7 +2,7 @@
 
 > Ubah selfie smartphone biasa menjadi potret perusahaan sekelas studio tanpa distorsi wajah atau kulit plastik buatan.
 
-**Lagu:** Foto & Potret AI
+**Track:** Foto & Potret AI
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 

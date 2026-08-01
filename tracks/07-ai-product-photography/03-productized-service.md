@@ -2,7 +2,7 @@
 
 > Jangan menjual "gambar AI"; menjual peningkatan tingkat konversi.
 
-**Lagu:** Fotografi Produk AI & E-commerce
+**Track:** Fotografi Produk AI & E-commerce
 **Waktu:** ~35 menit
 **Prasyarat:** Tidak ada
 

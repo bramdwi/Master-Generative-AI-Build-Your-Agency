@@ -2,7 +2,7 @@
 
 > Film ini tidak diciptakan di dalam generator; karya ini dianyam indah di meja editor.
 
-**Lagu:** Pembuatan Film AI
+**Track:** Pembuatan Film AI
 **Waktu:** ~50 menit
 **Prasyarat:** Skenario & Pembuatan Cerita, Pembuatan Storyboard & Perencanaan Pengambilan Gambar, Pergerakan Kamera & Perintah Sinematografi
 

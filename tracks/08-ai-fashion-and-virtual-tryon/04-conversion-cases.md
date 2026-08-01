@@ -2,7 +2,7 @@
 
 > Model nyata meningkatkan klik; kecocokan ukuran mengurangi retur.
 
-**Lagu:** AI Fashion & Virtual Try-On
+**Track:** AI Fashion & Virtual Try-On
 **Waktu:** ~45 menit
 **Prasyarat:** Tidak ada
 

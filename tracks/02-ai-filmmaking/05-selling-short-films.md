@@ -2,7 +2,7 @@
 
 > Festival menginginkan ceritanya; sponsor menginginkan perhatian; platform menginginkan aset tersebut.
 
-**Lagu:** Pembuatan Film AI
+**Track:** Pembuatan Film AI
 **Waktu:** ~30 menit
 **Prasyarat:** Skenario & Pembuatan Cerita, Merakit Film Pendek
 

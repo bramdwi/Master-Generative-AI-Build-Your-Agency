@@ -2,7 +2,7 @@
 
 > Lookbook tidak sekadar menjual pakaian; lookbook menjual gaya hidup.
 
-**Lagu:** AI Fashion & Virtual Try-On
+**Track:** AI Fashion & Virtual Try-On
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 

@@ -2,7 +2,7 @@
 
 > Naskah nan elok berharga terjangkau; namun narasi memikat yang benar-benar siap ditransformasikan oleh AI terbilang langka.
 
-**Lagu:** Pembuatan Film AI
+**Track:** Pembuatan Film AI
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 

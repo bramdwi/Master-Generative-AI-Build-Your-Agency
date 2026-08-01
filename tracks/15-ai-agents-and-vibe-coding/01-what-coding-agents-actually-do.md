@@ -2,7 +2,7 @@
 
 > Pahami secara mendalam mekanisme kerja agen pengkodean AI — serta alasan mendasar mengapa Anda tidak memerlukan latar belakang ilmu komputer untuk mengoperasikannya secara menguntungkan.
 
-**Lagu:** Agen AI & Vibe-Coding untuk Kreator
+**Track:** Agen AI & Vibe-Coding untuk Kreator
 **Waktu:** ~35 menit
 **Prasyarat:** Tidak ada
 

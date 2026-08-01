@@ -2,7 +2,7 @@
 
 > Pandangan adalah kesia-siaan; margin keuntungan adalah kewarasan.
 
-**Lagu:** Saluran AI Tanpa Wajah
+**Track:** Saluran AI Tanpa Wajah
 **Waktu:** ~35 menit
 **Prasyarat:** Pemilihan Niche & Pipeline Skrip, Narasi & Kecepatan yang Sesuai Durasi
 

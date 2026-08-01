@@ -2,7 +2,7 @@
 
 > Proporsi membangun kanvas; penyelarasan membangun brand.
 
-**Lagu:** AI Fashion & Virtual Try-On
+**Track:** AI Fashion & Virtual Try-On
 **Waktu:** ~35 menit
 **Prasyarat:** Garment Try-on untuk E-commerce Fashion
 

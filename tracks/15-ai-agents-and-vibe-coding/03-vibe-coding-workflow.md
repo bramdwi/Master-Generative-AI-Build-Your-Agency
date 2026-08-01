@@ -2,7 +2,7 @@
 
 > Lingkaran pengembangan 4 fase berulang yang memungkinkan Anda membuat dan mengirimkan alat pembuat konten yang berfungsi tanpa membaca satu baris kode pun.
 
-**Lagu:** Agen AI & Vibe-Coding untuk Kreator
+**Track:** Agen AI & Vibe-Coding untuk Kreator
 **Waktu:** ~50 menit
 **Prasyarat:** Apa yang Sebenarnya Dilakukan Agen Pengkodean, Membangun Micro-Tool Pertama Anda yang Dapat Dijual
 

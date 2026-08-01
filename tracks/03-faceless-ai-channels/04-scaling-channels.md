@@ -2,7 +2,7 @@
 
 > Satu saluran adalah pekerjaan; tiga saluran adalah sebuah sistem.
 
-**Lagu:** Saluran AI Tanpa Wajah
+**Track:** Saluran AI Tanpa Wajah
 **Waktu:** ~40 menit
 **Prasyarat:** Pemilihan Niche & Pipeline Skrip, Narasi & Kecepatan yang Sesuai Durasi
 

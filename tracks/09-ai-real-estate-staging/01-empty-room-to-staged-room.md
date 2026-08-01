@@ -2,7 +2,7 @@
 
 > Mentransformasi ruang kosong menjadi hunian mewah berkonversi tinggi dalam hitungan menit mengandalkan depth-aware AI inpainting.
 
-**Lagu:** AI Real Estat (Pementasan Virtual)
+**Track:** AI Real Estat (Pementasan Virtual)
 **Waktu:** ~40 menit
 **Prasyarat:** Pemahaman dasar tentang image generation prompts
 

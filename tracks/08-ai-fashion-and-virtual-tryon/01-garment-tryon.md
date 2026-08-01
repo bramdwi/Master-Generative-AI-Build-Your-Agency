@@ -2,7 +2,7 @@
 
 > Pakaian baru hidup ketika bergerak mengikuti tubuh manusia.
 
-**Lagu:** AI Fashion & Virtual Try-On
+**Track:** AI Fashion & Virtual Try-On
 **Waktu:** ~45 menit
 **Prasyarat:** Tidak ada
 

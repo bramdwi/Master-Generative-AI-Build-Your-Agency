@@ -2,7 +2,7 @@
 
 > Pergerakan kamera merupakan batas pemisah antara tayangan slide AI dan mahakarya sinematik.
 
-**Lagu:** Pembuatan Film AI
+**Track:** Pembuatan Film AI
 **Waktu:** ~50 menit
 **Prasyarat:** Skenario & Pembuatan Cerita, Pembuatan Storyboard & Perencanaan Pengambilan Gambar
 

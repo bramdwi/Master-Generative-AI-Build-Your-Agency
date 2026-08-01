@@ -2,7 +2,7 @@
 
 > Mengakselerasi skala katalog dari 1 menjadi 100+ listing merch yang unik mengandalkan variasi matrix prompt serta segmentasi niche yang terarah.
 
-**Lagu:** AI Print-on-Demand & Desain Merchandise
+**Track:** AI Print-on-Demand & Desain Merchandise
 **Waktu:** ~40 menit
 **Prasyarat:** Merancang AI Art yang Menjual untuk Merch, Dasar-Dasar Platform Print-on-Demand
 

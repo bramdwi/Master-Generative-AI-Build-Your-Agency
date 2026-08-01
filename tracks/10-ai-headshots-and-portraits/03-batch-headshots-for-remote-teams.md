@@ -2,7 +2,7 @@
 
 > Skalakan mulai dari potret individu hingga pemrosesan 50+ foto wajah karyawan jarak jauh dalam satu proses batch otomatis.
 
-**Lagu:** Foto & Potret AI
+**Track:** Foto & Potret AI
 **Waktu:** ~40 menit
 **Prasyarat:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)
 

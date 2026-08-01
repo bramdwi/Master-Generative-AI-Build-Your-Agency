@@ -2,7 +2,7 @@
 
 > Jika niche Anda memiliki CPM rendah, jumlah penayangan Anda tidak menjadi masalah; jika skrip Anda memiliki retensi rendah, YouTube tidak akan menampilkannya kepada siapa pun.
 
-**Lagu:** Saluran AI Tanpa Wajah
+**Track:** Saluran AI Tanpa Wajah
 **Waktu:** ~45 menit
 **Prasyarat:** Tidak ada
 

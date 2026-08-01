@@ -2,7 +2,7 @@
 
 > Perluas ke editorial terkenal, pembicara utama, penulis, dan potret industri kreatif menggunakan pencahayaan sesuai suasana sinematik.
 
-**Lagu:** Foto & Potret AI
+**Track:** Foto & Potret AI
 **Waktu:** ~40 menit
 **Prasyarat:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)
 

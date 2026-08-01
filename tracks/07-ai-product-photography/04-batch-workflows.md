@@ -2,7 +2,7 @@
 
 > Konsistensi inilah yang mengubah foto-foto individual menjadi katalog merek.
 
-**Lagu:** Fotografi Produk AI & E-commerce
+**Track:** Fotografi Produk AI & E-commerce
 **Waktu:** ~45 menit
 **Prasyarat:** Dasar-dasar Pemotretan Produk
 

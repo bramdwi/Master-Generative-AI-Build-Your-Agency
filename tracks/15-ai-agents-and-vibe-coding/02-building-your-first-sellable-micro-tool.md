@@ -2,7 +2,7 @@
 
 > Tetapkan cakupan, bangun, dan gabungkan *single-function tool* dalam satu sesi *vibe-coding* — lalu transformasikan menjadi sebuah produk komersial yang bernilai.
 
-**Lagu:** Agen AI & Vibe-Coding untuk Kreator
+**Track:** Agen AI & Vibe-Coding untuk Kreator
 **Waktu:** ~50 menit
 **Prasyarat:** Apa yang Sebenarnya Dilakukan Agen Pengkodean
 

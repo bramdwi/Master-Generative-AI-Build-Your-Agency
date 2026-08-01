@@ -2,7 +2,7 @@
 
 > Kuasai unit economics, biaya listing marketplace, serta perhitungannya untuk membangun katalog POD yang menguntungkan.
 
-**Lagu:** AI Print-on-Demand & Desain Merchandise
+**Track:** AI Print-on-Demand & Desain Merchandise
 **Waktu:** ~35 menit
 **Prasyarat:** Merancang AI Art yang Menjual untuk Merch, Dasar-Dasar Platform Print-on-Demand, Building a Catalog Without Repeating Yourself
 

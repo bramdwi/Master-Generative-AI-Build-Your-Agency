@@ -2,7 +2,7 @@
 
 > Visual menceritakan kisahnya, tetapi durasi audio mengontrol pengeditan.
 
-**Lagu:** Saluran AI Tanpa Wajah
+**Track:** Saluran AI Tanpa Wajah
 **Waktu:** ~45 menit
 **Prasyarat:** Pemilihan Niche & Pipeline Skrip
 
