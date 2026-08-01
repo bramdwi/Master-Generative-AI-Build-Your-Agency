@@ -133,6 +133,12 @@ export default function App() {
       />
 
       <div className="main-content">
+        {sidebarOpen && (
+          <div 
+            className="sidebar-backdrop" 
+            onClick={() => setSidebarOpen(false)}
+          />
+        )}
         <Sidebar
           tracks={tracksData}
           currentTrackId={currentTrackId}
@@ -142,6 +148,7 @@ export default function App() {
           onSelectModule={handleSelectModule}
           onSelectTrack={handleSelectTrack}
           isOpen={sidebarOpen}
+          onClose={() => setSidebarOpen(false)}
           lang={userData.lang}
         />
 

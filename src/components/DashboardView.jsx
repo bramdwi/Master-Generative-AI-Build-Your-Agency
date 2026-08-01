@@ -93,20 +93,7 @@ export default function DashboardView({
 
       {/* Resume Card */}
       {lastModule && (
-        <div 
-          style={{ 
-            background: 'linear-gradient(135deg, rgba(99, 102, 241, 0.15) 0%, rgba(168, 85, 247, 0.15) 100%)', 
-            border: '1px solid rgba(99, 102, 241, 0.4)', 
-            borderRadius: '16px', 
-            padding: '1.5rem', 
-            marginBottom: '2.5rem',
-            display: 'flex',
-            alignItems: 'center',
-            justify: 'space-between',
-            flexWrap: 'wrap',
-            gap: '1rem'
-          }}
-        >
+        <div className="dashboard-resume-card">
           <div>
             <div style={{ fontSize: '0.8rem', color: '#a5b4fc', fontWeight: 600, textTransform: 'uppercase', marginBottom: '0.25rem' }}>
               {t.jumpBackIn} — {t.trackLabel} {lastTrack?.num}: {lang === 'id' ? (trackTranslationsID[lastTrack?.id]?.title || lastTrack?.title) : lastTrack?.title}

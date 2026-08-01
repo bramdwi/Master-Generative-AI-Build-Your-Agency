@@ -173,16 +173,7 @@ export default function ModuleView({
       </div>
 
       {/* Navigation Footer */}
-      <div 
-        style={{ 
-          display: 'flex', 
-          alignItems: 'center', 
-          justify: 'space-between', 
-          marginTop: '2.5rem', 
-          paddingTop: '1.5rem', 
-          borderTop: '1px solid var(--border-color)' 
-        }}
-      >
+      <div className="module-nav-footer">
         {onNavigatePrev ? (
           <button className="btn btn-secondary" onClick={onNavigatePrev}>
             <ArrowLeft size={16} /> {t.prevLesson}

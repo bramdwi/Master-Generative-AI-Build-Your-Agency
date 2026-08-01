@@ -34,6 +34,7 @@ export default function Sidebar({
   onSelectModule, 
   onSelectTrack,
   isOpen,
+  onClose,
   lang = 'id'
 }) {
   const t = uiTranslations[lang] || uiTranslations.id;
@@ -110,6 +111,7 @@ export default function Sidebar({
                 onClick={() => {
                   toggleTrack(track.id);
                   onSelectTrack(track.id);
+                  if (onClose && window.innerWidth <= 868) onClose();
                 }}
               >
                 <div className="track-title-info">
@@ -140,7 +142,10 @@ export default function Sidebar({
                       <button
                         key={mod.id}
                         className={`sidebar-module-item ${isModActive ? 'active' : ''}`}
-                        onClick={() => onSelectModule(mod)}
+                        onClick={() => {
+                          onSelectModule(mod);
+                          if (onClose && window.innerWidth <= 868) onClose();
+                        }}
                       >
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', overflow: 'hidden' }}>
                           {isModCompleted ? (

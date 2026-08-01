@@ -9,7 +9,8 @@ import {
   LayoutDashboard, 
   Flame, 
   Menu,
-  CheckCircle2
+  CheckCircle2,
+  Globe
 } from 'lucide-react';
 import { uiTranslations } from '../data/translations';
 
@@ -21,38 +22,35 @@ export default function Navbar({
   completedCount, 
   totalModules,
   onToggleSidebar,
-  lang = 'id'
+  lang = 'id',
+  onToggleLang
 }) {
   const t = uiTranslations[lang] || uiTranslations.id;
 
   return (
-    <header className="navbar">
-      <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-        <button 
-          className="nav-tab-btn" 
-          onClick={onToggleSidebar}
-          style={{ padding: '6px' }}
-          title={t.toggleSidebar}
-        >
-          <Menu size={20} />
-        </button>
+    <>
+      <header className="navbar">
+        <div className="navbar-left">
+          <button 
+            className="nav-icon-btn sidebar-toggle-btn" 
+            onClick={onToggleSidebar}
+            title={t.toggleSidebar}
+            aria-label={t.toggleSidebar}
+          >
+            <Menu size={20} />
+          </button>
 
-        <div className="nav-brand" onClick={() => setActiveTab('dashboard')}>
-          <div className="brand-icon">
-            <Sparkles size={20} />
+          <div className="nav-brand" onClick={() => setActiveTab('dashboard')}>
+            <div className="brand-icon">
+              <Sparkles size={20} />
+            </div>
+            <span className="brand-title">{t.brandTitle}</span>
+            <span className="brand-badge desktop-only">{t.brandBadge}</span>
           </div>
-          <span className="brand-title">{t.brandTitle}</span>
-          <span className="brand-badge">{t.brandBadge}</span>
         </div>
-      </div>
 
-      <div className="nav-actions">
-        <button className="search-trigger-btn" onClick={onOpenSearch}>
-          <Search size={16} />
-          <span>{t.searchPlaceholder}</span>
-        </button>
-
-        <nav style={{ display: 'flex', gap: '0.375rem' }}>
+        {/* Desktop Main Navigation */}
+        <nav className="desktop-nav">
           <button 
             className={`nav-tab-btn ${activeTab === 'dashboard' ? 'active' : ''}`}
             onClick={() => setActiveTab('dashboard')}
@@ -94,46 +92,78 @@ export default function Navbar({
           </button>
         </nav>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.625rem', marginLeft: '0.5rem' }}>
-          <div 
-            style={{ 
-              display: 'flex', 
-              alignItems: 'center', 
-              gap: '0.375rem', 
-              fontSize: '0.85rem', 
-              fontWeight: 600, 
-              color: '#f59e0b',
-              background: 'rgba(245, 158, 11, 0.12)',
-              padding: '4px 10px',
-              borderRadius: '999px',
-              border: '1px solid rgba(245, 158, 11, 0.25)'
-            }}
-            title={t.dailyStreakTitle}
-          >
-            <Flame size={15} />
-            <span>{streakCount}d {t.streak}</span>
-          </div>
+        <div className="nav-actions">
+          <button className="search-trigger-btn" onClick={onOpenSearch} title={t.searchPlaceholder}>
+            <Search size={16} />
+            <span className="search-text-desktop">{t.searchPlaceholder}</span>
+            <span className="kbd-shortcut desktop-only">⌘K</span>
+          </button>
 
-          <div 
-            style={{ 
-              display: 'flex', 
-              alignItems: 'center', 
-              gap: '0.375rem', 
-              fontSize: '0.85rem', 
-              fontWeight: 600, 
-              color: '#10b981',
-              background: 'rgba(16, 185, 129, 0.12)',
-              padding: '4px 10px',
-              borderRadius: '999px',
-              border: '1px solid rgba(16, 185, 129, 0.25)'
-            }}
-            title={t.completedModulesTitle}
+          <button 
+            className="lang-toggle-btn"
+            onClick={onToggleLang}
+            title={t.switchLang}
           >
-            <CheckCircle2 size={15} />
-            <span>{completedCount}/{totalModules}</span>
+            <Globe size={15} />
+            <span>{lang.toUpperCase()}</span>
+          </button>
+
+          <div className="nav-badges">
+            <div className="badge-item badge-streak" title={t.dailyStreakTitle}>
+              <Flame size={15} />
+              <span>{streakCount}d</span>
+            </div>
+
+            <div className="badge-item badge-progress" title={t.completedModulesTitle}>
+              <CheckCircle2 size={15} />
+              <span>{completedCount}/{totalModules}</span>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
+      </header>
+
+      {/* Mobile Bottom Navigation */}
+      <nav className="mobile-bottom-nav">
+        <button 
+          className={`mobile-nav-item ${activeTab === 'dashboard' ? 'active' : ''}`}
+          onClick={() => setActiveTab('dashboard')}
+        >
+          <LayoutDashboard size={20} />
+          <span>Dashboard</span>
+        </button>
+
+        <button 
+          className={`mobile-nav-item ${activeTab === 'tracks' ? 'active' : ''}`}
+          onClick={() => setActiveTab('tracks')}
+        >
+          <BookOpen size={20} />
+          <span>Tracks</span>
+        </button>
+
+        <button 
+          className={`mobile-nav-item ${activeTab === 'templates' ? 'active' : ''}`}
+          onClick={() => setActiveTab('templates')}
+        >
+          <FileText size={20} />
+          <span>Templates</span>
+        </button>
+
+        <button 
+          className={`mobile-nav-item ${activeTab === 'calculator' ? 'active' : ''}`}
+          onClick={() => setActiveTab('calculator')}
+        >
+          <Calculator size={20} />
+          <span>Calc</span>
+        </button>
+
+        <button 
+          className={`mobile-nav-item ${activeTab === 'prompt-gen' ? 'active' : ''}`}
+          onClick={() => setActiveTab('prompt-gen')}
+        >
+          <Wand2 size={20} />
+          <span>Prompt</span>
+        </button>
+      </nav>
+    </>
   );
 }
