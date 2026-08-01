@@ -11,13 +11,13 @@ const rootTranslations = {
   <a href="ROADMAP.md"><img src="https://img.shields.io/badge/modul-66_tersedia-3553ff?style=flat-square" alt="66 modul"></a>
 </p>
 
-<h1 align="center">AI Creator Academy (Bahasa Indonesia)</h1>
+<h1 align="center">Kampus Kreator AI (Bahasa Indonesia)</h1>
 
 <p align="center"><b>Kurikulum gratis dan open-source untuk menghasilkan uang dari konten AI gambar, video, dan audio — untuk kreator dan agensi di Indonesia.</b></p>
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=SC9zJ6AxDek">
-    <img src="docs/assets/video-20-thumbnail.png" alt="AI Creator Academy: Kursus Gratis Generatif AI" width="640">
+    <img src="docs/assets/video-20-thumbnail.png" alt="Kampus Kreator AI: Kursus Gratis Generatif AI" width="640">
   </a>
 </p>
 
@@ -69,7 +69,7 @@ npm run dev
 Buka browser di **http://localhost:3000** atau **http://localhost:3001**.
 `,
 
-  'ROADMAP.md': `# Peta Jalan (Roadmap) AI Creator Academy
+  'ROADMAP.md': `# Peta Jalan (Roadmap) Kampus Kreator AI
 
 Setiap track dan modul, berurutan, dengan status keterisian. Ini adalah sumber kebenaran tunggal untuk modul yang tersedia.
 

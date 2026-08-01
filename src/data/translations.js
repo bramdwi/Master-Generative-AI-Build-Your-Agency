@@ -3,7 +3,7 @@
 export const uiTranslations = {
   en: {
     // Brand & Header
-    brandTitle: 'AI Creator Academy',
+    brandTitle: 'Kampus Kreator AI',
     brandBadge: 'Pro LMS',
     searchPlaceholder: 'Search lessons & templates... (⌘K)',
     
@@ -110,7 +110,7 @@ export const uiTranslations = {
     certNameLabel: 'Enter Your Name for Certificate',
     certHeader: 'Certificate of Completion',
     certBody: 'has successfully completed all modules and practical exercises for',
-    certVerifiedBy: 'Verified by AI Creator Academy',
+    certVerifiedBy: 'Verified by Kampus Kreator AI',
     certPrintBtn: 'Print or Save as PDF',
     certDefaultName: 'AI Creator Student',
 
@@ -145,7 +145,7 @@ export const uiTranslations = {
 
   id: {
     // Brand & Header
-    brandTitle: 'AI Creator Academy',
+    brandTitle: 'Kampus Kreator AI',
     brandBadge: 'Pro LMS',
     searchPlaceholder: 'Cari materi & template... (⌘K)',
     
@@ -252,7 +252,7 @@ export const uiTranslations = {
     certNameLabel: 'Masukkan Nama Anda untuk Sertifikat',
     certHeader: 'Sertifikat Kelulusan',
     certBody: 'telah berhasil menyelesaikan seluruh modul dan latihan praktis untuk',
-    certVerifiedBy: 'Diverifikasi oleh AI Creator Academy',
+    certVerifiedBy: 'Diverifikasi oleh Kampus Kreator AI',
     certPrintBtn: 'Cetak atau Simpan sebagai PDF',
     certDefaultName: 'Siswa AI Creator',
 

@@ -1,6 +1,6 @@
-# Blueprint Content Strategy & Script Planning: AI Creator Academy
+# Blueprint Content Strategy & Script Planning: Kampus Kreator AI
 
-Dokumen ini berisi panduan perencanaan konten, naskah (*script*) siap rekam/sulih suara (*voiceover*), prompt gambar visual (Midjourney/Flux), serta alokasi kalender konten sosial media (Instagram Reels/Carousel, TikTok, YouTube Shorts, dan LinkedIn) untuk mempromosikan **AI Creator Academy: Master Generative AI & Build Your Agency**.
+Dokumen ini berisi panduan perencanaan konten, naskah (*script*) siap rekam/sulih suara (*voiceover*), prompt gambar visual (Midjourney/Flux), serta alokasi kalender konten sosial media (Instagram Reels/Carousel, TikTok, YouTube Shorts, dan LinkedIn) untuk mempromosikan **Kampus Kreator AI: Master Generative AI & Build Your Agency**.
 
 ---
 
@@ -55,7 +55,7 @@ Dokumen ini berisi panduan perencanaan konten, naskah (*script*) siap rekam/suli
 | **0:03 - 0:10** | **PROBLEM**: Perjelas bagian wajah karakter AI yang biasanya berubah kontur atau bajunya di tool biasa. | *"Hambatan terbesar bikin iklan AI UGC itu ada di inkonsistensi wajah. Tiap kali generate prompt baru, mukanya berubah jadi orang lain."* | **Masalah Utama: Wajah AI Selalu Berubah 🤯** |
 | **0:10 - 0:25** | **SOLUTION**: Tunjukkan alur kerja *First-Frame Conditioning* & Gambar Jangkar (*Anchor Image*). | *"Solusinya bukan ngetik ulang deskripsi muka di prompt, tapi pakai First-Frame Conditioning! Kunci 1 foto jangkar utama, lalu pasang sebagai input edit API."* | **Solusi: Anchor Image + Reference Conditioning 🔒** |
 | **0:25 - 0:38** | **SHOWCASE**: Tampilkan klip perbandingan 3 variasi hook iklan GripMount dengan karakter yang sama di mobil, dapur, dan jalanan. | *"Lihat hasilnya: karakter tetap 100% sama di interior mobil, dapur, sampai jalanan luar ruangan. Klien puas, biaya render cuma $0.06 per gambar!"* | **Karakter 100% Konsisten di 3 Latar Berbeda 🚗✨** |
-| **0:38 - 0:45** | **CTA**: Tunjukkan tampilan kurikulum AI Creator Academy di layar laptop/HP. | *"Mau kuasai 15 alur kerja agensi AI dari UGC sampai AI Filmmaking? Kunjungi link di bio dan akses AI Creator Academy sekarang!"* | **Pelajari 15 Track Agensi AI 🚀 (Link di Bio)** |
+| **0:38 - 0:45** | **CTA**: Tunjukkan tampilan kurikulum Kampus Kreator AI di layar laptop/HP. | *"Mau kuasai 15 alur kerja agensi AI dari UGC sampai AI Filmmaking? Kunjungi link di bio dan akses Kampus Kreator AI sekarang!"* | **Pelajari 15 Track Agensi AI 🚀 (Link di Bio)** |
 
 #### 🖼️ Prompt Generasi Gambar & Thumbnail (Midjourney / Flux):
 
@@ -81,7 +81,7 @@ Dengan teknik ini:
 
 Mau belajar seluruh alur kerja Agensi AI terlengkap dari AI UGC, AI Filmmaking, sampai Workflow Automation?
 
-🔥 Kunjungi link di bio untuk bergabung di AI Creator Academy!
+🔥 Kunjungi link di bio untuk bergabung di Kampus Kreator AI!
 
 #GenerativeAI #AIUGC #AIAds #AIAgency #ContentCreatorID #BelajarAI #ArtificialIntelligence #AIFilmmaking #TeknologiAI
 ```
@@ -138,9 +138,9 @@ Mau belajar seluruh alur kerja Agensi AI terlengkap dari AI UGC, AI Filmmaking, 
 * **Slide 7 (CTA / Closing)**:
   * **Judul**: Siap Bangun Agensi AI Anda Sendiri? 🚀
   * **Poin Isi**:
-    * Pelajari seluruh 15 Track terstruktur dari dasar hingga mahir di **AI Creator Academy**.
+    * Pelajari seluruh 15 Track terstruktur dari dasar hingga mahir di **Kampus Kreator AI**.
     * Dapatkan panduan riset niche, template proposal agensi, sampai script penjangkauan klien (*cold outreach*).
-  * **Visual / Action**: `AI Creator Academy badge, glowing CTA button "Akses Sekarang - Link di Bio".`
+  * **Visual / Action**: `Kampus Kreator AI badge, glowing CTA button "Akses Sekarang - Link di Bio".`
 
 #### 📝 Caption Carousel:
 ```text
@@ -152,7 +152,7 @@ Slide di atas ngebongkar 5 layanan agensi AI paling mahal dan dicari pasar saat 
 
 Manakah dari 5 layanan ini yang pengen kamu kuasai duluan? Komen di bawah ya! 👇
 
-📌 Simpan postingan ini buat referensi bisnis kamu, dan klik link di bio buat belajar alur kerja lengkapnya di AI Creator Academy!
+📌 Simpan postingan ini buat referensi bisnis kamu, dan klik link di bio buat belajar alur kerja lengkapnya di Kampus Kreator AI!
 
 #AgensiAI #BisnisAI #FreelancerID #GenerativeAI #AIAnalytics #DigitalAgency #PeluangUsaha #AIIndonesia
 ```
@@ -172,7 +172,7 @@ Manakah dari 5 layanan ini yang pengen kamu kuasai duluan? Komen di bawah ya! �
 | **0:03 - 0:12** | **EXPLANATION**: Tampilkan tabel perbedaan Niche Cerita Horor ($0.50 RPM) vs Niche SaaS/Real Estate ($20 RPM). | *"Jawabannya ada di RPM dan Pemilihan Niche! Kalau kamu bikin konten cerita horor atau tebak-tebakan, RPM-nya cuma $0.50. Kamu butuh 2 juta views cuma buat dapet $1.000."* | **Niche Murah vs Niche Mahal 📊** |
 | **0:12 - 0:25** | **STRATEGY**: Tunjukkan alur penulisan script dengan teknik *Pattern Interrupt* tiap 4 detik (SFX + Visual Switch). | *"Tapi di Niche Bisnis, SaaS, dan Perbankan, pengiklan berani bayar mahal. Ditambah script yang pakai teknik Pattern Interrupt tiap 4 detik biar retensi penonton tetap tinggi!"* | **Formula: High RPM + Pattern Interrupt ⏱️** |
 | **0:25 - 0:40** | **TOOL DEMO**: Tunjukkan integrasi ElevenLabs Voiceover & B-roll sinematik secara cepat. | *"Gunakan ElevenLabs untuk voiceover alami, padukan dengan B-roll sinematik dari Flux, lalu selaraskan suara ambience di background. Hasilnya bakal berasa kaya tontonan TV!"* | **Voiceover Alami + Ambience SFX 🎧** |
-| **0:40 - 0:50** | **CTA**: Layar penutup dengan logo AI Creator Academy & panah mengarah ke bio. | *"Mau belajar strategi lengkap bangun Faceless AI Channel dari riset niche sampai monetisasi? Kunjungi AI Creator Academy lewat link di bio!"* | **Belajar Faceless Channel AI (Link di Bio) 🔗** |
+| **0:40 - 0:50** | **CTA**: Layar penutup dengan logo Kampus Kreator AI & panah mengarah ke bio. | *"Mau belajar strategi lengkap bangun Faceless AI Channel dari riset niche sampai monetisasi? Kunjungi Kampus Kreator AI lewat link di bio!"* | **Belajar Faceless Channel AI (Link di Bio) 🔗** |
 
 #### 🖼️ Prompt Generasi Gambar & Visual:
 * **Visual Background (Futuristic Financial Studio)**:
@@ -189,7 +189,7 @@ Bikin Faceless AI Channel itu ada tekniknya:
 
 Mau tahu cara bangun saluran AI tanpa wajah dari nol sampai menghasilkan?
 
-🚀 Cek kurasi modul lengkapnya di AI Creator Academy (Link di bio)!
+🚀 Cek kurasi modul lengkapnya di Kampus Kreator AI (Link di bio)!
 
 #FacelessChannel #YouTubeAutomation #AIBusiness #PasifIncome #EdukasiAI #BelajarGenerativeAI #TikTokCreator
 ```
@@ -208,7 +208,7 @@ Mau tahu cara bangun saluran AI tanpa wajah dari nol sampai menghasilkan?
 | **0:00 - 0:03** | **HOOK**: Tampilkan klip astronot di kokpit wahana antariksa dengan pergerakan *slow dolly-in* yang sangat halus. | *"Film sinematik ini dibuat 100% pakai AI tanpa kamera dan tanpa aktor nyata!"* | **100% AI FILMMAKING 🎬** |
 | **0:03 - 0:12** | **MISTAKE**: Tunjukkan klip AI video jelek yang patah-patah / mukanya berubah-ubah. | *"Kebanyakan orang bikin video AI langsung ngetik prompt di generator video, makanya hasilnya patah-patah dan mukanya berubah."* | **Jangan Langsung Render Video! ❌** |
 | **0:12 - 0:28** | **WORKFLOW**: Tunjukkan 3 langkah: Naskah -> Storyboard Flux -> Image-to-Video Seedance/Kling. | *"Sineas AI profesional bikin Storyboard statis dulu pakai Flux untuk mengunci lighting dan angle. Baru di-generate ke Image-to-Video pakai prompt pergerakan kamera sinematik!"* | **Storyboard -> First Frame -> Motion Prompt 📽️** |
-| **0:28 - 0:40** | **CTA**: Tunjukkan hasil akhir trailer "Sinyal Terakhir" beserta ajakan bergabung. | *"Pelajari seluruh alur pembuatan AI Short Film dari naskah, storyboarding, sampai sound design di AI Creator Academy. Klik link di bio sekarang!"* | **Master AI Filmmaking 🚀 (Link di Bio)** |
+| **0:28 - 0:40** | **CTA**: Tunjukkan hasil akhir trailer "Sinyal Terakhir" beserta ajakan bergabung. | *"Pelajari seluruh alur pembuatan AI Short Film dari naskah, storyboarding, sampai sound design di Kampus Kreator AI. Klik link di bio sekarang!"* | **Master AI Filmmaking 🚀 (Link di Bio)** |
 
 #### 🖼️ Prompt Generasi Gambar Sinematik (Flux / Midjourney):
 * **Shot 1 (Wide Cockpit)**:
