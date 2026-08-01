@@ -1,60 +1,60 @@
-# Track 7 — AI Product Photography & E-commerce
+# Jalur 7 — Fotografi Produk AI & E-commerce
 
-> Studio-quality product photography and catalog variations on demand, matching lighting, reflection, shadows, and perspective—without renting a physical camera or studio.
+> Fotografi produk berkualitas studio dan variasi katalog sesuai permintaan, pencahayaan yang serasi, refleksi, bayangan, dan perspektif—tanpa menyewa kamera atau studio fisik.
 
-Four modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (briefs, checklists, spec sheets) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, daftar periksa, lembar spesifikasi) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [Product Shots Without a Photographer](01-product-photography.md) | ~45 min | — |
-| 2 | [Before/After Conversion Case Studies](02-conversion-case-studies.md) | ~40 min | Module 1 |
-| 3 | [Selling as a Productized Service](03-productized-service.md) | ~35 min | — |
-| 4 | [Batch Workflows for Catalogs](04-batch-workflows.md) | ~45 min | Module 1 |
+| 1 | [Product Shots Without a Photographer](01-product-photography.md) | ~45 menit | — |
+| 2 | [Before/After Conversion Case Studies](02-conversion-case-studies.md) | ~40 menit | Modul 1 |
+| 3 | [Selling as a Productized Service](03-productized-service.md) | ~35 menit | — |
+| 4 | [Batch Workflows for Catalogs](04-batch-workflows.md) | ~45 menit | Modul 1 |
 
 ---
 
-### 1. [Product Shots Without a Photographer](01-product-photography.md)
+### 1.[Product Shots Without a Photographer](01-product-photography.md)
 
-> A premium backdrop shifts your product from cheap to premium.
+> Latar belakang premium mengubah produk Anda dari murah menjadi premium.
 
-- Isolate physical product containers using automated background masking.
-- Write descriptive studio backdrop environment prompts specifying surface details and sunlight angles.
-- Composite products onto backdrops by rendering matching ambient occlusion contact shadows and directional drop shadows.
+- Isolasi wadah produk fisik menggunakan penyembunyian latar belakang otomatis.
+- Tulis petunjuk lingkungan latar belakang studio deskriptif yang menentukan detail permukaan dan sudut sinar matahari.
+- Gabungkan produk ke latar belakang dengan menampilkan bayangan kontak oklusi ambien dan bayangan jatuh terarah yang serasi.
 
-**Templates:** [`photography-brief-template.md`](templates/photography-brief-template.md)
+**Templat:** [`photography-brief-template.md`](templates/photography-brief-template.md)
 
-### 2. [Before/After Conversion Case Studies](02-conversion-case-studies.md)
+### 2.[Before/After Conversion Case Studies](02-conversion-case-studies.md)
 
-> Clean images get clicks; contextual images get sales.
+> Gambar bersih mendapat klik; gambar kontekstual mendapatkan penjualan.
 
-- Audit existing listing visual gaps using conversion checklist scores.
-- Build visual hypotheses targeting click-through rates (CTR) and landing page conversion rates (CVR).
-- Structure statistical split-testing runs directing traffic between old stock layouts and new AI lifestyle backdrops.
+- Audit kesenjangan visual listingan yang ada menggunakan skor daftar periksa konversi.
+- Bangun hipotesis visual yang menargetkan rasio klik-tayang (RKT) dan rasio konversi laman landas (CVR).
+- Pengujian pemisahan statistik struktur dijalankan dengan mengarahkan lalu lintas antara tata letak stok lama dan latar belakang gaya hidup AI baru.
 
-**Templates:** [`conversion-audit-checklist.md`](templates/conversion-audit-checklist.md)
+**Templat:** [`conversion-audit-checklist.md`](templates/conversion-audit-checklist.md)
 
-### 3. [Selling as a Productized Service](03-productized-service.md)
+### 3.[Selling as a Productized Service](03-productized-service.md)
 
-> Don't sell "AI images"; sell conversion rate uplifts.
+> Jangan menjual "gambar AI"; menjual peningkatan tingkat konversi.
 
-- Package product photography tasks into defined service scopes with fixed prices.
-- Configure client intake questionnaires to capture high-resolution product masks and logo styles.
-- Pitch e-commerce brand owners using side-by-side visual updates as a lead hook.
+- Kemas tugas fotografi produk ke dalam cakupan layanan yang ditentukan dengan harga tetap.
+- Konfigurasikan kuesioner penerimaan klien untuk menangkap masker produk dan gaya logo resolusi tinggi.
+- Promosikan pemilik merek e-niaga menggunakan pembaruan visual berdampingan sebagai pengait utama.
 
-**Templates:** [`productized-service-offer.md`](templates/productized-service-offer.md)
+**Templat:** [`productized-service-offer.md`](templates/productized-service-offer.md)
 
-### 4. [Batch Workflows for Catalogs](04-batch-workflows.md)
+### 4.[Batch Workflows for Catalogs](04-batch-workflows.md)
 
-> Consistency is what turns separate photos into a brand catalog.
+> Konsistensi inilah yang mengubah foto-foto individual menjadi katalog merek.
 
-- Organize large catalog datasets using clear directory blueprints.
-- Maintain sizing, baseline placement, and lighting consistency across collection drop lists.
-- Speed up production by utilizing master PSD file layers for repeatable shadows and backdrops.
+- Atur kumpulan data katalog besar menggunakan cetak biru direktori yang jelas.
+- Pertahankan ukuran, penempatan dasar, dan konsistensi pencahayaan di seluruh daftar pelepasan koleksi.
+- Percepat produksi dengan memanfaatkan lapisan file master PSD untuk bayangan dan latar belakang yang berulang.
 
-**Templates:** [`batch-catalog-spec.md`](templates/batch-catalog-spec.md)
+**Templat:** [`batch-catalog-spec.md`](templates/batch-catalog-spec.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 11 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

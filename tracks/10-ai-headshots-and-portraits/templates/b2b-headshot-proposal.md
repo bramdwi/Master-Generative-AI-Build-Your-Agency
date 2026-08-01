@@ -1,24 +1,24 @@
-# B2B Corporate Headshot Proposal & Intake Template
+# Proposal & Templat Penerimaan Headshot Perusahaan B2B
 
-Use this proposal document, client intake form schema, and privacy agreement to pitch and onboard corporate team clients.
+Gunakan dokumen proposal ini, skema formulir penerimaan klien, dan perjanjian privasi untuk menawarkan dan menerima klien tim korporat.
 
 ---
 
-## 💼 B2B Corporate Pricing Matrix
+## 💼 Matriks Harga Perusahaan B2B
 
-| Package Tier | Pricing | Employee Volume | Turnaround | Features Included |
+| Tingkat Paket | Harga | Volume Karyawan | Perputaran | Fitur Termasuk |
 |---|---|---|---|---|
-| **Startup Team Pass** | **$399** | Up to 10 Employees | 48 Hours | 3 Style Options / Person, Brand Color Match, 1 Revision |
-| **Corporate Standard** | **$799** | Up to 25 Employees | 24 Hours | 5 Style Options / Person, Custom Brand Match, 2 Revisions |
-| **Enterprise Unlimited** | **$1,499** | Up to 50 Employees | 12 Hours SLA | Priority SLA, Unlimited Revisions, GDPR Data Purge Cert |
+| **Tiket Tim Startup** | **$399** | Hingga 10 Karyawan | 48 Jam | 3 Pilihan Gaya / Orang, Warna Merek Sesuai, 1 Revisi |
+| **Standar Perusahaan** | **$799** | Hingga 25 Karyawan | 24 Jam | 5 Pilihan Gaya / Orang, Pencocokan Merek Kustom, 2 Revisi |
+| **Perusahaan Tidak Terbatas** | **$1.499** | Hingga 50 Karyawan | SLA 12 Jam | SLA Prioritas, Revisi Tanpa Batas, Sertifikat Pembersihan Data GDPR |
 
-*Additional Team Members: **$25 per person**.*
+*Anggota Tim Tambahan: **$25 per orang**.*
 
 ---
 
-## 📋 Employee Intake Form Schema
+## 📋 Skema Formulir Penerimaan Karyawan
 
-Provide this 4-step intake form to client HR departments for employee self-service:
+Berikan formulir penerimaan 4 langkah ini ke departemen SDM klien untuk layanan mandiri karyawan:
 
 ```yaml
 Intake_Form_Fields:
@@ -48,9 +48,9 @@ Intake_Form_Fields:
 
 ---
 
-## 🔒 Enterprise Data Privacy & GDPR Agreement
+## 🔒 Privasi Data Perusahaan & Perjanjian GDPR
 
-1. **Selfie Data Handling:** Source selfies provided by client employees are used solely for identity vector extraction and generation of authorized corporate headshots.
-2. **Automated Data Purge:** All raw employee selfie uploads and facial embeddings are permanently deleted from agency servers within **7 business days** of final deliverable approval.
-3. **No Model Training:** Client photos will never be used to train public AI models or shared with third-party data brokers.
-4. **Delivery Security:** Final high-resolution headshot bundles are delivered via encrypted, password-protected cloud download folders.
+1. **Penanganan Data Selfie:** Sumber selfie yang diberikan oleh karyawan klien hanya digunakan untuk ekstraksi vektor identitas dan pembuatan foto wajah perusahaan resmi.
+2. **Pembersihan Data Otomatis:** Semua unggahan selfie mentah dan penyematan wajah karyawan akan dihapus secara permanen dari server agensi dalam **7 hari kerja** sejak persetujuan pengiriman akhir.
+3. **Tanpa Pelatihan Model:** Foto klien tidak akan pernah digunakan untuk melatih model AI publik atau dibagikan kepada broker data pihak ketiga.
+4. **Keamanan Pengiriman:** Paket headshot resolusi tinggi akhir dikirimkan melalui folder unduhan cloud terenkripsi dan dilindungi kata sandi.

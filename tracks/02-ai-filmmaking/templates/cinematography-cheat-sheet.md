@@ -1,33 +1,33 @@
-# Cinematography Cheat Sheet
+# Lembar Cheat Sinematografi
 
-A quick-reference sheet for framing, lighting, camera lensing, and style descriptors for prompt engineering.
+Lembar referensi cepat untuk pembingkaian, pencahayaan, lensa kamera, dan deskriptor gaya untuk rekayasa cepat.
 
 ---
 
-## 1. Camera Framing Terms
-* **Extreme Wide Shot (EWS):** Environment is the subject; character is tiny or not visible.
-* **Wide Shot (WS):** Full body of the character is visible; details of the location are clear.
-* **Medium Wide Shot (MWS):** Knee-up framing.
-* **Medium Shot (MS):** Waist-up framing.
-* **Close-up (CU):** Chest/shoulders-up framing.
-* **Extreme Close-up (ECU):** Focuses on eyes, a clock face, a phone screen, or a lock.
+## 1. Ketentuan Pembingkaian Kamera
+* **Extreme Wide Shot (EWS):** Lingkungan adalah subjeknya; karakternya kecil atau tidak terlihat.
+* **Wide Shot (WS):** Seluruh tubuh karakter terlihat; detail lokasinya jelas.
+* **Medium Wide Shot (MWS):** Pembingkaian lutut.
+* **Medium Shot (MS):** Bingkai pinggang ke atas.
+* **Close-up (CU):** Pembingkaian dada/bahu.
+* **Extreme Close-up (ECU):** Berfokus pada mata, tampilan jam, layar ponsel, atau kunci.
 
-## 2. Camera Lenses & Aperture Descriptors
-Inject these terms to force a realistic photographic lens rendering:
-* **"Anamorphic lens, widescreen bokeh, subtle horizontal blue lens flares"** (Best for cinematic/sci-fi films)
-* **"35mm prime lens, f/1.8 aperture, shallow depth of field, soft out-of-focus background"** (Best for close-ups and dramatic portraits)
-* **"85mm lens, portrait lighting, high detail"** (Best for character introduction shots)
-* **"24mm wide-angle lens, deep depth of field"** (Best for establishing landscape or interior room shots)
+## 2. Lensa Kamera & Deskriptor Apertur
+Masukkan istilah-istilah ini untuk memaksakan rendering lensa fotografi yang realistis:
+* **"Lensa anamorfik, bokeh layar lebar, suar lensa biru horizontal halus"** (Terbaik untuk film sinematik/fiksi ilmiah)
+* **"Lensa prima 35mm, aperture f/1.8, depth of field dangkal, latar belakang di luar fokus yang lembut"** (Terbaik untuk close-up dan potret dramatis)
+* **"Lensa 85mm, pencahayaan potret, detail tinggi"** (Terbaik untuk bidikan pengenalan karakter)
+* **"Lensa sudut lebar 24mm, kedalaman bidang yang dalam"** (Terbaik untuk mengambil gambar lanskap atau ruangan interior)
 
-## 3. Film Stock & Camera Bodies
-Forces the AI to simulate specific camera sensor and film characteristics:
-* **Digital Cinema:** `Arri Alexa Mini LF, RED V-Raptor, Sony Venice 2`
-* **Analog Film Stock:** `Kodak Portra 400, Kodak Vision3 500T, Fujifilm Superia, 35mm film grain`
-* **Vintage/Documentary:** `16mm film grain, Bolex H16, vintage color grading`
+## 3. Stok Film & Badan Kamera
+Memaksa AI untuk mensimulasikan sensor kamera dan karakteristik film tertentu:
+* **Bioskop Digital:** `Arri Alexa Mini LF, RED V-Raptor, Sony Venice 2`
+* **Stok Film Analog:** `Kodak Portra 400, Kodak Vision3 500T, Fujifilm Superia, 35mm film grain`
+* **Vintage/Dokumenter:** `16mm film grain, Bolex H16, vintage color grading`
 
-## 4. Lighting & Atmosphere Keys
-* **Golden Hour:** Warm, soft, low-angle sunlight, long shadows.
-* **Blue Hour:** Mood, cool light, soft shadows, right after sunset.
-* **Chiaroscuro / Film Noir:** High contrast between light and dark, sharp shadow lines.
-* **Volumetric lighting:** Light rays visible through smoke, dust, or fog.
-* **Backlit / Rim light:** Highlights the silhouette of the character from behind.
+## 4. Tombol Pencahayaan & Suasana
+* **Golden Hour:** Sinar matahari yang hangat, lembut, sudut rendah, bayangan panjang.
+* **Blue Hour:** Suasana hati, cahaya sejuk, bayangan lembut, tepat setelah matahari terbenam.
+* **Chiaroscuro / Film Noir:** Kontras tinggi antara terang dan gelap, garis bayangan tajam.
+* **Pencahayaan volumetrik:** Sinar cahaya terlihat melalui asap, debu, atau kabut.
+* **Backlit / Rim light:** Menyorot siluet karakter dari belakang.

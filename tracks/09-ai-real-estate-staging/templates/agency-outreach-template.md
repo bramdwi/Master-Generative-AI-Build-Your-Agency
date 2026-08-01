@@ -1,62 +1,62 @@
-# Real Estate Agency Outreach & Cold Pitch Templates
+# Templat Penjangkauan Agen Real Estat & Cold Pitch
 
-Use these email templates, video scripts, and partnership proposals to acquire real estate agent and brokerage clients.
-
----
-
-## 📧 Email Template 1: Active Vacant Listing Audit (Highest Conversion)
-
-**Target:** Agents with listings active for 14+ days that have empty room photos.
-
-**Subject Line:** Quick question about [Property Address] listing photos...
-
-> Hi [Agent First Name],
-> 
-> I noticed your property listing at **[Property Address]** on Zillow — fantastic natural light and floor plan!
-> 
-> Since buyers often struggle to visualize empty spaces, I took 2 minutes to virtually stage your main living area so you can see what it looks like fully furnished:
-> 
-> **[Insert / Embed Before & After Comparison Image Here]**
-> 
-> If you'd like to add this staged photo (plus the master suite) to your MLS listing today to help boost weekend tour requests, I can send over the high-res files in 10 minutes.
-> 
-> Worth a quick look?
-> 
-> Best regards,  
-> [Your Name]  
-> [Your Studio Name] | [Your Phone Number]
+Gunakan templat email, skrip video, dan proposal kemitraan ini untuk memperoleh klien agen real estat dan pialang.
 
 ---
 
-## 📹 60-Second Loom Video Script (High-Ticket Pitch)
+## Templat Email 1: Audit Daftar Kosong Aktif (Konversi Tertinggi)
 
-**Script:**
-> "Hey [Agent Name], [Your Name] here. I was browsing active listings in [City Name] and came across your property at [Property Address]. 
-> 
-> It's a great home, but I noticed the living room photo is currently vacant. I ran your photo through our AI virtual staging pipeline — check out this transformation on my screen right now:
-> 
-> [Show Before/After Transformation]
-> 
-> Notice how the modern sectional and warm rug immediately anchor the room and make it feel like a luxury home. We can stage your entire listing in 24 hours for just $199, saving thousands compared to physical staging. 
-> 
-> I'll drop a link below to view the high-res samples. Let me know if you'd like me to send over the final files for your MLS update today!"
+**Target:** Agen dengan listing aktif 14+ hari yang memiliki foto ruangan kosong.
+
+**Baris Subjek:** Pertanyaan singkat tentang foto listingan [Alamat Properti]...
+
+> Hai [Nama Depan Agen],
+>
+> Saya melihat listingan properti Anda di **[Alamat Properti]** di Zillow — pencahayaan alami dan denah lantai yang fantastis!
+>
+> Karena pembeli sering kesulitan memvisualisasikan ruang kosong, saya meluangkan waktu 2 menit untuk menampilkan ruang tamu utama Anda secara virtual sehingga Anda dapat melihat seperti apa perabotan lengkapnya:
+>
+> **[Masukkan / Sematkan Gambar Perbandingan Sebelum & Sesudah Di Sini]**
+>
+> Jika Anda ingin menambahkan foto yang dipentaskan ini (ditambah master suite) ke daftar MLS Anda hari ini untuk membantu meningkatkan permintaan tur akhir pekan, saya dapat mengirimkan file beresolusi tinggi dalam 10 menit.
+>
+> Layak untuk dilihat sekilas?
+>
+> Salam,
+> [Nama Anda]
+> [Nama Studio Anda] | [Nomor Telepon Anda]
 
 ---
 
-## 🤝 Partnership Offer: Real Estate Photographer Commission Split
+## 📹 Skrip Video Loom 60 Detik (Pitch Tiket Tinggi)
 
-**Subject Line:** Partnership idea for your real estate photo shoots in [City Name]
+**Naskah:**
+> "Hai [Nama Agen], [Nama Anda] di sini. Saya menelusuri listingan aktif di [Nama Kota] dan menemukan properti Anda di [Alamat Properti].
+>
+> Ini rumah yang bagus, tapi saya perhatikan foto ruang tamu saat ini kosong. Saya menjalankan foto Anda melalui jalur pementasan virtual AI kami — lihat transformasi ini di layar saya sekarang:
+>
+> [Tampilkan Sebelum/Sesudah Transformasi]
+>
+> Perhatikan bagaimana permadani modern dan hangat langsung mengikat ruangan dan membuatnya terasa seperti rumah mewah. Kami dapat menampilkan seluruh listingan Anda dalam 24 jam hanya dengan $199, menghemat ribuan dibandingkan dengan pementasan fisik.
+>
+> Saya akan memberikan tautan di bawah untuk melihat sampel resolusi tinggi. Beri tahu saya jika Anda ingin saya mengirimkan file final untuk pembaruan MLS Anda hari ini!"
 
-> Hi [Photographer Name],
-> 
-> Love your real estate photography work in [City Name] — your lighting and composition on [Recent Project/Address] looked top-notch.
-> 
-> I run an AI virtual staging studio. Many of your agent clients likely ask if you offer virtual staging for vacant listings.
-> 
-> I'd love to set up a white-label partnership where you can offer virtual staging to your clients as a $45/photo add-on. We handle 100% of the staging rendering in 24 hours and pay you a **35% commission split ($15/photo)** on every room ordered.
-> 
-> Would you be open to a quick 5-minute chat this week to see if this makes sense for your photo packages?
-> 
-> Best,  
-> [Your Name]  
-> [Your Studio Name]
+---
+
+## 🤝 Penawaran Kemitraan: Pembagian Komisi Fotografer Real Estat
+
+**Baris Subjek:** Ide kemitraan untuk pemotretan real estat Anda di [Nama Kota]
+
+> Hai [Nama Fotografer],
+>
+> Sukai karya fotografi real estat Anda di [Nama Kota] — pencahayaan dan komposisi Anda di [Proyek/Alamat Terbaru] tampak terbaik.
+>
+> Saya menjalankan studio pementasan virtual AI. Banyak klien agen Anda mungkin bertanya apakah Anda menawarkan pementasan virtual untuk listingan yang kosong.
+>
+> Saya ingin membangun kemitraan label putih di mana Anda dapat menawarkan pementasan virtual kepada klien Anda sebagai tambahan $45/foto. Kami menangani 100% rendering pementasan dalam 24 jam dan memberi Anda **pembagian komisi sebesar 35% ($15/foto)** untuk setiap kamar yang dipesan.
+>
+> Apakah Anda bersedia untuk mengobrol singkat selama 5 menit minggu ini untuk mengetahui apakah ini masuk akal untuk paket foto Anda?
+>
+> Terbaik,
+> [Nama Anda]
+> [Nama Studio Anda]

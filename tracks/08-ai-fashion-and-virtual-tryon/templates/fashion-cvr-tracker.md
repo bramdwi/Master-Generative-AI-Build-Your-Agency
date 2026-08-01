@@ -1,35 +1,35 @@
-# Fashion Conversion Tracker & Returns Log
+# Pelacak Konversi Mode & Log Pengembalian
 
-Use this tracker to log listing performance, conversion lifts, and returns rate reductions after introducing virtual try-on models and lookbook updates.
+Gunakan pelacak ini untuk mencatat kinerja listingan, peningkatan konversi, dan penurunan tingkat pengembalian setelah memperkenalkan model uji coba virtual dan pembaruan lookbook.
 
-## 1. Core Visual CVR Metrics
+## 1. Metrik CVR Visual Inti
 
-Track the baseline before upgrading listing assets:
+Lacak data dasar sebelum meningkatkan versi aset listing:
 
-| Product Name | Current Monthly Traffic | Baseline CVR (%) | Upgraded Asset Type (Try-on/Lookbook) | Target CVR (%) | Actual CVR (%) | CVR Lift (%) |
+| Nama Produk | Lalu Lintas Bulanan Saat Ini | CVR Dasar (%) | Jenis Aset yang Ditingkatkan (Percobaan/Buku Pencarian) | Sasaran CVR (%) | CVR Aktual (%) | Pengangkatan CVR (%) |
 |---|---|---|---|---|---|---|
-| Organic Linen Hoodie | 12,000 | 1.9% | Try-on Models + Video | 2.5% | 2.8% | +47.3% |
-| Premium Silk Blouse | 8,500 | 2.2% | Lookbook + Close-ups | 3.0% | | |
+| Hoodie Linen Organik | 12.000 | 1,9% | Model Uji Coba + Video | 2,5% | 2,8% | +47,3% |
+| Blus Sutra Premium | 8.500 | 2,2% | Buku Pencarian + Close-up | 3,0% | | |
 | | | | | | | |
 
-## 2. Returns Rate Reduction Calculator
+## 2. Kalkulator Pengurangan Tingkat Pengembalian
 
-One of the largest costs in fashion e-commerce is returns due to sizing/fit errors. Virtual try-on and layout consistency help set correct expectations.
+Salah satu biaya terbesar dalam e-commerce fashion adalah pengembalian karena kesalahan ukuran/kesesuaian. Uji coba virtual dan konsistensi tata letak membantu menetapkan ekspektasi yang benar.
 
-* **Return Rate Formula:** `(Total Returned Units / Total Sold Units) * 100`
+* **Rumus Tingkat Pengembalian:** `(Total Returned Units / Total Sold Units) * 100`
 
-| Test Period | Total Sold Units | Total Returned Units | Fit-Related Returns | Return Rate (%) | Financial Savings ($) |
+| Masa Ujian | Jumlah Unit Terjual | Total Unit yang Dikembalikan | Pengembalian Terkait Fit | Tingkat Pengembalian (%) | Penghematan Finansial ($) |
 |---|---|---|---|---|---|
-| **Before AI Models** | 1,000 | 220 | 150 | 22.0% | Baseline |
-| **After AI Models** | 1,200 | 180 | 90 | 15.0% | $2,800 saved |
+| **Sebelum Model AI** | 1.000 | 220 | 150 | 22,0% | Dasar |
+| **Setelah Model AI** | 1.200 | 180 | 90 | 15,0% | $2,800 dihemat |
 
-## 3. Split-Testing Performance Log
+## 3. Log Kinerja Pengujian Terpisah
 
-* **Variant A (Control):** Ghost mannequin flat-lay shot.
-* **Variant B (Test):** AI model wearing the garment with matching textures and folds.
+* **Varian A (Kontrol):** Tembakan datar manekin hantu.
+* **Varian B (Uji):** Model AI mengenakan pakaian dengan tekstur dan lipatan yang serasi.
 
-| Metric | Variant A | Variant B | Difference (%) | Statistical Signif. |
+| Metrik | Varian A | Varian B | Selisih (%) | Signifikan Statistik. |
 |---|---|---|---|---|
-| Click-Through Rate (CTR) | 2.1% | 3.4% | +61.9% | 99% |
-| Add-to-Cart Rate | 4.5% | 6.8% | +51.1% | 98% |
-| Conversion Rate (CVR) | 1.8% | 2.6% | +44.4% | 97% |
+| Rasio Klik-Tayang (RKT) | 2,1% | 3,4% | +61,9% | 99% |
+| Tarif Tambahkan ke Keranjang | 4,5% | 6,8% | +51,1% | 98% |
+| Tingkat Konversi (CVR) | 1,8% | 2,6% | +44,4% | 97% |

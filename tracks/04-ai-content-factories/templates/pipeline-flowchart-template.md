@@ -1,10 +1,10 @@
-# Production Pipeline Flowchart
+# Diagram Alir Jalur Produksi
 
-Use this flowchart and mapping sheet to audit your factory's production steps. Keep each video's linear flow unidirectional to avoid double-handling assets.
+Gunakan diagram alur dan lembar pemetaan ini untuk mengaudit langkah-langkah produksi pabrik Anda. Pertahankan aliran linier setiap video searah untuk menghindari penanganan ganda aset.
 
 ---
 
-## 1. Linear Pipeline Diagram
+## 1. Diagram Saluran Pipa Linier
 
 ```mermaid
 graph TD
@@ -19,17 +19,17 @@ graph TD
 
 ---
 
-## 2. Pipeline Station Audit
+## 2. Audit Stasiun Saluran Pipa
 
-| Station | Owner / Tool | Inputs Needed | Payout / Output | Target Time |
+| Stasiun | Pemilik / Alat | Masukan yang Dibutuhkan | Pembayaran / Keluaran | Waktu Sasaran |
 |---|---|---|---|:---:|
-| **1. Idea** | LLM / Reddit / Trends | Niche keyword | Title hook & 3 script angles | 5 min |
-| **2. Script** | Claude 3.5 / Script Template | Graded topic | 150-word script text | 10 min |
-| **3. Voice** | ElevenLabs / TTS API | Script text | Edited `.wav`/`.mp3` voice track | 5 min |
-| **4. Logging** | Narration Log Sheet | Audio file | Millisecond cut stamps | 3 min |
-| **5. Visuals** | muapi / Stock / Canvas | Visual descriptions | 5-10 background clips | 15 min |
-| **6. Assembly** | CapCut / Premiere | Audio + Visual files | Rough cut timeline | 10 min |
-| **7. Polish** | Text Captions + LUTs | Rough cut | Polished, captioned master | 10 min |
-| **8. Queue** | Platform Web Uploaders | Master file + SEO description | Scheduled, pending release | 5 min |
+| **1. Ide** | LLM / Reddit / Tren | Kata kunci khusus | Pengait judul & 3 sudut skrip | 5 menit |
+| **2. Skrip** | Claude 3.5 / Templat Skrip | Topik yang dinilai | Teks skrip 150 kata | 10 menit |
+| **3. Suara** | SebelasLabs / TTS API | Teks skrip | Trek suara `.wav`/`.mp3` yang diedit | 5 menit |
+| **4. Pencatatan** | Lembar Log Narasi | Berkas audio | Perangko potong milidetik | 3 menit |
+| **5. Visual** | muapi / Stok / Kanvas | Deskripsi visual | 5-10 klip latar belakang | 15 menit |
+| **6. Perakitan** | CapCut / Tayang Perdana | File Audio + Visual | Garis waktu yang dipotong secara kasar | 10 menit |
+| **7. Polandia** | Keterangan Teks + LUT | Potongan kasar | Master yang dipoles dan diberi teks | 10 menit |
+| **8. Antrian** | Pengunggah Web Platform | File induk + deskripsi SEO | Dijadwalkan, menunggu rilis | 5 menit |
 
-**Total Cumulative Time per Video:** **63 minutes** (Target: Under 60 mins for experienced operators).
+**Total Waktu Kumulatif per Video:** **63 menit** (Target: Di bawah 60 menit untuk operator berpengalaman).

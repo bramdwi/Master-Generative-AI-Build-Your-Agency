@@ -1,127 +1,127 @@
-# Camera Movement & Cinematography Prompts
+# Pergerakan Kamera & Perintah Sinematografi
 
-> Camera movement is the difference between an AI slideshow and a movie.
+> Pergerakan kamera adalah perbedaan antara tayangan slide AI dan film.
 
-**Track:** AI Filmmaking  
-**Time:** ~50 minutes  
-**Prerequisites:** Screenplay & Story Generation, Storyboarding & Shot Planning  
+**Lagu:** Pembuatan Film AI
+**Waktu:** ~50 menit
+**Prasyarat:** Skenario & Pembuatan Cerita, Pembuatan Storyboard & Perencanaan Pengambilan Gambar
 
-## The Problem
+## Masalahnya
 
-Most beginners in AI video generation end up creating what looks like a PowerPoint presentation with slight Ken Burns effects: static characters with wind blowing through their hair, or background dust drifting slightly. 
+Kebanyakan pemula dalam pembuatan video AI akhirnya membuat apa yang tampak seperti presentasi PowerPoint dengan sedikit efek Ken Burns: karakter statis dengan angin bertiup melalui rambutnya, atau debu latar belakang sedikit beterbangan.
 
-If they try to force camera movements by typing generic text like `"the camera moves fast,"` the video models often glitch, morphing the character's body parts or turning the entire background into a liquid smear.
+Jika mereka mencoba memaksakan pergerakan kamera dengan mengetikkan teks umum seperti `"the camera moves fast,"`, model video sering kali mengalami kesalahan, mengubah bagian tubuh karakter atau mengubah seluruh latar belakang menjadi noda cair.
 
-Real cinema relies on deliberate, structured camera movements — dolly shots, pans, tilts, crane movements, and tracking shots. To make your AI film look premium and deliberate, you need to know how to prompt these movements in a way the video generator's neural network actually understands.
+Sinema nyata mengandalkan gerakan kamera yang disengaja dan terstruktur — pengambilan gambar dolly, gerakan menggeser, memiringkan, gerakan derek, dan pengambilan gambar pelacakan. Untuk membuat film AI Anda terlihat premium dan disengaja, Anda perlu mengetahui cara mendorong gerakan ini dengan cara yang benar-benar dipahami oleh jaringan saraf pembuat video.
 
-## The Concept
+## Konsep
 
-Video models don't think like camera operators; they think in terms of pixel displacement and temporal flow. When you write a movement prompt, you are instructing the model on how pixels should slide across the screen from frame to frame.
+Model video tidak berpikir seperti operator kamera; mereka berpikir dalam kaitannya dengan perpindahan piksel dan aliran temporal. Saat Anda menulis perintah gerakan, Anda menginstruksikan model tentang bagaimana piksel harus meluncur melintasi layar dari bingkai ke bingkai.
 
-To control this displacement effectively, you use three tools:
-1. **First-Frame Conditioning (Image-to-Video):** You feed your storyboard frame from Module 2 as the starting point. This locks the framing and composition.
-2. **Cinematography Keywords:** Using precise industry terms (dolly, pan, tilt) instead of vague action words.
-3. **Motion Strength Parameters:** Adjusting the model's velocity settings to control how much the frame changes over time.
+Untuk mengontrol perpindahan ini secara efektif, Anda menggunakan tiga alat:
+1. **Pengkondisian Bingkai Pertama (Gambar-ke-Video):** Anda memasukkan bingkai storyboard dari Modul 2 sebagai titik awal. Ini mengunci pembingkaian dan komposisi.
+2. **Kata Kunci Sinematografi:** Menggunakan istilah industri yang tepat (dolly, pan, tilt) dan bukan kata-kata tindakan yang tidak jelas.
+3. **Parameter Kekuatan Gerakan:** Menyesuaikan pengaturan kecepatan model untuk mengontrol seberapa banyak perubahan bingkai seiring waktu.
 
 ```
 Start Frame (Storyboard) + Camera Direction Prompt + Motion Slider = Cinematic Shot
 ```
 
-For advanced shots, you can use **First and Last Frame Conditioning**, uploading both the starting shot composition and the ending shot composition, forcing the model to generate the transition between them.
+Untuk pengambilan gambar tingkat lanjut, Anda dapat menggunakan **Pengondisian Bingkai Pertama dan Terakhir**, yang mengupload komposisi pengambilan gambar awal dan komposisi pengambilan gambar akhir, sehingga memaksa model untuk menghasilkan transisi di antara keduanya.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Prepare Your Storyboard Start-Frame
-Select the static storyboard image you generated in Module 2. Make sure it is at your target aspect ratio (16:9 or 2.39:1). Upload it to your video generator's image-to-video input interface.
+### Langkah 1: Siapkan Bingkai Awal Storyboard Anda
+Pilih gambar storyboard statis yang Anda buat di Modul 2. Pastikan gambar tersebut sesuai dengan rasio aspek target Anda (16:9 atau 2,39:1). Unggah ke antarmuka input gambar-ke-video generator video Anda.
 
-### Step 2: Formulate the Motion Prompt
-Use the [`templates/motion-prompt-library.md`](templates/motion-prompt-library.md) to choose the camera movement that matches the shot's emotional goal. Add the camera movement phrase to the beginning of your prompt.
-* *Example:* `"Slow dolly in, camera slowly pushes toward the astronaut's face, Arri Alexa cinematic style, 24fps."`
+### Langkah 2: Rumuskan Perintah Gerakan
+Gunakan [`templates/motion-prompt-library.md`](templates/motion-prompt-library.md) untuk memilih pergerakan kamera yang sesuai dengan tujuan emosional pengambilan gambar. Tambahkan frasa pergerakan kamera ke awal perintah Anda.
+* *Contoh:* `"Slow dolly in, camera slowly pushes toward the astronaut's face, Arri Alexa cinematic style, 24fps."`
 
-### Step 3: Set the Motion Strength Slider
-If your generator supports it, adjust the motion strength value:
-* **For dialogue or subtle scenes:** Set strength to **Low (1–3)**. This prevents face warping while allowing subtle blinks and head tilts.
-* **For camera pans, walking, or panning b-roll:** Set strength to **Medium (4–6)**.
-* **For fast action, running, or driving:** Set strength to **High (7–9)**.
+### Langkah 3: Atur Penggeser Kekuatan Gerakan
+Jika generator Anda mendukungnya, sesuaikan nilai kekuatan gerak:
+* **Untuk dialog atau adegan halus:** Atur kekuatan ke **Rendah (1–3)**. Hal ini mencegah wajah melengkung sekaligus memungkinkan kedipan halus dan kepala miring.
+* **Untuk menggeser kamera, berjalan, atau menggeser b-roll:** Atur kekuatan ke **Sedang (4–6)**.
+* **Untuk tindakan cepat, berlari, atau mengemudi:** Atur kekuatan ke **Tinggi (7–9)**.
 
-### Step 4: Render and Review
-Render the 4-second clip. Watch the playback and check for:
-* **The Morphing Zone:** Did the background objects bend? Did the character grow extra fingers or change clothes mid-shot?
-* **Pacing:** Is the camera speed jarring or smooth?
-* If the shot glitches, lower the motion strength slider and re-render. If it is too static, rewrite the prompt to place the camera direction at the very start of the text.
+### Langkah 4: Render dan Tinjau
+Render klip 4 detik. Tonton pemutarannya dan periksa:
+* **Zona Berubah:** Apakah objek latar belakang bengkok? Apakah karakter tersebut menumbuhkan jari ekstra atau berganti pakaian di tengah pengambilan gambar?
+* **Pacing:** Apakah kecepatan kameranya menggelegar atau mulus?
+* Jika bidikannya bermasalah, turunkan penggeser kekuatan gerakan dan render ulang. Jika terlalu statis, tulis ulang perintah untuk menempatkan arah kamera di awal teks.
 
-### Step 5: (Optional) Set Last-Frame Conditioning
-If the action requires a precise end point, upload a second storyboard image to the **Last-Frame Input** box. Write a prompt describing the movement between the two images (e.g. `"Camera pans left from the cockpit window to focus on the radar screen"`).
+### Langkah 5: (Opsional) Atur Pengondisian Bingkai Terakhir
+Jika tindakan memerlukan titik akhir yang tepat, unggah gambar storyboard kedua ke kotak **Input Bingkai Terakhir**. Tulis prompt yang menjelaskan pergerakan antara dua gambar (misalnya `"Camera pans left from the cockpit window to focus on the radar screen"`).
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/astronaut-anchor.jpg" alt="Static Character Anchor Frame" width="320">
-<img src="templates/examples/astronaut-clip.gif" alt="Cinematic Dolly Motion Clip (I2V)" width="320">
+<img src="templates/examples/astronaut-anchor.jpg" alt="Bingkai Jangkar Karakter Statis" width="320">
+<img src="templates/examples/astronaut-clip.gif" alt="Klip Gerakan Dolly Sinematik (I2V)" width="320">
 </p>
 <p align="center"><sub>Static Character Frame (Left) ──► Image-to-Video Dolly Camera Motion (Right) · Video File: <a href="templates/examples/astronaut-clip.mp4">templates/examples/astronaut-clip.mp4</a></sub></p>
 
-**Animating Shot 1.2 from "The Last Signal"**
+**Animasi Bidikan 1.2 dari "The Last Signal"**
 
 
 
-* **Input Image (Start Frame):** The static portrait of the astronaut sitting in the cockpit.
-* **Motion Prompt:**
-  > `"Slow cinematic dolly in, camera pushes past glowing green console panels to focus on the tired eyes of the astronaut. Slow, deliberate motion, photorealistic film grain, 24fps."`
-* **Motion Settings:** Aspect ratio set to `16:9`, duration `5` seconds.
+* **Gambar Masukan (Bingkai Awal):** Potret statis astronot yang duduk di kokpit.
+* **Perintah Gerakan:**
+> __KODE INLINE_0__
+* **Setelan Gerakan:** Rasio aspek disetel ke `16:9`, durasi `5` detik.
 
-**Render Breakdown:**
-* **0.0 - 1.5 seconds:** The camera slowly slides forward. The glowing panels on the left slide out of the frame correctly, creating depth.
-* **1.5 - 3.0 seconds:** The astronaut blinks naturally. The lighting shadows match his face shape as the camera moves closer.
-* **3.0 - 5.0 seconds:** The camera comes to a smooth rest on a tight close-up. The face structure and flight suit remain 100% consistent with the starting storyboard.
+**Perincian Render:**
+* **0,0 - 1,5 detik:** Kamera perlahan bergeser ke depan. Panel bercahaya di sebelah kiri meluncur keluar dari bingkai dengan benar, menciptakan kedalaman.
+* **1,5 - 3,0 detik:** Astronot berkedip secara alami. Bayangan pencahayaan cocok dengan bentuk wajahnya saat kamera mendekat.
+* **3,0 - 5,0 detik:** Kamera berhenti dengan mulus pada close-up yang rapat. Struktur wajah dan setelan penerbangan tetap 100% konsisten dengan storyboard awal.
 
-**Total Cost:** **$0.50** (1x Seedance 2 image-to-video fast API call).
+**Total Biaya:** **$0,50** (1x panggilan API cepat gambar-ke-video Seedance 2).
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Model / Path | Camera Motion Control | Rendering Cost | Best for |
+| Model / Jalur | Kontrol Gerakan Kamera | Biaya Rendering | Terbaik untuk |
 |---|---|---|---|
-| **Seedance 2** (via muapi) | Outstanding character and costume preservation using omni_reference first-frame conditioning. Handles human motion and camera pans smoothly. | ~$0.50 per 5-second clip | Character-focused visual storytelling and narrative filmmaking requiring strict visual continuity. |
-| **Kling 3.0 / Luma Dream Machine** | Excellent camera tracking, supports start-frame conditioning, and handles human micro-expressions naturally. | ~$0.75 - $0.80 per clip | Professional client work requiring high emotional realism. |
-| **Runway Gen-3 Alpha** | Advanced camera brush tools that let you paint direction vectors on the screen. | High (Subscription-based, credits burn fast) | Complex cinematic compositions where prompt text alone isn't enough. |
-| **Local ComfyUI (LTX 2.3 / AnimateDiff)** | High control over motion schedules via node setups, but requires significant setup. | **Free** (after GPU purchase) | Mass-producing b-roll clips, landscape scenes, and experimenting without budget limits. |
+| **Bibit 2** (via muapi) | Pelestarian karakter dan kostum yang luar biasa menggunakan pengkondisian bingkai pertama omni_reference. Menangani gerakan manusia dan gerakan kamera dengan lancar. | ~$0,50 per klip 5 detik | Pengisahan cerita visual dan pembuatan film naratif yang berfokus pada karakter memerlukan kesinambungan visual yang ketat. |
+| **Mesin Impian Kling 3.0 / Luma** | Pelacakan kamera yang luar biasa, mendukung pengondisian bingkai awal, dan menangani ekspresi mikro manusia secara alami. | ~$0,75 - $0,80 per klip | Pekerjaan klien profesional membutuhkan realisme emosional yang tinggi. |
+| **Landasan Pacu Gen-3 Alpha** | Alat kuas kamera canggih yang memungkinkan Anda melukis vektor arah di layar. | Tinggi (Berbasis langganan, pulsa cepat habis) | Komposisi sinematik yang kompleks dimana teks cepat saja tidak cukup. |
+| **UI Nyaman Lokal (LTX 2.3 / AnimateDiff)** | Kontrol tinggi atas jadwal pergerakan melalui pengaturan node, tetapi memerlukan pengaturan yang signifikan. | **Gratis** (setelah pembelian GPU) | Klip b-roll yang diproduksi secara massal, pemandangan lanskap, dan bereksperimen tanpa batasan anggaran. |
 
-For character-focused scenes, API-based models like Seedance 2 are the standard due to their ability to lock character features. For atmospheric b-roll (clouds moving, space stars passing, water rippling), local models like LTX 2.3 inside ComfyUI are highly cost-effective since they require less character consistency.
-
----
-
-## Launch It
-
-**How to monetize this skill:**
-* **B-Roll Stock Library:** Generate high-quality cinematic camera moves (e.g. drone tracking shots of futuristic cities, slow macro pans of textures, volumetric light rays in abandoned houses) and package them as stock video libraries. Sell them on stock marketplaces (Adobe Stock, Shutterstock) or directly on Gumroad for **$15–$30** per pack.
-* **Camera Movement Presets / Prompt Packs:** Package your tested camera prompts into copy-paste libraries tailored for specific video generators. Sell these packs to other AI creators for **$10–$25** on Whop or Gumroad.
-
-**Where to find buyers:**
-Stock websites, indie game developers needing environmental clips, and other AI creators.
+Untuk adegan yang berfokus pada karakter, model berbasis API seperti Seedance 2 adalah standarnya karena kemampuannya mengunci fitur karakter. Untuk b-roll atmosfer (awan bergerak, bintang luar angkasa melintas, riak air), model lokal seperti LTX 2.3 di dalam ComfyUI sangat hemat biaya karena memerlukan lebih sedikit konsistensi karakter.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Take a static landscape image and generate a 4-second video clip using three different motion prompts: (1) pan left, (2) tilt up, and (3) dolly zoom. Note the difference in pixel warping.
-2. **Medium:** Generate a character close-up shot using a storyboard start-frame. Experiment with motion strength sliders: render one at strength 2, one at strength 5, and one at strength 8. Log the point where facial features begin to break down.
-3. **Hard:** Produce a scene transition using first-frame and last-frame conditioning. Lock the first frame as an indoor shot and the last frame as an outdoor shot, creating a continuous camera pass through a door.
+**Cara memonetisasi keterampilan ini:**
+* **Perpustakaan Stok B-Roll:** Menghasilkan gerakan kamera sinematik berkualitas tinggi (misalnya, bidikan pelacakan drone kota-kota futuristik, tekstur makro lambat, sinar cahaya volumetrik di rumah-rumah yang ditinggalkan) dan mengemasnya sebagai perpustakaan video stok. Jual di pasar saham (Adobe Stock, Shutterstock) atau langsung di Gumroad seharga **$15–$30** per bungkus.
+* **Preset Pergerakan Kamera / Paket Prompt:** Kemas perintah kamera Anda yang telah diuji ke dalam perpustakaan salin-tempel yang disesuaikan untuk generator video tertentu. Jual paket ini ke pembuat AI lainnya seharga **$10–$25** di Whop atau Gumroad.
 
----
-
-## Templates
-
-Reusable template(s) this module produces:
-
-* [`templates/motion-prompt-library.md`](templates/motion-prompt-library.md) — a library of camera movement phrasing.
-* [`templates/cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md) — a reference sheet for visual layout terminology.
+**Di mana menemukan pembeli:**
+Situs stok, pengembang game indie yang membutuhkan klip lingkungan, dan pembuat AI lainnya.
 
 ---
 
-[← Storyboarding & Shot Planning](02-storyboarding-and-shots.md) · Next: [Assembling a Short Film →](04-assembling-short-film.md)
+## Latihan
+
+1. **Mudah:** Ambil gambar lanskap statis dan buat klip video berdurasi 4 detik menggunakan tiga petunjuk gerakan berbeda: (1) menggeser ke kiri, (2) memiringkan ke atas, dan (3) dolly zoom. Perhatikan perbedaan dalam pembengkokan piksel.
+2. **Medium:** Menghasilkan gambar close-up karakter menggunakan bingkai awal storyboard. Bereksperimenlah dengan penggeser kekuatan gerakan: render satu dengan kekuatan 2, satu dengan kekuatan 5, dan satu lagi dengan kekuatan 8. Catat titik di mana fitur wajah mulai rusak.
+3. **Sulit:** Menghasilkan transisi adegan menggunakan pengkondisian bingkai pertama dan bingkai terakhir. Kunci frame pertama sebagai bidikan di dalam ruangan dan frame terakhir sebagai bidikan di luar ruangan, sehingga menciptakan kamera kontinu melewati pintu.
+
+---
+
+## Templat
+
+Templat yang dapat digunakan kembali yang dihasilkan modul ini:
+
+* [`templates/motion-prompt-library.md`](templates/motion-prompt-library.md) — perpustakaan frasa pergerakan kamera.
+* [`templates/cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md) — lembar referensi untuk terminologi tata letak visual.
+
+---
+
+[← Storyboarding & Shot Planning](02-storyboarding-and-shots.md) · Berikutnya: [Assembling a Short Film →](04-assembling-short-film.md)

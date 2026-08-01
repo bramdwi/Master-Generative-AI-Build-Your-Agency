@@ -1,10 +1,10 @@
-# Batch Catalog Processing Spec
+# Spesifikasi Pemrosesan Katalog Batch
 
-Use this specification log to organize, track, and scale batch catalog generation for e-commerce catalogs.
+Gunakan log spesifikasi ini untuk mengatur, melacak, dan menskalakan pembuatan katalog batch untuk katalog e-commerce.
 
-## 1. Directory Structure Blueprint
+## 1. Cetak Biru Struktur Direktori
 
-Configure your project folders:
+Konfigurasikan folder proyek Anda:
 ```
 [project-root]/
 ├── 01_raw_assets/        # Raw product photo uploads
@@ -14,19 +14,19 @@ Configure your project folders:
 └── 05_final_deliver/     # Color-graded, scaled final WebP assets
 ```
 
-## 2. Bounding Box & Aspect Ratio Mapping
+## 2. Pemetaan Kotak Batas & Rasio Aspek
 
-For consistent layouts, define standard padding sizes inside the frame:
-* **Amazon Hero standard:** Square format (1:1), product occupies exactly **85%** of frame height.
-* **Shopify / WooCommerce gallery standard:** Vertical format (4:5), product centered with **10%** bottom padding.
+Untuk tata letak yang konsisten, tentukan ukuran padding standar di dalam bingkai:
+* **Standar Amazon Hero:** Format persegi (1:1), produk menempati tepat **85%** tinggi bingkai.
+* **Standar galeri Shopify / WooCommerce:** Format vertikal (4:5), produk terpusat dengan **10%** padding bawah.
 
-## 3. Bulk Processing Log
+## 3. Log Pemrosesan Massal
 
-Track generations across large catalogs:
+Lacak generasi di seluruh katalog besar:
 
-| Product SKU | Raw File Path | Isolated Mask Status | Target Backdrop Prompt ID | Composite Render Status | QC Status | Export Path |
+| SKU Produk | Jalur File Mentah | Status Masker Terisolasi | ID Permintaan Latar Belakang Target | Status Render Komposit | Status QC | Jalur Ekspor |
 |---|---|:---:|:---:|:---:|:---:|---|
-| SKU-BOT-01 | `01_raw/bot_01.jpg` | ✅ Done | BGD-TRAVERTINE-01 | ✅ Done | ✅ Pass | `05_final/sku_bot_01.webp` |
-| SKU-BOT-02 | `01_raw/bot_02.jpg` | ✅ Done | BGD-TRAVERTINE-01 | ✅ Done | ✅ Pass | `05_final/sku_bot_02.webp` |
-| SKU-JAR-01 | `01_raw/jar_01.jpg` | ❌ Pending | BGD-MARBLE-02 | ⬜ Out of sync | ⬜ Fail | |
+| SKU-BOT-01 | __KODE INLINE_0__ | ✅ Selesai | BGD-TRAVERTIN-01 | ✅ Selesai | ✅ Lulus | __KODE INLINE_1__ |
+| SKU-BOT-02 | __KODE INLINE_0__ | ✅ Selesai | BGD-TRAVERTIN-01 | ✅ Selesai | ✅ Lulus | __KODE INLINE_1__ |
+| SKU-JAR-01 | __KODE INLINE_0__ | ❌ Tertunda | BGD-MARMER-02 | ⬜ Tidak sinkron | ⬜ Gagal | |
 | | | | | | | |

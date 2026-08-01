@@ -1,41 +1,41 @@
-# Batch Headshots & Bulk Automation for Remote Teams
+# Headshot Batch & Otomatisasi Massal untuk Tim Jarak Jauh
 
-> Scale from individual portraits to processing 50+ remote employee headshots in a single automated batch run.
+> Skalakan mulai dari potret individu hingga pemrosesan 50+ foto wajah karyawan jarak jauh dalam satu proses batch otomatis.
 
-**Track:** AI Headshots & Portraits  
-**Time:** ~40 minutes  
-**Prerequisites:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)  
+**Lagu:** Foto & Potret AI
+**Waktu:** ~40 menit
+**Prasyarat:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)
 
-## The Problem
+## Masalahnya
 
-When scaling your headshot agency to handle enterprise clients, manual processing becomes a bottleneck. A company with **50 remote employees** across 6 countries sends you 150+ raw selfies.
+Saat menskalakan agensi foto Anda untuk menangani klien perusahaan, pemrosesan manual menjadi hambatan. Sebuah perusahaan dengan **50 karyawan jarak jauh** di 6 negara mengirimi Anda 150+ foto selfie mentah.
 
-If you open each selfie in an editor, manually type prompts, run inference one-by-one, and organize folders individually, processing 50 employees takes **over 12 hours of repetitive manual work**.
+Jika Anda membuka setiap selfie di editor, mengetik perintah secara manual, menjalankan inferensi satu per satu, dan mengatur folder satu per satu, memproses 50 karyawan memerlukan **lebih dari 12 jam pekerjaan manual yang berulang**.
 
-To service high-ticket corporate contracts efficiently, you need an automated **Bulk CSV Ingestion & Batch Rendering Pipeline**.
+Untuk melayani kontrak korporat bernilai tinggi secara efisien, Anda memerlukan **Penyerapan CSV Massal & Saluran Rendering Batch**.
 
 ---
 
-## The Concept
+## Konsep
 
-The **Batch Headshot Automation Pipeline** processes multi-employee rosters systematically:
+**Pipa Otomasi Headshot Batch** memproses daftar nama multi-karyawan secara sistematis:
 
 ```
 CSV Roster + Selfie Directory ──► Automated Identity Vector Extraction ──► Batch Inpainting & Background Sync ──► Auto-Folder Zip Generation
 ```
 
-### Core Automation Pillars:
+### Pilar Otomasi Inti:
 
-1. **Batch CSV Roster Ingestion:** Reading a master CSV file (`employee_id, full_name, role, dress_code, selfie_path`).
-2. **Automated Facial Alignment & Pre-Cropping:** Running face-detection scripts (OpenCV / MediaPipe) to auto-crop selfies to a standardized square aspect ratio before feeding them to identity models.
-3. **Unified Brand Background Injections:** Pre-loading a fixed corporate background asset (e.g., modern glass office or studio grey gradient) across all 50 renders so every team member shares an identical background composition.
+1. **Penyerapan Daftar Nama CSV Batch:** Membaca file CSV master (`employee_id, full_name, role, dress_code, selfie_path`).
+2. **Penyelarasan Wajah & Pra-Pemotongan Otomatis:** Menjalankan skrip deteksi wajah (OpenCV / MediaPipe) untuk memotong selfie secara otomatis ke rasio aspek persegi standar sebelum memasukkannya ke model identitas.
+3. **Injeksi Latar Belakang Merek Terpadu:** Memuat terlebih dahulu aset latar belakang perusahaan yang tetap (misalnya, kantor kaca modern atau gradien abu-abu studio) di seluruh 50 render sehingga setiap anggota tim berbagi komposisi latar belakang yang identik.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Prepare the Master Employee Roster CSV
-Open [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md). Create a batch input CSV file `team_roster.csv`:
+### Langkah 1: Siapkan CSV Daftar Karyawan Utama
+Buka [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md). Buat file CSV masukan batch `team_roster.csv`:
 
 ```csv
 EmployeeID,FullName,Title,DressCode,SelfieFile
@@ -44,65 +44,65 @@ EMP002,Sarah Jenkins,Lead Designer,Creative Blazer,selfies/sarah_j.jpg
 EMP003,Alex Rivera,Senior Developer,Tech Sweater,selfies/alex_r.jpg
 ```
 
-### Step 2: Run Batch Face-Detection & Auto-Cropping
-Run a Python pre-processing script to detect face bounding boxes in `selfies/`, auto-cropping each image with a 35% margin above the head and 1:1 aspect ratio.
+### Langkah 2: Jalankan Deteksi Wajah Batch & Pemotongan Otomatis
+Jalankan skrip pra-pemrosesan Python untuk mendeteksi kotak pembatas wajah di `selfies/`, potong otomatis setiap gambar dengan margin 35% di atas kepala dan rasio aspek 1:1.
 
-### Step 3: Execute Batch Inference via API Loop
-Run your batch script calling muapi `/nano-banana-2` (or InstantID endpoint) in a loop, passing each employee's identity vector and target dress code prompt while locking the corporate background seed.
+### Langkah 3: Jalankan Inferensi Batch melalui API Loop
+Jalankan skrip batch Anda yang memanggil muapi `/nano-banana-2` (atau titik akhir InstantID) dalam satu lingkaran, meneruskan vektor identitas setiap karyawan dan perintah kode berpakaian target sambil mengunci benih latar belakang perusahaan.
 
-### Step 4: Auto-Package into Client Zip Bundles
-Generate employee subfolders containing `[FullName]_linkedin.jpg` (1080x1080px) and `[FullName]_website.jpg` (2400x3000px). Compress all folders into a master client deliverable `Apex_Financial_Team_Headshots.zip`.
+### Langkah 4: Paket Otomatis ke dalam Paket Zip Klien
+Buat subfolder karyawan yang berisi `[FullName]_linkedin.jpg` (1080x1080px) dan `[FullName]_website.jpg` (2400x3000px). Kompres semua folder ke dalam pengiriman klien master `Apex_Financial_Team_Headshots.zip`.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
 <img src="templates/examples/corporate-executive-headshot.jpg" alt="Batch Processed Corporate Headshot" width="320">
 </p>
 <p align="center"><sub>Batch Processed Corporate Team Asset (Unified Brand Background & Studio Lighting)</sub></p>
 
-**Batch Processing Performance for "Summit Cloud Systems" (42 Employees)**
+**Kinerja Pemrosesan Batch untuk "Summit Cloud Systems" (42 Karyawan)**
 
-* **Input:** 42 employee selfies uploaded via self-serve intake portal.
-* **Batch Processing Time:** 18 minutes automated script execution.
-* **Deliverable:** 42 organized employee folders with 3 high-res renders each (126 total image files).
-* **Labor Time:** 12 minutes setup & quality review (vs. 10+ hours manual labor).
-* **Contract Revenue:** **$840.00** ($20/person).
-* **API Compute Cost:** **$2.52** total credit cost.
+* **Masukan:** 42 foto selfie karyawan yang diunggah melalui portal penerimaan layanan mandiri.
+* **Waktu Pemrosesan Batch:** 18 menit eksekusi skrip otomatis.
+* **Yang Dapat Dikirim:** 42 folder karyawan terorganisir dengan masing-masing 3 render resolusi tinggi (total 126 file gambar).
+* **Waktu Kerja:** 12 menit penyiapan & peninjauan kualitas (vs. 10+ jam kerja manual).
+* **Pendapatan Kontrak:** **$840,00** ($20/orang).
+* **Biaya Komputasi API:** **$2,52** total biaya kredit.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Automation Capability | Identity Consistency | Best For |
+| Platform / Alat | Kemampuan Otomasi | Konsistensi Identitas | Terbaik Untuk |
 |---|---|---|---|
-| **muapi Batch API + Python** | Ultra-High (Folder-wide script execution, auto-zip output) | High (InstantID vector embedding per employee) | High-volume corporate team contracts (25–100+ employees) |
-| **InstantID / FLUX PuLID (local)** | Medium (Manual batch queue via ComfyUI) | Maximum (Highest identity fidelity) | Premium executive packages where top-tier accuracy is critical |
-| **Typeform + Zapier Automation** | High (Auto-routes intake form submissions to processing queue) | N/A | Client-facing intake portals for self-serve employee photo uploads |
+| **API Batch muapi + Python** | Ultra-Tinggi (Eksekusi skrip seluruh folder, keluaran zip otomatis) | Tinggi (penyematan vektor ID Instan per karyawan) | Kontrak tim perusahaan bervolume tinggi (25–100+ karyawan) |
+| **InstanID / FLUX PuLID (lokal)** | Sedang (Antrian batch manual melalui ComfyUI) | Maksimum (Kesetiaan identitas tertinggi) | Paket eksekutif premium yang mengutamakan akurasi tingkat atas |
+| **Typeform + Otomatisasi Zapier** | Tinggi (Pengiriman formulir penerimaan rute otomatis ke antrian pemrosesan) | T/A | Portal penerimaan yang menghadap klien untuk unggahan foto karyawan swalayan |
 
 ---
 
-## Launch It
+## Luncurkan
 
-**Pricing for batch corporate packages:**
-* **Per-Seat Add-On Rate:** Charge **$20 – $25 per additional employee** beyond the base package tier (e.g., a 35-person team on the $799 Corporate Standard package: 25 included + 10 add-ons × $20 = **$999 total**).
-* **Automate Quality Audits:** Write a quick script to check output resolution and file size automatically before zipping, ensuring no corrupt or under-sized renders are sent to the client.
-
----
-
-## Exercises
-
-1. **Easy:** Create a CSV roster file for 5 hypothetical employees with names, titles, and dress code tags.
-2. **Medium:** Write a Python script to auto-crop 5 selfies to 1:1 aspect ratio centered on face landmarks.
-3. **Hard:** Run a batch script generating 5 employee headshots with a unified studio background.
+**Harga untuk paket perusahaan batch:**
+* **Tarif Tambahan Per Kursi:** Biaya **$20 – $25 per karyawan tambahan** di luar tingkat paket dasar (misalnya, tim beranggotakan 35 orang pada paket Standar Perusahaan $799: termasuk 25 orang + 10 tambahan × $20 = **total $999**).
+* **Otomatiskan Audit Kualitas:** Tulis skrip cepat untuk memeriksa resolusi output dan ukuran file secara otomatis sebelum membuat zip, untuk memastikan tidak ada render yang rusak atau berukuran terlalu kecil yang dikirim ke klien.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Batch CSV schemas, automated folder naming standards, and team packaging guides.
+1. **Mudah:** Buat file daftar nama CSV untuk 5 karyawan hipotetis dengan nama, jabatan, dan tag kode berpakaian.
+2. **Sedang:** Tulis skrip Python untuk memotong otomatis 5 selfie ke rasio aspek 1:1 yang berpusat pada landmark wajah.
+3. **Sulit:** Jalankan skrip batch yang menghasilkan 5 foto karyawan dengan latar belakang studio terpadu.
 
 ---
 
-[← Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md) · Next: [Creative Headshots & Stylized Portraits →](04-creative-headshots-and-stylized-portraits.md)
+## Templat
+
+* [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Skema CSV batch, standar penamaan folder otomatis, dan panduan pengemasan tim.
+
+---
+
+[← Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md) · Berikutnya: [Creative Headshots & Stylized Portraits →](04-creative-headshots-and-stylized-portraits.md)

@@ -1,111 +1,111 @@
-# Singing Voice Conversion & Vocal Synthesis
+# Konversi Suara Bernyanyi & Sintesis Vokal
 
-> Synthesize the melody, clone the artist.
+> Sintesiskan melodi, tiru artisnya.
 
-**Track:** AI Audio & Music  
-**Time:** ~30 minutes  
-**Prerequisites:** Voice Cloning & TTS Basics  
+**Lagu:** AI Audio & Musik
+**Waktu:** ~30 menit
+**Prasyarat:** Kloning Suara & Dasar-dasar TTS
 
-## The Problem
+## Masalahnya
 
-You want to produce a custom theme song, a musical ad, or a parody intro track for a client, but you cannot sing. Hiring professional studio vocalists for one-off projects is expensive, and trying to sing the vocals yourself results in pitch errors or ranges your voice cannot hit.
+Anda ingin membuat lagu tema khusus, iklan musik, atau lagu intro parodi untuk klien, namun Anda tidak bisa menyanyi. Mempekerjakan vokalis studio profesional untuk proyek satu kali itu mahal, dan mencoba menyanyikan vokal sendiri akan mengakibatkan kesalahan nada atau rentang yang tidak dapat dicapai oleh suara Anda.
 
-Standard Text-to-Speech (TTS) models cannot sing. If you feed them lyrics, they will read them like a boring lecture, with zero rhythm, melody, or timing.
+Model Text-to-Speech (TTS) standar tidak dapat bernyanyi. Jika Anda memberi mereka lirik, mereka akan membacanya seperti ceramah yang membosankan, tanpa ritme, melodi, atau pengaturan waktu.
 
-To produce musical content without singing, you need to implement a **Singing Voice Conversion (SVC)** pipeline — a tool that takes your voice as input and outputs the same melody sung in a completely different vocal timbre (voice quality). This technology allows you to record a basic "guide vocal" (even if you sing poorly or speak in rhythm) and convert the vocal timbre into the singing voice of a professional model, preserving the original pitch, timing, and melody.
+Untuk menghasilkan konten musik tanpa nyanyian, Anda perlu menerapkan alur **Konversi Suara Bernyanyi (SVC)** — alat yang mengambil suara Anda sebagai masukan dan keluaran melodi yang sama yang dinyanyikan dalam timbre vokal (kualitas suara) yang sangat berbeda. Teknologi ini memungkinkan Anda merekam "vokal pemandu" dasar (meskipun Anda bernyanyi dengan buruk atau berbicara sesuai ritme) dan mengubah timbre vokal menjadi suara nyanyian model profesional, sambil mempertahankan nada, waktu, dan melodi asli.
 
-## The Concept
+## Konsep
 
-The vocal synthesis pipeline relies on **Retrieval-based Voice Conversion (RVC)** — a technique that looks up a target singer's voice characteristics from a trained model and projects them onto your guide vocal — combined with **Timbre Transfer** (swapping the unique "colour" of a voice while keeping its pitch and timing intact):
+Alur sintesis vokal bergantung pada **Retrieval-based Voice Conversion (RVC)** — sebuah teknik yang mencari karakteristik suara penyanyi target dari model terlatih dan memproyeksikannya ke vokal pemandu Anda — dikombinasikan dengan **Timbre Transfer** (menukar "warna" unik sebuah suara sambil menjaga nada dan timingnya tetap utuh):
 
 ```
 Source Guide Vocal  ──►  Pitch Correction (Auto-Tune)  ──►  RVC Timbre Transfer  ──►  Target Singing Master
 ```
 
-* **Voice-to-Voice Conversion:** Unlike text-to-speech, voice-to-voice takes an audio input. It ignores the *text* of the words and analyzes the *pitch* (fundamental frequency) and *volume* envelope. It then swaps the vocal cords (timbre signature) of the source speaker with the target model.
-* **Acapella Extraction:** The source guide vocal must be dry and isolated — meaning just your voice with no background music playing. For example, if you record yourself singing while a piano track is playing in the room, the converter will try to convert those piano notes into singing voices too, creating jarring digital screeches. Record your guide vocal in silence, then layer the music back in afterwards.
-* **Transposition (Pitch Shift):** If you are a male editor recording a guide vocal for a female avatar, you must transpose the pitch up by **+12 semitones** (one full octave) so the model can process the vocals inside the target singer's natural pitch range. Configure these parameters inside the [`templates/vocal-conversion-brief.md`](templates/vocal-conversion-brief.md).
+* **Konversi Suara-ke-Suara:** Tidak seperti teks-ke-ucapan, suara-ke-suara memerlukan masukan audio. Ini mengabaikan *teks* kata-kata dan menganalisis *nada* (frekuensi dasar) dan *volume* amplop. Kemudian menukar pita suara (tanda tangan timbre) dari pembicara sumber dengan model target.
+* **Ekstraksi Acapella:** Vokal pemandu sumber harus kering dan terisolasi — artinya hanya suara Anda tanpa musik latar yang diputar. Misalnya, jika Anda merekam diri Anda bernyanyi saat trek piano diputar di dalam ruangan, konverter juga akan mencoba mengubah nada piano tersebut menjadi suara nyanyian, sehingga menghasilkan pekikan digital yang menggelegar. Rekam vokal pemandu Anda dalam keheningan, lalu masukkan kembali musiknya setelahnya.
+* **Transposisi (Pergeseran Pitch):** Jika Anda seorang editor pria yang merekam vokal pemandu untuk avatar wanita, Anda harus mengubah posisi nada sebanyak **+12 seminada** (satu oktaf penuh) sehingga model dapat memproses vokal dalam rentang nada alami penyanyi target. Konfigurasikan parameter ini di dalam [`templates/vocal-conversion-brief.md`](templates/vocal-conversion-brief.md).
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Prep Your Guide Vocal
-Record a dry vocal track singing the lyrics. Don't worry if your voice sounds flat. Import the track into your editor. Apply a pitch correction tool (such as GSnap or Auto-Tune) to snap the vocal notes to the correct musical key. Save the clean track as `guide_vocal.wav`.
+### Langkah 1: Siapkan Vokal Panduan Anda
+Rekam trek vokal kering yang menyanyikan liriknya. Jangan khawatir jika suara Anda terdengar datar. Impor trek ke editor Anda. Terapkan alat koreksi nada (seperti GSnap atau Auto-Tune) untuk memasukkan not vokal ke kunci musik yang benar. Simpan trek bersih sebagai `guide_vocal.wav`.
 
-### Step 2: Configure the Conversion Model
-Open your RVC interface (or call the `/voice-to-voice` API). Upload `guide_vocal.wav`.
-* **Select Target Model:** Choose the vocal model corresponding to your character (e.g. `emma_singing_v2`).
-* **Transpose:** Set pitch shift. If male guide -> female target: set to **+12 semitones**. If female guide -> male target: set to **-12 semitones**.
+### Langkah 2: Konfigurasikan Model Konversi
+Buka antarmuka RVC Anda (atau hubungi `/voice-to-voice` API). Unggah `guide_vocal.wav`.
+* **Pilih Model Target:** Pilih model vokal yang sesuai dengan karakter Anda (misalnya `emma_singing_v2`).
+* **Transposisi:** Menyetel pergeseran nada. Jika panduan pria -> target wanita: setel ke **+12 seminada**. Jika panduan wanita -> target pria: setel ke **-12 seminada**.
 
-### Step 3: Configure Retrieval Settings
-Experiment with these parameters:
-* **Feature Retrieval Index Rate (Target: 0.65 - 0.70):** Controls how much of the target model's character is projected. If set too high (e.g. 0.90), it will sound robotic; if set too low (e.g. 0.40), it will retain too much of the original guide singer's tone.
-* **Consonant Protection (Target: 0.33):** Protects the voiceless consonants ("s", "t", "sh") to prevent them from sounding like digital static.
+### Langkah 3: Konfigurasikan Pengaturan Pengambilan
+Bereksperimenlah dengan parameter berikut:
+* **Tingkat Indeks Pengambilan Fitur (Target: 0,65 - 0,70):** Mengontrol seberapa banyak karakter model target yang diproyeksikan. Jika diatur terlalu tinggi (misalnya 0,90), maka akan terdengar seperti robot; jika disetel terlalu rendah (misalnya 0,40), nada penyanyi pemandu aslinya akan terlalu banyak dipertahankan.
+* **Perlindungan Konsonan (Target: 0.33):** Melindungi konsonan tak bersuara ("s", "t", "sh") agar tidak terdengar seperti suara statis digital.
 
-### Step 4: Run the Timbre Transfer
-Click convert to compile the track. Download the output `.wav` file.
+### Langkah 4: Jalankan Transfer Timbre
+Klik convert untuk mengkompilasi trek. Unduh file keluaran `.wav`.
 
-### Step 5: Clean and Mix the Final Vocal
-Import the converted singing track back into your audio editor. Add a subtle plate reverb and a stereo delay to make the vocals blend into the instrumental background music track. Limit the vocal peak level to -3dB.
+### Langkah 5: Bersihkan dan Campur Vokal Akhir
+Impor trek nyanyian yang dikonversi kembali ke editor audio Anda. Tambahkan reverb pelat halus dan penundaan stereo untuk membuat vokal menyatu dengan trek musik latar instrumental. Batasi tingkat puncak vokal hingga -3dB.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/singing-vocal-studio.jpg" alt="Singing Vocal Studio" width="280">
+<img src="templates/examples/singing-vocal-studio.jpg" alt="Studio Vokal Bernyanyi" width="280">
 <img src="templates/examples/singing-vocal-studio-clip.gif" alt="Vocal Studio Motion (I2V)" width="280">
 </p>
 <p align="center"><sub>Singing Studio Image (Left) ──► Image-to-Video Studio Bokeh Motion (Right) · Video File: <a href="templates/examples/singing-vocal-studio-clip.mp4">templates/examples/singing-vocal-studio-clip.mp4</a></sub></p>
 
-**Creating a Theme Song Vocal (Male Guide to Emma Avatar)**
+**Membuat Vokal Lagu Tema (Panduan Pria Avatar Emma)**
 
 
 
-* **Guide Recording:** A male editor recorded a basic guide vocal singing: *"Automate your SaaS..."* in key. Pitch correction snapped the notes to C-Major.
-* **RVC Setup:**
-  * Target Model: `emma_singing_v2` (female).
-  * Pitch Shift: **+12 semitones** (to shift male range to female octave).
-  * Index Rate: **0.68**.
-* **Audio Synthesis:** Converted file outputted a clean, on-pitch female vocal singing the melody with Emma's voice timbre.
-* **Mixing Station:** Vocal track mixed with lofi backing track, reverb set to 15% wet, mastered to -16 LUFS.
+* **Rekaman Panduan:** Seorang editor pria merekam nyanyian vokal panduan dasar: *"Otomatiskan SaaS Anda..."* dalam kuncinya. Koreksi nada mengubah nada menjadi C-Major.
+* **Pengaturan RVC:**
+* Model Sasaran: `emma_singing_v2` (perempuan).
+* Pergeseran Pitch: **+12 seminada** (untuk menggeser rentang pria ke oktaf wanita).
+* Nilai Indeks: **0,68**.
+* **Sintesis Audio:** File yang dikonversi menghasilkan vokal wanita yang bersih dan menyanyikan melodi dengan timbre suara Emma.
+* **Mixing Station:** Trek vokal dicampur dengan backing track lofi, reverb disetel ke 15% basah, dikuasai hingga -16 LUFS.
 
-**The Result:** The avatar has a custom theme song. The singing voice is on-pitch, natural, and matches the visual character profile perfectly.
+**Hasilnya:** Avatar memiliki lagu tema khusus. Suara nyanyiannya on-pitch, natural, dan sangat cocok dengan profil karakter visual.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Conversion Quality | Payout / Credit Cost | Setup Effort |
+| Platform / Alat | Kualitas Konversi | Pembayaran / Biaya Kredit | Upaya Pengaturan |
 |---|---|---|---|
-| **Retrieval-based Voice Conversion (RVC)** | High (Excellent for stylized singing and quick conversions) | **Free** (runs locally on GPU) | Medium (Requires running WebUI script) |
-| **ElevenLabs Voice-to-Voice** | Ultra-High (Preserves complex vocal inflections and breaths) | High (Billed per character generated) | Low (Simple web dashboard) |
-| **So-Vits-SVC 4.0** | Ultra-High | Free | High (Complex Python training pipeline) |
+| **Konversi Suara Berbasis Pengambilan (RVC)** | Tinggi (Sangat baik untuk nyanyian bergaya dan konversi cepat) | **Gratis** (berjalan secara lokal di GPU) | Sedang (Memerlukan skrip WebUI yang berjalan) |
+| **Suara-ke-Suara ElevenLabs** | Ultra-Tinggi (Mempertahankan infleksi vokal dan napas yang kompleks) | Tinggi (Ditagih per karakter yang dihasilkan) | Rendah (Dasbor web sederhana) |
+| **Jadi-Vits-SVC 4.0** | Sangat Tinggi | Gratis | Tinggi (Pipa pelatihan Python kompleks) |
 
-For fast, cost-effective content creation, running RVC v2 on a local GPU is the standard method. It allows you to convert multiple tracks with zero API credit costs. For maximum vocal realism and breathing integration, ElevenLabs Voice-to-Voice provides the highest fidelity.
-
----
-
-## Launch It
-
-**How to manage copyrights:**
-* **Use open voice models:** Never use RVC models trained on famous pop stars (like Drake or Ariana Grande) for commercial client projects or monetized channels. Platforms are actively removing these tracks, and you can face copyright lawsuits.
-* **Train custom singing models:** Have a local singer record 20 minutes of scales and songs, train a custom model, and lock the IP ownership of that voice for your agency.
+Untuk pembuatan konten yang cepat dan hemat biaya, menjalankan RVC v2 pada GPU lokal adalah metode standarnya. Ini memungkinkan Anda mengonversi beberapa trek tanpa biaya kredit API. Untuk realisme vokal maksimum dan integrasi pernapasan, ElevenLabs Voice-to-Voice memberikan fidelitas tertinggi.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Record a 10-second guide track of yourself speaking in a rhythmic, sing-song voice.
-2. **Medium:** Submit your guide track to a voice-to-voice converter with a pitch shift of +12 semitones. Analyze the octave shift.
-3. **Hard:** Produce a complete 15-second vocal loop. Extract the acapella guide, run auto-tune, convert the timbre using RVC, apply delay and reverb, and mix it back over an instrumental loop.
+**Cara mengelola hak cipta:**
+* **Gunakan model suara terbuka:** Jangan pernah menggunakan model RVC yang dilatih pada bintang pop terkenal (seperti Drake atau Ariana Grande) untuk proyek klien komersial atau saluran yang dimonetisasi. Platform secara aktif menghapus jejak ini, dan Anda dapat menghadapi tuntutan hukum hak cipta.
+* **Latih model nyanyian khusus:** Minta penyanyi lokal merekam tangga nada dan lagu berdurasi 20 menit, latih model khusus, dan kunci kepemilikan IP suara tersebut untuk agensi Anda.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/vocal-conversion-brief.md`](templates/vocal-conversion-brief.md) — acapella preparation checklists, transposition charts, and retrieval logs.
+1. **Mudah:** Rekam trek panduan 10 detik tentang diri Anda yang berbicara dengan suara nyanyian yang berirama.
+2. **Sedang:** Kirimkan trek panduan Anda ke konverter suara-ke-suara dengan pergeseran nada +12 seminada. Analisis pergeseran oktaf.
+3. **Sulit:** Menghasilkan loop vokal lengkap selama 15 detik. Ekstrak panduan acapella, jalankan auto-tune, ubah timbre menggunakan RVC, terapkan penundaan dan reverb, dan gabungkan kembali dalam loop instrumental.
+
+---
+
+## Templat
+
+* [`templates/vocal-conversion-brief.md`](templates/vocal-conversion-brief.md) — daftar periksa persiapan acapella, bagan transposisi, dan log pengambilan.
 
 ---
 

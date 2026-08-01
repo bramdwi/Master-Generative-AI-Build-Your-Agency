@@ -1,46 +1,46 @@
-# Productized Service Offer Template
+# Templat Penawaran Layanan yang Diproduksi
 
-Use this template to package, price, and sell AI product photography retainers to brands.
+Gunakan templat ini untuk mengemas, memberi harga, dan menjual pengikut fotografi produk AI kepada merek.
 
-## 1. Service Packages
+## 1. Paket Layanan
 
-### Package A: Listing Launch Pack
-* **Deliverables:**
-  * 1 x Hero Image (White Background / Studio Shadow)
-  * 3 x Creative Backdrop Scenes (Bathroom, marble block, marble vanity)
-  * 2 x Info-graphic overlays (Key benefits)
-* **Pricing:** $499 one-time payment.
+### Paket A: Daftar Paket Peluncuran
+* **Hasil Pengiriman:**
+* 1 x Gambar Pahlawan (Latar Belakang Putih / Bayangan Studio)
+* 3 x Pemandangan Latar Belakang Kreatif (Kamar mandi, balok marmer, meja rias marmer)
+* 2 x Hamparan info-grafis (Manfaat utama)
+* **Harga:** $499 pembayaran satu kali.
 
-### Package B: Infinite Studio Retainer
-* **Deliverables:**
-  * 15 x Creative Backdrop Scenes per month
-  * Seasonal environment updates (Spring, Summer, Holiday themes)
-  * A/B test variations (varying backgrounds to test conversion)
-* **Pricing:** $999 per month.
-
----
-
-## 2. Client Intake Form
-
-* **Brand Name:** e.g., Herbaceous Skincare
-* **Website / Current Listings:** e.g., herbaceous.com
-* **Core Product to shoot:** Herbaceous Face Oil.
-* **Product Photos Source:**
-  * [x] Client will provide dry studio shots on green screen / white background.
-  * [ ] Agency will clean existing Amazon listings images.
-
-### Brand Style Guide Alignments
-* **Brand Color Palette:** Forest green, soft sage, warm sand.
-* **Key Visual Vibe:** [x] Organic/Natural / [ ] High-Tech / [ ] Vibrant/Pop
-* **Standard Resolution Requirements:** 2040x2040px square format.
+### Paket B: Retainer Studio Tak Terbatas
+* **Hasil Pengiriman:**
+* 15 x Adegan Latar Belakang Kreatif per bulan
+* Pembaruan lingkungan musiman (tema Musim Semi, Musim Panas, Liburan)
+* Variasi pengujian A/B (berbagai latar belakang untuk menguji konversi)
+* **Harga:** $999 per bulan.
 
 ---
 
-## 3. Operations & Delivery Checklist
+## 2. Formulir Penerimaan Klien
 
-* [ ] Receive high-resolution PNG product shots from client.
-* [ ] Isolate product masks using automated background removal.
-* [ ] Generate 10 test backdrops using the brief templates.
-* [ ] Composite isolated product layers onto generated backgrounds.
-* [ ] Apply contact shadows and ambient lighting color matches.
-* [ ] Export files in WebP and high-resolution JPEG formats.
+* **Nama Merek:** misalnya Perawatan Kulit Herba
+* **Situs Web/Daftar Saat Ini:** misalnya, herbaceous.com
+* **Produk Inti untuk diambil gambarnya:** Minyak Wajah Herba.
+* **Sumber Foto Produk:**
+* [x] Klien akan memberikan jepretan studio kering pada layar hijau / latar belakang putih.
+* [ ] Agensi akan membersihkan gambar listingan Amazon yang ada.
+
+### Penyelarasan Panduan Gaya Merek
+* **Palet Warna Merek:** Hijau hutan, sage lembut, pasir hangat.
+* **Getaran Visual Utama:** [x] Organik/Alami / [ ] Teknologi Tinggi / [ ] Bersemangat/Pop
+* **Persyaratan Resolusi Standar:** Format persegi 2040x2040 piksel.
+
+---
+
+## 3. Daftar Periksa Operasi & Pengiriman
+
+* [ ] Menerima foto produk PNG resolusi tinggi dari klien.
+* [ ] Isolasi masker produk menggunakan penghapusan latar belakang otomatis.
+* [ ] Hasilkan 10 latar belakang pengujian menggunakan templat singkat.
+* [ ] Gabungkan lapisan produk terisolasi ke latar belakang yang dihasilkan.
+* [ ] Terapkan bayangan kontak dan kecocokan warna pencahayaan sekitar.
+* [ ] Ekspor file dalam format WebP dan JPEG resolusi tinggi.

@@ -1,118 +1,118 @@
-# Building a TikTok/Reels Factory
+# Membangun Pabrik TikTok/Reels
 
-> Attention is won in the first half-second, and kept with kinetic movement.
+> Perhatian diperoleh pada paruh kedua pertama, dan dipertahankan dengan gerakan kinetik.
 
-**Track:** AI Content Factories  
-**Time:** ~45 minutes  
-**Prerequisites:** The Multi-Step Production Pipeline  
+**Lacak:** Pabrik Konten AI
+**Waktu:** ~45 menit
+**Prasyarat:** Jalur Produksi Multi-Langkah
 
-## The Problem
+## Masalahnya
 
-The swiping velocity on vertical feeds (TikTok, Instagram Reels, YouTube Shorts) is incredibly fast. Users make a decision to watch or swipe in under **0.5 seconds**. If your video starts with a slow fade-in, a corporate logo, or a narrator saying *"Hello guys"*, you have already lost. 
+Kecepatan menggesek pada feed vertikal (TikTok, Instagram Reels, YouTube Shorts) sangat cepat. Pengguna mengambil keputusan untuk menonton atau menggeser dalam waktu kurang dari **0,5 detik**. Jika video Anda dimulai dengan fade-in lambat, logo perusahaan, atau narator yang mengucapkan *"Halo teman-teman"*, Anda sudah kalah.
 
-Furthermore, many creators treat vertical video editing like widescreen editing. They leave still images static on the screen, use tiny, hard-to-read captions at the bottom, or place text where it is covered by the platform's user interface overlay (comments, like buttons, and channel names).
+Selain itu, banyak pembuat konten yang memperlakukan pengeditan video vertikal seperti pengeditan layar lebar. Mereka membiarkan gambar diam tetap di layar, menggunakan teks kecil yang sulit dibaca di bagian bawah, atau menempatkan teks di tempat yang ditutupi oleh hamparan antarmuka pengguna platform (komentar, tombol suka, dan nama saluran).
 
-To build a high-performance vertical content factory, you need to configure custom editor presets that optimize visual cuts, caption typography, and safe zones specifically for mobile-first swiping feeds.
+Untuk membangun pabrik konten vertikal berkinerja tinggi, Anda perlu mengonfigurasi preset editor khusus yang mengoptimalkan potongan visual, tipografi teks, dan zona aman khusus untuk feed yang mengutamakan seluler.
 
-## The Concept
+## Konsep
 
-Vertical feed retention is driven by three main visual elements:
+Retensi feed vertikal didorong oleh tiga elemen visual utama:
 
-### 1. The Kinetic Cut:
-Never leave a still image static on the screen. Even during a single visual clip, you must apply a continuous **slow scale-up** (Ken Burns effect) of **100% to 108%** over 3 seconds. The brain registers this small movement as active video, preventing visual boredom.
+### 1. Potongan Kinetik:
+Jangan pernah membiarkan gambar diam di layar. Bahkan selama satu klip visual, Anda harus menerapkan **peningkatan perlahan** (efek Ken Burns) terus menerus sebesar **100% hingga 108%** selama 3 detik. Otak mencatat gerakan kecil ini sebagai video aktif, mencegah kebosanan visual.
 
-### 2. Micro-Word Captions:
-Viewers scrolling vertical feeds often watch with audio turned off, or scan the text to decide if the voice is worth listening to. Standard sentences are slow to read. Instead, configure captions to output **1 to 3 words at a time** in a bold, high-contrast, center-aligned font.
+### 2. Keterangan Kata Mikro:
+Pemirsa yang menelusuri feed vertikal sering kali menonton dengan audio dimatikan, atau memindai teks untuk memutuskan apakah suaranya layak untuk didengarkan. Kalimat standar lambat dibaca. Sebagai gantinya, konfigurasikan teks untuk menampilkan **1 hingga 3 kata sekaligus** dalam font tebal, kontras tinggi, dan rata tengah.
 
-### 3. Safe Zone Compliance:
-Every platform overlays user interface icons (like, share, comments) on the right side and bottom of the screen. Keep your primary subject and text captions within the **central safe zone** to prevent them from being hidden by platform buttons.
-
----
-
-## Do It
-
-### Step 1: Set Up the Vertical Canvas
-In your editor (e.g. CapCut), set the project aspect ratio to `9:16` (1080 x 1920 pixels). Verify that your background assets cover the entire screen height without leaving black bars at the top or bottom.
-
-### Step 2: Auto-Caption Generation
-Run the auto-captioning utility. Once the text tracks are generated, select all captions and apply these visual styles:
-* **Font:** Montserrat Bold or Impact.
-* **Color:** White (`#FFFFFF`) with a black outline/stroke (width: 8).
-* **Keywords:** Scan the timeline. Manually change the font color of action verbs or primary keywords (e.g. "WIN", "DANGER") to Yellow (`#FFD700`) or Green (`#00FF00`).
-
-### Step 3: Positioning within Safe Zones
-Position the caption track in the middle of the screen. In the position coordinate boxes, set the Y-axis value so the text sits slightly below center, but well above the account username area:
-* Target coordinate: **Y = -120 to -150 pixels** on a standard 1080x1920 grid.
-
-### Step 4: Apply Visual Pacing Rules
-Cut your visuals to match the [`templates/tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md). Ensure the first visual cut happens at exactly **1.5 seconds**, and subsequent cuts happen every **2.5 to 3.0 seconds**.
-
-### Step 5: Add a Pattern Interrupt
-At the 15-second or 30-second mark, insert a sudden visual scale-up (e.g. zoom-in by 120%) combined with a subtle sound effect (a low "whoosh" or "swish"). This resets the user's attention span.
+### 3. Kepatuhan Zona Aman:
+Setiap platform melapisi ikon antarmuka pengguna (suka, bagikan, komentar) di sisi kanan dan bawah layar. Simpan subjek utama dan keterangan teks Anda dalam **zona aman pusat** untuk mencegahnya disembunyikan oleh tombol platform.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Siapkan Kanvas Vertikal
+Di editor Anda (misalnya CapCut), atur rasio aspek proyek ke `9:16` (1080 x 1920 piksel). Pastikan aset latar belakang Anda menutupi seluruh tinggi layar tanpa meninggalkan bilah hitam di bagian atas atau bawah.
+
+### Langkah 2: Pembuatan Teks Otomatis
+Jalankan utilitas teks otomatis. Setelah trek teks dibuat, pilih semua keterangan dan terapkan gaya visual berikut:
+* **Font:** Montserrat Tebal atau Berdampak.
+* **Warna:** Putih (`#FFFFFF`) dengan garis luar/guratan hitam (lebar: 8).
+* **Kata Kunci:** Pindai timeline. Ubah warna font kata kerja tindakan atau kata kunci utama secara manual (misalnya "WIN", "DAGER") menjadi Kuning (`#FFD700`) atau Hijau (`#00FF00`).
+
+### Langkah 3: Penempatan posisi dalam Zona Aman
+Posisikan trek teks di tengah layar. Dalam kotak koordinat posisi, atur nilai sumbu Y sehingga teks berada sedikit di bawah tengah, namun jauh di atas area nama pengguna akun:
+* Koordinat target: **Y = -120 hingga -150 piksel** pada petak standar 1080x1920.
+
+### Langkah 4: Terapkan Aturan Kecepatan Visual
+Potong visual Anda agar sesuai dengan [`templates/tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md). Pastikan pemotongan visual pertama terjadi tepat pada **1,5 detik**, dan pemotongan berikutnya terjadi setiap **2,5 hingga 3,0 detik**.
+
+### Langkah 5: Tambahkan Interupsi Pola
+Pada tanda 15 detik atau 30 detik, masukkan peningkatan visual secara tiba-tiba (misalnya memperbesar sebesar 120%) dikombinasikan dengan efek suara yang halus ("whoosh" atau "swish" yang rendah. Tindakan ini menyetel ulang rentang perhatian pengguna.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/fitness-reel-preview.jpg" alt="TikTok/Reels Fitness Video Model" width="240">
-<img src="templates/examples/fitness-reel-clip.gif" alt="Fitness Reel Video Animation (I2V)" width="240">
+<img src="templates/examples/fitness-reel-preview.jpg" alt="TikTok/Reels Model Video Kebugaran" width="240">
+<img src="templates/examples/fitness-reel-clip.gif" alt="Animasi Video Reel Kebugaran (I2V)" width="240">
 </p>
 <p align="center"><sub>TikTok/Reels Model Image (Left) ──► Image-to-Video Motion Loop (Right) · Video File: <a href="templates/examples/fitness-reel-clip.mp4">templates/examples/fitness-reel-clip.mp4</a></sub></p>
 
-**Timeline Construction for "Peak Performance" (Fitness Niche)**
+**Konstruksi Garis Waktu untuk "Performa Puncak" (Niche Kebugaran)**
 
 
 
-* **Visual Cut pacing:**
-  * **0.0 - 1.5s:** Still image of a runner at sunrise (100% to 105% scale-up).
-  * **1.5s:** Sharp cut to a close-up of running shoes hitting the asphalt.
-  * **3.5s:** Cut to a silhouette athlete doing pull-ups (with a slow zoom-in).
+* **Kecepatan Potongan Visual:**
+* **0,0 - 1,5 detik:** Gambar diam seorang pelari saat matahari terbit (peningkatan 100% hingga 105%).
+* **1,5 detik:** Potongan tajam pada gambar close-up sepatu lari yang membentur aspal.
+* **3,5 detik:** Dipotong menjadi siluet atlet yang melakukan pull-up (dengan zoom-in lambat).
 
-* **Caption Sync:**
-  * Voiceover: *"If you want progress, stop looking for comfort."*
-  * Captions output sequence: `[If you want] (0.0-0.8s)` -> `[PROGRESS] (0.8-1.5s, highlighted in green)` -> `[stop looking] (1.5-2.5s)` -> `[for comfort] (2.5-3.5s)`.
+* **Sinkronisasi Teks:**
+* Sulih Suara: *"Jika ingin kemajuan, berhentilah mencari kenyamanan."*
+* Urutan keluaran teks: `[If you want] (0.0-0.8s)` -> `[PROGRESS] (0.8-1.5s, highlighted in green)` -> `[stop looking] (1.5-2.5s)` -> `[for comfort] (2.5-3.5s)`.
 
-* **Sound Design:**
-  * Background track: Fast-tempo atmospheric synth.
-  * 1.5s cut: Low sub-bass drop sound effect.
+* **Desain Suara:**
+* Lagu latar belakang: Synth atmosfer bertempo cepat.
+* Potongan 1,5 detik: Efek suara drop sub-bass rendah.
 
-**The Result:** The video hooks the viewer instantly, the highlighted text draws the eye, and the visual cuts keep the pacing fast and engaging.
+**Hasilnya:** Video langsung memikat pemirsa, teks yang disorot menarik perhatian, dan potongan visual membuat temponya tetap cepat dan menarik.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Editing Path | Speed | Caption Customization | Safe-Zone Guides |
+| Jalur Pengeditan | Kecepatan | Kustomisasi Teks | Panduan Zona Aman |
 |---|---|---|---|
-| **CapCut (Desktop)** | Fast | Excellent (Massive library of text templates and styles) | Built-in (Shows vertical UI overlays) |
-| **Premiere Pro** | Medium | Good (Highly customizable, but requires setting up preset templates manually) | Manual setup required |
-| **In-App Editors** (TikTok/Reels) | Slow | Low (Basic font options, difficult to time exactly to audio) | Dynamic |
+| **CapCut (Desktop)** | Cepat | Luar Biasa (Perpustakaan besar templat dan gaya teks) | Bawaan (Menampilkan hamparan UI vertikal) |
+| **Tayangan Perdana Pro** | Sedang | Bagus (Sangat dapat disesuaikan, tetapi memerlukan pengaturan templat prasetel secara manual) | Diperlukan pengaturan manual |
+| **Editor Dalam Aplikasi** (TikTok/Reel) | Lambat | Rendah (Opsi font dasar, sulit menentukan waktu yang tepat untuk audio) | Dinamis |
 
-CapCut is the best factory editor for vertical content because it generates auto-captions in seconds, has built-in safe zone lines, and supports rapid batch exports. Use native in-app uploaders only to add final trending audio files during posting.
-
----
-
-## Launch It
-
-**How to monetize this service:**
-* **Batch UGC Packs:** Pitch local gyms, cafes, or beauty brands. Offer to shoot or generate 15 vertical reels for them for **$500–$800**. 
-* **Creator Captain Services:** Manage vertical channels for established influencers. You download their long-form YouTube videos, cut them into 10 clips using your presets, and schedule them across TikTok/Reels for a **$1,000/month** retainer.
+CapCut adalah editor pabrik terbaik untuk konten vertikal karena menghasilkan teks otomatis dalam hitungan detik, memiliki garis zona aman bawaan, dan mendukung ekspor batch cepat. Gunakan pengunggah dalam aplikasi asli hanya untuk menambahkan file audio terakhir yang sedang tren selama pengeposan.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Import a widescreen image into a vertical project. Scale and crop it to fit `9:16`. Save it.
-2. **Medium:** Auto-generate captions for a 30-second audio track. Apply Montserrat Bold font, change the word group count to 2 words per screen, and color-highlight 3 keywords.
-3. **Hard:** Produce a 30-second vertical video that incorporates: (1) cuts every 2 seconds, (2) 100% to 108% scale animations on all background images, and (3) text positioned strictly inside safe zones.
-
----
-
-## Templates
-
-* [`templates/tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md) — layout notes for cut rates, caption typography, and safe zones.
+**Cara memonetisasi layanan ini:**
+* **Paket UGC Batch:** Promosikan pusat kebugaran, kafe, atau merek kecantikan lokal. Tawarkan untuk memotret atau menghasilkan 15 gulungan vertikal untuk mereka seharga **$500–$800**.
+* **Layanan Kapten Kreator:** Kelola saluran vertikal untuk influencer yang sudah mapan. Anda mengunduh video YouTube berdurasi panjang mereka, memotongnya menjadi 10 klip menggunakan preset Anda, dan menjadwalkannya di TikTok/Reel dengan imbalan **$1.000/bulan**.
 
 ---
 
-[← The Multi-Step Production Pipeline](01-production-pipeline.md) · Next: [Building a YouTube Shorts Factory →](03-youtube-shorts-factory.md)
+## Latihan
+
+1. **Mudah:** Impor gambar layar lebar ke proyek vertikal. Skalakan dan pangkas agar sesuai dengan `9:16`. Simpan itu.
+2. **Medium:** Buat teks secara otomatis untuk trek audio 30 detik. Terapkan font Montserrat Bold, ubah jumlah kelompok kata menjadi 2 kata per layar, dan sorot warna 3 kata kunci.
+3. **Sulit:** Menghasilkan video vertikal berdurasi 30 detik yang mencakup: (1) pemotongan setiap 2 detik, (2) animasi skala 100% hingga 108% pada semua gambar latar belakang, dan (3) teks diposisikan tepat di dalam zona aman.
+
+---
+
+## Templat
+
+* [`templates/tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md) — catatan tata letak untuk tarif pemotongan, tipografi teks, dan zona aman.
+
+---
+
+[← The Multi-Step Production Pipeline](01-production-pipeline.md) · Berikutnya: [Building a YouTube Shorts Factory →](03-youtube-shorts-factory.md)

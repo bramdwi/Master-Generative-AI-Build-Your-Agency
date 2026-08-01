@@ -1,131 +1,131 @@
-# AI Thumbnail Design
+# Desain Gambar Kecil AI
 
-> The title gets them to think; the thumbnail gets them to click.
+> Judulnya membuat mereka berpikir; thumbnail membuat mereka mengklik.
 
-**Track:** AI Content Factories  
-**Time:** ~40 minutes  
-**Prerequisites:** The Multi-Step Production Pipeline  
+**Lacak:** Pabrik Konten AI
+**Waktu:** ~40 menit
+**Prasyarat:** Jalur Produksi Multi-Langkah
 
-## The Problem
+## Masalahnya
 
-You can spend 20 hours scripting, voice-acting, and editing a long-form video, but if your thumbnail fails to attract clicks, your video is dead on arrival. The recommendation algorithms measure **Click-Through Rate (CTR)**. If your CTR is under **3%**, the platforms assume the video is uninteresting and stop showing it to new audiences.
+Anda dapat menghabiskan 20 jam untuk membuat skrip, mengisi suara, dan mengedit video berdurasi panjang, tetapi jika gambar mini Anda gagal menarik klik, video Anda akan mati pada saat kedatangan. Algoritme rekomendasi mengukur **Rasio Klik-Tayang (RKT)**. Jika RKT Anda di bawah **3%**, platform menganggap video tersebut tidak menarik dan berhenti menampilkannya kepada pemirsa baru.
 
-Most beginners design cluttered thumbnails: they pack in 10 words of text, use low-contrast background images, or overlay multiple logos. On a mobile phone screen, these thumbnails look like an unreadable blur.
+Kebanyakan pemula mendesain gambar mini yang berantakan: gambar mini tersebut dikemas dalam teks 10 kata, menggunakan gambar latar belakang dengan kontras rendah, atau melapisi beberapa logo. Di layar ponsel, thumbnail ini tampak buram dan tidak terbaca.
 
-To scale your factory's views, you need a repeatable process to generate high-contrast, high-concept visual assets that stand out on mobile screens.
+Untuk menskalakan tampilan pabrik, Anda memerlukan proses berulang untuk menghasilkan aset visual dengan kontras tinggi dan konsep tinggi yang menonjol di layar seluler.
 
-## The Concept
+## Konsep
 
-High-CTR thumbnails rely on three psychological and visual principles:
+Gambar mini dengan RKT tinggi mengandalkan tiga prinsip psikologis dan visual:
 
-### 1. The 3-Second Rule:
-A viewer scrolling past a thumbnail must understand the video's topic and emotional hook in under 3 seconds. The design must have **one clear subject** and a maximum of **3 words** of text. Do not repeat the video title in the thumbnail text.
+### 1. Aturan 3 Detik:
+Penonton yang melihat thumbnail harus memahami topik video dan kaitan emosionalnya dalam waktu kurang dari 3 detik. Desain harus memiliki **satu subjek yang jelas** dan teks maksimal **3 kata**. Jangan mengulang judul video di teks thumbnail.
 
-### 2. High Visual Contrast:
-Most social media feeds use white or dark backgrounds. To stand out, your thumbnail must use contrasting color palettes (e.g. glowing neon blues, bright golds, or vibrant greens set against dark, minimalist backgrounds). 
+### 2. Kontras Visual Tinggi:
+Sebagian besar feed media sosial menggunakan latar belakang putih atau gelap. Agar menonjol, gambar mini Anda harus menggunakan palet warna yang kontras (misalnya biru neon yang bersinar, emas cerah, atau hijau cerah dengan latar belakang gelap dan minimalis).
 
 ```
 [Sub-subject / Text] ─── (Rule of Thirds) ─── [Glowing focal subject]
 ```
 
-### 3. Focal Subject Placement:
-Place your primary visual subject (a face, an object, a chart) on the left or right third of the frame. Place your bold text overlay on the opposite third. Avoid placing important elements in the bottom-right corner, where the platform overlays the video duration timestamp.
+### 3. Penempatan Subjek Fokus:
+Tempatkan subjek visual utama Anda (wajah, objek, bagan) di sepertiga kiri atau kanan bingkai. Tempatkan hamparan teks tebal Anda di sepertiga sebaliknya. Hindari menempatkan elemen penting di pojok kanan bawah, tempat platform menutupi stempel waktu durasi video.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Generate the Background Asset
-Select a prompt pattern from the [`templates/thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md). Run `nano-banana-2` (setting aspect ratio to `16:9` for widescreen or `1:1` for square feeds). 
-* *Example prompt:* A modern glowing green digital bar chart floating in a minimalist luxury office.
+### Langkah 1: Hasilkan Aset Latar Belakang
+Pilih pola prompt dari [`templates/thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md). Jalankan `nano-banana-2` (setel rasio aspek ke `16:9` untuk layar lebar atau `1:1` untuk umpan persegi).
+* *Contoh petunjuk:* Bagan batang digital hijau bercahaya modern yang mengambang di kantor mewah minimalis.
 
-### Step 2: Import into Your Composition Tool
-Open your image editor (e.g. Canva or Photoshop). Set your canvas resolution to `1280 x 720` pixels. Drop in the generated image.
+### Langkah 2: Impor ke Alat Komposisi Anda
+Buka editor gambar Anda (misalnya Canva atau Photoshop). Tetapkan resolusi kanvas Anda ke `1280 x 720` piksel. Masukkan gambar yang dihasilkan.
 
-### Step 3: Saturation & Contrast Boost
-Faceless graphics can look flat. Apply these adjustments:
-* Increase **Contrast** by **+15%** to darken shadows and pop highlights.
-* Increase **Saturation** by **+12%** to make the colors vibrant.
-* Apply a slight **blur** (Gaussian blur, size: 5) to the background to separate the subject.
+### Langkah 3: Peningkatan Saturasi & Kontras
+Grafik tanpa wajah bisa terlihat datar. Terapkan penyesuaian ini:
+* Tingkatkan **Kontras** sebesar **+15%** untuk menggelapkan bayangan dan sorotan menonjol.
+* Tingkatkan **Saturasi** sebesar **+12%** untuk membuat warna menjadi cerah.
+* Terapkan sedikit **blur** (Gaussian blur, ukuran: 5) pada latar belakang untuk memisahkan subjek.
 
-### Step 4: Add Text Overlay
-Write a short, high-value phrase (maximum 3 words):
-* **Font:** Use an ultra-bold sans-serif font (e.g. Archivo Black).
-* **Color:** White (`#FFFFFF`) or Yellow (`#FFD700`).
-* **Outline:** Add a thick black drop shadow or stroke (width: 12) to ensure readability against any background element.
+### Langkah 4: Tambahkan Hamparan Teks
+Tulislah kalimat singkat yang bernilai tinggi (maksimal 3 kata):
+* **Font:** Gunakan font sans-serif yang sangat tebal (misalnya Archivo Black).
+* **Warna:** Putih (`#FFFFFF`) atau Kuning (`#FFD700`).
+* **Garis Besar:** Tambahkan bayangan hitam tebal atau guratan (lebar: 12) untuk memastikan keterbacaan terhadap elemen latar belakang apa pun.
 
-### Step 5: Mobile Preview Audit
-Zoom out your editor screen until the thumbnail is the size of a coin (approx. 10% scale). If you cannot read the text or recognize the main subject, strip out background details and enlarge the subject.
+### Langkah 5: Audit Pratinjau Seluler
+Perkecil layar editor Anda hingga gambar kecilnya seukuran koin (skala sekitar 10%). Jika Anda tidak dapat membaca teks atau mengenali subjek utama, hilangkan detail latar belakang dan perbesar subjek.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/get-rich-automated-thumbnail.jpg" alt="Thumbnail Design" width="280">
-<img src="templates/examples/thumbnail-motion-clip.gif" alt="Glowing Thumbnail Motion (I2V)" width="280">
+<img src="templates/examples/get-rich-automated-thumbnail.jpg" alt="Desain Gambar Kecil" width="280">
+<img src="templates/examples/thumbnail-motion-clip.gif" alt="Gerakan Thumbnail Bersinar (I2V)" width="280">
 </p>
 <p align="center"><sub>High-CTR Thumbnail Image (Left) ──► Image-to-Video Motion (Right) · Video File: <a href="templates/examples/thumbnail-motion-clip.mp4">templates/examples/thumbnail-motion-clip.mp4</a></sub></p>
 
-**Thumbnail Design: "Get Rich Automated"**
+**Desain Gambar Kecil: "Menjadi Kaya Secara Otomatis"**
 
 
 
-* **Asset Generation:**
-  * Model: `nano-banana-2` via muapi.
-  * Prompt: A shining silver key glowing with blue light, unlocking a physical lock.
-* **Text Overlay:**
-  * Text choice: *"AUTOMATE THIS"*
-  * Styling: Montserrat Extra-Bold, Yellow font with a thick black outline.
-* **Layout Composition:**
-  * The glowing blue lock is positioned on the right third of the canvas.
-  * The bold text is placed on the left third.
-  * The bottom-right corner is kept completely clean of important details.
+* **Pembuatan Aset:**
+* Model: `nano-banana-2` melalui muapi.
+* Prompt: Kunci perak bersinar bersinar dengan cahaya biru, membuka kunci fisik.
+* **Hamparan Teks:**
+* Pilihan teks: *"OTOMATISKAN INI"*
+* Penataan gaya: Montserrat Extra-Bold, font Kuning dengan garis luar hitam tebal.
+* **Komposisi Tata Letak:**
+* Kunci biru bercahaya terletak di sepertiga kanan kanvas.
+* Teks tebal ditempatkan pada sepertiga kiri.
+* Sudut kanan bawah tetap bersih dari detail penting.
 
-**The Result:** The high contrast between the glowing blue light and the dark background instantly catches the eye. The text is bold and readable even at tiny mobile screen sizes.
+**Hasilnya:** Kontras tinggi antara cahaya biru yang bersinar dan latar belakang gelap langsung menarik perhatian. Teksnya tebal dan mudah dibaca bahkan pada ukuran layar ponsel yang kecil.
 
-**The thumbnail below is real, not a mockup** — generated via `nano-banana-2` (16:9 widescreen aspect ratio) with the text overlay added programmatically, so you can see what a final high-CTR composition actually looks like:
+**Thumbnail di bawah ini asli, bukan tiruan** — dibuat melalui `nano-banana-2` (rasio aspek layar lebar 16:9) dengan hamparan teks yang ditambahkan secara terprogram, sehingga Anda dapat melihat seperti apa sebenarnya komposisi akhir dengan RKT tinggi:
 
 <p align="center"><img src="templates/examples/get-rich-automated-thumbnail.jpg" alt="Generated high-CTR thumbnail example" width="280"></p>
 
-*How this was actually produced, end to end, via the muapi API & script:*
-1. Generated the base background scene with **`nano-banana-2`** (text-to-image, $0.06/image) with a widescreen `16:9` aspect ratio.
-2. Downloaded the image and used Python's `Pillow` library to overlay the yellow text **"AUTOMATE THIS"** on the left third with a thick black shadow stroke.
+*Bagaimana ini sebenarnya diproduksi, end to end, melalui API & skrip muapi:*
+1. Menghasilkan adegan latar belakang dasar dengan **`nano-banana-2`** (teks-ke-gambar, $0,06/gambar) dengan rasio aspek layar lebar `16:9`.
+2. Mengunduh gambar dan menggunakan pustaka `Pillow` Python untuk melapisi teks kuning **"AUTOMATE THIS"** di sepertiga kiri dengan guratan bayangan hitam tebal.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Generation Path | Quality | Speed | Customization |
+| Jalur Generasi | Kualitas | Kecepatan | Kustomisasi |
 |---|---|---|---|
-| **`nano-banana-2`** (via muapi) | High | Fast (Generates in under 15 seconds) | Good (Quickly matches prompts) |
-| **Midjourney v6** | Ultra-High | Slow (Requires Discord interface and slow generation runs) | High |
-| **Stable Diffusion Local** | High | Medium (Requires powerful GPU setup) | Very High (Supports ControlNet) |
+| **`nano-banana-2`** (melalui muapi) | Tinggi | Cepat (Dihasilkan dalam waktu kurang dari 15 detik) | Bagus (Dengan cepat mencocokkan petunjuknya) |
+| **Tengah perjalanan v6** | Sangat Tinggi | Lambat (Membutuhkan antarmuka Discord dan proses generasi lambat) | Tinggi |
+| **Difusi Lokal Stabil** | Tinggi | Sedang (Membutuhkan pengaturan GPU yang kuat) | Sangat Tinggi (Mendukung ControlNet) |
 
-For a volume content factory, using `nano-banana-2` via muapi is the fastest path. It allows you to automate thumbnail generation directly inside your scripting tools, exporting matching visual assets alongside your script runs.
-
----
-
-## Launch It
-
-**How to manage CTR in production:**
-* **The 24-Hour Swap:** If you upload a video and its CTR is below **3%** after 24 hours, do not delete the video. Simply generate a new thumbnail with a different color scheme and swap it. This can instantly rescue a video's distribution.
-* **Keep text files clean:** Keep a template folder of "high-CTR text layouts" in Canva so you can drag-and-drop your generated images behind pre-styled text boxes, reducing design times to under 3 minutes.
+Untuk pabrik konten volume, menggunakan `nano-banana-2` melalui muapi adalah jalur tercepat. Ini memungkinkan Anda mengotomatiskan pembuatan thumbnail langsung di dalam alat skrip Anda, mengekspor aset visual yang cocok di sepanjang skrip Anda berjalan.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Generate a conceptual image using `nano-banana-2`. Boost its contrast by 15% and saturation by 10%.
-2. **Medium:** Design a 1280x720 thumbnail layout. Place a subject on the right third, and write a 2-word text overlay on the left third. Apply a thick black drop shadow to the text.
-3. **Hard:** Perform a "mobile preview audit" on three of your competitor's thumbnails. Map out their text sizes and focal subjects, and write down two changes you would make to improve their readability at a small scale.
-
----
-
-## Templates
-
-* [`templates/thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md) — tested image prompts for high-CTR backgrounds.
+**Cara mengelola RKT dalam produksi:**
+* **Pertukaran 24 Jam:** Jika Anda mengupload video dan RKT-nya di bawah **3%** setelah 24 jam, jangan hapus video tersebut. Cukup buat thumbnail baru dengan skema warna berbeda dan tukar. Hal ini dapat langsung menyelamatkan distribusi video.
+* **Jaga file teks tetap bersih:** Simpan folder template "tata letak teks RKT tinggi" di Canva sehingga Anda dapat menarik dan melepas gambar yang dihasilkan di belakang kotak teks yang telah ditata gayanya, sehingga mengurangi waktu desain menjadi kurang dari 3 menit.
 
 ---
 
-[← Building a YouTube Shorts Factory](03-youtube-shorts-factory.md) · Next: [Batching & Scheduling at Volume →](05-batching-and-scheduling.md)
+## Latihan
+
+1. **Mudah:** Buat gambar konseptual menggunakan `nano-banana-2`. Tingkatkan kontrasnya sebesar 15% dan saturasinya sebesar 10%.
+2. **Sedang:** Rancang tata letak gambar mini 1280x720. Tempatkan subjek di sepertiga kanan, dan tulis hamparan teks 2 kata di sepertiga kiri. Terapkan drop shadow hitam tebal ke teks.
+3. **Sulit:** Lakukan "audit pratinjau seluler" pada tiga gambar mini pesaing Anda. Petakan ukuran teks dan subjek fokusnya, dan tuliskan dua perubahan yang akan Anda lakukan untuk meningkatkan keterbacaan dalam skala kecil.
+
+---
+
+## Templat
+
+* [`templates/thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md) — perintah gambar yang diuji untuk latar belakang RKT tinggi.
+
+---
+
+[← Building a YouTube Shorts Factory](03-youtube-shorts-factory.md) · Berikutnya: [Batching & Scheduling at Volume →](05-batching-and-scheduling.md)

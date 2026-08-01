@@ -1,31 +1,31 @@
-# Mannequin Alignment Template
+# Templat Penyelarasan Manekin
 
-Use this template to standardize the proportions, margins, and pose coordinates when transferring garments from flat mannequin photos to models.
+Gunakan templat ini untuk menstandardisasi proporsi, margin, dan koordinat pose saat memindahkan pakaian dari foto manekin datar ke model.
 
-## 1. Canvas Dimensions & Margin Limits
-* **Standard Grid Size:** 1080 x 1350px (Instagram vertical / Shopify portrait).
-* **Top Safety Margin (Head clearance):** 150px from top border.
-* **Bottom Safety Margin (Feet baseline):** 100px from bottom border.
-* **Side Padding (Shoulder limits):** 200px from left and right borders.
+## 1. Dimensi Kanvas & Batas Margin
+* **Ukuran Kotak Standar:** 1080 x 1350 piksel (vertikal Instagram / potret Shopify).
+* **Margin Keamanan Atas (Kelonggaran kepala):** 150 piksel dari batas atas.
+* **Margin Keamanan Bawah (Garis dasar kaki):** 100 piksel dari batas bawah.
+* **Padding Samping (Batas bahu):** 200 piksel dari batas kiri dan kanan.
 
-## 2. Pose Baseline Coordinates
+## 2. Pose Koordinat Dasar
 
-Set the vertical centers for key skeletal joints:
-* **Nose/Eye Line:** Y = 250px
-* **Shoulder Line:** Y = 400px
-* **Waist Line:** Y = 750px
-* **Hip Line:** Y = 950px
-* **Ankle/Feet Line:** Y = 1250px
+Tetapkan pusat vertikal untuk sendi rangka utama:
+* **Garis Hidung/Mata:** Y = 250 piksel
+* **Garis Bahu:** Y = 400 piksel
+* **Garis Pinggang:** Y = 750px
+* **Garis Pinggul:** Y = 950 piksel
+* **Garis Pergelangan Kaki/Kaki:** Y = 1250 piksel
 
-## 3. Pose Reference Registry
+## 3. Registri Referensi Pose
 
-Choose the pose category:
-* [x] **Pose A (Straight Frontal):** Hands at sides, feet shoulder-width apart (best for standard t-shirts and shirts).
-* [ ] **Pose B (Three-Quarter Angle):** Model slightly turned to show side seams and hood depth (best for outerwear and backpacks).
-* [ ] **Pose C (Rhythmic Motion):** Walking forward pose (best for draping linen, trench coats, and flowy fabrics).
+Pilih kategori pose:
+* [x] **Pose A (Lurus Frontal):** Tangan di samping, kaki dibuka selebar bahu (paling baik untuk kaos dan kemeja standar).
+* [ ] **Pose B (Sudut Tiga Perempat):** Model sedikit diputar untuk menunjukkan jahitan samping dan kedalaman tudung (paling baik untuk pakaian luar dan ransel).
+* [ ] **Pose C (Gerakan Berirama):** Pose berjalan ke depan (paling baik untuk menggantungkan linen, jas hujan, dan kain mengalir).
 
-## 4. Alignment Quality Control Checklist
-* [ ] Garment center seam aligns to canvas center vertical line (X = 540px).
-* [ ] Sleeves are symmetrical without digital stretching distortion.
-* [ ] Hemline length matches the original physical product specifications.
-* [ ] Shoulder seams align to the model's physical shoulder structure.
+## 4. Daftar Periksa Kontrol Kualitas Penyelarasan
+* [ ] Jahitan bagian tengah garmen sejajar dengan garis vertikal tengah kanvas (X = 540 piksel).
+* [ ] Selongsongnya simetris tanpa distorsi peregangan digital.
+* [ ] Panjang hemline sesuai dengan spesifikasi fisik asli produk.
+* [ ] Jahitan bahu sejajar dengan struktur bahu fisik model.

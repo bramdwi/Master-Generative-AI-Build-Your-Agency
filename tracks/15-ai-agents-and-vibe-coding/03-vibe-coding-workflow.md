@@ -1,68 +1,68 @@
-# The Vibe-Coding Workflow: Prompt → Build → Test → Ship
+# Alur Kerja Vibe-Coding: Prompt → Bangun → Uji → Kirim
 
-> A repeatable 4-phase development loop that lets you build and ship working creator tools without reading a single line of code.
+> Lingkaran pengembangan 4 fase berulang yang memungkinkan Anda membuat dan mengirimkan alat pembuat konten yang berfungsi tanpa membaca satu baris kode pun.
 
-**Track:** AI Agents & Vibe-Coding for Creators
-**Time:** ~50 minutes
-**Prerequisites:** [01: What Coding Agents Actually Do](01-what-coding-agents-actually-do.md), [02: Building Your First Sellable Micro-Tool](02-building-your-first-sellable-micro-tool.md)
+**Lacak:** Agen AI & Vibe-Coding untuk Kreator
+**Waktu:** ~50 menit
+**Prasyarat:** [01: What Coding Agents Actually Do](01-what-coding-agents-actually-do.md), [02: Building Your First Sellable Micro-Tool](02-building-your-first-sellable-micro-tool.md)
 
-## The Problem
+## Masalahnya
 
-Most creators who start vibe-coding hit the same wall after their second or third tool:
+Sebagian besar pembuat konten yang memulai pengkodean getaran mengalami hambatan yang sama setelah alat kedua atau ketiga mereka:
 
-* The agent produces a file that crashes on the first run.
-* The creator pastes the error message back, the agent fixes it, but now something else breaks.
-* After 3 rounds of back-and-forth, the session devolves into confusion and the project is abandoned.
+* Agen menghasilkan file yang crash saat pertama kali dijalankan.
+* Pembuatnya menempelkan kembali pesan kesalahan tersebut, agen memperbaikinya, tetapi sekarang ada hal lain yang rusak.
+* Setelah 3 putaran bolak-balik, sesi berubah menjadi kebingungan dan proyek ditinggalkan.
 
-This happens because vibe-coding without a **structured workflow** is just random prompting. A disciplined 4-phase loop — **Prompt → Build → Test → Ship** — eliminates this failure pattern by giving both you and the agent a clear contract for what each phase produces.
+Hal ini terjadi karena pengkodean getaran tanpa **alur kerja terstruktur** hanyalah perintah acak. Perulangan 4 fase yang disiplin — **Prompt → Build → Test → Ship** — menghilangkan pola kegagalan ini dengan memberi Anda dan agen kontrak yang jelas tentang apa yang dihasilkan setiap fase.
 
 ---
 
-## The Concept
+## Konsep
 
-The **Vibe-Coding Loop** is a repeatable session structure:
+**Vibe-Coding Loop** adalah struktur sesi yang dapat diulang:
 
 ```
 Phase 1: PROMPT (Define Scope) ──► Phase 2: BUILD (Agent Generates) ──► Phase 3: TEST (You Verify) ──► Phase 4: SHIP (Package & Publish)
 ```
 
-### Phase Breakdown:
+### Perincian Fase:
 
-#### Phase 1 — PROMPT (10 minutes)
-Write the **Tool Spec Brief** (see [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md)) before opening the agent. Your brief must include:
-* **One-sentence tool description** (what it does, for whom, using what input/output).
-* **Error handling rules** (e.g., *"if a line in the input file is blank, skip it and continue"*).
-* **Tech constraints** (e.g., *"use only Python standard library — no external packages except `openai`"*).
+#### Fase 1 — PROMPT (10 menit)
+Tulis **Ringkasan Spesifikasi Alat** (lihat [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md)) sebelum membuka agen. Ringkasan Anda harus mencakup:
+* **Deskripsi alat dalam satu kalimat** (apa fungsinya, untuk siapa, menggunakan input/output apa).
+* **Aturan penanganan kesalahan** (misalnya, *"jika baris dalam file masukan kosong, lewati dan lanjutkan"*).
+* **Kendala teknologi** (misalnya, *"hanya gunakan pustaka standar Python — tidak ada paket eksternal kecuali `openai`"*).
 
-> **The Golden Rule of Prompting for Code:** Never open the agent without a written brief. Improvised prompting produces improvised code that breaks unpredictably.
+> **Aturan Emas dalam Meminta Kode:** Jangan pernah membuka agen tanpa penjelasan tertulis. Dorongan yang diimprovisasi menghasilkan kode improvisasi yang rusak secara tidak terduga.
 
-#### Phase 2 — BUILD (15–30 minutes)
-Paste your full brief into the agent in a single message. Let the agent generate the complete initial version without interrupting. Then:
-* Read the agent's explanation of what it built (not the code — the explanation in plain English).
-* If the explanation matches your brief, proceed to Phase 3.
-* If it doesn't match, correct the agent with a **targeted single-sentence fix**, not a full re-description.
+#### Fase 2 — MEMBANGUN (15–30 menit)
+Tempelkan ringkasan lengkap Anda ke agen dalam satu pesan. Biarkan agen membuat versi awal yang lengkap tanpa mengganggu. Kemudian:
+* Baca penjelasan agen tentang apa yang dibuatnya (bukan kodenya — penjelasannya dalam bahasa Inggris).
+* Jika penjelasannya cocok dengan ringkasan Anda, lanjutkan ke Tahap 3.
+* Jika tidak cocok, perbaiki agen dengan **perbaikan satu kalimat yang ditargetkan**, bukan deskripsi ulang lengkap.
 
-#### Phase 3 — TEST (10–15 minutes)
-Run the tool on real data — not dummy placeholder data. Use the actual filenames, actual product names, or actual prompts your buyers will use. Check:
-* ✅ Does it produce the correct output format?
-* ✅ Does it handle edge cases gracefully (blank lines, special characters, long strings)?
-* ✅ Does it complete in under 60 seconds for a typical input size?
+#### Fase 3 — UJI (10–15 menit)
+Jalankan alat pada data nyata — bukan data placeholder tiruan. Gunakan nama file sebenarnya, nama produk sebenarnya, atau perintah aktual yang akan digunakan pembeli Anda. Memeriksa:
+* ✅ Apakah menghasilkan format output yang benar?
+* ✅ Apakah ia menangani kasus tepi dengan baik (garis kosong, karakter khusus, string panjang)?
+* ✅ Apakah ini selesai dalam waktu kurang dari 60 detik untuk ukuran input biasa?
 
-When you find a bug, paste the **exact error message** (not a paraphrase) back to the agent:
-> *"Running the script gives this error: `KeyError: 'title1'`. Fix it."*
+Saat Anda menemukan bug, tempelkan **pesan kesalahan persisnya** (bukan parafrase) kembali ke agen:
+> *"Menjalankan skrip menghasilkan kesalahan ini: `KeyError: 'title1'`. Perbaiki."*
 
-#### Phase 4 — SHIP (10 minutes)
-Ask the agent to generate the packaging assets:
-> *"Write a plain-English README.md explaining installation and usage. Also create a `requirements.txt` listing all pip packages needed."*
+#### Fase 4 — KAPAL (10 menit)
+Minta agen untuk membuat aset pengemasan:
+> *"Tulis README.md bahasa Inggris sederhana yang menjelaskan instalasi dan penggunaan. Buat juga `requirements.txt` yang mencantumkan semua paket pip yang diperlukan."*
 
-Zip the folder: `[tool-name]-v1.0.zip`. Upload to Gumroad or LemonSqueezy. Done.
+Zip foldernya: `[tool-name]-v1.0.zip`. Unggah ke Gumroad atau LemonSqueezy. Selesai.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Write Your Session Brief
-Open [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md). Complete each field:
+### Langkah 1: Tulis Ringkasan Sesi Anda
+Buka [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md). Lengkapi setiap bidang:
 
 ```
 Tool Name: FLUX Batch Prompt Runner
@@ -75,62 +75,62 @@ Error Handling: If an API call fails, log the error to errors.log and continue.
 Packages Allowed: requests, csv (standard library)
 ```
 
-### Step 2: Run the BUILD Phase
-Paste the completed brief to Claude Code or Cursor. Wait for the full first draft. Do not interrupt mid-generation.
+### Langkah 2: Jalankan Fase BUILD
+Tempelkan ringkasan yang sudah selesai ke Kode Claude atau Kursor. Tunggu draf pertama selengkapnya. Jangan menyela generasi menengah.
 
-### Step 3: Run the TEST Phase
-Create a `prompts.txt` with 3 real prompts you would actually use. Run the script. Verify `results.csv` contains 3 rows with working image URLs.
+### Langkah 3: Jalankan Fase TEST
+Buat `prompts.txt` dengan 3 perintah nyata yang sebenarnya Anda gunakan. Jalankan skripnya. Verifikasi `results.csv` berisi 3 baris dengan URL gambar yang berfungsi.
 
-### Step 4: Run the SHIP Phase
-Ask the agent: *"Generate a README.md and requirements.txt for this project."* Then zip and upload.
-
----
-
-## Worked Example
-
-**Full Vibe-Coding Session: "FLUX Batch Prompt Runner"**
-
-* **Phase 1 (Prompt):** 8-minute brief writing session in `vibe-coding-session-brief.md`.
-* **Phase 2 (Build):** Agent generated `batch_runner.py` in 2 minutes. One issue caught immediately: the agent used `requests.get()` instead of `requests.post()` for the API call — fixed with 1 correction sentence.
-* **Phase 3 (Test):** Tested with 10 real prompts. 9 succeeded, 1 failed due to a prompt containing a special apostrophe character. Agent fixed the encoding issue in 30 seconds.
-* **Phase 4 (Ship):** Agent generated README and requirements.txt in 1 minute. Zip created and uploaded to Gumroad.
-* **Total Session Time:** 52 minutes from blank folder to live product page.
-* **Gumroad Price:** **$29 one-time**.
-* **Week 1 Revenue:** 11 sales × $29 = **$319**.
+### Langkah 4: Jalankan Fase KAPAL
+Tanyakan kepada agen: *"Buat README.md dan persyaratan.txt untuk proyek ini."* Kemudian zip dan unggah.
 
 ---
 
-## Compare Tools
+## Contoh yang berhasil
 
-| Vibe-Coding Setup | Phase 2 Speed | Phase 3 Error Recovery | Learning Curve |
+**Sesi Pengkodean Getaran Penuh: "FLUX Batch Prompt Runner"**
+
+* **Fase 1 (Prompt):** Sesi penulisan singkat 8 menit di `vibe-coding-session-brief.md`.
+* **Tahap 2 (Pembangunan):** Agen menghasilkan `batch_runner.py` dalam 2 menit. Satu masalah segera diketahui: agen menggunakan `requests.get()` alih-alih `requests.post()` untuk panggilan API — diperbaiki dengan 1 kalimat koreksi.
+* **Fase 3 (Pengujian):** Diuji dengan 10 perintah nyata. 9 berhasil, 1 gagal karena prompt berisi karakter apostrof khusus. Agen memperbaiki masalah pengkodean dalam 30 detik.
+* **Tahap 4 (Pengiriman):** Agen menghasilkan README dan persyaratan.txt dalam 1 menit. Zip dibuat dan diunggah ke Gumroad.
+* **Total Waktu Sesi:** 52 menit dari folder kosong ke halaman produk aktif.
+* **Harga Gumroad:** **$29 satu kali**.
+* **Pendapatan Minggu 1:** 11 penjualan × $29 = **$319**.
+
+---
+
+## Bandingkan Alat
+
+| Pengaturan Pengkodean Getaran | Kecepatan Fase 2 | Pemulihan Kesalahan Fase 3 | Kurva Pembelajaran |
 |---|---|---|---|
-| **Claude Code (terminal)** | Fast (single command sends full brief) | Excellent (paste error → instant fix) | Low — just type in terminal |
-| **Cursor (visual editor)** | Fast (chat panel) | Excellent (click error in editor → agent sees context) | Very Low — familiar UI |
-| **Windsurf (Codeium)** | Fast | Good | Low |
-| **ChatGPT.com (no file access)** | Slow (manual copy-paste between phases) | Poor (loses context across messages) | Medium |
+| **Kode Claude (terminal)** | Cepat (perintah tunggal mengirimkan ringkasan lengkap) | Luar biasa (kesalahan tempel → perbaikan instan) | Rendah — cukup ketik terminal |
+| **Kursor (editor visual)** | Cepat (panel obrolan) | Luar biasa (kesalahan klik di editor → agen melihat konteks) | Sangat Rendah — UI yang familier |
+| **Selancar Angin (Codeium)** | Cepat | Bagus | Rendah |
+| **ChatGPT.com (tidak ada akses file)** | Lambat (salin-tempel antar fase secara manual) | Buruk (kehilangan konteks di seluruh pesan) | Sedang |
 
 ---
 
-## Launch It
+## Luncurkan
 
-**Scaling beyond one tool:**
-* **Version 2 Upgrades:** Release a `v2.0` update (e.g., add a GUI window so buyers don't need a terminal) and charge existing buyers an upgrade fee of **$9 – $15**. Gumroad supports this natively.
-* **Tool Bundle Packs:** Bundle 3 related micro-tools (e.g., "The POD Creator Toolkit": Etsy Title Generator + Keyword Expander + Mockup Namer) at a 25% discount from buying separately. Bundles consistently outperform individual tools by **2.5–4x revenue**.
-
----
-
-## Exercises
-
-1. **Easy:** Write a full session brief for a "YouTube Script Section Formatter" tool using the template — without opening an agent.
-2. **Medium:** Run a full 4-phase vibe-coding session to build a script that reads a list of Etsy store names and generates 5 niche-specific product idea keywords per store.
-3. **Hard:** Complete a full Prompt → Build → Test → Ship cycle for a tool of your choosing, upload it to a Gumroad draft page, and write the product description copy.
+**Menskalakan lebih dari satu alat:**
+* **Peningkatan Versi 2:** Merilis pembaruan `v2.0` (misalnya, menambahkan jendela GUI sehingga pembeli tidak memerlukan terminal) dan membebankan biaya peningkatan kepada pembeli yang sudah ada sebesar **$9 – $15**. Gumroad mendukung hal ini secara asli.
+* **Paket Bundel Alat:** Bundel 3 alat mikro terkait (misalnya, "Perangkat Pembuat POD": Pembuat Judul Etsy + Perluas Kata Kunci + Nama Mockup) dengan diskon 25% dari pembelian terpisah. Paket secara konsisten mengungguli alat individual dengan **2,5–4x pendapatan**.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Session planning templates, agent prompt frameworks, and tool spec sheets.
+1. **Mudah:** Tulis ringkasan sesi lengkap untuk alat "Pemformat Bagian Skrip YouTube" menggunakan template — tanpa membuka agen.
+2. **Medium:** Jalankan sesi pengkodean getaran 4 fase penuh untuk membuat skrip yang membaca daftar nama toko Etsy dan menghasilkan 5 kata kunci ide produk khusus niche per toko.
+3. **Sulit:** Selesaikan Perintah lengkap → Pembuatan → Uji → Siklus pengiriman untuk alat pilihan Anda, unggah ke halaman draf Gumroad, dan tulis salinan deskripsi produk.
 
 ---
 
-[← Building Your First Sellable Micro-Tool](02-building-your-first-sellable-micro-tool.md) · Next: [Pricing & Selling Tools You Build With Agents →](04-pricing-and-selling-tools.md)
+## Templat
+
+* [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Templat perencanaan sesi, kerangka kerja perintah agen, dan lembar spesifikasi alat.
+
+---
+
+[← Building Your First Sellable Micro-Tool](02-building-your-first-sellable-micro-tool.md) · Berikutnya: [Pricing & Selling Tools You Build With Agents →](04-pricing-and-selling-tools.md)

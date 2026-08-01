@@ -1,31 +1,31 @@
-# AI Music & Sound Effects
+# Musik AI & Efek Suara
 
-> The right sound turns b-roll into a movie.
+> Suara yang tepat mengubah b-roll menjadi film.
 
-**Track:** AI Audio & Music  
-**Time:** ~35 minutes  
-**Prerequisites:** None  
+**Lagu:** AI Audio & Musik
+**Waktu:** ~35 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Finding high-quality background music and sound effects (SFX) is a massive bottleneck. Stock music sites charge expensive monthly subscriptions. If you try to use free, popular music from the internet, social media platforms will demonetize your channel, mute your video audio, or issue copyright strikes.
+Menemukan musik latar dan efek suara (SFX) berkualitas tinggi adalah hambatan besar. Situs musik stok membebankan biaya berlangganan bulanan yang mahal. Jika Anda mencoba menggunakan musik populer gratis dari internet, platform media sosial akan mendenetisasi saluran Anda, membisukan audio video, atau mengeluarkan teguran hak cipta.
 
-Even if you find copyright-free music, matching the track's tempo, mood, and drops to your video script is frustrating. You end up spending hours cutting and fading tracks to fit.
+Meskipun Anda menemukan musik bebas hak cipta, mencocokkan tempo, suasana hati, dan lirik lagu dengan skrip video Anda adalah hal yang membuat frustrasi. Anda akhirnya menghabiskan waktu berjam-jam untuk memotong dan memudarkan trek agar sesuai.
 
-To run a fast content factory, you need to generate custom, copyright-free background loops and specific sound effects on demand, and automate how they sit in your video mix.
+Untuk menjalankan pabrik konten yang cepat, Anda perlu membuat loop latar belakang khusus yang bebas hak cipta dan efek suara spesifik sesuai permintaan, dan mengotomatiskan penempatannya dalam campuran video Anda.
 
-## The Concept
+## Konsep
 
-The pipeline for video audio assembly uses **Generative Audio Prompts** and **Auto-Ducking**:
+Pipeline untuk perakitan audio video menggunakan **Generative Audio Prompts** dan **Auto-Ducking**:
 
-### 1. The BGM Prompt Matrix:
-Rather than prompting AI music engines with abstract moods (e.g. *"cool coding music"*), write structured musical prompts specifying **Tempo (BPM)**, **Genre**, **Lead Instruments**, and **Vocal Exclusions** (always specify *"no vocals"* or *"instrumental only"* to prevent AI voices from competing with your narrator).
+### 1. Matriks Perintah BGM:
+Daripada meminta mesin musik AI dengan suasana abstrak (misalnya *"musik coding keren"*), tulis perintah musik terstruktur yang menentukan **Tempo (BPM)**, **Genre**, **Instrumen Utama**, dan **Pengecualian Vokal** (selalu tentukan *"tanpa vokal"* atau *"hanya instrumental"* untuk mencegah suara AI bersaing dengan narator Anda).
 
-### 2. Isolated SFX Sourcing:
-Sound effects (whooshes, UI clicks, paper slides) must be generated in isolation. Use the formulas in the [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) to generate clean tracks with zero echo or background reverb so they blend naturally into any video scene.
+### 2. Sumber SFX Terisolasi:
+Efek suara (suara mendesing, klik UI, slide kertas) harus dihasilkan secara terpisah. Gunakan rumus di [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) untuk menghasilkan trek bersih tanpa gema atau gema latar belakang sehingga menyatu secara alami dengan adegan video apa pun.
 
-### 3. Auto-Ducking:
-The background music track must automatically lower in volume whenever the narrator speaks:
+### 3. Merunduk Otomatis:
+Trek musik latar belakang harus secara otomatis diperkecil volumenya setiap kali narator berbicara:
 
 ```
 [Voice Track A1 (Speaking)] ──► Auto-Ducks ──► [Music Track A2 (-18dB)]
@@ -34,89 +34,89 @@ The background music track must automatically lower in volume whenever the narra
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Generate Background Tracks
-Select a formula from the [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md). Open an AI music engine (e.g., Suno or Udio).
-* *Example prompt:* `"120 BPM, clean corporate tech house loop. Minimalist synthesizer, warm deep bass, soft digital percussion, optimistic mood. Instrumental only, seamless audio loop, high fidelity."`
-Generate and download the instrumental loop `.mp3`.
+### Langkah 1: Hasilkan Trek Latar Belakang
+Pilih rumus dari [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md). Buka mesin musik AI (mis., Suno atau Udio).
+* *Contoh perintah:* `"120 BPM, clean corporate tech house loop. Minimalist synthesizer, warm deep bass, soft digital percussion, optimistic mood. Instrumental only, seamless audio loop, high fidelity."`
+Buat dan unduh loop instrumental `.mp3`.
 
-### Step 2: Generate Specific Transition SFX
-Open ElevenLabs and select the **Sound Effects** tool (or call the `/sound-effects` API). Generate transition sounds:
-* *Prompt:* `"Cinematic sub-bass whoosh transition sound effect, deep low rumble, clean isolated track."`
-Download the output files.
+### Langkah 2: Hasilkan SFX Transisi Tertentu
+Buka ElevenLabs dan pilih alat **Efek Suara** (atau hubungi `/sound-effects` API). Hasilkan suara transisi:
+* *Permintaan:* `"Cinematic sub-bass whoosh transition sound effect, deep low rumble, clean isolated track."`
+Unduh file keluaran.
 
-### Step 3: Set Up Timeline Channels
-Open your video editor. Set up a standard track layout:
-* **Track A1:** Voiceover narration (volume: 0dB).
-* **Track A2:** Sound Effects (SFX) (volume: -6dB).
-* **Track A3:** Background Music (BGM) (volume: -18dB).
+### Langkah 3: Siapkan Saluran Timeline
+Buka editor video Anda. Siapkan tata letak trek standar:
+* **Trek A1:** Narasi sulih suara (volume: 0dB).
+* **Trek A2:** Efek Suara (SFX) (volume: -6dB).
+* **Trek A3:** Musik Latar Belakang (BGM) (volume: -18dB).
 
-### Step 4: Configure Auto-Ducking
-If your editor supports auto-ducking (e.g. Premiere Pro or CapCut):
-* Select the music track (A3) and enable the "Ducking" toggle.
-* Link it to the voiceover track (A1).
-* Set the ducking amount to **-18dB** when voice is detected, and configure the fade-in/fade-out speed to **0.3 seconds**. 
-* If editing manually, place keyframes on the A3 volume line, dropping the volume to -18dB during talking sections and raising it to -12dB during visual splits.
+### Langkah 4: Konfigurasikan Pengecilan Otomatis
+Jika editor Anda mendukung pengelak otomatis (misalnya Premiere Pro atau CapCut):
+* Pilih trek musik (A3) dan aktifkan tombol "Merunduk".
+* Tautkan ke trek sulih suara (A1).
+* Atur jumlah pengecilan ke **-18dB** saat suara terdeteksi, dan konfigurasikan kecepatan fade-in/fade-out ke **0,3 detik**.
+* Jika mengedit secara manual, letakkan bingkai utama pada garis volume A3, turunkan volume ke -18dB selama bagian berbicara dan naikkan ke -12dB selama pemisahan visual.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/ai-music-workstation.jpg" alt="Music Workstation" width="280">
+<img src="templates/examples/ai-music-workstation.jpg" alt="Stasiun Kerja Musik" width="280">
 <img src="templates/examples/ai-music-workstation-clip.gif" alt="Synthesizer Visualizer Motion (I2V)" width="280">
 </p>
 <p align="center"><sub>Synthesizer Workstation Image (Left) ──► Image-to-Video Visualizer Motion (Right) · Video File: <a href="templates/examples/ai-music-workstation-clip.mp4">templates/examples/ai-music-workstation-clip.mp4</a></sub></p>
 
-**Sound Design for a 15-Second Vertical SaaS Ad**
+**Desain Suara untuk Iklan SaaS Vertikal 15 Detik**
 
 
 
-* **Voice Track:** Narrator speaks from 0:00 to 0:03, silences from 0:03 to 0:06 (visual demo), speaks from 0:06 to 0:15.
-* **Music Track:** generated 120 BPM tech house loop.
-* **Ducking keyframes:**
-  * **0:00 - 0:03:** Music volume set to **-18dB** (vocal is speaking).
-  * **0:03 - 0:06:** Music volume rises to **-12dB** (visual demo only).
-  * **0:06 - 0:15:** Music volume drops back to **-18dB** (vocal speaks CTA).
-* **SFX Placements:** Added a digital UI click sound effect at 0:03.50 when the screen cursor clicks a button on screen.
+* **Voice Track:** Narator berbicara dari 0:00 hingga 0:03, mengheningkan cipta dari 0:03 hingga 0:06 (demo visual), berbicara dari 0:06 hingga 0:15.
+* **Trek Musik:** menghasilkan loop rumah teknologi 120 BPM.
+* **Frame utama merunduk:**
+* **0:00 - 0:03:** Volume musik disetel ke **-18dB** (vokal berbicara).
+* **0:03 - 0:06:** Volume musik meningkat menjadi **-12dB** (hanya demo visual).
+* **0:06 - 0:15:** Volume musik turun kembali ke **-18dB** (vokal berbicara CTA).
+* **Penempatan SFX:** Menambahkan efek suara klik UI digital pada 0:03.50 saat kursor layar mengklik tombol di layar.
 
-**The Result:** The voice is clear and easy to understand. During the visual split, the music volume boosts naturally to fill the gap. The transition click makes the interface demo feel responsive.
+**Hasilnya:** Suara jernih dan mudah dimengerti. Selama pemisahan visual, volume musik ditingkatkan secara alami untuk mengisi kekosongan. Klik transisi membuat demo antarmuka terasa responsif.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Generation Purpose | Audio Output Control | Best for |
+| Platform / Alat | Tujuan Generasi | Kontrol Keluaran Audio | Terbaik untuk |
 |---|---|---|---|
-| **Suno / Udio** | Creative full-length songs and background music loops | Good (Supports extension loops) | Creating unique, genre-specific background tracks. |
-| **Mubert / Soundraw** | Loop-centric background audio | High (Allows muting specific stems like drums or synths) | Fast, modular background tracks for B2B channels. |
-| **ElevenLabs SFX** | Specific, isolated sound effects | Instant (Generates 2-4s isolated sound clips) | Sourcing custom transition sounds and button taps. |
+| **Suno / Udio** | Lagu kreatif berdurasi penuh dan loop musik latar | Bagus (Mendukung loop ekstensi) | Membuat trek latar belakang yang unik dan spesifik genre. |
+| **Mubert / Soundraw** | Audio latar belakang yang berpusat pada loop | Tinggi (Memungkinkan mematikan batang tertentu seperti drum atau synth) | Trek latar belakang yang cepat dan modular untuk saluran B2B. |
+| **SebelasLabs SFX** | Efek suara yang spesifik dan terisolasi | Instan (Menghasilkan klip suara terisolasi 2-4 detik) | Sumber suara transisi khusus dan ketukan tombol. |
 
-For B2B marketing channels, Soundraw is highly effective because you can manually mute the melody track, keeping only the drum and bass tracks so they do not distract from the voiceover. For sound design details (whooshes, UI clicks), ElevenLabs SFX provides clean, isolated sounds.
-
----
-
-## Launch It
-
-**How to organize your sound library:**
-* **Build an SFX vault:** Keep a local library of your most-used sound effects (e.g. `whoosh_fast.wav`, `click_modern.wav`). Instead of generating them for every video, import them from your vault to speed up edits.
-* **Use constant music volume:** Never let your music volume exceed -10dB. If music is too loud, mobile phone speakers will compress the entire audio track, making the voiceover sound distorted and hard to hear.
+Untuk saluran pemasaran B2B, Soundraw sangat efektif karena Anda dapat membisukan trek melodi secara manual, hanya menyimpan trek drum dan bass sehingga tidak mengganggu sulih suara. Untuk detail desain suara (suara mendesing, klik UI), ElevenLabs SFX menyediakan suara yang bersih dan terisolasi.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Generate a 1-minute background loop using Mubert or Suno. Ensure the prompt contains "instrumental" and "loop".
-2. **Medium:** Import a voice track and a music track. Apply manual volume keyframes to drop the music volume by 6dB during speaking sections.
-3. **Hard:** Generate 3 distinct transition sound effects using an SFX engine. Import them into your editor and align them to match the exact visual frames of a logo reveal or video cut.
-
----
-
-## Templates
-
-* [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) — music loops, mood anchors, and transition sound effects prompt keys.
+**Cara mengatur perpustakaan suara Anda:**
+* **Bangun brankas SFX:** Simpan perpustakaan lokal berisi efek suara yang paling sering Anda gunakan (misalnya `whoosh_fast.wav`, `click_modern.wav`). Daripada membuatnya untuk setiap video, imporlah dari brankas Anda untuk mempercepat pengeditan.
+* **Gunakan volume musik yang konstan:** Jangan biarkan volume musik Anda melebihi -10dB. Jika musik terlalu keras, speaker ponsel akan memampatkan seluruh track audio, sehingga suara sulih suara terdistorsi dan sulit didengar.
 
 ---
 
-[← Podcast Production & Audio Cleaning](03-podcast-production.md) · Next: [Singing Voice Conversion & Vocal Synthesis →](05-singing-vocal-synthesis.md)
+## Latihan
+
+1. **Mudah:** Buat loop latar belakang 1 menit menggunakan Mubert atau Suno. Pastikan prompt berisi "instrumental" dan "loop".
+2. **Medium:** Impor trek suara dan trek musik. Terapkan bingkai utama volume manual untuk menurunkan volume musik sebesar 6dB selama bagian berbicara.
+3. **Sulit:** Menghasilkan 3 efek suara transisi yang berbeda menggunakan mesin SFX. Impor ke editor Anda dan sejajarkan agar sesuai dengan bingkai visual yang tepat dari tampilan logo atau potongan video.
+
+---
+
+## Templat
+
+* [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) — loop musik, penanda suasana hati, dan tombol prompt efek suara transisi.
+
+---
+
+[← Podcast Production & Audio Cleaning](03-podcast-production.md) · Berikutnya: [Singing Voice Conversion & Vocal Synthesis →](05-singing-vocal-synthesis.md)

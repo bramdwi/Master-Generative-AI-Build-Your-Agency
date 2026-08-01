@@ -1,36 +1,36 @@
-# Faceless Script Template
+# Templat Skrip Tanpa Wajah
 
-Use this structure to draft high-retention faceless channel scripts (length: 60 seconds / ~150-180 words).
-
----
-
-**Niche Topic:** ________________________  
-**Target Duration:** 60 seconds  
-**Total Word Count:** _________ words (keep under 180)
+Gunakan struktur ini untuk menyusun skrip saluran tanpa wajah dengan retensi tinggi (panjang: 60 detik / ~150-180 kata).
 
 ---
 
-## 1. The Hook (0-10 seconds)
-*Must immediately call out the audience's primary desire or fear. No long intros.*
-> **Script:** __________________________________________________________________
-> **Visual Direction:** [Fast cut or text flash. Establish high-contrast motion immediately]
+**Topik Khusus:** __________
+**Durasi Target:** 60 detik
+**Jumlah Kata Total:** _________ kata (jaga di bawah 180)
 
-## 2. The Core Problem (10-25 seconds)
-*Explain why the viewer is struggling or why a common solution fails. Build tension.*
-> **Script:** __________________________________________________________________
-> **Visual Direction:** [B-roll representing struggle or complex data overlays]
+---
 
-## 3. The Resolution / Method (25-45 seconds)
-*Introduce the primary solution or step-by-step blueprint.*
-> **Script:** __________________________________________________________________
-> **Visual Direction:** [Clean visual transitions, screen demonstrations, or product shots]
+## 1. Pengait (0-10 detik)
+*Harus segera mengungkapkan keinginan atau ketakutan utama penonton. Tidak ada intro yang panjang.*
+> **Skrip:** __________________________________________________________________
+> **Arah Visual:** [Potongan cepat atau teks berkedip. Segera buat gerakan kontras tinggi]
 
-## 4. Pattern Interrupt (45-50 seconds)
-*A brief shift in audio/visual styling (e.g. sound effect, visual shock) to re-engage dropping attention.*
-> **Script (Quick fact or shocking number):** ___________________________________
-> **Visual Direction:** [Rapid zoom or unexpected icon transition + zoom sound effect]
+## 2. Inti Masalah (10-25 detik)
+*Jelaskan mengapa pemirsa mengalami kesulitan atau mengapa solusi umum gagal. Bangun ketegangan.*
+> **Skrip:** __________________________________________________________________
+> **Arah Visual:** [B-roll mewakili perjuangan atau hamparan data yang kompleks]
 
-## 5. Call to Value (55-60 seconds)
-*Not just "subscribe" — offer them a reason to click the link in your description (e.g. newsletter, free tool).*
-> **Script:** __________________________________________________________________
-> **Visual Direction:** [Point downward cursor arrow to description space, show logo]
+## 3. Resolusi/Metode (25-45 detik)
+*Memperkenalkan solusi utama atau cetak biru langkah demi langkah.*
+> **Skrip:** __________________________________________________________________
+> **Arah Visual:** [Transisi visual yang bersih, demonstrasi layar, atau pengambilan gambar produk]
+
+## 4. Interupsi Pola (45-50 detik)
+*Pergeseran singkat dalam gaya audio/visual (misalnya efek suara, kejutan visual) untuk menarik kembali perhatian yang hilang.*
+> **Skrip (Fakta singkat atau angka mengejutkan):** ____________________________________
+> **Arah Visual:** [Zoom cepat atau transisi ikon tak terduga + efek suara zoom]
+
+## 5. Panggilan ke Nilai (55-60 detik)
+*Bukan sekadar "berlangganan" — tawarkan mereka alasan untuk mengeklik tautan dalam deskripsi Anda (misalnya buletin, alat gratis).*
+> **Skrip:** __________________________________________________________________
+> **Arah Visual:** [Arahkan panah kursor ke bawah ke ruang deskripsi, tampilkan logo]

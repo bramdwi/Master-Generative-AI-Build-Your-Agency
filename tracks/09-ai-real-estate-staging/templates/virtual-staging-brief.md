@@ -1,49 +1,49 @@
-# AI Virtual Staging Brief & Style Guide Template
+# Templat Panduan Singkat & Gaya Pementasan Virtual AI
 
-Use this brief to specify interior design aesthetics, room lighting parameters, and camera depth settings before generating virtual staging assets for real estate listings.
-
----
-
-## 🏡 Property & Staging Brief
-
-* **Property Address:** `[Property Street Address, City, State]`
-* **Property Type:** `[e.g., Single Family Home, Modern Condo, Historic Craftsman, Luxury Penthouse]`
-* **Target Buyer Profile:** `[e.g., Young Professionals, Growing Family, Executive Downsizer]`
-* **Primary Architectural Features:** `[e.g., Hardwood floors, floor-to-ceiling windows, high vaulted ceiling, brick fireplace]`
+Gunakan ringkasan ini untuk menentukan estetika desain interior, parameter pencahayaan ruangan, dan pengaturan kedalaman kamera sebelum membuat aset pementasan virtual untuk listingan real estat.
 
 ---
 
-## 🎨 Interior Design Style Packs
+## Ringkasan Properti & Pementasan
 
-Select the interior style pack best suited to the property architecture:
-
-### 1. Modern Scandinavian (Recommended Default)
-* **Color Palette:** Warm white, natural oak, light beige, subtle sage green accents.
-* **Furniture Selection:** Low-profile linen sectional sofa, light oak coffee table, neutral woven area rug, potted monstera or fiddle-leaf fig.
-* **Lighting:** Diffused natural window sunlight, warm 3000K accent lamps.
-* **Prompt Token:**
-  > `"Modern Scandinavian living room virtual staging, light oak furniture, cream fabric sectional, plush beige rug, indoor potted plants, bright daylight, 8k photorealistic, architectural digest cover."`
-
-### 2. Contemporary Luxury
-* **Color Palette:** Deep navy, charcoal grey, brushed brass, white marble, emerald green.
-* **Furniture Selection:** Velvet sofa with brass legs, marble-topped coffee table, dark hardwood accents, statement chandelier, abstract wall art.
-* **Lighting:** Dramatic warm side lighting, recessed ceiling spot lights.
-* **Prompt Token:**
-  > `"Contemporary luxury living room staging, velvet sofa with gold brass accents, white marble coffee table, plush dark rug, sophisticated ambiance, photorealistic high end interior design."`
-
-### 3. Coastal Modern
-* **Color Palette:** Crisp white, seafoam blue, sandy beige, natural rattan, weathered wood.
-* **Furniture Selection:** White slipcovered sofa, light wood coffee table, jute area rug, nautical decor accents, sheer curtains.
-* **Lighting:** Bright airy sunshine, cool daylight shadows.
-* **Prompt Token:**
-  > `"Coastal modern staging, crisp white slipcover sofa, rattan coffee table, natural jute rug, airy beach house feel, bright natural window light, photorealistic."`
+* **Alamat Properti:** `[Property Street Address, City, State]`
+* **Jenis Properti:** `[e.g., Single Family Home, Modern Condo, Historic Craftsman, Luxury Penthouse]`
+* **Profil Pembeli Target:** `[e.g., Young Professionals, Growing Family, Executive Downsizer]`
+* **Fitur Arsitektur Utama:** `[e.g., Hardwood floors, floor-to-ceiling windows, high vaulted ceiling, brick fireplace]`
 
 ---
 
-## 📋 Quality Control & Depth Checklist
+## 🎨 Paket Gaya Desain Interior
 
-- [ ] **Perspective Alignment:** Do furniture edges align with the room's vanishing point and wall angles?
-- [ ] **Floor Contact:** Are tight, soft contact shadows (ambient occlusion) visible under sofa legs and coffee tables?
-- [ ] **Scale Accuracy:** Is the furniture scaled realistically relative to doors, windows, and light switches?
-- [ ] **Structural Preservation:** Are windows, doorways, flooring textures, and fireplaces left unaltered by the inpainting mask?
-- [ ] **Resolution:** Is the exported JPEG at least 3000px wide and formatted in 16:9 or 4:3 for MLS uploads?
+Pilih paket gaya interior yang paling sesuai dengan arsitektur properti:
+
+### 1. Skandinavia Modern (Default yang Direkomendasikan)
+* **Palet Warna:** Putih hangat, kayu oak alami, krem ​​muda, aksen hijau sage halus.
+* **Pilihan Furnitur:** Sofa bagian linen berprofil rendah, meja kopi kayu ek ringan, permadani tenun netral, monstera dalam pot, atau daun ara daun biola.
+* **Pencahayaan:** Sinar matahari jendela alami yang tersebar, lampu aksen 3000K yang hangat.
+* **Token Cepat:**
+> __KODE INLINE_0__
+
+### 2. Kemewahan Kontemporer
+* **Palet Warna:** Biru tua, abu-abu arang, kuningan, marmer putih, hijau zamrud.
+* **Pilihan Furnitur:** Sofa beludru dengan kaki kuningan, meja kopi berlapis marmer, aksen kayu keras gelap, lampu gantung mencolok, seni dinding abstrak.
+* **Pencahayaan:** Pencahayaan samping hangat yang dramatis, lampu sorot langit-langit tersembunyi.
+* **Token Cepat:**
+> __KODE INLINE_0__
+
+### 3. Pesisir Modern
+* **Palet Warna:** Putih bersih, biru busa laut, krem ​​​​berpasir, rotan alami, kayu lapuk.
+* **Pilihan Furnitur:** Sofa berpelindung putih, meja kopi kayu ringan, permadani goni, aksen dekorasi bahari, tirai tipis.
+* **Pencahayaan:** Sinar matahari yang cerah dan sejuk, bayangan siang hari yang sejuk.
+* **Token Cepat:**
+> __KODE INLINE_0__
+
+---
+
+## 📋 Kontrol Kualitas & Daftar Periksa Kedalaman
+
+- [ ] **Penyelarasan Perspektif:** Apakah tepi furnitur sejajar dengan titik hilang dan sudut dinding ruangan?
+- [ ] **Kontak Lantai:** Apakah bayangan kontak yang rapat dan lembut (oklusi sekitar) terlihat di bawah kaki sofa dan meja kopi?
+- [ ] **Akurasi Skala:** Apakah furnitur memiliki skala yang realistis dibandingkan dengan pintu, jendela, dan sakelar lampu?
+- [ ] **Pelestarian Struktural:** Apakah jendela, pintu, tekstur lantai, dan perapian tidak diubah oleh topeng pengecatan?
+- [ ] **Resolusi:** Apakah JPEG yang diekspor memiliki lebar minimal 3000 piksel dan diformat dalam 16:9 atau 4:3 untuk unggahan MLS?

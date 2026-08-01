@@ -1,27 +1,27 @@
-# Stock Metadata & Tagging Template
+# Metadata Stok & Templat Penandaan
 
-Use this reference guide for IPTC metadata keywording, commercial title formatting, and batch CSV schema generation.
-
----
-
-## 🏷️ IPTC Keywording Framework
-
-Stock search engines rely on **relevance weighting**. Structure your 30 to 40 keywords into 3 tiers:
-
-### Tier 1: Primary Subject (5-8 Keywords)
-> `handshake, business meeting, corporate executive, partnership, deal, contract, business deal`
-
-### Tier 2: Environment & Lighting (8-12 Keywords)
-> `modern office, sunlit, glass window, conference table, professional, interior design, depth of field, 8k`
-
-### Tier 3: Abstract Commercial Concepts (10-15 Keywords)
-> `trust, agreement, teamwork, success, finance, leadership, negotiation, collaboration, corporate growth, copy space`
+Gunakan panduan referensi ini untuk kata kunci metadata IPTC, pemformatan judul komersial, dan pembuatan skema CSV batch.
 
 ---
 
-## 📄 Batch CSV Metadata Schema
+## 🏷️ Kerangka Kata Kunci IPTC
 
-Use this CSV format for bulk uploading metadata to Adobe Stock, Freepik, and Wirestock:
+Mesin pencari saham mengandalkan **bobot relevansi**. Susun 30 hingga 40 kata kunci Anda menjadi 3 tingkatan:
+
+### Tingkat 1: Subjek Utama (5-8 Kata Kunci)
+> __KODE INLINE_0__
+
+### Tingkat 2: Lingkungan & Pencahayaan (8-12 Kata Kunci)
+> __KODE INLINE_0__
+
+### Tingkat 3: Konsep Komersial Abstrak (10-15 Kata Kunci)
+> __KODE INLINE_0__
+
+---
+
+## 📄 Skema Metadata CSV Batch
+
+Gunakan format CSV ini untuk mengunggah metadata secara massal ke Adobe Stock, Freepik, dan Wirestock:
 
 ```csv
 Filename,Title,Keywords,Category
@@ -31,9 +31,9 @@ future-tech-server-01.jpg,"High-Tech Server Room with Glowing Blue Fiber Optic L
 
 ---
 
-## 🚫 Rejection Prevention Checklist
+## 🚫 Daftar Periksa Pencegahan Penolakan
 
-- [ ] **No Brand Logos:** Removed Apple, Nike, Starbucks, Microsoft, or car manufacturer emblems.
-- [ ] **No Registered Landmarks:** Excluded copyrighted architectural designs (e.g., Eiffel Tower night illumination, Sydney Opera House closeups).
-- [ ] **AI Tag Checked:** Enabled the **"Generative AI"** checkbox on contributor portal during submission.
-- [ ] **No Artifacts at 100% Crop:** Inspected hands, eyes, and text details for weird morphing before uploading.
+- [ ] **Tanpa Logo Merek:** Menghapus lambang Apple, Nike, Starbucks, Microsoft, atau produsen mobil.
+- [ ] **Tidak Ada Bangunan Terkenal yang Terdaftar:** Tidak termasuk desain arsitektur berhak cipta (misalnya, penerangan malam Menara Eiffel, close-up Gedung Opera Sydney).
+- [ ] **Tag AI Dicentang:** Mengaktifkan kotak centang **"AI Generatif"** di portal kontributor selama pengiriman.
+- [ ] **Tidak Ada Artefak pada Pangkas 100%:** Memeriksa detail tangan, mata, dan teks untuk mengetahui adanya perubahan aneh sebelum diunggah.

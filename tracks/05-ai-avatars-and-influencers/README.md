@@ -1,71 +1,71 @@
-# Track 5 — AI Avatars & Influencers
+# Jalur 5 — Avatar & Influencer AI
 
-> Build a consistent AI character, synthesize its voice, lip-sync its dialogue, and manage virtual influencers for clients.
+> Bangun karakter AI yang konsisten, sintesiskan suaranya, sinkronkan bibir dialognya, dan kelola influencer virtual untuk klien.
 
-Five modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (style guides, media kits, retainer agreements) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (panduan gaya, kit media, perjanjian penahan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [Building a Consistent AI Character](01-consistent-character.md) | ~45 min | — |
-| 2 | [Character to Content Pipeline](02-character-content-pipeline.md) | ~45 min | Module 1 |
-| 3 | [Voice Cloning & Dialogue](03-voice-cloning-dialogue.md) | ~35 min | Modules 1–2 |
-| 4 | [Monetization Tiers by Follower Count](04-monetization-tiers.md) | ~30 min | Modules 1, 3 |
-| 5 | [Agency Case Study: Small-Team Economics](05-agency-economics.md) | ~30 min | Modules 1, 4 |
+| 1 | [Building a Consistent AI Character](01-consistent-character.md) | ~45 menit | — |
+| 2 | [Character to Content Pipeline](02-character-content-pipeline.md) | ~45 menit | Modul 1 |
+| 3 | [Voice Cloning & Dialogue](03-voice-cloning-dialogue.md) | ~35 menit | Modul 1–2 |
+| 4 | [Monetization Tiers by Follower Count](04-monetization-tiers.md) | ~30 menit | Modul 1, 3 |
+| 5 | [Agency Case Study: Small-Team Economics](05-agency-economics.md) | ~30 menit | Modul 1, 4 |
 
 ---
 
-### 1. [Building a Consistent AI Character](01-consistent-character.md)
+### 1.[Building a Consistent AI Character](01-consistent-character.md)
 
-> A virtual influencer needs a locked face, not a random prompt.
+> Seorang influencer virtual membutuhkan wajah yang terkunci, bukan perintah acak.
 
-- Establish consistent visual identities using detailed face prompts, locked seeds, and clothing anchors.
-- Prevent face variations across scenes by using reference images and post-generation face swapping.
-- Organize characters into visual style guides to repeat visual features seamlessly.
+- Tetapkan identitas visual yang konsisten menggunakan petunjuk wajah yang mendetail, benih yang terkunci, dan jangkar pakaian.
+- Cegah variasi wajah di seluruh adegan dengan menggunakan gambar referensi dan pertukaran wajah pasca-generasi.
+- Atur karakter ke dalam panduan gaya visual untuk mengulangi fitur visual dengan mulus.
 
-**Templates:** [`character-style-guide.md`](templates/character-style-guide.md)
+**Templat:** [`character-style-guide.md`](templates/character-style-guide.md)
 
-### 2. [Character to Content Pipeline](02-character-content-pipeline.md)
+### 2.[Character to Content Pipeline](02-character-content-pipeline.md)
 
-> The character is the face, but the motion makes them real.
+> Karakternya adalah wajahnya, namun geraknya menjadikannya nyata.
 
-- Animate still characters into dynamic vertical explainers using audio-driven lip-sync engines.
-- Lock character dimensions and hair details by confining facial movements to speaking lips and blinks.
-- Sequence talking heads alongside B-roll slide cuts in video editors to keep viewers engaged.
+- Menganimasikan karakter diam ke dalam penjelasan vertikal dinamis menggunakan mesin sinkronisasi bibir yang digerakkan oleh audio.
+- Kunci dimensi karakter dan detail rambut dengan membatasi gerakan wajah pada bibir yang berbicara dan kedipan.
+- Urutkan kepala pembicaraan di samping potongan slide B-roll di editor video untuk membuat pemirsa tetap terlibat.
 
-**Templates:** [`lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md)
+**Templat:** [`lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md)
 
-### 3. [Voice Cloning & Dialogue](03-voice-cloning-dialogue.md)
+### 3.[Voice Cloning & Dialogue](03-voice-cloning-dialogue.md)
 
-> A face creates the identity, but the voice builds the relationship.
+> Wajah menciptakan identitas, namun suara membangun hubungan.
 
-- Record, gate, and clean vocal training clips to upload and clone custom voice profiles on ElevenLabs.
-- Write phonetic word substitutions in script fields to force correct pronunciation of acronyms and brands.
-- Control narrative rhythm and breathing pauses using structured sentence segments and punctuation cues.
+- Rekam, gerbang, dan bersihkan klip pelatihan vokal untuk mengunggah dan mengkloning profil suara khusus di ElevenLabs.
+- Tulis penggantian kata fonetik di kolom skrip untuk memaksa pengucapan akronim dan merek yang benar.
+- Kontrol ritme naratif dan jeda pernapasan menggunakan segmen kalimat terstruktur dan tanda baca.
 
-**Templates:** [`voice-cloning-checklist.md`](templates/voice-cloning-checklist.md)
+**Templat:** [`voice-cloning-checklist.md`](templates/voice-cloning-checklist.md)
 
-### 4. [Monetization Tiers by Follower Count](04-monetization-tiers.md)
+### 4.[Monetization Tiers by Follower Count](04-monetization-tiers.md)
 
-> A virtual influencer's reach is digital, but the sponsor money is real.
+> Jangkauan influencer virtual bersifat digital, namun uang sponsornya nyata.
 
-- Monetize virtual characters at small scale by pitching highly targeted B2B SaaS tool sponsorships.
-- Bundle placement packages (integrations, pinned links, and bios) to pitch brands with active budgets.
-- Package account metrics, niches, and audience demographics into custom Media Kits.
+- Uangkan karakter virtual dalam skala kecil dengan menawarkan sponsor alat SaaS B2B yang sangat bertarget.
+- Paket penempatan bundel (integrasi, tautan yang disematkan, dan bios) untuk mempromosikan merek dengan anggaran aktif.
+- Kemas metrik akun, niche, dan demografi audiens ke dalam Kit Media khusus.
 
-**Templates:** [`sponsor-media-kit.md`](templates/sponsor-media-kit.md)
+**Templat:** [`sponsor-media-kit.md`](templates/sponsor-media-kit.md)
 
-### 5. [Agency Case Study: Small-Team Economics](05-agency-economics.md)
+### 5.[Agency Case Study: Small-Team Economics](05-agency-economics.md)
 
-> Don't build an audience for yourself; build and manage audiences for paying clients.
+> Jangan membangun audiens untuk diri Anda sendiri; membangun dan mengelola audiens untuk klien yang membayar.
 
-- Launch a Virtual Influencer Agency (VIA) managing customized brand characters on monthly retainers.
-- Retain ownership of underlying engine guide files (prompts, seeds, voices) while transferring video rights.
-- Coordinate weekly batch delivery schedules and approval cycles with professional service clients.
+- Luncurkan Virtual Influencer Agency (VIA) yang mengelola karakter merek yang disesuaikan dengan pengikut bulanan.
+- Pertahankan kepemilikan file panduan mesin yang mendasarinya (prompt, seed, suara) saat mentransfer hak video.
+- Koordinasikan jadwal pengiriman batch mingguan dan siklus persetujuan dengan klien layanan profesional.
 
-**Templates:** [`influencer-agency-agreement.md`](templates/influencer-agency-agreement.md)
+**Templat:** [`influencer-agency-agreement.md`](templates/influencer-agency-agreement.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 10 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 10 lagu lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

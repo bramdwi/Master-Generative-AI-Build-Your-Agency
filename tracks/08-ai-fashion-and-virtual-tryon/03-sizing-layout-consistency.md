@@ -1,117 +1,117 @@
-# Sizing & Layout Consistency
+# Konsistensi Ukuran & Tata Letak
 
-> Proportions build the canvas; alignment builds the brand.
+> Proporsi membangun kanvas; penyelarasan membangun merek.
 
-**Track:** AI Fashion & Virtual Try-On  
-**Time:** ~35 minutes  
-**Prerequisites:** Garment Try-on Basics  
+**Lagu:** Mode AI & Uji Coba Virtual
+**Waktu:** ~35 menit
+**Prasyarat:** Dasar-Dasar Percobaan Pakaian
 
-## The Problem
+## Masalahnya
 
-When browsing an online clothing store, consistency is key to a professional experience. If the model's head size jumps around, or if the shoulder baseline shifts up and down as you click between different shirts, the website looks cheap and messy.
+Saat menelusuri toko pakaian online, konsistensi adalah kunci pengalaman profesional. Jika ukuran kepala model melonjak-lonjak, atau jika garis dasar bahu bergeser ke atas dan ke bawah saat Anda mengklik di antara kemeja yang berbeda, situs web akan terlihat murahan dan berantakan.
 
-If you try to align each virtual try-on image by eye, you will inevitably make errors. Some models will look too tall, others too short, and the clothing alignment will be inconsistent.
+Jika Anda mencoba menyelaraskan setiap gambar percobaan virtual dengan mata, Anda pasti akan membuat kesalahan. Beberapa model akan terlihat terlalu tinggi, yang lainnya terlalu pendek, dan penataan pakaiannya tidak konsisten.
 
-To build a professional brand catalog, you must implement a standardized layout grid and keep all model proportions, heights, and poses aligned across your entire collection.
+Untuk membuat katalog merek profesional, Anda harus menerapkan kisi tata letak standar dan menjaga semua proporsi model, tinggi, dan pose selaras di seluruh koleksi Anda.
 
-## The Concept
+## Konsep
 
-Standardizing fashion catalog layouts relies on **Bounding Margins**, **Baseline Joint Coordinates**, and **Pose Templates**:
+Standarisasi tata letak katalog fesyen bergantung pada **Bounding Margins**, **Baseline Joint Coordinates**, dan **Pose Templates**:
 
 ```
 Model Try-On Render ──► Import into Grid Canvas ──► Joint Guide Alignment ──► Baseline Stabilization ──► Export WebP
 ```
 
-* **The Shoulder Baseline Rule:** The shoulders are the anchor point of any garment. To align shirts, jackets, or dresses, always align the model's shoulder joints to the same vertical coordinate (Y-axis) in your template. This keeps the chest and neck lines consistent across your listing grid.
-* **Aspect Ratio Margins:** E-commerce channels require specific margins. For a standard 4:5 vertical format (1080x1350px), maintain a **10%** bottom margin for the feet and a **12%** top margin for head clearance to prevent text overlays from covering the model.
-* **Center Seam Centering:** The vertical center seam of the garment (the zipper or button line) must align perfectly with the horizontal center of the canvas (X-axis center). This prevents the product from looking off-center or tilted.
+* **Aturan Dasar Bahu:** Bahu adalah titik jangkar pakaian apa pun. Untuk menyelaraskan kemeja, jaket, atau gaun, selalu sejajarkan sendi bahu model dengan koordinat vertikal yang sama (sumbu Y) pada templat Anda. Ini menjaga garis dada dan leher tetap konsisten di seluruh grid daftar Anda.
+* **Margin Rasio Aspek:** Saluran e-niaga memerlukan margin tertentu. Untuk format vertikal standar 4:5 (1080x1350 piksel), pertahankan **10%** margin bawah untuk kaki dan **12%** margin atas untuk jarak kepala guna mencegah hamparan teks menutupi model.
+* **Pemusatan Jahitan Tengah:** Jahitan tengah vertikal pakaian (garis ritsleting atau kancing) harus sejajar sempurna dengan bagian tengah horizontal kanvas (pusat sumbu X). Hal ini mencegah produk terlihat tidak berada di tengah atau miring.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Set Up the Canvas Grid
-Open [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md). Configure your canvas guides in your editor:
-* Set canvas size to **1080 x 1350px**.
-* Add a vertical center guide at **X: 540px**.
-* Add horizontal baseline guides: Shoulder Line at **Y: 400px**, Waist Line at **Y: 750px**, Hip Line at **Y: 950px**.
+### Langkah 1: Siapkan Kotak Kanvas
+Buka [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md). Konfigurasikan panduan kanvas Anda di editor Anda:
+* Atur ukuran kanvas ke **1080 x 1350 piksel**.
+* Tambahkan panduan tengah vertikal di **X: 540px**.
+* Tambahkan panduan garis dasar horizontal: Garis Bahu pada **Y: 400px**, Garis Pinggang pada **Y: 750px**, Garis Pinggul pada **Y: 950px**.
 
-### Step 2: Import the Model Layer
-Import your generated model try-on layer into the template. Position it roughly in the center.
+### Langkah 2: Impor Lapisan Model
+Impor lapisan uji coba model yang Anda buat ke dalam templat. Posisikan kira-kira di tengah.
 
-### Step 3: Align the Shoulders
-Scale the model layer proportionally (hold `Shift` in your editor):
-* Drag the model layer until the left and right shoulder seams align exactly with the horizontal **Shoulder Line (Y: 400px)** guide.
-* Let the head and legs scale naturally. This ensures the chest and torso placement is uniform across all product listings.
+### Langkah 3: Sejajarkan Bahu
+Skalakan lapisan model secara proporsional (tahan `Shift` di editor Anda):
+* Seret layer model hingga jahitan bahu kiri dan kanan sejajar persis dengan panduan horizontal **Garis Bahu (Y: 400 piksel)**.
+* Biarkan kepala dan kaki bersisik secara alami. Hal ini memastikan penempatan dada dan batang tubuh seragam di semua daftar produk.
 
-### Step 4: Align the Center Seam
-Move the model layer left or right until the shirt's collar button or zipper line aligns exactly with the **Center Vertical Guide (X: 540px)**.
+### Langkah 4: Sejajarkan Jahitan Tengah
+Pindahkan layer model ke kiri atau ke kanan hingga kancing kerah kemeja atau garis ritsleting sejajar persis dengan **Panduan Vertikal Tengah (X: 540px)**.
 
-### Step 5: Verify Margins & Export
-Perform a visual QA check:
-* Ensure the top of the model's head does not cross the top safety line.
-* Ensure the hands and sides do not cross the side padding guides.
-Hide the grid template layers, and export the file as WebP. Repeat this process for all items in the catalog collection.
+### Langkah 5: Verifikasi Margin & Ekspor
+Lakukan pemeriksaan QA visual:
+* Pastikan bagian atas kepala model tidak melewati garis pengaman atas.
+* Pastikan tangan dan bagian samping tidak melewati pemandu bantalan samping.
+Sembunyikan lapisan templat kisi, dan ekspor file sebagai WebP. Ulangi proses ini untuk semua item dalam koleksi katalog.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/mannequin-grid-alignment.jpg" alt="Mannequin Alignment Grid" width="280">
-<img src="templates/examples/mannequin-grid-clip.gif" alt="Alignment Grid Motion (I2V)" width="280">
+<img src="templates/examples/mannequin-grid-alignment.jpg" alt="Kisi Penyelarasan Manekin" width="280">
+<img src="templates/examples/mannequin-grid-clip.gif" alt="Gerakan Alignment Grid (I2V)" width="280">
 </p>
 <p align="center"><sub>Baseline Grid Alignment Image (Left) ──► Image-to-Video Grid Lighting Motion (Right) · Video File: <a href="templates/examples/mannequin-grid-clip.mp4">templates/examples/mannequin-grid-clip.mp4</a></sub></p>
 
-**Aligning a 5-Item Windbreaker Collection**
+**Menyelaraskan Koleksi Windbreaker 5 Item**
 
 
 
-* **Catalog Resolution:** 1080x1350px vertical.
-* **Baseline Settings:**
-  * Center Guide: X: 540px.
-  * Shoulder Guide Y: 400px.
-  * Waist Guide Y: 750px.
-* **Execution:**
-  * Imported 5 separate VTO model renders (Black, Blue, Orange, Red, Grey windbreakers).
-  * Scaled each layer so the jacket shoulder seams snapped to the Y: 400px line.
-  * Centered each zipper line to the vertical center.
-* **Results:** When browsing the catalog page, the models stand at the exact same height and center, allowing shoppers to focus on comparing the product colors without visual distractions.
+* **Resolusi Katalog:** 1080x1350 piksel vertikal.
+* **Setelan Dasar:**
+* Panduan Tengah: X: 540px.
+* Panduan Bahu Y: 400px.
+* Panduan Pinggang Y: 750px.
+* **Eksekusi:**
+* Mengimpor 5 render model VTO terpisah (jaket Hitam, Biru, Oranye, Merah, Abu-abu).
+* Skalakan setiap lapisan sehingga jahitan bahu jaket menempel pada garis Y: 400px.
+* Pusatkan setiap garis ritsleting ke tengah vertikal.
+* **Hasil:** Saat menelusuri halaman katalog, model-model tersebut berdiri pada ketinggian dan posisi tengah yang sama persis, sehingga pembeli dapat fokus dalam membandingkan warna produk tanpa gangguan visual.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Automation Capability | Layout Control | Best for |
+| Platform / Alat | Kemampuan Otomasi | Kontrol Tata Letak | Terbaik untuk |
 |---|---|---|---|
-| **Photoshop / Photopea** | Low (Requires manual scaling to guides) | Ultra-High (Pixel-perfect visual guides) | High-end listing photography QC. |
-| **Python Pillow (PIL)** | Ultra-High (Can write scripts to crop and auto-align eyes/shoulders using keypoints) | Medium | Programmatic batch processing of large catalog datasets. |
-| **Figma** | Low | High | Creating user interface mockups and checking page layout consistency. |
+| **Photoshop / Fotopea** | Rendah (Memerlukan penskalaan manual ke panduan) | Ultra-Tinggi (Panduan visual piksel sempurna) | QC fotografi daftar kelas atas. |
+| **Bantal Python (PIL)** | Ultra-Tinggi (Dapat menulis skrip untuk memotong dan menyelaraskan mata/bahu secara otomatis menggunakan titik kunci) | Sedang | Pemrosesan batch terprogram dari kumpulan data katalog besar. |
+| **Figma** | Rendah | Tinggi | Membuat maket antarmuka pengguna dan memeriksa konsistensi tata letak halaman. |
 
-For design QA, using Photoshop's horizontal guidelines is the best workflow. For developers managing massive databases (e.g. 1000+ fashion catalog updates), writing a Python script using a keypoint detection model (like YOLO-pose) to detect shoulder joints and auto-crop the canvas is the standard way to scale the pipeline.
-
----
-
-## Launch It
-
-**How to organize pose templates:**
-* **Lock the camera angle:** Keep the camera height at chest level (approx. 4 feet off the ground) for all catalog photography. Changing camera heights (e.g., low-angle shots vs. high-angle shots) alters perspective, making it impossible to align baseline coordinates.
-* **Use standardized baselines:** Document your grid settings in the [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md) file and share it with your design team.
+Untuk desain QA, menggunakan pedoman horizontal Photoshop adalah alur kerja terbaik. Untuk pengembang yang mengelola database besar (misalnya 1000+ pembaruan katalog mode), menulis skrip Python menggunakan model deteksi titik kunci (seperti pose YOLO) untuk mendeteksi sendi bahu dan memotong kanvas secara otomatis adalah cara standar untuk menskalakan pipeline.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Open a photo editor and draw guides for a square 1:1 e-commerce layout (Shoulders at Y: 300px, Waist at Y: 600px).
-2. **Medium:** Import 2 model photos and scale them so their shoulders align perfectly to your guides. Toggle the layers to verify alignment.
-3. **Hard:** Write a mock checklist to QA a batch of 10 clothing listing pages. List 4 potential alignment errors (e.g., off-center zipper, head clipping) and how to fix them.
-
----
-
-## Templates
-
-* [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md) — canvas sizes, margin constraints, baseline coordinate maps, and QC checklists.
+**Cara mengatur templat pose:**
+* **Kunci sudut kamera:** Jaga ketinggian kamera setinggi dada (kira-kira 4 kaki dari permukaan tanah) untuk semua fotografi katalog. Mengubah ketinggian kamera (misalnya, bidikan sudut rendah vs. bidikan sudut tinggi) akan mengubah perspektif, sehingga tidak mungkin menyelaraskan koordinat garis dasar.
+* **Gunakan garis dasar standar:** Dokumentasikan pengaturan grid Anda di file [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md) dan bagikan dengan tim desain Anda.
 
 ---
 
-[← High-converting Studio Lookbooks](02-studio-lookbooks.md) · Next: [Before/After Conversion Cases →](04-conversion-cases.md)
+## Latihan
+
+1. **Mudah:** Buka editor foto dan gambar panduan untuk tata letak e-commerce persegi 1:1 (Bahu pada Y: 300 piksel, Pinggang pada Y: 600 piksel).
+2. **Sedang:** Impor 2 foto model dan skalakan agar bahunya sejajar sempurna dengan panduan Anda. Alihkan lapisan untuk memverifikasi keselarasan.
+3. **Sulit:** Tulis daftar periksa tiruan ke QA sejumlah 10 halaman daftar pakaian. Sebutkan 4 potensi kesalahan penyelarasan (misalnya, ritsleting di luar bagian tengah, kepala terpotong) dan cara memperbaikinya.
+
+---
+
+## Templat
+
+* [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md) — ukuran kanvas, batasan margin, peta koordinat dasar, dan daftar periksa QC.
+
+---
+
+[← High-converting Studio Lookbooks](02-studio-lookbooks.md) · Berikutnya: [Before/After Conversion Cases →](04-conversion-cases.md)

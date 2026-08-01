@@ -1,23 +1,23 @@
-# Affiliate Pitch Template
+# Templat Pitch Afiliasi
 
-Use this email template to reach out to software/services brands in your niche to secure custom affiliate promo codes and referral rates.
+Gunakan templat email ini untuk menjangkau merek perangkat lunak/layanan di niche Anda guna mendapatkan kode promo afiliasi khusus dan tarif rujukan.
 
 ---
 
-**Subject:** Partnership / Affiliate Request from [Channel Name]
+**Subjek:** Permintaan Kemitraan/Afiliasi dari [Nama Saluran]
 
-Hi [Partnership Team / Contact Name],
+Hai [Tim Kemitraan / Nama Kontak],
 
-I am the creator behind **[Channel Name]** ([Link to channel]), a faceless educational channel focused on [describe channel focus, e.g. helping small businesses automate bookkeeping]. 
+Saya adalah pencipta di balik **[Nama Saluran]** ([Tautan ke saluran]), saluran pendidikan tanpa wajah yang berfokus pada [jelaskan fokus saluran, misalnya. membantu usaha kecil mengotomatiskan pembukuan].
 
-Our content currently reaches over **[Number]** monthly views from a highly targeted audience of [describe target audience, e.g. freelance accountants and agency owners].
+Konten kami saat ini mencapai lebih dari **[Jumlah]** penayangan bulanan dari audiens yang sangat bertarget [deskripsikan audiens target, misalnya. akuntan lepas dan pemilik agensi].
 
-We are planning a series of videos next month focusing on [specific upcoming topic, e.g., the best cloud accounting systems of 2026]. Because we frequently recommend [Company/Product Name] to our viewers, I’d love to secure a custom referral link or promo code (such as a 10% discount) to share in our video descriptions and pinned comments.
+Kami merencanakan serangkaian video bulan depan dengan fokus pada [topik spesifik yang akan datang, misalnya, sistem akuntansi cloud terbaik tahun 2026]. Karena kami sering merekomendasikan [Nama Perusahaan/Produk] kepada pemirsa kami, saya ingin mendapatkan tautan rujukan khusus atau kode promo (seperti diskon 10%) untuk dibagikan dalam deskripsi video dan komentar yang dipasangi pin.
 
-Could you let me know if you support custom affiliate structures, or if there is a referral portal we can sign up for?
+Bisakah Anda memberi tahu saya jika Anda mendukung struktur afiliasi khusus, atau jika ada portal rujukan yang dapat kami daftarkan?
 
-Best regards,
+Salam,
 
-[Your Name]  
-Creator, [Channel Name]  
-[Link to Channel/Portfolio]
+[Nama Anda]
+Pencipta, [Nama Saluran]
+[Tautan ke Saluran/Portofolio]

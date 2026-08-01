@@ -1,105 +1,105 @@
-# API vs. Local: A Decision Framework
+# API vs. Lokal: Kerangka Keputusan
 
-> Determine when to use Cloud APIs (muapi, Replicate) vs. Local Open-Source GPUs (ComfyUI, Automatic1111) based on cost, scale, and privacy requirements.
+> Tentukan kapan menggunakan Cloud API (muapi, Replikasi) vs. GPU Sumber Terbuka Lokal (ComfyUI, Automatic1111) berdasarkan biaya, skala, dan persyaratan privasi.
 
-**Track:** AI Tools Mastery  
-**Time:** ~40 minutes  
-**Prerequisites:** [01: Image Models](01-image-models-which-one-for-which-use-case.md), [02: Video Models](02-video-models-which-one-for-which-use-case.md), [03: Voice & Audio Models](03-voice-audio-models-which-one-for-which-use-case.md)  
+**Lacak:** Penguasaan Alat AI
+**Waktu:** ~40 menit
+**Prasyarat:** [01: Image Models](01-image-models-which-one-for-which-use-case.md), [02: Video Models](02-video-models-which-one-for-which-use-case.md), [03: Voice & Audio Models](03-voice-audio-models-which-one-for-which-use-case.md)
 
-## The Problem
+## Masalahnya
 
-Creators face a critical architectural decision: **Should you run AI models via Cloud APIs or build a Local GPU Workstation?**
+Kreator menghadapi keputusan arsitektur yang penting: **Haruskah Anda menjalankan model AI melalui Cloud API atau membangun Workstation GPU Lokal?**
 
-Making the wrong choice burns capital:
-* **Over-investing in Hardware Early:** Buying a $3,500 RTX 4090 GPU workstation when you only render 20 images a week takes years to break even.
-* **Scaling Cloud APIs at High Volume:** Running 10,000 monthly high-res renders on pay-per-request cloud APIs costs $600+/month, destroying gross profit margins compared to local GPU rendering.
-* **Ignoring Data Privacy & Compliance:** Sending confidential enterprise client assets over public cloud APIs violates NDA agreements.
+Membuat pilihan yang salah menghabiskan modal:
+* **Berinvestasi berlebihan pada Perangkat Keras Di Awal:** Membeli stasiun kerja GPU RTX 4090 seharga $3.500 saat Anda hanya merender 20 gambar seminggu membutuhkan waktu bertahun-tahun untuk mencapai titik impas.
+* **Menskalakan Cloud API pada Volume Tinggi:** Menjalankan 10.000 render resolusi tinggi bulanan pada API cloud bayar per permintaan memerlukan biaya $600+/bulan, sehingga mengurangi margin laba kotor dibandingkan dengan rendering GPU lokal.
+* **Mengabaikan Privasi & Kepatuhan Data:** Mengirim aset rahasia klien perusahaan melalui API cloud publik melanggar perjanjian NDA.
 
-You need a clear mathematical decision matrix to select the optimal hosting architecture for your business stage.
+Anda memerlukan matriks keputusan matematis yang jelas untuk memilih arsitektur hosting yang optimal untuk tahap bisnis Anda.
 
 ---
 
-## The Concept
+## Konsep
 
-The **API vs. Local Decision Matrix** balances hardware amortization, volume scale, and data security:
+**API vs. Matriks Keputusan Lokal** menyeimbangkan amortisasi perangkat keras, skala volume, dan keamanan data:
 
 ```
 Monthly Volume & Privacy Needs ──► Cost Payback Calculation ──► Cloud API vs. Local GPU Choice
 ```
 
-### Architectural Comparison:
+### Perbandingan Arsitektur:
 
-$$\text{Monthly Cloud API Cost} = \text{Renders per Month} \times \text{Cost per Render}$$
+$$\text{Biaya Cloud API Bulanan} = \text{Render per Bulan} \times \text{Biaya per Render}$$
 
-$$\text{Local GPU Amortization Period} = \frac{\text{GPU Workstation Cost}}{\text{Monthly Savings vs. API}}$$
+$$\text{Periode Amortisasi GPU Lokal} = \frac{\text{Biaya Stasiun Kerja GPU}}{\text{Penghematan Bulanan vs. API}}$$
 
-| Dimension | Cloud APIs (muapi / Replicate) | Local GPU (ComfyUI / RTX 4090) |
+| Dimensi | Cloud API (muapi/Replikasi) | GPU Lokal (ComfyUI / RTX 4090) |
 |---|---|---|
-| **Upfront Cost** | **$0** (Pay-as-you-go credit model) | **$1,500 – $4,500** hardware investment |
-| **Low-Volume Efficiency** | **Superior** ($5-$20/mo total spend) | Poor (Long payback period) |
-| **High-Volume Economics** | Cost scales linearly with renders | **$0 marginal cost per render** (only electricity) |
-| **Setup Complexity** | Zero infrastructure setup (Simple HTTP POST) | Requires Python, VRAM management (VRAM = Video RAM, the dedicated memory on your GPU that holds the AI model during generation), and CUDA drivers (CUDA = NVIDIA's software layer that lets your GPU run AI workloads) |
-| **Data Privacy & Security** | Data processed on cloud servers | **100% Offline Air-Gapped Privacy** |
+| **Biaya di Muka** | **$0** (Model kredit bayar sesuai pemakaian) | **$1.500 – $4.500** investasi perangkat keras |
+| **Efisiensi Volume Rendah** | **Unggul** ($5-$20/bln total pembelanjaan) | Buruk (Payback period panjang) |
+| **Ekonomi Volume Tinggi** | Biaya berskala linier dengan render | **$0 biaya marjinal per render** (hanya listrik) |
+| **Kompleksitas Penyiapan** | Penyiapan infrastruktur nol (HTTP POST Sederhana) | Memerlukan Python, manajemen VRAM (VRAM = Video RAM, memori khusus pada GPU Anda yang menampung model AI selama pembuatan), dan driver CUDA (CUDA = lapisan perangkat lunak NVIDIA yang memungkinkan GPU Anda menjalankan beban kerja AI) |
+| **Privasi & Keamanan Data** | Data diproses di server cloud | **100% Privasi Offline dengan Celah Udara** |
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Run the Hardware Payback Calculator
-Open [`templates/api-cost-calculator.md`](templates/api-cost-calculator.md). Input your monthly render volume:
-* **Scenario A (Freelancer / Small Studio):** 300 renders/month @ $0.06 avg API cost = **$18/month API cost**.
-  * *Recommendation:* **Stay on Cloud APIs (muapi)**. Building a $2,500 local GPU machine takes 138 months to break even.
-* **Scenario B (High-Volume Agency / Stock Creator):** 10,000 renders/month @ $0.06 avg API cost = **$600/month API cost**.
-  * *Recommendation:* **Invest in Local GPU (RTX 4090)**. The $2,500 workstation pays for itself in under 4.5 months.
+### Langkah 1: Jalankan Kalkulator Pengembalian Perangkat Keras
+Buka [`templates/api-cost-calculator.md`](templates/api-cost-calculator.md). Masukkan volume render bulanan Anda:
+* **Skenario A (Freelancer / Studio Kecil):** 300 render/bulan @ rata-rata biaya API $0,06 = **biaya API $18/bulan**.
+* *Rekomendasi:* **Tetap menggunakan Cloud API (muapi)**. Membangun mesin GPU lokal seharga $2.500 membutuhkan waktu 138 bulan untuk mencapai titik impas.
+* **Skenario B (Agensi Volume Tinggi / Pembuat Saham):** 10.000 render/bulan @ rata-rata biaya API $0,06 = **biaya API $600/bulan**.
+* *Rekomendasi:* **Berinvestasi pada GPU Lokal (RTX 4090)**. Stasiun kerja senilai $2.500 terbayar dalam waktu kurang dari 4,5 bulan.
 
-### Step 2: Evaluate Client Privacy Constraints
-If handling NDA corporate headshots or unreleased product prototypes, enforce **Local GPU Air-Gapped Rendering** regardless of volume.
+### Langkah 2: Evaluasi Batasan Privasi Klien
+Jika menangani foto kepala perusahaan NDA atau prototipe produk yang belum dirilis, terapkan **Rendering Gapped Udara GPU Lokal** berapa pun volumenya.
 
-### Step 3: Implement Hybrid Workflows
-Use **Cloud APIs** for rapid mobile client intake and burst processing, while using **Local ComfyUI** for heavy offline batch fine-tuning and LoRA training.
-
----
-
-## Worked Example
-
-**Agency Infrastructure Decision: "Scale Studio Rebrand"**
-
-* **Monthly Output:** 6,500 image renders & 200 short video clips.
-* **Cloud API Estimate:** $390 image credits + $150 video credits = **$540 / month**.
-* **Local Workstation Build:** Dual RTX 4090 24GB VRAM Rig = **$3,800**.
-* **Payback Period:** $3,800 / $540 = **7.0 Months**.
-* **Outcome:** Agency purchased the local workstation, saving **$6,480/year** after month 7.
+### Langkah 3: Terapkan Alur Kerja Hibrid
+Gunakan **Cloud API** untuk penerimaan klien seluler yang cepat dan pemrosesan burst, sembari menggunakan **Local ComfyUI** untuk penyempurnaan batch offline berat dan pelatihan LoRA.
 
 ---
 
-## Compare Tools
+## Contoh yang berhasil
 
-| Hosting Option | Flexibility | Scaling Speed | Best For |
+**Keputusan Infrastruktur Agensi: "Perubahan Citra Studio Skala"**
+
+* **Output Bulanan:** 6.500 render gambar & 200 klip video pendek.
+* **Perkiraan Cloud API:** $390 kredit gambar + $150 kredit video = **$540 / bulan**.
+* **Pembuatan Stasiun Kerja Lokal:** Rig VRAM Dual RTX 4090 24 GB = **$3.800**.
+* **Periode Pembayaran Kembali:** $3.800 / $540 = **7,0 Bulan**.
+* **Hasil:** Agensi membeli stasiun kerja lokal, menghemat **$6.480/tahun** setelah bulan ke-7.
+
+---
+
+## Bandingkan Alat
+
+| Opsi Hosting | Fleksibilitas | Kecepatan Penskalaan | Terbaik Untuk |
 |---|---|---|---|
-| **muapi Cloud API** | High (Access to FLUX, Seedance, InstantID via HTTP) | Instant (No VRAM limits) | Startups, freelancers, mobile app backends |
-| **Local ComfyUI** | **Unlimited Node Control** | Fixed to GPU VRAM | High-volume agencies, custom LoRA trainers, NDA projects |
-| **RunPod / Vast.ai (Cloud GPU)** | High (Rent cloud RTX 4090 per hour) | High | Burst processing 5,000 images over a weekend |
+| **muapi CloudAPI** | Tinggi (Akses ke FLUX, Seedance, InstantID melalui HTTP) | Instan (Tanpa batasan VRAM) | Startup, pekerja lepas, backend aplikasi seluler |
+| **UI Lokal Nyaman** | **Kontrol Node Tanpa Batas** | Diperbaiki pada GPU VRAM | Agensi bervolume tinggi, pelatih LoRA khusus, proyek NDA |
+| **RunPod / Vast.ai (GPU Cloud)** | Tinggi (Sewa cloud RTX 4090 per jam) | Tinggi | Burst memproses 5.000 gambar selama akhir pekan |
 
 ---
 
-## Launch It
+## Luncurkan
 
-* **Use RunPod Cloud GPUs as a Middle Ground:** Renting cloud GPUs at $0.44/hour on RunPod gives you ComfyUI node control without buying hardware upfront.
-
----
-
-## Exercises
-
-1. **Easy:** Calculate your monthly API spend using the formula in `api-cost-calculator.md`.
-2. **Medium:** Rent a cloud GPU instance on RunPod and launch a ComfyUI web interface.
-3. **Hard:** Build a hybrid infrastructure plan combining Cloud API mobile submission with Local GPU batch processing.
+* **Gunakan GPU Cloud RunPod sebagai Jalan Tengah:** Menyewa GPU cloud seharga $0,44/jam di RunPod memberi Anda kontrol node ComfyUI tanpa membeli perangkat keras di muka.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/api-cost-calculator.md`](templates/api-cost-calculator.md) — API cost formulas, GPU payback calculators, and hardware VRAM decision trees.
-* [`templates/tool-evaluation-framework.md`](templates/tool-evaluation-framework.md) — A 5-point evaluation checklist for testing new AI models before integrating them into production workflows.
+1. **Mudah:** Hitung pembelanjaan API bulanan Anda menggunakan rumus di `api-cost-calculator.md`.
+2. **Medium:** Sewa instance GPU cloud di RunPod dan luncurkan antarmuka web ComfyUI.
+3. **Sulit:** Buat rencana infrastruktur hibrid yang menggabungkan pengiriman seluler Cloud API dengan pemrosesan batch GPU Lokal.
+
+---
+
+## Templat
+
+* [`templates/api-cost-calculator.md`](templates/api-cost-calculator.md) — Rumus biaya API, kalkulator pengembalian GPU, dan pohon keputusan VRAM perangkat keras.
+* [`templates/tool-evaluation-framework.md`](templates/tool-evaluation-framework.md) — Daftar periksa evaluasi 5 poin untuk menguji model AI baru sebelum mengintegrasikannya ke dalam alur kerja produksi.
 
 ---
 

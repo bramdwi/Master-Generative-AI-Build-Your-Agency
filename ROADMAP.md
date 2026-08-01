@@ -1,165 +1,99 @@
-# Roadmap
+# Peta Jalan (Roadmap) Akademi Kreator AI
 
-Every track and module, in order, with status. This is the single source of truth for what's live vs. planned — track order reflects demand evidence and coverage breadth, not difficulty or app inventory.
+Setiap track dan modul, berurutan, dengan status keterisian. Ini adalah sumber kebenaran tunggal untuk modul yang tersedia.
 
-Status key: ✅ live · 🚧 in progress · ⬜ coming soon
+Keterangan status: ✅ tersedia · 🚧 dalam pengerjaan · ⬜ segera hadir
 
-## Track 1 — AI Video Ads & UGC ✅ (pilot track)
+## Trek 1 — Iklan Video AI & UGC ✅
+1. Cara Kerja Sebenarnya Iklan AI UGC
+2. Konsistensi Wajah & Karakter AI
+3. Membuat Video Iklan Batch 10
+4. Menentukan Harga & Menjual Iklan UGC
+5. Bedah Kasus & Teardown Nyata
 
-| # | Module | Status |
-|---|---|---|
-| 1 | How AI UGC Actually Works | ✅ |
-| 2 | Character & Face Consistency | ✅ |
-| 3 | Building a 10-Ad Batch | ✅ |
-| 4 | Pricing & Selling UGC Ads | ✅ |
-| 5 | Case Study Teardown | ✅ |
+## Trek 2 — Pembuatan Film AI ✅
+1. Generasi Skenario & Jalan Cerita
+2. Gambar Papan Cerita & Perencanaan
+3. Gerakan Kamera & Sinematografi Prompt
+4. Merangkai & Editing Film Pendek
+5. Menjual Film Pendek (Sponsor & Lisensi)
 
-## Track 2 — AI Filmmaking ✅
+## Track 3 — Kanal AI Tanpa Wajah (Saluran Tanpa Wajah) ✅
+1. Pemilihan Niche & Pipeline Naskah
+2. Narasi & Kecepatan Sesuai Durasi Video
+3. Perhitungan Jujur RPM & Penghasilan
+4. Bercerita Banyak Kanal Sekaligus
+5. Tangga Monetisasi & Sumber Pendapatan
 
-| # | Module | Status |
-|---|---|---|
-| 1 | Screenplay & Story Generation | ✅ |
-| 2 | Storyboarding & Shot Planning | ✅ |
-| 3 | Camera Movement & Cinematography Prompts | ✅ |
-| 4 | Assembling a Short Film | ✅ |
-| 5 | Selling Short-Form Films (festivals, sponsors, licensing) | ✅ |
+## Trek 4 — Pabrik Konten AI ✅
+1. Pipeline Ide → Naskah → Papan Cerita → Video → Suara → Musik → Kaption → Publikasikan
+2. Membangun Pabrik Konten TikTok & Reels
+3. Membangun Pabrik Konten YouTube Shorts
+4. Desain Thumbnail menarik dengan AI
+5. Produksi Masal & Penjadwalan Konten
+6. Menjual Layanan Pabrik Konten ke Klien
 
-## Track 3 — Faceless AI Channels ✅
+## Trek 5 — Avatar & Influencer AI Konsisten ✅
+1. Membuat Karakter AI yang Konsisten
+2. Pipeline Karakter AI Menjadi Konten
+3. Kloning Suara & Karakter Dialog
+4. Tingkat Monetisasi Berdasarkan Jumlah Follower
+5. Studi Kasus Agensi: Tim Ekonomi Kecil
 
-| # | Module | Status |
-|---|---|---|
-| 1 | Niche Selection & Script Pipeline | ✅ |
-| 2 | Duration-Matched Narration & Pacing | ✅ |
-| 3 | Honest RPM & Earnings Math | ✅ |
-| 4 | Scaling to Multiple Channels | ✅ |
-| 5 | Monetization Ladder | ✅ |
+## Trek 6 — Audio & Musik AI ✅
+1. Dasar Kloning Suara & Text-to-Speech (TTS)
+2. Dubbing AI & Penerjemahan Bahasa
+3. Produksi Podcast & Pembersihan Audio AI
+4. Pembuatan Musik & Efek Suara (SFX) AI
+5. Konversi Suara Nyanyi & Sintesis Vokal
 
-## Track 4 — AI Content Factories ✅
+## Trek 7 — Fotografi Produk AI E-Commerce ✅
+1. Foto Produk Tanpa Fotografer Fisik
+2. Studi Kasus Konversi Penjualan Sebelum vs Sesudah
+3. Menjual Foto Produk sebagai Layanan Paket
+4. Alur Kerja Masal untuk Katalog Produk
 
-| # | Module | Status |
-|---|---|---|
-| 1 | The Idea → Script → Storyboard → Video → Voice → Music → Captions → Publish Pipeline | ✅ |
-| 2 | Building a TikTok/Reels Factory | ✅ |
-| 3 | Building a YouTube Shorts Factory | ✅ |
-| 4 | AI Thumbnail Design | ✅ |
-| 5 | Batching & Scheduling at Volume | ✅ |
-| 6 | Selling Content-Factory Output as a Service | ✅ |
+## Trek 8 — Fesyen AI & Uji Coba Virtual ✅
+1. Baju Pas Virtual untuk E-Commerce Fesyen
+2. Lookbook Studio Berkonversi Tinggi
+3. Konsistensi Ukuran & Tata Letak Pakaian
+4. Kasus Konversi Penjualan Fesyen
 
-## Track 5 — AI Avatars & Influencers ✅
+## Trek 9 — Mementaskan Real Estat AI ✅
+1. Pipeline Ruangan Kosong → Ruangan Berisi Furnitur
+2. Strategi Perbandingan Harga Pementasan Fisik Tradisional
+3. Menjual Layanan Staging ke Agen Properti
 
-| # | Module | Status |
-|---|---|---|
-| 1 | Building a Consistent AI Character | ✅ |
-| 2 | Character to Content Pipeline | ✅ |
-| 3 | Voice Cloning & Dialogue | ✅ |
-| 4 | Monetization Tiers by Follower Count | ✅ |
-| 5 | Agency Case Study: Small-Team Economics | ✅ |
+## Trek 10 — Headshot & Potret AI ✅
+1. Profil Headshot Generasi Konsisten
+2. Trik Tampil Beda dari Kompetitor Murah di Fiverr
+3. Headshot Masal untuk Tim Perusahaan Remote
+4. Headshot Kreatif & Potret AI Artistik
 
-## Track 6 — AI Audio & Music ✅
+## Trek 11 — AI Cetak Sesuai Permintaan & Merchandise ✅
+1. Mendesain Seni AI Laris untuk Merchandise
+2. Platform Dasar Print-on-Demand (Etsy, Tokopedia, Redbubble)
+3. Membangun Katalog Produk Tanpa Desain Pasaran
+4. Perhitungan Harga & Pendapatan Pasif Print-on-Demand
 
-| # | Module | Status |
-|---|---|---|
-| 1 | Voice Cloning & TTS Basics | ✅ |
-| 2 | AI Dubbing & Translation | ✅ |
-| 3 | Podcast Production & Audio Cleaning | ✅ |
-| 4 | AI Music & Sound Effects | ✅ |
-| 5 | Singing Voice Conversion & Vocal Synthesis | ✅ |
+## Track 12 — Konten Stok AI & Lisensi ✅
+1. Aset AI Apa yang Benar-Benar Laris di Stock Marketplace
+2. Katalog Masal Generasi Aset Siap Lisensi
+3. Model Lisensi & Ekspektasi Pendapatan Pasif Realistis
 
-## Track 7 — AI Product Photography / E-commerce ✅
+## Track 13 — Panduan Memilih Alat AI ✅
+1. Model Gambar AI — Mana yang Tepat untuk Kebutuhan Anda
+2. Model Video AI — Mana yang Tepat untuk Kebutuhan Anda
+3. Model Audio/Suara AI — Mana yang Tepat untuk Kebutuhan Anda
+4. API vs Lokal: Kerangka Kerja Pengambilan Keputusan
 
-| # | Module | Status |
-|---|---|---|
-| 1 | Product Shots Without a Photographer | ✅ |
-| 2 | Before/After Conversion Case Studies | ✅ |
-| 3 | Selling as a Productized Service | ✅ |
-| 4 | Batch Workflows for Catalogs | ✅ |
+## Trek 14 — Bisnis Freelance & Agensi AI ✅
+1. Menentukan Harga Layanan Jasa Anda
+2. Dasar Kontrak Kerja & Ruang Lingkup Pembatasan
+3. Cara Mencari & Menutup Klien Pertama
+4. Scaling dari Freelancer Menjadi Agensi Kecil
+5. Membangun Portofolio yang Menjual
 
-## Track 8 — AI Fashion & Virtual Try-On ✅
-
-| # | Module | Status |
-|---|---|---|
-| 1 | Garment Try-on for Fashion E-commerce | ✅ |
-| 2 | High-converting Studio Lookbooks | ✅ |
-| 3 | Sizing & Layout Consistency | ✅ |
-| 4 | Before/After Conversion Cases | ✅ |
-
-## Track 9 — AI Real Estate (Virtual Staging) ✅
-
-| # | Module | Status |
-|---|---|---|
-| 1 | Empty Room → Staged Room Pipeline | ✅ |
-| 2 | Pricing Against Traditional Staging | ✅ |
-| 3 | Selling to Realtors & Agencies | ✅ |
-
-## Track 10 — AI Headshots & Portraits ✅
-
-| # | Module | Status |
-|---|---|---|
-| 1 | Consistent Headshot Generation | ✅ |
-| 2 | Standing Out Against Fiverr Competition | ✅ |
-| 3 | Batch Headshots for Remote Teams | ✅ |
-| 4 | Creative Headshots & Stylized Portraits | ✅ |
-
-## Track 11 — AI Print-on-Demand & Merch Design ✅
-
-| # | Module | Status |
-|---|---|---|
-| 1 | Designing Sellable AI Art for Merch | ✅ |
-| 2 | Print-on-Demand Platform Basics (Etsy, Redbubble-style) | ✅ |
-| 3 | Building a Catalog Without Repeating Yourself | ✅ |
-| 4 | Pricing & Passive-Income Math for POD | ✅ |
-
-## Track 12 — AI Stock Content & Licensing ✅
-
-The only track with no client relationship at all — generate once, license repeatedly.
-
-| # | Module | Status |
-|---|---|---|
-| 1 | What Actually Sells on Stock Marketplaces | ✅ |
-| 2 | Batch-Generating a Licensable Catalog | ✅ |
-| 3 | Licensing Models & Realistic Passive-Income Expectations | ✅ |
-
-## Track 13 — AI Tools Mastery ✅
-
-Not tool tutorials — a buyer's guide: which tool for which creative outcome, and why.
-
-| # | Module | Status |
-|---|---|---|
-| 1 | Image Models — Which One for Which Use Case | ✅ |
-| 2 | Video Models — Which One for Which Use Case | ✅ |
-| 3 | Voice/Audio Models — Which One for Which Use Case | ✅ |
-| 4 | API vs. Local: A Decision Framework | ✅ |
-
-## Track 14 — AI Freelancing & Agency Business ✅
-
-The business skills every other track assumes you already have.
-
-| # | Module | Status |
-|---|---|---|
-| 1 | Pricing Your Services | ✅ |
-| 2 | Contracts & Scope Basics | ✅ |
-| 3 | Finding & Closing Clients | ✅ |
-| 4 | Scaling from Freelancer to Small Agency | ✅ |
-| 5 | Building a Portfolio That Sells | ✅ |
-
-## Track 15 — AI Agents & Vibe-Coding for Creators ✅
-
-Coding agents (Claude Code, Cursor, and similar) removed the "you have to already be a developer" barrier — this track teaches creators to build and sell their own micro-tools, not just AI-generated media.
-
-| # | Module | Status |
-|---|---|---|
-| 1 | What Coding Agents Actually Do (no CS degree required) | ✅ |
-| 2 | Building Your First Sellable Micro-Tool | ✅ |
-| 3 | The Vibe-Coding Workflow: Prompt → Build → Test → Ship | ✅ |
-| 4 | Pricing & Selling Tools You Build With Agents | ✅ |
-
-## Cross-track modules (referenced from every track, not tied to one)
-
-- Character Consistency 101
-- Show Your Real Numbers
-- Building a Monetization Ladder
-- Picking Your Tools: API vs. Local
-
----
-
-Track 1 shipped first, fully, to prove the format before other tracks are written. See each track's own `README.md` for a one-line description.
+## Trek 15 — Agen AI & Vibe-Coding ✅
+1. Membangun Micro-Tool Sendiri Tanpa Gelar CS
+2. Menjual Alat Berbasis AI ke Klien

@@ -1,22 +1,22 @@
-# Shot List Template
+# Templat Daftar Pemotretan
 
-Use this sheet to plan and log each scene's generations to avoid wasting credits on duplicate angles.
+Gunakan lembar ini untuk merencanakan dan mencatat generasi setiap adegan untuk menghindari pemborosan kredit pada sudut duplikat.
 
-**Film Title:** ________________________
-**Aesthetic Style Tag:** ________________________
+**Judul Film:** __________
+**Tag Gaya Estetika:** __________
 
-| Scene | Shot # | Framing | Camera Movement | Action / Visual Prompt | Audio / Dialogue | Render ID / Status |
+| Adegan | Tembakan # | Pembingkaian | Gerakan Kamera | Perintah Tindakan / Visual | Audio / Dialog | Render ID/Status |
 |:---:|:---:|:---:|:---:|---|---|:---:|
-| 1 | 1.1 | Wide Shot | Slow push-in | "An empty neon-lit diner at night, rain streaking down window..." | [Rain sound effects, distant siren] | |
-| 1 | 1.2 | Close-up | Static | "John (30s, glasses, leather jacket) looking out the diner window..." | JOHN (V.O.): "I should have left." | |
-| 1 | 1.3 | Medium | Pan left | "Side view of John picking up a steaming cup of coffee..." | [Cup clink, coffee pouring] | |
-| 2 | 2.1 | Wide | Dolly zoom | "Exterior diner. John steps out into the wet street..." | [Thunder rumble, heavy rain] | |
-| 2 | 2.2 | Close-up | Tracking | "Tracking shot of John's wet boots walking on the pavement..." | [Wet footsteps] | |
+| 1 | 1.1 | Tembakan Lebar | Dorongan masuk yang lambat | "Restoran kosong dengan lampu neon di malam hari, hujan deras turun dari jendela..." | [Efek suara hujan, sirene di kejauhan] | |
+| 1 | 1.2 | jarak dekat | Statis | "John (30-an, kacamata, jaket kulit) melihat ke luar jendela restoran..." | JOHN (V.O.): "Saya seharusnya pergi." | |
+| 1 | 1.3 | Sedang | Geser ke kiri | "Tampak samping John sedang mengambil secangkir kopi yang mengepul..." | [Cangkir berdenting, tuang kopi] | |
+| 2 | 2.1 | Lebar | Zoom boneka | "Restoran eksterior. John melangkah ke jalan basah..." | [Guntur bergemuruh, hujan deras] | |
+| 2 | 2.2 | jarak dekat | Pelacakan | "Melacak bidikan sepatu bot basah John yang berjalan di trotoar..." | [Langkah kaki basah] | |
 
 ---
 
-### Shot Framing Definitions:
-* **WS (Wide Shot):** Establishes the environment, scene setting, and character position.
-* **MS (Medium Shot):** Waist-up, captures character action and some facial details.
-* **CU (Close-up):** Shoulders-up, focuses entirely on facial expressions or key props.
-* **ECU (Extreme Close-up):** Eyeballs, hands, specific text or objects.
+### Definisi Pembingkaian Bidikan:
+* **WS (Wide Shot):** Menetapkan lingkungan, pengaturan adegan, dan posisi karakter.
+* **MS (Medium Shot):** Pinggang ke atas, menangkap aksi karakter dan beberapa detail wajah.
+* **CU (Close-up):** Mengangkat bahu, berfokus sepenuhnya pada ekspresi wajah atau alat peraga utama.
+* **ECU (Extreme Close-up):** Bola mata, tangan, teks atau objek tertentu.

@@ -1,105 +1,105 @@
-# Video Models — Which One for Which Use Case
+# Model Video — Yang Mana untuk Kasus Penggunaannya
 
-> Master the video generation ecosystem: Runway Gen-3 Alpha, Kling 1.5, Luma Dream Machine, Sora, and Seedance 2 I2V.
+> Kuasai ekosistem pembuatan video: Runway Gen-3 Alpha, Kling 1.5, Luma Dream Machine, Sora, dan Seedance 2 I2V.
 
-**Track:** AI Tools Mastery  
-**Time:** ~40 minutes  
-**Prerequisites:** [01: Image Models](01-image-models-which-one-for-which-use-case.md)  
+**Lacak:** Penguasaan Alat AI
+**Waktu:** ~40 menit
+**Prasyarat:** [01: Image Models](01-image-models-which-one-for-which-use-case.md)
 
-## The Problem
+## Masalahnya
 
-Generative video is the fastest-growing sector of AI creation, but video credits are expensive ($0.25 to $1.50 per 5-second generation).
+Video generatif adalah sektor pembuatan AI dengan pertumbuhan tercepat, tetapi kredit video mahal ($0,25 hingga $1,50 per generasi 5 detik).
 
-Choosing the wrong video model wastes money:
-* Using high-motion models for subtle camera pans causes extreme morphing distortion.
-* Using low-motion models for action sequences produces static, frozen frames.
-* Using Text-to-Video (T2V) instead of Image-to-Video (I2V) destroys visual consistency across scenes.
+Memilih model video yang salah hanya membuang-buang uang:
+* Menggunakan model gerak tinggi untuk gerakan kamera yang halus menyebabkan distorsi morphing yang ekstrim.
+* Menggunakan model gerak rendah untuk rangkaian tindakan menghasilkan bingkai statis dan beku.
+* Penggunaan Text-to-Video (T2V) dan bukan Image-to-Video (I2V) merusak konsistensi visual di seluruh adegan.
 
-You need a clear decision framework to select the exact video model for your desired camera movement and motion speed.
+Anda memerlukan kerangka keputusan yang jelas untuk memilih model video yang tepat untuk pergerakan kamera dan kecepatan gerakan yang Anda inginkan.
 
 ---
 
-## The Concept
+## Konsep
 
-AI video models excel at different motion profiles and temporal physics:
+Model video AI unggul dalam berbagai profil gerakan dan fisika temporal:
 
 ```
 Source Image ──► Motion Profile Requirements ──► Video Model Match ──► Render Output
 ```
 
-### The 4 Core Video Evaluation Factors:
+### 4 Faktor Evaluasi Video Inti:
 
-1. **Image-to-Video (I2V) Fidelity:** How accurately the model preserves the original lighting, face identity, and composition from the source image. (Lead model: **Kling 1.5** / **Seedance 2 I2V**).
-2. **Camera Controls (Pan, Zoom, Orbit):** Precision when executing specific cinematographer movements (e.g., slow push-in, orbital pan). (Lead model: **Runway Gen-3 Alpha** / **Luma Dream Machine**).
-3. **Physics Simulation & Fluid Motion:** Realistic motion of water, smoke, fire, cloth, and human movement without limb warping. (Lead model: **Kling 1.5** / **Sora**).
-4. **Rendering Speed & API Efficiency:** Fast 10-30 second generation times for high-volume commercial production. (Lead model: **Seedance 2 I2V Fast** via muapi).
-
----
-
-## Do It
-
-### Step 1: Define Desired Motion Control
-Open [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md). Map your scene's motion needs:
-* **Subtle Slow Architectural Pan / Product Rotation:** Requires high I2V stability -> **Kling 1.5 / Seedance 2 I2V**.
-* **Dramatic Cinematic Camera Zoom & Fly-Through:** Requires keyframe camera control -> **Runway Gen-3 Alpha**.
-* **Complex Fluid Dynamics (Water splashes, explosions):** Requires advanced physics -> **Kling 1.5 / Sora**.
-
-### Step 2: Formulate the Motion Prompt
-Append explicit camera movement tokens to your prompt:
-* `"Camera slowly pans right across the modern living room, soft sunlight streaming through windows, 24fps film grain, photorealistic."`
-
-### Step 3: Set Motion Scale & Camera Locks
-Set motion strength scale:
-* Low motion (`2 - 4`): Ideal for portraits, headshots, real estate.
-* High motion (`6 - 8`): Ideal for action, sports, vehicles.
+1. **Image-to-Video (I2V) Fidelity:** Seberapa akurat model mempertahankan pencahayaan asli, identitas wajah, dan komposisi dari gambar sumber. (Model utama: **Kling 1.5** / **Seedance 2 I2V**).
+2. **Kontrol Kamera (Pan, Zoom, Orbit):** Presisi saat menjalankan gerakan sinematografer tertentu (misalnya, push-in lambat, gerakan orbital). (Model utama: **Runway Gen-3 Alpha** / **Luma Dream Machine**).
+3. **Simulasi Fisika & Gerakan Fluida:** Gerakan realistis air, asap, api, kain, dan gerakan manusia tanpa anggota badan melengkung. (Model utama: **Kling 1.5** / **Sora**).
+4. **Kecepatan Rendering & Efisiensi API:** Waktu pembuatan yang cepat 10-30 detik untuk produksi komersial bervolume tinggi. (Model utama: **Seedance 2 I2V Fast** melalui muapi).
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Tentukan Kontrol Gerakan yang Diinginkan
+Buka [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md). Petakan kebutuhan gerakan adegan Anda:
+* **Pan Arsitektur Lambat Halus / Rotasi Produk:** Memerlukan stabilitas I2V yang tinggi -> **Kling 1.5 / Seedance 2 I2V**.
+* **Zoom & Fly-Through Kamera Sinematik Dramatis:** Membutuhkan kontrol kamera keyframe -> **Runway Gen-3 Alpha**.
+* **Dinamika Fluida Kompleks (Percikan air, ledakan):** Membutuhkan fisika tingkat lanjut -> **Kling 1.5 / Sora**.
+
+### Langkah 2: Rumuskan Perintah Gerakan
+Tambahkan token pergerakan kamera eksplisit ke perintah Anda:
+* __KODE INLINE_0__
+
+### Langkah 3: Atur Skala Gerakan & Kunci Kamera
+Tetapkan skala kekuatan gerak:
+* Gerakan rendah (`2 - 4`): Ideal untuk potret, foto kepala, real estat.
+* Gerakan tinggi (`6 - 8`): Ideal untuk aksi, olahraga, kendaraan.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/camera-motion-matrix.jpg" alt="Cinematic Camera Motion Matrix Graphic" width="480">
+<img src="templates/examples/camera-motion-matrix.jpg" alt="Grafik Matriks Gerak Kamera Sinematik" width="480">
 </p>
 <p align="center"><sub>Cinematic Camera Motion Reference Graphic (Studio Camera Setup)</sub></p>
 
-**Video Model Decision Case Study: "Commercial Car Reel"**
+**Studi Kasus Keputusan Model Video: "Reel Mobil Komersial"**
 
-* **Requirement:** 5-second tracking shot of a sports car driving on a coastal road at sunset.
-* **Tested Model A (Text-to-Video):** Car shape morphed into a different vehicle halfway through the clip.
-* **Tested Model B (I2V with Kling 1.5 / Seedance 2):** Locked exact vehicle geometry from keyframe image, generating smooth reflections along the chassis.
-* **Result:** 100% stable motion reel.
+* **Persyaratan:** Foto pelacakan 5 detik dari mobil sport yang melaju di jalan pesisir saat matahari terbenam.
+* **Model A yang Diuji (Teks-ke-Video):** Bentuk mobil berubah menjadi kendaraan berbeda di tengah-tengah klip.
+* **Model B yang Diuji (I2V dengan Kling 1.5 / Seedance 2):** Mengunci geometri kendaraan yang tepat dari gambar keyframe, menghasilkan pantulan halus di sepanjang sasis.
+* **Hasil:** Reel gerak stabil 100%.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Video Model | Camera Control | Motion Fidelity | Best For |
+| Model Video | Kontrol Kamera | Kesetiaan Gerakan | Terbaik Untuk |
 |---|---|---|---|
-| **Runway Gen-3 Alpha** | **Extremely High** (Keyframe camera controls) | High | Film trailers, dramatic camera moves, advertising |
-| **Kling 1.5** | High | **Superior Physics** & Human motion | Real estate walkthroughs, character motion, I2V stability |
-| **Luma Dream Machine** | Medium | High dynamic camera movement | Fast 3D camera sweeps and conceptual loops |
-| **Seedance 2 I2V Fast (muapi API)** | High | **Fastest API Inference** (~15s) | High-volume client pipelines, social media clips |
+| **Landasan Pacu Gen-3 Alpha** | **Sangat Tinggi** (Kontrol kamera keyframe) | Tinggi | Trailer film, pergerakan kamera dramatis, iklan |
+| **Kling 1.5** | Tinggi | **Fisika Unggul** & Gerak Manusia | Panduan real estat, pergerakan karakter, stabilitas I2V |
+| **Mesin Impian Luma** | Sedang | Pergerakan kamera dinamis tinggi | Sapuan kamera 3D cepat dan loop konseptual |
+| **Seedance 2 I2V Cepat (muapi API)** | Tinggi | **Inferensi API Tercepat** (~15 detik) | Saluran klien bervolume tinggi, klip media sosial |
 
 ---
 
-## Launch It
+## Luncurkan
 
-* **Always Start with Image-to-Video (I2V):** Never rely on Text-to-Video for commercial work. Generate a pristine 8k image first, then animate it with I2V to maintain 100% brand consistency.
-
----
-
-## Exercises
-
-1. **Easy:** Animate a static product photo using Seedance 2 I2V with a slow camera zoom prompt.
-2. **Medium:** Compare the camera control of Runway Gen-3 vs. Kling 1.5 on the same keyframe image.
-3. **Hard:** Produce a 3-shot video scene with consistent lighting using I2V keyframes across scenes.
+* **Selalu Mulai dengan Gambar-ke-Video (I2V):** Jangan pernah mengandalkan Teks-ke-Video untuk pekerjaan komersial. Hasilkan gambar 8k asli terlebih dahulu, lalu animasikan dengan I2V untuk menjaga konsistensi merek 100%.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Motion control parameters, camera movement guides, and model speed benchmarks.
+1. **Mudah:** Menganimasikan foto produk statis menggunakan Seedance 2 I2V dengan perintah zoom kamera lambat.
+2. **Medium:** Bandingkan kontrol kamera Runway Gen-3 vs. Kling 1.5 pada gambar keyframe yang sama.
+3. **Sulit:** Menghasilkan adegan video 3-shot dengan pencahayaan yang konsisten menggunakan bingkai utama I2V di seluruh adegan.
 
 ---
 
-[← Image Models](01-image-models-which-one-for-which-use-case.md) · Next: [Voice & Audio Models →](03-voice-audio-models-which-one-for-which-use-case.md)
+## Templat
+
+* [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Parameter kontrol gerakan, panduan pergerakan kamera, dan tolok ukur kecepatan model.
+
+---
+
+[← Image Models](01-image-models-which-one-for-which-use-case.md) · Berikutnya: [Voice & Audio Models →](03-voice-audio-models-which-one-for-which-use-case.md)

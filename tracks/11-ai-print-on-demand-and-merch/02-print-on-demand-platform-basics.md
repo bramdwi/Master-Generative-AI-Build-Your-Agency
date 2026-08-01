@@ -1,99 +1,99 @@
-# Print-on-Demand Platform Basics
+# Dasar-dasar Platform Cetak Sesuai Permintaan
 
-> Automate production, fulfillment, and store sync across Etsy, Shopify, and POD suppliers.
+> Otomatiskan produksi, pemenuhan, dan sinkronisasi penyimpanan di seluruh pemasok Etsy, Shopify, dan POD.
 
-**Track:** AI Print-on-Demand & Merch Design  
-**Time:** ~35 minutes  
-**Prerequisites:** [01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md)  
+**Lacak:** AI Print-on-Demand & Desain Merchandise
+**Waktu:** ~35 menit
+**Prasyarat:** [01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md)
 
-## The Problem
+## Masalahnya
 
-Creating great AI artwork is only half the battle. Setting up physical manufacturing, managing inventory, and handling shipping logistics manually can sink a merch business before it starts.
+Menciptakan karya seni AI yang hebat hanyalah setengah dari perjuangan. Menyiapkan manufaktur fisik, mengelola inventaris, dan menangani logistik pengiriman secara manual dapat menenggelamkan bisnis merchandise sebelum dimulai.
 
-Traditional inventory models require purchasing 100+ shirts upfront in various sizes (S, M, L, XL), storing boxes in your home, and risking unsold stock if a design doesn't sell.
+Model inventaris tradisional memerlukan pembelian 100+ kemeja di muka dalam berbagai ukuran (S, M, L, XL), menyimpan kotak di rumah Anda, dan mempertaruhkan stok yang tidak terjual jika desain tidak terjual.
 
-Print-on-Demand (POD) eliminates inventory risk by printing and shipping orders automatically when a customer buys—but setting up integration bridges between platforms (Etsy/Shopify) and suppliers (Printify/Printful) requires proper configuration.
+Print-on-Demand (POD) menghilangkan risiko inventaris dengan mencetak dan mengirimkan pesanan secara otomatis saat pelanggan membeli—tetapi menyiapkan jembatan integrasi antara platform (Etsy/Shopify) dan pemasok (Printify/Printful) memerlukan konfigurasi yang tepat.
 
 ---
 
-## The Concept
+## Konsep
 
-The automated POD e-commerce workflow connects storefronts directly to fulfillment providers:
+Alur kerja e-niaga POD otomatis menghubungkan etalase langsung ke penyedia pemenuhan:
 
 ```
 Customer Places Order (Etsy/Shopify) ──► Auto-Sync to Print Supplier (Printify) ──► DTG Printing & Shipping ──► Tracking Auto-Sent to Customer
 ```
 
-### Core Components:
+### Komponen Inti:
 
-1. **Front-End Storefronts:** Etsy (built-in search traffic), Shopify (custom brand control), or Redbubble (marketplace catalog).
-2. **Back-End Print Suppliers:** Printify, Printful, or Gelato. They handle **DTG (Direct-to-Garment — a process that inkjet-prints your design directly onto fabric, one item at a time, with no minimum order)** printing, quality control, packaging, and shipping.
-3. **Mockup Generation:** Creating photorealistic lifestyle product photos so customers see the shirt/mug in a real-world setting.
-
----
-
-## Do It
-
-### Step 1: Connect Your POD Supplier to Your Store
-Create a Printify/Printful account and link it to your Etsy or Shopify store using API OAuth.
-
-### Step 2: Upload Your 300 DPI Transparent Graphic
-Select a garment (e.g., Bella+Canvas 3001 Unisex Tee). Upload your `merch-graphic-transparent.png`. Center the graphic on the printable area.
-
-### Step 3: Publish Lifestyle Mockups
-Generate lifestyle product photos using your AI photography pipeline from [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) or Printify mockup tools.
-
-### Step 4: Configure Automated Order Routing
-Enable **Automatic Fulfillment** in your supplier settings so incoming store orders process without manual intervention.
+1. **Etalase Front-End:** Etsy (lalu lintas pencarian bawaan), Shopify (kontrol merek khusus), atau Redbubble (katalog pasar).
+2. **Pemasok Cetak Back-End:** Printify, Printful, atau Gelato. Mereka menangani **DTG (Direct-to-Garment — sebuah proses pencetakan inkjet desain Anda langsung ke kain, satu item dalam satu waktu, tanpa pesanan minimum)** pencetakan, kontrol kualitas, pengemasan, dan pengiriman.
+3. **Pembuatan Mockup:** Membuat foto produk gaya hidup fotorealistik sehingga pelanggan melihat kemeja/mug dalam suasana dunia nyata.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Hubungkan Pemasok POD Anda ke Toko Anda
+Buat akun Printify/Printful dan tautkan ke toko Etsy atau Shopify Anda menggunakan API OAuth.
+
+### Langkah 2: Unggah Grafik Transparan 300 DPI Anda
+Pilih pakaian (misalnya, Kaos Unisex Bella+Canvas 3001). Unggah `merch-graphic-transparent.png` Anda. Pusatkan grafik pada area yang dapat dicetak.
+
+### Langkah 3: Publikasikan Maket Gaya Hidup
+Hasilkan foto produk gaya hidup menggunakan saluran fotografi AI Anda dari [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) atau alat maket Printify.
+
+### Langkah 4: Konfigurasikan Perutean Pesanan Otomatis
+Aktifkan **Pemenuhan Otomatis** di pengaturan pemasok Anda sehingga pesanan toko yang masuk diproses tanpa intervensi manual.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/vintage-botanical-mug-mockup.jpg" alt="Vintage Botanical Ceramic Mug Mockup" width="480">
+<img src="templates/examples/vintage-botanical-mug-mockup.jpg" alt="Mockup Mug Keramik Botani Vintage" width="480">
 </p>
 <p align="center"><sub>AI Vintage Botanical Coffee Mug Mockup (Product Showcase)</sub></p>
 
-**Product Listing Setup for "Botanical Wildflower Ceramic Mug"**
+**Pengaturan Daftar Produk untuk "Mug Keramik Bunga Liar Botani"**
 
-* **Print Supplier:** Monster Digital via Printify.
-* **Product:** 11oz White Ceramic Mug.
-* **Retail Price:** **$16.99**.
-* **Base Production Cost:** **$4.50** + **$5.00** shipping.
-* **Profit per Sale:** **$7.49** (44% Margin).
-* **Fulfillment:** 100% automated upon order receipt.
+* **Pemasok Percetakan:** Monster Digital melalui Printify.
+* **Produk:** Mug Keramik Putih 11oz.
+* **Harga Eceran:** **$16,99**.
+* **Biaya Produksi Dasar:** **$4,50** + **$5,00** pengiriman.
+* **Laba per Penjualan:** **$7,49** (Margin 44%).
+* **Pemenuhan:** 100% otomatis setelah pesanan diterima.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Supplier | Best Strengths | Fulfillment Speeds | Best For |
+| Platform / Pemasok | Kekuatan Terbaik | Kecepatan Pemenuhan | Terbaik Untuk |
 |---|---|---|---|
-| **Printify** | Vendor network, lowest base prices | 2 - 5 business days | High-margin Etsy & Shopify stores |
-| **Printful** | In-house print quality, custom branding inserts | 2 - 4 business days | Premium apparel brands |
-| **Redbubble** | Built-in organic search traffic | 3 - 7 business days | Zero-setup passive catalog publishing |
+| **Cetak** | Jaringan vendor, harga dasar terendah | 2 - 5 hari kerja | Toko Etsy & Shopify dengan margin tinggi |
+| **Cetak** | Kualitas cetak internal, sisipan merek khusus | 2 - 4 hari kerja | Merek pakaian premium |
+| **Gelembung Merah** | Lalu lintas penelusuran organik bawaan | 3 - 7 hari kerja | Penerbitan katalog pasif tanpa pengaturan |
 
 ---
 
-## Launch It
+## Luncurkan
 
-* **Enable Automatic Order Backup:** Set up backup supplier routing in Printify so if one print shop runs out of stock on black L shirts, your orders automatically route to a secondary supplier.
-
----
-
-## Exercises
-
-1. **Easy:** Create a free Printify account and upload an isolated AI graphic onto a t-shirt mockup.
-2. **Medium:** Connect your POD supplier to an Etsy or Shopify dev store.
-3. **Hard:** Set up automated order fulfillment and test a sample order delivery.
+* **Aktifkan Pencadangan Pesanan Otomatis:** Atur perutean pemasok cadangan di Printify sehingga jika salah satu toko percetakan kehabisan stok kaos L hitam, pesanan Anda secara otomatis diarahkan ke pemasok sekunder.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — COGS pricing models, profit margin calculators, and platform fee breakdowns.
+1. **Mudah:** Buat akun Printify gratis dan unggah grafik AI terisolasi ke mockup kaos.
+2. **Medium:** Hubungkan pemasok POD Anda ke toko pengembang Etsy atau Shopify.
+3. **Sulit:** Menyiapkan pemenuhan pesanan otomatis dan menguji pengiriman pesanan sampel.
 
 ---
 
-[← Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md) · Next: [Building a Catalog Without Repeating Yourself →](03-building-a-catalog-without-repeating.md)
+## Templat
+
+* [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — Model penetapan harga COGS, kalkulator margin keuntungan, dan rincian biaya platform.
+
+---
+
+[← Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md) · Berikutnya: [Building a Catalog Without Repeating Yourself →](03-building-a-catalog-without-repeating.md)

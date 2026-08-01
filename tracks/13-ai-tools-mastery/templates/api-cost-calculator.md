@@ -1,21 +1,21 @@
-# Cloud API vs. Local GPU Cost Calculator
+# Cloud API vs. Kalkulator Biaya GPU Lokal
 
-Use this reference sheet to model monthly API credit spend vs. local GPU workstation hardware amortization payback periods.
+Gunakan lembar referensi ini untuk membuat model pembelanjaan kredit API bulanan vs. periode pengembalian amortisasi perangkat keras stasiun kerja GPU lokal.
 
 ---
 
-## 📊 Monthly Volume & Cost Modeling
+## 📊 Pemodelan Volume & Biaya Bulanan
 
-| Monthly Volume (Renders) | Avg. API Cost / Render | Monthly Cloud API Spend | Local GPU Rig Cost (RTX 4090) | Local Hardware Payback Period |
+| Volume Bulanan (Render) | Rata-rata Biaya / Render API | Pembelanjaan Cloud API Bulanan | Biaya Rig GPU Lokal (RTX 4090) | Periode Pengembalian Perangkat Keras Lokal |
 |---|---|---|---|---|
-| **100 Renders / mo** | $0.06 | **$6.00 / mo** | $2,500 | 416 Months (Not Recommended) |
-| **500 Renders / mo** | $0.06 | **$30.00 / mo** | $2,500 | 83 Months |
-| **2,500 Renders / mo** | $0.06 | **$150.00 / mo** | $2,500 | **16.6 Months** |
-| **10,000 Renders / mo** | $0.06 | **$600.00 / mo** | $2,500 | **4.1 Months (Highly Recommended)** |
+| **100 Render / bln** | $0,06 | **$6,00 / bln** | $2.500 | 416 Bulan (Tidak Direkomendasikan) |
+| **500 Render / bln** | $0,06 | **$30,00 / bln** | $2.500 | 83 Bulan |
+| **2.500 Render / bln** | $0,06 | **$150,00 / bln** | $2.500 | **16,6 Bulan** |
+| **10.000 Render / bln** | $0,06 | **$600,00 / bln** | $2.500 | **4,1 Bulan (Sangat Direkomendasikan)** |
 
 ---
 
-## 💡 Architecture Recommendation Thresholds
+## 💡 Ambang Rekomendasi Arsitektur
 
 ```
 Monthly Render Volume?

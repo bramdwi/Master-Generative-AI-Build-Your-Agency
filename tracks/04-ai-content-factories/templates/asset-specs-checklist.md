@@ -1,21 +1,21 @@
-# Asset Specifications Checklist
+# Daftar Periksa Spesifikasi Aset
 
-Use this checklist during final export/mastering to ensure your videos match each target platform's specifications.
+Gunakan daftar periksa ini selama ekspor/mastering akhir untuk memastikan video Anda sesuai dengan spesifikasi setiap platform target.
 
 ---
 
-## 1. Short-Form Video Specs (YouTube Shorts, TikTok, Reels)
-- [ ] **Aspect Ratio:** Vertical `9:16` (1080 x 1920 pixels).
-- [ ] **Frame Rate:** `24 fps` (cinematic) or `30 fps` (standard web). Avoid 60 fps unless it is high-speed sports/gaming footage.
-- [ ] **Format / Codec:** `.mp4` using H.264 video codec and AAC audio codec.
-- [ ] **Audio Mix:** Primary voiceover set to **-3dB** to **-1dB** peak. Background music ducked to **-18dB** to **-22dB** (must not drown out the voice).
-- [ ] **Safe Zones:** Keep key text captions and faces within the center `safe zone` (avoid the bottom 25% where comments/captions overlap, and the top 15% where account names live).
+## 1. Spesifikasi Video Berbentuk Pendek (YouTube Shorts, TikTok, Reels)
+- [ ] **Rasio Aspek:** Vertikal `9:16` (1080 x 1920 piksel).
+- [ ] **Kecepatan Bingkai:** `24 fps` (sinematik) atau `30 fps` (web standar). Hindari 60 fps kecuali rekaman olahraga/game berkecepatan tinggi.
+- [ ] **Format / Kodek:** `.mp4` menggunakan codec video H.264 dan codec audio AAC.
+- [ ] **Campuran Audio:** Sulih suara utama disetel ke **-3dB** hingga puncak **-1dB**. Musik latar diturunkan dari **-18dB** menjadi **-22dB** (tidak boleh meredam suara).
+- [ ] **Zona Aman:** Pertahankan keterangan teks utama dan wajah di tengah `safe zone` (hindari 25% terbawah tempat komentar/keterangan tumpang tindih, dan 15% teratas tempat nama akun berada).
 
-## 2. Long-Form Video Specs (YouTube Standard)
-- [ ] **Aspect Ratio:** Widescreen `16:9` (1920 x 1080 pixels or 3840 x 2160 pixels for 4K).
-- [ ] **Format / Codec:** `.mp4` using H.264 (high profile) or HEVC (H.265) for 4K.
-- [ ] **Color Space:** Rec. 790 or Rec. 709.
+## 2. Spesifikasi Video Berdurasi Panjang (Standar YouTube)
+- [ ] **Rasio Aspek:** Layar lebar `16:9` (1920 x 1080 piksel atau 3840 x 2160 piksel untuk 4K).
+- [ ] **Format / Codec:** `.mp4` menggunakan H.264 (profil tinggi) atau HEVC (H.265) untuk 4K.
+- [ ] **Ruang Warna:** Rek. 790 atau Rek. 709.
 
-## 3. SEO metadata Sheet
-- [ ] **File Naming:** Name your exported file with the primary target keyword (e.g. `how-to-automate-invoices.mp4` instead of `final_render_v2_edit.mp4`).
-- [ ] **First Line Bio:** Place your primary funnel link (opt-in page) in the **first 100 characters** of the video description so it is visible before users click "More".
+## 3. Lembar metadata SEO
+- [ ] **Penamaan File:** Beri nama file yang diekspor dengan kata kunci target utama (misalnya `how-to-automate-invoices.mp4`, bukan `final_render_v2_edit.mp4`).
+- [ ] **Bio Baris Pertama:** Tempatkan tautan corong utama Anda (laman keikutsertaan) di **100 karakter pertama** deskripsi video sehingga terlihat sebelum pengguna mengeklik "Lainnya".

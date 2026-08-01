@@ -1,110 +1,110 @@
-# Batching & Scheduling at Volume
+# Batching & Penjadwalan pada Volume
 
-> Consistency is scheduled; chaos is manual.
+> Konsistensi dijadwalkan; kekacauan itu manual.
 
-**Track:** AI Content Factories  
-**Time:** ~35 minutes  
-**Prerequisites:** The Multi-Step Production Pipeline  
+**Lacak:** Pabrik Konten AI
+**Waktu:** ~35 menit
+**Prasyarat:** Jalur Produksi Multi-Langkah
 
-## The Problem
+## Masalahnya
 
-Most creators run their channels in a state of constant panic. They realize they haven't posted in two days, rush to write a script, throw together some visual clips, and upload the video immediately. Because they are rushed, the video quality suffers. When they get busy at their day job, they stop uploading entirely. 
+Sebagian besar pembuat konten menjalankan saluran mereka dalam keadaan panik terus-menerus. Mereka menyadari bahwa mereka belum memposting dalam dua hari, buru-buru menulis naskah, mengumpulkan beberapa klip visual, dan segera mengupload videonya. Karena terburu-buru, kualitas videonya menurun. Saat mereka sibuk dengan pekerjaan sehari-hari, mereka berhenti mengunggah seluruhnya.
 
-Recommendation algorithms reward **consistency**. A channel that uploads once a day, every day, at the exact same hour will out-perform a channel that uploads five videos in one day and then posts nothing for two weeks.
+Algoritme rekomendasi menghargai **konsistensi**. Saluran yang mengupload sekali sehari, setiap hari, pada jam yang sama akan mengungguli saluran yang mengupload lima video dalam satu hari dan kemudian tidak memposting apa pun selama dua minggu.
 
-To run a successful content agency or network of channels, you must separate **production** from **publishing**. You need to build a 30-day queue of content so that your upload schedule runs on autopilot while you focus on scripting and editing the next month's batch.
+Untuk menjalankan agensi konten atau jaringan saluran yang sukses, Anda harus memisahkan **produksi** dari **penerbitan**. Anda perlu membuat antrean konten selama 30 hari agar jadwal pengunggahan Anda berjalan secara autopilot saat Anda fokus pada pembuatan skrip dan pengeditan kumpulan bulan berikutnya.
 
-## The Concept
+## Konsep
 
-The core mechanism of high-volume publishing is the **30-Day Queue System**:
+Mekanisme inti penerbitan volume tinggi adalah **Sistem Antrean 30 Hari**:
 
 ```
 [Batch Production Week] ──► [30 Scheduled Videos] ──► [Daily Auto-Release]
 ```
 
-To establish this system, you use:
-* **Temporal Batching:** You execute only one production station at a time. You do not edit a video until all scripts and voiceovers are locked for the entire batch.
-* **Syndicated Schedulers:** You upload your completed batches into native platform schedulers, setting them to release automatically.
-* **Repurposing Pipelines:** You scale your inventory by feeding long-form videos into automated clipping tools like [`ai-clipping-generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/ai-clipping-generator), which extracts multiple vertical shorts from a single long-form file.
+Untuk membangun sistem ini, Anda menggunakan:
+* **Temporal Batching:** Anda hanya menjalankan satu stasiun produksi dalam satu waktu. Anda tidak dapat mengedit video sampai semua skrip dan sulih suara dikunci untuk keseluruhan batch.
+* **Penjadwal Tersindikasi:** Anda mengunggah kumpulan yang telah selesai ke penjadwal platform asli, mengaturnya agar dirilis secara otomatis.
+* **Repurusing Pipelines:** Anda menskalakan inventaris dengan memasukkan video berdurasi panjang ke alat kliping otomatis seperti [`ai-clipping-generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/ai-clipping-generator), yang mengekstrak beberapa video pendek vertikal dari satu file berdurasi panjang.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Establish Your Release Calendar
-Open the [`templates/30-day-production-calendar.md`](templates/30-day-production-calendar.md). Mark your upload frequency (e.g. 1 post/day at 12:00 PM).
+### Langkah 1: Tetapkan Kalender Rilis Anda
+Buka [`templates/30-day-production-calendar.md`](templates/30-day-production-calendar.md). Tandai frekuensi upload Anda (misalnya 1 postingan/hari pada pukul 12:00).
 
-### Step 2: Batch Scripting (Days 1–5)
-Draft 30 scripts in one block. Group them by sub-topic (e.g. 10 videos on Invoice Parsing, 10 videos on Lead Generation, 10 videos on Database Syncing) to keep your writing focused.
+### Langkah 2: Pembuatan Skrip Batch (Hari 1–5)
+Draf 30 skrip dalam satu blok. Kelompokkan berdasarkan subtopik (misalnya 10 video tentang Penguraian Faktur, 10 video tentang Pembuatan Prospek, 10 video tentang Sinkronisasi Basis Data) agar tulisan Anda tetap fokus.
 
-### Step 3: Batch Voice Generation (Days 6–8)
-Generate all 30 audio narrations in one session. Name them sequentially (`01.mp3` to `30.mp3`). Trim pauses and silences.
+### Langkah 3: Pembuatan Suara Batch (Hari 6–8)
+Hasilkan semua 30 narasi audio dalam satu sesi. Beri nama secara berurutan (`01.mp3` hingga `30.mp3`). Pangkas jeda dan keheningan.
 
-### Step 4: Batch Visual Harvesting (Days 9–12)
-Generate your background visuals in bulk. Keep your prompt formats uniform to maintain a consistent visual style across the entire 30-video run.
+### Langkah 4: Pemanenan Visual Batch (Hari 9–12)
+Hasilkan visual latar belakang Anda secara massal. Jaga keseragaman format cepat Anda untuk mempertahankan gaya visual yang konsisten di seluruh 30 video yang diputar.
 
-### Step 5: Timeline Assembly & Export (Days 13–17)
-Open your video editor. Set up a master project file. Import all audio and visual folders. Edit and export the 30 completed files in bulk.
+### Langkah 5: Timeline Perakitan & Ekspor (Hari 13–17)
+Buka editor video Anda. Siapkan file proyek master. Impor semua folder audio dan visual. Edit dan ekspor 30 file yang sudah selesai secara massal.
 
-### Step 6: Native Scheduling (Days 18–20)
-Open YouTube Studio Web, TikTok Studio Web, and Instagram Creator Studio. Upload your videos. Write optimized titles and descriptions. Set the **Schedule** release date and time for each video (e.g. Day 1 at 12:00 PM, Day 2 at 12:00 PM, etc.).
+### Langkah 6: Penjadwalan Asli (Hari 18-20)
+Buka Web YouTube Studio, Web TikTok Studio, dan Instagram Creator Studio. Unggah video Anda. Tulis judul dan deskripsi yang dioptimalkan. Tetapkan **Jadwal** tanggal dan waktu rilis untuk setiap video (mis. Hari 1 pukul 12.00, Hari 2 pukul 12.00, dll.).
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
 <img src="templates/examples/batch-production-suite.jpg" alt="Batch Suite" width="280">
-<img src="templates/examples/batch-suite-clip.gif" alt="Calendar Video Motion (I2V)" width="280">
+<img src="templates/examples/batch-suite-clip.gif" alt="Kalender Video Gerak (I2V)" width="280">
 </p>
 <p align="center"><sub>Batch Schedule Image (Left) ──► Image-to-Video Motion (Right) · Video File: <a href="templates/examples/batch-suite-clip.mp4">templates/examples/batch-suite-clip.mp4</a></sub></p>
 
-**30-Shorts Production Run (Total time: 15 hours)**
+**Produksi 30-Shorts (Total waktu: 15 jam)**
 
 
 
-* **Scripting Batch:** 30 scripts drafted in Claude. (Time spent: **3 hours**).
-* **Audio Batch:** 30 ElevenLabs voice generations. (Time spent: **1 hour**).
-* **Visuals Batch:** 150 image prompt generations via muapi. (Time spent: **4 hours**).
-* **Editing Batch:** Timelines matched, captioned, and exported in CapCut. (Time spent: **5 hours**).
-* **Scheduling Batch:** Uploaded and scheduled across YT Shorts, TikTok, and Reels. (Time spent: **2 hours**).
+* **Scripting Batch:** 30 skrip dirancang di Claude. (Waktu yang dihabiskan: **3 jam**).
+* **Kumpulan Audio:** 30 generasi suara ElevenLabs. (Waktu yang dihabiskan: **1 jam**).
+* **Visuals Batch:** 150 pembuatan prompt gambar melalui muapi. (Waktu yang dihabiskan: **4 jam**).
+* **Pengeditan Batch:** Garis waktu dicocokkan, diberi teks, dan diekspor dalam CapCut. (Waktu yang dihabiskan: **5 jam**).
+* **Penjadwalan Batch:** Diupload dan dijadwalkan di YT Shorts, TikTok, dan Reels. (Waktu yang dihabiskan: **2 jam**).
 
-**The Result:** You have scheduled **90 total posts** (30 videos syndicated across 3 platforms) in just **15 hours of total work time**. Your channels will publish once a day for a month on complete autopilot.
+**Hasilnya:** Anda telah menjadwalkan **90 total postingan** (30 video disindikasikan di 3 platform) hanya dalam **15 jam total waktu kerja**. Saluran Anda akan dipublikasikan sekali sehari selama sebulan dengan autopilot penuh.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Bulk Upload Capabilities | Scheduling Pacing | Best for |
+| Platform / Alat | Kemampuan Unggah Massal | Penjadwalan Kecepatan | Terbaik untuk |
 |---|---|---|---|
-| **Native Web Studios** | High (Supports scheduling weeks in advance, free, reliable) | Precise hours | Uploading daily short-form and long-form content safely. |
-| **Buffer / Later** | Medium (Single dashboard, but has API upload limitations on some formats) | Daily schedules | General brand updates, less ideal for creator feeds. |
-| **Clipping Automation** (`ai-clipping-generator`) | Fast (Extracts multiple clips from long video inputs programmatically) | Automated | Generating secondary shorts from long-form assets. |
+| **Studio Web Asli** | Tinggi (Mendukung penjadwalan berminggu-minggu sebelumnya, gratis, dapat diandalkan) | Jam yang tepat | Mengunggah konten harian berdurasi pendek dan panjang dengan aman. |
+| **Penyangga / Nanti** | Sedang (Dasbor tunggal, tetapi memiliki batasan unggahan API pada beberapa format) | Jadwal harian | Pembaruan merek secara umum, kurang ideal untuk feed pembuat konten. |
+| **Otomasi Kliping** (`ai-clipping-generator`) | Cepat (Mengekstrak banyak klip dari input video panjang secara terprogram) | Otomatis | Menghasilkan short sekunder dari aset jangka panjang. |
 
-Always prefer native platform schedulers for high-traffic channels. To scale your video library further, use programmatic tools like `ai-clipping-generator` to extract highlight clips from old long-form client videos and schedule them as secondary shorts.
-
----
-
-## Launch It
-
-**How to optimize your release times:**
-* **Identify Peak Hours:** Check your channel's real-time analytics. Look at the "When your viewers are on YouTube" chart. Schedule your video to release **2 hours before** this peak window so the platform has time to index the video metadata.
-* **Don't schedule simultaneously:** If you cross-post to multiple platforms, stagger your schedule slightly (e.g. YouTube at 12:00 PM, TikTok at 12:30 PM, Reels at 1:00 PM) to capture audiences across feeds.
+Selalu pilih penjadwal platform asli untuk saluran dengan lalu lintas tinggi. Untuk memperluas perpustakaan video Anda, gunakan alat terprogram seperti `ai-clipping-generator` untuk mengekstrak klip sorotan dari video klien berdurasi panjang yang lama dan menjadwalkannya sebagai video pendek sekunder.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Fill out a 7-day schedule using the 30-Day Production Calendar. 
-2. **Medium:** Run a batched script-to-audio run. Write 5 script drafts, generate the 5 audio files, and trim the silences in one session. Log your time.
-3. **Hard:** Take a 10-minute video, feed it into the `ai-clipping-generator` tool, extract 5 short highlight clips, and schedule them to upload daily on a test channel.
-
----
-
-## Templates
-
-* [`templates/30-day-production-calendar.md`](templates/30-day-production-calendar.md) — a monthly batch schedule and upload tracker.
+**Cara mengoptimalkan waktu rilis Anda:**
+* **Identifikasi Jam Sibuk:** Periksa analisis real-time saluran Anda. Lihat diagram "Saat pemirsa Anda membuka YouTube". Jadwalkan video Anda untuk dirilis **2 jam sebelum** periode puncak ini sehingga platform memiliki waktu untuk mengindeks metadata video.
+* **Jangan menjadwalkan secara bersamaan:** Jika Anda melakukan cross-posting ke beberapa platform, ubah sedikit jadwal Anda (misalnya YouTube pada pukul 12.00, TikTok pada pukul 12.30, Reels pada pukul 13.00) untuk menjaring pemirsa di seluruh feed.
 
 ---
 
-[← AI Thumbnail Design](04-thumbnail-design.md) · Next: [Selling Content-Factory Output as a Service →](06-selling-content-services.md)
+## Latihan
+
+1. **Mudah:** Isi jadwal 7 hari menggunakan Kalender Produksi 30 Hari.
+2. **Medium:** Jalankan eksekusi skrip-ke-audio secara batch. Tulis 5 draf skrip, buat 5 file audio, dan hilangkan keheningan dalam satu sesi. Catat waktu Anda.
+3. **Sulit:** Ambil video berdurasi 10 menit, masukkan ke alat `ai-clipping-generator`, ekstrak 5 klip highlight pendek, dan jadwalkan untuk diupload setiap hari di saluran pengujian.
+
+---
+
+## Templat
+
+* [`templates/30-day-production-calendar.md`](templates/30-day-production-calendar.md) — jadwal batch bulanan dan pelacak unggahan.
+
+---
+
+[← AI Thumbnail Design](04-thumbnail-design.md) · Berikutnya: [Selling Content-Factory Output as a Service →](06-selling-content-services.md)

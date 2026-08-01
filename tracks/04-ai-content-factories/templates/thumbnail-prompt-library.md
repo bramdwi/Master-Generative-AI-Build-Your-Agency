@@ -1,27 +1,27 @@
-# Thumbnail Prompt Library
+# Perpustakaan Prompt Gambar Kecil
 
-Use these tested prompt patterns inside `nano-banana-2` (aspect ratio set to `16:9` or `1:1` depending on layout) to generate high-CTR thumbnail assets.
-
----
-
-## 1. High-Contrast Tech / SaaS Concept
-* **Visual Angle:** A clean, striking conceptual image showing a physical representation of digital automation.
-* **Prompt:**
-  > `"Widescreen 16:9, clean modern aesthetic. A shining silver key glowing with blue light, unlocking a physical metal padlock. Out of focus dark background with soft green binary code lights glowing. Cinematic lighting, photorealistic, 8k resolution, highly detailed."`
-
-## 2. Frustrated Creator / Solopreneur (Emotional)
-* **Visual Angle:** Close-up of a human character showing clear, readable emotion (frustration, shock, relief).
-* **Prompt:**
-  > `"Close-up portrait of a young male programmer looking at his glowing laptop screen in shock. Room is dark, backlit by cool purple and amber led light bars. Widescreen 16:9, Arri Alexa cinematic lighting, shallow depth of field, photorealistic, highly detailed."`
-
-## 3. Financial Success / Growth Vibe
-* **Visual Angle:** Visual metaphor showing hockey-stick growth or professional scale.
-* **Prompt:**
-  > `"A modern glowing green digital bar chart floating in the middle of a dark minimalist luxury office. Clean reflections on glass surfaces. Cinematic volumetric lighting, photorealistic, architectural rendering, 8k, widescreen."`
+Gunakan pola perintah yang telah diuji ini di dalam `nano-banana-2` (rasio aspek ditetapkan ke `16:9` atau `1:1` bergantung pada tata letak) untuk menghasilkan aset thumbnail dengan RKT tinggi.
 
 ---
 
-## Thumbnail Composition Rules:
-* **The Rule of Thirds:** Place your primary subject on the left or right third of the frame. Leave the other side clean for large, readable text overlays.
-* **Text Contrast:** If you add text to the thumbnail, use a maximum of **3 words** in a bold, sans-serif font. Add a thick black drop shadow or a solid background box behind the text.
-* **Emotional Faces:** If the thumbnail has a human face, increase the contrast and saturation by 10% in editing to ensure it remains readable at mobile thumbnail sizes (e.g. 120px wide).
+## 1. Konsep Teknologi / SaaS Kontras Tinggi
+* **Sudut Visual:** Gambar konseptual yang bersih dan mencolok yang menunjukkan representasi fisik otomatisasi digital.
+* **Mengingatkan:**
+> __KODE INLINE_0__
+
+## 2. Pencipta / Solopreneur yang Frustrasi (Emosional)
+* **Sudut Visual:** Tampilan jarak dekat dari karakter manusia yang menunjukkan emosi yang jelas dan mudah dibaca (frustasi, syok, lega).
+* **Mengingatkan:**
+> __KODE INLINE_0__
+
+## 3. Kesuksesan Finansial/Getaran Pertumbuhan
+* **Sudut Visual:** Metafora visual yang menunjukkan pertumbuhan tongkat hoki atau skala profesional.
+* **Mengingatkan:**
+> __KODE INLINE_0__
+
+---
+
+## Aturan Komposisi Gambar Kecil:
+* **The Rule of Thirds:** Tempatkan subjek utama Anda di sepertiga kiri atau kanan bingkai. Biarkan sisi lainnya bersih untuk hamparan teks yang besar dan mudah dibaca.
+* **Kontras Teks:** Jika Anda menambahkan teks ke gambar mini, gunakan maksimal **3 kata** dengan font sans-serif tebal. Tambahkan drop shadow hitam tebal atau kotak latar belakang solid di belakang teks.
+* **Wajah Emosional:** Jika gambar mini memiliki wajah manusia, tingkatkan kontras dan saturasi sebesar 10% saat mengedit untuk memastikan gambar mini tetap dapat dibaca pada ukuran gambar mini seluler (misalnya, lebar 120 piksel).

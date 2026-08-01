@@ -1,23 +1,23 @@
-# Stock Licensing & Royalty Calculator Sheet
+# Lembar Lisensi Saham & Kalkulator Royalti
 
-Use this reference sheet to model royalty rates, licensing structures, and portfolio earning projections across major stock portals.
+Gunakan lembar referensi ini untuk memodelkan tarif royalti, struktur perizinan, dan proyeksi pendapatan portofolio di seluruh portal saham utama.
 
 ---
 
-## 📊 Marketplace Royalty Tiers & Payouts
+## 📊 Tingkatan & Pembayaran Royalti Marketplace
 
-| Stock Platform | Licensing Type | Contributor Royalty % | Avg. Royalty per Download | Extended License Payout |
+| Platform Saham | Jenis Lisensi | Royalti Kontributor % | Rata-rata Royalti per Unduhan | Pembayaran Lisensi yang Diperpanjang |
 |---|---|---|---|---|
-| **Adobe Stock** | Non-Exclusive RF | 33% | **$0.33 – $3.30** | **$25.00 – $80.00** |
-| **Freepik Premium** | Non-Exclusive Pool | Pay-per-download pool | **$0.08 – $0.25** | N/A |
-| **Shutterstock** | Level 1-6 Tiers | 15% – 40% | **$0.25 – $2.85** | **$18.00 – $60.00** |
-| **Wirestock (Distributor)** | Multi-Platform | 85% of royalties earned | **$0.25 – $2.50** | **$20.00 – $65.00** |
+| **Stok Adobe** | RF Non-Eksklusif | 33% | **$0,33 – $3,30** | **$25,00 – $80,00** |
+| **Gratispik Premium** | Kolam Non-Eksklusif | Kumpulan bayar per unduh | **$0,08 – $0,25** | T/A |
+| **Shutterstock** | Tingkat 1-6 Tingkatan | 15% – 40% | **$0,25 – $2,85** | **$18,00 – $60,00** |
+| **Wirestock (Distributor)** | Multi-Platform | 85% royalti diperoleh | **$0,25 – $2,50** | **$20,00 – $65,00** |
 
 ---
 
-## 📈 Multi-Platform Portfolio Earning Projections
+## 📈 Proyeksi Pendapatan Portofolio Multi-Platform
 
-Model monthly passive earnings across a non-exclusive portfolio syndicated to **2 portals** (Adobe Stock + Freepik):
+Buat model penghasilan pasif bulanan di seluruh portofolio non-eksklusif yang disindikasikan ke **2 portal** (Adobe Stock + Freepik):
 
 ```
 Portfolio Size: 250 Assets

@@ -1,100 +1,100 @@
-# Case Study Teardown
+# Pembongkaran Studi Kasus
 
-> Learn to reverse-engineer a winning ad instead of guessing what worked.
+> Pelajari cara merekayasa balik iklan pemenang alih-alih menebak-nebak mana yang berhasil.
 
-**Track:** AI Video Ads & UGC
-**Time:** ~30 minutes
-**Prerequisites:** How AI UGC Actually Works, Pricing & Selling UGC Ads
+**Lagu:** Iklan Video AI & UGC
+**Waktu:** ~30 menit
+**Prasyarat:** Cara Kerja AI UGC, Penetapan Harga & Penjualan Iklan UGC
 
-## The Problem
+## Masalahnya
 
-It's easy to produce ads. It's harder to know which elements of a successful ad actually drove its performance, versus which were incidental. Without a teardown method, you end up copying surface style (a trending sound, a specific creator look) without understanding the structural reasons an ad worked — which means you can't reliably reproduce success for a different product.
+Sangat mudah untuk menghasilkan iklan. Lebih sulit untuk mengetahui elemen mana dari sebuah iklan yang sukses yang benar-benar mendorong kinerjanya, dibandingkan elemen mana yang tidak disengaja. Tanpa metode pembongkaran, Anda akhirnya meniru gaya permukaan (suara yang sedang tren, tampilan pembuat konten tertentu) tanpa memahami alasan struktural mengapa sebuah iklan berhasil — yang berarti Anda tidak dapat mereproduksi kesuksesan untuk produk lain dengan andal.
 
-## The Concept
+## Konsep
 
-A teardown separates an ad into the same five layers from Module 1 — script, avatar/voice, video, captions, export — and asks, for each layer, "what choice was made here, and why might it matter?" This turns "that ad performed well" into a checklist of reusable decisions, rather than a vibe.
+Pembongkaran memisahkan iklan ke dalam lima lapisan yang sama dari Modul 1 — skrip, avatar/suara, video, keterangan, ekspor — dan menanyakan, untuk setiap lapisan, "pilihan apa yang dibuat di sini, dan mengapa hal itu penting?" Hal ini mengubah "iklan tersebut berkinerja baik" menjadi daftar keputusan yang dapat digunakan kembali, dan bukan hanya sekedar kesan belaka.
 
-Documented, large-scale AI-UGC ad campaigns are useful teardown subjects precisely because their spend level implies the brand tested and kept what worked — the surviving ad reflects real performance data, not a guess.
+Kampanye iklan AI-UGC skala besar yang terdokumentasi adalah subjek pembongkaran yang berguna karena tingkat pembelanjaannya menyiratkan bahwa merek telah menguji dan mempertahankan apa yang berhasil — iklan yang bertahan mencerminkan data kinerja nyata, bukan hanya tebakan.
 
-## Do It
+## Lakukan itu
 
-1. **Pick a real, currently-running ad** in your target product category (visible via a platform's public ad library) that's been running for a while — longevity is a signal it's performing, since brands cut losing ads quickly.
-2. **Transcribe the script** and map it to the hook/pitch/proof/CTA structure from Module 1 — note what makes the hook work specifically (what question/claim/visual, and why it stops a scroll).
-3. **Note the avatar/voice choice** — tone, apparent age/demographic match to the product's audience, energy level.
-4. **Note the video structure** — how much is talking-head vs. b-roll, and where cuts happen relative to the script beats.
-5. **Note captioning style** — timing, emphasis (bold/highlighted keywords), whether it's synced tightly to speech.
-6. **Write down 2-3 structural takeaways** you could apply to a different product — not "copy this ad," but "this kind of hook works for this kind of problem."
+1. **Pilih iklan nyata yang sedang berjalan** dalam kategori produk target Anda (dapat dilihat melalui perpustakaan iklan publik platform) yang telah berjalan selama beberapa waktu — umur panjang adalah tanda bahwa produk tersebut berkinerja baik, karena merek memotong iklan yang hilang dengan cepat.
+2. **Transkripsikan skrip** dan petakan ke struktur hook/pitch/proof/CTA dari Modul 1 — perhatikan apa yang membuat hook berfungsi secara spesifik (pertanyaan/klaim/visual apa, dan mengapa ia menghentikan scroll).
+3. **Perhatikan avatar/pilihan suara** — nada suara, usia/demografis yang sesuai dengan audiens produk, tingkat energi.
+4. **Perhatikan struktur videonya** — berapa banyak yang berbicara vs. b-roll, dan di mana pemotongan terjadi relatif terhadap ketukan skrip.
+5. **Perhatikan gaya teks** — pengaturan waktu, penekanan (kata kunci yang dicetak tebal/disorot), apakah disinkronkan dengan ucapan.
+6. **Tuliskan 2-3 kesimpulan struktural** yang dapat Anda terapkan pada produk lain — bukan "salin iklan ini", namun "pengait semacam ini dapat digunakan untuk masalah seperti ini".
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/gripmount-ad3-pov.gif" alt="Case Study Winning UGC Video Ad" width="320">
+<img src="templates/examples/gripmount-ad3-pov.gif" alt="Studi Kasus Pemenang Iklan Video UGC" width="320">
 </p>
 <p align="center"><sub>Image-to-Video Winning UGC Ad Teardown Loop · <a href="templates/examples/gripmount-ad3-pov.mp4">Download MP4</a></sub></p>
 
-Say you're prospecting a skincare-serum brand and want a teardown to open the conversation. You pull up **Meta Ads Library** (free, no login needed) and search the brand's page.
+Katakanlah Anda sedang mencari merek serum perawatan kulit dan ingin membongkarnya untuk membuka percakapan. Anda membuka **Perpustakaan Iklan Meta** (gratis, tidak perlu login) dan menelusuri halaman merek.
 
 
 
-**Step 1 — longevity signal:** One ad shows "started running 47 days ago" with 6 near-identical variants (same script, different creator). Running that long, with that many variants of itself, is the tell that the brand found a winning script and is now testing creators/hooks against it — not guessing.
+**Langkah 1 — sinyal umur panjang:** Satu iklan menampilkan "mulai berjalan 47 hari yang lalu" dengan 6 varian yang hampir identik (skrip yang sama, pembuat berbeda). Berlangsung selama itu, dengan begitu banyak variannya, pertanda bahwa merek tersebut menemukan skrip yang unggul dan sekarang sedang menguji pembuat/pengait untuk menentangnya — bukan menebak-nebak.
 
-**Step 2 — script mapped to structure:**
-| Layer | What's actually in the ad |
+**Langkah 2 — skrip dipetakan ke struktur:**
+| Lapisan | Apa yang sebenarnya ada di iklan |
 |---|---|
-| Hook (0-2s) | "I stopped using retinol after this happened to my skin." — a scare/curiosity hook, not a claim about the product yet |
-| Pitch (2-12s) | Names a specific complaint (retinol irritation) before introducing the product as the alternative |
-| Proof (12-22s) | Before/after skin close-up, timestamped "day 1 / day 14" |
-| CTA (22-25s) | "Link in bio, 20% off first order" — discount-anchored, not just "shop now" |
+| Kait (0-2 detik) | “Saya berhenti menggunakan retinol setelah hal ini terjadi pada kulit saya.” — pengait ketakutan/keingintahuan, belum merupakan klaim tentang produk |
+| Nada (2-12 detik) | Sebutkan keluhan spesifik (iritasi retinol) sebelum memperkenalkan produk sebagai alternatif |
+| Bukti (12-22 detik) | Sebelum/sesudah close-up kulit, diberi stempel waktu "hari 1 / hari 14" |
+| CTA (22-25 detik) | "Tautan di bio, diskon 20% untuk pesanan pertama" — berlabuh diskon, bukan hanya "belanja sekarang" |
 
-**Step 3 — why it likely works:** the hook never mentions the product — it's a relatable complaint first, which is why it probably clears a decent hook-rate (viewers watch past 3 seconds to find out what happened) before the pitch even starts. The before/after proof with a day-count is a concrete, checkable claim, not "amazing results."
+**Langkah 3 — mengapa hal ini mungkin berhasil:** pengait tidak pernah menyebutkan produknya — ini adalah keluhan yang relevan terlebih dahulu, itulah sebabnya pengaduan tersebut mungkin memenuhi tingkat pengait yang layak (pemirsa menonton lebih dari 3 detik untuk mengetahui apa yang terjadi) bahkan sebelum promosi dimulai. Pembuktian sebelum/sesudah dengan hitungan hari adalah klaim yang konkrit dan dapat diperiksa, bukan "hasil yang luar biasa".
 
-**Step 4 — the takeaway you'd reuse**, written generically (not naming the brand): *"A pain-first hook that withholds the product name for the first few seconds, paired with a dated before/after, works well for skincare-category ads — the curiosity gap is what earns the watch-through."*
+**Langkah 4 — takeaway yang akan Anda gunakan kembali**, ditulis secara umum (tanpa menyebutkan nama merek): *"Pengait pertama yang menyembunyikan nama produk selama beberapa detik pertama, dipasangkan dengan tanggal sebelum/sesudahnya, berfungsi dengan baik untuk iklan kategori perawatan kulit — kesenjangan rasa ingin tahulah yang menghasilkan pengawasan."*
 
-**Using it in outreach:** "I noticed a running ad in the skincare-serum category using a pain-first hook + dated before/after proof — that structure is why it's still running after 47 days. Here's a sample ad using the same structure for [prospect's product]." This is a stronger opener than "I make AI ads" because it demonstrates you understood *why* something works before pitching anything.
+**Menggunakannya dalam penjangkauan:** "Saya melihat iklan yang berjalan dalam kategori serum perawatan kulit menggunakan pengait pertama + bukti tanggal sebelum/sesudah — struktur itulah yang menyebabkan iklan tersebut masih berjalan setelah 47 hari. Berikut adalah contoh iklan yang menggunakan struktur yang sama untuk [produk calon pembeli]." Ini adalah pembuka yang lebih kuat daripada "Saya membuat iklan AI" karena ini menunjukkan bahwa Anda memahami *mengapa* sesuatu berhasil sebelum melakukan promosi apa pun.
 
-## Compare Tools
+## Bandingkan Alat
 
-Teardown is mostly a manual skill (Do It above), but a video-understanding model can do a first-pass breakdown for you — worth knowing about even though the manual version is what actually builds your judgment.
+Teardown sebagian besar merupakan keterampilan manual (Lakukan di atas), tetapi model pemahaman video dapat melakukan perincian pertama untuk Anda — perlu diketahui meskipun versi manuallah yang sebenarnya menentukan penilaian Anda.
 
-**Real test:** ran Module 1's GripMount clip through **`gemini-video-vision`** (muapi, $0.004/call — a video-in, text-out model) with the prompt "break this into hook/pitch/proof/CTA, and comment on lip-sync quality and video structure." Actual output:
+**Pengujian sebenarnya:** menjalankan klip GripMount Modul 1 melalui **`gemini-video-vision`** (muapi, $0,004/panggilan — model video-in, text-out) dengan perintah "pecahkan ini menjadi hook/pitch/proof/CTA, dan komentari kualitas sinkronisasi bibir dan struktur video". Keluaran sebenarnya:
 
-> **Hook:** "...her immediate, palpable surprise and excitement are very engaging... 'Okay, I did not expect this...' creates immediate curiosity."
-> **CTA: Missing.** "There is no explicit or implied call to action in this short clip. It ends abruptly... A full ad would typically follow up with 'Shop now'..."
-> **Lip-sync:** "Excellent... flawless and perfectly aligned with the audio."
-> **Structure:** "Talking-head. ...there is no b-roll footage."
+> **Hook:** "...kejutan dan kegembiraannya yang nyata dan nyata sangat menarik... 'Oke, saya tidak menyangka ini...' langsung menciptakan rasa ingin tahu."
+> **CTA: Tidak Ada.** "Tidak ada ajakan bertindak yang eksplisit atau tersirat dalam klip pendek ini. Klip ini berakhir tiba-tiba... Iklan lengkap biasanya akan ditindaklanjuti dengan 'Belanja sekarang'..."
+> **Sinkronisasi bibir:** "Luar biasa... tanpa cela dan selaras sempurna dengan audio."
+> **Struktur:** "Talking-head. ...tidak ada rekaman b-roll."
 
-That's a genuinely correct read — the clip really is just the hook with no CTA, and it caught that.
+Itu benar-benar bacaan yang benar — klipnya benar-benar hanya sebuah pengait tanpa CTA, dan itu menarik perhatiannya.
 
-**Manual vs. AI-assisted, honestly:**
+**Sejujurnya, bantuan Manual vs. AI:**
 
-| | Manual teardown (Do It above) | AI-assisted (`gemini-video-vision`) |
+| | Pembongkaran manual (Lakukan di atas) | dibantu AI (`gemini-video-vision`) |
 |---|---|---|
-| What it's good for | Building your own judgment — you have to notice *why* a hook works, not just that it exists | A fast first pass, or a check against your own read when you're not sure |
-| Speed | Slower — you're watching and thinking | Seconds, and $0.004/call |
-| Where it can mislead | Doesn't apply — it's your own read | Can miss context a human would catch (brand history, category norms, why *this* audience specifically) — treat it as a draft, not a verdict |
+| Apa gunanya | Membangun penilaian Anda sendiri — Anda harus memperhatikan *mengapa* sebuah kail berhasil, bukan hanya karena kail itu ada | Umpan pertama yang cepat, atau pemeriksaan terhadap bacaan Anda sendiri ketika Anda tidak yakin |
+| Kecepatan | Lebih lambat — Anda memperhatikan dan berpikir | Detik, dan $0,004/panggilan |
+| Dimana bisa menyesatkan | Tidak berlaku — ini adalah bacaan Anda sendiri | Dapat melewatkan konteks yang dapat ditangkap oleh manusia (sejarah merek, norma kategori, alasan *khususnya* audiens) — perlakukan ini sebagai draf, bukan putusan |
 
-Use it as a learning aid (compare its read to your own to check your instincts) or as a time-saver when you're doing a batch of teardowns and can't manually watch every candidate ad — not as a replacement for actually doing the manual version enough times to build the skill yourself.
+Gunakan ini sebagai alat bantu pembelajaran (bandingkan bacaannya dengan bacaan Anda sendiri untuk memeriksa naluri Anda) atau sebagai penghemat waktu ketika Anda melakukan serangkaian pembongkaran dan tidak dapat menonton setiap iklan kandidat secara manual — bukan sebagai pengganti untuk benar-benar melakukan versi manual dalam jumlah yang cukup untuk membangun keterampilan Anda sendiri.
 
-## Launch It
+## Luncurkan
 
-**How to use this in sales:** A short teardown of a real running ad in a prospect's category — "here's why this ad from [category, not naming competitors by name] is working, and here's how I'd apply the same structure to your product" — is a stronger pitch opener than a generic capabilities pitch, because it demonstrates judgment, not just production ability.
+**Cara menggunakan ini dalam penjualan:** Perincian singkat tentang iklan yang sedang berjalan dalam kategori calon pelanggan — "inilah alasan iklan dari [kategori, tidak menyebutkan nama pesaing] berhasil, dan inilah cara saya menerapkan struktur yang sama pada produk Anda" — merupakan pembuka promosi yang lebih kuat daripada penawaran kemampuan umum, karena ini menunjukkan penilaian, bukan hanya kemampuan produksi.
 
-**How to position it:** Offer a "structural analysis + sample ad" as a low-cost or free first deliverable for prospects who are on the fence — it's fast to produce once you've practiced this skill, and it sells your judgment, not just your tool access.
+**Cara memposisikannya:** Tawarkan "analisis struktural + contoh iklan" sebagai penyampaian pertama yang berbiaya rendah atau gratis bagi calon pelanggan yang masih ragu — iklan ini dapat diproduksi dengan cepat setelah Anda mempraktikkan keterampilan ini, dan hal ini akan menjual penilaian Anda, bukan hanya akses alat Anda.
 
-**A note on naming:** When doing teardowns for client-facing material, describe competitor ads by category and structure ("a running ad in the skincare-serum category uses a before/after hook"), not by naming the specific brand or ad — this keeps the analysis about the technique, not competitive intelligence gathering.
+**Catatan tentang penamaan:** Saat melakukan pembongkaran materi yang berhubungan dengan klien, jelaskan iklan pesaing berdasarkan kategori dan struktur ("iklan yang berjalan dalam kategori serum perawatan kulit menggunakan kaitan sebelum/sesudah"), bukan dengan menyebutkan merek atau iklan tertentu — hal ini menjaga analisis tentang teknik, bukan pengumpulan intelijen kompetitif.
 
-## Exercises
+## Latihan
 
-1. **Easy:** Tear down one running ad in a product category you're interested in, using the five-layer structure.
-2. **Medium:** Tear down 3 ads in the same category and identify what's common across all three (a shared structural pattern) versus what's unique to each.
-3. **Hard:** Apply a teardown's structural takeaway to produce a new ad for a different product, and write down which specific choice you borrowed and why.
+1. **Mudah:** Hapus satu iklan yang sedang berjalan dalam kategori produk yang Anda minati, menggunakan struktur lima lapisan.
+2. **Medium:** Hapus 3 iklan dalam kategori yang sama dan identifikasi persamaan di ketiga iklan tersebut (pola struktural yang sama) versus keunikan masing-masing iklan.
+3. **Sulit:** Terapkan kesimpulan struktural pembongkaran untuk menghasilkan iklan baru untuk produk yang berbeda, dan tuliskan pilihan spesifik mana yang Anda pinjam dan alasannya.
 
-## Templates
+## Templat
 
-Reusable template(s) this module produces — fill these in and reuse them on real work:
+Templat yang dapat digunakan kembali yang dihasilkan modul ini — isi templat ini dan gunakan kembali pada pekerjaan nyata:
 
-- [`templates/teardown-worksheet.md`](templates/teardown-worksheet.md) — the five-layer teardown structure as a fill-in worksheet.
+- [`templates/teardown-worksheet.md`](templates/teardown-worksheet.md) — struktur pembongkaran lima lapis sebagai lembar kerja isian.
 
 ---
 
-[← Previous: Pricing & Selling UGC Ads](04-pricing-and-selling-ugc.md) · [Track overview](README.md) · You've completed Track 1 — see [ROADMAP.md](../../ROADMAP.md) for what's next.
+[← Previous: Pricing & Selling UGC Ads](04-pricing-and-selling-ugc.md) · [Track overview](README.md) · Anda telah menyelesaikan Track 1 — lihat [ROADMAP.md](../../ROADMAP.md) untuk selanjutnya.

@@ -1,26 +1,26 @@
-# Niche Evaluation Matrix
+# Matriks Evaluasi Niche
 
-Use this matrix to grade prospective niches before building a faceless AI channel. Target a final score above **15 points**.
+Gunakan matriks ini untuk menilai calon niche sebelum membangun saluran AI tanpa wajah. Targetkan skor akhir di atas **15 poin**.
 
 ---
 
-## Niche Name: ________________________
+## Nama Ceruk: __________
 
-### Grading Sheet
+### Lembar Penilaian
 
-| Criteria | Score (1-5) | Notes / Details |
+| Kriteria | Skor (1-5) | Catatan / Detail |
 |---|:---:|---|
-| **1. Estimated RPM / CPM**<br>• *5: High-value (Finance, SaaS, Business)*<br>• *3: Medium-value (Tech, Travel, Health)*<br>• *1: Low-value (Gaming, Memes, General Storytelling)* | | |
-| **2. Visual Asset Availability**<br>• *5: Rich stock footage + screenshot/UI capabilities*<br>• *3: Mid-tier image generation needs*<br>• *1: High consistency character video needs (difficult)* | | |
-| **3. Affiliate / Sponsor Potential**<br>• *5: High-ticket software/services to promote*<br>• *3: Low-ticket physical products*<br>• *1: No obvious monetization other than AdSense* | | |
-| **4. Content Lifespan (Greenness)**<br>• *5: Evergreen tutorials and explainers*<br>• *3: Semi-evergreen case studies*<br>• *1: Daily news/trends (requires constant upload)* | | |
-| **5. Audience Demographics**<br>• *5: Purchasing power (adults, business owners)*<br>• *3: Mixed general audience*<br>• *1: School-aged children/low conversion* | | |
+| **1. Estimasi RPM / CPM**<br>• *5: Nilai Tinggi (Keuangan, SaaS, Bisnis)*<br>• *3: Nilai Sedang (Teknologi, Perjalanan, Kesehatan)*<br>• *1: Nilai Rendah (Game, Meme, Cerita Umum)* | | |
+| **2. Ketersediaan Aset Visual**<br>• *5: Stok rekaman yang kaya + tangkapan layar/kemampuan UI*<br>• *3: Kebutuhan pembuatan gambar tingkat menengah*<br>• *1: Kebutuhan video karakter dengan konsistensi tinggi (sulit)* | | |
+| **3. Potensi Afiliasi / Sponsor**<br>• *5: Perangkat lunak/layanan mahal untuk dipromosikan*<br>• *3: Produk fisik dengan harga murah*<br>• *1: Tidak ada monetisasi yang jelas selain AdSense* | | |
+| **4. Umur Konten (Kehijauan)**<br>• *5: Tutorial dan penjelasan yang selalu hijau*<br>• *3: Studi kasus semi-hijau*<br>• *1: Berita/tren harian (memerlukan pengunggahan terus-menerus)* | | |
+| **5. Demografi Audiens**<br>• *5: Daya beli (dewasa, pemilik bisnis)*<br>• *3: Audiens umum campuran*<br>• *1: Anak-anak usia sekolah/konversi rendah* | | |
 
-**TOTAL SCORE:** _____ / 25
+**JUMLAH SKOR:** _____ / 25
 
 ---
 
-### Scoring Reference:
-* **20–25 (Excellent):** Greenlight. High-ticket sponsor and high-AdSense potential.
-* **15–19 (Good):** Viable. Focus heavily on building an email list or affiliate sales to supplement mid-tier AdSense.
-* **Under 15 (Avoid):** Red flag. Will require massive view volume to generate a sustainable income.
+### Referensi Penilaian:
+* **20–25 (Luar Biasa):** Lampu Hijau. Sponsor dengan harga tinggi dan potensi AdSense yang tinggi.
+* **15–19 (Bagus):** Layak. Berfokuslah pada membangun daftar email atau penjualan afiliasi untuk melengkapi AdSense tingkat menengah.
+* **Di bawah 15 tahun (Hindari):** Bendera merah. Akan membutuhkan volume penayangan yang besar untuk menghasilkan pendapatan yang berkelanjutan.

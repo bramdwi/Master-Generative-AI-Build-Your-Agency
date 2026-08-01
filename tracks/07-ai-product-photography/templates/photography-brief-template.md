@@ -1,43 +1,43 @@
-# AI Product Photography Brief Template
+# Templat Singkat Fotografi Produk AI
 
-Use this brief to lock the composition, lighting models, and prompt structures for generating product photos.
+Gunakan ringkasan ini untuk mengunci komposisi, model pencahayaan, dan struktur prompt untuk menghasilkan foto produk.
 
-## 1. Product Profile
-* **Product Name:** e.g., Luxe Hydration Serum
-* **Product Category:** e.g., Cosmetics / Skincare
-* **Packaging Material:** e.g., Matte amber glass bottle, black dropper cap.
-* **Reflective Properties:** [ ] Highly Reflective / [x] Semi-Gloss / [ ] Fully Matte
+## 1. Profil Produk
+* **Nama Produk:** misalnya Luxe Hydration Serum
+* **Kategori Produk:** misalnya Kosmetik / Perawatan Kulit
+* **Bahan Kemasan:** misalnya botol kaca amber matte, tutup penetes hitam.
+* **Sifat Reflektif:** [ ] Sangat Reflektif / [x] Semi-Gloss / [ ] Sepenuhnya Matte
 
-## 2. Visual Setting & Backdrop Spec
-* **Theme / Environment:** e.g., Minimalist Mediterranean stone ledge.
-* **Surface Materials:** Travertine stone base, warm textured stucco background.
-* **Water Elements:** [ ] Water ripples / [ ] Dew droplets / [x] Dry surface
-* **Props / Accent Items:** Single olive branch casting a soft shadow on the wall.
+## 2. Pengaturan Visual & Spesifikasi Latar Belakang
+* **Tema / Lingkungan:** misalnya, langkan batu Mediterania minimalis.
+* **Bahan Permukaan:** Dasar batu travertine, latar belakang plesteran bertekstur hangat.
+* **Elemen Air:** [ ] Riak air / [ ] Tetesan embun / [x] Permukaan kering
+* **Alat Peraga / Item Aksen:** Cabang zaitun tunggal memberikan bayangan lembut di dinding.
 
-## 3. Lighting & Shadow Matrix
-* **Primary Light Direction:** Side-lit from the top-right.
-* **Light Quality:** Diffused golden hour sunlight.
-* **Shadow Intensity:** Soft, elongated warm shadows casting to the left.
-* **Reflections:** Matte reflection on travertine surface.
+## 3. Matriks Pencahayaan & Bayangan
+* **Arah Cahaya Utama:** Menyala samping dari kanan atas.
+* **Kualitas Cahaya:** Sinar matahari jam emas yang tersebar.
+* **Intensitas Bayangan:** Bayangan hangat yang lembut dan memanjang mengarah ke kiri.
+* **Refleksi:** Refleksi matte pada permukaan travertine.
 
-## 4. Prompt Assembly Blueprint
-Combine tokens into the master prompt:
+## 4. Cetak Biru Perakitan Cepat
+Gabungkan token ke dalam perintah utama:
 
 ```
 [Product Photo Anchor] + [Backdrop Environment] + [Lighting Parameters] + [Camera Settings]
 ```
 
-* **Product Anchor:** `A high-end cosmetic glass bottle on a travertine stone block,`
-* **Backdrop Environment:** `against a warm beige stucco wall with a single olive branch silhouette,`
-* **Lighting Parameters:** `soft side-lit golden hour sun rays casting elegant shadows,`
-* **Camera Settings:** `photorealistic, studio lighting, commercial photography, shot on 85mm lens, f/2.8, depth of field.`
+* **Jangkar Produk:** `A high-end cosmetic glass bottle on a travertine stone block,`
+* **Lingkungan Latar Belakang:** `against a warm beige stucco wall with a single olive branch silhouette,`
+* **Parameter Pencahayaan:** `soft side-lit golden hour sun rays casting elegant shadows,`
+* **Pengaturan Kamera:** `photorealistic, studio lighting, commercial photography, shot on 85mm lens, f/2.8, depth of field.`
 
 ---
 
-## Generation Log
+## Log Generasi
 
-| Run # | Prompt Modification | Seed | Output Quality Rating | Composition Align (Yes/No) |
+| Jalankan # | Modifikasi Cepat | Benih | Peringkat Kualitas Keluaran | Penjajaran Komposisi (Ya/Tidak) |
 |:---:|---|:---:|:---:|:---:|
-| 1 | Initial prompt | 489201 | 8/10 | Yes |
-| 2 | Added "soft reflections" | 489202 | 9/10 | Yes |
+| 1 | Perintah awal | 489201 | 8/10 | Ya |
+| 2 | Menambahkan "refleksi lembut" | 489202 | 9/10 | Ya |
 | 3 | | | | |

@@ -1,44 +1,44 @@
-# Content Factory Retainer Proposal
+# Proposal Pengikut Pabrik Konten
 
-Use this template to pitch a recurring content creation service to brand clients or busy influencers.
-
----
-
-## Content Production & Retainer Agreement
-
-**Client Name:** ________________________  
-**Service Provider:** ________________________  
-**Effective Date:** ________________________  
-
-### 1. Scope of Services
-The Service Provider agrees to deliver a monthly batch of high-retention vertical videos optimized for YouTube Shorts, TikTok, and Instagram Reels:
-* **Volume:** Thirty (30) vertical video deliverables per month.
-* **Duration:** 30–60 seconds per video.
-* **Pipeline Includes:** 
-  - Topic research and scriptwriting (Conversational hooks).
-  - Premium AI voiceover generation.
-  - Custom visual asset generation and storyboard conditioning.
-  - Video timeline assembly, kinetic text captioning, and background sound design.
-  - Delivering final files via a shared Google Drive/Dropbox folder.
-
-### 2. Pacing & Delivery Schedule
-* Videos will be delivered in **weekly batches of seven (7) videos** every Friday, allowing the client to review and schedule for the following week.
-* Client is allowed up to two (2) revisions per batch. Revisions must be requested within 48 hours of batch delivery.
-
-### 3. Pricing & Payment Terms
-* **Monthly Retainer Fee:** **$1,500.00 USD** per month.
-* **Payment Schedule:** Payments are billed upfront on a recurring 30-day basis. Production begins only after the invoice for the current month is paid.
-* **Late Payments:** A late fee of 5% will apply to any invoice unpaid after 7 business days.
-
-### 4. Intellectual Property
-Upon receipt of full payment, all intellectual property rights to the completed video deliverables transfer to the Client. The Service Provider retains the right to display clips in their professional portfolio.
+Gunakan templat ini untuk menawarkan layanan pembuatan konten berulang kepada klien merek atau pemberi pengaruh yang sibuk.
 
 ---
 
-**Signed by:**
+## Perjanjian Produksi & Penahan Konten
 
-____________________________________  
-**For the Client** (Name & Title)  
+**Nama Klien:** __________
+**Penyedia Layanan:** __________
+**Tanggal berlaku:** ________________________
 
-____________________________________  
-**For the Service Provider** (Name & Title)
+### 1. Ruang Lingkup Pelayanan
+Penyedia Layanan setuju untuk mengirimkan kumpulan video vertikal retensi tinggi bulanan yang dioptimalkan untuk YouTube Shorts, TikTok, dan Instagram Reels:
+* **Volume:** Tiga puluh (30) hasil video vertikal per bulan.
+* **Durasi:** 30–60 detik per video.
+* **Saluran Termasuk:**
+- Penelitian topik dan penulisan naskah (Conversational hooks).
+- Generasi sulih suara AI premium.
+- Pembuatan aset visual khusus dan pengondisian storyboard.
+- Perakitan garis waktu video, teks kinetik, dan desain suara latar belakang.
+- Mengirimkan file akhir melalui folder Google Drive/Dropbox bersama.
+
+### 2. Jadwal Kecepatan & Pengiriman
+* Video akan dikirimkan dalam **kumpulan mingguan yang terdiri dari tujuh (7) video** setiap hari Jumat, sehingga klien dapat meninjau dan menjadwalkannya untuk minggu berikutnya.
+* Klien diperbolehkan hingga dua (2) revisi per batch. Revisi harus diminta dalam waktu 48 jam setelah pengiriman batch.
+
+### 3. Ketentuan Harga & Pembayaran
+* **Biaya Retainer Bulanan:** **$1.500,00 USD** per bulan.
+* **Jadwal Pembayaran:** Pembayaran ditagih di muka secara berulang setiap 30 hari. Produksi dimulai hanya setelah tagihan untuk bulan berjalan dibayar.
+* **Keterlambatan Pembayaran:** Biaya keterlambatan sebesar 5% akan berlaku untuk setiap faktur yang belum dibayar setelah 7 hari kerja.
+
+### 4. Kekayaan Intelektual
+Setelah menerima pembayaran penuh, semua hak kekayaan intelektual atas kiriman video yang telah selesai ditransfer ke Klien. Penyedia Layanan berhak menampilkan klip dalam portofolio profesionalnya.
+
+---
+
+**Ditandatangani oleh:**
+
+________________________
+**Untuk Klien** (Nama & Jabatan)
+
+________________________
+**Untuk Penyedia Layanan** (Nama & Jabatan)

@@ -1,122 +1,122 @@
-# Honest RPM & Earnings Math
+# RPM Jujur & Penghasilan Matematika
 
-> Views are vanity; profit margins are sanity.
+> Pandangan adalah kesia-siaan; margin keuntungan adalah kewarasan.
 
-**Track:** Faceless AI Channels  
-**Time:** ~35 minutes  
-**Prerequisites:** Niche Selection & Script Pipeline, Duration-Matched Narration & Pacing  
+**Lagu:** Saluran AI Tanpa Wajah
+**Waktu:** ~35 menit
+**Prasyarat:** Pemilihan Niche & Pipeline Skrip, Narasi & Kecepatan yang Sesuai Durasi
 
-## The Problem
+## Masalahnya
 
-Social media is full of "gurus" sharing screenshots of YouTube dashboards showing $10,000/month in earnings from faceless channels. What they rarely show are the operational costs behind those earnings: the money spent on AI API credits, video editing subscriptions, thumbnail design, and the fact that most of their views are on Shorts, which pay pennies.
+Media sosial penuh dengan "guru" yang berbagi tangkapan layar dasbor YouTube yang menunjukkan penghasilan $10.000/bulan dari saluran tanpa wajah. Yang jarang mereka tunjukkan adalah biaya operasional di balik pendapatan tersebut: uang yang dihabiskan untuk kredit AI API, langganan pengeditan video, desain thumbnail, dan fakta bahwa sebagian besar penayangan mereka tertuju pada Shorts, yang membayar sangat sedikit.
 
-If you jump in blindly, you might build a channel that generates 1 million views a month but only earns $50 in AdSense because it is in a low-value niche (like meme compilations). If your monthly subscription costs for ElevenLabs, Canva, and video generators total $120, **you are running a business at a loss** despite having millions of views.
+Jika Anda terjun secara membabi buta, Anda mungkin membangun saluran yang menghasilkan 1 juta penayangan per bulan namun hanya menghasilkan $50 di AdSense karena saluran tersebut berada dalam ceruk bernilai rendah (seperti kompilasi meme). Jika biaya langganan bulanan Anda untuk ElevenLabs, Canva, dan generator video berjumlah $120, **Anda menjalankan bisnis dalam keadaan merugi** meskipun memiliki jutaan penayangan.
 
-To run a channel like a real business, you need to understand the exact math behind RPM (Revenue Per Mille), factor in generation expenses, and target monetization funnels that don't rely solely on AdSense payouts.
+Untuk menjalankan saluran seperti bisnis nyata, Anda perlu memahami perhitungan pasti di balik RPM (Pendapatan Per Mille), memperhitungkan biaya produksi, dan menargetkan saluran monetisasi yang tidak hanya mengandalkan pembayaran AdSense.
 
-## The Concept
+## Konsep
 
-The financial health of your channel is determined by two main factors: **RPM** and **COGS (Cost of Goods Sold)**.
+Kesehatan finansial saluran Anda ditentukan oleh dua faktor utama: **RPM** dan **COGS (Harga Pokok Penjualan)**.
 
-### 1. The RPM Discrepancy:
-* **CPM (Cost Per Mille):** The amount advertisers pay to show ads on your videos per 1,000 views.
-* **RPM (Revenue Per Mille):** The net amount *you* receive per 1,000 views after the platform takes its cut. YouTube takes **45%** of long-form ad revenue and **55%** of Shorts ad revenue.
-* **Format Impact:** Long-form videos (videos over 8 minutes) allow mid-roll ads, pushing RPMs to $5–$25. Short-form videos (Shorts/Reels) draw from a shared creator pool, resulting in a microscopic RPM of **$0.02 to $0.06** per 1,000 views.
+### 1. Perbedaan RPM:
+* **CPM (Cost Per Mille):** Jumlah yang dibayar pengiklan untuk menampilkan iklan di video Anda per 1.000 penayangan.
+* **RPM (Pendapatan Per Mille):** Jumlah bersih yang *Anda* terima per 1.000 penayangan setelah platform dipotong. YouTube mengambil **45%** pendapatan iklan berdurasi panjang dan **55%** pendapatan iklan Shorts.
+* **Dampak Format:** Video berdurasi panjang (video berdurasi lebih dari 8 menit) memungkinkan iklan paruh-putar, sehingga mendorong RPM ke $5–$25. Video berdurasi pendek (Shorts/Reel) diambil dari kumpulan kreator bersama, sehingga menghasilkan RPM mikroskopis **$0,02 hingga $0,06** per 1.000 penayangan.
 
-### 2. The COGS of AI Video:
-Every video you generate carries a marginal cost:
+### 2. COGS Video AI:
+Setiap video yang Anda hasilkan memiliki biaya marjinal:
 ```
 Cost per Video = LLM Script Cost + TTS Audio Cost + Video Generator Credit Cost
 ```
-If you spend $0.50 in API credits to produce a Short, and it gets 5,000 views on YouTube Shorts earning $0.04 RPM, the video earns $0.20. You have lost $0.30 on that upload. To turn a profit on low-RPM short-form video, you must convert those views into **direct sales** (affiliate link clicks, newsletter signups, or digital product sales).
+Jika Anda membelanjakan kredit API sebesar $0,50 untuk membuat video Shorts, dan video tersebut mendapat 5.000 penayangan di YouTube Shorts dan menghasilkan $0,04 RPM, maka video tersebut akan menghasilkan $0,20. Anda kehilangan $0,30 pada unggahan itu. Untuk menghasilkan keuntungan pada video pendek RPM rendah, Anda harus mengonversi penayangan tersebut menjadi **penjualan langsung** (klik tautan afiliasi, pendaftaran buletin, atau penjualan produk digital).
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Research Real CPM Ranges
-Go to Google Keyword Planner. Type in keywords related to your niche. Look at the "Top of Page Bid" range.
-* High bids (e.g. $5.00+ CPC for "Business Liability Insurance") mean high CPM.
-* Low bids (e.g. $0.10 CPC for "Funny cats") mean low CPM.
+### Langkah 1: Teliti Rentang BPS Nyata
+Buka Perencana Kata Kunci Google. Ketikkan kata kunci yang terkait dengan niche Anda. Lihat rentang "Tawaran Laman Bagian Atas".
+* Tawaran tinggi (misalnya $5,00+ BPK untuk "Asuransi Kewajiban Bisnis") berarti BPS tinggi.
+* Tawaran rendah (misalnya BPK $0,10 untuk "Kucing lucu") berarti BPS rendah.
 
-### Step 2: Establish Your Monthly Operational Budget
-List all your monthly recurring subscriptions and API credit packages. Log them in the [`templates/channel-profitability-calculator.md`](templates/channel-profitability-calculator.md). Keep your software stack lean during the startup phase.
+### Langkah 2: Tetapkan Anggaran Operasional Bulanan Anda
+Cantumkan semua langganan berulang bulanan dan paket kredit API Anda. Catat di [`templates/channel-profitability-calculator.md`](templates/channel-profitability-calculator.md). Jaga agar tumpukan perangkat lunak Anda tetap ramping selama fase permulaan.
 
-### Step 3: Calculate Your Production Cost per Video
-Track your actual API consumption. For a 60-second video:
-* **Script (LLM):** ~0.05 credits
-* **Narration (TTS):** ElevenLabs text generation (~1,000 characters) = ~$0.15
-* **Video Generation:** muapi video generation credits (e.g. Seedance 2) = ~$0.50
-* **Total Cost per Video:** **$0.70**
+### Langkah 3: Hitung Biaya Produksi Anda per Video
+Lacak konsumsi API Anda yang sebenarnya. Untuk video berdurasi 60 detik:
+* **Skrip (LLM):** ~0,05 kredit
+* **Narasi (TTS):** Pembuatan teks ElevenLabs (~1.000 karakter) = ~$0,15
+* **Pembuatan Video:** kredit pembuatan video muapi (misalnya Seedance 2) = ~$0,50
+* **Total Biaya per Video:** **$0,70**
 
-### Step 4: Map Your Monetization Ladder
-Calculate how many views you need to secure a digital product conversion. If you convert **0.1%** of viewers into email subscribers (1 in 1,000 views), and you convert **2%** of subscribers into a $27 product sale (1 in 50 subscribers), then every 50,000 views yields one digital sale ($27) plus some AdSense. This is the math that makes channels profitable.
+### Langkah 4: Petakan Tangga Monetisasi Anda
+Hitung berapa banyak tampilan yang Anda perlukan untuk mengamankan konversi produk digital. Jika Anda mengonversi **0,1%** pemirsa menjadi pelanggan email (1 dalam 1.000 penayangan), dan mengonversi **2%** pelanggan menjadi penjualan produk senilai $27 (1 dalam 50 pelanggan), maka setiap 50.000 penayangan menghasilkan satu penjualan digital ($27) ditambah beberapa AdSense. Perhitungan inilah yang membuat saluran menguntungkan.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
 <img src="templates/examples/faceless-finance-niche.jpg" alt="Finance Niche Studio" width="280">
-<img src="templates/examples/faceless-finance-clip.gif" alt="Finance Channel Video Motion (I2V)" width="280">
+<img src="templates/examples/faceless-finance-clip.gif" alt="Gerakan Video Saluran Keuangan (I2V)" width="280">
 </p>
 <p align="center"><sub>High-RPM Finance Studio Image (Left) ──► Image-to-Video Motion (Right) · Video File: <a href="templates/examples/faceless-finance-clip.mp4">templates/examples/faceless-finance-clip.mp4</a></sub></p>
 
-**Profitability Comparison: Niche & Format Optimization**
+**Perbandingan Profitabilitas: Optimasi Niche & Format**
 
 
 
-### Scenario A: General Gaming Channel (Shorts-Only)
-* **Monthly Views:** 1,000,000 views (Shorts)
-* **Niche RPM:** $0.04
-* **AdSense Earnings:** `(1,000,000 / 1000) * 0.04` = **$40**
-* **Expenses:** ElevenLabs + CapCut + Video credits = **$75**
-* **Net Monthly Profit:** **-$35** (Loss)
+### Skenario A: Saluran Game Umum (Khusus Film Pendek)
+* **Penayangan Bulanan:** 1.000.000 penayangan (Video Shorts)
+* **RPM Khusus:** $0,04
+* **Penghasilan AdSense:** `(1,000,000 / 1000) * 0.04` = **$40**
+* **Biaya:** ElevenLabs + CapCut + Kredit video = **$75**
+* **Laba Bersih Bulanan:** **-$35** (Rugi)
 
-### Scenario B: SaaS Automation Channel (Shorts + Digital Funnel)
-* **Monthly Views:** 100,000 views (Shorts)
-* **Niche RPM:** $0.05
-* **AdSense Earnings:** `(100,000 / 1000) * 0.05` = **$5**
-* **Direct Sales (Lead Magnet funnel):** 100 signups -> 5 sales of a $27 automation template = **$135**
-* **Expenses:** LLM script + ElevenLabs + muapi Video credits = **$45**
-* **Net Monthly Profit:** **$95** (Profit)
+### Skenario B: Saluran Otomatisasi SaaS (Shorts + Corong Digital)
+* **Penayangan Bulanan:** 100.000 penayangan (Video Shorts)
+* **RPM Khusus:** $0,05
+* **Penghasilan AdSense:** `(100,000 / 1000) * 0.05` = **$5**
+* **Penjualan Langsung (corong Magnet Utama):** 100 pendaftaran -> 5 penjualan template otomatisasi senilai $27 = **$135**
+* **Biaya:** Skrip LLM + ElevenLabs + kredit video muapi = **$45**
+* **Laba Bersih Bulanan:** **$95** (Laba)
 
-**The Lesson:** Even with 10 times fewer views, Scenario B is profitable because the niche demographic converts into high-margin digital product sales, overriding low short-form AdSense payouts.
+**Pelajaran:** Bahkan dengan penayangan 10 kali lebih sedikit, Skenario B tetap menguntungkan karena demografi khusus diubah menjadi penjualan produk digital dengan margin tinggi, sehingga mengesampingkan pembayaran AdSense jangka pendek yang rendah.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Cost Reporting Capabilities | Best for |
+| Platform / Alat | Kemampuan Pelaporan Biaya | Terbaik untuk |
 |---|---|---|
-| **Google AdSense Analytics** | Real-time AdSense RPM reporting, country breakdowns, and ad type performance. | Tracking long-form ad earnings. |
-| **Whop / Gumroad Dashboard** | Conversion rate tracking, email capture, gross sales, and net payouts after transaction fees (approx. 5-10%). | Tracking digital product and community sales. |
-| **Muapi Wallet Log** | Precise credit-by-credit usage logging per generation task. | Tracking exact production costs. |
+| **Google AdSense Analytics** | Pelaporan RPM AdSense waktu nyata, pengelompokan negara, dan kinerja jenis iklan. | Melacak penghasilan iklan jangka panjang. |
+| **Dasbor Whop / Gumroad** | Pelacakan tingkat konversi, pengambilan email, penjualan kotor, dan pembayaran bersih setelah biaya transaksi (sekitar 5-10%). | Melacak penjualan produk digital dan komunitas. |
+| **Log Dompet Muapi** | Pencatatan penggunaan kredit demi kredit yang tepat per tugas generasi. | Melacak biaya produksi yang tepat. |
 
-AdSense analytics show only ad revenue. To run a profitable business, you must combine AdSense data, merchant account payouts (Stripe/PayPal), and API expense logs into a single master spreadsheet like the profitability calculator template.
-
----
-
-## Launch It
-
-**How to set up your accounting:**
-* **Separate Wallet:** Open a separate bank or PayPal account specifically for your channel. Route all affiliate and digital product income there, and pay for all API credits from the same account. This makes tracking your net monthly margins simple.
-* **Affiliate Disclosures:** Platforms require clear disclosures. In your video description, add: *"Disclosure: Some links in this description are affiliate links, meaning I earn a commission at no extra cost to you."*
+Analisis AdSense hanya menampilkan pendapatan iklan. Untuk menjalankan bisnis yang menguntungkan, Anda harus menggabungkan data AdSense, pembayaran akun pedagang (Stripe/PayPal), dan log pengeluaran API ke dalam satu spreadsheet utama seperti template kalkulator profitabilitas.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Research the CPC bids for three keywords in the Finance niche and three keywords in the Humour/Meme niche. Write down the difference.
-2. **Medium:** Fill out the Channel Profitability Calculator for a hypothetical channel getting 50,000 views, producing 15 videos a month, and selling one $47 digital product.
-3. **Hard:** Project the financial layout for a channel transition from Shorts-only to a hybrid layout (2 long-form videos per month, 15 Shorts). Calculate how the change in RPM affects net profit margins.
-
----
-
-## Templates
-
-* [`templates/channel-profitability-calculator.md`](templates/channel-profitability-calculator.md) — a monthly audit sheet for views, direct sales, software costs, and net margins.
+**Cara mengatur akuntansi Anda:**
+* **Dompet Terpisah:** Buka rekening bank atau PayPal terpisah khusus untuk saluran Anda. Arahkan semua pendapatan afiliasi dan produk digital ke sana, dan bayar semua kredit API dari akun yang sama. Ini membuat pelacakan margin bersih bulanan Anda menjadi sederhana.
+* **Pengungkapan Afiliasi:** Platform memerlukan pengungkapan yang jelas. Dalam deskripsi video Anda, tambahkan: *"Pengungkapan: Beberapa tautan dalam deskripsi ini adalah tautan afiliasi, artinya saya mendapat komisi tanpa biaya tambahan kepada Anda."*
 
 ---
 
-[← Duration-Matched Narration & Pacing](02-narration-and-pacing.md) · Next: [Scaling to Multiple Channels →](04-scaling-channels.md)
+## Latihan
+
+1. **Mudah:** Teliti tawaran BPK untuk tiga kata kunci di ceruk Keuangan dan tiga kata kunci di ceruk Humor/Meme. Tuliskan perbedaannya.
+2. **Medium:** Isi Kalkulator Profitabilitas Saluran untuk saluran hipotetis yang memperoleh 50.000 penayangan, memproduksi 15 video sebulan, dan menjual satu produk digital seharga $47.
+3. **Sulit:** Proyeksikan tata letak keuangan untuk transisi saluran dari tata letak Shorts saja ke tata letak campuran (2 video berdurasi panjang per bulan, 15 video Shorts). Hitung bagaimana perubahan RPM mempengaruhi margin laba bersih.
+
+---
+
+## Templat
+
+* [`templates/channel-profitability-calculator.md`](templates/channel-profitability-calculator.md) — lembar audit bulanan untuk penayangan, penjualan langsung, biaya perangkat lunak, dan margin bersih.
+
+---
+
+[← Duration-Matched Narration & Pacing](02-narration-and-pacing.md) · Berikutnya: [Scaling to Multiple Channels →](04-scaling-channels.md)

@@ -1,99 +1,99 @@
-# Voice/Audio Models — Which One for Which Use Case
+# Model Suara/Audio — Yang Mana untuk Kasus Penggunaannya
 
-> Select the right audio stack: ElevenLabs, Suno v3.5, Udio, Bark, and Whisper speech-to-text.
+> Pilih tumpukan audio yang tepat: ElevenLabs, Suno v3.5, Udio, Bark, dan Whisper ucapan-ke-teks.
 
-**Track:** AI Tools Mastery  
-**Time:** ~35 minutes  
-**Prerequisites:** [01: Image Models](01-image-models-which-one-for-which-use-case.md), [02: Video Models](02-video-models-which-one-for-which-use-case.md)  
+**Lacak:** Penguasaan Alat AI
+**Waktu:** ~35 menit
+**Prasyarat:** [01: Image Models](01-image-models-which-one-for-which-use-case.md), [02: Video Models](02-video-models-which-one-for-which-use-case.md)
 
-## The Problem
+## Masalahnya
 
-Audio quality makes or breaks video production. Studies show viewers tolerate mediocre video resolution, but immediately click away from bad audio or robotic voiceovers.
+Kualitas audio menentukan atau menghancurkan produksi video. Penelitian menunjukkan bahwa pemirsa menoleransi resolusi video yang biasa-biasa saja, namun segera menghindari audio yang buruk atau sulih suara robot.
 
-Creators struggle with choosing audio AI models:
-* Using low-end TTS engines results in monotone, robotic voiceovers with unnatural pacing.
-* Generating full music tracks with vocals when the scene only needed ambient background instrumentals destroys dialogue clarity.
-* Attempting voice cloning without noise-cleaned reference audio produces distorted audio artifacts.
+Pembuat konten kesulitan dalam memilih model AI audio:
+* Penggunaan mesin TTS kelas bawah menghasilkan sulih suara robotik yang monoton dengan kecepatan yang tidak wajar.
+* Menghasilkan trek musik lengkap dengan vokal saat adegan hanya membutuhkan instrumental latar belakang akan merusak kejelasan dialog.
+* Mencoba mengkloning suara tanpa audio referensi yang menghilangkan noise akan menghasilkan artefak audio yang terdistorsi.
 
-You need an exact tool mapping strategy for voice synthesis, music generation, and audio stem isolation.
+Anda memerlukan strategi pemetaan alat yang tepat untuk sintesis suara, pembuatan musik, dan isolasi batang audio.
 
 ---
 
-## The Concept
+## Konsep
 
-The **Complete Audio Stack Pipeline** separates speech, music, and sound effects (SFX):
+**Saluran Tumpukan Audio Lengkap** memisahkan ucapan, musik, dan efek suara (SFX):
 
 ```
 Text Script ──► ElevenLabs Voice Synthesis ──► Suno/Udio Instrumental Track ──► Audio Stem Mix & Mastering
 ```
 
-### The 3 Pillars of AI Audio:
+### 3 Pilar AI Audio:
 
-1. **Voice Synthesis & Cloning (ElevenLabs / Bark):** High-emotional-range voiceovers, voice cloning, and multilingual translation with natural breath pacing.
-2. **Generative Music & Score Composition (Suno v3.5 / Udio):** Full-length cinematic soundtracks, commercial background beats, and genre-specific music scores.
-3. **Speech-to-Text & Subtitle Automation (Whisper):** Highly accurate transcription, timestamp alignment, and automated open-caption generation.
-
----
-
-## Do It
-
-### Step 1: Match Audio Requirements to Brief
-Open [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md). Map your audio needs:
-* **Narration & Commercial Voiceover:** **ElevenLabs Multilingual v2** (High emotional dynamics, stability `0.45`, clarity `0.85`).
-* **Cinematic Film Score / Background Beat:** **Suno v3.5** (Instrumental prompt mode) or **Udio**.
-* **Subtitle & Transcript Generation:** **OpenAI Whisper** (Large-v3 model).
-
-### Step 2: Configure Voice Synthesis Parameters
-In ElevenLabs:
-* Set **Stability** to `0.40 - 0.50` for expressive, natural voice modulation.
-* Set **Clarity + Similarity Boost** to `0.80` for clean studio presence.
-
-### Step 3: Mix Dialogue & Music Stems
-Ensure background music is ducked by **-14dB** below the voiceover narration track during video editing.
+1. **Sintesis & Kloning Suara (ElevenLabs / Bark):** Sulih suara dengan rentang emosi tinggi, kloning suara, dan terjemahan multibahasa dengan tempo napas alami.
+2. **Komposisi Musik & Skor Generatif (Suno v3.5 / Udio):** Soundtrack sinematik berdurasi penuh, irama latar belakang komersial, dan skor musik genre tertentu.
+3. **Otomasi Pidato-ke-Teks & Subjudul (Bisikan):** Transkripsi yang sangat akurat, penyelarasan stempel waktu, dan pembuatan teks terbuka otomatis.
 
 ---
 
-## Worked Example
+## Lakukan itu
 
-**Audio Production Pipeline for "Commercial Real Estate Ad"**
+### Langkah 1: Sesuaikan Persyaratan Audio dengan Singkat
+Buka [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md). Petakan kebutuhan audio Anda:
+* **Narasi & Sulih Suara Komersial:** **ElevenLabs Multibahasa v2** (Dinamika emosi tinggi, stabilitas `0.45`, kejelasan `0.85`).
+* **Skor Film Sinematik / Ketukan Latar Belakang:** **Suno v3.5** (Mode perintah instrumental) atau **Udio**.
+* **Pembuatan Subtitle & Transkrip:** **OpenAI Whisper** (model Large-v3).
 
-* **Voiceover:** ElevenLabs "Adam - Deep Corporate Narrator" (Stability `0.45`).
-* **Background Score:** Suno v3.5 Instrumental (`"Ambient corporate piano, warm uplifting strings, 110 bpm"`).
-* **Transcription:** OpenAI Whisper auto-generated SRT subtitles.
-* **Production Time:** 8 minutes total.
-* **Total Audio Cost:** **$0.12** credit cost vs. **$400** voice actor + stock music license.
+### Langkah 2: Konfigurasikan Parameter Sintesis Suara
+Di ElevenLabs:
+* Setel **Stabilitas** ke `0.40 - 0.50` untuk modulasi suara yang ekspresif dan alami.
+* Setel **Kejelasan + Peningkatan Kesamaan** ke `0.80` untuk tampilan studio yang bersih.
+
+### Langkah 3: Campurkan Dialog & Batang Musik
+Pastikan musik latar dikecilkan **-14dB** di bawah trek narasi sulih suara selama pengeditan video.
 
 ---
 
-## Compare Tools
+## Contoh yang berhasil
 
-| Model / Platform | Primary Category | Strengths | Best For |
+**Saluran Produksi Audio untuk "Iklan Real Estat Komersial"**
+
+* **Suara:** ElevenLabs "Adam - Narator Perusahaan yang Mendalam" (Stabilitas `0.45`).
+* **Skor Latar Belakang:** Suno v3.5 Instrumental (`"Ambient corporate piano, warm uplifting strings, 110 bpm"`).
+* **Transkripsi:** Subtitel SRT OpenAI Whisper dibuat secara otomatis.
+* **Waktu Produksi:** Total 8 menit.
+* **Total Biaya Audio:** **$0,12** biaya kredit vs. **$400** pengisi suara + lisensi musik stok.
+
+---
+
+## Bandingkan Alat
+
+| Model/Platform | Kategori Utama | Kekuatan | Terbaik Untuk |
 |---|---|---|---|
-| **ElevenLabs** | Voice Synthesis & Cloning | Emotional dynamics, multi-speaker dialogue, voice cloning | Commercial voiceovers, audiobooks, podcasts |
-| **Suno v3.5** | Generative Music | Full song structure (Verses, Chorus), fast generation | Background music tracks, jingles, scores |
-| **Udio** | Generative Music | Superior fidelity and vocal mix control | High-fidelity music production & stems |
-| **Whisper (OpenAI)** | Speech-to-Text | 99%+ transcription accuracy across 50+ languages | Video subtitles, transcripts, closed captions |
+| **SebelasLabs** | Sintesis & Kloning Suara | Dinamika emosional, dialog multi-speaker, kloning suara | Sulih suara komersial, buku audio, podcast |
+| **Suno v3.5** | Musik Generatif | Struktur lagu lengkap (Verses, Chorus), generasi cepat | Trek musik latar, jingle, partitur |
+| **Udio** | Musik Generatif | Fidelitas unggul dan kontrol campuran vokal | Produksi & batang musik dengan ketelitian tinggi |
+| **Bisikan (OpenAI)** | Pidato-ke-Teks | Akurasi transkripsi 99%+ dalam 50+ bahasa | Subtitel video, transkrip, teks tertutup |
 
 ---
 
-## Launch It
+## Luncurkan
 
-* **Always Use Clean Reference Audio for Voice Cloning:** Provide at least 3 minutes of background-noise-free, 44.1kHz studio WAV audio when creating custom client voice clones.
-
----
-
-## Exercises
-
-1. **Easy:** Generate a 30-second commercial voiceover script using ElevenLabs.
-2. **Medium:** Create an instrumental background track using Suno v3.5 matching your voiceover tempo.
-3. **Hard:** Produce a complete audio mix (Voiceover + Music + Subtitles) for a 60-second video ad.
+* **Selalu Gunakan Audio Referensi yang Bersih untuk Kloning Suara:** Sediakan setidaknya 3 menit audio WAV studio bebas noise dan 44,1kHz saat membuat klon suara klien khusus.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Voice parameter setups, music prompt structures, and stem mixing checklists.
+1. **Mudah:** Buat skrip sulih suara komersial berdurasi 30 detik menggunakan ElevenLabs.
+2. **Medium:** Buat trek latar belakang instrumental menggunakan Suno v3.5 yang sesuai dengan tempo sulih suara Anda.
+3. **Sulit:** Menghasilkan campuran audio lengkap (Suara + Musik + Subtitle) untuk iklan video berdurasi 60 detik.
 
 ---
 
-[← Video Models](02-video-models-which-one-for-which-use-case.md) · Next: [API vs. Local: A Decision Framework →](04-api-vs-local-decision-framework.md)
+## Templat
+
+* [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Pengaturan parameter suara, struktur perintah musik, dan daftar periksa pencampuran batang.
+
+---
+
+[← Video Models](02-video-models-which-one-for-which-use-case.md) · Berikutnya: [API vs. Local: A Decision Framework →](04-api-vs-local-decision-framework.md)

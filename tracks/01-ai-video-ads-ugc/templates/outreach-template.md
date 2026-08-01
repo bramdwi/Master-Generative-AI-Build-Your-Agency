@@ -1,31 +1,31 @@
-# Outreach Template
+# Templat Penjangkauan
 
-From [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-selling-ugc.md). Leads with a finished, product-specific sample — never with an explanation of the AI process.
+Dari [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-selling-ugc.md). Memimpin dengan sampel akhir yang spesifik untuk produk — tidak pernah dengan penjelasan tentang proses AI.
 
-## Filled example
+## Contoh yang diisi
 
-> Subject: a UGC-style ad concept for TrailGear Co.
+> Subjek: konsep iklan bergaya UGC untuk TrailGear Co.
 >
-> Hi Sam — noticed TrailGear Co. is running paid social ads for the GripMount phone mount. I put together a quick AI-generated UGC-style ad using the same product — [link to sample ad] — thought it might be a useful new angle to test against your current creative.
+> Hai Sam — memperhatikan bahwa TrailGear Co. menjalankan iklan sosial berbayar untuk dudukan telepon GripMount. Saya membuat iklan cepat bergaya UGC yang dihasilkan AI menggunakan produk yang sama — [tautan ke contoh iklan] — menurut saya ini mungkin merupakan sudut pandang baru yang berguna untuk menguji materi iklan Anda saat ini.
 >
-> If it's a fit, I can turn around a full batch of variants (different hooks/angles) for testing, usually within 3 days.
+> Jika cocok, saya dapat memutar seluruh varian (kait/sudut berbeda) untuk pengujian, biasanya dalam 3 hari.
 >
-> Happy to share more examples if useful.
+> Senang berbagi lebih banyak contoh jika bermanfaat.
 >
 > — Jess
 
-Why this works: it names the actual brand and product (not "your company"), links a real finished sample instead of describing a capability, and the ask is small (look at one sample) rather than a big commitment.
+Mengapa ini berhasil: ini menyebutkan merek dan produk sebenarnya (bukan "perusahaan Anda"), menghubungkan sampel nyata yang sudah jadi alih-alih menjelaskan kemampuan, dan permintaannya kecil (lihat satu sampel) daripada komitmen besar.
 
-## Blank template
+## Templat kosong
 
-Subject: A quick ad concept for [Brand]
+Subjek: Konsep iklan singkat untuk [Merek]
 
-Hi [Name],
+Hai [Nama],
 
-I put together a quick AI-generated UGC-style ad for [Brand]'s [product] — thought it might be useful for testing a new angle. [Link/attachment]
+Saya membuat iklan cepat bergaya UGC yang dihasilkan AI untuk [produk] [Merek] — menurut saya ini mungkin berguna untuk menguji sudut pandang baru. [Tautan/lampiran]
 
-If it's a fit, I can produce a full batch of variants (different hooks/angles) for testing — turnaround is usually [X days].
+Jika cocok, saya dapat membuat varian penuh (kait/sudut berbeda) untuk pengujian — penyelesaiannya biasanya [X hari].
 
-Happy to share more examples if useful.
+Senang berbagi lebih banyak contoh jika bermanfaat.
 
-[Your name]
+[Namamu]

@@ -1,93 +1,93 @@
-# Character & Face Consistency
+# Konsistensi Karakter & Wajah
 
-> If your AI creator looks like a different person in every shot, nobody will pay for the ad.
+> Jika pembuat AI Anda terlihat seperti orang yang berbeda di setiap pengambilan gambar, tidak ada yang akan membayar untuk iklan tersebut.
 
-**Track:** AI Video Ads & UGC
-**Time:** ~40 minutes
-**Prerequisites:** How AI UGC Actually Works
+**Lagu:** Iklan Video AI & UGC
+**Waktu:** ~40 menit
+**Prasyarat:** Cara Kerja AI UGC Sebenarnya
 
-## The Problem
+## Masalahnya
 
-This is the single most common complaint from people trying AI-generated content: the same "character" comes out looking like a slightly different person in every generation — different face shape, different age, different outfit continuity. For a one-off image this doesn't matter. For a UGC ad campaign, a faceless channel host, or an AI influencer, it's disqualifying — viewers notice immediately, and clients will reject the work.
+Ini adalah satu-satunya keluhan paling umum dari orang-orang yang mencoba konten buatan AI: "karakter" yang sama terlihat seperti orang yang sedikit berbeda di setiap generasi — bentuk wajah berbeda, usia berbeda, kontinuitas pakaian berbeda. Untuk gambar satu kali, ini tidak masalah. Untuk kampanye iklan UGC, pembawa acara saluran tanpa wajah, atau influencer AI, hal ini didiskualifikasi — pemirsa akan langsung menyadarinya, dan klien akan menolak karya tersebut.
 
-Most tutorials skip this because it's the hardest part to explain simply, and it's exactly why this is its own module rather than a footnote.
+Kebanyakan tutorial melewatkan bagian ini karena ini adalah bagian tersulit untuk dijelaskan secara sederhana, dan itulah mengapa ini adalah modulnya sendiri dan bukan catatan kaki.
 
-## The Concept
+## Konsep
 
-Consistency comes from giving the model an "anchor" it can't drift away from, instead of re-describing the character in text every time. Three anchor types, from weakest to strongest:
+Konsistensi berasal dari pemberian "jangkar" pada model yang tidak dapat diabaikan, alih-alih mendeskripsikan ulang karakter dalam teks setiap saat. Tiga jenis jangkar, dari yang terlemah hingga terkuat:
 
-- **Prompt-only consistency** — describing the character in detail every time (hair, face, age, clothing). Weakest — text descriptions are ambiguous and the model fills gaps differently each generation.
-- **Reference-image consistency** — feeding a reference photo of the character alongside the prompt, so the model conditions on the actual face, not just a text description. Much stronger, and the easiest to use with API-based models.
-- **Fine-tuned/locked identity (LoRA or equivalent)** — training a small adapter on multiple photos of the same character so the model can reproduce that exact identity from any prompt. Strongest and most portable across scenes, but requires more setup (usually a local/self-hosted step, not a single API call).
+- **Konsistensi hanya sesaat** — mendeskripsikan karakter secara detail setiap saat (rambut, wajah, usia, pakaian). Terlemah — deskripsi teks bersifat ambigu dan model mengisi kesenjangan secara berbeda di setiap generasi.
+- **Konsistensi gambar referensi** — memasukkan foto referensi karakter di samping perintah, sehingga model mengkondisikan wajah sebenarnya, bukan hanya deskripsi teks. Jauh lebih kuat, dan paling mudah digunakan dengan model berbasis API.
+- **Identitas yang disempurnakan/dikunci (LoRA atau yang setara)** — melatih adaptor kecil pada beberapa foto dengan karakter yang sama sehingga model dapat mereproduksi identitas persis tersebut dari perintah apa pun. Paling kuat dan paling portabel di seluruh adegan, tetapi memerlukan lebih banyak penyiapan (biasanya langkah lokal/yang dihosting sendiri, bukan satu panggilan API).
 
-A fixed **seed** (the random-number starting point for generation) also helps within a single session, but seed-locking alone doesn't survive across different prompts or sessions the way a reference image or trained identity does — treat seed-locking as a helper, not the main mechanism.
+**seed** yang tetap (titik awal angka acak untuk pembuatan) juga membantu dalam satu sesi, namun seed-locking saja tidak dapat bertahan di berbagai perintah atau sesi seperti yang dilakukan gambar referensi atau identitas terlatih — perlakukan seed-locking sebagai pembantu, bukan mekanisme utama.
 
-## Do It
+## Lakukan itu
 
-1. **Pick or generate your anchor character** — either an AI-generated "founder" image or a stand-in reference photo, at high resolution, front-facing, neutral lighting.
-2. **Use reference-image conditioning** for every subsequent generation of that character — pass the anchor image alongside each new prompt (different outfit, pose, background) rather than re-describing the person in text.
-3. **Check for drift** — generate 3-5 variations and compare: same facial structure, same apparent age, consistent identifying features (freckles, specific hairstyle). If it's drifting, tighten the prompt to describe only what should change (outfit, background) and rely on the reference image for everything about the face.
-4. **For heavy repeat use** (a recurring ad character, an influencer, a channel host), consider training a dedicated identity model (LoRA-style) — one-time setup cost, then near-perfect consistency across unlimited future generations.
+1. **Pilih atau buat karakter utama Anda** — baik gambar "pendiri" yang dibuat oleh AI atau foto referensi stand-in, dengan resolusi tinggi, menghadap ke depan, dan pencahayaan netral.
+2. **Gunakan pengkondisian gambar referensi** untuk setiap generasi berikutnya dari karakter tersebut — berikan gambar jangkar di samping setiap perintah baru (pakaian, pose, latar belakang yang berbeda) daripada mendeskripsikan ulang orang tersebut dalam teks.
+3. **Periksa penyimpangan** — buat 3-5 variasi dan bandingkan: struktur wajah yang sama, usia yang sama, ciri pengenal yang konsisten (bintik-bintik, gaya rambut tertentu). Jika melayang, kencangkan perintah untuk menjelaskan hanya apa yang harus diubah (pakaian, latar belakang) dan andalkan gambar referensi untuk segala hal tentang wajah.
+4. **Untuk penggunaan yang berulang-ulang** (karakter iklan berulang, influencer, host saluran), pertimbangkan untuk melatih model identitas khusus (gaya LoRA) — biaya penyiapan satu kali, kemudian konsistensi yang hampir sempurna di seluruh generasi mendatang tanpa batas.
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/character-anchor.jpg" alt="Master Profile" width="220">
-<img src="templates/examples/character-drift-car.jpg" alt="Consistent Render" width="220">
-<img src="templates/examples/gripmount-hook-clip.gif" alt="Consistent Character Motion (I2V)" width="220">
+<img src="templates/examples/character-anchor.jpg" alt="Profil Utama" width="220">
+<img src="templates/examples/character-drift-car.jpg" alt="Render Konsisten" width="220">
+<img src="templates/examples/gripmount-hook-clip.gif" alt="Gerakan Karakter Konsisten (I2V)" width="220">
 </p>
 <p align="center"><sub>Master Character (Left) ──► Car Interior Render (Center) ──► Image-to-Video Motion (Right) · <a href="templates/examples/gripmount-hook-clip.mp4">MP4</a></sub></p>
 
-Say you generated an anchor image for a recurring "creator" — a woman in her late-20s, front-facing, neutral lighting, brown hair, freckles across her nose — to front your GripMount ads (Module 1) across a whole batch.
+Katakanlah Anda membuat gambar jangkar untuk "kreator" berulang — seorang wanita berusia akhir 20-an, menghadap ke depan, pencahayaan netral, rambut cokelat, bintik-bintik di hidungnya — untuk menampilkan iklan GripMount Anda (Modul 1) di seluruh batch.
 
 
 
-**Without a reference image (prompt-only):** re-typing "woman, late 20s, brown hair, freckles" for each new shot produces a *different* woman each time — same rough description, but the model fills in face shape, exact hair length, and freckle placement differently every generation. Across 5 shots you'd likely get 5 recognizably different people.
+**Tanpa gambar referensi (hanya konfirmasi):** mengetik ulang "wanita, akhir 20-an, rambut cokelat, bintik-bintik" untuk setiap foto baru akan menghasilkan wanita yang *berbeda* setiap kali — deskripsi kasar yang sama, tetapi model mengisi bentuk wajah, panjang rambut yang tepat, dan penempatan bintik yang berbeda setiap generasi. Dari 5 pengambilan gambar, Anda mungkin akan mendapatkan 5 orang yang sangat berbeda.
 
-**With reference-image conditioning:** pass the anchor image alongside each new prompt ("same woman, now in a car, holding a phone" — describing only what changes). Face shape, freckles, and apparent age stay locked because the model is conditioning on the actual image, not re-guessing from text. This is the default that would work for a one-off GripMount client ad.
+**Dengan pengkondisian gambar referensi:** meneruskan gambar jangkar di samping setiap perintah baru ("wanita yang sama, sekarang di dalam mobil, memegang telepon" — hanya menjelaskan perubahan apa saja). Bentuk wajah, bintik-bintik, dan usia yang terlihat tetap terkunci karena model mengkondisikan gambar sebenarnya, bukan menebak ulang dari teks. Ini adalah setelan default yang berfungsi untuk iklan klien GripMount satu kali.
 
-**Drift-check, actually run** — the anchor woman generated in 3 real settings (car interior, kitchen counter, walking outside), using the anchor image as a reference input to an *edit*-capable image model rather than a plain text prompt:
+**Drift-check, sebenarnya dijalankan** — wanita jangkar yang dihasilkan dalam 3 pengaturan nyata (interior mobil, meja dapur, berjalan di luar), menggunakan gambar jangkar sebagai input referensi ke model gambar berkemampuan *edit* dan bukan perintah teks biasa:
 
 
 
-**What actually happened:** no meaningful drift across any of the 3 — face shape, freckle pattern, and hair all hold up even in the outdoor shot with completely different lighting than the anchor. This is the real result of reference-image conditioning done right: pass the anchor image as an *edit* input (not just describe the character in a fresh text prompt) and let the prompt describe only the setting. If you *do* see drift in your own attempts — a rounder jaw, vanished freckles, a different apparent age — it's usually because the prompt re-described facial features instead of only the surroundings, or the reference image wasn't actually passed to an edit-capable endpoint.
+**Apa yang sebenarnya terjadi:** tidak ada perubahan berarti pada ketiganya — bentuk wajah, pola bintik, dan rambut, semuanya bertahan bahkan dalam pengambilan gambar di luar ruangan dengan pencahayaan yang sangat berbeda dari jangkar. Ini adalah hasil nyata dari pengkondisian gambar referensi yang dilakukan dengan benar: teruskan gambar jangkar sebagai input *edit* (tidak hanya mendeskripsikan karakter dalam prompt teks baru) dan biarkan prompt hanya menjelaskan pengaturannya. Jika Anda *benar-benar* melihat penyimpangan dalam upaya Anda sendiri — rahang yang lebih bulat, bintik-bintik yang hilang, usia yang terlihat berbeda — biasanya hal ini terjadi karena perintah tersebut mendeskripsikan ulang fitur wajah, bukan hanya lingkungan sekitar, atau gambar referensi tidak benar-benar diteruskan ke titik akhir yang dapat diedit.
 
-**When it's worth training a LoRA instead:** if this same "creator" is going to front dozens of ads over months (not just one GripMount batch), a one-time LoRA training pass on 15-20 photos of her locks the identity in even more tightly and removes any per-shot risk at all — worth the setup once reuse, not one-off work, is the plan.
+**Ketika layak untuk melatih LoRA:** jika "kreator" yang sama ini akan menampilkan puluhan iklan selama berbulan-bulan (bukan hanya satu batch GripMount), satu kali pelatihan LoRA yang berisi 15-20 foto dirinya akan mengunci identitas lebih rapat dan menghilangkan risiko per pengambilan gambar sama sekali — sesuai dengan penyiapan setelah digunakan kembali, bukan pekerjaan satu kali, adalah rencananya.
 
-*How the 3 shots above were produced:* uploaded the anchor image once via muapi's `upload_file`, then made 3 separate calls to **`nano-banana-2-edit`** ($0.06/image), passing that same uploaded image as the reference (`images_list`) each time with a prompt describing only the new setting ("same woman as in the reference image, now sitting in a car...") — never re-describing the face itself. Other reference-conditioned edit models that work the same way: `nano-banana-pro-edit`, `gpt-image-2-image-to-image`.
+*Cara menghasilkan 3 gambar di atas:* mengunggah gambar jangkar satu kali melalui `upload_file` muapi, lalu melakukan 3 panggilan terpisah ke **`nano-banana-2-edit`** ($0,06/gambar), meneruskan gambar yang diunggah yang sama sebagai referensi (`images_list`) setiap kali dengan perintah yang hanya menjelaskan latar baru ("wanita yang sama seperti pada gambar referensi, sekarang duduk di dalam mobil...") — tidak pernah mendeskripsikan ulang wajah itu sendiri. Model edit bersyarat referensi lainnya yang bekerja dengan cara yang sama: `nano-banana-pro-edit`, `gpt-image-2-image-to-image`.
 
-## Compare Tools
+## Bandingkan Alat
 
-For the reference-image step itself, current-generation image models (e.g. Nano Banana 2/Pro, Seedream) hold facial identity noticeably better across prompt changes than older-generation image models — the anchor portrait used in the Worked Example above came from one of these. Model quality matters more here than almost anywhere else in the pipeline, since this whole module exists to fight identity drift.
+Untuk langkah gambar referensi itu sendiri, model gambar generasi saat ini (misalnya Nano Banana 2/Pro, Seedream) memiliki identitas wajah yang jauh lebih baik dalam perubahan cepat dibandingkan model gambar generasi lama — potret jangkar yang digunakan dalam Contoh yang Dikerjakan di atas berasal dari salah satunya. Kualitas model lebih penting di sini dibandingkan di tempat lain, karena seluruh modul ini ada untuk melawan penyimpangan identitas.
 
-| Path | Consistency strength | Setup effort | Best for |
+| Jalur | Kekuatan konsistensi | Upaya pengaturan | Terbaik untuk |
 |---|---|---|---|
-| **muapi API, reference-image conditioning** | Good — strong resemblance across generations | Low — pass a reference image param | Most UGC/ad work; fastest path to "good enough" |
-| **Other paid tools with built-in "character" features** | Varies — some wrap reference-image conditioning behind a simpler UI | Low | Teams wanting a GUI over the same underlying technique |
-| **Local (ComfyUI + trained LoRA, or LTX 2.3 for the video side)** | Strongest — near-identical identity across any prompt/scene | High — needs a training pass on multiple reference photos, then a workflow to use it | A recurring character used across dozens/hundreds of generations (an influencer, a channel host) where the training cost pays for itself |
+| **muapi API, pengondisian gambar referensi** | Bagus — kemiripan yang kuat antar generasi | Rendah — meneruskan parameter gambar referensi | Sebagian besar UGC/iklan berfungsi; jalur tercepat menuju "cukup baik" |
+| **Alat berbayar lainnya dengan fitur "karakter" bawaan** | Bervariasi - beberapa membungkus pengkondisian gambar referensi di belakang UI yang lebih sederhana | Rendah | Tim menginginkan GUI dengan teknik dasar yang sama |
+| **Lokal (ComfyUI + LoRA terlatih, atau LTX 2.3 untuk sisi video)** | Terkuat — identitas yang hampir identik di semua prompt/adegan | Tinggi — memerlukan izin pelatihan pada beberapa foto referensi, lalu alur kerja untuk menggunakannya | Karakter berulang yang digunakan selama puluhan/ratusan generasi (seorang influencer, pembawa acara saluran) yang biaya pelatihannya terbayar sendiri |
 
-Be honest with yourself about how many times you'll reuse this character. Reference-image conditioning via API is the right default for a one-off client ad. A trained local identity is worth the extra setup only once you're generating the same character repeatedly.
+Jujurlah pada diri sendiri tentang berapa kali Anda akan menggunakan kembali karakter ini. Pengkondisian gambar referensi melalui API adalah default yang tepat untuk iklan klien satu kali. Identitas lokal yang terlatih layak untuk disiapkan ekstra hanya setelah Anda membuat karakter yang sama berulang kali.
 
-## Launch It
+## Luncurkan
 
-**How to price it:** Consistency work isn't billed separately — it's what makes the deliverable usable at all, so it's baked into your ad or content pricing (see Module 4). What you *can* upsell is a **"branded AI character" package** — designing and locking a consistent identity a client can reuse across all future content, priced as a one-time setup fee ($200-$500) plus per-piece production after.
+**Cara menentukan harga:** Pekerjaan konsistensi tidak ditagih secara terpisah — hal inilah yang membuat hasil yang dapat digunakan, sehingga dimasukkan ke dalam harga iklan atau konten Anda (lihat Modul 4). Yang *dapat* Anda jual adalah **paket "karakter AI bermerek"** — merancang dan mengunci identitas konsisten yang dapat digunakan kembali oleh klien di semua konten di masa mendatang, dengan biaya penyiapan satu kali ($200-$500) ditambah produksi per potong setelahnya.
 
-**How to position it:** Frame it as "your reusable AI spokesperson," not "an AI-generated photo." Clients pay more for something they can reuse across campaigns than for a single image.
+**Cara memosisikannya:** Bingkai foto sebagai "juru bicara AI Anda yang dapat digunakan kembali", bukan "foto buatan AI". Klien membayar lebih untuk sesuatu yang dapat mereka gunakan kembali di seluruh kampanye dibandingkan untuk satu gambar.
 
-**Where this shows up:** Every track in this curriculum depends on this module — an AI influencer, a faceless channel's "host," and a UGC ad character are all the same underlying consistency problem applied to a different business model.
+**Di mana hal ini muncul:** Setiap jalur dalam kurikulum ini bergantung pada modul ini — influencer AI, "host" saluran tanpa wajah, dan karakter iklan UGC semuanya merupakan masalah konsistensi mendasar yang sama yang diterapkan pada model bisnis yang berbeda.
 
-## Exercises
+## Latihan
 
-1. **Easy:** Generate the same character in 3 different outfits using reference-image conditioning; check for facial drift across them.
-2. **Medium:** Generate the same character in 5 different scenes/backgrounds and identify which details drift first (usually: age, specific facial proportions, hairstyle).
-3. **Hard:** Set up a local ComfyUI workflow with a trained identity for one character and compare consistency against the API reference-image approach for the same 5 scenes.
+1. **Mudah:** Hasilkan karakter yang sama dalam 3 pakaian berbeda menggunakan pengondisian gambar referensi; periksa penyimpangan wajah di atasnya.
+2. **Sedang:** Hasilkan karakter yang sama dalam 5 adegan/latar belakang berbeda dan identifikasi detail mana yang pertama kali muncul (biasanya: usia, proporsi wajah tertentu, gaya rambut).
+3. **Sulit:** Siapkan alur kerja ComfyUI lokal dengan identitas terlatih untuk satu karakter dan bandingkan konsistensi dengan pendekatan gambar referensi API untuk 5 adegan yang sama.
 
-## Templates
+## Templat
 
-Reusable template(s) this module produces — fill these in and reuse them on real work:
+Templat yang dapat digunakan kembali yang dihasilkan modul ini — isi templat ini dan gunakan kembali pada pekerjaan nyata:
 
-- [`templates/character-consistency-checklist.md`](templates/character-consistency-checklist.md) — what to check for drift before delivering a batch to a client.
+- [`templates/character-consistency-checklist.md`](templates/character-consistency-checklist.md) — apa yang harus diperiksa penyimpangannya sebelum mengirimkan batch ke klien.
 
 ---
 
-[← Previous: How AI UGC Actually Works](01-how-ugc-works.md) · [Track overview](README.md) · Next: [Building a 10-Ad Batch →](03-building-an-ad-batch.md)
+[← Previous: How AI UGC Actually Works](01-how-ugc-works.md) · [Track overview](README.md) · Berikutnya: [Building a 10-Ad Batch →](03-building-an-ad-batch.md)

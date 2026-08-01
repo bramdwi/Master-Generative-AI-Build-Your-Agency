@@ -1,78 +1,78 @@
-# Screenplay & Story Generation
+# Skenario & Pembuatan Cerita
 
-> A good script is cheap; a good story that can actually be filmed by AI is rare.
+> Naskah yang bagus itu murah; jarang ada cerita bagus yang benar-benar bisa difilmkan oleh AI.
 
-**Track:** AI Filmmaking  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lagu:** Pembuatan Film AI
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Traditional screenplays are written for human actors and camera crews. A standard script might describe "a crowded café with dozens of patrons chatting, as the protagonist slams their coffee cup down in anger, causing coffee to spill onto a passing waiter's uniform." 
+Skenario tradisional ditulis untuk aktor manusia dan kru kamera. Naskah standar mungkin menggambarkan "sebuah kafe yang ramai dengan lusinan pelanggan mengobrol, saat tokoh protagonis membanting cangkir kopi mereka karena marah, menyebabkan kopi tumpah ke seragam pelayan yang lewat."
 
-If you feed a scene like this into a generative AI video model, the rendering will fail completely. The patrons' faces will morph, the physical interaction of spilling coffee on a waiter will look like a surreal glitch, and keeping the protagonist looking like the same person across shots will be impossible.
+Jika Anda memasukkan adegan seperti ini ke dalam model video AI generatif, rendering akan gagal total. Wajah pengunjung akan berubah, interaksi fisik menumpahkan kopi ke pelayan akan terlihat seperti kesalahan nyata, dan membuat protagonis terlihat seperti orang yang sama dalam pengambilan gambar adalah hal yang mustahil.
 
-Most aspiring AI filmmakers start by writing a standard story, only to waste hundreds of generation credits trying to force an AI model to render complex physics, crowds, or constant location shifts. Designing your screenplay with **AI-first constraints** from day one is the difference between a completed film and a folder of discarded, glitchy clips.
+Kebanyakan pembuat film AI yang bercita-cita tinggi memulai dengan menulis cerita standar, hanya untuk menyia-nyiakan ratusan kredit generasi untuk mencoba memaksakan model AI untuk merender fisika kompleks, kerumunan, atau perpindahan lokasi yang konstan. Mendesain skenario Anda dengan **batasan yang mengutamakan AI** sejak hari pertama adalah perbedaan antara film yang sudah selesai dan sekumpulan klip yang dibuang dan bermasalah.
 
-## The Concept
+## Konsep
 
-AI-first screenwriting is the process of drafting stories designed specifically around the limitations and strengths of generative models. 
+Penulisan skenario yang mengutamakan AI adalah proses penyusunan cerita yang dirancang khusus berdasarkan keterbatasan dan kekuatan model generatif.
 
-### Core Constraints of Generative Video Models:
-* **The Physics Gap:** AI models struggle with complex object interaction (e.g., tying shoes, pouring liquids, buttoning a shirt, eating food). 
-* **The Crowd Dilemma:** Any scene with more than two characters in frame dramatically increases visual morphing and reduces identity consistency.
-* **Continuous Action Limits:** Most models generate clips in 4–5 second increments. Long, continuous single-take action scenes are not yet feasible.
+### Kendala Inti Model Video Generatif:
+* **Kesenjangan Fisika:** Model AI kesulitan menghadapi interaksi objek yang kompleks (misalnya, mengikat sepatu, menuangkan cairan, mengancingkan baju, memakan makanan).
+* **Dilema Kerumunan:** Adegan apa pun dengan lebih dari dua karakter dalam bingkai secara dramatis meningkatkan perubahan visual dan mengurangi konsistensi identitas.
+* **Batas Tindakan Berkelanjutan:** Sebagian besar model menghasilkan klip dalam kelipatan 4–5 detik. Adegan aksi pengambilan tunggal yang panjang dan terus-menerus belum dapat dilakukan.
 
-To design around these constraints, we write scripts that focus on **static character postures, environmental moods, atmospheric lighting, and high-impact dialogue/voiceover** rather than complex physical action.
+Untuk mengatasi kendala ini, kami menulis skrip yang berfokus pada **postur karakter statis, suasana lingkungan, pencahayaan atmosfer, dan dialog/sulih suara berdampak tinggi** daripada tindakan fisik yang kompleks.
 
 ```
 Story Outline → Constraint Check → Visual Script Formatting → Prompts Generation
 ```
 
-Instead of describing physical struggle, describe the *emotional reaction* shown on a character's face or the *mood* of the setting, which AI video generators render beautifully.
+Daripada menggambarkan perjuangan fisik, jelaskan *reaksi emosional* yang ditunjukkan pada wajah karakter atau *suasana hati* latar, yang ditampilkan dengan indah oleh generator video AI.
 
-## Do It
+## Lakukan itu
 
-### Step 1: Define the Production Constraints
-Before writing a single word of your script, fill out the project constraints in your brief. Choose:
-* **Max 1–2 characters** to maintain facial consistency.
-* **Max 2 locations** (e.g., a quiet office, a dimly lit street).
-* **Atmospheric focus:** Decide on the visual theme (e.g., neon cyberpunk, dusty retro-future, noir daylight) to anchor prompt styling.
+### Langkah 1: Tentukan Kendala Produksi
+Sebelum menulis satu kata pun dari naskah Anda, isi batasan proyek dalam ringkasan Anda. Memilih:
+* **Maks 1–2 karakter** untuk menjaga konsistensi wajah.
+* **Maksimal 2 lokasi** (misalnya, kantor yang sepi, jalan yang remang-remang).
+* **Fokus atmosfer:** Tentukan tema visual (misalnya neon cyberpunk, masa depan retro yang berdebu, siang hari noir) untuk menonjolkan gaya yang tepat.
 
-### Step 2: Write the Screenplay with Visual Anchor Prompts
-Format your screenplay using a layout that integrates standard screenwriting format with image/video prompt anchors. 
-* Break the script into individual, discrete shots (each lasting 3-4 seconds).
-* For each shot, write a clear **visual action description** that details the character's facial expression or slow movement.
-* Keep dialogue brief (under 15 words per shot) so that TTS models can read it naturally without rushing.
+### Langkah 2: Tulis Skenario dengan Visual Anchor Prompts
+Format skenario Anda menggunakan tata letak yang mengintegrasikan format penulisan skenario standar dengan jangkar perintah gambar/video.
+* Pecahkan naskah menjadi beberapa gambar terpisah (masing-masing berdurasi 3-4 detik).
+* Untuk setiap pengambilan gambar, tulis **deskripsi aksi visual** yang jelas yang merinci ekspresi wajah atau gerakan lambat karakter.
+* Jaga agar dialog tetap singkat (di bawah 15 kata per pengambilan gambar) sehingga model TTS dapat membacanya secara alami tanpa terburu-buru.
 
-### Step 3: LLM Script Generation
-Use a text LLM (like Claude or Gemini) to brainstorm and refine the script. Use a system prompt that forces the AI to respect physical limitations:
-> *System Prompt:* "You are an AI-first screenwriter. Write a 60-second sci-fi script. Only 1 character. Set entirely in a single room. Avoid any physical object interactions. Focus on facial expressions, slow camera tracking shots, and voiceover dialogue. For every scene, output a detailed visual prompt describing camera movement, framing, character appearance, and lighting."
+### Langkah 3: Pembuatan Skrip LLM
+Gunakan teks LLM (seperti Claude atau Gemini) untuk bertukar pikiran dan menyempurnakan skrip. Gunakan perintah sistem yang memaksa AI untuk menghormati batasan fisik:
+> *Permintaan Sistem:* "Anda adalah penulis skenario yang mengutamakan AI. Tulis skrip fiksi ilmiah berdurasi 60 detik. Hanya 1 karakter. Seluruhnya berada dalam satu ruangan. Hindari interaksi objek fisik apa pun. Fokus pada ekspresi wajah, pengambilan gambar pelacakan kamera lambat, dan dialog sulih suara. Untuk setiap adegan, keluarkan perintah visual mendetail yang menjelaskan pergerakan kamera, pembingkaian, tampilan karakter, dan pencahayaan."
 
-### Step 4: Prune the Actions
-Review the script line by line. If a line says "He stands up, walks to the shelf, grabs a book, opens it, and smiles," prune it. Replace it with: "He sits at the desk, looking at the shelf. [Camera pushes in on his face, showing curiosity]." This is highly renderable.
+### Langkah 4: Pangkas Tindakan
+Tinjau skrip baris demi baris. Jika ada baris yang bertuliskan "Dia berdiri, berjalan ke rak, mengambil buku, membukanya, dan tersenyum", pangkaslah baris tersebut. Gantikan dengan: "Dia duduk di depan meja, melihat ke rak. [Kamera mendekatkan wajahnya, menunjukkan rasa ingin tahu]." Ini sangat mudah dirender.
 
-### Step 5: Save Character & Style Anchors
-Create a style sheet with your prompt prefixes (lighting, film stock, aspect ratio) so they can be copy-pasted into every image generator.
+### Langkah 5: Simpan Jangkar Karakter & Gaya
+Buat style sheet dengan awalan cepat Anda (pencahayaan, stok film, rasio aspek) sehingga dapat disalin dan ditempel ke setiap generator gambar.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/astronaut-anchor.jpg" alt="Hero Portrait for The Last Signal: Astronaut in flight suit" width="320">
-<img src="templates/examples/astronaut-intro-clip.gif" alt="Hero Character Motion Clip (I2V)" width="320">
+<img src="templates/examples/astronaut-anchor.jpg" alt="Potret Pahlawan untuk Sinyal Terakhir: Astronot dalam setelan penerbangan" width="320">
+<img src="templates/examples/astronaut-intro-clip.gif" alt="Klip Gerakan Karakter Pahlawan (I2V)" width="320">
 </p>
 <p align="center"><sub>AI Hero Character Anchor Image (Left) ──► Image-to-Video Animation (Right) · Video File: <a href="templates/examples/astronaut-intro-clip.mp4">templates/examples/astronaut-intro-clip.mp4</a></sub></p>
 
-**Film Brief: "The Last Signal"**
-* **Character:** John (40s), a tired astronaut.
-* **Location:** Spaceship communication deck.
-* **Vibe:** Cinematic sci-fi, moody blue lighting.
+**Ringkasan Film: "Sinyal Terakhir"**
+* **Karakter:** John (40an), astronot yang lelah.
+* **Lokasi:** Dek komunikasi pesawat luar angkasa.
+* **Suasana:** Fiksi ilmiah sinematik, pencahayaan biru suram.
 
 
 
-**Script Excerpt & Prompts:**
+**Kutipan & Perintah Skrip:**
 
 ```markdown
 SCENE 1: INTERIOR SPACE CABIN - NIGHT
@@ -86,63 +86,63 @@ VIDEO PROMPT (Shot 1.1):
 "Medium close-up of a tired astronaut (40s, short gray hair, stubble, wearing a worn silver flight suit) sitting in a spaceship cockpit. Glowing green instrument panels are out of focus in the background. Cool blue light illuminates his face. Static shot, high quality cinematic, Arri Alexa, film grain."
 ```
 
-**Why this script works:**
-1. **Low-action:** The character is sitting down. The movement is limited to "looking up," which video models interpolate smoothly.
-2. **Atmospheric lighting:** The cool blue light and glowing green panels give the video generator clear lighting keys to follow, creating consistency.
-3. **Voiceover-driven:** The dialogue is a voiceover (V.O.), which means you do not need perfect lip-syncing for this shot, eliminating uncanny valley mouth movements.
+**Mengapa skrip ini berfungsi:**
+1. **Aksi rendah:** Karakter sedang duduk. Pergerakannya terbatas pada "melihat ke atas", yang mana model video dapat diinterpolasi dengan lancar.
+2. **Pencahayaan atmosfer:** Cahaya biru yang sejuk dan panel hijau yang bersinar memberi generator video tombol pencahayaan yang jelas untuk diikuti, sehingga menciptakan konsistensi.
+3. **Didorong oleh sulih suara:** Dialognya adalah sulih suara (V.O.), yang berarti Anda tidak memerlukan sinkronisasi bibir yang sempurna untuk pengambilan gambar ini, sehingga menghilangkan gerakan mulut lembah yang luar biasa.
 
-**The clip below is real, not a mockup** — the anchor image generated via `nano-banana-2` and animated into a short cinematic clip using `seedance-2-image-to-video-fast` from the script excerpt above, so you can see what a first-pass output actually looks like:
+**Klip di bawah ini nyata, bukan mockup** — gambar jangkar dihasilkan melalui `nano-banana-2` dan dianimasikan menjadi klip sinematik pendek menggunakan `seedance-2-image-to-video-fast` dari kutipan skrip di atas, sehingga Anda dapat melihat seperti apa keluaran first-pass sebenarnya:
 
 
 
 <p align="center"><i>An unedited first pass — character features, clothing, and background are held perfectly consistent from the starting storyboard frame because of first-frame conditioning.</i></p>
 
-*How this was actually produced, end to end, via the muapi API:*
-1. Generated the anchor portrait with **`nano-banana-2`** (text-to-image, $0.06/image) using the visual prompt above with widescreen aspect ratio.
-2. Uploaded that image via muapi's `upload_file` endpoint to get a URL.
-3. Fed that image URL into **`seedance-2-image-to-video-fast`** (image-to-video, $0.50/clip) on the `images_list` param with a prompt describing the camera movement.
-4. Downloaded the resulting `.mp4` and converted it to the silent GIF preview above using `ffmpeg`.
+*Bagaimana ini sebenarnya diproduksi, secara end to end, melalui muapi API:*
+1. Menghasilkan potret jangkar dengan **`nano-banana-2`** (teks-ke-gambar, $0,06/gambar) menggunakan perintah visual di atas dengan rasio aspek layar lebar.
+2. Mengunggah gambar itu melalui titik akhir `upload_file` muapi untuk mendapatkan URL.
+3. Masukkan URL gambar tersebut ke **`seedance-2-image-to-video-fast`** (gambar-ke-video, $0,50/klip) pada parameter `images_list` dengan perintah yang menjelaskan pergerakan kamera.
+4. Mengunduh `.mp4` yang dihasilkan dan mengonversinya menjadi pratinjau GIF senyap di atas menggunakan `ffmpeg`.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| LLM / Tool | Screenwriting Capabilities | Best For |
+| LLM / Alat | Kemampuan Penulisan Skenario | Terbaik Untuk |
 |---|---|---|
-| **Claude 3.5 Sonnet / Gemini 1.5 Pro** | Excellent at following complex structural constraints and outputting formatted Markdown prompts. | Overall script writing and prompt creation. |
-| **Specialized Screenplay AI tools** | Provide standard script formats (Celtx/Final Draft styles) but are often too rigid and lack built-in prompt-generation logic. | Standard film workflows, less optimized for AI generation workflows. |
-| **ChatGPT Plus (GPT-4o)** | Good creative writing capabilities but requires heavy prompting to avoid cliché screenwriting tropes. | Brainstorming and quick dialogue variants. |
+| **Claude 3.5 Soneta / Gemini 1.5 Pro** | Sangat baik dalam mengikuti batasan struktural yang kompleks dan menghasilkan perintah penurunan harga yang diformat. | Penulisan skrip secara keseluruhan dan pembuatan cepat. |
+| **Alat AI Skenario Khusus** | Menyediakan format skrip standar (gaya Celtx/Draf Akhir) tetapi sering kali terlalu kaku dan tidak memiliki logika pembuatan cepat bawaan. | Alur kerja film standar, kurang dioptimalkan untuk alur kerja generasi AI. |
+| **ObrolanGPT Plus (GPT-4o)** | Kemampuan menulis kreatif yang baik tetapi membutuhkan dorongan yang kuat untuk menghindari kiasan penulisan skenario yang klise. | Varian brainstorming dan dialog cepat. |
 
-The best path is utilizing general-purpose frontier LLMs (Gemini/Claude) with structured system prompts, as they allow you to modify prompt formatting on the fly and integrate camera commands directly into the script markdown.
-
----
-
-## Launch It
-
-**How to monetize this skill:**
-* **Screenplay & Brief Packages:** Sell pre-production visual scripts and film briefs to other creators or agencies looking to produce AI videos. A fully formatted script complete with storyboard prompt keys sells for **$50–$150** for a 1-minute video.
-* **Pre-Production Adaptation:** Offer adaptation services for existing standard scripts. Take a client's traditional short film script and rewrite it into an "AI-optimised format" to save them thousands of wasted credits during production. Price this at **$200–$500** per project.
-
-**Where to find clients:**
-AI creator forums, Discord servers (Runway, Midjourney, muapi), and freelance sites (Fiverr/Upwork) under "Pre-Production Consultant" or "AI Scriptwriter."
+Jalur terbaik adalah memanfaatkan LLM perbatasan tujuan umum (Gemini/Claude) dengan perintah sistem terstruktur, karena memungkinkan Anda mengubah format cepat dengan cepat dan mengintegrasikan perintah kamera langsung ke dalam penurunan harga skrip.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Take a standard 1-page movie script and rewrite it under AI-first constraints (limit to 1 location, 1 character, and zero hand-object physical interactions).
-2. **Medium:** Write a 60-second thriller script using the integrated formatting: divide into 5 shots, writing scene descriptions, voiceover lines, and the exact visual prompt for each shot.
-3. **Hard:** Use a text LLM to generate three visual prompt options for a single scene, varying only the camera lens (e.g., 85mm portrait, 24mm wide angle, anamorphic) and explain how this shifts the story mood.
+**Cara memonetisasi keterampilan ini:**
+* **Paket Skenario & Singkat:** Jual skrip visual praproduksi dan ringkasan film kepada pembuat atau agensi lain yang ingin memproduksi video AI. Skrip yang diformat sepenuhnya lengkap dengan tombol prompt storyboard dijual seharga **$50–$150** untuk video berdurasi 1 menit.
+* **Adaptasi Pra-Produksi:** Menawarkan layanan adaptasi untuk skrip standar yang ada. Ambil naskah film pendek tradisional klien dan tulis ulang ke dalam "format yang dioptimalkan AI" untuk menghemat ribuan kredit yang terbuang selama produksi. Hargai ini dengan harga **$200–$500** per proyek.
 
----
-
-## Templates
-
-Reusable template(s) this module produces — fill these in and reuse them on real work:
-
-* [`templates/screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) — the screenplay format designed specifically to generate image/video prompts.
-* [`templates/ai-film-brief.md`](templates/ai-film-brief.md) — a project-starter brief to lock visual aesthetics and constraints.
+**Di mana menemukan klien:**
+Forum pembuat AI, server Discord (Runway, Midjourney, muapi), dan situs freelance (Fiverr/Upwork) di bawah "Konsultan Pra-Produksi" atau "Penulis Naskah AI".
 
 ---
 
-[← Track overview](README.md) · Next: [Storyboarding & Shot Planning →](02-storyboarding-and-shots.md)
+## Latihan
+
+1. **Mudah:** Ambil skrip film standar 1 halaman dan tulis ulang di bawah batasan yang mengutamakan AI (dibatasi hingga 1 lokasi, 1 karakter, dan tidak ada interaksi fisik objek tangan).
+2. **Medium:** Tulis naskah thriller berdurasi 60 detik menggunakan format terintegrasi: bagi menjadi 5 pengambilan gambar, tulis deskripsi adegan, baris sulih suara, dan perintah visual yang tepat untuk setiap pengambilan gambar.
+3. **Sulit:** Gunakan LLM teks untuk menghasilkan tiga opsi perintah visual untuk satu adegan, yang hanya memvariasikan lensa kamera (misalnya, potret 85 mm, sudut lebar 24 mm, anamorfik) dan jelaskan bagaimana hal ini mengubah suasana cerita.
+
+---
+
+## Templat
+
+Templat yang dapat digunakan kembali yang dihasilkan modul ini — isi templat ini dan gunakan kembali pada pekerjaan nyata:
+
+* [`templates/screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) — format skenario yang dirancang khusus untuk menghasilkan perintah gambar/video.
+* [`templates/ai-film-brief.md`](templates/ai-film-brief.md) — ringkasan permulaan proyek untuk mengunci estetika dan batasan visual.
+
+---
+
+[← Track overview](README.md) · Berikutnya: [Storyboarding & Shot Planning →](02-storyboarding-and-shots.md)

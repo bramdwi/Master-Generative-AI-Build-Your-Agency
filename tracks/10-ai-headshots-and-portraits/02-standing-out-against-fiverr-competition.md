@@ -1,42 +1,42 @@
-# Standing Out Against Fiverr Competition
+# Menonjol Melawan Kompetisi Fiverr
 
-> Escape the $5 consumer headshot race to the bottom by selling high-ticket B2B team packages to corporate companies.
+> Hindari persaingan konsumen senilai $5 dengan menjual paket tim B2B yang mahal ke perusahaan korporat.
 
-**Track:** AI Headshots & Portraits  
-**Time:** ~45 minutes  
-**Prerequisites:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md)  
+**Lagu:** Foto & Potret AI
+**Waktu:** ~45 menit
+**Prasyarat:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md)
 
-## The Problem
+## Masalahnya
 
-The consumer market for AI headshots is heavily commoditized. Cheap automated apps and Fiverr freelancers sell **$5 to $10 headshot packs**, flooding the market with over-filtered, plastic-looking portraits that look like obvious AI renders.
+Pasar konsumen untuk foto kepala AI sangat dikomoditisasi. Aplikasi otomatis murah dan pekerja lepas Fiverr menjual **paket foto wajah seharga $5 hingga $10**, membanjiri pasar dengan potret yang tampak seperti plastik dan terlalu banyak difilter yang terlihat seperti hasil render AI.
 
-If you try to sell $10 headshots to individual consumers, your business model fails: customer acquisition costs eat up your margins, buyers complain about tiny facial quirks, and refund requests ruin your profitability.
+Jika Anda mencoba menjual foto kepala senilai $10 kepada konsumen perorangan, model bisnis Anda akan gagal: biaya akuisisi pelanggan menghabiskan margin Anda, pembeli mengeluh tentang keanehan wajah yang kecil, dan permintaan pengembalian dana merusak profitabilitas Anda.
 
-At the same time, companies, law firms, tech startups, and consulting agencies spend **$3,000 to $10,000 annually** updating team headshots for new hires and website rebrands. They refuse to use cheap $5 apps due to privacy concerns, lack of brand consistency, and poor image resolution.
+Pada saat yang sama, perusahaan, firma hukum, perusahaan rintisan teknologi, dan agen konsultan menghabiskan **$3.000 hingga $10.000 per tahun** untuk memperbarui foto tim untuk karyawan baru dan mengubah merek situs web. Mereka menolak menggunakan aplikasi murah seharga $5 karena masalah privasi, kurangnya konsistensi merek, dan resolusi gambar yang buruk.
 
 ---
 
-## The Concept
+## Konsep
 
-The key to building a profitable AI headshot business is transitioning from **B2C Consumer Micro-Transactions** to **B2B Corporate Team Packages**:
+Kunci untuk membangun bisnis AI headshot yang menguntungkan adalah transisi dari **Transaksi Mikro Konsumen B2C** ke **Paket Tim Korporat B2B**:
 
 ```
 B2C Freelance Trap ($5/photo to individuals) ──► B2B Corporate Agency Model ($599/team package to companies)
 ```
 
-### The 4 Pillars of B2B Differentiation:
+### 4 Pilar Diferensiasi B2B:
 
-1. **Brand Style Guide Matching:** Companies require every employee headshot to feature the exact same background color gradient, lighting ratio, and dress code (e.g., navy blazer with white shirt on dark charcoal background).
-2. **Enterprise Privacy & Data Compliance:** Corporate HR departments will not allow employee photos to be stored on unverified consumer servers. Offering **GDPR-compliant data purging** (deleting all source selfies within 7 days of delivery) wins corporate security reviews.
-3. **High-Resolution Vector Upscaling:** Delivering 300dpi 4000px+ images suitable for print annual reports, conference banners, and press kits—not just 512px social media avatars.
-4. **Self-Serve Team Intake Portals:** Providing a simple white-labeled submission link where employees upload their selfies directly, selecting their preferred outfit style from a drop-down menu.
+1. **Pencocokan Panduan Gaya Merek:** Perusahaan mewajibkan foto setiap karyawan untuk menampilkan gradasi warna latar belakang, rasio pencahayaan, dan aturan berpakaian yang sama persis (misalnya, blazer biru tua dengan kemeja putih dengan latar belakang arang gelap).
+2. **Privasi Perusahaan & Kepatuhan Data:** Departemen SDM perusahaan tidak akan mengizinkan foto karyawan disimpan di server konsumen yang tidak terverifikasi. Menawarkan **pembersihan data yang sesuai dengan GDPR** (menghapus semua selfie sumber dalam waktu 7 hari setelah pengiriman) memenangkan tinjauan keamanan perusahaan.
+3. **Peningkatan Vektor Resolusi Tinggi:** Menghasilkan gambar 300dpi 4000px+ yang cocok untuk mencetak laporan tahunan, spanduk konferensi, dan perangkat pers—bukan hanya avatar media sosial 512px.
+4. **Portal Penerimaan Tim Swalayan:** Menyediakan tautan pengiriman berlabel putih sederhana tempat karyawan mengunggah foto selfie mereka secara langsung, memilih gaya pakaian pilihan mereka dari menu tarik-turun.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Define Your B2B Corporate Packages
-Structure your offers to target HR directors, marketing managers, and operations leads:
+### Langkah 1: Tentukan Paket Perusahaan B2B Anda
+Susun penawaran Anda untuk menargetkan direktur SDM, manajer pemasaran, dan pemimpin operasi:
 
 ```
 ┌─────────────────────────┐  ┌─────────────────────────┐  ┌─────────────────────────┐
@@ -50,101 +50,101 @@ Structure your offers to target HR directors, marketing managers, and operations
 └─────────────────────────┘  └─────────────────────────┘  └─────────────────────────┘
 ```
 
-### Step 2: Build a White-Labeled Intake Form
-Set up a clean form (via Tally, Typeform, or your own domain) using the structure in [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md):
-* Employee Full Name & Title.
-* Email address for direct proof delivery.
-* Outfit Preference selection (e.g., Executive Suit, Tech Casual Sweater, Creative Blazer).
-* Upload field for 3 crisp selfies.
+### Langkah 2: Buat Formulir Penerimaan Berlabel Putih
+Siapkan formulir bersih (melalui Tally, Typeform, atau domain Anda sendiri) menggunakan struktur di [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md):
+* Nama Lengkap & Jabatan Karyawan.
+* Alamat email untuk pengiriman bukti langsung.
+* Pilihan Preferensi Pakaian (misalnya, Setelan Eksekutif, Sweater Kasual Berteknologi, Blazer Kreatif).
+* Unggah bidang untuk 3 selfie tajam.
 
-### Step 3: Target High-Growth Companies with Team Rebrands
-Use LinkedIn Sales Navigator or Apollo to find companies that recently:
-* Announced a Series A/B funding round.
-* Rebranded their corporate website.
-* Hired 5+ new remote employees in the past month.
+### Langkah 3: Targetkan Perusahaan dengan Pertumbuhan Tinggi dengan Perubahan Merek Tim
+Gunakan LinkedIn Sales Navigator atau Apollo untuk menemukan perusahaan yang baru-baru ini:
+* Mengumumkan putaran pendanaan Seri A/B.
+* Mengubah merek situs web perusahaan mereka.
+* Mempekerjakan 5+ karyawan jarak jauh baru dalam sebulan terakhir.
 
-### Step 4: Pitch the "Unified Remote Team Headshot" Solution
-Send this targeted B2B cold pitch to HR Heads & VP of Marketing:
+### Langkah 4: Promosikan Solusi "Headshot Tim Jarak Jauh Terpadu".
+Kirimkan promosi B2B yang ditargetkan ini ke Kepala SDM & Wakil Presiden Pemasaran:
 
-> **Subject:** Consistent headshots for [Company Name]'s remote team?
-> 
-> Hi [HR Director Name],
-> 
-> I noticed [Company Name]'s team page features great talent, but the headshots range from professional studio shots to vacation photos and outdoor selfies.
-> 
-> As remote teams grow, getting 25 employees across 4 time zones into a consistent photography studio is nearly impossible.
-> 
-> Our studio provides **Unified AI Corporate Headshots** for remote teams:
-> * Every team member gets 5 polished, studio-quality executive portraits matching your exact company brand guidelines.
-> * Zero studio travel — employees upload 3 selfies from their phone in 2 minutes.
-> * Full GDPR compliance & automated selfie deletion after 7 days.
-> 
-> I put together a quick 30-second sample showing what your team page would look like with a unified brand background:
-> 
-> **[Link to 30-Sec Sample / Before-After Image]**
-> 
-> Would you be open to testing 2 free employee headshot samples for your leadership team this week?
-> 
-> Best,  
-> [Your Name]  
-> Founder, [Your Agency Name]
+> **Subjek:** Foto wajah yang konsisten untuk tim jarak jauh [Nama Perusahaan]?
+>
+> Hai [Nama Direktur SDM],
+>
+> Saya perhatikan halaman tim [Nama Perusahaan] menampilkan bakat-bakat hebat, tetapi foto-fotonya berkisar dari foto studio profesional hingga foto liburan dan selfie di luar ruangan.
+>
+> Seiring berkembangnya tim jarak jauh, hampir mustahil untuk memasukkan 25 karyawan di 4 zona waktu ke dalam studio fotografi yang konsisten.
+>
+> Studio kami menyediakan **Unified AI Corporate Headshots** untuk tim jarak jauh:
+> * Setiap anggota tim mendapatkan 5 potret eksekutif berkualitas studio yang sesuai dengan pedoman merek perusahaan Anda.
+> * Nol perjalanan studio — karyawan mengunggah 3 foto selfie dari ponsel mereka dalam 2 menit.
+> * Kepatuhan penuh terhadap GDPR & penghapusan selfie otomatis setelah 7 hari.
+>
+> Saya mengumpulkan contoh singkat berdurasi 30 detik yang menunjukkan seperti apa tampilan halaman tim Anda dengan latar belakang merek terpadu:
+>
+> **[Tautan ke Contoh 30 Detik / Gambar Sebelum-Sesudah]**
+>
+> Apakah Anda bersedia menguji 2 sampel foto karyawan gratis untuk tim kepemimpinan Anda minggu ini?
+>
+> Terbaik,
+> [Nama Anda]
+> Pendiri, [Nama Agensi Anda]
 
-### Step 5: Deliver High-Res Bundles & Master Assets
-Deliver completed team headshots organized by employee name folders containing:
-* `john_doe_linkedin_1:1.jpg` (1080x1080px for LinkedIn/Slack).
-* `john_doe_website_4:5.jpg` (2400x3000px for corporate team page).
-* `john_doe_print_300dpi.png` (High-res print transparent PNG for press releases).
+### Langkah 5: Kirimkan Paket Resolusi Tinggi & Aset Utama
+Kirimkan foto kepala tim lengkap yang disusun berdasarkan folder nama karyawan yang berisi:
+* `john_doe_linkedin_1:1.jpg` (1080x1080 piksel untuk LinkedIn/Slack).
+* `john_doe_website_4:5.jpg` (2400x3000px untuk halaman tim perusahaan).
+* `john_doe_print_300dpi.png` (PNG transparan cetak resolusi tinggi untuk siaran pers).
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/headshot-transformation-before-after.jpg" alt="Casual Selfie vs AI Corporate Headshot Comparison" width="480">
+<img src="templates/examples/headshot-transformation-before-after.jpg" alt="Perbandingan Selfie Santai vs Headshot Perusahaan AI" width="480">
 </p>
 <p align="center"><sub>Casual Smartphone Selfie (Left) ──► Studio-Grade AI Corporate Executive Headshot (Right)</sub></p>
 
-**B2B Campaign Results for "FinTech Solutions Inc."**
+**Hasil Kampanye B2B untuk "FinTech Solutions Inc."**
 
-* **Client Situation:** 35-person remote engineering and sales team with inconsistent, outdated profile photos.
-* **Closed Package:** Corporate Standard Tier ($799 for 25 employees + $20/person for 10 additional team members = **$999 Total**).
-* **Execution Time:** Employees submitted selfies via form on Monday; all 35 completed high-res bundles delivered Wednesday morning (48-hour turnaround).
-* **Agency Production Cost:** $0.06 × 35 = **$2.10 total API credit cost**.
-* **Gross Profit:** **$996.90** (99.7% margin).
+* **Situasi Klien:** Tim teknik dan penjualan jarak jauh yang terdiri dari 35 orang dengan foto profil yang tidak konsisten dan sudah ketinggalan zaman.
+* **Paket Tertutup:** Tingkat Standar Perusahaan ($799 untuk 25 karyawan + $20/orang untuk 10 anggota tim tambahan = **Total $999**).
+* **Waktu Eksekusi:** Karyawan mengirimkan foto selfie melalui formulir pada hari Senin; semua 35 paket resolusi tinggi yang telah selesai dikirimkan pada Rabu pagi (perputaran 48 jam).
+* **Biaya Produksi Agensi:** $0,06 × 35 = **$2,10 total biaya kredit API**.
+* **Laba Kotor:** **$996,90** (margin 99,7%).
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Model / Feature | B2C Freelance Model ($5) | B2B Agency Model ($799) |
+| Model / Fitur | Model Lepas B2C ($5) | Model Agensi B2B ($799) |
 |---|---|---|
-| **Target Client** | Individual budget shoppers | HR Directors, Marketing VPs, Corporate Agencies |
-| **Identity Precision** | Generic face swap apps | Controlled InstantID / FLUX PuLID identity vectors |
-| **Output Resolution** | 512px - 1024px web JPEGs | 3000px+ 300DPI print & web compliant bundles |
-| **Data Privacy** | Images saved on public app servers | Signed GDPR data purge certificates (7-day wipe) |
-| **Client Value** | $5 one-off transaction | $799 - $1,499 per company + ongoing new-hire add-ons |
+| **Targetkan Klien** | Pembeli anggaran individu | Direktur SDM, Wakil Presiden Pemasaran, Agen Perusahaan |
+| **Presisi Identitas** | Aplikasi pertukaran wajah umum | Vektor identitas PuLID InstantID / FLUX yang dikontrol |
+| **Resolusi Keluaran** | JPEG web 512px - 1024px | Paket cetak 3000px+ 300DPI & sesuai web |
+| **Privasi Data** | Gambar disimpan di server aplikasi publik | Sertifikat pembersihan data GDPR yang ditandatangani (penghapusan 7 hari) |
+| **Nilai Klien** | $5 transaksi satu kali | $799 - $1.499 per perusahaan + add-on karyawan baru yang berkelanjutan |
 
 ---
 
-## Launch It
+## Luncurkan
 
-**Essential enterprise closing rules:**
-* **Provide a GDPR Data Purge Guarantee:** Give corporate clients peace of mind by including a signed data privacy clause stating all source employee selfies are permanently deleted from your servers within 7 business days.
-* **New-Hire Monthly Retainers:** Charge companies a **$99/month recurring retainer** to automatically generate headshots for up to 3 new hires every month as they join the team.
-
----
-
-## Exercises
-
-1. **Easy:** Create a B2B intake form template with fields for employee name, title, outfit choice, and selfie upload.
-2. **Medium:** Take 1 casual selfie of a friend or colleague and transform it into 3 distinct corporate styles (Navy Suit, Tech Turtleneck, Creative Blazer) matching a unified grey gradient background.
-3. **Hard:** Pitch a local company or startup with a team of 10+ employees by creating a custom Before/After sample of their CEO's profile photo.
+**Peraturan penting penutupan perusahaan:**
+* **Berikan Jaminan Pembersihan Data GDPR:** Berikan ketenangan pikiran kepada klien korporat dengan menyertakan klausul privasi data yang ditandatangani yang menyatakan bahwa semua selfie karyawan sumber dihapus secara permanen dari server Anda dalam waktu 7 hari kerja.
+* **Pengikut Bulanan Perekrutan Baru:** Membebankan biaya kepada perusahaan **pengikut berulang $99/bulan** untuk secara otomatis menghasilkan foto wajah hingga 3 karyawan baru setiap bulan saat mereka bergabung dengan tim.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Enterprise sales proposals, intake form schemas, GDPR privacy agreements, and SLA contracts.
+1. **Mudah:** Buat templat formulir penerimaan B2B dengan kolom untuk nama karyawan, jabatan, pilihan pakaian, dan unggahan selfie.
+2. **Medium:** Ambil 1 selfie santai teman atau kolega dan ubah menjadi 3 gaya korporat yang berbeda (Navy Suit, Tech Turtleneck, Creative Blazer) yang serasi dengan latar belakang gradien abu-abu terpadu.
+3. **Sulit:** Promosikan perusahaan atau startup lokal dengan tim yang terdiri dari 10+ karyawan dengan membuat contoh foto profil CEO Sebelum/Sesudah kustom.
+
+---
+
+## Templat
+
+* [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Proposal penjualan perusahaan, skema formulir penerimaan, perjanjian privasi GDPR, dan kontrak SLA.
 
 ---
 

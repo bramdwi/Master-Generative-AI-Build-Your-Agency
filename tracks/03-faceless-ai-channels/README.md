@@ -1,71 +1,71 @@
-# Track 3 — Faceless AI Channels
+# Track 3 — Saluran AI Tanpa Wajah
 
-> A YouTube/TikTok channel with no camera or voice recording — running as a scalable business system.
+> Saluran YouTube/TikTok tanpa kamera atau rekaman suara — berjalan sebagai sistem bisnis yang skalabel.
 
-Five modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (matrixes, script structures, calculators) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (matriks, struktur skrip, kalkulator) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [Niche Selection & Script Pipeline](01-niche-and-script.md) | ~45 min | — |
-| 2 | [Duration-Matched Narration & Pacing](02-narration-and-pacing.md) | ~45 min | Module 1 |
-| 3 | [Honest RPM & Earnings Math](03-rpm-and-earnings.md) | ~35 min | Modules 1–2 |
-| 4 | [Scaling to Multiple Channels](04-scaling-channels.md) | ~40 min | Modules 1–3 |
-| 5 | [Monetization Ladder](05-monetization-ladder.md) | ~30 min | Modules 1, 3 |
+| 1 | [Niche Selection & Script Pipeline](01-niche-and-script.md) | ~45 menit | — |
+| 2 | [Duration-Matched Narration & Pacing](02-narration-and-pacing.md) | ~45 menit | Modul 1 |
+| 3 | [Honest RPM & Earnings Math](03-rpm-and-earnings.md) | ~35 menit | Modul 1–2 |
+| 4 | [Scaling to Multiple Channels](04-scaling-channels.md) | ~40 menit | Modul 1–3 |
+| 5 | [Monetization Ladder](05-monetization-ladder.md) | ~30 menit | Modul 1, 3 |
 
 ---
 
-### 1. [Niche Selection & Script Pipeline](01-niche-and-script.md)
+### 1.[Niche Selection & Script Pipeline](01-niche-and-script.md)
 
-> If your niche has low CPM, your view count doesn't matter; if your script has low retention, YouTube won't show it to anyone.
+> Jika niche Anda memiliki CPM rendah, jumlah penayangan Anda tidak menjadi masalah; jika skrip Anda memiliki retensi rendah, YouTube tidak akan menampilkannya kepada siapa pun.
 
-- Evaluate advertiser density and identify high-CPM niches (Finance, SaaS, Business).
-- Structure conversational scripts under a strict 180-word limit to maintain comfortable audio pacing.
-- Prompt text LLMs to output visually paced script segments rather than formal prose.
+- Evaluasi kepadatan pengiklan dan identifikasi ceruk CPM tinggi (Keuangan, SaaS, Bisnis).
+- Susun skrip percakapan dengan batas ketat 180 kata untuk mempertahankan tempo audio yang nyaman.
+- LLM teks cepat untuk menampilkan segmen skrip dengan kecepatan visual, bukan prosa formal.
 
-**Templates:** [`niche-evaluation-matrix.md`](templates/niche-evaluation-matrix.md) · [`retention-script-template.md`](templates/retention-script-template.md)
+**Templat:** [`niche-evaluation-matrix.md`](templates/niche-evaluation-matrix.md) · [`retention-script-template.md`](templates/retention-script-template.md)
 
-### 2. [Duration-Matched Narration & Pacing](02-narration-and-pacing.md)
+### 2.[Duration-Matched Narration & Pacing](02-narration-and-pacing.md)
 
-> Visuals tell the story, but the audio duration controls the edit.
+> Visual menceritakan kisahnya, tetapi durasi audio mengontrol pengeditan.
 
-- Lay down voice narration audio tracks first to establish the spine of your editing timeline.
-- Measure and log exact audio clip durations to schedule visual cuts every 2–4 seconds.
-- Trim trailing pauses and silent frames to maintain rapid, drop-free pacing.
+- Letakkan trek audio narasi suara terlebih dahulu untuk menentukan inti garis waktu pengeditan Anda.
+- Ukur dan catat durasi klip audio yang tepat untuk menjadwalkan pemotongan visual setiap 2–4 detik.
+- Pangkas jeda tambahan dan frame senyap untuk mempertahankan tempo yang cepat dan bebas drop.
 
-**Templates:** [`narration-duration-log.md`](templates/narration-duration-log.md)
+**Templat:** [`narration-duration-log.md`](templates/narration-duration-log.md)
 
-### 3. [Honest RPM & Earnings Math](03-rpm-and-earnings.md)
+### 3.[Honest RPM & Earnings Math](03-rpm-and-earnings.md)
 
-> Views are vanity; profit margins are sanity.
+> Pandangan adalah kesia-siaan; margin keuntungan adalah kewarasan.
 
-- Demystify long-form vs. short-form AdSense payouts (Shorts RPM of $0.02-$0.06 vs. long-form RPM of $5-$25).
-- Audit API generation costs (scripting, text-to-speech, video credits) to calculate unit costs per video.
-- Design lead-generation conversion rates to make a small channel profitable from day one.
+- Mengungkapkan pembayaran AdSense jangka panjang vs. jangka pendek (RPM pendek sebesar $0,02-$0,06 vs. RPM jangka panjang sebesar $5-$25).
+- Audit biaya pembuatan API (scripting, text-to-speech, kredit video) untuk menghitung biaya unit per video.
+- Rancang tingkat konversi perolehan prospek untuk membuat saluran kecil memperoleh keuntungan sejak hari pertama.
 
-**Templates:** [`channel-profitability-calculator.md`](templates/channel-profitability-calculator.md)
+**Templat:** [`channel-profitability-calculator.md`](templates/channel-profitability-calculator.md)
 
-### 4. [Scaling to Multiple Channels](04-scaling-channels.md)
+### 4.[Scaling to Multiple Channels](04-scaling-channels.md)
 
-> One channel is a job; three channels is a system.
+> Satu saluran adalah pekerjaan; tiga saluran adalah sebuah sistem.
 
-- Establish temporal batch schedules (scripting on Mondays, voiceovers on Tuesdays, rendering on Wednesdays).
-- Run multiple channel accounts safely on a single computer using isolated browser profiles.
-- Syndicating 9:16 vertical videos simultaneously across YouTube Shorts, TikTok, and Instagram Reels.
+- Tetapkan jadwal batch sementara (skripsi pada hari Senin, sulih suara pada hari Selasa, rendering pada hari Rabu).
+- Jalankan beberapa akun saluran dengan aman di satu komputer menggunakan profil browser yang terisolasi.
+- Menyindikasikan video vertikal 9:16 secara bersamaan di YouTube Shorts, TikTok, dan Instagram Reels.
 
-**Templates:** [`production-schedule-tracker.md`](templates/production-schedule-tracker.md)
+**Templat:** [`production-schedule-tracker.md`](templates/production-schedule-tracker.md)
 
-### 5. [Monetization Ladder](05-monetization-ladder.md)
+### 5.[Monetization Ladder](05-monetization-ladder.md)
 
-> Don't wait for a million views; build a ladder to sell to the first thousand.
+> Jangan menunggu sejuta penayangan; membangun tangga untuk dijual kepada seribu orang pertama.
 
-- Construct sales funnels using Carrd opt-in landing pages and Gumroad/Whop checkout portals.
-- Pitch SaaS tools in your niche to secure high-ticket monthly recurring affiliate commissions.
-- Integrate pinned comments and subtle CTAs to steer video viewers into automated welcome emails.
+- Bangun saluran penjualan menggunakan halaman arahan keikutsertaan Carrd dan portal pembayaran Gumroad/Whop.
+- Promosikan alat SaaS di niche Anda untuk mendapatkan komisi afiliasi berulang bulanan yang bernilai tinggi.
+- Integrasikan komentar yang dipasangi pin dan CTA halus untuk mengarahkan pemirsa video ke email selamat datang otomatis.
 
-**Templates:** [`funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) · [`affiliate-pitch-template.md`](templates/affiliate-pitch-template.md)
+**Templat:** [`funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) · [`affiliate-pitch-template.md`](templates/affiliate-pitch-template.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 13 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 13 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

@@ -1,24 +1,24 @@
-# Monetization Tiers by Follower Count
+# Tingkat Monetisasi berdasarkan Jumlah Pengikut
 
-> A virtual influencer's reach is digital, but the sponsor money is real.
+> Jangkauan influencer virtual bersifat digital, namun uang sponsornya nyata.
 
-**Track:** AI Avatars & Influencers  
-**Time:** ~30 minutes  
-**Prerequisites:** Building a Consistent AI Character, Character to Content Pipeline, Voice Cloning & Dialogue  
+**Lacak:** Avatar & Influencer AI
+**Waktu:** ~30 menit
+**Prasyarat:** Membangun Karakter AI yang Konsisten, Saluran Karakter ke Konten, Kloning Suara & Dialog
 
-## The Problem
+## Masalahnya
 
-Most people look at famous virtual influencers like Lil Miquela (who has millions of followers and charges $8,000+ per post) and assume they cannot make money until they reach that massive scale. They spend months producing content, waiting to cross the 100k follower threshold, and eventually quit due to lack of income.
+Kebanyakan orang melihat influencer virtual terkenal seperti Lil Miquela (yang memiliki jutaan pengikut dan mengenakan biaya $8.000+ per postingan) dan berasumsi bahwa mereka tidak dapat menghasilkan uang sampai mereka mencapai skala sebesar itu. Mereka menghabiskan waktu berbulan-bulan untuk memproduksi konten, menunggu untuk melewati ambang batas 100 ribu pengikut, dan akhirnya berhenti karena kurangnya pendapatan.
 
-In reality, **B2B (Business-to-Business) virtual influencers can monetize at a microscopic scale** (under 10,000 followers). 
+Faktanya, **influencer virtual B2B (Business-to-Business) dapat melakukan monetisasi dalam skala mikroskopis** (di bawah 10.000 pengikut).
 
-Because B2B audiences consist of high-value business buyers (e.g. software buyers, accountants, developers), advertisers are willing to pay massive premiums to get in front of them. A tech channel with 5,000 highly targeted followers can command sponsorship rates that general entertainment channels need 100,000 followers to justify.
+Karena audiens B2B terdiri dari pembeli bisnis bernilai tinggi (misalnya pembeli perangkat lunak, akuntan, pengembang), pengiklan bersedia membayar mahal untuk tampil di hadapan mereka. Saluran teknologi dengan 5.000 pengikut yang sangat bertarget dapat memperoleh tingkat sponsorship yang dapat dibenarkan oleh saluran hiburan umum yang memerlukan 100.000 pengikut.
 
-To turn your avatar into a profitable business early on, you must build a structured Media Kit and pitch high-ticket SaaS tools that match your niche.
+Untuk mengubah avatar Anda menjadi bisnis yang menguntungkan sejak dini, Anda harus membangun Media Kit terstruktur dan menawarkan alat SaaS mahal yang sesuai dengan niche Anda.
 
-## The Concept
+## Konsep
 
-Monetization potential scales up through three distinct tiers based on follower count:
+Potensi monetisasi ditingkatkan melalui tiga tingkatan berbeda berdasarkan jumlah pengikut:
 
 ```
 Tier 3: Brand Ambassador (25K+ followers) ──► Corporate Retainers ($1,000 - $3,000/mo)
@@ -26,91 +26,91 @@ Tier 2: Dedicated Integrations (5K - 25K followers) ──► Sponsored Video Ba
 Tier 1: Affiliate & SaaS referral (0 - 5K followers) ──► High-Ticket recurring commissions
 ```
 
-* **The Media Kit Spine:** Brands do not buy views; they buy **access to demographics**. Your pitch must prove that your audience consists of their target buyers.
-* **The Avatar Advantage:** Brands love AI influencers because they carry zero real-world public relations risk (no controversial personal lives), follow brief guidelines precisely, and can output visual revisions in minutes.
+* **The Media Kit Spine:** Merek tidak membeli penayangan; mereka membeli **akses ke demografi**. Promosi Anda harus membuktikan bahwa audiens Anda terdiri dari target pembeli mereka.
+* **Keunggulan Avatar:** Merek menyukai influencer AI karena mereka tidak memiliki risiko hubungan masyarakat di dunia nyata (tidak ada kehidupan pribadi yang kontroversial), mengikuti panduan singkat dengan tepat, dan dapat menghasilkan revisi visual dalam hitungan menit.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Draft Your Virtual Media Kit
-Open the [`templates/sponsor-media-kit.md`](templates/sponsor-media-kit.md). Fill in your character profile, niche focus, follower metrics, and target demographics. Keep the style modern and visual.
+### Langkah 1: Draf Kit Media Virtual Anda
+Buka [`templates/sponsor-media-kit.md`](templates/sponsor-media-kit.md). Isi profil karakter Anda, fokus niche, metrik pengikut, dan demografi target. Pertahankan gaya modern dan visual.
 
-### Step 2: Target High-Budget SaaS Advertisers
-Research your niche keywords on the **Meta Ad Library**. If you see a software brand running multiple paid social ads, they have active marketing budgets and are prime candidates for sponsorships.
+### Langkah 2: Targetkan Pengiklan SaaS Beranggaran Tinggi
+Teliti kata kunci niche Anda di **Perpustakaan Iklan Meta**. Jika Anda melihat merek perangkat lunak menjalankan beberapa iklan sosial berbayar, mereka memiliki anggaran pemasaran yang aktif dan merupakan kandidat utama untuk mendapatkan sponsor.
 
-### Step 3: Bundle Sponsorship Placements
-Do not pitch "one video." Package your offers into bundles:
-* **The Integration Pack:** 3x dedicated reels showing how your avatar uses the software, plus a pinned comment link for 30 days. Price this at **$400–$600** for micro-channels.
+### Langkah 3: Paket Penempatan Sponsor
+Jangan promosikan "satu video". Kemas penawaran Anda ke dalam paket:
+* **Paket Integrasi:** 3x gulungan khusus yang menunjukkan bagaimana avatar Anda menggunakan perangkat lunak, ditambah tautan komentar yang dipasangi pin selama 30 hari. Harga ini **$400–$600** untuk saluran mikro.
 
-### Step 4: Send the Brand Pitch
-Find the Partnership Manager's email on LinkedIn or Apollo. Send a concise cold pitch:
-> *"Hi [Name], I manage [Avatar Name], a virtual tech creator with over [Number] followers. Our audience is highly targeted around [Niche]. We love [Product Name] and would love to showcase a dashboard walkthrough to our viewers next month. Here is our media kit: [Link]. Are you currently open to short-form integration partnerships?"*
+### Langkah 4: Kirim Promosi Merek
+Temukan email Manajer Kemitraan di LinkedIn atau Apollo. Kirimkan nada dingin yang singkat:
+> *"Hai [Nama], saya mengelola [Nama Avatar], pembuat teknologi virtual dengan lebih dari [Jumlah] pengikut. Pemirsa kami sangat ditargetkan di sekitar [Niche]. Kami menyukai [Nama Produk] dan ingin menampilkan panduan dasbor kepada pemirsa kami bulan depan. Berikut adalah perangkat media kami: [Tautan]. Apakah saat ini Anda terbuka untuk kemitraan integrasi jangka pendek?"*
 
-### Step 5: Deliver and Track Conversions
-Once the deal is closed, generate the video following the brand guidelines. Set up a tracking link (e.g. via Bitly or Rewardful) to measure the traffic your avatar drives to their website, proving your value for future campaign renewals.
+### Langkah 5: Kirim dan Lacak Konversi
+Setelah kesepakatan ditutup, buat video dengan mengikuti pedoman merek. Siapkan tautan pelacakan (misalnya melalui Bitly atau Rewardful) untuk mengukur lalu lintas yang didorong avatar Anda ke situs web mereka, yang membuktikan nilai Anda untuk pembaruan kampanye di masa mendatang.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/avatar-brand-sponsor.jpg" alt="Brand Sponsor" width="240">
-<img src="templates/examples/avatar-sponsor-clip.gif" alt="Virtual Influencer Sponsor Motion (I2V)" width="240">
+<img src="templates/examples/avatar-brand-sponsor.jpg" alt="Sponsor Merek" width="240">
+<img src="templates/examples/avatar-sponsor-clip.gif" alt="Gerakan Sponsor Influencer Virtual (I2V)" width="240">
 </p>
 <p align="center"><sub>Virtual Influencer Image (Left) ──► Image-to-Video Sponsorship Loop (Right) · Video File: <a href="templates/examples/avatar-sponsor-clip.mp4">templates/examples/avatar-sponsor-clip.mp4</a></sub></p>
 
-**Sponsorship Campaign for "Emma" (Tech Niche, 8,000 followers)**
+**Kampanye Sponsor untuk "Emma" (Tech Niche, 8.000 pengikut)**
 
 
 
-* **The Partner:** "TaskFlow AI" (A SaaS project management tool).
-* **The Deal:** **$400** for 3 dedicated vertical clips showcasing their dashboard features.
-* **Visual Production:**
-  * Master Portrait face swapped onto a scene showing Emma holding a phone.
-  * Screen recording overlay of TaskFlow's website.
-  * Voiceover: *"Here is how I automate my daily work schedule..."*
-* **Earnings vs. Cost:**
-  * API Credits spent: **$2.40**
-  * Gross Income: **$400.00**
-  * Net Profit: **$397.60** (99% profit margin).
+* **Mitra:** "TaskFlow AI" (Alat manajemen proyek SaaS).
+* **Kesepakatan:** **$400** untuk 3 klip vertikal khusus yang menampilkan fitur dasbornya.
+* **Produksi Visual:**
+* Wajah Master Potret bertukar ke adegan yang memperlihatkan Emma memegang telepon.
+* Hamparan rekaman layar situs web TaskFlow.
+* Sulih Suara: *"Inilah cara saya mengotomatiskan jadwal kerja harian saya..."*
+* **Penghasilan vs. Biaya:**
+* Kredit API yang dibelanjakan: **$2,40**
+* Pendapatan Kotor: **$400,00**
+* Laba Bersih: **$397,60** (margin laba 99%).
 
-**The Result:** The brand reaches a highly targeted audience of automation-focused viewers. The creator makes a massive profit margin using AI generation stations to fulfill the deliverables.
+**Hasilnya:** Merek ini menjangkau pemirsa yang sangat bertarget yaitu pemirsa yang berfokus pada otomatisasi. Pencipta memperoleh margin keuntungan yang sangat besar dengan menggunakan stasiun pembangkit AI untuk memenuhi hasil yang dihasilkan.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Outreach & Pitching | Analytics Integration | Best for |
+| Platform / Alat | Penjangkauan & Promosi | Integrasi Analisis | Terbaik untuk |
 |---|---|---|---|
-| **Dynamic Media Kits** (Bento.me / Linktree) | Fast, beautiful, mobile-friendly landing pages that link to all channels. | In-app view stats | Displaying your avatar's visual portfolio and stats to brands. |
-| **Apollo.io / Lemlist** | Automated contact scraping and email sequences. | High bounce tracking | Sending cold outreach emails to brand marketing managers at scale. |
-| **Direct Social Messaging** | Direct access, but messages frequently end up in spam request folders. | Low | Pitching smaller, founder-led startup brands directly. |
+| **Perangkat Media Dinamis** (Bento.me / Linktree) | Laman landas yang cepat, indah, dan ramah seluler yang tertaut ke semua saluran. | Statistik tampilan dalam aplikasi | Menampilkan portofolio visual dan statistik avatar Anda untuk merek. |
+| **Apollo.io / Lemlist** | Pengikisan kontak otomatis dan urutan email. | Pelacakan pentalan tinggi | Mengirim email penjangkauan dingin ke manajer pemasaran merek dalam skala besar. |
+| **Pesan Sosial Langsung** | Akses langsung, tetapi pesan sering kali berakhir di folder permintaan spam. | Rendah | Mempromosikan merek startup yang lebih kecil dan dipimpin oleh pendiri secara langsung. |
 
-For micro-influencers, setting up a free Bento.me link showing your avatar's best vertical clips alongside active follower stats is the most professional portfolio setup. Use Apollo to source direct corporate email addresses rather than sending DMs to brand social feeds.
-
----
-
-## Launch It
-
-**How to secure renewals:**
-* **Over-deliver on the first deal:** If a brand pays you for 3 videos, deliver 4. It costs you only $0.70 in API credits to produce the extra video, but it shows the brand your commitment, helping you secure a monthly retainer.
-* **Report metrics proactively:** 7 days after the campaign ends, send the brand a clean screenshot of the views, likes, and link-clicks. Brands rarely get proactive reporting from human influencers and will immediately prioritize you for renewals.
+Untuk mikro-influencer, menyiapkan tautan Bento.me gratis yang menampilkan klip vertikal terbaik avatar Anda bersama dengan statistik pengikut aktif adalah pengaturan portofolio paling profesional. Gunakan Apollo untuk mendapatkan alamat email perusahaan langsung daripada mengirim DM ke umpan sosial merek.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Fill out the Virtual Influencer Media Kit template for your character profile, setting mock follower counts.
-2. **Medium:** Find three SaaS companies in your niche that are running paid ads on the Meta Ad Library. Locate the email address of their marketing manager.
-3. **Hard:** Draft a 3-video integration campaign outline for your avatar recommending a specific software tool. Write down the hooks, script topics, and visual b-roll concepts.
-
----
-
-## Templates
-
-* [`templates/sponsor-media-kit.md`](templates/sponsor-media-kit.md) — a media kit template detailing stats, niches, package options, and prices.
+**Cara mengamankan perpanjangan:**
+* **Penayangan berlebih pada kesepakatan pertama:** Jika sebuah merek membayar Anda untuk 3 video, kirimkan 4 video. Anda hanya dikenakan biaya kredit API sebesar $0,70 untuk memproduksi video tambahan, namun ini menunjukkan komitmen Anda kepada merek tersebut, sehingga membantu Anda mendapatkan penghasilan bulanan.
+* **Melaporkan metrik secara proaktif:** 7 hari setelah kampanye berakhir, kirimkan tangkapan layar bersih yang berisi penayangan, suka, dan klik tautan kepada merek tersebut. Merek jarang mendapatkan pelaporan proaktif dari manusia yang berpengaruh dan akan segera memprioritaskan Anda untuk pembaruan.
 
 ---
 
-[← Voice Cloning & Dialogue](03-voice-cloning-dialogue.md) · Next: [Agency Case Study: Small-Team Economics →](05-agency-economics.md)
+## Latihan
+
+1. **Mudah:** Isi template Virtual Influencer Media Kit untuk profil karakter Anda, atur jumlah pengikut tiruan.
+2. **Media:** Temukan tiga perusahaan SaaS di niche Anda yang menjalankan iklan berbayar di Perpustakaan Iklan Meta. Temukan alamat email manajer pemasaran mereka.
+3. **Sulit:** Buat draf garis besar kampanye integrasi 3 video untuk avatar Anda yang merekomendasikan alat perangkat lunak tertentu. Tuliskan kaitan, topik naskah, dan konsep visual b-roll.
+
+---
+
+## Templat
+
+* [`templates/sponsor-media-kit.md`](templates/sponsor-media-kit.md) — templat kit media yang merinci statistik, niche, opsi paket, dan harga.
+
+---
+
+[← Voice Cloning & Dialogue](03-voice-cloning-dialogue.md) · Berikutnya: [Agency Case Study: Small-Team Economics →](05-agency-economics.md)

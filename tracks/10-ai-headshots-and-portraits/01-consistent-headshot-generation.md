@@ -1,122 +1,122 @@
-# Consistent Headshot Generation
+# Generasi Headshot yang Konsisten
 
-> Transform casual smartphone selfies into studio-grade corporate portraits without facial distortion or artificial plastic skin.
+> Ubah selfie smartphone biasa menjadi potret perusahaan sekelas studio tanpa distorsi wajah atau kulit plastik buatan.
 
-**Track:** AI Headshots & Portraits  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lagu:** Foto & Potret AI
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Professional headshots are essential for LinkedIn profiles, corporate website team pages, speaker keynotes, and press releases. However, traditional studio headshot sessions are painful and expensive:
-* **High Cost:** Booking a professional photographer, studio space, and hair/makeup artists costs **$250 to $600 per person**.
-* **Time Consumption:** Travel time, wardrobe changes, and waiting 5 to 7 days for edited proofs wastes valuable working hours.
-* **Inconsistency for Teams:** When companies hire remote employees globally, getting a consistent background, lighting style, and dress code across 30 team members is nearly impossible.
+Foto wajah profesional sangat penting untuk profil LinkedIn, halaman tim situs web perusahaan, ceramah pembicara, dan siaran pers. Namun, sesi headshot studio tradisional itu menyakitkan dan mahal:
+* **Biaya Tinggi:** Pemesanan fotografer profesional, ruang studio, dan penata rambut/penata rias dikenakan biaya **$250 hingga $600 per orang**.
+* **Konsumsi Waktu:** Waktu perjalanan, penggantian pakaian, dan menunggu 5 hingga 7 hari untuk bukti yang diedit menyia-nyiakan jam kerja yang berharga.
+* **Inkonsistensi untuk Tim:** Saat perusahaan mempekerjakan karyawan jarak jauh secara global, hampir mustahil untuk mendapatkan latar belakang, gaya pencahayaan, dan aturan berpakaian yang konsisten di antara 30 anggota tim.
 
-If you attempt basic AI face swaps or over-filtered app presets, the output looks fake: skin textures become waxy plastic, eye colors drift, teeth align into unnatural artificial rows, and background lighting doesn't match the subject's face.
+Jika Anda mencoba pertukaran wajah AI dasar atau pengaturan awal aplikasi yang difilter secara berlebihan, hasilnya akan terlihat palsu: tekstur kulit menjadi plastik lilin, warna mata berubah, gigi sejajar menjadi barisan buatan yang tidak alami, dan pencahayaan latar belakang tidak cocok dengan wajah subjek.
 
 ---
 
-## The Concept
+## Konsep
 
-The professional AI headshot generation pipeline relies on **Facial Identity Locking**, **Lighting Rig Alignment**, and **Skin Texture Preservation**:
+Saluran pembuatan foto kepala AI profesional mengandalkan **Penguncian Identitas Wajah**, **Penyelarasan Rig Pencahayaan**, dan **Pelestarian Tekstur Kulit**:
 
 ```
 Casual Smartphone Selfie ──► Face Embed & Identity Lock ──► Studio Lighting & Outfit Prompt ──► Detail Upscale & Skin Frequency Match
 ```
 
-### Technical Pillars:
+### Pilar Teknis:
 
-1. **Facial Identity Vector Locking (InstantID / FLUX PuLID):** Rather than generating a random person, identity-locking models extract facial landmarks (eye spacing, jawline shape, nose bridge structure, skin tone) from 1 to 3 casual reference selfies. Passing this embedding into the diffusion model ensures the output looks unmistakably like the subject.
-2. **Studio Lighting Rigs (3-Point Lighting in Prompts):** Professional portrait photography relies on controlled lighting setups:
-   * **Key Light:** Primary illumination softbox set at a 45-degree angle to create natural dimension (Rembrandt or Butterfly lighting pattern).
-   * **Fill Light:** Diffused soft light on the shadow side to maintain detail without harsh dark patches.
-   * **Rim / Hair Light:** Backlight behind the subject to separate their hair and shoulders from the background.
-3. **High-Frequency Skin Texture Preservation:** Low-end AI filters destroy natural pores, fine wrinkles, and freckles. Setting img2img denoising strength to **0.40–0.55** and applying frequency separation in post-processing preserves authentic skin micro-texture while cleaning up messy backgrounds and informal clothing.
-
----
-
-## Do It
-
-### Step 1: Collect Quality Source Selfies
-Instruct your client or subject to upload 3 to 5 casual photos:
-* High resolution (well-lit by window daylight, no heavy filters, no sunglasses, neutral or smiling expression).
-* Direct eye contact with the camera.
-* Varying angles (front-facing, 3/4 turn).
-
-### Step 2: Assemble the Corporate Studio Prompt
-Open your lighting guide in [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md). Prepend photography anchors matching the target professional tier:
-
-* **Executive Corporate Prompt:**  
-  > `"Photorealistic 8k corporate studio portrait photograph of [Identity Anchor], confident friendly expression, wearing a tailored charcoal navy blazer and crisp white shirt, soft Rembrandt key light, subtle rim light separating shoulders from background, blurred modern glass office background with soft bokeh, shot on 85mm f/1.8 lens, natural skin pores, studio quality."`
-* **Creative Tech Founder Prompt:**  
-  > `"Photorealistic 8k editorial portrait photograph of [Identity Anchor], warm approachable smile, wearing a stylish dark grey turtleneck, soft warm studio lighting, neutral grey gradient background, crisp focus on eyes, 85mm lens, highly detailed."`
-* **Negative Prompt:**  
-  > `"plastic skin, smooth mannequin face, extra teeth, asymmetric eyes, cartoon, oversaturated, harsh direct flash, warped neck, low resolution, blurry."`
-
-### Step 3: Run Identity-Locked Inference
-Pass the source selfie and prompt into your generator (e.g., muapi `/nano-banana-2` with face-reference parameter or InstantID pipeline). Set aspect ratio to **1:1** for LinkedIn/Slack avatars or **4:5** for executive team pages.
-
-### Step 4: Refine Clothing & Background Swaps
-If the client wants multiple wardrobe variations (e.g., formal suit vs. business casual sweater), run targeted inpainting over the torso area while keeping the facial identity seed locked.
-
-### Step 5: Frequency Separation & Skin Restoration
-Inspect the render at 100% zoom:
-* Confirm skin contains visible natural pores and authentic eye catchlights.
-* Apply subtle sharpening to iris reflections.
-* Save the final high-resolution file as `corporate-executive-headshot.jpg`.
+1. **Penguncian Vektor Identitas Wajah (InstantID / FLUX PuLID):** Daripada menghasilkan orang secara acak, model penguncian identitas mengekstrak penanda wajah (jarak mata, bentuk garis rahang, struktur batang hidung, warna kulit) dari 1 hingga 3 selfie referensi biasa. Meneruskan penyematan ini ke dalam model difusi akan memastikan keluaran terlihat persis seperti subjeknya.
+2. **Rig Pencahayaan Studio (Pencahayaan 3 Titik dalam Perintah):** Fotografi potret profesional bergantung pada pengaturan pencahayaan yang terkontrol:
+* **Lampu Utama:** Softbox penerangan utama diatur pada sudut 45 derajat untuk menciptakan dimensi alami (pola pencahayaan Rembrandt atau Butterfly).
+* **Fill Light:** Cahaya lembut yang tersebar di sisi bayangan untuk mempertahankan detail tanpa bercak gelap yang mencolok.
+* **Rim / Hair Light:** Lampu latar di belakang subjek untuk memisahkan rambut dan bahunya dari latar belakang.
+3. **Pelestarian Tekstur Kulit Frekuensi Tinggi:** Filter AI kelas bawah menghancurkan pori-pori alami, kerutan halus, dan bintik-bintik. Menyetel kekuatan denoising img2img ke **0,40–0,55** dan menerapkan pemisahan frekuensi pada pasca-pemrosesan akan mempertahankan tekstur mikro kulit asli sekaligus membersihkan latar belakang yang berantakan dan pakaian informal.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Kumpulkan Selfie Sumber Berkualitas
+Instruksikan klien atau subjek Anda untuk mengunggah 3 hingga 5 foto kasual:
+* Resolusi tinggi (pencahayaan baik di bawah sinar matahari jendela, tanpa filter berat, tanpa kacamata hitam, ekspresi netral atau tersenyum).
+* Kontak mata langsung dengan kamera.
+* Sudut yang bervariasi (menghadap ke depan, 3/4 putaran).
+
+### Langkah 2: Pasang Prompt Studio Korporat
+Buka panduan pencahayaan Anda di [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md). Tambahkan jangkar fotografi yang cocok dengan tingkat profesional target:
+
+* **Permintaan Eksekutif Perusahaan:**
+> __KODE INLINE_0__
+* **Permintaan Pendiri Teknologi Kreatif:**
+> __KODE INLINE_0__
+* **Perintah Negatif:**
+> __KODE INLINE_0__
+
+### Langkah 3: Jalankan Inferensi Terkunci Identitas
+Teruskan selfie sumber dan perintahkan ke generator Anda (misalnya, muapi `/nano-banana-2` dengan parameter referensi wajah atau pipeline InstantID). Tetapkan rasio aspek ke **1:1** untuk avatar LinkedIn/Slack atau **4:5** untuk halaman tim eksekutif.
+
+### Langkah 4: Sempurnakan Pertukaran Pakaian & Latar Belakang
+Jika klien menginginkan beberapa variasi pakaian (misalnya, setelan formal vs. sweter kasual bisnis), lakukan pengecatan yang ditargetkan pada area batang tubuh sambil menjaga benih identitas wajah tetap terkunci.
+
+### Langkah 5: Pemisahan Frekuensi & Pemulihan Kulit
+Periksa render pada zoom 100%:
+* Pastikan kulit memiliki pori-pori alami yang terlihat dan sorotan mata yang autentik.
+* Terapkan penajaman halus pada pantulan iris.
+* Simpan file resolusi tinggi terakhir sebagai `corporate-executive-headshot.jpg`.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/corporate-executive-headshot.jpg" alt="Corporate Executive AI Headshot" width="320">
-<img src="templates/examples/headshot-lighting-motion.gif" alt="Headshot Lighting & Motion Loop (I2V)" width="320">
+<img src="templates/examples/corporate-executive-headshot.jpg" alt="Headshot AI Eksekutif Perusahaan" width="320">
+<img src="templates/examples/headshot-lighting-motion.gif" alt="Pencahayaan Headshot & Loop Gerakan (I2V)" width="320">
 </p>
 <p align="center"><sub>AI Corporate Executive Portrait (Left) ──► Image-to-Video Motion Loop (Right) · Video File: <a href="templates/examples/headshot-lighting-motion.mp4">templates/examples/headshot-lighting-motion.mp4</a></sub></p>
 
-**Corporate Rebrand Breakdown for "Apex Financial Group"**
+**Rincian Perubahan Merek Perusahaan untuk "Apex Financial Group"**
 
-* **Source File:** A casual phone selfie taken in a living room with harsh ceiling light.
-* **Target Style:** Executive Corporate Navy Blazer & Office Bokeh.
-* **Model Pipeline:** Identity vector extraction via InstantID + FLUX 1.1 render.
-* **Generation Settings:** Denoising strength `0.45`, Identity weight `0.85`, 85mm lens prompt anchor.
-* **Turnaround:** 3 minutes total processing time.
-* **Cost:** **$0.06** AI generation cost vs. **$350** local studio quote.
+* **File Sumber:** Selfie ponsel kasual yang diambil di ruang tamu dengan cahaya langit-langit yang terang.
+* **Gaya Target:** Blazer Angkatan Laut Perusahaan Eksekutif & Bokeh Kantor.
+* **Model Pipeline:** Ekstraksi vektor identitas melalui render InstantID + FLUX 1.1.
+* **Setelan Generasi:** Kekuatan denoising `0.45`, Berat identitas `0.85`, jangkar prompt lensa 85mm.
+* **Penyelesaian:** Total waktu pemrosesan 3 menit.
+* **Biaya:** **$0,06** Biaya pembuatan AI vs. **$350** penawaran studio lokal.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Pipeline | Face Consistency | Skin Realism | Best For |
+| Platform / Saluran Pipa | Konsistensi Wajah | Realisme Kulit | Terbaik Untuk |
 |---|---|---|---|
-| **FLUX PuLID / InstantID (muapi API)** | **Extremely High** | **Photorealistic** — Preserves natural pores & expression | Professional client delivery, corporate team packages |
-| **Consumer Headshot Apps (Remini, HeadshotPro)** | Medium | Low — Over-smoothed "plastic" skin effect | Low-budget personal social avatars |
-| **Custom LoRA Fine-Tuning (ComfyUI / Kohya)** | Maximum | High — Requires 15+ training images | Celebrity, executive, or recurring influencer models |
+| **FLUX PuLID / ID Instan (API muapi)** | **Sangat Tinggi** | **Fotorealistik** — Menjaga pori-pori & ekspresi alami | Pengiriman klien profesional, paket tim perusahaan |
+| **Aplikasi Headshot Konsumen (Remini, HeadshotPro)** | Sedang | Rendah — Efek kulit "plastik" yang terlalu halus | Avatar sosial pribadi beranggaran rendah |
+| **Penyempurnaan LoRA Khusus (ComfyUI / Kohya)** | Maksimum | Tinggi — Membutuhkan 15+ gambar pelatihan | Model selebriti, eksekutif, atau influencer berulang |
 
 ---
 
-## Launch It
+## Luncurkan
 
-**Packaging options:**
-* **Individual Professional Package:** **$49 – $79** (Includes 5 styled variations: Formal, Business Casual, Creative, Studio Dark, Office Bokeh).
-* **Corporate Team Pass (10 Employees):** **$399 – $599** (Includes consistent corporate background and dress code matching company brand guidelines).
-
----
-
-## Exercises
-
-1. **Easy:** Take a casual selfie in window daylight. Write a prompt to generate a studio portrait with a blurred office background.
-2. **Medium:** Perform a clothing swap on the generated portrait, converting a casual t-shirt into a navy suit blazer.
-3. **Hard:** Generate 3 consistent team headshots for 3 different individuals using the same studio lighting prompt and background bokeh, ensuring company brand consistency across all 3.
+**Pilihan kemasan:**
+* **Paket Profesional Individu:** **$49 – $79** (Termasuk 5 variasi gaya: Formal, Bisnis Kasual, Kreatif, Studio Gelap, Bokeh Kantor).
+* **Corporate Team Pass (10 Karyawan):** **$399 – $599** (Termasuk latar belakang perusahaan yang konsisten dan aturan berpakaian yang sesuai dengan pedoman merek perusahaan).
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Lighting setup prompts, wardrobe descriptors, and negative prompt libraries.
+1. **Mudah:** Ambil selfie santai di bawah sinar matahari jendela. Tulis perintah untuk menghasilkan potret studio dengan latar belakang kantor yang buram.
+2. **Sedang:** Lakukan pertukaran pakaian pada potret yang dihasilkan, ubah kaos kasual menjadi blazer setelan biru tua.
+3. **Sulit:** Menghasilkan 3 foto tim yang konsisten untuk 3 individu berbeda menggunakan perintah pencahayaan studio dan bokeh latar belakang yang sama, sehingga memastikan konsistensi merek perusahaan di ketiganya.
 
 ---
 
-[Track Overview](README.md) · Next: [Standing Out Against Fiverr Competition →](02-standing-out-against-fiverr-competition.md)
+## Templat
+
+* [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Perintah pengaturan pencahayaan, deskriptor lemari pakaian, dan perpustakaan perintah negatif.
+
+---
+
+[Track Overview](README.md) · Berikutnya: [Standing Out Against Fiverr Competition →](02-standing-out-against-fiverr-competition.md)

@@ -1,38 +1,38 @@
-# The Multi-Step Production Pipeline
+# Jalur Produksi Multi-Langkah
 
-> A factory is built on stations, not tasks.
+> Pabrik dibangun berdasarkan stasiun, bukan tugas.
 
-**Track:** AI Content Factories  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lacak:** Pabrik Konten AI
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Most solopreneurs and content agencies handle video creation as an ad-hoc craft. They write a line, open an image generator to test it, write another line, record a voice clip, import it into an editor, and tweak it. This constant context-shifting causes extreme decision fatigue and wastes hours. A single 60-second video can take an entire afternoon to produce. 
+Kebanyakan solopreneur dan agensi konten menangani pembuatan video sebagai kerajinan ad-hoc. Mereka menulis sebuah baris, membuka generator gambar untuk mengujinya, menulis baris lain, merekam klip suara, mengimpornya ke editor, dan mengubahnya. Pergeseran konteks yang terus-menerus ini menyebabkan kelelahan pengambilan keputusan yang ekstrem dan membuang-buang waktu. Pembuatan satu video berdurasi 60 detik membutuhkan waktu sepanjang sore.
 
-If you are selling content production as a service, this speed is a business-killer. If you charge $50 per video and spend 4 hours creating it, you are working for $12.50 an hour. 
+Jika Anda menjual produksi konten sebagai sebuah layanan, kecepatan ini adalah pembunuh bisnis. Jika Anda mengenakan biaya $50 per video dan menghabiskan 4 jam untuk membuatnya, Anda bekerja dengan upah $12,50 per jam.
 
-To turn a profit, you must run your production like an assembly line: separating the process into discrete, linear **stations** where assets flow unidirectionally from ideation to final scheduling without ever moving backward.
+Untuk menghasilkan keuntungan, Anda harus menjalankan produksi seperti jalur perakitan: memisahkan proses menjadi **stasiun** linier yang terpisah, tempat aset mengalir searah dari ide hingga penjadwalan akhir tanpa pernah bergerak mundur.
 
-## The Concept
+## Konsep
 
-The core principle of a content factory is the **Linear Production Pipeline**:
+Prinsip inti pabrik konten adalah **Jalur Produksi Linier**:
 
 ```
 Idea  ──►  Script  ──►  Voiceover  ──►  Visuals  ──►  Assembly  ──►  Polish  ──►  Schedule
 ```
 
-By organizing your work into stations, you achieve:
-* **Unidirectional Flow:** You never write or modify a script *after* voiceover generation is complete. You never generate new visual assets *after* editing is complete. Work only moves forward through the pipeline — never backward.
-* **Station Specialization:** Each stage has strict input and output criteria, preventing unfinished work from clogging down-line editors.
-* **Standardized Deliverables:** Export files are checked against strict technical parameters (resolution, codecs, audio thresholds) before delivery to avoid revisions.
+Dengan mengatur pekerjaan Anda ke dalam stasiun, Anda mencapai:
+* **Aliran Searah:** Anda tidak pernah menulis atau mengubah skrip *setelah* pembuatan sulih suara selesai. Anda tidak pernah membuat aset visual baru *setelah* pengeditan selesai. Pekerjaan hanya bergerak maju melalui jalur pipa – tidak pernah mundur.
+* **Spesialisasi Stasiun:** Setiap tahapan memiliki kriteria input dan output yang ketat, sehingga pekerjaan yang belum selesai dapat mencegah penyumbat down-line editor.
+* **Hasil yang Distandarkan:** File ekspor diperiksa berdasarkan parameter teknis yang ketat (resolusi, codec, ambang batas audio) sebelum dikirim untuk menghindari revisi.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Set Up Your Factory Folders
-On your hard drive, create a folder template that mirrors the pipeline station structure:
+### Langkah 1: Siapkan Folder Pabrik Anda
+Di hard drive Anda, buat templat folder yang mencerminkan struktur stasiun pipa:
 ```
 [Factory_Batch_01]/
 ├── 01_scripts/     # Locked script drafts
@@ -42,82 +42,82 @@ On your hard drive, create a folder template that mirrors the pipeline station s
 └── 05_exports/     # Completed masters checked against specs
 ```
 
-### Step 2: Station 1 & 2 (Script Lock)
-Draft the batch scripts. Ensure they meet the strict word count restrictions (under 180 words for short-form) and follow the hook structures. Lock the scripts.
+### Langkah 2: Stasiun 1 & 2 (Kunci Skrip)
+Draf skrip batch. Pastikan mereka memenuhi batasan jumlah kata yang ketat (di bawah 180 kata untuk bentuk pendek) dan ikuti struktur pengait. Kunci skripnya.
 
-### Step 3: Station 3 & 4 (Audio Spine)
-Batch-generate the voiceover audio files. Import them into your project folder. Cut out starting and trailing silences. Log their durations in your narration log template.
+### Langkah 3: Stasiun 3 & 4 (Audio Spine)
+Hasilkan file audio sulih suara secara batch. Impor ke folder proyek Anda. Hentikan keheningan awal dan akhir. Catat durasinya di templat log narasi Anda.
 
-### Step 4: Station 5 (Visual Harvest)
-Generate or download the background visuals matching the logged audio timeline. Do not open the video editor yet. Keep visuals organized in subfolders by video number.
+### Langkah 4: Stasiun 5 (Panen Visual)
+Hasilkan atau unduh visual latar belakang yang cocok dengan garis waktu audio yang dicatat. Jangan buka editor video dulu. Atur visual dalam subfolder berdasarkan nomor video.
 
-### Step 5: Station 6 & 7 (Timeline Edit & Polish)
-Import all assets. Cut the visual clips to the exact audio milestones. Apply text caption templates and LUT color profiles. 
+### Langkah 5: Stasiun 6 & 7 (Edit Garis Waktu & Poles)
+Impor semua aset. Potong klip visual ke pencapaian audio yang tepat. Terapkan templat keterangan teks dan profil warna LUT.
 
-### Step 6: Station 8 (Specs Check & Export)
-Before exporting, run through the [`templates/asset-specs-checklist.md`](templates/asset-specs-checklist.md). Verify that:
-* Aspect ratio is correct (`9:16` for vertical, `16:9` for widescreen).
-* Peak audio volume sits at **-3dB** to **-1dB**.
-* The file name contains the primary target keyword.
+### Langkah 6: Stasiun 8 (Pemeriksaan & Ekspor Spesifikasi)
+Sebelum mengekspor, jalankan melalui [`templates/asset-specs-checklist.md`](templates/asset-specs-checklist.md). Verifikasi bahwa:
+* Rasio aspek sudah benar (`9:16` untuk vertikal, `16:9` untuk layar lebar).
+* Volume audio puncak berada pada **-3dB** hingga **-1dB**.
+* Nama file berisi kata kunci target utama.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/content-factory-studio.jpg" alt="Content Studio" width="280">
-<img src="templates/examples/content-factory-studio-clip.gif" alt="Automated Factory Motion (I2V)" width="280">
+<img src="template/examples/content-factory-studio.jpg" alt="Content Studio" width="280">
+<img src="templates/examples/content-factory-studio-clip.gif" alt="Gerakan Pabrik Otomatis (I2V)" width="280">
 </p>
 <p align="center"><sub>Automated Content Studio Image (Left) ──► Image-to-Video Factory Motion (Right) · Video File: <a href="templates/examples/content-factory-studio-clip.mp4">templates/examples/content-factory-studio-clip.mp4</a></sub></p>
 
-**Pipeline Run: "AI in Retail" Explainer (Widescreen)**
+**Pelaksanaan Pipeline: Penjelasan "AI dalam Ritel" (Layar Lebar)**
 
 
 
-* **Station 1 (Idea):** Angle chosen: *"How physical grocery stores use AI cameras to count inventory."* (Time spent: **2 mins**).
-* **Station 2 (Script):** Drafted a 140-word narrative structure. (Time spent: **6 mins**).
-* **Station 3 (Voice):** Fed script into ElevenLabs using a warm narration voice profile. (Time spent: **3 mins**).
-* **Station 4 (Visuals):** Generated 4 widescreen background clips of high-tech grocery stores using `nano-banana-2` and `seedance-2`. (Time spent: **8 mins**).
-* **Station 5 (Edit & Polish):** Synced visual cuts to the audio spine, added text captions, applied a cinematic color LUT. (Time spent: **10 mins**).
-* **Station 6 (Export check):** Verified audio levels and H.264 export settings. (Time spent: **2 mins**).
+* **Stasiun 1 (Ide):** Sudut yang dipilih: *"Bagaimana toko kelontong fisik menggunakan kamera AI untuk menghitung inventaris."* (Waktu yang dihabiskan: **2 menit**).
+* **Stasiun 2 (Skrip):** Menyusun struktur narasi 140 kata. (Waktu yang dihabiskan: **6 menit**).
+* **Stasiun 3 (Suara):** Memasukkan skrip ke ElevenLabs menggunakan profil suara narasi yang hangat. (Waktu yang dihabiskan: **3 menit**).
+* **Stasiun 4 (Visual):** Menghasilkan 4 klip latar belakang layar lebar dari toko kelontong berteknologi tinggi menggunakan `nano-banana-2` dan `seedance-2`. (Waktu yang dihabiskan: **8 menit**).
+* **Stasiun 5 (Edit & Poles):** Pemotongan visual yang disinkronkan ke tulang belakang audio, menambahkan keterangan teks, menerapkan LUT warna sinematik. (Waktu yang dihabiskan: **10 menit**).
+* **Stasiun 6 (Pemeriksaan ekspor):** Level audio terverifikasi dan setelan ekspor H.264. (Waktu yang dihabiskan: **2 menit**).
 
-**Total Production Time:** **31 minutes** from blank page to finished export.
+**Total Waktu Produksi:** **31 menit** dari halaman kosong hingga ekspor selesai.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Production Method | Speed | Output Quality | Best for |
+| Metode Produksi | Kecepatan | Kualitas Keluaran | Terbaik untuk |
 |---|---|---|---|
-| **Manual CapCut Editing** | Medium (30 mins/video) | High (Highly custom captions, custom transitions) | Professional client deliverables and premium channels. |
-| **Programmatic Rendering** (`AI-Youtube-Shorts-Generator`) | Fast (5 mins/video) | Medium (Generic template overlays and stock clips) | Mass-producing faceless channels and placeholder video networks. |
-| **Traditional Editors** (Premiere/DaVinci) | Slow (60+ mins/video) | Ultra-High (Unrestricted color grading, advanced audio mixing) | Cinema-grade corporate videos and long-form explainers. |
+| **Pengeditan CapCut Manual** | Sedang (30 menit/video) | Tinggi (Teks yang sangat khusus, transisi khusus) | Hasil kerja klien profesional dan saluran premium. |
+| **Rendering Terprogram** (`AI-Youtube-Shorts-Generator`) | Cepat (5 menit/video) | Sedang (Hamparan templat umum dan klip stok) | Saluran tanpa wajah dan jaringan video placeholder yang diproduksi secara massal. |
+| **Editor Tradisional** (Premiere/DaVinci) | Lambat (60+ mnt/video) | Ultra-Tinggi (Penilaian warna tidak terbatas, pencampuran audio tingkat lanjut) | Video korporat tingkat bioskop dan penjelasan berdurasi panjang. |
 
-For agency-scale output, CapCut is the standard tool because of its fast rendering times and auto-caption capabilities. When scaling beyond 3 channels, use programmatic generators like `AI-Youtube-Shorts-Generator` to handle bulk rendering.
-
----
-
-## Launch It
-
-**How to monetize this system:**
-* **Pipeline Audit Service:** Pitch local businesses that are struggling to produce content. Audit their current workflow and design a custom production flowchart for them for **$500–$1,000**.
-* **Content Sourcing Outsourcing:** Scale your factory by hiring cheap freelance virtual assistants to manage specific stations (e.g. Station 5: Visual Sourcing, or Station 3: Audio Generation) while you handle Station 2 (Scripting) and Station 6 (Editing).
+Untuk keluaran skala agensi, CapCut adalah alat standar karena waktu rendering yang cepat dan kemampuan teks otomatis. Saat menskalakan lebih dari 3 saluran, gunakan generator terprogram seperti `AI-Youtube-Shorts-Generator` untuk menangani rendering massal.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Set up a clean factory folder structure on your local drive. Organize a mock set of audio and visual files inside.
-2. **Medium:** Document your current content creation workflow step-by-step. Identify the points where you move backwards in the pipeline, and rewrite your process as a strict unidirectional flow.
-3. **Hard:** Complete a full 60-second video build using a stopwatch. Track the exact time spent at each of the 6 stations. Highlight the slowest station and write a plan to optimize it.
-
----
-
-## Templates
-
-* [`templates/pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) — a layout diagram and audit sheet for pipeline stations.
-* [`templates/asset-specs-checklist.md`](templates/asset-specs-checklist.md) — export checklist for resolution, codecs, and safe zones.
+**Cara memonetisasi sistem ini:**
+* **Layanan Audit Pipeline:** Promosikan bisnis lokal yang kesulitan memproduksi konten. Audit alur kerja mereka saat ini dan rancang diagram alur produksi khusus untuk mereka dengan biaya **$500–$1.000**.
+* **Pengalihdayaan Sumber Konten:** Skalakan pabrik Anda dengan menyewa asisten virtual lepas yang murah untuk mengelola stasiun tertentu (misalnya Stasiun 5: Sumber Visual, atau Stasiun 3: Pembuatan Audio) saat Anda menangani Stasiun 2 (Pembuatan Skrip) dan Stasiun 6 (Pengeditan).
 
 ---
 
-[← Track overview](README.md) · Next: [Building a TikTok/Reels Factory →](02-tiktok-reels-factory.md)
+## Latihan
+
+1. **Mudah:** Siapkan struktur folder pabrik yang bersih di drive lokal Anda. Atur kumpulan file audio dan visual tiruan di dalamnya.
+2. **Media:** Dokumentasikan alur kerja pembuatan konten Anda saat ini selangkah demi selangkah. Identifikasi titik di mana Anda bergerak mundur dalam alur, dan tulis ulang proses Anda sebagai aliran searah yang ketat.
+3. **Sulit:** Menyelesaikan pembuatan video berdurasi 60 detik penuh menggunakan stopwatch. Lacak waktu persis yang dihabiskan di masing-masing dari 6 stasiun. Sorot stasiun paling lambat dan tulis rencana untuk mengoptimalkannya.
+
+---
+
+## Templat
+
+* [`templates/pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) — diagram tata letak dan lembar audit untuk stasiun pipa.
+* [`templates/asset-specs-checklist.md`](templates/asset-specs-checklist.md) — ekspor daftar periksa untuk resolusi, codec, dan zona aman.
+
+---
+
+[← Track overview](README.md) · Berikutnya: [Building a TikTok/Reels Factory →](02-tiktok-reels-factory.md)

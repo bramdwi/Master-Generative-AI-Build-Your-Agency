@@ -1,70 +1,70 @@
-# Storyboarding & Shot Planning
+# Pembuatan Storyboard & Perencanaan Pengambilan Gambar
 
-> A storyboard is the blueprint that stops you from burning credits on random video generations.
+> Papan cerita adalah cetak biru yang menghentikan Anda membakar kredit pada pembuatan video secara acak.
 
-**Track:** AI Filmmaking  
-**Time:** ~40 minutes  
-**Prerequisites:** Screenplay & Story Generation  
+**Lagu:** Pembuatan Film AI
+**Waktu:** ~40 menit
+**Prasyarat:** Skenario & Pembuatan Cerita
 
-## The Problem
+## Masalahnya
 
-Generating video clips directly from text prompts is a gamble. AI video models are expensive, slow to render, and highly unpredictable. If you type a prompt like `"A spaceship interior, John walking towards the door"` into a video generator, you might get a great shot, but John’s outfit might be blue, the room might be brightly lit, and the camera angle might be from the ceiling. If you run it again, John's face and clothes will change completely.
+Menghasilkan klip video langsung dari perintah teks adalah sebuah pertaruhan. Model video AI mahal, proses renderingnya lambat, dan sangat tidak dapat diprediksi. Jika Anda mengetikkan perintah seperti `"A spaceship interior, John walking towards the door"` ke dalam generator video, Anda mungkin mendapatkan gambar yang bagus, namun pakaian John mungkin berwarna biru, ruangan mungkin terang benderang, dan sudut kamera mungkin dari langit-langit. Jika dijalankan lagi, wajah dan pakaian John akan berubah total.
 
-If you generate 20 video clips this way, you will end up with a collection of disjointed footage that looks like it belongs to 20 different movies. You will have wasted dozens of dollars in rendering credits and hours of waiting time.
+Jika Anda menghasilkan 20 klip video dengan cara ini, Anda akan mendapatkan kumpulan rekaman terputus-putus yang terlihat seperti milik 20 film berbeda. Anda akan membuang puluhan dolar untuk memberikan kredit dan menunggu berjam-jam.
 
-To make a coherent film, you need to establish visual continuity — lighting, color palette, camera framing, and character wardrobe — **before** you render a single frame of video. Storyboarding is the gatekeeper that locks down these elements at a fraction of the cost.
+Untuk membuat film yang koheren, Anda perlu membangun kesinambungan visual — pencahayaan, palet warna, framing kamera, dan pemilihan karakter — **sebelum** Anda merender satu frame video. Storyboard adalah penjaga gerbang yang mengunci elemen-elemen ini dengan biaya yang lebih murah.
 
-## The Concept
+## Konsep
 
-Storyboarding for AI filmmaking is the process of generating a sequence of static images that represent the key shots of your film. 
+Storyboarding untuk pembuatan film AI adalah proses menghasilkan rangkaian gambar statis yang mewakili pengambilan gambar utama film Anda.
 
-By using high-quality image models (like Flux or Midjourney) instead of video models, you can rapidly test style, composition, and consistency. These static storyboard frames then act as the **start-frame input** for your image-to-video generator.
+Dengan menggunakan model gambar berkualitas tinggi (seperti Flux atau Midjourney) alih-alih model video, Anda dapat dengan cepat menguji gaya, komposisi, dan konsistensi. Bingkai storyboard statis ini kemudian bertindak sebagai **input bingkai awal** untuk generator gambar-ke-video Anda.
 
 ```
 Visual Style Guide → Character Anchor → Storyboard Images → Image-to-Video
 ```
 
-To maintain visual consistency across your storyboard, you rely on a **Style Guide** containing:
-* **Style Prefix:** A standard set of visual descriptors (film stock, lighting, lens) added to every prompt.
-* **Aspect Ratio:** Fixed layout matching your target screen format.
-* **Character Reference:** A locked-in seed image of your character fed back into the model to maintain facial details.
+Untuk menjaga konsistensi visual di seluruh storyboard, Anda mengandalkan **Panduan Gaya** yang berisi:
+* **Awalan Gaya:** Serangkaian deskriptor visual standar (stok film, pencahayaan, lensa) ditambahkan ke setiap perintah.
+* **Rasio Aspek:** Memperbaiki tata letak yang sesuai dengan format layar target Anda.
+* **Referensi Karakter:** Gambar awal karakter Anda yang terkunci dimasukkan kembali ke dalam model untuk mempertahankan detail wajah.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Create the Visual Style Guide
-Define your aesthetic parameters using the [`templates/style-guide-template.md`](templates/style-guide-template.md). Lock in your film stock (e.g. `35mm film grain`), your color palette (e.g. `teal shadows, warm amber highlights`), and your camera aspect ratio (e.g. `--ar 16:9`).
+### Langkah 1: Buat Panduan Gaya Visual
+Tentukan parameter estetika Anda menggunakan [`templates/style-guide-template.md`](templates/style-guide-template.md). Kunci stok film Anda (misalnya `35mm film grain`), palet warna Anda (misalnya `teal shadows, warm amber highlights`), dan rasio aspek kamera Anda (misalnya `--ar 16:9`).
 
-### Step 2: Establish the Character Anchor Image
-Before drafting scenes, generate your character's "hero portrait." 
-* Write a detailed prompt describing the character's face, hair, age, and a specific wardrobe element (e.g., `"A worn silver flight suit with a red shoulder patch"`).
-* Generate this image using a high-quality model.
-* Save the best image. This is your **Character Reference Image (Cref)**.
+### Langkah 2: Tetapkan Gambar Jangkar Karakter
+Sebelum menyusun adegan, buatlah "potret pahlawan" karakter Anda.
+* Tulis prompt mendetail yang menjelaskan wajah karakter, rambut, usia, dan elemen pakaian tertentu (misalnya, `"A worn silver flight suit with a red shoulder patch"`).
+* Hasilkan gambar ini menggunakan model berkualitas tinggi.
+* Simpan gambar terbaik. Ini adalah **Gambar Referensi Karakter (Cref)** Anda.
 
-### Step 3: Generate the Storyboard Frames
-For each shot in your screenplay, generate the static frame.
-* Start each prompt with your **Style Prefix**.
-* Describe the framing (Wide Shot, Medium Shot, Close-up).
-* Reference your Character Anchor Image using the model's image-to-image or character reference capabilities.
-* Keep the scene seed constant if the model supports it, varying only the framing and character posture.
+### Langkah 3: Hasilkan Bingkai Storyboard
+Untuk setiap pengambilan gambar dalam skenario Anda, buat bingkai statis.
+* Mulai setiap perintah dengan **Awalan Gaya** Anda.
+* Jelaskan pembingkaiannya (Pemotretan Lebar, Pemotretan Sedang, Close-up).
+* Referensikan Gambar Jangkar Karakter Anda menggunakan kemampuan referensi gambar-ke-gambar atau karakter model.
+* Jaga agar benih adegan tetap konstan jika model mendukungnya, dengan hanya memvariasikan framing dan postur karakter.
 
-### Step 4: Build the Shot List
-Log each generated frame into your [`templates/shot-list-template.md`](templates/shot-list-template.md). Note the camera framing, target action, dialogue line, and the file path of the approved static storyboard image.
+### Langkah 4: Buat Daftar Pemotretan
+Catat setiap frame yang dihasilkan ke [`templates/shot-list-template.md`](templates/shot-list-template.md) Anda. Catat pembingkaian kamera, tindakan target, baris dialog, dan jalur file gambar storyboard statis yang disetujui.
 
-### Step 5: Check for Visual Continuity
-Place the storyboard frames next to each other. Do a drift check:
-* Does the character’s hair or outfit shift significantly between cuts?
-* Does the environment’s lighting change color temperature?
-* If yes, re-render the drifting frames, tightening the text prompts to override the changes.
+### Langkah 5: Periksa Kontinuitas Visual
+Tempatkan bingkai storyboard bersebelahan. Lakukan pemeriksaan penyimpangan:
+* Apakah rambut atau pakaian karakter berubah secara signifikan saat dipotong?
+* Apakah pencahayaan lingkungan mengubah suhu warna?
+* Jika ya, render ulang frame yang melayang, perketat teks yang diminta untuk mengesampingkan perubahan.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
-**Storyboard Script & Scene Breakdown for "The Last Signal" (Scene 1)**
+**Skrip Papan Cerita & Perincian Adegan untuk "The Last Signal" (Adegan 1)**
 
-Below is the screenplay script excerpt for Scene 1 and its corresponding 3-shot AI storyboard breakdown:
+Di bawah ini adalah cuplikan skrip skenario untuk Adegan 1 dan rincian storyboard AI 3-shot yang terkait:
 
 ```markdown
 SCENE 1: INT. SPACESHIP COCKPIT - NIGHT
@@ -79,80 +79,80 @@ Day 412. Still no response from deep space relay Theta. If anyone is listening..
 The overhead monitor flickers aggressively before flashing stark green text: NO SIGNAL.
 ```
 
-### Storyboard Shot List & Visual Examples
+### Daftar Gambar Storyboard & Contoh Visual
 
-#### Shot 1: Wide Establishing Shot (WS)
+#### Bidikan 1: Bidikan Penetapan Lebar (WS)
 <p align="center">
-<img src="templates/examples/storyboard-shot1-wide.jpg" alt="Shot 1 Wide Establishing Shot" width="480">
+<img src="templates/examples/storyboard-shot1-wide.jpg" alt="Bidikan 1 Bidikan Pembentuk Lebar" width="480">
 </p>
-> **Prompt:** `"Cinematic 35mm film photograph, establishing wide shot of a cramped spaceship cockpit. glowing green control panels line the curved metallic walls. Muted teal lighting with deep shadows. No characters. Widescreen, highly detailed."` 
+> **Permintaan:** `"Cinematic 35mm film photograph, establishing wide shot of a cramped spaceship cockpit. glowing green control panels line the curved metallic walls. Muted teal lighting with deep shadows. No characters. Widescreen, highly detailed."`
 
-#### Shot 2: Medium Shot (MS - Character Intro)
+#### Bidikan 2: Bidikan Sedang (MS - Intro Karakter)
 <p align="center">
-<img src="templates/examples/storyboard-shot2-medium.jpg" alt="Shot 2 Medium Character Intro" width="480">
+<img src="templates/examples/storyboard-shot2-medium.jpg" alt="Intro Karakter Sedang Shot 2" width="480">
 </p>
-> **Prompt:** `"Cinematic 35mm film photograph, medium shot of a tired astronaut (40s, short gray hair, stubble, wearing a worn silver flight suit) sitting in a pilot seat inside a spaceship cockpit. Cool blue light illuminates his face, glowing green control panels out of focus in the background. Widescreen."` *(Reference Image: Character Anchor)* 
+> **Permintaan:** `"Cinematic 35mm film photograph, medium shot of a tired astronaut (40s, short gray hair, stubble, wearing a worn silver flight suit) sitting in a pilot seat inside a spaceship cockpit. Cool blue light illuminates his face, glowing green control panels out of focus in the background. Widescreen."` *(Gambar Referensi: Jangkar Karakter)*
 
-#### Shot 3: Close-up (CU - Prop Detail Shot)
+#### Bidikan 3: Jarak Dekat (CU - Bidikan Detail Alat Peraga)
 <p align="center">
-<img src="templates/examples/storyboard-shot3-closeup.jpg" alt="Shot 3 Close-up CRT Monitor" width="480">
+<img src="templates/examples/storyboard-shot3-closeup.jpg" alt="Pemotretan 3 Monitor CRT Jarak Dekat" width="480">
 </p>
-> **Prompt:** `"Cinematic 35mm film photograph, extreme close-up of a dusty CRT monitor screen showing static and a flashing green text reading 'NO SIGNAL'. Widescreen."` 
+> **Permintaan:** `"Cinematic 35mm film photograph, extreme close-up of a dusty CRT monitor screen showing static and a flashing green text reading 'NO SIGNAL'. Widescreen."`
 
-#### Shot 4: Image-to-Video Motion Animation (I2V)
+#### Bidikan 4: Animasi Gerakan Gambar-ke-Video (I2V)
 <p align="center">
-<img src="templates/examples/storyboard-shot1-wide.jpg" alt="Shot 1 Wide Static Frame" width="240">
-<img src="templates/examples/storyboard-anim-clip.gif" alt="Animated Storyboard Sequence (I2V)" width="240">
+<img src="templates/examples/storyboard-shot1-wide.jpg" alt="Memotret 1 Bingkai Statis Lebar" width="240">
+<img src="templates/examples/storyboard-anim-clip.gif" alt="Urutan Storyboard Animasi (I2V)" width="240">
 </p>
 <p align="center"><sub>Static Storyboard Frame (Left) ──► Image-to-Video Motion Animation (Right) · Video File: <a href="templates/examples/storyboard-anim-clip.mp4">templates/examples/storyboard-anim-clip.mp4</a></sub></p>
 
-**Why this sequence works:**
-* The Wide shot sets the space.
-* The Medium shot introduces the astronaut using the character anchor reference image to lock his face.
-* The Close-up shot focuses on a prop. Props don't have facial drift issues, making them excellent transition shots.
-* All three prompts share the prefix `"Cinematic 35mm film photograph"` and reference the cockpit's glowing green panels, ensuring color continuity.
+**Mengapa urutan ini berhasil:**
+* Bidikan Lebar menentukan ruang.
+* Bidikan Medium memperkenalkan astronot yang menggunakan gambar referensi jangkar karakter untuk mengunci wajahnya.
+* Bidikan Close-up berfokus pada sebuah alat peraga. Alat peraga tidak memiliki masalah penyimpangan wajah, menjadikannya bidikan transisi yang sangat baik.
+* Ketiga petunjuk tersebut memiliki awalan `"Cinematic 35mm film photograph"` yang sama dan merujuk pada panel hijau menyala di kokpit, sehingga memastikan kesinambungan warna.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Path / Tool | Cost basis | Consistency | Best for |
+| Jalur / Alat | Dasar biaya | Konsistensi | Terbaik untuk |
 |---|---|---|---|
-| **Flux 1.1 / Midjourney v6** (via muapi) | Low (~$0.01 to $0.06 per image generation) | Very High — support image-to-image, style referencing, and seed control | Rapid storyboard iteration and character styling |
-| **Specialized Storyboard Software (GUI)** | Subscription-based | Low — generic sketch styles, lacks photo-realistic AI rendering | Traditional hand-drawn boards, not optimized for AI filmmaking |
-| **Local ComfyUI (Flux/SDXL)** | Free after GPU investment | Extremely High — custom ControlNet, IP-Adapter, and local LoRA loading | Advanced creators who want pixel-level layout control and zero generation costs |
+| **Flux 1.1 / Midjourney v6** (melalui muapi) | Rendah (~$0,01 hingga $0,06 per pembuatan gambar) | Sangat Tinggi — mendukung gambar-ke-gambar, referensi gaya, dan kontrol benih | Iterasi papan cerita yang cepat dan penataan karakter |
+| **Perangkat Lunak Storyboard Khusus (GUI)** | Berbasis langganan | Rendah — gaya sketsa umum, tidak memiliki rendering AI foto-realistis | Papan gambar tangan tradisional, tidak dioptimalkan untuk pembuatan film AI |
+| **UI Nyaman Lokal (Flux/SDXL)** | Gratis setelah investasi GPU | Sangat Tinggi — ControlNet khusus, Adaptor IP, dan pemuatan LoRA lokal | Pembuat konten tingkat lanjut yang menginginkan kontrol tata letak tingkat piksel dan biaya pembuatan nol |
 
-General-purpose image generation APIs (like Flux/Midjourney) are the best choice for storyboarding. They are cheap enough to run dozens of variations until you get the perfect layout, which you can then pass to video generators.
-
----
-
-## Launch It
-
-**How to monetize this skill:**
-* **Visual Storyboarding Services:** Pitch ad agencies or independent directors who need visual storyboards for their pitches. Standard storyboard rates are **$150–$400** per storyboard deck (10-15 frames). Focus your pitch on the speed of delivery (24-hour turnaround vs. 5 days for a manual artist).
-* **Pitch Deck Creator:** Package storyboards, mood boards, and script concepts into a cinematic "Pitch Deck" that indie filmmakers use to secure funding or sponsors. Price this package at **$300–$800**.
-
-**Where to find clients:**
-Film freeway, director forums, Upwork, and production agency directories. Cold email local video production agencies offering a "free 3-frame storyboard sample" for one of their upcoming pitches.
+API pembuatan gambar tujuan umum (seperti Flux/Midjourney) adalah pilihan terbaik untuk storyboard. Mereka cukup murah untuk menjalankan lusinan variasi hingga Anda mendapatkan tata letak yang sempurna, yang kemudian dapat Anda teruskan ke generator video.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Create a Visual Style Guide for a neo-noir film set in a rainy city, detailing colors, lighting styles, and negative prompts.
-2. **Medium:** Generate 3 storyboard images (WS, MS, CU) for a character sitting at a park bench at golden hour, maintaining character and color consistency across all 3 shots.
-3. **Hard:** Set up a storyboard sequence where a character moves from an indoor location (warm lighting) to an outdoor location (cool daylight). Write the transition prompts to show how the light changes on their face while keeping the character's clothing and identity locked.
+**Cara memonetisasi keterampilan ini:**
+* **Layanan Storyboard Visual:** Promosikan biro iklan atau sutradara independen yang membutuhkan storyboard visual untuk promosi mereka. Tarif storyboard standar adalah **$150–$400** per dek storyboard (10-15 frame). Fokuskan promosi Anda pada kecepatan pengiriman (perputaran 24 jam vs. 5 hari untuk artis manual).
+* **Pitch Deck Creator:** Kemas storyboard, mood board, dan konsep naskah ke dalam "Pitch Deck" sinematik yang digunakan pembuat film indie untuk mendapatkan pendanaan atau sponsor. Harga paket ini **$300–$800**.
 
----
-
-## Templates
-
-Reusable template(s) this module produces:
-
-* [`templates/storyboard-script-template.md`](templates/storyboard-script-template.md) — a breakdown template for structuring AI storyboard shots and Image-to-Video prompts.
-* [`templates/shot-list-template.md`](templates/shot-list-template.md) — a tracker for logging frames, camera framings, and prompts.
-* [`templates/style-guide-template.md`](templates/style-guide-template.md) — a template to lock in your film's prompt prefixes, aspect ratios, and color palette.
+**Di mana menemukan klien:**
+Jalan bebas hambatan film, forum sutradara, Upwork, dan direktori agensi produksi. Kirim email dingin ke agensi produksi video lokal yang menawarkan "sampel papan cerita 3 bingkai gratis" untuk salah satu promosi mereka yang akan datang.
 
 ---
 
-[← Screenplay & Story Generation](01-screenplay-and-story.md) · Next: [Camera Movement & Cinematography Prompts →](03-camera-movement.md)
+## Latihan
+
+1. **Mudah:** Buat Panduan Gaya Visual untuk film neo-noir yang berlatar kota hujan, dengan merinci warna, gaya pencahayaan, dan petunjuk negatif.
+2. **Sedang:** Menghasilkan 3 gambar papan cerita (WS, MS, CU) untuk karakter yang duduk di bangku taman pada jam emas, menjaga konsistensi karakter dan warna di ketiga pengambilan gambar.
+3. **Sulit:** Siapkan urutan storyboard di mana karakter berpindah dari lokasi dalam ruangan (pencahayaan hangat) ke lokasi luar ruangan (siang hari sejuk). Tulis petunjuk transisi untuk menunjukkan bagaimana cahaya berubah di wajah mereka sambil menjaga pakaian dan identitas karakter tetap terkunci.
+
+---
+
+## Templat
+
+Templat yang dapat digunakan kembali yang dihasilkan modul ini:
+
+* [`templates/storyboard-script-template.md`](templates/storyboard-script-template.md) — templat perincian untuk menyusun pengambilan gambar storyboard AI dan perintah Gambar-ke-Video.
+* [`templates/shot-list-template.md`](templates/shot-list-template.md) — pelacak untuk mencatat bingkai, bingkai kamera, dan petunjuknya.
+* [`templates/style-guide-template.md`](templates/style-guide-template.md) — templat untuk mengunci awalan cepat, rasio aspek, dan palet warna film Anda.
+
+---
+
+[← Screenplay & Story Generation](01-screenplay-and-story.md) · Berikutnya: [Camera Movement & Cinematography Prompts →](03-camera-movement.md)

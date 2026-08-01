@@ -1,42 +1,42 @@
-# Headshot Quality Assurance & Client Delivery Checklist
+# Jaminan Kualitas Headshot & Daftar Periksa Pengiriman Klien
 
-Use this checklist to perform quality control inspection before sending final headshot deliverables to corporate and individual clients.
-
----
-
-## 🔍 Quality Assurance Inspection Checklist
-
-### 1. Facial Identity & Expression
-- [ ] **Feature Precision:** Eyebrows, nose bridge, jawline, and eye spacing match source selfies.
-- [ ] **Symmetry & Pupils:** Pupil catchlights are round and eyes align naturally without cross-eye distortion.
-- [ ] **Teeth & Smile:** Smiles feature clean, natural tooth structure without extra/missing teeth.
-
-### 2. Skin Texture & Micro-Details
-- [ ] **Pore Preservation:** Skin exhibits natural pores, fine lines, and authentic texture (no plastic/wax smoothing).
-- [ ] **Lighting Consistency:** Highlights and shadows match the direction of the key light.
-- [ ] **Ear & Hair Geometry:** Hairlines and ear lobes are sharp without blurry morphing into the background.
-
-### 3. Wardrobe & Background Alignment
-- [ ] **Clothing Alignment:** Collars, suit lapels, and ties align symmetrically with the shoulders.
-- [ ] **Background Consistency:** Background bokeh gradient matches company brand guidelines.
+Gunakan daftar periksa ini untuk melakukan pemeriksaan kontrol kualitas sebelum mengirimkan hasil akhir foto kepala ke klien korporat dan individu.
 
 ---
 
-## 📦 Resolution & Format Export Standards
+## 🔍 Daftar Periksa Pemeriksaan Penjaminan Mutu
 
-Deliver each employee portrait in 3 pre-configured image packages:
+### 1. Identitas & Ekspresi Wajah
+- [ ] **Presisi Fitur:** Alis, batang hidung, garis rahang, dan jarak mata cocok dengan sumber selfie.
+- [ ] **Simetri & Pupil:** Lampu tangkapan pupil berbentuk bulat dan mata sejajar secara alami tanpa distorsi juling.
+- [ ] **Gigi & Senyuman:** Senyum menampilkan struktur gigi yang bersih dan alami tanpa gigi tambahan/hilang.
 
-| Deliverable Type | Dimensions | Resolution | Aspect Ratio | Target Use Case |
+### 2. Tekstur Kulit & Detail Mikro
+- [ ] **Pelestarian Pori-pori:** Kulit menunjukkan pori-pori alami, garis-garis halus, dan tekstur asli (tanpa penghalusan plastik/lilin).
+- [ ] **Konsistensi Pencahayaan:** Sorotan dan bayangan sesuai dengan arah lampu utama.
+- [ ] **Geometri Telinga & Rambut:** Garis rambut dan cuping telinga terlihat tajam tanpa berubah menjadi latar belakang yang buram.
+
+### 3. Penyelarasan Lemari Pakaian & Latar Belakang
+- [ ] **Penyelarasan Pakaian:** Kerah, kerah jas, dan dasi sejajar secara simetris dengan bahu.
+- [ ] **Konsistensi Latar Belakang:** Gradien bokeh latar belakang sesuai dengan pedoman merek perusahaan.
+
+---
+
+## 📦 Resolusi & Format Standar Ekspor
+
+Kirimkan potret setiap karyawan dalam 3 paket gambar yang telah dikonfigurasi sebelumnya:
+
+| Jenis Pengiriman | Dimensi | Resolusi | Rasio Aspek | Kasus Penggunaan Target |
 |---|---|---|---|---|
-| **LinkedIn / Slack Avatar** | 1080 × 1080 px | 72 DPI | 1:1 Square | Social profiles, Slack, Zoom |
-| **Website Team Page** | 2400 × 3000 px | 150 DPI | 4:5 Portrait | Corporate website, about us page |
-| **High-Res Print & Press** | 4000 × 5000 px | 300 DPI | 4:5 Portrait | Annual reports, keynote banners, press releases |
+| **Avatar LinkedIn / Slack** | 1080 × 1080 piksel | 72DPI | 1:1 Kotak | Profil sosial, Slack, Zoom |
+| **Halaman Tim Situs Web** | 2400 × 3000 piksel | 150DPI | 4:5 Potret | Situs web perusahaan, halaman tentang kami |
+| **Cetak & Tekan Resolusi Tinggi** | 4000 × 5000 piksel | 300DPI | 4:5 Potret | Laporan tahunan, spanduk utama, siaran pers |
 
 ---
 
-## 📁 Delivery Folder Structure Standard
+## 📁 Standar Struktur Folder Pengiriman
 
-Structure client deliverable zip files cleanly:
+Susun file zip yang dapat dikirimkan klien dengan rapi:
 
 ```
 Company_Headshots_Package.zip

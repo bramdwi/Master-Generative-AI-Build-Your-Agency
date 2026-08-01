@@ -1,105 +1,105 @@
-# Designing Sellable AI Art for Merch
+# Merancang Seni AI yang Dapat Dijual untuk Merchandise
 
-> Transform AI art generations into high-resolution, vector-crisp graphics ready for direct-to-garment (DTG) printing.
+> Ubah generasi seni AI menjadi grafis vektor-resolusi tinggi yang siap untuk pencetakan langsung ke garmen (DTG).
 
-**Track:** AI Print-on-Demand & Merch Design  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lacak:** AI Print-on-Demand & Desain Merchandise
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Most AI creators try to upload raw AI image generations directly to Print-on-Demand (POD) platforms like Printify, Printful, or Redbubble. The results are disappointing:
-* **Resolution Blur:** Raw AI generations (1024x1024px) pixelate heavily when stretched across a t-shirt chest print area requiring **4500x5400px at 300 DPI**.
-* **Solid Background Box:** Generating an image with a solid square background leaves an ugly rectangular box printed on a black or white t-shirt.
-* **Color Bleed:** Dark or muddy colors wash out during direct-to-garment (DTG) ink printing.
+Sebagian besar pembuat AI mencoba mengunggah generasi gambar AI mentah langsung ke platform Print-on-Demand (POD) seperti Printify, Printful, atau Redbubble. Hasilnya mengecewakan:
+* **Resolusi Blur:** Generasi AI mentah (1024x1024 piksel) menghasilkan piksel yang kuat saat dibentangkan pada area cetak dada kaos yang memerlukan **4500x5400 piksel pada 300 DPI**.
+* **Kotak Latar Belakang Solid:** Menghasilkan gambar dengan latar belakang persegi solid akan menyisakan kotak persegi panjang jelek yang tercetak pada kaos hitam atau putih.
+* **Warna Berdarah:** Warna gelap atau berlumpur hilang selama pencetakan tinta direct-to-garment (DTG).
 
-If you don't isolate graphics, vector-upscale, and format specifically for apparel print specs, your products look cheap and get negative customer reviews.
+Jika Anda tidak mengisolasi grafik, vektor kelas atas, dan memformat secara khusus untuk spesifikasi cetakan pakaian, produk Anda akan terlihat murahan dan mendapatkan ulasan negatif dari pelanggan.
 
 ---
 
-## The Concept
+## Konsep
 
-The AI merch design pipeline relies on **Isolated Vector Prompting**, **Background Removal**, and **DPI Upscaling**:
+Alur desain merchandise AI bergantung pada **Isolated Vector Prompting**, **Background Removal**, dan **DPI Upscaling**:
 
 ```
 Isolated Prompting ──► Transparent PNG Isolation ──► Vector Upscale (4500x5400px 300DPI) ──► Apparel Mockup Placement
 ```
 
-### Core Technical Pillars:
+### Pilar Teknis Inti:
 
-1. **Isolated Vector Style Prompting:** Prompt for clean vector graphics with strong outlines on solid white or dark backgrounds (`"vector illustration, isolated on white background, clean lines, bold graphic, high contrast, 300 DPI"`).
-2. **Background Masking & Transparency:** Extracting the subject completely using AI background removers so only the artwork prints on the fabric.
-3. **300 DPI Resolution Scaling:** Scaling low-res renders using AI upscalers (such as Real-ESRGAN or muapi high-res upscaling) to hit standard POD specs (**4500 × 5400 px**).
-
----
-
-## Do It
-
-### Step 1: Write the Merch Vector Prompt
-Open [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md). Draft an apparel-optimized prompt:
-* **Prompt:**  
-  > `"Clean vector t-shirt graphic of a cyberpunk samurai cat wearing futuristic glowing neon goggles, Japanese typography, bold outlines, vibrant synthwave colors, isolated on solid black background, high contrast, 8k graphic."`
-* **Negative Prompt:**  
-  > `"photograph, realistic skin, complex background, gradient box, blurry lines, low resolution, noise, drop shadow."`
-
-### Step 2: Generate and Isolate the Graphic
-Run the prompt using muapi `/nano-banana-2`. Pass the generated output to an AI background remover to save a transparent `merch-graphic-transparent.png`.
-
-### Step 3: Upscale to 4500x5400px @ 300 DPI
-Run an AI upscaler with a **4x scale factor**. Verify the final image dimensions are at least 4500px wide, maintaining crisp, sharp edges along all linework.
-
-### Step 4: Apply to Apparel Mockups
-Place `merch-graphic-transparent.png` onto a heavy cotton t-shirt mockup in your editor. Adjust graphic placement to sit 2 inches below the neck collar.
+1. **Permintaan Gaya Vektor Terisolasi:** Perintah untuk grafik vektor bersih dengan garis luar yang kuat pada latar belakang putih solid atau gelap (`"vector illustration, isolated on white background, clean lines, bold graphic, high contrast, 300 DPI"`).
+2. **Penyembunyian & Transparansi Latar Belakang:** Mengekstraksi subjek sepenuhnya menggunakan penghilang latar belakang AI sehingga hanya karya seni yang tercetak pada kain.
+3. **Penskalaan Resolusi 300 DPI:** Menskalakan render resolusi rendah menggunakan peningkatan AI (seperti Real-ESRGAN atau peningkatan resolusi tinggi muapi) untuk mencapai spesifikasi POD standar (**4500 × 5400 px**).
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Tulis Prompt Merch Vector
+Buka [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md). Buat draf perintah yang dioptimalkan untuk pakaian:
+* **Mengingatkan:**
+> __KODE INLINE_0__
+* **Perintah Negatif:**
+> __KODE INLINE_0__
+
+### Langkah 2: Hasilkan dan Isolasi Grafik
+Jalankan perintah menggunakan muapi `/nano-banana-2`. Teruskan keluaran yang dihasilkan ke penghapus latar belakang AI untuk menyimpan `merch-graphic-transparent.png` transparan.
+
+### Langkah 3: Tingkatkan ke 4500x5400px @ 300 DPI
+Jalankan peningkatan AI dengan **faktor skala 4x**. Pastikan dimensi gambar akhir memiliki lebar minimal 4500 piksel, pertahankan tepi tajam dan tajam di sepanjang garis.
+
+### Langkah 4: Terapkan ke Maket Pakaian
+Tempatkan `merch-graphic-transparent.png` pada mockup kaos katun tebal di editor Anda. Sesuaikan penempatan grafis agar berada 2 inci di bawah kerah leher.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/cyberpunk-cat-merch-tshirt.jpg" alt="Cyberpunk Cat Merch T-Shirt Mockup" width="320">
-<img src="templates/examples/merch-design-motion.gif" alt="Merch Product Showcase Motion (I2V)" width="320">
+<img src="templates/examples/cyberpunk-cat-merch-tshirt.jpg" alt="Mockup Kaos Merch Cyberpunk Cat" width="320">
+<img src="templates/examples/merch-design-motion.gif" alt="Gerakan Pameran Produk Merchandise (I2V)" width="320">
 </p>
 <p align="center"><sub>AI Merch Design Mockup (Left) ──► Image-to-Video Showcase Motion (Right) · Video File: <a href="templates/examples/merch-design-motion.mp4">templates/examples/merch-design-motion.mp4</a></sub></p>
 
-**Merch Design Execution for "Cyberpunk Cat Tee"**
+**Eksekusi Desain Merchandise untuk "Cyberpunk Cat Tee"**
 
-* **Target Niche:** Cyberpunk & Cat Lovers.
-* **Graphic Specs:** 4500x5400px transparent PNG, 300 DPI.
-* **Apparel Mockup:** Heavyweight Unisex Crewneck T-Shirt (Black).
-* **Generation Cost:** **$0.06** AI credit vs **$250** freelance illustrator quote.
+* **Target Niche:** Cyberpunk & Pecinta Kucing.
+* **Spesifikasi Grafis:** PNG transparan 4500x5400px, 300 DPI.
+* **Mockup Pakaian:** T-Shirt Crewneck Unisex Kelas Berat (Hitam).
+* **Biaya Pembuatan:** **$0,06** Kredit AI vs **$250** kutipan ilustrator lepas.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Purpose | Upscale Quality | Best For |
+| Platform / Alat | Tujuan | Kualitas Kelas Atas | Terbaik Untuk |
 |---|---|---|---|
-| **FLUX / muapi Vector Mode** | Graphic generation | High | Creating crisp linework & graphic illustrations |
-| **Photoroom / Clipdrop** | Background removal | Transparent PNG | Isolating artwork from solid backgrounds |
-| **Real-ESRGAN / Vectorizer.ai** | Resolution upscaling | 4x / Vector SVG | Scaling graphics to 4500x5400px 300DPI |
+| **Mode Vektor FLUX / muapi** | Generasi grafis | Tinggi | Membuat garis tajam & ilustrasi grafis |
+| **Ruang Foto / Clipdrop** | Penghapusan latar belakang | PNG Transparan | Mengisolasi karya seni dari latar belakang yang solid |
+| **ESRGAN Nyata / Vectorizer.ai** | Peningkatan resolusi | 4x / Vektor SVG | Menskalakan grafik ke 4500x5400px 300DPI |
 
 ---
 
-## Launch It
+## Luncurkan
 
-**Best practices for merch design:**
-* **Test Dark vs. Light Garments:** Create white linework variants for black tees and dark linework variants for white/heather grey tees.
-* **Always Check Contrast:** Print-on-demand ink absorbs slightly into fabric; boost color vibrancy by +15% before exporting.
-
----
-
-## Exercises
-
-1. **Easy:** Generate a minimalist retro sunset vector graphic isolated on a white background.
-2. **Medium:** Remove the background and upscale the graphic to 4500x5400px at 300 DPI.
-3. **Hard:** Create a 3-item merch collection (T-shirt, Mug, Tote Bag) featuring variations of a unified design style.
+**Praktik terbaik untuk desain merchandise:**
+* **Uji Pakaian Gelap vs. Terang:** Buat varian garis putih untuk kaus hitam dan varian garis gelap untuk kaus putih/abu-abu heather.
+* **Selalu Periksa Kontras:** Tinta cetak sesuai permintaan sedikit menyerap ke dalam kain; meningkatkan kecerahan warna sebesar +15% sebelum diekspor.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Vector style prompts, DPI scaling specs, and negative prompt libraries.
+1. **Mudah:** Menghasilkan grafik vektor matahari terbenam retro minimalis yang diisolasi pada latar belakang putih.
+2. **Sedang:** Hapus latar belakang dan tingkatkan grafis menjadi 4500x5400 piksel pada 300 DPI.
+3. **Sulit:** Buat koleksi merchandise 3 item (T-shirt, Mug, Tote Bag) yang menampilkan variasi gaya desain terpadu.
 
 ---
 
-[Track Overview](README.md) · Next: [POD Platform Basics →](02-print-on-demand-platform-basics.md)
+## Templat
+
+* [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Perintah gaya vektor, spesifikasi penskalaan DPI, dan pustaka perintah negatif.
+
+---
+
+[Track Overview](README.md) · Berikutnya: [POD Platform Basics →](02-print-on-demand-platform-basics.md)

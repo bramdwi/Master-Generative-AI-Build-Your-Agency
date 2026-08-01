@@ -1,45 +1,45 @@
-# Virtual Influencer Media Kit
+# Perangkat Media Pemberi Pengaruh Virtual
 
-Use this media kit outline to pitch brand sponsorships and promotional partnerships for your AI avatar character.
-
----
-
-# [AI Character / Avatar Name]
-### *The Virtual Face of [Niche Topic, e.g. SaaS Bookkeeping & Automation]*
-
-[Insert high-quality 1:1 render of the AI character here]
+Gunakan garis besar kit media ini untuk mempromosikan sponsor merek dan kemitraan promosi untuk karakter avatar AI Anda.
 
 ---
 
-## 1. About Me (The Profile)
-**[Name]** is a virtual creator and AI influencer who helps [describe target audience, e.g., freelancers and small business owners learn accounting hacks]. Through high-retention short-form videos and daily updates, [Name] explains complex business tasks in simple visual steps.
+# [Karakter AI / Nama Avatar]
+### *Wajah Virtual [Topik Niche, mis. Pembukuan & Otomatisasi SaaS]*
 
-* **Niche Focus:** [e.g., Tech SaaS / Financial Automation / Productivity]
-* **Target Demographics:** [e.g., 24-45 age group, 65% Male / 35% Female, US & UK based]
-* **Core Values:** Innovation, automation, consistency.
+[Masukkan render karakter AI 1:1 berkualitas tinggi di sini]
 
 ---
 
-## 2. Audience Reach & Metrics
+## 1. Tentang Saya (Profil)
+**[Nama]** adalah kreator virtual dan pemberi pengaruh AI yang membantu [menjelaskan audiens target, misalnya pekerja lepas dan pemilik usaha kecil mempelajari peretasan akuntansi]. Melalui video pendek dengan retensi tinggi dan pembaruan harian, [Name] menjelaskan tugas bisnis yang kompleks dalam langkah visual sederhana.
 
-* **Instagram Reels Followers:** __________________
-* **TikTok Followers:** __________________
-* **YouTube Subscribers:** __________________
-* **Average Monthly Views:** __________________ views
-* **Engagement Rate (Avg):** _________%
+* **Fokus Niche:** [misalnya, SaaS Teknologi / Otomatisasi Finansial / Produktivitas]
+* **Demografi Target:** [misalnya, kelompok usia 24-45 tahun, 65% Pria / 35% Wanita, berbasis di AS & Inggris]
+* **Nilai Inti:** Inovasi, otomatisasi, konsistensi.
 
 ---
 
-## 3. Sponsorship Packages & Tiers
+## 2. Jangkauan & Metrik Audiens
 
-| Package | Deliverables | Target Price | Placement Details |
+* **Pengikut Reel Instagram:** __________________
+* **Pengikut TikTok:** ____
+* **Pelanggan YouTube:** __________________
+* **Rata-rata Penayangan Bulanan:** __________________ penayangan
+* **Tingkat Keterlibatan (Rata-rata):** _________%
+
+---
+
+## 3. Paket & Tingkatan Sponsor
+
+| Paket | Kiriman | Target Harga | Detail Penempatan |
 |---|---|---|---|
-| **Tier 1: Video Mention** | 1x dedicated mention in a vertical video. | **$150** | Pinned comment + description link for 30 days. |
-| **Tier 2: Brand Integration** | 3x dedicated reels showing product dashboard. | **$400** | Pinned comment + customized link in bio. |
-| **Tier 3: Launch Campaign** | 10x vertical video package + 1x newsletter blast. | **$1,200** | Dedicated bio link, product walkthroughs. |
+| **Tingkat 1: Penyebutan Video** | 1x penyebutan khusus dalam video vertikal. | **$150** | Komentar + tautan deskripsi yang dipasangi pin selama 30 hari. |
+| **Tingkat 2: Integrasi Merek** | 3x gulungan khusus menampilkan dasbor produk. | **$400** | Komentar yang disematkan + tautan khusus di bio. |
+| **Tingkat 3: Peluncuran Kampanye** | 10x paket video vertikal + 1x ledakan buletin. | **$1.200** | Tautan bio khusus, penelusuran produk. |
 
 ---
 
-## 4. Contact for Partnerships
-**Partnerships Manager:** [Your Name / Email]  
-**Channel Link:** [URL]
+## 4. Kontak untuk Kemitraan
+**Manajer Kemitraan:** [Nama / Email Anda]
+**Tautan Saluran:** [URL]

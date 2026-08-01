@@ -1,28 +1,28 @@
-# Visual Style Guide Template
+# Templat Panduan Gaya Visual
 
-Create a locked style guide for your film project to ensure color grading, lighting, and textures match across all generated scenes.
+Buat panduan gaya terkunci untuk proyek film Anda guna memastikan gradasi warna, pencahayaan, dan tekstur cocok di semua adegan yang dihasilkan.
 
 ---
 
-## 1. Core Prompt Style Prefix
-Every image and storyboard prompt should start with this exact string of aesthetic instructions:
-> **Aesthetic Prefix:** "Cinematic 35mm film photograph, anamorphic lens, muted color grading with deep teal shadows and soft amber highlights, film grain, highly detailed realistic skin texture, directed by [Director Name]..."
+## 1. Awalan Gaya Prompt Inti
+Setiap perintah gambar dan storyboard harus dimulai dengan rangkaian instruksi estetika yang tepat berikut ini:
+> **Awalan Estetika:** "Foto film sinematik 35mm, lensa anamorphic, gradasi warna kalem dengan bayangan teal dalam dan sorotan kuning lembut, butiran film, tekstur kulit realistis yang sangat detail, disutradarai oleh [Nama Sutradara]..."
 
-## 2. Aspect Ratio Settings
-* **Selected Ratio:** [e.g., `--ar 2.39:1` for widescreen, `--ar 16:9` for standard, `--ar 9:16` for vertical]
+## 2. Pengaturan Rasio Aspek
+* **Rasio yang Dipilih:** [misalnya, `--ar 2.39:1` untuk layar lebar, `--ar 16:9` untuk standar, `--ar 9:16` untuk vertikal]
 
-## 3. Approved Lighting Setups
-Only use these lighting descriptors in your prompts:
-* **Interior shots:** "Low-key moody lighting, soft side-lighting from a single window, dust motes visible in light beam."
-* **Exterior night shots:** "Hard backlighting from street lamps, neon glow reflections on wet concrete surfaces, high contrast."
-* **Exterior day shots:** "Overcast lighting, soft diffused shadows, cool daylight."
+## 3. Pengaturan Pencahayaan yang Disetujui
+Hanya gunakan deskriptor pencahayaan berikut dalam perintah Anda:
+* **Foto interior:** "Pencahayaan redup, pencahayaan samping lembut dari satu jendela, bintik-bintik debu terlihat dalam sorotan cahaya."
+* **Foto eksterior malam hari:** "Cahaya latar keras dari lampu jalan, pantulan cahaya neon pada permukaan beton basah, kontras tinggi."
+* **Foto siang hari di bagian luar:** "Pencahayaan mendung, bayangan lembut menyebar, siang hari sejuk."
 
-## 4. Color Grading Matrix
-Define the hex colors or descriptive palette keywords:
-* **Primary shadows:** [Teal / Slate Gray / Deep Indigo]
-* **Primary highlights:** [Warm Amber / Pale Gold / Soft White]
-* **Saturation Level:** [Muted / High Contrast / Neon Saturation]
+## 4. Matriks Penilaian Warna
+Tentukan warna hex atau kata kunci palet deskriptif:
+* **Bayangan primer:** [Teal / Slate Grey / Deep Indigo]
+* **Sorotan utama:** [Kuningan Hangat / Emas Pucat / Putih Lembut]
+* **Tingkat Saturasi:** [Tidak bersuara / Kontras Tinggi / Saturasi Neon]
 
-## 5. Negative Prompts / Excluded Styles
-Ensure your generations avoid these styles:
-> **Negative Prompt / Exclude list:** "render, 3D, CGI, illustration, drawing, high-saturation, digital art, cartoon, perfect skin, smooth texture, anime"
+## 5. Anjuran Negatif / Gaya yang Dikecualikan
+Pastikan generasi Anda menghindari gaya berikut:
+> **Daftar Perintah Negatif / Kecualikan:** "render, 3D, CGI, ilustrasi, gambar, saturasi tinggi, seni digital, kartun, kulit sempurna, tekstur halus, anime"

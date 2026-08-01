@@ -1,36 +1,36 @@
-# Conversion Rate Optimization (CRO) Visual Audit Checklist
+# Daftar Periksa Audit Visual Pengoptimalan Tingkat Konversi (CRO).
 
-Use this checklist to audit e-commerce listings before and after deploying AI product visuals to track and improve conversion rates.
+Gunakan daftar periksa ini untuk mengaudit listingan e-commerce sebelum dan sesudah menerapkan visual produk AI untuk melacak dan meningkatkan tingkat konversi.
 
-## 1. Hero Image Audit (Visual Hook)
-* [ ] **Product Clarity:** Product is immediately identifiable on a high-contrast background.
-* [ ] **First Impression:** Lighting matches premium brand pricing (no harsh flash reflections or flat office lighting).
-* [ ] **Zoom-In Clarity:** High-resolution rendering allows clear zoom on label text.
-* [ ] **Aspect Ratio Alignment:** Visual occupies at least 85% of the frame bounding box.
+## 1. Audit Gambar Pahlawan (Visual Hook)
+* [ ] **Kejelasan Produk:** Produk langsung dapat diidentifikasi pada latar belakang kontras tinggi.
+* [ ] **Kesan Pertama:** Pencahayaan sesuai dengan harga merek premium (tidak ada pantulan lampu kilat yang tajam atau pencahayaan kantor yang datar).
+* [ ] **Kejelasan Zoom-In:** Render resolusi tinggi memungkinkan zoom yang jelas pada teks label.
+* [ ] **Penyelarasan Rasio Aspek:** Visual menempati setidaknya 85% kotak pembatas bingkai.
 
-## 2. Supporting Gallery Check
-* [ ] **Texture / Consistency Detail:** Macro shot showcasing liquid viscosity, cream texture, or fabric weave.
-* [ ] **Scale & Dimension:** Object placed next to recognizable item or held by human hand to denote size.
-* [ ] **Feature Callouts:** High-contrast graphic overlays highlighting key benefits or ingredients.
-* [ ] **Lifestyle Integration:** Product integrated into a high-end aspiration backdrop (e.g. bathroom counter for skincare, kitchen table for food).
+## 2. Cek Galeri Pendukung
+* [ ] **Detail Tekstur / Konsistensi:** Bidikan makro menampilkan kekentalan cairan, tekstur krim, atau tenunan kain.
+* [ ] **Skala & Dimensi:** Benda ditempatkan di sebelah benda yang dapat dikenali atau dipegang oleh tangan manusia untuk menunjukkan ukuran.
+* [ ] **Info Fitur:** Hamparan grafis kontras tinggi yang menyoroti manfaat atau bahan utama.
+* [ ] **Integrasi Gaya Hidup:** Produk diintegrasikan ke dalam latar aspirasi kelas atas (misalnya meja kamar mandi untuk perawatan kulit, meja dapur untuk makanan).
 
-## 3. CRO Scoring Metrics
+## 3. Metrik Penilaian CRO
 
-| Listing Section | Metric Checked | Before Score (1-10) | After Score (1-10) | Notes / Action Items |
+| Bagian Daftar | Metrik Diperiksa | Sebelum Skor (1-10) | Setelah Skor (1-10) | Catatan / Item Tindakan |
 |---|---|---|---|---|
-| Main Search | CTR (%) | | | Improve backdrop contrast |
-| Detail Page | Conversion Rate (%) | | | Add macro texture shot |
-| Gallery | Average Scroll Depth | | | Re-order benefit callout card |
-| Mobile View | Readability | | | Make font overlays larger |
+| Pencarian Utama | RKT (%) | | | Tingkatkan kontras latar belakang |
+| Halaman Detail | Tingkat Konversi (%) | | | Tambahkan bidikan tekstur makro |
+| Galeri | Kedalaman Gulir Rata-rata | | | Pesan ulang kartu info manfaat |
+| Tampilan Seluler | Keterbacaan | | | Memperbesar hamparan font |
 
-## 4. Split-Testing Log
+## 4. Log Pengujian Terpisah
 
-* **Test Variant A:** Standard white background stock photo.
-* **Test Variant B:** AI-generated marble block bathroom setting with soft shadows.
-* **Duration:** 14 Days.
-* **Target Audience:** Warm traffic from social ads.
+* **Varian Uji A:** Stok foto standar berlatar belakang putih.
+* **Varian Uji B:** Pengaturan kamar mandi blok marmer yang dihasilkan AI dengan bayangan lembut.
+* **Durasi:** 14 Hari.
+* **Target Pemirsa:** Lalu lintas hangat dari iklan sosial.
 
-| Variant | Total Visitors | Conversions | Conversion Rate (%) | Revenue ($) | Significance |
+| Varian | Jumlah Pengunjung | Konversi | Tingkat Konversi (%) | Pendapatan ($) | Signifikansi |
 |:---:|---|---|---|---|---|
-| A | 2,500 | 50 | 2.0% | $2,500 | Baseline |
-| B | 2,550 | 82 | 3.2% | $4,100 | +60% Lift (97%) |
+| SEBUAH | 2.500 | 50 | 2,0% | $2.500 | Dasar |
+| B | 2.550 | 82 | 3,2% | $4.100 | +60% Peningkatan (97%) |

@@ -1,24 +1,24 @@
-# TikTok & Reels Editor Presets
+# Preset Editor TikTok & Reel
 
-Use these configuration notes inside CapCut, Premiere Pro, or DaVinci Resolve to establish a fast-paced vertical video editing style.
+Gunakan catatan konfigurasi ini di dalam CapCut, Premiere Pro, atau DaVinci Resolve untuk menciptakan gaya pengeditan video vertikal yang serba cepat.
 
 ---
 
-## 1. Visual Cut Pacing
-* **Hook Cut (0.0s - 3.0s):** Cut or zoom-in every **1.5 seconds**. The first 3 seconds must have rapid movement.
-* **Body Cut (3.0s onwards):** Cut to a new asset or zoom scale every **2.5 to 3.5 seconds**. Never leave a static image on the screen for more than 4 seconds.
+## 1. Kecepatan Potongan Visual
+* **Potongan Kait (0,0dtk - 3,0dtk):** Potong atau perbesar setiap **1,5 detik**. 3 detik pertama harus ada pergerakan yang cepat.
+* **Potongan Tubuh (3,0 detik dan seterusnya):** Potong ke aset baru atau skala zoom setiap **2,5 hingga 3,5 detik**. Jangan pernah meninggalkan gambar statis di layar lebih dari 4 detik.
 
-## 2. Text Caption Configuration
-* **Font Choice:** Bold sans-serif fonts (e.g. Montserrat, Bold Impact, Archivo Black, Outfit).
-* **Caption Pacing:** Set auto-captions to output **1 to 3 words** per screen. Avoid displaying whole sentences at once.
-* **Visual Styling:**
-  * Font color: `#FFFFFF` (White)
-  * Stroke (Outline): `#000000` (Black, size 8-12)
-  * Highlight color: `#FFD700` (Yellow) or `#00FF00` (Green) for primary keyword emphasis (e.g., "AUTOMATE", "FREE").
-* **Positioning:** Center-screen (Y-axis set to -100 to -150 on vertical grid to sit just above comments).
+## 2. Konfigurasi Teks Teks
+* **Pilihan Font:** Font sans-serif tebal (misalnya Montserrat, Bold Impact, Archivo Black, Outfit).
+* **Kecepatan Teks:** Mengatur teks otomatis untuk menghasilkan **1 hingga 3 kata** per layar. Hindari menampilkan seluruh kalimat sekaligus.
+* **Gaya Visual:**
+* Warna font: `#FFFFFF` (Putih)
+* Goresan (Garis Besar): `#000000` (Hitam, ukuran 8-12)
+* Warna sorotan: `#FFD700` (Kuning) atau `#00FF00` (Hijau) untuk penekanan kata kunci utama (misalnya, "AUTOMATE", "FREE").
+* **Penentuan posisi:** Layar tengah (sumbu Y disetel ke -100 hingga -150 pada kisi vertikal agar berada tepat di atas komentar).
 
-## 3. Kinetic Scale Animations
-* Apply a **slow scale-up** on every still image background:
-  * Keyframe 1 (Start of clip): Scale `100%`
-  * Keyframe 2 (End of clip): Scale `108%`
-  * This keeps the static screen feeling alive.
+## 3. Animasi Skala Kinetik
+* Terapkan **perluasan skala lambat** pada setiap latar belakang gambar diam:
+* Bingkai utama 1 (Awal klip): Skala `100%`
+* Bingkai utama 2 (Akhir klip): Skala `108%`
+* Ini membuat layar statis terasa hidup.

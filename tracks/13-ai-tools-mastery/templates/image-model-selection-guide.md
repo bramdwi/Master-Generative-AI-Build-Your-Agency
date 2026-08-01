@@ -1,22 +1,22 @@
-# AI Image Model Selection Guide & Benchmark Matrix
+# Panduan Pemilihan Model Gambar AI & Matriks Tolok Ukur
 
-Use this reference guide to match client project requirements to the right AI image generation model.
+Gunakan panduan referensi ini untuk mencocokkan persyaratan proyek klien dengan model pembuatan gambar AI yang tepat.
 
 ---
 
-## 📊 Image Model Performance Matrix
+## 📊 Matriks Kinerja Model Gambar
 
-| Model | Photorealism (Skin & Lighting) | Typography & Text Accuracy | Spatial Prompt Adherence | Style Versatility | Render Speed | API Cost / Image |
+| Model | Fotorealisme (Kulit & Pencahayaan) | Tipografi & Akurasi Teks | Kepatuhan Cepat Spasial | Fleksibilitas Gaya | Kecepatan Render | Biaya / Gambar API |
 |---|---|---|---|---|---|---|
-| **FLUX 1.1 Pro** | **9.5 / 10** | **9.5 / 10** | **9.5 / 10** | 8.5 / 10 | ~5 sec | **$0.04** |
-| **FLUX Schnell** | 8.5 / 10 | 9.0 / 10 | 9.0 / 10 | 8.0 / 10 | **~2 sec** | **$0.003** |
-| **Midjourney v6** | 9.0 / 10 | 6.5 / 10 | 8.0 / 10 | **10.0 / 10** | ~15 sec | Sub ($10-$60/mo) |
-| **Ideogram v2** | 7.5 / 10 | **10.0 / 10** | 9.0 / 10 | 8.5 / 10 | ~8 sec | **$0.08** |
-| **DALL-E 3** | 6.5 / 10 | 8.5 / 10 | 9.0 / 10 | 7.5 / 10 | ~10 sec | **$0.08** |
+| **FLUX 1.1 Pro** | **9,5 / 10** | **9,5 / 10** | **9,5 / 10** | 8,5 / 10 | ~5 detik | **$0,04** |
+| **FLUX Schnell** | 8,5 / 10 | 9.0 / 10 | 9.0 / 10 | 8.0 / 10 | **~2 detik** | **$0,003** |
+| **Tengah perjalanan v6** | 9.0 / 10 | 6,5 / 10 | 8.0 / 10 | **10.0 / 10** | ~15 detik | Sub ($10-$60/bln) |
+| **Ideogram v2** | 7,5 / 10 | **10.0 / 10** | 9.0 / 10 | 8,5 / 10 | ~8 detik | **$0,08** |
+| **DALL-E 3** | 6,5 / 10 | 8,5 / 10 | 9.0 / 10 | 7,5 / 10 | ~10 detik | **$0,08** |
 
 ---
 
-## 🎯 Use Case Decision Tree
+## 🎯 Gunakan Pohon Keputusan Kasus
 
 ```
 Project Requirement?

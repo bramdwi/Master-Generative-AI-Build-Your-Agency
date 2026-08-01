@@ -1,22 +1,22 @@
-# Realtor Pricing & Service Agreement Matrix
+# Matriks Perjanjian Harga & Layanan Realtor
 
-Use this pricing sheet to present clear service tiers, ROI comparisons, and service terms to real estate agents and brokerages.
+Gunakan lembar harga ini untuk menyajikan tingkat layanan yang jelas, perbandingan ROI, dan persyaratan layanan untuk agen dan pialang real estat.
 
 ---
 
-## 💰 Service Package Matrix
+## 💰 Matriks Paket Layanan
 
-| Package Tier | Price | Included Deliverables | Turnaround | Revisions |
+| Tingkat Paket | Harga | Termasuk Kiriman | Perputaran | Revisi |
 |---|---|---|---|---|
-| **Essential Listing Pass** | **$99** | 3 Virtually Staged Rooms (JPEG) | 24 Hours | 1 Free Revision |
-| **Full House Package** | **$199** | 6 Virtually Staged Rooms + 1 Virtual Twilight Exterior | 24 Hours | 2 Free Revisions |
-| **Luxury Agency Pass** | **$399** | 8 Staged Rooms + Decluttering + 2 Motion Video Clips (Reels/TikTok) | Same-Day (12h) | Unlimited Revisions |
+| **Tiket Pendaftaran Penting** | **$99** | 3 Ruangan yang Dipentaskan Secara Virtual (JPEG) | 24 Jam | 1 Revisi Gratis |
+| **Paket Rumah Lengkap** | **$199** | 6 Ruangan yang Dipentaskan Secara Virtual + 1 Eksterior Twilight Virtual | 24 Jam | 2 Revisi Gratis |
+| **Tiket Agensi Mewah** | **$399** | 8 Ruangan yang Dipentaskan + Penguraian + 2 Klip Video Bergerak (Reel/TikTok) | Hari yang Sama (12 jam) | Revisi Tanpa Batas |
 
 ---
 
-## 📊 Physical vs. AI Virtual Staging Cost Breakdown
+## 📊 Rincian Biaya Pementasan Virtual Fisik vs. AI
 
-Share this breakdown with real estate clients to demonstrate cost savings:
+Bagikan perincian ini dengan klien real estat untuk menunjukkan penghematan biaya:
 
 ```
 Physical Staging Costs (Single Listing):
@@ -35,9 +35,9 @@ TOTAL AI VIRTUAL STAGING COST:  $199 (SAVE $3,401 / 94% Savings!)
 
 ---
 
-## 📄 Client Service Agreement Terms
+## 📄 Ketentuan Perjanjian Layanan Klien
 
-1. **Payment Terms:** 100% payment required prior to final high-resolution MLS file delivery via Stripe invoice.
-2. **Revision Policy:** Revisions include furniture style swaps or minor color adjustments requested within 7 days of initial draft delivery. Structural changes (e.g., adding walls or changing flooring material) incur a **$15/photo** fee.
-3. **Usage Rights:** Client is granted full commercial usage rights for MLS listings, social media marketing, and print flyers.
-4. **MLS Compliance Disclaimer:** All delivered staged images include a discreet disclaimer reading *"Virtually Staged for Visualization"* to maintain compliance with local real estate board rules.
+1. **Ketentuan Pembayaran:** Pembayaran 100% diperlukan sebelum pengiriman akhir file MLS resolusi tinggi melalui faktur Stripe.
+2. **Kebijakan Revisi:** Revisi mencakup pertukaran gaya furnitur atau sedikit penyesuaian warna yang diminta dalam waktu 7 hari sejak pengiriman draf awal. Perubahan struktural (misalnya, penambahan dinding atau penggantian material lantai) dikenakan biaya **$15/foto**.
+3. **Hak Penggunaan:** Klien diberikan hak penggunaan komersial penuh untuk listingan MLS, pemasaran media sosial, dan brosur cetak.
+4. **Penafian Kepatuhan MLS:** Semua gambar bertahap yang dikirimkan menyertakan pembacaan penafian rahasia *"Dipentaskan Secara Praktis untuk Visualisasi"* untuk menjaga kepatuhan terhadap peraturan dewan real estat setempat.

@@ -1,43 +1,43 @@
-# AI Screenplay Prompt Template
+# Templat Prompt Skenario AI
 
-Use this template to format scripts so they are optimized for AI video generators (e.g., Kling, Luma Dream Machine, Runway).
-
----
-
-## Story Details
-* **Working Title:** [Title]
-* **Genre:** [e.g., Sci-Fi, Noir Drama, Thriller]
-* **Max Characters:** [Keep to 1-2 key characters for consistency]
-* **Key Locations:** [Keep to 1-2 environments]
+Gunakan templat ini untuk memformat skrip agar dioptimalkan untuk generator video AI (misalnya, Kling, Luma Dream Machine, Runway).
 
 ---
 
-## Script Layout
-
-### SCENE 1: [LOCATION NAME] - [TIME OF DAY (DAY/NIGHT)]
-
-**Scene Constraint Check:**
-* [ ] No complex physical interactions (e.g., characters hugging, wrestling)
-* [ ] Focus on static or predictable movements (e.g., sitting at a desk, looking out a window)
-
-**Visual Prompt Anchor (Reference Image Prompt):**
-> **Visual Style:** [e.g., Cinematic 35mm film, low-key lighting, moody blue and orange color grading, highly detailed texture]
-> **Environment Prompt:** [Describe location details for consistency]
-> **Character Anchor:** [Describe character: age, hair, clothing, facial expression]
-
-**Scene Action:**
-[Describe action in 1-2 sentences. Format like a standard screenplay, but keep it highly visual.]
-* *Example:* JOHN (30s) sits at a cluttered desk, staring blankly at a glowing laptop screen. The cold blue light illuminates the dark room.
-
-**Voice / TTS Script (under 15 words per shot):**
-JOHN: (whispering)
-"It was here the entire time."
-
-**Video Prompt (Action / Movement):**
-> **Image-to-Video / Prompt:** "Medium shot of John sitting at the desk, slowly looking up at the camera. The blue light from the screen reflects in his eyes. Subtle camera zoom, high quality."
+## Detail Cerita
+* **Judul Pekerjaan:** [Judul]
+* **Genre:** [misalnya, Fiksi Ilmiah, Drama Noir, Thriller]
+* **Karakter Maks:** [Pertahankan 1-2 karakter kunci untuk konsistensi]
+* **Lokasi Utama:** [Pertahankan pada 1-2 lingkungan]
 
 ---
 
-### SCENE 2: [LOCATION NAME] - [TIME OF DAY]
+## Tata Letak Skrip
 
-...[Repeat structure for remaining scenes. Keep short films to 5-8 total scenes for a 1-2 minute runtime.]...
+### ADEGAN 1: [NAMA LOKASI] - [WAKTU (SIANG/MALAM)]
+
+**Pemeriksaan Batasan Adegan:**
+* [ ] Tidak ada interaksi fisik yang rumit (misalnya, pelukan karakter, gulat)
+* [ ] Fokus pada gerakan statis atau dapat diprediksi (misalnya, duduk di depan meja, melihat ke luar jendela)
+
+**Jangkar Prompt Visual (Prompt Gambar Referensi):**
+> **Gaya Visual:** [misalnya, film Sinematik 35 mm, pencahayaan redup, gradasi warna biru dan oranye murung, tekstur sangat detail]
+> **Permintaan Lingkungan:** [Jelaskan detail lokasi untuk konsistensi]
+> **Character Anchor:** [Jelaskan karakter: usia, rambut, pakaian, ekspresi wajah]
+
+**Adegan Aksi:**
+[Jelaskan tindakan dalam 1-2 kalimat. Format seperti skenario standar, namun tetap visual.]
+* *Contoh:* JOHN (30an) duduk di depan meja yang berantakan, menatap kosong ke layar laptop yang bersinar. Cahaya biru dingin menerangi ruangan gelap.
+
+**Skrip Suara / TTS (di bawah 15 kata per pengambilan gambar):**
+JOHN: (berbisik)
+"Itu ada di sini sepanjang waktu."
+
+**Permintaan Video (Aksi / Gerakan):**
+> **Gambar-ke-Video / Perintah:** "Bidikan medium dari John yang sedang duduk di meja, perlahan menatap ke arah kamera. Cahaya biru dari layar terpantul di matanya. Zoom kamera halus, kualitas tinggi."
+
+---
+
+### ADEGAN 2: [NAMA LOKASI] - [WAKTU HARI]
+
+...[Ulangi struktur untuk adegan yang tersisa. Pertahankan film pendek hingga total 5-8 adegan selama durasi 1-2 menit.]...

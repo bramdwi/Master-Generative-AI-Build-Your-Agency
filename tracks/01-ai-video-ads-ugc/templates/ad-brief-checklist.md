@@ -1,25 +1,25 @@
-# Ad Brief Checklist
+# Daftar Periksa Singkat Iklan
 
-From [Module 1: How AI UGC Actually Works](../01-how-ugc-works.md). Fill this out before producing a batch — for yourself or a client.
+Dari [Module 1: How AI UGC Actually Works](../01-how-ugc-works.md). Isi ini sebelum memproduksi batch — untuk Anda sendiri atau klien.
 
-## Filled example
+## Contoh yang diisi
 
-| Item | Answer |
+| Barang | Jawaban |
 |---|---|
-| Product/service | GripMount — $28 magnetic phone car mount |
-| Target platform(s) / aspect ratio | TikTok + Instagram Reels, 9:16 |
-| Number of variants needed | 5 (see [batch-matrix-template.md](batch-matrix-template.md)) |
-| Tone | Casual, slightly surprised — not polished/corporate |
-| Brand/legal constraints | Can't claim "unbreakable" — say "held up through daily driving" instead |
-| Existing brand assets | Product photos yes, no existing avatar/voice — this batch establishes one (see [character-consistency-checklist.md](character-consistency-checklist.md)) |
-| Deadline / revisions | 3 business days, 1 revision round included |
+| Produk/layanan | GripMount — dudukan telepon magnetik di mobil seharga $28 |
+| Platform target/rasio aspek | Reel TikTok + Instagram, 9:16 |
+| Jumlah varian yang dibutuhkan | 5 (lihat [batch-matrix-template.md](batch-matrix-template.md)) |
+| Nada | Santai, sedikit terkejut — tidak sopan/korporat |
+| Kendala merek/hukum | Tidak dapat mengklaim "tidak dapat dipecahkan" — ucapkan "tahan saat berkendara sehari-hari" |
+| Aset merek yang ada | Foto produk ya, tidak ada avatar/suara — kumpulan ini akan membuatnya (lihat [character-consistency-checklist.md](character-consistency-checklist.md)) |
+| Batas waktu/revisi | 3 hari kerja, termasuk 1 putaran revisi |
 
-## Blank checklist
+## Daftar periksa kosong
 
-- [ ] Product/service name and one-sentence description
-- [ ] Target platform(s) and aspect ratio (9:16 / 1:1 / 16:9)
-- [ ] Number of variants needed
-- [ ] Tone (energetic, calm, funny, aspirational...)
-- [ ] Any brand/legal constraints (claims that can't be made, required disclosures)
-- [ ] Existing brand assets available (product photos, logo, existing voice/avatar if reused)
-- [ ] Deadline and revision rounds included in price
+- [ ] Nama produk/layanan dan deskripsi satu kalimat
+- [ ] Platform target dan rasio aspek (9:16 / 1:1 / 16:9)
+- [ ] Jumlah varian yang dibutuhkan
+- [ ] Nada (energik, tenang, lucu, aspiratif...)
+- [ ] Kendala merek/hukum apa pun (klaim yang tidak dapat dibuat, pengungkapan yang diwajibkan)
+- [ ] Aset merek yang ada tersedia (foto produk, logo, suara/avatar yang ada jika digunakan kembali)
+- [ ] Batas waktu dan putaran revisi sudah termasuk dalam harga

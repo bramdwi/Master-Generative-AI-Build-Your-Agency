@@ -1,122 +1,122 @@
-# Before/After Conversion Case Studies
+# Studi Kasus Sebelum/Sesudah Konversi
 
-> Clean images get clicks; contextual images get sales.
+> Gambar bersih mendapat klik; gambar kontekstual mendapatkan penjualan.
 
-**Track:** AI Product Photography & E-commerce  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lagu:** Fotografi Produk AI & E-commerce
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Brands update their websites and ad creatives blindly. They assume that if an image looks "pretty" to them, it will sell. But without structured Conversion Rate Optimization (CRO) methodology, they have no way of knowing whether a visual change is making money or driving customers away.
+Merek memperbarui situs web dan materi iklan mereka secara membabi buta. Mereka beranggapan bahwa jika suatu gambar terlihat "cantik" bagi mereka, maka gambar itu akan laku. Namun tanpa metodologi Pengoptimalan Tingkat Konversi (CRO) yang terstruktur, mereka tidak dapat mengetahui apakah perubahan visual menghasilkan uang atau membuat pelanggan menjauh.
 
-If a listing has high traffic but low sales, the images are failing to answer customer questions or build trust. If a listing has low clicks on search pages, the main search image lacks the visual contrast needed to stand out from competitors.
+Jika listingan memiliki traffic tinggi namun penjualan rendah, gambar tersebut gagal menjawab pertanyaan pelanggan atau membangun kepercayaan. Jika sebuah listingan memiliki klik yang rendah pada halaman pencarian, gambar pencarian utama tidak memiliki kontras visual yang diperlukan untuk menonjol dari pesaing.
 
-To run a profitable e-commerce channel, you must implement A/B testing frameworks and understand the visual psychology that drives customers to click the "Add to Cart" button. This practice is called **CRO (Conversion Rate Optimization)** — the science of improving how many visitors to your product page actually make a purchase.
+Untuk menjalankan saluran e-commerce yang menguntungkan, Anda harus menerapkan kerangka pengujian A/B dan memahami psikologi visual yang mendorong pelanggan mengklik tombol "Tambahkan ke Keranjang". Praktik ini disebut **CRO (Conversion Rate Optimization)** — ilmu untuk meningkatkan jumlah pengunjung halaman produk Anda yang benar-benar melakukan pembelian.
 
-## The Concept
+## Konsep
 
-The conversion optimization loop is driven by **Click-Through Rate (CTR)**, **Conversion Rate (CVR)**, and **Statistical Significance**:
+Putaran pengoptimalan konversi didorong oleh **Rasio Klik-Tayang (RKT)**, **Rasio Konversi (CVR)**, dan **Signifikansi Statistik**:
 
 ```
 Identify Listing Bottleneck ──► Formulate Visual Hypothesis ──► Generate Test Assets ──► A/B Split Run ──► Audit CVR
 ```
 
-### 1. Main Search Image (CTR Hook):
-On Amazon or Google Shopping, your main image must stand out in a grid of 20 competitors. Standard white background photos are the baseline. To increase CTR, use high-contrast lighting, bold product angles, and crisp shadows to create depth.
+### 1. Gambar Pencarian Utama (CTR Hook):
+Di Amazon atau Google Shopping, gambar utama Anda harus menonjol di antara 20 pesaing. Foto latar belakang putih standar adalah dasarnya. Untuk meningkatkan RKT, gunakan pencahayaan kontras tinggi, sudut produk yang tegas, dan bayangan tajam untuk menciptakan kedalaman.
 
-### 2. Gallery / Lifestyle Images (CVR Closer):
-Once a customer clicks your listing, they need to visualize the product in their life. Lifestyle images must evoke an emotional response. A face cream shouldn't just sit in empty space; placing it on a marble vanity surrounded by fresh morning light builds an immediate association with luxury self-care.
+### 2. Galeri / Gambar Gaya Hidup (CVR Closer):
+Setelah pelanggan mengklik listingan Anda, mereka perlu memvisualisasikan produk tersebut dalam kehidupan mereka. Gambaran gaya hidup harus membangkitkan respons emosional. Krim wajah tidak boleh hanya diletakkan di ruang kosong; menempatkannya di meja rias marmer yang dikelilingi cahaya pagi yang segar akan membangun asosiasi langsung dengan perawatan diri yang mewah.
 
-### 3. Split-Testing Rigor:
-Never deploy new images permanently without running a split test. Run the original image (Variant A) and the new AI-generated image (Variant B) concurrently using tools that direct 50% of traffic to each page. Run the test until you reach **95% statistical significance** (ensuring the change was caused by the image, not random chance).
-
----
-
-## Do It
-
-### Step 1: Audit the Bottleneck
-Open the [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md). Review the current metrics of your target product page:
-* If the page has high traffic but a conversion rate below **2%**, your gallery images are weak. Proceed to redesign the lifestyle context.
-* If the page has low organic traffic, focus on redesigning the Main Hero Image to stand out on the search results page.
-
-### Step 2: Formulate the Visual Hypothesis
-Identify the core objection of the customer:
-* *Hypothesis:* `"Replacing the flat white background of the facial oil listing with a premium marble counter backdrop will increase user trust, boosting CVR by 20%."`
-
-### Step 3: Compile and Design Test Variants
-Generate your new Variant B lifestyle graphics following the rules in Module 1. Map benefit callouts (e.g. *"100% Organic Cold-Pressed"*) over the image using clean, high-contrast text overlays.
-
-### Step 4: Configure the A/B Split Test
-Open your split-testing software (e.g., VWO, AB Tasty, or Shopify's native test features).
-* Set Variant A as the control (original images).
-* Set Variant B as the test page (new AI environment visuals).
-* Split incoming traffic: **50% Control / 50% Test**.
-
-### Step 5: Run the Test and Audit CVR
-Allow the test to run for at least 14 days to capture mid-week and weekend shopping behaviors. Do not stop the test early. Analyze the results:
-* Check conversion rates and total revenue.
-* If Variant B shows a lift with >95% significance, push the changes live to 100% of traffic. Log the results in your case study index.
+### 3. Ketelitian Pengujian Terpisah:
+Jangan pernah menerapkan gambar baru secara permanen tanpa menjalankan pengujian terpisah. Jalankan gambar asli (Varian A) dan gambar baru yang dihasilkan AI (Varian B) secara bersamaan menggunakan alat yang mengarahkan 50% lalu lintas ke setiap halaman. Jalankan pengujian hingga Anda mencapai **95% signifikansi statistik** (pastikan perubahan disebabkan oleh gambar, bukan kebetulan).
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Audit Kemacetannya
+Buka [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md). Tinjau metrik saat ini dari halaman produk target Anda:
+* Jika laman memiliki lalu lintas tinggi tetapi rasio konversi di bawah **2%**, gambar galeri Anda lemah. Lanjutkan untuk mendesain ulang konteks gaya hidup.
+* Jika halaman memiliki lalu lintas organik yang rendah, fokuslah untuk mendesain ulang Gambar Pahlawan Utama agar menonjol di halaman hasil pencarian.
+
+### Langkah 2: Merumuskan Hipotesis Visual
+Identifikasi keberatan inti pelanggan:
+* *Hipotesis:* `"Replacing the flat white background of the facial oil listing with a premium marble counter backdrop will increase user trust, boosting CVR by 20%."`
+
+### Langkah 3: Kompilasi dan Rancang Varian Uji
+Buat grafik gaya hidup Varian B baru Anda dengan mengikuti aturan di Modul 1. Petakan info manfaat (misalnya *"100% Organik Diperas Dingin"*) di atas gambar menggunakan hamparan teks yang bersih dan kontras tinggi.
+
+### Langkah 4: Konfigurasikan Tes Split A/B
+Buka perangkat lunak pengujian terpisah Anda (misalnya, VWO, AB Tasty, atau fitur pengujian asli Shopify).
+* Tetapkan Varian A sebagai kontrol (gambar asli).
+* Tetapkan Varian B sebagai halaman pengujian (visual lingkungan AI baru).
+* Membagi lalu lintas masuk: **50% Kontrol / 50% Pengujian**.
+
+### Langkah 5: Jalankan Tes dan Audit CVR
+Biarkan pengujian berjalan setidaknya selama 14 hari untuk menangkap perilaku belanja pertengahan minggu dan akhir pekan. Jangan menghentikan tes lebih awal. Analisis hasilnya:
+* Periksa tingkat konversi dan total pendapatan.
+* Jika Varian B menunjukkan peningkatan dengan signifikansi >95%, terapkan perubahan tersebut secara langsung ke 100% lalu lintas. Catat hasilnya dalam indeks studi kasus Anda.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/coffee-before-after.jpg" alt="Coffee Bag Before/After AI Redesign" width="480">
+<img src="templates/examples/coffee-before-after.jpg" alt="Kantong Kopi Sebelum/Sesudah Desain Ulang AI" width="480">
 <br>
-<img src="templates/examples/coffee-motion.gif" alt="Coffee Product Motion Loop (I2V)" width="360">
+<img src="templates/examples/coffee-motion.gif" alt="Loop Gerak Produk Kopi (I2V)" width="360">
 </p>
 <p align="center"><sub>AI Product Image Redesign (Top) ──► Image-to-Video Steam Loop (Bottom) · Video File: <a href="templates/examples/coffee-motion.mp4">templates/examples/coffee-motion.mp4</a></sub></p>
 
-**Redesigning a High-End Specialty Coffee Bag Listing**
+**Mendesain Ulang Daftar Kantong Kopi Spesial Kelas Atas**
 
 
 
-* **Initial Listing Status:** The brand sold a $25 bag of coffee beans using a flat stock photograph. Average Conversion Rate was **1.8%**.
-* **Visual Redesign (Variant B):**
-  * Main Hero: Replaced flat file with high-contrast angled packaging shot casting a realistic, long shadow.
-  * Lifestyle Gallery: Composite bag onto an AI-generated dark slate kitchen bar. Added soft morning light beams passing through window frames, an espresso cup with a glossy crema texture, and scattered roasted beans at the base.
-* **A/B Test Run:**
-  * Sample Size: 3,000 visitors per variant over 14 days.
-  * **Variant A CVR:** 1.8% (54 conversions).
-  * **Variant B CVR:** 3.1% (93 conversions).
-* **Financial Impact:** A **72% increase in sales** with zero additional advertising spend.
+* **Status Pendaftaran Awal:** Merek tersebut menjual sekantong biji kopi seharga $25 menggunakan foto stok datar. Tingkat Konversi Rata-rata adalah **1,8%**.
+* **Desain Ulang Visual (Varian B):**
+* Pahlawan Utama: Mengganti file datar dengan bidikan kemasan bersudut kontras tinggi yang menghasilkan bayangan panjang dan realistis.
+* Galeri Gaya Hidup: Tas komposit ke bar dapur batu tulis gelap yang dihasilkan AI. Ditambah pancaran cahaya pagi yang lembut melewati kusen jendela, cangkir espresso dengan tekstur crema yang mengilap, dan biji sangrai yang bertebaran di bagian dasarnya.
+* **Uji Coba A/B:**
+* Ukuran Sampel: 3.000 pengunjung per varian selama 14 hari.
+* **Varian A CVR:** 1,8% (54 konversi).
+* **Varian B CVR:** 3,1% (93 konversi).
+* **Dampak Finansial:** **Peningkatan penjualan sebesar 72%** tanpa tambahan belanja iklan.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Optimization Purpose | Implementation Speed | Best for |
+| Platform / Alat | Tujuan Optimasi | Kecepatan Implementasi | Terbaik untuk |
 |---|---|---|---|
-| **VWO / AB Tasty** | Enterprise A/B testing and split runs | Medium (Requires inserting tracking scripts) | Comprehensive CRO audits across custom websites. |
-| **Shopify Split-Testers** | Direct e-commerce store variant testing | Fast (One-click app integrations) | Fast split-testing of product gallery images. |
-| **Hotjar / Clarity** | Visual heatmapping and scroll depth logs | Fast | Auditing how far down users scroll before abandoning the page. |
+| **VWO / AB Enak** | Pengujian A/B perusahaan dan proses terpisah | Sedang (Memerlukan penyisipan skrip pelacakan) | Audit CRO komprehensif di seluruh situs web khusus. |
+| **Penguji Terpisah Shopify** | Pengujian varian toko e-commerce langsung | Cepat (Integrasi aplikasi sekali klik) | Pengujian terpisah cepat pada gambar galeri produk. |
+| **Hotjar / Kejelasan** | Pemetaan panas visual dan log kedalaman gulir | Cepat | Mengaudit seberapa jauh pengguna menggulir ke bawah sebelum meninggalkan halaman. |
 
-For fast e-commerce setups, Shopify apps like *Themewood* or *A/B testing* packages are the fastest way to split-test product images. If you are building high-volume custom landing pages, VWO provides deep analytics, tracking not just conversion rates but hover times and specific clicks.
-
----
-
-## Launch It
-
-**How to manage listing tests:**
-* **Test one variable at a time:** Never change both the product price and the main product image at the same time. If conversions jump, you won't know whether it was the new image or the lower price.
-* **Optimize for mobile first:** Over **70%** of e-commerce traffic is on mobile devices. Always check your test images on a physical mobile screen. Ensure any text overlays are large enough to read without pinching and zooming.
+Untuk penyiapan e-niaga yang cepat, aplikasi Shopify seperti paket *Themewood* atau *Pengujian A/B* adalah cara tercepat untuk menguji gambar produk secara terpisah. Jika Anda membuat halaman arahan khusus bervolume tinggi, VWO menyediakan analisis mendalam, tidak hanya melacak tingkat konversi tetapi juga waktu melayang dan klik spesifik.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Open your favorite online brand and find a product listing with weak lifestyle gallery photos. Identify 3 ways to improve their visual appeal.
-2. **Medium:** Complete a full visual audit of a mock listing using the [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md). Write down a clear split-test hypothesis.
-3. **Hard:** Design Variant A (standard product on white) and Variant B (premium composite on AI stone base) for a kitchen product. Prepare the mobile-optimized crop templates for both variants.
-
----
-
-## Templates
-
-* [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md) — metric trackers, split-testing criteria, and conversion logs.
+**Cara mengelola pengujian listingan:**
+* **Uji satu variabel dalam satu waktu:** Jangan pernah mengubah harga produk dan gambar produk utama secara bersamaan. Jika konversi melonjak, Anda tidak akan tahu apakah itu gambar baru atau harga yang lebih rendah.
+* **Optimalkan untuk seluler terlebih dahulu:** Lebih dari **70%** lalu lintas e-commerce ada di perangkat seluler. Selalu periksa gambar pengujian Anda di layar fisik ponsel. Pastikan hamparan teks apa pun cukup besar untuk dibaca tanpa mencubit dan memperbesar.
 
 ---
 
-[← Product Shots Without a Photographer](01-product-photography.md) · Next: [Selling as a Productized Service →](03-productized-service.md)
+## Latihan
+
+1. **Mudah:** Buka merek online favorit Anda dan temukan daftar produk dengan foto galeri gaya hidup lemah. Identifikasi 3 cara untuk meningkatkan daya tarik visual mereka.
+2. **Media:** Selesaikan audit visual lengkap atas listingan tiruan menggunakan [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md). Tuliskan hipotesis uji terpisah yang jelas.
+3. **Keras:** Desain Varian A (produk standar berwarna putih) dan Varian B (komposit premium dengan dasar batu AI) untuk produk dapur. Siapkan templat pangkas yang dioptimalkan untuk seluler untuk kedua varian.
+
+---
+
+## Templat
+
+* [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md) — pelacak metrik, kriteria pengujian terpisah, dan log konversi.
+
+---
+
+[← Product Shots Without a Photographer](01-product-photography.md) · Berikutnya: [Selling as a Productized Service →](03-productized-service.md)

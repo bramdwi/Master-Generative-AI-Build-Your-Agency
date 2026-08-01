@@ -1,25 +1,25 @@
-# AI Video & Audio Stack Reference Matrix
+# Matriks Referensi Tumpukan Video & Audio AI
 
-Use this reference guide for setting camera motion parameters, video generation models, and voice/audio synthesis engines.
+Gunakan panduan referensi ini untuk mengatur parameter gerakan kamera, model pembuatan video, dan mesin sintesis suara/audio.
 
 ---
 
-## 📹 Video Model Comparison Matrix
+## 📹 Matriks Perbandingan Model Video
 
-| Video Model | Camera Keyframe Control | I2V Geometry Stability | Physics Realism | Render Speed | API Cost / 5s Clip |
+| Model Video | Kontrol Bingkai Utama Kamera | Stabilitas Geometri I2V | Realisme Fisika | Kecepatan Render | Biaya API / Klip 5 detik |
 |---|---|---|---|---|---|
-| **Runway Gen-3 Alpha** | **10.0 / 10** | 9.0 / 10 | 9.0 / 10 | ~60 sec | **$0.25 – $0.50** |
-| **Kling 1.5** | 8.5 / 10 | **9.5 / 10** | **9.5 / 10** | ~90 sec | **$0.20 – $0.40** |
-| **Luma Dream Machine** | 8.0 / 10 | 8.5 / 10 | 8.5 / 10 | ~45 sec | **$0.25** |
-| **Seedance 2 I2V Fast** | 8.5 / 10 | 9.0 / 10 | 8.5 / 10 | **~15 sec** | **$0.15** |
+| **Landasan Pacu Gen-3 Alpha** | **10.0 / 10** | 9.0 / 10 | 9.0 / 10 | ~60 detik | **$0,25 – $0,50** |
+| **Kling 1.5** | 8,5 / 10 | **9,5 / 10** | **9,5 / 10** | ~90 detik | **$0,20 – $0,40** |
+| **Mesin Impian Luma** | 8.0 / 10 | 8,5 / 10 | 8,5 / 10 | ~45 detik | **$0,25** |
+| **Seedance 2 I2V Cepat** | 8,5 / 10 | 9.0 / 10 | 8,5 / 10 | **~15 detik** | **$0,15** |
 
 ---
 
-## 🎙️ Audio & Voice Engine Matrix
+## 🎙️ Matriks Mesin Audio & Suara
 
-| Audio Tool | Primary Domain | Emotional Range | Vocal Mix Control | Pricing Model |
+| Alat Audio | Domain Utama | Rentang Emosional | Kontrol Campuran Vokal | Model Penetapan Harga |
 |---|---|---|---|---|
-| **ElevenLabs** | Voice Synthesis & Cloning | **10.0 / 10** | 9.0 / 10 | Sub ($5-$330/mo) |
-| **Suno v3.5** | Generative Song & Music | 8.5 / 10 | 8.0 / 10 | Sub ($10-$30/mo) |
-| **Udio** | Generative Music Production | 9.0 / 10 | **9.5 / 10** | Sub ($10-$30/mo) |
-| **OpenAI Whisper** | Speech-to-Text Transcripts | N/A | N/A | **Free Open-Source** / $0.006/min |
+| **SebelasLabs** | Sintesis & Kloning Suara | **10.0 / 10** | 9.0 / 10 | Sub ($5-$330/bln) |
+| **Suno v3.5** | Lagu & Musik Generatif | 8,5 / 10 | 8.0 / 10 | Sub ($10-$30/bln) |
+| **Udio** | Produksi Musik Generatif | 9.0 / 10 | **9,5 / 10** | Sub ($10-$30/bln) |
+| **Bisikan OpenAI** | Transkrip Pidato-ke-Teks | T/A | T/A | **Sumber Terbuka Gratis** / $0,006/mnt |

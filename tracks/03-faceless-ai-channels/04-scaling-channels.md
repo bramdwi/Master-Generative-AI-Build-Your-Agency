@@ -1,128 +1,128 @@
-# Scaling to Multiple Channels
+# Menskalakan ke Banyak Saluran
 
-> One channel is a job; three channels is a system.
+> Satu saluran adalah pekerjaan; tiga saluran adalah sebuah sistem.
 
-**Track:** Faceless AI Channels  
-**Time:** ~40 minutes  
-**Prerequisites:** Niche Selection & Script Pipeline, Duration-Matched Narration & Pacing  
+**Lagu:** Saluran AI Tanpa Wajah
+**Waktu:** ~40 menit
+**Prasyarat:** Pemilihan Niche & Pipeline Skrip, Narasi & Kecepatan yang Sesuai Durasi
 
-## The Problem
+## Masalahnya
 
-When you start your first faceless channel, the novelty keeps you going. You write a script, generate a voiceover, download images, clip them together, add captions, and upload. This takes about 2 hours per video. 
+Saat Anda memulai saluran tanpa wajah pertama Anda, hal baru membuat Anda terus maju. Anda menulis naskah, membuat sulih suara, mengunduh gambar, menggabungkannya, menambahkan keterangan, dan mengunggah. Ini membutuhkan waktu sekitar 2 jam per video.
 
-But if you want to scale your earnings, you soon realize the limits of time. If you try to run three different channels (e.g. one for Tech, one for Finance, and one for Health) using this manual, one-by-one method, you will spend 6 hours a day editing. You will miss uploads, post inconsistently, and the recommendation algorithms will stop promoting your videos.
+Namun jika Anda ingin meningkatkan penghasilan Anda, Anda akan segera menyadari keterbatasan waktu. Jika Anda mencoba menjalankan tiga saluran berbeda (misalnya satu untuk Teknologi, satu untuk Keuangan, dan satu lagi untuk Kesehatan) menggunakan metode manual ini, satu per satu, Anda akan menghabiskan 6 jam sehari untuk mengedit. Anda akan melewatkan unggahan, memposting secara tidak konsisten, dan algoritme rekomendasi akan berhenti mempromosikan video Anda.
 
-To scale a faceless channel network without burning out, you must stop treating production as a craft and start treating it as a **batched assembly system**.
+Untuk menskalakan jaringan saluran tanpa wajah tanpa kehabisan tenaga, Anda harus berhenti memperlakukan produksi sebagai sebuah kerajinan dan mulai memperlakukannya sebagai **sistem perakitan batch**.
 
-## The Concept
+## Konsep
 
-Scaling relies on three core principles: **Temporal Batching**, **Syndication**, and **Repurposing**.
+Penskalaan bergantung pada tiga prinsip inti: **Temporal Batching**, **Sindikasi**, dan **Repurposing**.
 
-### 1. Temporal Batching:
-Instead of shifting your context from scripting to voiceovers to editing multiple times a day, you perform one task at scale. You write all 5 scripts for the week on Monday. You generate all 5 audio files on Tuesday. This increases production speed by eliminating setup and context-switching times.
+### 1. Pengelompokan Sementara:
+Daripada mengubah konteks Anda dari pembuatan skrip, sulih suara, hingga pengeditan beberapa kali sehari, Anda melakukan satu tugas dalam skala besar. Anda menulis kelima skrip untuk minggu ini pada hari Senin. Anda menghasilkan semua 5 file audio pada hari Selasa. Hal ini meningkatkan kecepatan produksi dengan menghilangkan waktu penyiapan dan peralihan konteks.
 
 ```
 Monday: Write 5 Scripts ──► Tuesday: Gen 5 Voices ──► Wednesday: Render 5 Clips ──► Thursday: Edit & Schedule
 ```
 
-### 2. Multi-Platform Syndication:
-Never make a video for just one platform. A 9:16 vertical video can be uploaded simultaneously to:
-* **YouTube Shorts** (AdSense pool, subscribers)
-* **TikTok** (Creator Rewards Program)
-* **Instagram Reels** (Brand sponsorship reach, visual discovery)
-This multiplies your view potential with zero extra production cost.
+### 2. Sindikasi Multi-Platform:
+Jangan pernah membuat video hanya untuk satu platform. Video vertikal 09:16 dapat diunggah secara bersamaan ke:
+* **YouTube Shorts** (kumpulan AdSense, pelanggan)
+* **TikTok** (Program Hadiah Kreator)
+* **Reel Instagram** (Jangkauan sponsor merek, penemuan visual)
+Hal ini melipatgandakan potensi penayangan Anda tanpa biaya produksi tambahan.
 
-### 3. Long-to-Short Repurposing:
-If you produce long-form videos (8+ minutes), you can parse them to extract 5–10 short highlights. You can reference the [`ai-clipping-generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/ai-clipping-generator) app from the sibling repository, which demonstrates how to automate the extraction of short clips from long videos.
-
----
-
-## Do It
-
-### Step 1: Lock in Your Weekly Calendar
-Use the [`templates/production-schedule-tracker.md`](templates/production-schedule-tracker.md) to set your batch milestones. Never write a script on edit day. Stick to the scheduled tasks.
-
-### Step 2: Establish Browser Profiles
-If you run more than two channels, set up separate **Google Chrome profiles** (or browser profiles) for each channel identity. This keeps your YouTube dashboards, affiliate dashboards, and email accounts isolated, preventing login confusion.
-
-### Step 3: Run the Script & Voice Batch
-* Write a batch of 5 scripts in one block using your retention templates.
-* Feed the scripts into ElevenLabs sequentially.
-* Download the audio files into your organized project directories.
-
-### Step 4: Batch Render Visual Assets
-Generate all background visual assets in one session. Open your image generators and queue prompts for all 5 videos. Save them in folders labelled `[Video_1]`, `[Video_2]`, etc.
-
-### Step 5: Edit and Queue
-* Import all audio tracks and visual folders into CapCut or your editor.
-* Edit all 5 videos in one sitting, copy-pasting caption styles and audio settings.
-* Export the completed files.
-
-### Step 6: Schedule Uploads
-Upload the videos to YouTube Studio, TikTok Studio, and Instagram Creator Studio. Use the built-in schedulers to set release times days in advance.
+### 3. Penggunaan Kembali Panjang-ke-Pendek:
+Jika Anda menghasilkan video berdurasi panjang (8+ menit), Anda dapat menguraikannya untuk mengekstrak 5–10 sorotan pendek. Anda dapat mereferensikan aplikasi [`ai-clipping-generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/ai-clipping-generator) dari repositori saudaranya, yang menunjukkan cara mengotomatiskan ekstraksi klip pendek dari video panjang.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Kunci Kalender Mingguan Anda
+Gunakan [`templates/production-schedule-tracker.md`](templates/production-schedule-tracker.md) untuk menetapkan pencapaian batch Anda. Jangan pernah menulis naskah pada hari edit. Tetap berpegang pada tugas yang dijadwalkan.
+
+### Langkah 2: Buat Profil Browser
+Jika Anda menjalankan lebih dari dua saluran, siapkan **profil Google Chrome** (atau profil browser) terpisah untuk setiap identitas saluran. Hal ini membuat dasbor YouTube, dasbor afiliasi, dan akun email Anda tetap terisolasi, sehingga mencegah kebingungan login.
+
+### Langkah 3: Jalankan Script & Voice Batch
+* Tulis kumpulan 5 skrip dalam satu blok menggunakan templat retensi Anda.
+* Masukkan skrip ke dalam ElevenLabs secara berurutan.
+* Unduh file audio ke direktori proyek terorganisir Anda.
+
+### Langkah 4: Aset Visual Render Batch
+Hasilkan semua aset visual latar belakang dalam satu sesi. Buka generator gambar Anda dan antri perintah untuk kelima video tersebut. Simpan dalam folder berlabel `[Video_1]`, `[Video_2]`, dll.
+
+### Langkah 5: Edit dan Antrean
+* Impor semua trek audio dan folder visual ke CapCut atau editor Anda.
+* Edit kelima video sekaligus, salin-tempel gaya teks dan pengaturan audio.
+* Ekspor file yang sudah selesai.
+
+### Langkah 6: Jadwalkan Pengunggahan
+Unggah video ke YouTube Studio, TikTok Studio, dan Instagram Creator Studio. Gunakan penjadwal bawaan untuk mengatur waktu rilis beberapa hari sebelumnya.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/faceless-workstation.jpg" alt="Production Workstation" width="280">
-<img src="templates/examples/faceless-workstation-clip.gif" alt="Multi-Channel Video Motion (I2V)" width="280">
+<img src="templates/examples/faceless-workstation.jpg" alt="Stasiun Kerja Produksi" width="280">
+<img src="templates/examples/faceless-workstation-clip.gif" alt="Gerakan Video Multi-Saluran (I2V)" width="280">
 </p>
 <p align="center"><sub>Multi-Channel Workstation Image (Left) ──► Image-to-Video Playback (Right) · Video File: <a href="templates/examples/faceless-workstation-clip.mp4">templates/examples/faceless-workstation-clip.mp4</a></sub></p>
 
-**Operating a 2-Channel Batch (Total Weekly Time: 6 hours)**
+**Mengoperasikan Batch 2 Saluran (Total Waktu Mingguan: 6 jam)**
 
 
 
-* **Channel 1:** "Automate Smarter" (Tech SaaS Niche, 3 uploads/week)
-* **Channel 2:** "Crypto Blueprint" (Finance Niche, 2 uploads/week)
-* **Weekly Queue Tracker Setup:**
+* **Saluran 1:** "Automate Smarter" (Tech SaaS Niche, 3 upload/minggu)
+* **Saluran 2:** "Crypto Blueprint" (Niche Keuangan, 2 upload/minggu)
+* **Penyiapan Pelacak Antrean Mingguan:**
 
-| Day | Active Task | Output | Hours spent |
+| Hari | Tugas Aktif | Keluaran | Jam yang dihabiskan |
 |---|---|---|:---:|
-| **Monday** | Scripting | 5 completed scripts (under 160 words each) | 1.5 hrs |
-| **Tuesday** | Voiceovers | 5 processed narration mp3s (silences trimmed) | 0.5 hrs |
-| **Wednesday** | Visuals | 25 generated b-roll clips / screenshots | 2.0 hrs |
-| **Thursday** | Editing | 5 final 9:16 videos, auto-captioned & color graded | 1.5 hrs |
-| **Friday** | Scheduling | Scheduled to release across YouTube/TikTok/Instagram | 0.5 hrs |
+| **Senin** | Pembuatan skrip | 5 skrip lengkap (masing-masing kurang dari 160 kata) | 1,5 jam |
+| **Selasa** | Sulih Suara | 5 mp3 narasi yang diproses (keheningan dipangkas) | 0,5 jam |
+| **Rabu** | Visual | 25 klip / tangkapan layar b-roll yang dihasilkan | 2,0 jam |
+| **Kamis** | Mengedit | 5 video akhir 9:16, diberi teks otomatis & diberi warna | 1,5 jam |
+| **Jumat** | Penjadwalan | Dijadwalkan rilis di YouTube/TikTok/Instagram | 0,5 jam |
 
-**The Result:** You publish 5 videos a week across 3 platforms (15 total posts) in just **6 hours of total work time**. Your accounts remain active, consistent, and constantly indexed by the recommendation feeds.
+**Hasilnya:** Anda memublikasikan 5 video seminggu di 3 platform (total 15 postingan) hanya dalam **6 jam total waktu kerja**. Akun Anda tetap aktif, konsisten, dan terus-menerus diindeks oleh feed rekomendasi.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Scheduling Capabilities | Best for |
+| Platform / Alat | Kemampuan Penjadwalan | Terbaik untuk |
 |---|---|---|
-| **Native Schedulers** (YouTube Studio / TikTok Web) | Free, completely safe, and doesn't trigger spam filters. Supports custom thumbnails. | The default choice for all channel scheduling. |
-| **Programmatic Clipping** (`ai-clipping-generator`) | Automatically detects speech pauses and cuts long videos into short highlights. | Scaling a long-form channel's shorts inventory. |
-| **Third-Party Schedulers** (Buffer/Later) | Single dashboard for all accounts, but often restricts custom music selection or carousel formats on short-form platforms. | Managing generic brand updates, less ideal for creator-focused short feeds. |
+| **Penjadwal Asli** (YouTube Studio / Web TikTok) | Gratis, sepenuhnya aman, dan tidak memicu filter spam. Mendukung thumbnail khusus. | Pilihan default untuk semua penjadwalan saluran. |
+| **Kliping Terprogram** (`ai-clipping-generator`) | Secara otomatis mendeteksi jeda ucapan dan memotong video panjang menjadi sorotan pendek. | Menskalakan inventaris saluran jangka panjang. |
+| **Penjadwal Pihak Ketiga** (Buffer/Nanti) | Dasbor tunggal untuk semua akun, tetapi sering kali membatasi pilihan musik khusus atau format carousel pada platform berdurasi pendek. | Mengelola pembaruan merek umum, kurang ideal untuk feed singkat yang berfokus pada pembuat konten. |
 
-Always prefer native schedulers (YouTube Studio Web, TikTok Studio Web) for creator channels. Third-party automation APIs sometimes get flagged or have posting limitations regarding trending audio tracks.
-
----
-
-## Launch It
-
-**How to manage multiple accounts safely:**
-* **Don't spam upload:** Uploading 10 videos a day on a new account triggers platform spam filters, tanking your views to zero. Stick to **1 upload per day** per platform.
-* **Keep content distinct:** Do not upload the exact same video file to two different channels on the same platform. The platforms check video hashes and will flag the second channel for "Repetitive Content."
+Selalu pilih penjadwal asli (YouTube Studio Web, TikTok Studio Web) untuk saluran pembuat konten. API otomatisasi pihak ketiga terkadang ditandai atau memiliki batasan postingan terkait trek audio yang sedang tren.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Set up three distinct browser profiles on your desktop. Log into your active channel accounts.
-2. **Medium:** Schedule a 5-day posting calendar on your channel using the native platform schedulers. Log the dates and times.
-3. **Hard:** Use the `ai-clipping-generator` app to cut a 10-minute speech video into three distinct short clips. Write customized hook lines for each clip.
-
----
-
-## Templates
-
-* [`templates/production-schedule-tracker.md`](templates/production-schedule-tracker.md) — a batch calendar and queue sheet to organize multi-channel releases.
+**Cara mengelola banyak akun dengan aman:**
+* **Jangan mengupload spam:** Mengupload 10 video sehari di akun baru akan memicu filter spam platform, sehingga mengurangi penayangan Anda hingga nol. Pertahankan **1 unggahan per hari** per platform.
+* **Jaga agar konten tetap berbeda:** Jangan mengupload file video yang sama persis ke dua saluran berbeda di platform yang sama. Platform tersebut memeriksa hash video dan akan menandai saluran kedua sebagai "Konten Berulang".
 
 ---
 
-[← Honest RPM & Earnings Math](03-rpm-and-earnings.md) · Next: [Monetization Ladder →](05-monetization-ladder.md)
+## Latihan
+
+1. **Mudah:** Siapkan tiga profil browser berbeda di desktop Anda. Masuk ke akun saluran aktif Anda.
+2. **Media:** Jadwalkan kalender pengeposan 5 hari di saluran Anda menggunakan penjadwal platform asli. Catat tanggal dan waktunya.
+3. **Sulit:** Gunakan aplikasi `ai-clipping-generator` untuk memotong video pidato berdurasi 10 menit menjadi tiga klip pendek yang berbeda. Tulis garis kait yang disesuaikan untuk setiap klip.
+
+---
+
+## Templat
+
+* [`templates/production-schedule-tracker.md`](templates/production-schedule-tracker.md) — kalender batch dan lembar antrian untuk mengatur rilis multi-saluran.
+
+---
+
+[← Honest RPM & Earnings Math](03-rpm-and-earnings.md) · Berikutnya: [Monetization Ladder →](05-monetization-ladder.md)

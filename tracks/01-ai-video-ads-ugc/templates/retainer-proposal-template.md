@@ -1,25 +1,25 @@
-# Retainer Proposal Template
+# Templat Proposal Pengikut
 
-From [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-selling-ugc.md). Pitch this after 2-3 completed projects — the "why this works" line should point at real delivered ads, not a generic capability claim.
+Dari [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-selling-ugc.md). Promosikan ini setelah 2-3 proyek selesai — baris "mengapa ini berhasil" harus mengarah pada iklan yang ditayangkan secara nyata, bukan klaim kemampuan umum.
 
-## Filled example
+## Contoh yang diisi
 
-**Client:** TrailGear Co.
-**Scope:** 8 ad variants/month, across 2 batches
-**Price:** $2,000/month
-**Includes:** scripting, production, 2 revision rounds per batch, delivery in 9:16 + 1:1, a one-page test-plan write-up per batch
-**Turnaround:** 5 business days per batch
-**Term:** month-to-month, no minimum
+**Klien:** TrailGear Co.
+**Cakupan:** 8 varian iklan/bulan, dalam 2 batch
+**Harga:** $2.000/bulan
+**Termasuk:** pembuatan skrip, produksi, 2 putaran revisi per batch, pengiriman dalam 9:16 + 1:1, penulisan rencana pengujian satu halaman per batch
+**Perputaran:** 5 hari kerja per batch
+**Jangka Waktu:** bulan ke bulan, tanpa minimum
 
-**Why this works:** The GripMount test batch we ran last month (Ad #2, problem-first hook) outperformed the original creative on hook rate — this retainer keeps that same testing cadence going instead of a one-off.
+**Mengapa cara ini berhasil:** Batch pengujian GripMount yang kami jalankan bulan lalu (Iklan #2, hook pertama yang bermasalah) mengungguli tingkat hook materi iklan asli — penahan ini menjaga irama pengujian yang sama tetap berjalan, bukan hanya sekali saja.
 
-## Blank template
+## Templat kosong
 
-**Client:** ___________
-**Scope:** [X] ad variants per month, across [Y] batches
-**Price:** $[amount]/month
-**Includes:** [scripting, production, N revision rounds per batch, delivery format]
-**Turnaround:** [X business days per batch]
-**Term:** month-to-month / [N]-month minimum
+**Klien:** ___________
+**Cakupan:** [X] varian iklan per bulan, di seluruh kelompok [Y].
+**Harga:** $[jumlah]/bulan
+**Termasuk:** [pembuatan skrip, produksi, N putaran revisi per batch, format pengiriman]
+**Perputaran:** [X hari kerja per batch]
+**Jangka Waktu:** minimum bulan ke bulan / [N]-bulan
 
-**Why this works:** [1-2 sentences tying back to results from prior project work — reference actual delivered ads/metrics if available]
+**Mengapa ini berhasil:** [1-2 kalimat yang terkait dengan hasil pekerjaan proyek sebelumnya — rujuk iklan/metrik yang ditayangkan sebenarnya jika tersedia]

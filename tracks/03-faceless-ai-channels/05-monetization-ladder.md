@@ -1,22 +1,22 @@
-# Monetization Ladder
+# Tangga Monetisasi
 
-> Don't wait for a million views; build a ladder to sell to the first thousand.
+> Jangan menunggu sejuta penayangan; membangun tangga untuk dijual kepada seribu orang pertama.
 
-**Track:** Faceless AI Channels  
-**Time:** ~30 minutes  
-**Prerequisites:** Niche Selection & Script Pipeline, Honest RPM & Earnings Math  
+**Lagu:** Saluran AI Tanpa Wajah
+**Waktu:** ~30 menit
+**Prasyarat:** Pemilihan Niche & Pipeline Skrip, RPM Jujur & Matematika Penghasilan
 
-## The Problem
+## Masalahnya
 
-The reason 90% of faceless channels are abandoned within the first three months is that creators wait for AdSense to monetize. To get paid by YouTube, you must cross the Partner Program threshold: 1,000 subscribers and 4,000 watch hours (or 10 million Shorts views). For a new channel, reaching this can take 6 to 12 months of daily uploads.
+Alasan 90% saluran tanpa wajah ditinggalkan dalam tiga bulan pertama adalah karena pembuat konten menunggu AdSense untuk melakukan monetisasi. Untuk mendapatkan bayaran dari YouTube, Anda harus melewati ambang batas Program Mitra: 1.000 pelanggan dan 4.000 jam tonton (atau 10 juta penayangan Shorts). Untuk saluran baru, mencapai angka ini memerlukan waktu 6 hingga 12 bulan untuk mengupload setiap hari.
 
-And when they finally qualify, they discover the payouts are small: a video with 20,000 views might only make $2.00 on Shorts.
+Dan ketika mereka akhirnya memenuhi syarat, mereka menyadari bahwa bayarannya kecil: video dengan 20.000 penayangan mungkin hanya menghasilkan $2,00 di Shorts.
 
-Successful creators treat views as **top-of-funnel traffic**, not the direct payout source. They build a monetization ladder that converts early, small-scale viewership into high-value revenue streams long before crossing the AdSense threshold.
+Pembuat konten sukses memperlakukan penayangan sebagai **lalu ​​lintas saluran teratas**, bukan sumber pembayaran langsung. Mereka membangun tangga monetisasi yang mengubah penayangan awal berskala kecil menjadi aliran pendapatan bernilai tinggi jauh sebelum melampaui ambang batas AdSense.
 
-## The Concept
+## Konsep
 
-The **Monetization Ladder** is a framework that matches your revenue products to the size and trust level of your audience:
+**Tangga Monetisasi** adalah kerangka kerja yang mencocokkan produk pendapatan Anda dengan ukuran dan tingkat kepercayaan audiens Anda:
 
 ```
 Tier 4: Paid Community (5K+ Subs)  ──► Monthly Recurring Revenue ($47 - $97/mo)
@@ -25,94 +25,94 @@ Tier 2: High-Value Affiliates (100+ Subs) ──► Software/SaaS Recurring Comm
 Tier 1: Lead Magnet & Email (0+ Subs) ──► Free Guide/Template, Building list
 ```
 
-Instead of pitching a $100 product to a cold audience on day one, you lead with a **Free Lead Magnet** (Tier 1). This exchanges attention for an email address, allowing you to build a relationship and sell Tiers 2, 3, and 4 via email automation, where conversion rates are 10x higher than in video descriptions.
+Daripada menawarkan produk seharga $100 kepada audiens yang acuh tak acuh pada hari pertama, Anda memimpin dengan **Magnet Timbal Gratis** (Tingkat 1). Hal ini mengalihkan perhatian ke alamat email, memungkinkan Anda membangun hubungan dan menjual Tingkat 2, 3, dan 4 melalui otomatisasi email, dengan tingkat konversi 10x lebih tinggi daripada deskripsi video.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Design a High-Value Lead Magnet
-Identify the single biggest friction point in your niche. Create a simple visual tool to solve it:
-* *SaaS Niche:* A pre-built automation template or a checklist of tools.
-* *Finance Niche:* A basic Google Sheets budget calculator.
-Ensure it is easy to deliver digitally as a link or PDF.
+### Langkah 1: Rancang Magnet Timbal Bernilai Tinggi
+Identifikasi satu-satunya titik gesekan terbesar di niche Anda. Buat alat visual sederhana untuk menyelesaikannya:
+* *SaaS Niche:* Templat otomatisasi siap pakai atau daftar alat.
+* *Niche Keuangan:* Kalkulator anggaran dasar Google Sheets.
+Pastikan mudah untuk dikirimkan secara digital sebagai tautan atau PDF.
 
-### Step 2: Set Up Your Opt-in Landing Page
-Use the [`templates/funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) to set up your landing page. Keep it clean: a bold title, 3 bullet points of benefits, and an email entry form. Place the link in your channel bio, video descriptions, and pinned comments.
+### Langkah 2: Siapkan Halaman Arahan Keikutsertaan Anda
+Gunakan [`templates/funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) untuk menyiapkan laman landas Anda. Jaga kebersihannya: judul tebal, 3 poin manfaat, dan formulir entri email. Tempatkan tautan di bio saluran Anda, deskripsi video, dan komentar yang dipasangi pin.
 
-### Step 3: Set Up Your Checkout Portal
-Create a free merchant account on Gumroad, Whop, or Stripe. Set up your first premium offer:
-* Keep the price low (**$19–$29**) to reduce purchase friction.
-* Frame it as a continuation of your free lead magnet (e.g. if the free offer is a checklist, the paid offer is the complete video course/template library).
+### Langkah 3: Siapkan Portal Checkout Anda
+Buat akun pedagang gratis di Gumroad, Whop, atau Stripe. Siapkan penawaran premium pertama Anda:
+* Pertahankan harga tetap rendah (**$19–$29**) untuk mengurangi gesekan pembelian.
+* Bingkailah sebagai kelanjutan dari magnet utama gratis Anda (misalnya jika penawaran gratis adalah daftar periksa, penawaran berbayar adalah kursus video/perpustakaan template yang lengkap).
 
-### Step 4: Secure Affiliate Agreements
-Identify the software tools you recommend in your videos. Pitch them for custom referral rates using the [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md). Generate your affiliate tracking links.
+### Langkah 4: Amankan Perjanjian Afiliasi
+Identifikasi alat perangkat lunak yang Anda rekomendasikan dalam video Anda. Promosikan mereka untuk mendapatkan tarif rujukan khusus menggunakan [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md). Hasilkan tautan pelacakan afiliasi Anda.
 
-### Step 5: Automate Your Email Sequence
-Set up an automated workflow inside your email marketing software (e.g., ConvertKit, MailerLite):
-* **Email 1 (Day 0):** Deliver the free lead magnet.
-* **Email 2 (Day 2):** Send a high-value tip/case study related to the magnet.
-* **Email 3 (Day 4):** Introduce the premium product, showing before/after results.
+### Langkah 5: Otomatiskan Urutan Email Anda
+Siapkan alur kerja otomatis di dalam perangkat lunak pemasaran email Anda (misalnya, ConvertKit, MailerLite):
+* **Email 1 (Hari 0):** Kirimkan magnet timah gratis.
+* **Email 2 (Hari 2):** Kirim tip/studi kasus bernilai tinggi terkait magnet.
+* **Email 3 (Hari 4):** Memperkenalkan produk premium, menampilkan hasil sebelum/sesudah.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/faceless-monetization.jpg" alt="Monetization Storefront" width="280">
-<img src="templates/examples/faceless-monetization-clip.gif" alt="Digital Product Launch Motion (I2V)" width="280">
+<img src="templates/examples/faceless-monetization.jpg" alt="Monetisasi Etalase" width="280">
+<img src="templates/examples/faceless-monetization-clip.gif" alt="Gerakan Peluncuran Produk Digital (I2V)" width="280">
 </p>
 <p align="center"><sub>Product Launch Image (Left) ──► Image-to-Video Storefront Motion (Right) · Video File: <a href="templates/examples/faceless-monetization-clip.mp4">templates/examples/faceless-monetization-clip.mp4</a></sub></p>
 
-**Monetization of "Automate Smarter" at 2,500 Subscribers**
+**Monetisasi "Automate Smarter" pada 2.500 Pelanggan**
 
 
 
-* **Monthly Channel Views:** 60,000 views (Shorts)
-* **AdSense Status:** Not yet qualified (0 ad revenue)
-* **Funnel Conversions:**
-  * **Lead Magnet Opt-ins:** 0.5% conversion rate = **300 email signups**
-  * **Tier 2 (Affiliates):** 3% of signups click affiliate links and buy a $49/mo tool (recurring commission 30% = $14.70/user) -> 9 sales = **$132.30/month (recurring)**
-  * **Tier 3 (Digital Sales):** 2% of signups buy a $29 Invoice Parsing Template on Gumroad -> 6 sales = **$174.00/month**
-* **Total Non-AdSense Income:** **$306.30/month**
-* **API production cost:** 12 videos produced @ $0.70/video = **$8.40**
+* **Penayangan Channel Bulanan:** 60.000 penayangan (Video Shorts)
+* **Status AdSense:** Belum memenuhi syarat (0 pendapatan iklan)
+* **Konversi Corong:**
+* **Keikutsertaan Magnet Utama:** Tingkat konversi 0,5% = **300 pendaftaran email**
+* **Tingkat 2 (Afiliasi):** 3% pendaftaran mengeklik tautan afiliasi dan membeli alat senilai $49/bln (komisi berulang 30% = $14,70/pengguna) -> 9 penjualan = **$132,30/bulan (berulang)**
+* **Tingkat 3 (Penjualan Digital):** 2% pendaftaran membeli Templat Parsing Faktur senilai $29 di Gumroad -> 6 penjualan = **$174,00/bulan**
+* **Total Pendapatan Non-AdSense:** **$306,30/bulan**
+* **Biaya produksi API:** 12 video diproduksi @ $0,70/video = **$8,40**
 
-**The Result:** The channel earns over **$300/month** on only 60k views without qualifying for AdSense. As the subscriber count grows, the recurring affiliate base accumulates, creating stable monthly income.
+**Hasilnya:** Saluran ini menghasilkan lebih dari **$300/bulan** hanya dengan 60 ribu penayangan tanpa memenuhi syarat AdSense. Seiring bertambahnya jumlah pelanggan, basis afiliasi berulang terakumulasi, menciptakan pendapatan bulanan yang stabil.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Funnel Tool | Capabilities | Setup Effort | Best for |
+| Alat Corong | Kemampuan | Upaya Pengaturan | Terbaik untuk |
 |---|---|---|---|
-| **Gumroad / Whop** | Free to set up, handles payment processing, digital asset delivery, and basic affiliate management. Charges a flat transaction fee (5-10%). | Low | Selling PDF guides, template sheets, and community access slots. |
-| **ConvertKit / MailerLite** | Automated email tags, visual automation pathways, landing page hosting, and high delivery rates. | Medium | Managing email subscribers and running automated sales sequences. |
-| **Carrd** | Ultra-responsive, single-page website builder with easy form integrations. | Low | Creating high-converting custom opt-in pages. |
+| **Gumroad / Kekalahan** | Gratis untuk diatur, menangani pemrosesan pembayaran, pengiriman aset digital, dan manajemen afiliasi dasar. Membebankan biaya transaksi tetap (5-10%). | Rendah | Menjual panduan PDF, lembar template, dan slot akses komunitas. |
+| **ConvertKit / MailerLite** | Tag email otomatis, jalur otomatisasi visual, hosting halaman arahan, dan tingkat pengiriman yang tinggi. | Sedang | Mengelola pelanggan email dan menjalankan urutan penjualan otomatis. |
+| **Kartu** | Pembuat situs web satu halaman yang sangat responsif dengan integrasi formulir yang mudah. | Rendah | Membuat halaman keikutsertaan khusus dengan konversi tinggi. |
 
-For beginners, the combination of Carrd (landing page), MailerLite (email automation), and Gumroad (checkout) provides a complete, professional sales funnel for under $10/month.
-
----
-
-## Launch It
-
-**How to optimize your conversions:**
-* **Use Pinned Comments:** People read comments. A pinned comment reading *"Get the free budget sheet template here: [link]"* gets 3x more clicks than a link placed at the bottom of the video description box.
-* **Avoid the Hard Sell in Video:** Do not spend 20 seconds of a 60-second video explaining a paid product. Simply say: *"I put the template in the comments below."* Let the automated email sequence do the selling.
+Untuk pemula, kombinasi Carrd (halaman arahan), MailerLite (otomatisasi email), dan Gumroad (checkout) menyediakan saluran penjualan profesional yang lengkap dengan harga di bawah $10/bulan.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Brainstorm one Free Lead Magnet and one Paid Digital Product idea for your chosen niche.
-2. **Medium:** Build a single-page landing page with an email opt-in form using a free builder like Carrd.
-3. **Hard:** Draft a 3-part email automation sequence (delivery, value, pitch) for your digital product, maintaining a helpful, non-spammy tone.
+**Cara mengoptimalkan konversi Anda:**
+* **Gunakan Komentar yang Disematkan:** Orang membaca komentar. Komentar yang dipasangi pin *"Dapatkan templat lembar anggaran gratis di sini: [link]"* mendapat klik 3x lebih banyak daripada tautan yang ditempatkan di bagian bawah kotak deskripsi video.
+* **Hindari Penjualan Keras dalam Video:** Jangan menghabiskan 20 detik dari video berdurasi 60 detik untuk menjelaskan produk berbayar. Cukup ucapkan: *"Saya meletakkan templatenya di komentar di bawah."* Biarkan rangkaian email otomatis yang melakukan penjualan.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) — a layout checklist to connect opt-in pages, welcome emails, and merchant payment portals.
-* [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md) — a cold email template to secure custom referral structures.
+1. **Mudah:** Lakukan brainstorming satu Ide Produk Digital Gratis dan satu Ide Produk Digital Berbayar untuk niche pilihan Anda.
+2. **Media:** Buat laman landas satu halaman dengan formulir keikutsertaan email menggunakan pembuat gratis seperti Carrd.
+3. **Sulit:** Buat draf urutan otomatisasi email 3 bagian (pengiriman, nilai, promosi) untuk produk digital Anda, dengan mempertahankan nada yang bermanfaat dan tidak berisi spam.
+
+---
+
+## Templat
+
+* [`templates/funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) — daftar periksa tata letak untuk menghubungkan halaman keikutsertaan, email selamat datang, dan portal pembayaran pedagang.
+* [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md) — templat email keren untuk mengamankan struktur rujukan khusus.
 
 ---
 

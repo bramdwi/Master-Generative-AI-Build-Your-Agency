@@ -1,33 +1,33 @@
-# Shorts Looping Blueprint
+# Cetak Biru Perulangan Celana Pendek
 
-YouTube Shorts loop infinitely. If you construct your script so that the final sentence leads seamlessly back to your opening sentence, viewers will watch the first 2-3 seconds of the video twice before realizing it looped. This pushes your **retention rate above 100%**, triggering the Shorts algorithm to distribute your video.
+YouTube Shorts berputar tanpa batas. Jika Anda menyusun naskah sehingga kalimat terakhir mengarah kembali ke kalimat pembuka, pemirsa akan menonton 2-3 detik pertama video dua kali sebelum menyadarinya berulang. Hal ini mendorong **tingkat retensi Anda di atas 100%**, sehingga memicu algoritme Shorts untuk mendistribusikan video Anda.
 
 ---
 
-## The Loop Construction Formula
+## Rumus Konstruksi Lingkaran
 
 ```
 [Final Half-Sentence (End of Video)] ──► (Zero Pause Cut) ──► [First Half-Sentence (Start of Video)]
 ```
 
-### Script Example Structure:
+### Struktur Contoh Naskah:
 
-* **Opening Hook (Start of Script):**  
-  > "...is this simple automation blueprint." (Wait, this is the end of the sentence. The actual video starts here).
-* **Opening Explanation (First 5 seconds):**  
-  > "If you want to save five hours a week, all you need..."
-* **Body of Video:**  
-  > [Explain the steps: connect Zapier, parse invoice, auto-save data]
-* **Transition Out (End of Script):**  
-  > "The easiest way to set this up..."
+* **Hook Pembuka (Awal Skrip):**
+> "...apakah ini cetak biru otomatisasi sederhana." (Tunggu, ini akhir kalimatnya. Video sebenarnya dimulai di sini).
+* **Penjelasan Pembukaan (5 detik pertama):**
+> "Jika Anda ingin menghemat lima jam seminggu, yang Anda perlukan..."
+* **Isi Video:**
+> [Jelaskan langkah-langkahnya: sambungkan Zapier, parsing faktur, simpan data otomatis]
+* **Transisi Keluar (Akhir Skrip):**
+> "Cara termudah untuk mengatur ini..."
 
-### Complete Loop Audio Read-out:
-When the video finishes and loops, the viewer hears:
-> "...The easiest way to set this up... is this simple automation blueprint. If you want to save five hours a week, all you need..."
+### Pembacaan Audio Loop Lengkap:
+Saat video selesai dan diputar berulang-ulang, penonton akan mendengar:
+> "...Cara termudah untuk menyiapkannya... adalah cetak biru otomatisasi sederhana ini. Jika Anda ingin menghemat lima jam seminggu, yang Anda butuhkan..."
 
 ---
 
-## Timeline Editing Rules for Loops:
-- [ ] **No Music Fade-Out:** Keep the background music track at a constant volume up to the last frame. Cut the music track sharply at the end so it matches the starting frame's music.
-- [ ] **Zero Tail Silence:** Crop the ending voice file to the exact frame the speaker finishes talking. Do not leave a 0.5-second gap of silence at the end of the timeline.
-- [ ] **Continuous Motion:** If the final clip has a panning camera motion, the starting clip should have a similar motion direction (e.g. pan-right to pan-right) to keep the visual flow continuous.
+## Aturan Pengeditan Timeline untuk Loop:
+- [ ] **Tanpa Musik Fade-Out:** Jaga agar trek musik latar belakang tetap pada volume yang konstan hingga frame terakhir. Potong trek musik dengan tajam di bagian akhir agar cocok dengan musik frame awal.
+- [ ] **Zero Tail Silence:** Pangkas file suara akhir ke frame yang tepat saat pembicara selesai berbicara. Jangan tinggalkan jeda 0,5 detik di akhir timeline.
+- [ ] **Gerakan Berkelanjutan:** Jika klip terakhir memiliki gerakan kamera yang bergerak, klip awal harus memiliki arah gerakan yang serupa (misalnya, menggeser ke kanan ke menggeser ke kanan) untuk menjaga aliran visual tetap berkelanjutan.

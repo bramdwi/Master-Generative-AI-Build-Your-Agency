@@ -1,25 +1,25 @@
-# Agency Pricing & Retainer Calculator
+# Kalkulator Penetapan Harga & Retainer Agensi
 
-Use this pricing framework to build value-based project proposals and monthly recurring retainer packages for commercial AI creative services.
+Gunakan kerangka harga ini untuk membuat proposal proyek berbasis nilai dan paket tetap bulanan untuk layanan materi iklan AI komersial.
 
 ---
 
-## 📊 1. Project Floor & Value-Based Calculator
+## 📊 1. Dasar Proyek & Kalkulator Berbasis Nilai
 
-### Value-Based Project Pricing Formula:
-$$\text{Proposed Fee} = \text{Traditional Market Cost} \times 0.30$$
+### Rumus Penetapan Harga Proyek Berbasis Nilai:
+$$\text{Biaya yang Diusulkan} = \text{Biaya Pasar Tradisional} \kali 0,30$$
 
-### Example Calculation Matrix:
+### Contoh Matriks Perhitungan:
 
-| Service Category | Traditional Agency Cost | Target AI Proposal Fee | Estimated AI COGS | Agency Gross Profit | Gross Margin % |
+| Kategori Layanan | Biaya Agensi Tradisional | Biaya Proposal Target AI | Perkiraan HPP AI | Laba Kotor Agensi | Margin Kotor% |
 |---|---|---|---|---|---|
-| Corporate Headshot Batch (50 People) | $15,000 | **$4,500** | $25.00 | $4,475.00 | **99.4%** |
-| Product Campaign (20 Merch Renders + 3 Videos) | $18,000 | **$5,500** | $45.00 | $5,455.00 | **99.2%** |
-| Real Estate Virtual Staging (10 Listings) | $6,000 | **$2,200** | $30.00 | $2,170.00 | **98.6%** |
+| Batch Headshot Perusahaan (50 Orang) | $15.000 | **$4.500** | $25,00 | $4,475.00 | **99,4%** |
+| Kampanye Produk (20 Render Merchandise + 3 Video) | $18,000 | **$5.500** | $45,00 | $5.455,00 | **99,2%** |
+| Pementasan Virtual Real Estat (10 Daftar) | $6.000 | **$2.200** | $30,00 | $2,170.00 | **98,6%** |
 
 ---
 
-## 📦 2. Standard 3-Tier Proposal Matrix
+## 📦 2. Matriks Proposal 3 Tingkat Standar
 
 ```
 +------------------------------------+------------------------------------+------------------------------------+
@@ -36,10 +36,10 @@ $$\text{Proposed Fee} = \text{Traditional Market Cost} \times 0.30$$
 
 ---
 
-## 🔄 3. Monthly Recurring Retainer Models
+## 🔄 3. Model Retainer Berulang Bulanan
 
-| Tier | Included Deliverables | Monthly Retainer Fee | Client Commitment | Minimum Net Profit |
+| Tingkat | Termasuk Kiriman | Biaya Retainer Bulanan | Komitmen Klien | Laba Bersih Minimal |
 |---|---|---|---|---|
-| **Growth** | 10 Graphics + 2 Short Videos / mo | **$3,000 / mo** | 3 Months | **$2,950 / mo** |
-| **Scale** | 25 Graphics + 5 Short Videos / mo | **$6,000 / mo** | 6 Months | **$5,900 / mo** |
-| **Enterprise** | Custom On-Demand Asset Pipeline | **$12,000 / mo** | 12 Months | **$11,800 / mo** |
+| **Pertumbuhan** | 10 Grafik + 2 Video Pendek / bln | **$3.000 / bln** | 3 Bulan | **$2.950 / bln** |
+| **Skala** | 25 Grafik + 5 Video Pendek / bln | **$6.000 / bln** | 6 Bulan | **$5.900 / bln** |
+| **Perusahaan** | Saluran Aset Sesuai Permintaan Kustom | **$12.000 / bln** | 12 Bulan | **$11.800 / bln** |

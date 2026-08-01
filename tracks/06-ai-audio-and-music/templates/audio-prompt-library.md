@@ -1,33 +1,33 @@
-# AI Music & Sound Effects Prompt Library
+# Perpustakaan Prompt Musik & Efek Suara AI
 
-Use this library of prompt patterns and keywords to generate copyright-free background music and sound effects (SFX) using generators like Suno, Udio, or Mubert.
-
----
-
-## 1. Background Music (BGM) Prompt Formulas
-
-Use this structure: `[Tempo / BPM] [Genre] [Instruments] [Mood] [Use Case]`
-
-### Tech / SaaS Explainer Loop:
-> `"120 BPM, clean corporate tech house loop. Minimalist synthesizer, warm deep bass, soft digital percussion, optimistic mood. No vocals, perfect for background video integration, seamless audio loop, high fidelity."`
-
-### Cinematic Suspense B-Roll:
-> `"90 BPM, ambient cinematic electronic. Atmospheric pads, distant organic percussion, dark moody analog synthesizer, building tension. No vocals, out of focus arrangement, cinematic master."`
-
-### Lofi Productivity / Coding:
-> `"80 BPM, lofi hip hop loop. Warm electric piano chords, dusty vinyl crackle, relaxed jazz drums, soothing aesthetic mood. Ideal for coding streams, background audio loop."`
+Gunakan perpustakaan pola cepat dan kata kunci ini untuk menghasilkan musik latar dan efek suara (SFX) bebas hak cipta menggunakan generator seperti Suno, Udio, atau Mubert.
 
 ---
 
-## 2. Sound Effects (SFX) Prompt Formulas
+## 1. Rumus Prompt Musik Latar Belakang (BGM).
 
-Use this structure: `[Action] [Subject] [Acoustic environment] [Quality descriptor]`
+Gunakan struktur ini: `[Tempo / BPM] [Genre] [Instruments] [Mood] [Use Case]`
 
-### Digital UI Click:
-> `"A single high-pitched modern UI digital click sound effect, clean, isolated, no echo, software dashboard button press, close microphone."`
+### Lingkaran Penjelasan Teknologi / SaaS:
+> __KODE INLINE_0__
 
-### Whoosh transition:
-> `"Cinematic sub-bass whoosh transition sound effect, deep low rumble, fast panning left to right, high impact, clean isolated track."`
+### B-Roll Ketegangan Sinematik:
+> __KODE INLINE_0__
 
-### Paper / Document slide:
-> `"A single clean paper page slide sound effect, texture sliding across a desk, isolated, studio-quality, high detail."`
+### Produktivitas / Pengkodean Lofi:
+> __KODE INLINE_0__
+
+---
+
+## 2. Rumus Prompt Efek Suara (SFX).
+
+Gunakan struktur ini: `[Action] [Subject] [Acoustic environment] [Quality descriptor]`
+
+### Klik UI Digital:
+> __KODE INLINE_0__
+
+### Transisi mendesing:
+> __KODE INLINE_0__
+
+### Slide Kertas / Dokumen:
+> __KODE INLINE_0__

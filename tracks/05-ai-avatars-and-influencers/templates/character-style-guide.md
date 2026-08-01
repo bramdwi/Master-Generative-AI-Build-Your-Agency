@@ -1,35 +1,35 @@
-# Character Style Guide Template
+# Templat Panduan Gaya Karakter
 
-Use this style guide to document and lock down your AI character's visual identity. Keep these tokens and values identical across all generation sessions to prevent face drift.
-
----
-
-## 1. Core Character Profile
-* **Character Name:** ________________________  
-* **Age & Gender:** ________________________  
-* **Ethnicity / Facial Structure:** [e.g., Caucasian, high cheekbones, green eyes, oval face]  
-* **Hair Details:** [e.g., short brown hair, textured crop, messy side part]  
+Gunakan panduan gaya ini untuk mendokumentasikan dan mengunci identitas visual karakter AI Anda. Jaga agar token dan nilai-nilai ini tetap identik di seluruh sesi generasi untuk mencegah penyimpangan wajah.
 
 ---
 
-## 2. Text-to-Image Generation Prompt Anchors
-*Use these exact prompts as the baseline prefix for every scene generation.*
-
-* **Physical Face Description (The Identity Token):**  
-  > `"A close-up portrait of [Name], a [Age]-year-old [Gender] with [Hair Details], [Facial Details]..."`
-* **Clothing / Wardrobe Anchor:**  
-  > `"wearing a [Color] [Garment type, e.g. wearing a dark blue crewneck sweater]..."`
-* **Aesthetic / Lighting Anchor:**  
-  > `"cinematic office background, out of focus warm ambient lighting, 35mm film photography, photorealistic, 8k..."`
-* **Locked Seed (if applicable):** Seed value: `__________________`
+## 1. Profil Karakter Inti
+* **Nama Karakter:** __________
+* **Usia & Jenis Kelamin:** __________
+* **Etnis / Struktur Wajah:** [misal: Kaukasia, tulang pipi tinggi, mata hijau, wajah oval]
+* **Detail Rambut:** [misalnya, rambut coklat pendek, potongan bertekstur, bagian samping berantakan]
 
 ---
 
-## 3. Scene Setting Matrix
-Track your character's appearances across different backgrounds to maintain visual cohesion:
+## 2. Jangkar Prompt Pembuatan Teks-ke-Gambar
+*Gunakan perintah yang tepat ini sebagai awalan dasar untuk setiap pembuatan adegan.*
 
-| Scene # | Location / Background | Wardrobe | Camera Angle | Reference Image URL / File |
+* **Deskripsi Wajah Fisik (Token Identitas):**
+> __KODE INLINE_0__
+* **Jangkar Pakaian / Lemari Pakaian:**
+> __KODE INLINE_0__
+* **Jangkar Estetika / Pencahayaan:**
+> __KODE INLINE_0__
+* **Benih Terkunci (jika ada):** Nilai benih: `__________________`
+
+---
+
+## 3. Matriks Pengaturan Pemandangan
+Lacak penampilan karakter Anda di berbagai latar belakang untuk menjaga kohesi visual:
+
+| Adegan # | Lokasi / Latar Belakang | Lemari pakaian | Sudut Kamera | URL / File Gambar Referensi |
 |---|---|---|---|---|
-| **01** | Modern corporate office | Dark blue sweater | Medium close-up | `examples/avatar-anchor.jpg` |
-| **02** | Moody home office | Dark blue sweater | Close-up profile | |
-| **03** | Minimalist cafe | Dark blue sweater | Wide shot | |
+| **01** | Kantor perusahaan modern | Sweater biru tua | Jarak dekat sedang | __KODE INLINE_0__ |
+| **02** | Kantor rumah Moody | Sweater biru tua | Profil jarak dekat | |
+| **03** | Kafe minimalis | Sweater biru tua | Tembakan lebar | |

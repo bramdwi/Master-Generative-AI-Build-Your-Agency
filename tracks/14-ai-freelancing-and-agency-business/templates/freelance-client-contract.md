@@ -1,76 +1,76 @@
-# Master Services Agreement & Statement of Work (SOW) Template
+# Templat Perjanjian Layanan Utama & Pernyataan Kerja (SOW).
 
-Use this legally binding contract template to govern client relationships, protect revision limits, enforce milestone deposits, and assign commercial IP rights for AI creation projects.
-
----
-
-## 📄 MASTER SERVICES AGREEMENT (MSA)
-
-**THIS MASTER SERVICES AGREEMENT** ("Agreement") is entered into as of `[Date]` ("Effective Date"), by and between:
-
-* **AGENCY:** `[Your Agency Name LLC]`, located at `[Your Address]` ("Contractor")
-* **CLIENT:** `[Client Company Name]`, located at `[Client Address]` ("Client")
+Gunakan templat kontrak yang mengikat secara hukum ini untuk mengatur hubungan klien, melindungi batas revisi, menerapkan setoran pencapaian, dan menetapkan hak kekayaan intelektual komersial untuk proyek pembuatan AI.
 
 ---
 
-### 1. SERVICES & STATEMENTS OF WORK
-Contractor shall perform creative AI media creation services ("Services") as specified in individually executed Statements of Work ("SOW"). Each SOW shall incorporate the terms of this Agreement.
+## 📄 PERJANJIAN LAYANAN UTAMA (MSA)
 
-### 2. COMPENSATION & MILESTONE PAYMENTS
-2.1 **Payment Schedule:** Unless otherwise specified in an SOW, Client shall compensate Contractor according to the following milestone schedule:
-   - **50% Non-Refundable Deposit:** Due upon execution of SOW prior to project commencement.
-   - **25% Milestone Payment:** Due upon delivery of initial watermarked proofs.
-   - **25% Final Balance:** Due prior to final delivery of un-watermarked master files.
+**PERJANJIAN LAYANAN UTAMA INI** ("Perjanjian") ditandatangani pada `[Date]` ("Tanggal Efektif"), pada dan antara:
 
-2.2 **Late Payment Fees:** Invoices unpaid after fifteen (15) days from due date shall accrue interest at the rate of 1.5% per month or the maximum rate permitted by law.
+* **AGEN:** `[Your Agency Name LLC]`, beralamat di `[Your Address]` ("Kontraktor")
+* **KLIEN:** `[Client Company Name]`, berlokasi di `[Client Address]` ("Klien")
 
 ---
 
-### 3. REVISION PARAMETERS & SCOPE CONTROL
-3.1 **Included Revisions:** Each deliverable includes exactly two (2) rounds of revisions. Revisions are strictly defined as minor adjustments to color grading, lighting contrast, or minor masking fixes.  
-3.2 **Out-of-Scope Change Orders:** Requests for structural prompt re-engineering, identity model replacement, pose changes, or fundamental style alterations after initial brief sign-off shall constitute an Out-of-Scope Change Order, billed at Contractor’s standard rate of $150.00 per hour.
+### 1. JASA & PERNYATAAN KERJA
+Kontraktor harus melakukan layanan pembuatan media AI kreatif ("Layanan") sebagaimana ditentukan dalam Pernyataan Kerja ("SOW") yang dilaksanakan secara individual. Setiap SOW harus menyertakan ketentuan Perjanjian ini.
+
+### 2. PEMBAYARAN KOMPENSASI & MILESTONE
+2.1 **Jadwal Pembayaran:** Kecuali ditentukan lain dalam SOW, Klien akan memberikan kompensasi kepada Kontraktor sesuai dengan jadwal pencapaian berikut:
+- **50% Deposit yang Tidak Dapat Dikembalikan:** Harus dibayarkan pada saat pelaksanaan SOW sebelum proyek dimulai.
+- **Pembayaran Milestone 25%:** Harus dibayar pada saat pengiriman bukti awal yang diberi watermark.
+- **25% Saldo Akhir:** Harus dibayar sebelum pengiriman akhir file master yang tidak diberi watermark.
+
+2.2 **Biaya Keterlambatan Pembayaran:** Faktur yang tidak dibayar setelah lima belas (15) hari sejak tanggal jatuh tempo akan dikenakan bunga sebesar 1,5% per bulan atau tarif maksimum yang diizinkan oleh undang-undang.
 
 ---
 
-### 4. INTELLECTUAL PROPERTY & AI COMMERCIAL RIGHTS
-4.1 **Deliverables IP Assignment:** Upon receipt of 100% full payment, Contractor assigns to Client all assignable rights, title, and interest in and to the final delivered master media files.  
-4.2 **Background IP Reservation:** Contractor retains exclusive ownership of all proprietary prompt libraries, ComfyUI node graphs, LoRA model weights, workflow scripts, and background automation technology ("Contractor Background IP").  
-4.3 **AI Tool Disclosure:** Client acknowledges that deliverables are produced using state-of-the-art Generative AI frameworks (including FLUX, Midjourney, Runway, ElevenLabs) operating under commercial enterprise tier licenses.
+### 3. REVISI PARAMETER & KONTROL RUANG LINGKUP
+3.1 **Termasuk Revisi:** Setiap kiriman mencakup tepat dua (2) putaran revisi. Revisi secara ketat didefinisikan sebagai penyesuaian kecil pada gradasi warna, kontras pencahayaan, atau perbaikan masking kecil.
+3.2 **Perintah Perubahan Di Luar Cakupan:** Permintaan untuk rekayasa ulang struktur secara cepat, penggantian model identitas, perubahan pose, atau perubahan gaya mendasar setelah penandatanganan singkat awal akan merupakan Perintah Perubahan Di Luar Cakupan, yang ditagih dengan tarif standar Kontraktor sebesar $150,00 per jam.
 
 ---
 
-### 5. CLIENT INDEMNIFICATION & WARRANTIES
-Client represents and warrants that all trademarks, logos, reference photos, employee headshots, and inputs provided to Contractor do not infringe upon any third-party copyright, trademark, or privacy rights. Client agrees to indemnify and hold harmless Contractor against any third-party claims arising from Client-provided inputs.
+### 4. KEKAYAAN INTELEKTUAL & HAK KOMERSIAL AI
+4.1 **Penugasan IP Hasil Kerja:** Setelah menerima pembayaran penuh 100%, Kontraktor mengalihkan kepada Klien semua hak, kepemilikan, dan kepentingan yang dapat dialihkan dalam dan pada file media induk akhir yang dikirimkan.
+4.2 **Reservasi IP Latar Belakang:** Kontraktor memegang kepemilikan eksklusif atas semua perpustakaan cepat kepemilikan, grafik node ComfyUI, bobot model LoRA, skrip alur kerja, dan teknologi otomatisasi latar belakang ("IP Latar Belakang Kontraktor").
+4.3 **Pengungkapan Alat AI:** Klien mengakui bahwa kiriman dihasilkan menggunakan kerangka kerja AI Generatif yang canggih (termasuk FLUX, Midjourney, Runway, ElevenLabs) yang beroperasi di bawah lisensi tingkat perusahaan komersial.
 
 ---
 
-## 📝 STATEMENT OF WORK (SOW) #001
-
-**PROJECT TITLE:** `[Project Name, e.g., B2B Corporate Headshots Campaign]`
-
-### 1. Scope of Deliverables:
-- Total Renders: `[Number, e.g., 50 Final 8k Studio Headshots]`
-- Output Specifications: `[Format, e.g., 4500x4500px @ 300 DPI, PNG/JPG]`
-- Turnaround SLA: `[Timeline, e.g., 48 Hours from Input Upload]`
-
-### 2. Financial Summary:
-- **Total Fixed Project Fee:** `$ [Amount, e.g., $5,500.00]`
-- **Deposit (50%):** `$ [Amount, e.g., $2,750.00]`
-- **Milestone 2 (25%):** `$ [Amount, e.g., $1,375.00]`
-- **Final Delivery (25%):** `$ [Amount, e.g., $1,375.00]`
+### 5. GANTI RUGI & GARANSI KLIEN
+Klien menyatakan dan menjamin bahwa semua merek dagang, logo, foto referensi, foto karyawan, dan masukan yang diberikan kepada Kontraktor tidak melanggar hak cipta, merek dagang, atau hak privasi pihak ketiga mana pun. Klien setuju untuk mengganti kerugian dan membebaskan Kontraktor terhadap klaim pihak ketiga apa pun yang timbul dari masukan yang diberikan Klien.
 
 ---
 
-### 🖋️ Signatures:
+## 📝 PERNYATAAN KERJA (TABUR) #001
 
-**FOR CONTRACTOR:**  
-Signature: ______________________  
-Name: `[Your Name]`  
-Title: Managing Director  
-Date: ______________  
+**JUDUL PROYEK:** `[Project Name, e.g., B2B Corporate Headshots Campaign]`
 
-**FOR CLIENT:**  
-Signature: ______________________  
-Name: `[Client Representative Name]`  
-Title: `[Client Title]`  
-Date: ______________  
+### 1. Ruang Lingkup Hasil Kerja:
+- Total Render: `[Number, e.g., 50 Final 8k Studio Headshots]`
+- Spesifikasi Keluaran: `[Format, e.g., 4500x4500px @ 300 DPI, PNG/JPG]`
+- SLA Penyelesaian: `[Timeline, e.g., 48 Hours from Input Upload]`
+
+### 2. Ikhtisar Keuangan:
+- **Total Biaya Proyek Tetap:** `$ [Amount, e.g., $5,500.00]`
+- **Setoran (50%):** `$ [Amount, e.g., $2,750.00]`
+- **Pencapaian 2 (25%):** `$ [Amount, e.g., $1,375.00]`
+- **Pengiriman Akhir (25%):** `$ [Amount, e.g., $1,375.00]`
+
+---
+
+### 🖋️ Tanda tangan:
+
+**UNTUK KONTRAKTOR:**
+Tanda tangan: ______________________
+Nama: `[Your Name]`
+Judul: Direktur Pelaksana
+Tanggal: ______________
+
+**UNTUK KLIEN:**
+Tanda tangan: ______________________
+Nama: `[Client Representative Name]`
+Judul: `[Client Title]`
+Tanggal: ______________

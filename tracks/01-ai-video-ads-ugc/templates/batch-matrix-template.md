@@ -1,28 +1,28 @@
-# Batch Matrix Template
+# Templat Matriks Batch
 
-From [Module 3: Building a 10-Ad Batch](../03-building-an-ad-batch.md). Fill in one row per ad before producing anything — vary only hook and/or selling angle per ad, not both randomly.
+Dari [Module 3: Building a 10-Ad Batch](../03-building-an-ad-batch.md). Isi satu baris per iklan sebelum memproduksi apa pun — variasikan hanya hook dan/atau sudut penjualan per iklan, jangan keduanya secara acak.
 
-## Filled example (GripMount, 5-ad batch)
+## Contoh yang terisi (GripMount, kumpulan 5 iklan)
 
-**Product:** GripMount — $28 magnetic phone car mount
-**Constants (same across every ad):** product demo, proof section ("two weeks, potholes included"), CTA ("$28, link's below")
+**Produk:** GripMount — dudukan telepon magnetik di mobil seharga $28
+**Konstanta (sama di setiap iklan):** demo produk, bagian bukti ("dua minggu, termasuk lubang"), CTA ("$28, tautan ada di bawah")
 
-| Ad # | Hook | Angle | Notes |
+| Iklan # | Kait | Sudut | Catatan |
 |---|---|---|---|
-| 1 | "I did not expect this to hold through a pothole." | Durability/surprise | Baseline ad — this is the one from the script template |
-| 2 | "My old mount fell off literally every drive." | Problem-first (names the pain point) | Tests whether naming the competitor's failure outperforms a surprise hook |
-| 3 | "POV: you're driving and your phone doesn't fall for once." | Relatable/POV format | Different format, not just different words — tests if POV framing changes hook rate |
-| 4 | "This $28 thing fixed a problem I didn't know had a fix." | Price/value framing | Leads with price as a hook, not just in the CTA |
-| 5 | "Two weeks, every pothole, still holding." | Proof-first (leads with the result) | Tests whether opening with proof beats opening with a question |
+| 1 | "Saya tidak mengira ini akan terjadi melalui lubang." | Daya tahan/kejutan | Iklan dasar — ​​ini yang ada di template skrip |
+| 2 | "Gunung lamaku terjatuh setiap kali berkendara." | Masalah-pertama (sebutkan titik sakitnya) | Menguji apakah penamaan kegagalan pesaing mengungguli pukulan kejutan |
+| 3 | "POV: kamu sedang mengemudi dan ponselmu tidak jatuh sekali pun." | Format terkait/POV | Format berbeda, bukan hanya kata berbeda — menguji apakah pembingkaian POV mengubah kecepatan kait |
+| 4 | "Benda seharga $28 ini memperbaiki masalah yang saya tidak tahu ada perbaikannya." | Pembingkaian harga/nilai | Memimpin dengan harga sebagai pengait, bukan hanya di CTA |
+| 5 | "Dua minggu, setiap lubang, masih bertahan." | Bukti-pertama (memimpin dengan hasil) | Menguji apakah pembukaan dengan bukti mengalahkan pembukaan dengan pertanyaan |
 
-Only hook and angle change — everything else stays fixed, so a winner tells you it was the *hook*, not some other variable. See Module 3's Compare Tools for how to actually read results (hook rate first, then CPA).
+Hanya pengait dan sudut yang berubah — semuanya tetap, jadi pemenang memberi tahu Anda bahwa itu adalah *pengait*, bukan variabel lainnya. Lihat Alat Bandingkan Modul 3 untuk mengetahui cara sebenarnya membaca hasil (hook rate terlebih dahulu, kemudian CPA).
 
-## Blank template
+## Templat kosong
 
-**Product:** ___________
-**Constants (same across every ad):** product, core proof point, CTA
+**Produk:** ___________
+**Konstanta (sama di setiap iklan):** produk, titik bukti inti, CTA
 
-| Ad # | Hook angle | Selling angle | Notes |
+| Iklan # | Sudut kait | Sudut penjualan | Catatan |
 |---|---|---|---|
 | 1 | | | |
 | 2 | | | |

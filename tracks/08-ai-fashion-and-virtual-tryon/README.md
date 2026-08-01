@@ -1,60 +1,60 @@
-# Track 8 — AI Fashion & Virtual Try-On
+# Track 8 — Mode AI & Uji Coba Virtual
 
-> Virtual try-on and lifestyle editorial lookbooks on demand, wrapping flat garments onto custom models while preserving design texture, folding, and branding details.
+> Buku panduan editorial gaya hidup dan uji coba virtual sesuai permintaan, membungkus pakaian datar ke model khusus sambil mempertahankan tekstur desain, lipatan, dan detail merek.
 
-Four modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (briefs, specs sheets, logs) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, lembar spesifikasi, log) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [Garment Try-on for Fashion E-commerce](01-garment-tryon.md) | ~45 min | — |
-| 2 | [High-converting Studio Lookbooks](02-studio-lookbooks.md) | ~40 min | Module 1 |
-| 3 | [Sizing & Layout Consistency](03-sizing-layout-consistency.md) | ~35 min | — |
-| 4 | [Before/After Conversion Cases](04-conversion-cases.md) | ~45 min | Module 1 |
+| 1 | [Garment Try-on for Fashion E-commerce](01-garment-tryon.md) | ~45 menit | — |
+| 2 | [High-converting Studio Lookbooks](02-studio-lookbooks.md) | ~40 menit | Modul 1 |
+| 3 | [Sizing & Layout Consistency](03-sizing-layout-consistency.md) | ~35 menit | — |
+| 4 | [Before/After Conversion Cases](04-conversion-cases.md) | ~45 menit | Modul 1 |
 
 ---
 
-### 1. [Garment Try-on for Fashion E-commerce](01-garment-tryon.md)
+### 1.[Garment Try-on for Fashion E-commerce](01-garment-tryon.md)
 
-> A garment only comes alive when it moves with a human body.
+> Sebuah pakaian hanya menjadi hidup ketika ia bergerak bersama tubuh manusia.
 
-- Isolate physical apparel items using transparent background cropping masks.
-- Drape isolated garments onto target model structures using virtual try-on (VTO) pipelines.
-- Verify collar edges, button outlines, and text pattern alignment at high zoom levels.
+- Pisahkan item pakaian fisik menggunakan masker pemangkasan latar belakang transparan.
+- Menggantungkan pakaian terisolasi ke struktur model target menggunakan saluran pipa virtual try-on (VTO).
+- Verifikasi tepi kerah, garis luar tombol, dan perataan pola teks pada tingkat zoom tinggi.
 
-**Templates:** [`tryon-spec-sheet.md`](templates/tryon-spec-sheet.md)
+**Templat:** [`tryon-spec-sheet.md`](templates/tryon-spec-sheet.md)
 
-### 2. [High-converting Studio Lookbooks](02-studio-lookbooks.md)
+### 2.[High-converting Studio Lookbooks](02-studio-lookbooks.md)
 
-> A lookbook doesn't just sell clothes; it sells a lifestyle.
+> Lookbook tidak hanya menjual pakaian; itu menjual gaya hidup.
 
-- Standardize lookbook theme backdrops using cohesive texture prompts.
-- Implement side softbox lighting and cast soft ambient shadows in model composites.
-- Apply global color lookup maps (LUTs) to match highlight and shadow tones across the lookbook.
+- Standarisasi latar belakang tema lookbook menggunakan perintah tekstur kohesif.
+- Terapkan pencahayaan softbox samping dan berikan bayangan sekitar yang lembut dalam komposit model.
+- Terapkan peta pencarian warna global (LUT) untuk mencocokkan warna sorotan dan bayangan di seluruh lookbook.
 
-**Templates:** [`lookbook-moodboard.md`](templates/lookbook-moodboard.md)
+**Templat:** [`lookbook-moodboard.md`](templates/lookbook-moodboard.md)
 
-### 3. [Sizing & Layout Consistency](03-sizing-layout-consistency.md)
+### 3.[Sizing & Layout Consistency](03-sizing-layout-consistency.md)
 
-> Proportions build the canvas; alignment builds the brand.
+> Proporsi membangun kanvas; penyelarasan membangun merek.
 
-- Enforce vertical alignment grids matching model eye level, shoulders, waist, and baseline.
-- Maintain standardized aspect ratios and safety margins for mobile layouts.
-- Center main product seams and zippers to the canvas horizontal midpoint.
+- Menerapkan kisi-kisi penyelarasan vertikal yang sesuai dengan model setinggi mata, bahu, pinggang, dan garis dasar.
+- Pertahankan rasio aspek standar dan margin keamanan untuk tata letak seluler.
+- Pusatkan jahitan dan ritsleting produk utama ke titik tengah horizontal kanvas.
 
-**Templates:** [`mannequin-alignment-template.md`](templates/mannequin-alignment-template.md)
+**Templat:** [`mannequin-alignment-template.md`](templates/mannequin-alignment-template.md)
 
-### 4. [Before/After Conversion Cases](04-conversion-cases.md)
+### 4.[Before/After Conversion Cases](04-conversion-cases.md)
 
-> Real models increase clicks; accurate fit reduces returns.
+> Model nyata meningkatkan klik; kecocokan yang akurat mengurangi pengembalian.
 
-- Calculate returns rates and identify fit-related purchase complaints.
-- Display clothes across diverse model body shapes to improve conversions.
-- Place clear model measurements and size tags on listing hero graphics.
+- Hitung tingkat pengembalian dan identifikasi keluhan pembelian terkait kecocokan.
+- Tampilkan pakaian dalam berbagai bentuk tubuh model untuk meningkatkan konversi.
+- Tempatkan pengukuran model dan label ukuran yang jelas pada daftar grafik pahlawan.
 
-**Templates:** [`fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md)
+**Templat:** [`fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 11 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

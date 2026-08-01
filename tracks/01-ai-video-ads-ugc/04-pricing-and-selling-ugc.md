@@ -1,88 +1,88 @@
-# Pricing & Selling UGC Ads as a Service
+# Penetapan Harga & Penjualan Iklan UGC sebagai Layanan
 
-> The production is the easy part now. Getting paid for it is a different skill.
+> Produksi adalah bagian yang mudah sekarang. Dibayar untuk itu adalah keterampilan yang berbeda.
 
-**Track:** AI Video Ads & UGC
-**Time:** ~35 minutes
-**Prerequisites:** How AI UGC Actually Works, Building a 10-Ad Batch
+**Lagu:** Iklan Video AI & UGC
+**Waktu:** ~35 menit
+**Prasyarat:** Cara Kerja AI UGC, Membuat Batch 10 Iklan
 
-## The Problem
+## Masalahnya
 
-Most people who can produce good AI UGC ads still make far less than they could, because they price by guessing, undersell out of fear of rejection, or pitch the technology instead of the result. Meanwhile the actual market — freelance gigs and agency retainers — already has established price ranges you can anchor to instead of guessing.
+Kebanyakan orang yang mampu menghasilkan iklan AI UGC yang baik masih menghasilkan pendapatan yang jauh lebih sedikit daripada yang mereka bisa dapatkan, karena mereka menetapkan harga hanya dengan menebak-nebak, menjual lebih rendah karena takut ditolak, atau mempromosikan teknologinya alih-alih hasilnya. Sementara itu, pasar sebenarnya – pertunjukan lepas dan pengikut agensi – telah menetapkan kisaran harga yang dapat Anda jadikan acuan alih-alih menebak-nebak.
 
-## The Concept
+## Konsep
 
-There are three ways to sell this, each with a different ceiling:
+Ada tiga cara untuk menjualnya, masing-masing dengan plafon berbeda:
 
-- **One-off gig work** (Fiverr-style, per ad or small batch) — lowest ceiling, fastest to start, good for building a portfolio and testimonials.
-- **Project-based client work** (direct outreach, a batch or campaign per project) — mid ceiling, requires your own outreach but no marketplace fee.
-- **Retainer/agency work** (ongoing monthly batches for a brand) — highest ceiling and most stable, but requires trust built from prior project work.
+- **Pekerjaan pertunjukan satu kali** (Gaya Fiverr, per iklan atau batch kecil) — batas tertinggi, tercepat untuk memulai, bagus untuk membangun portofolio dan testimonial.
+- **Pekerjaan klien berbasis proyek** (penjangkauan langsung, batch atau kampanye per proyek) — plafon menengah, memerlukan penjangkauan Anda sendiri tetapi tidak ada biaya pasar.
+- **Pekerjaan penahan/agensi** (batch bulanan berkelanjutan untuk suatu merek) — batas tertinggi dan paling stabil, namun memerlukan kepercayaan yang dibangun dari pekerjaan proyek sebelumnya.
 
-The natural progression is gig → project → retainer, using each stage's output (finished ads, testimonials) as the pitch for the next stage.
+Kemajuan alaminya adalah pertunjukan → proyek → pengikut, menggunakan keluaran setiap tahap (iklan yang sudah selesai, testimonial) sebagai promosi untuk tahap berikutnya.
 
-## Do It
+## Lakukan itu
 
-1. **Set your gig-stage pricing** anchored to the documented market range (roughly $10-$55 per ad on freelance marketplaces) — price at the higher end once you have 2-3 portfolio pieces, lower while building initial reviews.
-2. **Package project-based work** as batches (see Module 3), priced $150-$300 per test batch, not per individual ad.
-3. **Build a portfolio** from your best 3-5 ads (real client work if you have it, high-quality practice ads for a real product if not) — this is what actually gets you hired, more than any pitch.
-4. **Write an outreach message** that leads with the finished result (attach or link a sample ad for the prospect's actual product/category) rather than explaining your process.
-5. **Once you have 2-3 completed projects**, pitch a retainer: "ongoing batch production, X ads/month, for $Y/month" — this is where the $1,500-$3,000/month range documented for this work comes in.
+1. **Tetapkan harga tahap pertunjukan Anda** sesuai dengan kisaran pasar yang terdokumentasi (kira-kira $10-$55 per iklan di pasar freelance) — harga akan lebih tinggi setelah Anda memiliki 2-3 portofolio, lebih rendah saat membuat tinjauan awal.
+2. **Kemas pekerjaan berbasis proyek** sebagai batch (lihat Modul 3), dengan harga $150-$300 per batch pengujian, bukan per iklan individual.
+3. **Bangun portofolio** dari 3-5 iklan terbaik Anda (pekerjaan klien nyata jika Anda memilikinya, iklan latihan berkualitas tinggi untuk produk nyata jika tidak) — inilah yang sebenarnya membuat Anda dipekerjakan, lebih dari promosi apa pun.
+4. **Tulis pesan penjangkauan** yang mengarah pada hasil akhir (lampirkan atau tautkan contoh iklan untuk produk/kategori calon pelanggan yang sebenarnya) daripada menjelaskan proses Anda.
+5. **Setelah Anda menyelesaikan 2-3 proyek**, ajukan pengikut: "produksi batch berkelanjutan, X iklan/bulan, seharga $Y/bulan" — di sinilah kisaran $1.500-$3.000/bulan yang didokumentasikan untuk pekerjaan ini masuk.
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/character-anchor.jpg" alt="UGC Agency Offer Anchor" width="240">
+<img src="templates/examples/character-anchor.jpg" alt="Jangkar Penawaran Agensi UGC" width="240">
 <img src="templates/examples/gripmount-hook-clip.gif" alt="UGC Commercial Deliverable (I2V)" width="240">
 </p>
 <p align="center"><sub>UGC Agency Offer Image (Left) ──► Commercial Video Deliverable (Right) · <a href="templates/examples/gripmount-hook-clip.mp4">MP4</a></sub></p>
 
-**Gig-stage listing** (Fiverr-style):
-> "I'll create a UGC-style AI ad for your product — $35. Includes: script, AI creator/voice, captions, 1 revision. Delivered in 9:16, ready to run. Turnaround: 3 days."
-Priced mid-range ($35) rather than the floor ($10) or the ceiling ($55) because there's no portfolio yet to justify top-of-range pricing — cheap enough to get first buyers, not so cheap it signals low quality.
+**Daftar panggung pertunjukan** (gaya Fiverr):
+> "Saya akan membuat iklan AI bergaya UGC untuk produk Anda — $35. Termasuk: skrip, pembuat/suara AI, teks, 1 revisi. Disampaikan pada 09:16, siap dijalankan. Penyelesaian: 3 hari."
+Dibanderol dengan harga menengah ($35) daripada harga dasar ($10) atau harga tertinggi ($55) karena belum ada portofolio yang dapat membenarkan penetapan harga kelas atas — cukup murah untuk mendapatkan pembeli pertama, tidak terlalu murah sehingga menandakan kualitas rendah.
 
 
 
-**Cold outreach to a DTC brand** (after 2-3 gig deliveries, targeting project work):
-> Subject: a UGC-style ad concept for [Brand]
-> Hi [Name] — noticed [Brand] is running paid social ads for [specific product]. I put together a quick AI-generated UGC-style ad using the same product [attach/link the actual sample ad] — thought it might be a useful new angle to test against your current creative. If it's a fit, I can turn around a full batch of variants (different hooks/angles) for testing. Happy to share more examples if useful.
+**Penjangkauan dingin ke merek DTC** (setelah pengiriman 2-3 pertunjukan, menargetkan pekerjaan proyek):
+> Subjek: konsep iklan bergaya UGC untuk [Merek]
+> Hai [Nama] — melihat [Merek] menjalankan iklan sosial berbayar untuk [produk tertentu]. Saya membuat iklan cepat bergaya UGC yang dihasilkan AI menggunakan produk yang sama [lampirkan/tautkan contoh iklan sebenarnya] — menurut saya ini mungkin merupakan sudut pandang baru yang berguna untuk menguji materi iklan Anda saat ini. Jika cocok, saya dapat membalik seluruh varian (kait/sudut berbeda) untuk pengujian. Senang berbagi lebih banyak contoh jika bermanfaat.
 
-This works because it leads with a finished, product-specific sample — not a pitch about the AI process — and the brand can watch the ad before reading anything else.
+Ini berhasil karena mengarah dengan sampel akhir yang spesifik untuk produk — bukan presentasi tentang proses AI — dan merek dapat menonton iklan sebelum membaca hal lainnya.
 
-**Retainer pitch** (after 2-3 completed projects):
-> "Ongoing batch production: 8 ad variants/month across 2 batches, $2,000/month. Includes scripting, production, 2 revision rounds per batch, and a one-page test-plan write-up per batch tying results back to which hook/angle won." 
-Priced in the middle of the documented $1,500-$3,000/month range — justified by pointing at the 2-3 prior projects' actual delivered ads, not a generic capability claim.
+**Retainer pitch** (setelah 2-3 proyek selesai):
+> "Produksi batch yang sedang berlangsung: 8 varian iklan/bulan dalam 2 batch, $2.000/bulan. Termasuk pembuatan skrip, produksi, 2 putaran revisi per batch, dan penulisan rencana pengujian satu halaman per batch yang mengaitkan hasil dengan kait/sudut mana yang menang."
+Harganya berada di kisaran $1.500-$3.000/bulan yang terdokumentasikan — dibenarkan dengan menunjuk pada iklan aktual yang dikirimkan dari 2-3 proyek sebelumnya, bukan klaim kemampuan umum.
 
-**The progression in numbers:** $35/ad gig work (occasional) → $200/batch project work (a few times) → $2,000/month retainer (ongoing) — each stage's finished output becomes the proof that justifies pitching the next stage, rather than restarting the sales pitch from zero each time.
+**Perkembangan dalam jumlah:** $35/pekerjaan pertunjukan iklan (sesekali) → $200/pekerjaan proyek batch (beberapa kali) → penahan $2.000/bulan (berkelanjutan) — hasil akhir setiap tahap menjadi bukti yang membenarkan peluncuran tahap berikutnya, daripada memulai kembali promosi penjualan dari nol setiap saat.
 
-## Launch It
+## Luncurkan
 
-This module is business skills, not a production technique — the tool comparison from Modules 1-3 still determines your cost basis: API-based production keeps your cost-per-ad low and predictable for gig/project pricing; local production only changes the math once you're at retainer-level volume where the setup cost amortizes.
+Modul ini adalah keterampilan bisnis, bukan teknik produksi — perbandingan alat dari Modul 1-3 tetap menentukan basis biaya Anda: produksi berbasis API menjaga biaya per iklan Anda tetap rendah dan dapat diprediksi untuk harga pertunjukan/proyek; produksi lokal hanya mengubah perhitungan setelah Anda berada pada volume tingkat penahan di mana biaya penyiapan diamortisasi.
 
-**How to price it:** Anchor to real ranges, don't invent your own from scratch — gig ads $10-$55, project batches $150-$300, retainers $1,500-$3,000/month. Price toward the top of each range once you have proof of quality (portfolio, testimonials), not before.
+**Cara menetapkan harga:** Tetapkan pada rentang nyata, jangan buat sendiri dari awal — iklan pertunjukan $10-$55, kumpulan proyek $150-$300, pengikut $1.500-$3.000/bulan. Harga berada di atas setiap kisaran setelah Anda memiliki bukti kualitas (portofolio, testimonial), bukan sebelumnya.
 
-**How to position it:** Always lead with the finished ad and the business outcome (more variants to test, faster turnaround, lower cost than a shoot) — never lead with "I use AI to..." Clients are buying results, and over-explaining the AI process invites skepticism about quality instead of building confidence.
+**Cara memposisikannya:** Selalu memimpin dengan iklan yang sudah selesai dan hasil bisnis (lebih banyak varian untuk diuji, penyelesaian lebih cepat, biaya lebih rendah daripada satu kali pengambilan gambar) — jangan pernah memimpin dengan "Saya menggunakan AI untuk..." Klien membeli hasil, dan menjelaskan proses AI secara berlebihan akan mengundang skeptisisme terhadap kualitas alih-alih membangun kepercayaan.
 
-**Where to find first clients:** Freelance marketplaces for your first few gigs and portfolio pieces; direct outreach to DTC brands you can see running paid social ads (visible via each platform's public ad library) for project and retainer-level work — a cold message with a free sample ad for their actual product converts far better than a generic pitch.
+**Di mana menemukan klien pertama:** Pasar freelance untuk beberapa pertunjukan dan portofolio pertama Anda; penjangkauan langsung ke merek DTC yang dapat Anda lihat menjalankan iklan sosial berbayar (terlihat melalui perpustakaan iklan publik masing-masing platform) untuk pekerjaan tingkat proyek dan pengikut — pesan dingin dengan contoh iklan gratis untuk produk sebenarnya menghasilkan konversi yang jauh lebih baik daripada promosi umum.
 
-**The real numbers, and how to talk about them honestly:** Named case studies exist of individual brands running AI-UGC-style ad creative at $600K+/month in spend — cite this as evidence the format works at scale, never imply you personally will replicate someone else's ad-spend figure. When you publish your own results, publish the actual number and how it was measured (see the cross-track "Show Your Real Numbers" module) — this is your biggest trust advantage over competitors making vague income claims.
+**Jumlah sebenarnya, dan cara membicarakannya dengan jujur:** Studi kasus yang disebutkan ada mengenai masing-masing merek yang menjalankan materi iklan bergaya AI-UGC dengan pembelanjaan $600K+/bulan — sebutkan ini sebagai bukti bahwa format tersebut berfungsi dalam skala besar, jangan pernah menyiratkan bahwa Anda secara pribadi akan meniru angka pembelanjaan iklan orang lain. Saat Anda mempublikasikan hasil Anda sendiri, publikasikan angka sebenarnya dan cara pengukurannya (lihat modul lintas jalur "Tunjukkan Angka Asli Anda") — ini adalah keuntungan kepercayaan terbesar Anda dibandingkan pesaing yang membuat klaim pendapatan yang tidak jelas.
 
-**Handling revisions, honestly:** landing the sale isn't the end of the work — every price above (gig, batch, retainer) needs a stated number of revision rounds *before* you quote it, not after a client asks. One free round is standard; scope it as "1 revision round included" in the listing/proposal itself (see the retainer template), and treat anything beyond that as new work, not a favor. Two situations come up often:
-- **The client wants something the model genuinely can't do well** (a very specific product interaction, an exact competitor-ad shot-for-shot copy) — say so directly and offer the closest alternative, rather than burning 3 revision rounds trying to force it. Clients respect a clear "here's what's realistic" more than a vague "let me try."
-- **Vague feedback** ("make it pop more") — turn it into a specific question ("do you mean a faster cut, a different hook, or a different CTA?") before redoing anything. Guessing wrong wastes a revision round on both sides.
+**Menangani revisi, sejujurnya:** mendapatkan penjualan bukanlah akhir dari pekerjaan — setiap harga di atas (pertunjukan, batch, penahan) memerlukan sejumlah putaran revisi *sebelum* Anda mengutipnya, bukan setelah klien memintanya. Satu putaran gratis adalah standar; lingkupinya sebagai "1 putaran revisi disertakan" dalam daftar/proposal itu sendiri (lihat templat penahan), dan perlakukan apa pun di luar itu sebagai pekerjaan baru, bukan bantuan. Dua situasi yang sering muncul:
+- **Klien menginginkan sesuatu yang modelnya benar-benar tidak dapat melakukannya dengan baik** (interaksi produk yang sangat spesifik, salinan iklan pesaing yang sama persis) — sampaikan secara langsung dan tawarkan alternatif terdekat, daripada melakukan 3 putaran revisi untuk mencoba memaksakannya. Klien lebih menghargai pernyataan "inilah yang realistis" yang jelas daripada "biarkan saya mencoba" yang samar-samar.
+- **Umpan balik yang tidak jelas** ("membuatnya lebih menonjol") — ubah menjadi pertanyaan spesifik ("maksud Anda potongan yang lebih cepat, hook yang berbeda, atau CTA yang berbeda?") sebelum mengulangi apa pun. Menebak salah akan menyia-nyiakan putaran revisi di kedua sisi.
 
-## Exercises
+## Latihan
 
-1. **Easy:** Write a gig listing description for UGC ad production, priced within the documented range.
-2. **Medium:** Write a cold outreach message to a real DTC brand, including a sample ad you produced for their product category.
-3. **Hard:** Draft a retainer proposal (scope, monthly ad count, price, revision policy) as if pitching a real brand after 2 successful projects.
+1. **Mudah:** Tulis deskripsi daftar pertunjukan untuk produksi iklan UGC, dengan harga dalam kisaran yang didokumentasikan.
+2. **Media:** Tulis pesan penjangkauan dingin ke merek DTC asli, termasuk contoh iklan yang Anda buat untuk kategori produk mereka.
+3. **Sulit:** Buat draf proposal penahan (cakupan, jumlah iklan bulanan, harga, kebijakan revisi) seolah-olah mengajukan merek nyata setelah 2 proyek berhasil.
 
-## Templates
+## Templat
 
-Reusable template(s) this module produces — fill these in and reuse them on real work:
+Templat yang dapat digunakan kembali yang dihasilkan modul ini — isi templat ini dan gunakan kembali pada pekerjaan nyata:
 
-- [`templates/outreach-template.md`](templates/outreach-template.md) — cold outreach message template for pitching project-based work.
-- [`templates/retainer-proposal-template.md`](templates/retainer-proposal-template.md) — a fill-in retainer pitch structure.
+- [`templates/outreach-template.md`](templates/outreach-template.md) — templat pesan penjangkauan dingin untuk menyampaikan pekerjaan berbasis proyek.
+- [`templates/retainer-proposal-template.md`](templates/retainer-proposal-template.md) — struktur nada penahan pengisi.
 
 ---
 
-[← Previous: Building a 10-Ad Batch](03-building-an-ad-batch.md) · [Track overview](README.md) · Next: [Case Study Teardown →](05-case-study-teardown.md)
+[← Previous: Building a 10-Ad Batch](03-building-an-ad-batch.md) · [Track overview](README.md) · Berikutnya: [Case Study Teardown →](05-case-study-teardown.md)

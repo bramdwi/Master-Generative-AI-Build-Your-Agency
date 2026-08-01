@@ -1,34 +1,34 @@
-# Voice Cloning Specification Sheet
+# Lembar Spesifikasi Kloning Suara
 
-Use this sheet to specify audio quality parameters and capture configurations before building your vocal synthesis profile.
-
----
-
-**Voice Target Name:** ________________________  
-**Cloning Level:** [e.g. Instant (IVC) / Professional (PVC)]  
-
-## 1. Recording Setup & Hardware
-* **Microphone Type:** [e.g. Large-diaphragm USB / XLR Condenser]  
-* **Recording Space:** [e.g. Acoustic foam-padded room, dry vocal closet]  
-* **Audio Interface Settings:** Input Gain: `________` dB | Sample Rate: `________` kHz  
-
-## 2. Sample Verification Parameters
-
-- [ ] **No Crosstalk:** Voice contains exactly one speaker with zero background audio, sighs, or laughs.
-- [ ] **Clean Floor Noise:** Decibel peak level of silences is below **-50dB** (no fan hums, page turns, or mouth clicks).
-- [ ] **Sample Count & Duration:**
-  * Number of clips uploaded: `________`
-  * Cumulative duration: `________` minutes (Target: Instant >5 min, Professional >30 min).
-- [ ] **Tone Alignment:** The voice tone (conversational, energetic, calm) matches the target audience profile.
+Gunakan lembar ini untuk menentukan parameter kualitas audio dan menangkap konfigurasi sebelum membuat profil sintesis vokal Anda.
 
 ---
 
-## 3. Cloned Voice Settings (Stability Logs)
+**Nama Target Suara:** __________
+**Tingkat Kloning:** [mis. Instan (IVC) / Profesional (PVC)]
 
-Record the generation parameters that yield the most realistic outputs:
+## 1. Pengaturan Perekaman & Perangkat Keras
+* **Jenis Mikrofon:** [mis. Kondensor USB / XLR diafragma besar]
+* **Ruang Perekaman:** [mis. Ruangan berlapis busa akustik, lemari vokal kering]
+* **Pengaturan Antarmuka Audio:** Penguatan Input: `________` dB | Kecepatan Sampel: `________` kHz
 
-| Test Run # | Voice ID / Name | Stability (%) | Clarity / Similarity (%) | Style Exaggeration (%) | Audio Review |
+## 2. Contoh Parameter Verifikasi
+
+- [ ] **Tanpa Crosstalk:** Suara hanya berisi satu pembicara tanpa audio latar belakang, desahan, atau tawa.
+- [ ] **Kebisingan Lantai Bersih:** Tingkat keheningan puncak desibel di bawah **-50dB** (tidak ada dengungan kipas, pembalikan halaman, atau bunyi klik mulut).
+- [ ] **Jumlah & Durasi Sampel:**
+* Jumlah klip yang diunggah: `________`
+* Durasi kumulatif: `________` menit (Target: Instan >5 menit, Profesional >30 menit).
+- [ ] **Penyelarasan Nada:** Nada suara (percakapan, energik, tenang) sesuai dengan profil audiens target.
+
+---
+
+## 3. Pengaturan Suara Kloning (Log Stabilitas)
+
+Catat parameter pembangkitan yang menghasilkan keluaran paling realistis:
+
+| Uji Jalan # | ID Suara / Nama | Stabilitas (%) | Kejelasan/Kesamaan (%) | Gaya Berlebihan (%) | Ulasan Audio |
 |---|---|:---:|:---:|:---:|---|
-| **01** | `emma_voice_v1` | 40% | 75% | 0% | Clear, warm tone, natural breaks. |
-| **02** | `emma_voice_v1` | 55% | 85% | 10% | Slightly robotic on long sentences. |
+| **01** | __KODE INLINE_0__ | 40% | 75% | 0% | Jelas, nada hangat, jeda alami. |
+| **02** | __KODE INLINE_0__ | 55% | 85% | 10% | Sedikit robotik pada kalimat yang panjang. |
 | | | | | | |

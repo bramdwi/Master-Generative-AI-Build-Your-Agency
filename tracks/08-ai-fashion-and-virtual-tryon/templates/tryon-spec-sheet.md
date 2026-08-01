@@ -1,29 +1,29 @@
-# Virtual Try-On Specification Sheet
+# Lembar Spesifikasi Uji Coba Virtual
 
-Use this template to specify the garment and model parameters for running virtual try-on generations.
+Gunakan templat ini untuk menentukan parameter garmen dan model untuk menjalankan generasi uji coba virtual.
 
-## 1. Garment Parameters
-* **Garment Name:** e.g., Classic Linen Button-Down Shirt
-* **Category:** [x] Tops / [ ] Bottoms / [ ] Outerwear / [ ] Full Dress
-* **Material/Texture:** Light-woven organic flax linen.
-* **Color Spec:** Off-white / Cream `#F5F2EB`.
-* **Garment Source Photo:** `raw_garment_01.png` (isolated transparent flat-lay or ghost mannequin photo).
+## 1. Parameter Pakaian
+* **Nama Garmen:** misalnya Kemeja Linen Kancing Klasik
+* **Kategori:** [x] Atasan / [ ] Bawahan / [ ] Pakaian Luar / [ ] Gaun Penuh
+* **Bahan/Tekstur:** Linen rami organik tenunan ringan.
+* **Spesifikasi Warna:** Off-white / Krem `#F5F2EB`.
+* **Foto Sumber Pakaian:** `raw_garment_01.png` (foto manekin datar transparan terisolasi).
 
-## 2. Target Model Demographics
-* **Gender/Presentation:** e.g., Male / Masculine
-* **Age Range:** e.g., 25 - 35
-* **Ethnicity Profile:** e.g., East Asian
-* **Body Type:** [ ] Slim / [x] Athletic / [ ] Curvy / [ ] Big & Tall
+## 2. Demografi Model Sasaran
+* **Gender/Presentasi:** misalnya, Pria / Maskulin
+* **Rentang Usia:** misalnya 25 - 35 tahun
+* **Profil Etnis:** misalnya, Asia Timur
+* **Tipe Tubuh:** [ ] Ramping / [x] Atletis / [ ] Melengkung / [ ] Besar & Tinggi
 
-## 3. Mask & Composition Details
-* **Inpaint Mask Strategy:** [x] Keep face and skin, replace clothing / [ ] Keep clothing, swap model face/body
-* **Draping Fitting Rate:** `0.75` (high similarity to original garment folds).
-* **Collar Detail Preservation:** [x] Keep open collar / [ ] Buttoned up
+## 3. Detail Masker & Komposisi
+* **Strategi Masker Inpaint:** [x] Jaga wajah dan kulit, ganti pakaian / [ ] Jaga pakaian, tukar model wajah/tubuh
+* **Tingkat Pemasangan Draping:** `0.75` (kemiripan tinggi dengan lipatan pakaian asli).
+* **Pelestarian Detail Kerah:** [x] Jaga agar kerah tetap terbuka / [ ] Kancingkan
 
-## 4. Operational Run Log
+## 4. Log Operasional Jalankan
 
-| Run # | Model Prompt | Fit Rating (1-10) | Fabric Texture Rating | Bounding Box Alignment | Notes |
+| Jalankan # | Perintah Model | Peringkat Kesesuaian (1-10) | Peringkat Tekstur Kain | Penyelarasan Kotak Batas | Catatan |
 |:---:|---|---|---|---|---|
-| 1 | "East Asian male model, athletic build..." | 8/10 | 9/10 | Center | Natural fold lines |
-| 2 | "Same model, standing in studio..." | 9/10 | 9/10 | Center | Shadow matches |
+| 1 | "Model pria Asia Timur, bertubuh atletis..." | 8/10 | 9/10 | Pusat | Garis lipatan alami |
+| 2 | "Model yang sama, berdiri di studio..." | 9/10 | 9/10 | Pusat | Pertandingan bayangan |
 | 3 | | | | | |

@@ -1,120 +1,120 @@
-# High-converting Studio Lookbooks
+# Studio Lookbook dengan konversi tinggi
 
-> A lookbook doesn't just sell clothes; it sells a lifestyle.
+> Lookbook tidak hanya menjual pakaian; itu menjual gaya hidup.
 
-**Track:** AI Fashion & Virtual Try-On  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lagu:** Mode AI & Uji Coba Virtual
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-To launch a seasonal collection (e.g., Autumn/Winter), fashion brands require editorial "lookbooks"—lifestyle catalogs showcasing garments in stylized environments. Organizing these outdoor shoots is a logistics nightmare: dealing with weather delays, booking travel to exotic locations, renting studio props, and managing lighting across different times of day.
+Untuk meluncurkan koleksi musiman (misalnya, Musim Gugur/Musim Dingin), merek fesyen memerlukan "lookbook" editorial—katalog gaya hidup yang menampilkan pakaian dalam lingkungan bergaya. Mengorganisir pemotretan di luar ruangan ini adalah mimpi buruk logistik: menghadapi penundaan cuaca, memesan perjalanan ke lokasi eksotik, menyewa alat peraga studio, dan mengelola pencahayaan pada waktu yang berbeda dalam sehari.
 
-If you try to shoot lookbooks in a basic office room, they look flat and cheap. If you use stock photography, they look generic and do not match your brand's unique aesthetic identity.
+Jika Anda mencoba memotret lookbook di ruang kantor biasa, hasilnya akan terlihat datar dan murahan. Jika Anda menggunakan fotografi stok, foto tersebut akan terlihat umum dan tidak sesuai dengan identitas estetika unik merek Anda.
 
-To maintain a premium brand presence, you need to generate high-end, cohesive fashion lookbook backdrops on demand, and composite your collection models into them with perfect lighting harmony.
+Untuk mempertahankan kehadiran merek premium, Anda perlu menghasilkan tampilan buku fesyen yang kohesif dan canggih sesuai permintaan, dan menggabungkan model koleksi Anda ke dalamnya dengan harmoni pencahayaan yang sempurna.
 
-## The Concept
+## Konsep
 
-The lookbook production pipeline relies on **Visual Theming**, **Symmetrical Lighting Design**, and **Cohesive Color Grading**:
+Jalur produksi lookbook mengandalkan **Tema Visual**, **Desain Pencahayaan Simetris**, dan **Penilaian Warna Kohesif**:
 
 ```
 Define Theme Archetype ──► Design Lighting & Backdrops ──► Composite VTO Models ──► Apply Batch Color Grade
 ```
 
-* **Theming Consistency:** A lookbook must feel like a single story. If your first model is shot against a textured plaster screen in warm sand, the next model cannot sit in a high-tech concrete warehouse. Establish a unified backdrop palette and texture set before generating images.
-* **Studio Lighting Presets:** Standardize light directions across your catalog. Lookbook backdrops should feature diffused side softbox lighting, casting soft, neutral shadows. Avoid harsh direct sunbeams unless specifically designing a high-contrast summer collection.
-* **Cohesive Color Grading:** In fashion publishing, images are processed through color profiles (LUTs) in post-production. You must apply a uniform color grading map across all final composite images (e.g., cooling the shadows and warming the highlights) to make them look like they were taken during the same shoot.
+* **Konsistensi Tema:** Lookbook harus terasa seperti satu cerita. Jika model pertama Anda dibidik pada layar plester bertekstur di pasir hangat, model berikutnya tidak dapat ditempatkan di gudang beton berteknologi tinggi. Tetapkan palet latar belakang dan kumpulan tekstur terpadu sebelum menghasilkan gambar.
+* **Preset Pencahayaan Studio:** Standarisasi arah cahaya di seluruh katalog Anda. Latar belakang Lookbook harus menampilkan pencahayaan softbox samping yang tersebar, menghasilkan bayangan yang lembut dan netral. Hindari sinar matahari langsung yang terik kecuali secara khusus merancang koleksi musim panas dengan kontras tinggi.
+* **Penilaian Warna Kohesif:** Dalam penerbitan fesyen, gambar diproses melalui profil warna (LUT) dalam pascaproduksi. Anda harus menerapkan peta gradasi warna yang seragam di seluruh gambar komposit akhir (misalnya, mendinginkan bayangan dan menghangatkan sorotan) agar terlihat seperti diambil pada pengambilan gambar yang sama.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Lock the Moodboard Theme
-Open [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md). Select your visual archetype, core color palette, and studio lighting setup.
-* *Example Theme:* "Nordic Autumn" with taupe, soft sand, and slate grey colors.
+### Langkah 1: Kunci Tema Moodboard
+Buka [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md). Pilih arketipe visual, palet warna inti, dan pengaturan pencahayaan studio Anda.
+* *Contoh Tema:* "Musim Gugur Nordik" dengan warna kelabu tua, pasir lembut, dan abu-abu batu.
 
-### Step 2: Generate Lookbook Backdrops
-Use an image generator to create the studio backdrops according to your moodboard specs:
-* *Prompt:* `"A high-end fashion studio backdrop. A minimalist light grey textured plaster screen, soft diffused overcast window light casting faint shadows, editorial fashion set, photorealistic, 8k resolution, shot on 85mm lens, f/5.6."`
-Run the model and save the backdrop as `studio_bg_01.jpg`.
+### Langkah 2: Hasilkan Latar Belakang Lookbook
+Gunakan generator gambar untuk membuat latar studio sesuai dengan spesifikasi moodboard Anda:
+* *Permintaan:* `"A high-end fashion studio backdrop. A minimalist light grey textured plaster screen, soft diffused overcast window light casting faint shadows, editorial fashion set, photorealistic, 8k resolution, shot on 85mm lens, f/5.6."`
+Jalankan model dan simpan tampilan latar sebagai `studio_bg_01.jpg`.
 
-### Step 3: Composite the Model Layer
-Drape your collection garment onto your model using the VTO pipeline (Module 1). Import the model layer over `studio_bg_01.jpg`. Position the model centered in the frame.
+### Langkah 3: Gabungkan Lapisan Model
+Letakkan pakaian koleksi Anda ke model Anda menggunakan pipa VTO (Modul 1). Impor lapisan model melalui `studio_bg_01.jpg`. Posisikan model di tengah bingkai.
 
-### Step 4: Align Lighting & Cast Shadows
-Verify that the light highlights on the model's face and shoulders match the light direction in the backdrop (e.g. key light coming from the top-left).
-* Paint a soft shadow on the plaster screen layer where the model's shoulders and torso block the key light. Set layer opacity to **25%** and blend mode to **Multiply**.
-* Paint a soft contact shadow under the model's shoes at the baseline.
+### Langkah 4: Sejajarkan Pencahayaan & Keluarkan Bayangan
+Pastikan sorotan cahaya pada wajah dan bahu model sesuai dengan arah cahaya di latar belakang (misalnya, lampu utama datang dari kiri atas).
+* Lukis bayangan lembut pada lapisan layar plester di mana bahu dan badan model menghalangi lampu utama. Atur opasitas lapisan ke **25%** dan mode campuran ke **Berkembang biak**.
+* Lukis bayangan kontak lembut di bawah sepatu model di garis dasar.
 
-### Step 5: Apply Batch Color Grading
-Create a global color grading layer (such as a gradient map, color lookup table, or Lightroom preset) and apply it across all final lookbook assets.
-* Shift shadows slightly toward teal and midtones toward warm beige.
-* Limit maximum contrast to maintain soft details in dark fabrics.
-Export the completed lookbook files as high-quality WebP.
+### Langkah 5: Terapkan Penilaian Warna Batch
+Buat lapisan penilaian warna global (seperti peta gradien, tabel pencarian warna, atau preset Lightroom) dan terapkan di semua aset lookbook akhir.
+* Geser bayangan sedikit ke arah teal dan midtone ke arah krem ​​​​hangat.
+* Batasi kontras maksimum untuk mempertahankan detail lembut pada kain gelap.
+Ekspor file lookbook yang telah selesai sebagai WebP berkualitas tinggi.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/fashion-lookbook-model.jpg" alt="Editorial Fashion Lookbook Model" width="240">
+<img src="templates/examples/fashion-lookbook-model.jpg" alt="Model Buku Tampilan Mode Editorial" width="240">
 <img src="templates/examples/fashion-lookbook-loop.gif" alt="Lookbook Motion Loop (I2V)" width="240">
 </p>
 <p align="center"><sub>Editorial Studio Lookbook Image (Left) ──► Image-to-Video Camera Motion (Right) · Video File: <a href="templates/examples/fashion-lookbook-loop.mp4">templates/examples/fashion-lookbook-loop.mp4</a></sub></p>
 
-**Cashmere Collection Lookbook (Nordic Autumn Theme)**
+**Buku Tampilan Koleksi Kasmir (Tema Musim Gugur Nordik)**
 
 
 
-* **Theme Spec:** Minimalist plaster backdrop, soft side daylight, earth-tone colors.
-* **Backdrop Asset:** Generated a warm grey stucco wall scene with a soft shadow of a window frame cast on it.
-* **Model Layer:** Model wearing a beige oversized organic cashmere knit sweater.
-* **Grading Settings:**
-  * Shadows: Teal shift (+5%).
-  * Highlights: Gold shift (+8%).
-  * Grain: Added 5% digital noise to replicate high-end film stock.
-* **Export Format:** 1080x1350px vertical format.
+* **Spesifikasi Tema:** Latar belakang plester minimalis, sisi siang hari yang lembut, warna-warna alami.
+* **Aset Latar Belakang:** Menghasilkan pemandangan dinding plesteran abu-abu hangat dengan bayangan lembut bingkai jendela di atasnya.
+* **Model Lapisan:** Model mengenakan sweter rajut kasmir organik oversized berwarna krem.
+* **Pengaturan Penilaian:**
+* Bayangan: Pergeseran teal (+5%).
+* Sorotan: Pergeseran emas (+8%).
+* Grain: Menambahkan 5% gangguan digital untuk mereplikasi stok film kelas atas.
+* **Format Ekspor:** Format vertikal 1080x1350 piksel.
 
-**The Result:** The brand received a 10-page editorial lookbook ready for print and web launch, looking exactly like a premium studio shoot.
+**Hasilnya:** Merek tersebut menerima lookbook editorial 10 halaman yang siap untuk dicetak dan diluncurkan di web, tampak persis seperti pemotretan studio premium.
 
-> [!NOTE]
-> You can view a high-end studio lookbook model photography example here: [fashion-lookbook-model.jpg](templates/examples/fashion-lookbook-model.jpg) and its corresponding silent animation loop here: [fashion-lookbook-loop.gif](templates/examples/fashion-lookbook-loop.gif).
+> [!CATATAN]
+> Anda dapat melihat contoh fotografi model lookbook studio kelas atas di sini: [fashion-lookbook-model.jpg](templates/examples/fashion-lookbook-model.jpg) dan loop animasi senyap yang sesuai di sini: [fashion-lookbook-loop.gif](templates/examples/fashion-lookbook-loop.gif).
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Generation Quality | Batch Processing | Best for |
+| Platform / Alat | Kualitas Generasi | Pemrosesan Batch | Terbaik untuk |
 |---|---|---|---|
-| **FLUX Pro / Midjourney** | Ultra-High (Excellent styling details, studio backdrop presets) | Low | Generating creative, high-end editorial backdrops. |
-| **Lightroom / Capture One** | High | Ultra-High (Allows batch syncing of color profiles across hundreds of images) | Syncing final color grading and grain details. |
-| **Photoshop / Photopea** | High | Medium | Compositing model layers, masking shadows, and QA check edits. |
+| **FLUX Pro / Tengah Perjalanan** | Ultra-Tinggi (Detail gaya luar biasa, preset latar belakang studio) | Rendah | Menghasilkan latar belakang editorial yang kreatif dan canggih. |
+| **Lightroom / Tangkap Satu** | Tinggi | Ultra-Tinggi (Memungkinkan sinkronisasi batch profil warna di ratusan gambar) | Menyinkronkan gradasi warna akhir dan detail butiran. |
+| **Photoshop / Fotopea** | Tinggi | Sedang | Menggabungkan lapisan model, menutupi bayangan, dan pengeditan pemeriksaan QA. |
 
-For backdrop generation, FLUX Pro is highly effective at rendering realistic studio textures (plaster, wood, fabric). For the final post-production stage, import all composite images into Adobe Lightroom to batch-sync your color grading presets, ensuring catalog consistency.
-
----
-
-## Launch It
-
-**How to manage editorial assets:**
-* **Keep skin textures natural:** When editing lookbooks, avoid over-smoothing the model's skin using heavy blur filters. Professional fashion lookbooks preserve natural skin textures, pores, and hair, which builds credibility.
-* **Use high-resolution outputs:** Export lookbook images at a minimum of 2000px vertical resolution. This allows e-commerce platforms to display zoom features without the image looking pixelated.
+Untuk pembuatan latar belakang, FLUX Pro sangat efektif dalam menampilkan tekstur studio yang realistis (plester, kayu, kain). Untuk tahap akhir pascaproduksi, impor semua gambar komposit ke Adobe Lightroom untuk menyinkronkan preset gradasi warna Anda secara batch, sehingga memastikan konsistensi katalog.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Customize the [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md) spec sheet for a Summer swimwear collection.
-2. **Medium:** Generate 2 cohesive lookbook backdrops using different prompts, but keep the color palette and lighting angles identical.
-3. **Hard:** Composite a fashion model onto your generated backdrop. Apply a custom color lookup table (LUT) to match the model's highlights with the backdrop's warm tone. Add a soft grain layer across the composite.
-
----
-
-## Templates
-
-* [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md) — aesthetic themes, lighting coordinates, backdrop presets, and prompt tokens.
+**Cara mengelola aset editorial:**
+* **Menjaga tekstur kulit tetap alami:** Saat mengedit lookbook, hindari menghaluskan kulit model secara berlebihan menggunakan filter buram yang tebal. Buku panduan mode profesional menjaga tekstur alami kulit, pori-pori, dan rambut, sehingga membangun kredibilitas.
+* **Gunakan keluaran resolusi tinggi:** Ekspor gambar lookbook dengan resolusi vertikal minimal 2000 piksel. Hal ini memungkinkan platform e-commerce menampilkan fitur zoom tanpa gambar terlihat pixelated.
 
 ---
 
-[← Garment Try-on for Fashion E-commerce](01-garment-tryon.md) · Next: [Sizing / Layout consistency →](03-sizing-layout-consistency.md)
+## Latihan
+
+1. **Mudah:** Sesuaikan lembar spesifikasi [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md) untuk koleksi pakaian renang Musim Panas.
+2. **Sedang:** Buat 2 latar belakang lookbook yang kohesif menggunakan perintah yang berbeda, namun tetap menjaga palet warna dan sudut pencahayaan tetap sama.
+3. **Sulit:** Gabungkan model fesyen ke latar belakang yang Anda buat. Terapkan tabel pencarian warna khusus (LUT) untuk mencocokkan sorotan model dengan warna latar belakang yang hangat. Tambahkan lapisan butiran lembut di seluruh komposit.
+
+---
+
+## Templat
+
+* [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md) — tema estetika, koordinat pencahayaan, preset latar belakang, dan token cepat.
+
+---
+
+[← Garment Try-on for Fashion E-commerce](01-garment-tryon.md) · Berikutnya: [Sizing / Layout consistency →](03-sizing-layout-consistency.md)

@@ -1,23 +1,23 @@
-# AI Dubbing & Translation Checklist
+# Daftar Periksa Sulih Suara & Terjemahan AI
 
-Use this checklist when translating video narratives into target foreign languages while maintaining speaker tone and pacing consistency.
+Gunakan daftar periksa ini ketika menerjemahkan narasi video ke dalam bahasa asing target sambil menjaga konsistensi nada dan tempo pembicara.
 
 ---
 
-**Project Name:** ________________________  
-**Source Language:** ________________________  
-**Target Language(s):** ________________________  
+**Nama Proyek:** __________
+**Bahasa Sumber:** __________
+**Bahasa Sasaran:** __________
 
-## 1. Pre-Translation Preparation
-- [ ] **Clean Transcript Export:** Export source video dialogue transcript. Remove all filler words ("uh", "um", "like") to prevent translation engines from translating them literally.
-- [ ] **Timestamps Extraction:** Extract start/end timecodes for every sentence block to serve as sync boundaries.
-- [ ] **Tone & Gender Mapping:** Verify that the target translation voice matches the gender and age profile of the source voice.
+## 1. Persiapan Pra-Terjemahan
+- [ ] **Ekspor Transkrip Bersih:** Ekspor transkrip dialog video sumber. Hapus semua kata pengisi ("uh", "um", "seperti") untuk mencegah mesin penerjemah menerjemahkannya secara harfiah.
+- [ ] **Ekstraksi Stempel Waktu:** Ekstrak kode waktu mulai/akhir untuk setiap blok kalimat untuk dijadikan batas sinkronisasi.
+- [ ] **Pemetaan Nada & Gender:** Verifikasi bahwa suara terjemahan target cocok dengan profil gender dan usia dari suara sumber.
 
-## 2. Translation & Dubbing Verification
+## 2. Verifikasi Terjemahan & Sulih Suara
 
-- [ ] **Vocal Timbre Match:** Listen to target dub. Does it preserve the original speaker's resonance and pitch profile?
-- [ ] **Pacing & Duration Sync:**
-  * Target sentence duration matches the source timestamp block (within a **±100ms** margin).
-  * Fast sentences are parsed to avoid digital warping or chipmunk voice effects.
-- [ ] **Phonetic Verification:** Local slang, idioms, and industry acronyms are translated for localized meaning, not word-for-word.
-- [ ] **Visual Sync (Lip Match):** Verify that the mouth animations in the final video clip are adjusted to match the target language phonemes.
+- [ ] **Pencocokan Timbre Vokal:** Dengarkan sulih suara target. Apakah ini mempertahankan resonansi dan profil nada pembicara asli?
+- [ ] **Sinkronisasi Kecepatan & Durasi:**
+* Durasi kalimat target cocok dengan blok stempel waktu sumber (dalam margin **±100 md**).
+* Kalimat cepat diurai untuk menghindari distorsi digital atau efek suara chipmunk.
+- [ ] **Verifikasi Fonetik:** Bahasa gaul, idiom, dan akronim industri lokal diterjemahkan untuk makna lokal, bukan kata demi kata.
+- [ ] **Sinkronisasi Visual (Pencocokan Bibir):** Pastikan animasi mulut di klip video akhir disesuaikan agar sesuai dengan fonem bahasa target.

@@ -1,118 +1,118 @@
-# Selling Content-Factory Output as a Service
+# Menjual Hasil Pabrik Konten sebagai Layanan
 
-> Businesses don't want views; they want the consistency that builds views.
+> Dunia usaha tidak menginginkan penayangan; mereka menginginkan konsistensi yang membangun pandangan.
 
-**Track:** AI Content Factories  
-**Time:** ~30 minutes  
-**Prerequisites:** The Multi-Step Production Pipeline, Batching & Scheduling at Volume  
+**Lacak:** Pabrik Konten AI
+**Waktu:** ~30 menit
+**Prasyarat:** Jalur Produksi Multi-Langkah, Batching & Penjadwalan pada Volume
 
-## The Problem
+## Masalahnya
 
-Most freelance video editors sell their services "per video" or "per hour." They charge $100 to edit a single clip. This pricing model forces you into a constant cycle of pitching: the moment you finish a project, your income drops to zero until you land the next client. You spend more time writing cold emails than actually editing.
+Kebanyakan editor video lepas menjual layanan mereka "per video" atau "per jam". Mereka mengenakan biaya $100 untuk mengedit satu klip. Model penetapan harga ini memaksa Anda melakukan siklus penawaran yang konstan: saat Anda menyelesaikan sebuah proyek, pendapatan Anda turun menjadi nol hingga Anda mendapatkan klien berikutnya. Anda menghabiskan lebih banyak waktu menulis email dingin daripada mengedit.
 
-Furthermore, clients are unreliable. They will order 3 videos, pause for a month, and then ask for a revision three weeks later. This breaks your factory pipeline and clogs your editing schedules.
+Selain itu, klien tidak dapat diandalkan. Mereka akan memesan 3 video, menjeda selama sebulan, lalu meminta revisi tiga minggu kemudian. Ini merusak jalur pabrik Anda dan menyumbat jadwal pengeditan Anda.
 
-To scale your income, you must stop selling one-off edits. Instead, package your factory output into a **monthly recurring retainer** (subscription agency model), selling consistent, predictable volume that keeps clients paying month after month.
+Untuk meningkatkan penghasilan Anda, Anda harus berhenti menjual hasil edit satu kali. Sebaliknya, paketkan hasil pabrik Anda ke dalam **penyimpan rutin bulanan** (model agen berlangganan), yang menjual volume yang konsisten dan dapat diprediksi sehingga klien tetap membayar dari bulan ke bulan.
 
-## The Concept
+## Konsep
 
-The business model of a content factory agency is the **Subscription Content Retainer**:
+Model bisnis agen pabrik konten adalah **Penyimpan Konten Berlangganan**:
 
 ```
 Client Retainer ($1,500/mo)  ──►  Upfront Payment  ──►  Weekly Batch Delivery (7 Videos)
 ```
 
-By transitioning to monthly subscriptions, you lock in:
-* **Predictable Income:** You know exactly how much your agency will make next month, allowing you to hire assistants or invest in software.
-* **Pipeline Planning:** You deliver videos in predictable weekly batches (e.g. 7 videos every Friday), eliminating emergency editing requests.
-* **High Margins:** Because your factory utilizes fast AI generation tools, your cost per video is under $1. A $1,500 retainer costs you only $30 in API credits, yielding a **98% net profit margin**.
+Dengan beralih ke langganan bulanan, Anda mengunci:
+* **Pendapatan yang Dapat Diprediksi:** Anda tahu persis berapa penghasilan biro iklan Anda bulan depan, sehingga memungkinkan Anda menyewa asisten atau berinvestasi dalam perangkat lunak.
+* **Perencanaan Saluran:** Anda menayangkan video dalam kelompok mingguan yang dapat diprediksi (misalnya, 7 video setiap hari Jumat), sehingga menghilangkan permintaan pengeditan darurat.
+* **Margin Tinggi:** Karena pabrik Anda menggunakan alat pembuat AI yang cepat, biaya per video Anda di bawah $1. Retainer sebesar $1.500 hanya dikenakan biaya kredit API sebesar $30, sehingga menghasilkan **margin laba bersih sebesar 98%**.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Define Your Pricing Tiers
-Open the [`templates/bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md). Select the packages you will offer:
-* **Growth Factory ($1,500/mo):** 30 vertical videos, custom thumbnails, SEO tagging.
-* **Syndication Network ($2,800/mo):** 60 vertical videos, scheduled across YouTube, TikTok, and Instagram.
+### Langkah 1: Tentukan Tingkat Harga Anda
+Buka [`templates/bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md). Pilih paket yang akan Anda tawarkan:
+* **Growth Factory ($1.500/bln):** 30 video vertikal, gambar mini khusus, penandaan SEO.
+* **Jaringan Sindikasi ($2.800/bln):** 60 video vertikal, dijadwalkan di YouTube, TikTok, dan Instagram.
 
-### Step 2: Set Up Recurring Invoicing
-Open a merchant account (Stripe, PayPal, or Whop). Set up a subscription product matching your package price. **Always bill clients upfront** at the start of the 30-day cycle. Never produce videos before the invoice is settled.
+### Langkah 2: Siapkan Faktur Berulang
+Buka akun pedagang (Stripe, PayPal, atau Whop). Siapkan produk berlangganan yang sesuai dengan harga paket Anda. **Selalu menagih klien di muka** pada awal siklus 30 hari. Jangan pernah memproduksi video sebelum tagihan dilunasi.
 
-### Step 3: Target Your Ideal Clients
-Focus on businesses that have high marketing budgets but no time to create content:
-* Professional services (real estate brokers, law firms, accountants, private clinics).
-* High-ticket consultants, business coaches, and software founders.
-* E-commerce brand owners.
+### Langkah 3: Targetkan Klien Ideal Anda
+Fokus pada bisnis yang memiliki anggaran pemasaran tinggi tetapi tidak punya waktu untuk membuat konten:
+* Layanan profesional (broker real estat, firma hukum, akuntan, klinik swasta).
+* Konsultan ternama, pelatih bisnis, dan pendiri perangkat lunak.
+* Pemilik merek e-commerce.
 
-### Step 4: Send the Pitch Proposal
-Draft a clear proposal using the [`templates/agency-retainer-proposal.md`](templates/agency-retainer-proposal.md). Keep it simple: state the deliverables, the delivery schedule (weekly batches), and the upfront price. 
+### Langkah 4: Kirim Proposal Pitch
+Buat draf proposal yang jelas menggunakan [`templates/agency-retainer-proposal.md`](templates/agency-retainer-proposal.md). Sederhanakan: sebutkan kiriman, jadwal pengiriman (batch mingguan), dan harga di muka.
 
-### Step 5: Onboard & Set Up Shared Folders
-Upon payment, open a shared folder (Google Drive or Dropbox) with the client. Set up subfolders:
-* `[Raw_Assets_From_Client]`: For any logos, color books, or reference images they want you to use.
-* `[Weekly_Deliveries]`: Where you upload the weekly batch of 7 videos.
+### Langkah 5: Aktifkan & Siapkan Folder Bersama
+Setelah pembayaran, buka folder bersama (Google Drive atau Dropbox) dengan klien. Siapkan subfolder:
+* `[Raw_Assets_From_Client]`: Untuk logo, buku berwarna, atau gambar referensi apa pun yang mereka ingin Anda gunakan.
+* `[Weekly_Deliveries]`: Tempat Anda mengupload kumpulan 7 video mingguan.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/agency-client-pitch.jpg" alt="Agency Pitch" width="280">
+<img src="templates/examples/agency-client-pitch.jpg" alt="Penawaran Agensi" width="280">
 <img src="templates/examples/agency-pitch-clip.gif" alt="Pitch Boardroom Motion (I2V)" width="280">
 </p>
 <p align="center"><sub>Agency Pitch Image (Left) ──► Image-to-Video Boardroom Presentation (Right) · Video File: <a href="templates/examples/agency-pitch-clip.mp4">templates/examples/agency-pitch-clip.mp4</a></sub></p>
 
-**Retainer Deal: "Apex Bookkeeping" Agency Agreement**
+**Kesepakatan Retainer: Perjanjian Agensi "Pembukuan Apex"**
 
 
 
-* **The Client:** A local accounting firm wanting to grow their TikTok/Reels presence to source tax clients.
-* **The Deal Closed:** **$1,500/month retainer** for 30 short-form videos.
-* **Delivery Pacing:** 7 videos uploaded to their Google Drive folder every Friday.
-* **Agency Production Math:**
-  * **Time Spent:** 4 hours/month scripting, 4 hours/month editing and captioning. (Total: **8 hours/month**).
-  * **API Expense:** 30 videos @ $0.70/video = **$21.00/month**.
-  * **Gross Income:** **$1,500.00/month**.
-  * **Net Monthly Profit:** **$1,479.00**.
-  * **Hourly rate equivalent:** **$184.87 / hour**.
+* **Klien:** Kantor akuntan lokal yang ingin mengembangkan kehadiran TikTok/Reels mereka untuk mencari klien pajak.
+* **Kesepakatan Ditutup:** **Pungutan $1.500/bulan** untuk 30 video pendek.
+* **Kecepatan Pengiriman:** 7 video diunggah ke folder Google Drive mereka setiap hari Jumat.
+* **Matematika Produksi Agensi:**
+* **Waktu yang Dihabiskan:** 4 jam/bulan pembuatan skrip, 4 jam/bulan pengeditan dan pembuatan teks. (Total: **8 jam/bulan**).
+* **Biaya API:** 30 video @ $0,70/video = **$21,00/bulan**.
+* **Pendapatan Kotor:** **$1.500,00/bulan**.
+* **Laba Bersih Bulanan:** **$1,479.00**.
+* **Setara tarif per jam:** **$184,87 / jam**.
 
-**Why this works:** The client receives a high-quality video uploaded once a day, keeping their brand visible online. The agency makes a 98% profit margin by using a batched AI pipeline to deliver the assets.
+**Mengapa ini berhasil:** Klien menerima video berkualitas tinggi yang diunggah sekali sehari, sehingga merek mereka tetap terlihat secara online. Agensi tersebut memperoleh margin keuntungan sebesar 98% dengan menggunakan saluran AI batch untuk mengirimkan aset.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Invoicing Capabilities | Re-billing Setup | Best for |
+| Platform / Alat | Kemampuan Faktur | Pengaturan Penagihan Ulang | Terbaik untuk |
 |---|---|---|---|
-| **Stripe Billing / Invoicing** | Professional layout, auto-payment collection, cards storage, support for multiple currencies. | Auto-renewing subscriptions | Professional business clients and corporate accounts. |
-| **Whop Creator Portal** | Built-in affiliate tracking, custom access links, simple dashboard. | Subscription links | Influencer clients, courses, and creator communities. |
-| **DocuSign / PandaDoc** | Legally binding digital signatures, contract tracking. | N/A | Securing high-value corporate agency contracts. |
+| **Penagihan / Faktur Stripe** | Tata letak profesional, pengumpulan pembayaran otomatis, penyimpanan kartu, dukungan untuk berbagai mata uang. | Langganan yang diperpanjang secara otomatis | Klien bisnis profesional dan akun perusahaan. |
+| **Portal Pembuat Whop** | Pelacakan afiliasi bawaan, tautan akses khusus, dasbor sederhana. | Tautan berlangganan | Klien influencer, kursus, dan komunitas pembuat konten. |
+| **DocuSign / PandaDoc** | Tanda tangan digital yang mengikat secara hukum, pelacakan kontrak. | T/A | Mendapatkan kontrak keagenan perusahaan bernilai tinggi. |
 
-For small agencies, Stripe Billing is the standard invoicing tool. Send your PDF proposal along with a Stripe subscription payment link. Once the payment clears, automate a welcome email onboarding sequence.
-
----
-
-## Launch It
-
-**How to scale your agency:**
-* **Limit Revisions:** In your agreement contract, specify that revisions must be requested in a single batch within 48 hours of delivery. This stops clients from dragging out project feedback over weeks.
-* **The Upload Add-on:** Sell an add-on service: you manage the posting and scheduling on their accounts for an extra **$300/month**. This makes the deal more valuable and creates a friction-free service for the client.
+Untuk agensi kecil, Stripe Billing adalah alat pembuatan faktur standar. Kirimkan proposal PDF Anda bersama dengan tautan pembayaran berlangganan Stripe. Setelah pembayaran selesai, otomatiskan urutan orientasi email selamat datang.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Draft your own customized agency package pricing sheet.
-2. **Medium:** Fill out the Content Factory Retainer Proposal template with a mock client name, defining the weekly batch deliverables.
-3. **Hard:** Find three local professional service websites (e.g. accounting, local dentist, real estate broker) that have blank social media feeds. Draft a cold email pitch using your pricing tiers to offer them a 10-video test batch.
+**Cara meningkatkan skala agensi Anda:**
+* **Batasi Revisi:** Dalam kontrak perjanjian Anda, tentukan bahwa revisi harus diminta dalam satu batch dalam waktu 48 jam setelah pengiriman. Hal ini menghentikan klien untuk menunda masukan proyek selama berminggu-minggu.
+* **Pengaya Unggahan:** Jual layanan tambahan: Anda mengelola pengeposan dan penjadwalan di akun mereka dengan tambahan **$300/bulan**. Hal ini membuat kesepakatan lebih berharga dan menciptakan layanan bebas hambatan bagi klien.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) — a contract proposal template covering scope, schedule, and payment.
-* [`templates/bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md) — pricing ranges and margins for bulk reels/shorts.
+1. **Mudah:** Susun lembar harga paket agensi Anda sendiri yang disesuaikan.
+2. **Medium:** Isi template Proposal Retainer Pabrik Konten dengan nama klien tiruan, yang menentukan kiriman batch mingguan.
+3. **Sulit:** Temukan tiga situs web layanan profesional lokal (misalnya akuntansi, dokter gigi lokal, broker real estate) yang memiliki feed media sosial kosong. Buat draf penawaran email dingin menggunakan tingkat harga Anda untuk menawarkan kepada mereka kumpulan pengujian 10 video.
+
+---
+
+## Templat
+
+* [`templates/agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) — templat proposal kontrak yang mencakup cakupan, jadwal, dan pembayaran.
+* [`templates/bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md) — rentang harga dan margin untuk reel/short massal.
 
 ---
 

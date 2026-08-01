@@ -1,97 +1,97 @@
-# Duration-Matched Narration & Pacing
+# Narasi & Kecepatan yang Sesuai Durasi
 
-> Visuals tell the story, but the audio duration controls the edit.
+> Visual menceritakan kisahnya, tetapi durasi audio mengontrol pengeditan.
 
-**Track:** Faceless AI Channels  
-**Time:** ~45 minutes  
-**Prerequisites:** Niche Selection & Script Pipeline  
+**Lagu:** Saluran AI Tanpa Wajah
+**Waktu:** ~45 menit
+**Prasyarat:** Pemilihan Niche & Pipeline Skrip
 
-## The Problem
+## Masalahnya
 
-A common mistake in AI content creation is generating video b-roll first and then trying to record or generate a voiceover to fit the visual timeline. The result is almost always a disaster: the narrator has to speak abnormally fast during short clips, or pause awkwardly during long clips to stay in sync. The pacing feels artificial, and viewers drop off immediately.
+Kesalahan umum dalam pembuatan konten AI adalah membuat video b-roll terlebih dahulu, lalu mencoba merekam atau membuat sulih suara agar sesuai dengan garis waktu visual. Hasilnya hampir selalu berupa bencana: narator harus berbicara dengan sangat cepat selama klip pendek, atau berhenti dengan canggung selama klip panjang agar tetap sinkron. Kecepatannya terasa dibuat-buat, dan penonton langsung berhenti menonton.
 
-In professional faceless video production, the **audio track is the spine of the entire timeline**. 
+Dalam produksi video tanpa wajah profesional, **trek audio adalah inti dari keseluruhan linimasa**.
 
-If you try to edit video without a locked audio track, you will spend hours stretching, cutting, and retaking voice files. You need a structured workflow that establishes the narrative spine first, allowing you to crop and sync visual elements to the exact millisecond of the audio.
+Jika Anda mencoba mengedit video tanpa trek audio yang terkunci, Anda akan menghabiskan waktu berjam-jam untuk meregangkan, memotong, dan mengambil ulang file suara. Anda memerlukan alur kerja terstruktur yang menetapkan inti narasi terlebih dahulu, memungkinkan Anda memotong dan menyinkronkan elemen visual ke milidetik audio yang tepat.
 
-## The Concept
+## Konsep
 
-The core principle of faceless channel production is **Narration-First Assembly**. 
+Prinsip inti produksi saluran tanpa wajah adalah **Pertemuan Narasi-Pertama**.
 
 ```
 Script Text  →  Voice Generation  →  Duration Logging  →  Video Clipping/Gen  →  Timeline Sync
 ```
 
-1. **The Audio Spine:** You generate your voice files first. The duration of these files determines the timeline's pacing.
-2. **Visual Pacing:** Short-form video feeds require a high rate of visual change. The average visual retention span is extremely short — you must transition to a new image, crop, zoom, or b-roll clip every **2.5 to 4.0 seconds**.
-3. **Word-to-Duration Mapping:** If you speak at an average speed of 150 words per minute, each word takes roughly 0.4 seconds. A 10-word sentence requires a 4-second video clip.
+1. **The Audio Spine:** Anda membuat file suara terlebih dahulu. Durasi file-file ini menentukan kecepatan timeline.
+2. **Kecepatan Visual:** Umpan video berdurasi pendek memerlukan tingkat perubahan visual yang tinggi. Rentang retensi visual rata-rata sangat pendek — Anda harus beralih ke gambar baru, memotong, memperbesar, atau klip b-roll setiap **2,5 hingga 4,0 detik**.
+3. **Pemetaan Kata-ke-Durasi:** Jika Anda berbicara dengan kecepatan rata-rata 150 kata per menit, setiap kata membutuhkan waktu sekitar 0,4 detik. Kalimat 10 kata memerlukan klip video berdurasi 4 detik.
 
-*Automated Workflow Note:* You can reference the [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator) app from the sibling repository, which demonstrates how to automatically match audio segments to video assets programmatically.
-
----
-
-## Do It
-
-### Step 1: Generate the Narration Audio
-Take your conversational script from Module 1. Divide it into individual sentences or short thought blocks. Batch-generate these files using a premium TTS model (e.g. ElevenLabs). Save each file with a sequential number (e.g., `01_hook.mp3`, `02_problem.mp3`).
-
-### Step 2: Log Audio Durations
-Import the audio files into your editor or utility script. Measure the exact duration of each file to one decimal place. Log the results in your [`templates/narration-duration-log.md`](templates/narration-duration-log.md).
-* *Example:* `01_hook.mp3` = 4.2 seconds.
-
-### Step 3: Determine Visual B-Roll Needs
-For each logged audio line, plan the matching visual asset:
-* For a 4.2s line, you need a visual asset that can display for exactly 4.2 seconds.
-* If you generate video (which typically outputs 4- or 5-second clips), you will import the video and trim the extra frames to match the audio length.
-
-### Step 4: Assemble the Timeline
-Place all narration files back-to-back on your primary audio track (A1). Trim any blank noise or silence at the start and end of each clip so that the voice flows naturally without gaps. 
-
-### Step 5: Place and Crop Video Clips
-Place your b-roll clips on video track V1, matching the cuts exactly to the audio file boundaries. Add subtle scale animations (a 10% slow zoom-in) to static clips to keep the screen dynamic during the cut.
+*Catatan Alur Kerja Otomatis:* Anda dapat mereferensikan aplikasi [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator) dari repositori saudaranya, yang menunjukkan cara mencocokkan segmen audio dengan aset video secara otomatis secara terprogram.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Hasilkan Audio Narasi
+Ambil naskah percakapan Anda dari Modul 1. Bagilah menjadi kalimat-kalimat individual atau blok pemikiran pendek. Hasilkan file-file ini secara batch menggunakan model TTS premium (misalnya ElevenLabs). Simpan setiap file dengan nomor urut (misalnya, `01_hook.mp3`, `02_problem.mp3`).
+
+### Langkah 2: Catat Durasi Audio
+Impor file audio ke editor atau skrip utilitas Anda. Ukur durasi pasti setiap file hingga satu tempat desimal. Catat hasilnya di [`templates/narration-duration-log.md`](templates/narration-duration-log.md) Anda.
+* *Contoh:* `01_hook.mp3` = 4,2 detik.
+
+### Langkah 3: Tentukan Kebutuhan Visual B-Roll
+Untuk setiap baris audio yang dicatat, rencanakan aset visual yang cocok:
+* Untuk garis 4,2 detik, Anda memerlukan aset visual yang dapat ditampilkan tepat 4,2 detik.
+* Jika Anda membuat video (yang biasanya menghasilkan klip berdurasi 4 atau 5 detik), Anda akan mengimpor video dan memotong bingkai tambahan agar sesuai dengan panjang audio.
+
+### Langkah 4: Susun Garis Waktu
+Tempatkan semua file narasi secara berurutan di trek audio utama Anda (A1). Pangkas semua suara bising atau keheningan di awal dan akhir setiap klip sehingga suara mengalir secara alami tanpa jeda.
+
+### Langkah 5: Tempatkan dan Pangkas Klip Video
+Tempatkan klip b-roll Anda pada trek video V1, cocokkan potongannya persis dengan batas file audio. Tambahkan animasi skala halus (zoom-in lambat 10%) ke klip statis untuk menjaga layar tetap dinamis selama pemotongan.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/faceless-anchor.jpg" alt="Narration Visual Anchor" width="240">
-<img src="templates/examples/faceless-clip.gif" alt="Narration-Synced Video Loop (I2V)" width="240">
+<img src="templates/examples/faceless-anchor.jpg" alt="Anchor Visual Narasi" width="240">
+<img src="templates/examples/faceless-clip.gif" alt="Loop Video yang Disinkronkan Narasi (I2V)" width="240">
 </p>
 <p align="center"><sub>Narration Anchor Image (Left) ──► Image-to-Video Narration Loop (Right) · Video File: <a href="templates/examples/faceless-clip.mp4">templates/examples/faceless-clip.mp4</a></sub></p>
 
-**Timeline Setup for "Automate Smarter" (First 10 seconds)**
+**Pengaturan Timeline untuk "Automate Smarter" (10 detik pertama)**
 
 
 
-* **Audio Spine (Track A1):**
-  * `01_hook.mp3`: *"If you're still manually copying invoices into your accounting software, you are throwing away five hours a week."* (Duration: **4.2 seconds**).
-  * `02_problem.mp3`: *"Most freelancers think they have to pay a virtual assistant to do this."* (Duration: **3.8 seconds**).
+* **Audio Spine (Trek A1):**
+* `01_hook.mp3`: *"Jika Anda masih menyalin faktur secara manual ke perangkat lunak akuntansi, Anda membuang waktu lima jam seminggu."* (Durasi: **4,2 detik**).
+* `02_problem.mp3`: *"Sebagian besar pekerja lepas berpikir mereka harus membayar asisten virtual untuk melakukan ini."* (Durasi: **3,8 detik**).
 
-* **Visual Assets Mapping (Track V1):**
-  * **Visual 1 (0:00 - 0:04.2):** A generated video clip of a person typing on a laptop. Clip is originally 5.0 seconds. Cut the final 0.8 seconds to match `01_hook.mp3`. Apply a slow digital zoom.
-  * **Visual 2 (0:04.2 - 0:08.0):** A still image of a close-up calculator with an error screen. Since it is a still image, stretch it on the timeline to exactly 3.8 seconds to match `02_problem.mp3`. Apply a camera pan-down effect.
+* **Pemetaan Aset Visual (Track V1):**
+* **Visual 1 (0:00 - 0:04.2):** Klip video yang dihasilkan dari seseorang yang sedang mengetik di laptop. Klip aslinya berdurasi 5,0 detik. Potong 0,8 detik terakhir untuk mencocokkan `01_hook.mp3`. Terapkan zoom digital lambat.
+* **Visual 2 (0:04.2 - 0:08.0):** Gambar diam kalkulator close-up dengan layar kesalahan. Karena ini adalah gambar diam, rentangkan gambar tersebut pada timeline hingga tepat 3,8 detik agar cocok dengan `02_problem.mp3`. Terapkan efek pan-down kamera.
 
-**The Result:** The visual cut happens exactly at 4.2 seconds, precisely as the narrator finishes the hook sentence. There is no dead air, and the visual change resets the viewer's attention span.
+**Hasilnya:** Pemotongan visual terjadi tepat pada 4,2 detik, tepat saat narator menyelesaikan kalimat hook. Tidak ada suasana mati, dan perubahan visual mengatur ulang rentang perhatian pemirsa.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Production Path | Capabilities | Setup Effort | Best for |
+| Jalur Produksi | Kemampuan | Upaya Pengaturan | Terbaik untuk |
 |---|---|---|---|
-| **Manual NLE Editor** (CapCut/Premiere) | Drag-and-drop timeline, manual crop control, easy audio volume adjustment, and built-in transitions. | Low | Widescreen videos and customized, high-quality short-form clips. |
-| **Programmatic Automation** (`AI-Youtube-Shorts-Generator`) | Automatically takes script and voice inputs, gathers matching stock assets, and renders the video timeline programmatically. | High (Needs repository setup and Python dependencies) | Mass-producing short-form videos across multiple channels at volume. |
-| **ElevenLabs API** (via muapi) | Best conversational pacing, natural voice inflections, and supports multi-voice script dialogue generation. | Low | Narrative voiceovers and professional explanations. |
+| **Manual NLE Editor** (CapCut/Tayang Perdana) | Garis waktu seret dan lepas, kontrol pemotongan manual, penyesuaian volume audio yang mudah, dan transisi bawaan. | Rendah | Video layar lebar dan klip pendek berkualitas tinggi yang disesuaikan. |
+| **Otomasi Terprogram** (`AI-Youtube-Shorts-Generator`) | Secara otomatis mengambil input skrip dan suara, mengumpulkan aset stok yang cocok, dan merender timeline video secara terprogram. | Tinggi (Membutuhkan pengaturan repositori dan ketergantungan Python) | Memproduksi video berdurasi pendek secara massal di berbagai saluran dengan volume yang besar. |
+| **API ElevenLabs** (melalui muapi) | Kecepatan percakapan terbaik, infleksi suara alami, dan mendukung pembuatan dialog skrip multi-suara. | Rendah | Sulih suara naratif dan penjelasan profesional. |
 
-For single-channel operations, manually editing inside CapCut is the fastest way to get high-quality pacing. For running a network of 5+ channels, setting up a programmatic pipeline like `AI-Youtube-Shorts-Generator` is essential to scale content creation without burning editing hours.
+Untuk pengoperasian saluran tunggal, pengeditan manual di dalam CapCut adalah cara tercepat untuk mendapatkan tempo berkualitas tinggi. Untuk menjalankan jaringan yang terdiri dari 5+ saluran, menyiapkan pipeline terprogram seperti `AI-Youtube-Shorts-Generator` sangat penting untuk meningkatkan skala pembuatan konten tanpa menghabiskan waktu pengeditan.
 
 ---
 
-## Launch It
+## Luncurkan
 
-**How to optimize your workflow:**
-* **Template Directories:** Set up a clean local folder template on your computer:
+**Cara mengoptimalkan alur kerja Anda:**
+* **Direktori Templat:** Siapkan templat folder lokal yang bersih di komputer Anda:
   ```
   [project-folder]/
   ├── audio/          # Narrations and voiceovers
@@ -99,22 +99,22 @@ For single-channel operations, manually editing inside CapCut is the fastest way
   ├── project_files/  # Saved CapCut/Premiere project
   └── exports/        # Completed renders
   ```
-* **Render Batches:** Generate all narration audio first, log them in your log template, and then batch-generate all video backgrounds. This keeps you in one head-space at a time, doubling your editing speed.
+* **Render Batch:** Buat semua audio narasi terlebih dahulu, catat di templat log Anda, lalu buat semua latar belakang video secara batch. Ini membuat Anda tetap fokus pada satu waktu, menggandakan kecepatan pengeditan Anda.
 
 ---
 
-## Exercises
+## Latihan
 
-1. **Easy:** Generate a 10-second voiceover clip. Log its exact duration. Edit a background video clip to match its duration to the frame.
-2. **Medium:** Take a 30-second script. Divide it into 6 short sentences. Generate the voice clips. Log them in the Narration Duration Log. Plan and compile 6 visual assets that match each clip's duration.
-3. **Hard:** Set up the `AI-Youtube-Shorts-Generator` app locally, configure it with your API key, and generate a complete vertical video automatically from a text prompt.
-
----
-
-## Templates
-
-* [`templates/narration-duration-log.md`](templates/narration-duration-log.md) — a timeline log to match visual cuts to audio track durations.
+1. **Mudah:** Buat klip sulih suara 10 detik. Catat durasi pastinya. Edit klip video latar belakang untuk mencocokkan durasinya dengan frame.
+2. **Sedang:** Ambil skrip berdurasi 30 detik. Bagilah menjadi 6 kalimat pendek. Hasilkan klip suara. Catatlah di Log Durasi Narasi. Rencanakan dan kompilasi 6 aset visual yang sesuai dengan durasi setiap klip.
+3. **Sulit:** Siapkan aplikasi `AI-Youtube-Shorts-Generator` secara lokal, konfigurasikan dengan kunci API Anda, dan buat video vertikal lengkap secara otomatis dari perintah teks.
 
 ---
 
-[← Niche Selection & Script Pipeline](01-niche-and-script.md) · Next: [Honest RPM & Earnings Math →](03-rpm-and-earnings.md)
+## Templat
+
+* [`templates/narration-duration-log.md`](templates/narration-duration-log.md) — log garis waktu untuk mencocokkan potongan visual dengan durasi trek audio.
+
+---
+
+[← Niche Selection & Script Pipeline](01-niche-and-script.md) · Berikutnya: [Honest RPM & Earnings Math →](03-rpm-and-earnings.md)

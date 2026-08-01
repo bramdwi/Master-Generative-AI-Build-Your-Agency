@@ -1,22 +1,22 @@
-# Selling Short-Form Films
+# Jual Film Berbentuk Pendek
 
-> Festivals want the story; sponsors want the eyeballs; platforms want the assets.
+> Festival menginginkan ceritanya; sponsor menginginkan perhatian; platform menginginkan aset tersebut.
 
-**Track:** AI Filmmaking  
-**Time:** ~30 minutes  
-**Prerequisites:** Screenplay & Story Generation, Assembling a Short Film  
+**Lagu:** Pembuatan Film AI
+**Waktu:** ~30 menit
+**Prasyarat:** Skenario & Pembuatan Cerita, Merakit Film Pendek
 
-## The Problem
+## Masalahnya
 
-Most people who make AI short films share them on YouTube or Twitter, get a few hundred views, and make $0. They treat it purely as a hobby or an art project. Because they don't understand the commercial market for digital media, they miss out on the growing economic ecosystem surrounding AI video production.
+Kebanyakan orang yang membuat film pendek AI membagikannya di YouTube atau Twitter, mendapatkan beberapa ratus penayangan, dan menghasilkan $0. Mereka memperlakukannya semata-mata sebagai hobi atau proyek seni. Karena mereka tidak memahami pasar komersial media digital, mereka kehilangan ekosistem ekonomi yang berkembang di sekitar produksi video AI.
 
-At the same time, brands are looking for cost-effective visual storytelling, new vertical drama platforms are spending millions of dollars licensing short episodes, and major technology companies are hosting AI film festivals with tens of thousands of dollars in cash prizes.
+Pada saat yang sama, merek mencari pengisahan cerita visual yang hemat biaya, platform drama vertikal baru menghabiskan jutaan dolar untuk melisensikan episode pendek, dan perusahaan teknologi besar mengadakan festival film AI dengan hadiah uang tunai puluhan ribu dolar.
 
-To turn AI filmmaking into a sustainable business, you must transition from "making cool clips" to understanding how to structure sponsorships, pitch licensing agreements, and target the right monetization funnels.
+Untuk mengubah pembuatan film AI menjadi bisnis yang berkelanjutan, Anda harus beralih dari "membuat klip keren" menjadi memahami cara menyusun sponsorship, mengajukan perjanjian lisensi, dan menargetkan saluran monetisasi yang tepat.
 
-## The Concept
+## Konsep
 
-Monetizing AI short-form video runs along three main avenues, each with a different financial return and effort level:
+Memonetisasi video pendek AI dilakukan melalui tiga cara utama, masing-masing dengan tingkat keuntungan finansial dan upaya yang berbeda:
 
 ```
                   ┌───────────────────────┐
@@ -28,100 +28,100 @@ AI Short Film ──► │ Brand Sponsorships    │ ──► Direct Product P
                   └───────────────────────┘
 ```
 
-1. **AI Film Festivals:** High prestige, low predictability. Submitted through aggregator directories, these offer cash prizes and direct introductions to agency directors.
-2. **Brand Sponsorships:** Moderate predictability, high margins. You integrate a brand's digital asset (a logo, a product model) into the world of your film.
-3. **Platform Licensing:** Highest predictability, volume-driven. Vertical video platforms (ReelShort, DramaBox, etc.) buy rights to short-form episodic narrative content.
+1. **Festival Film AI:** Prestise tinggi, prediktabilitas rendah. Dikirim melalui direktori agregator, ini menawarkan hadiah uang tunai dan perkenalan langsung dengan direktur agensi.
+2. **Sponsor Merek:** Prediktabilitas sedang, margin tinggi. Anda mengintegrasikan aset digital suatu merek (logo, model produk) ke dalam dunia film Anda.
+3. **Lisensi Platform:** Prediktabilitas tertinggi, berdasarkan volume. Platform video vertikal (ReelShort, DramaBox, dll.) membeli hak atas konten narasi episodik bentuk pendek.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Package Your Visual Deliverables
-Before pitching, ensure you have a professional delivery pack:
-* **The Master Cut:** Widescreen 16:9 or 2.39:1 high-resolution video.
-* **The Vertical Cut:** 9:16 vertical version optimized for mobile feeds.
-* **The Clean Master:** A video export with sound effects and music, but *no voice track* (this allows platforms to dub your film into other languages).
+### Langkah 1: Kemas Hasil Visual Anda
+Sebelum melakukan pitch, pastikan Anda memiliki paket pengiriman profesional:
+* **Master Cut:** Video resolusi tinggi layar lebar 16:9 atau 2,39:1.
+* **Potongan Vertikal:** Versi vertikal 09:16 dioptimalkan untuk feed seluler.
+* **The Clean Master:** Ekspor video dengan efek suara dan musik, tetapi *tanpa trek suara* (ini memungkinkan platform untuk men-dubbing film Anda ke bahasa lain).
 
-### Step 2: Build a Visual Pitch Deck
-Use [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) to outline your project's concept. Include your static storyboard frames from Module 2 to show the high visual quality of the project before it is rendered.
+### Langkah 2: Bangun Dek Pitch Visual
+Gunakan [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) untuk menguraikan konsep proyek Anda. Sertakan bingkai storyboard statis Anda dari Modul 2 untuk menunjukkan kualitas visual yang tinggi dari proyek sebelum dirender.
 
-### Step 3: Pitch Brand Sponsorships
-Search for mid-sized brands whose aesthetic matches your film theme.
-* *Example:* If you are making a sci-fi film, target premium desk accessory or software companies. If you are making a drama, target fashion or skincare brands.
-* Send your pitch offering seamless product integration inside your narrative world. Charge an upfront fee (**$300–$1,000** for initial campaigns).
+### Langkah 3: Promosikan Sponsor Merek
+Telusuri merek menengah yang estetikanya sesuai dengan tema film Anda.
+* *Contoh:* Jika Anda membuat film fiksi ilmiah, targetkan perusahaan aksesori meja atau perangkat lunak premium. Jika Anda membuat drama, targetkan merek fesyen atau perawatan kulit.
+* Kirim penawaran Anda dengan menawarkan integrasi produk yang lancar ke dalam dunia narasi Anda. Membebankan biaya di muka (**$300–$1.000** untuk kampanye awal).
 
-### Step 4: Submit to AI Film Festivals
-Set up a profile on FilmFreeway. Search for "AI Film Festivals." Submissions are often free or low-cost. Submit to major ones (e.g. Runway AIFF, muapi Creator Awards) to build industry credibility.
+### Langkah 4: Kirim ke Festival Film AI
+Siapkan profil di FilmFreeway. Telusuri "Festival Film AI". Pengiriman sering kali gratis atau berbiaya rendah. Kirimkan ke yang besar (misalnya Runway AIFF, muapi Creator Awards) untuk membangun kredibilitas industri.
 
-### Step 5: License to Vertical Drama Apps
-Reach out to licensing representatives of vertical vertical-video networks. Pitch them a multi-episode mini-series. Provide a terms sheet detailing upfront fees and royalty splits using the [`templates/licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md).
+### Langkah 5: Lisensi untuk Aplikasi Drama Vertikal
+Jangkau perwakilan pemberi lisensi jaringan video vertikal vertikal. Tawarkan kepada mereka serial mini multi-episode. Berikan lembar persyaratan yang merinci biaya di muka dan pembagian royalti menggunakan [`templates/licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md).
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/the-last-signal-poster.jpg" alt="Licensing Poster" width="280">
+<img src="templates/examples/the-last-signal-poster.jpg" alt="Poster Lisensi" width="280">
 <img src="templates/examples/last-signal-assembly-clip.gif" alt="Pitch Trailer Motion (I2V)" width="280">
 </p>
 <p align="center"><sub>Licensing Pitch Art (Left) ──► Image-to-Video Film Trailer Motion (Right) · Video File: <a href="templates/examples/last-signal-assembly-clip.mp4">templates/examples/last-signal-assembly-clip.mp4</a></sub></p>
 
-**Licensing "The Last Signal" Series to a Mobile App**
+**Melisensikan Seri "The Last Signal" ke Aplikasi Seluler**
 
 
 
-* **The Deal:** A 5-episode vertical mini-series (1 minute per episode).
-* **The Agreement terms:**
-  * **Exclusivity:** Exclusive license for mobile app distribution for 12 months. Non-exclusive for personal portfolio display.
-  * **Upfront Fee:** **$300** per episode (Total **$1,500** upfront).
-  * **Royalty Split:** **15%** of net pay-per-view revenue generated by the episodes on the app.
-  * **Attribution:** Credit line: *"Created by [Your Name] using muapi models"* visible on the video description page.
+* **Kesepakatan:** Miniseri vertikal 5 episode (1 menit per episode).
+* **Ketentuan Perjanjian:**
+* **Eksklusivitas:** Lisensi eksklusif untuk distribusi aplikasi seluler selama 12 bulan. Non-eksklusif untuk tampilan portofolio pribadi.
+* **Biaya di Muka:** **$300** per episode (Total **$1.500** di muka).
+* **Pembagian Royalti:** **15%** pendapatan bersih bayar-per-tayang yang dihasilkan oleh episode di aplikasi.
+* **Atribusi:** Batas kredit: *"Dibuat oleh [Nama Anda] menggunakan model muapi"* terlihat di halaman deskripsi video.
 
-**The Financial Math:**
-* **Production Cost:** **$25** in video generation API credits (Kling/Luma).
-* **Editing Time:** 15 hours total across 5 episodes.
-* **Net Upfront Profit:** **$1,475** (approx. **$98/hour**).
-* **Passive Tail:** Extra monthly payments from the 15% royalty split as users unlock episodes.
+**Matematika Finansial:**
+* **Biaya Produksi:** **$25** dalam kredit API pembuatan video (Kling/Luma).
+* **Waktu Pengeditan:** Total 15 jam dalam 5 episode.
+* **Laba Bersih di Muka:** **$1.475** (kira-kira **$98/jam**).
+* **Passive Tail:** Pembayaran bulanan ekstra dari pembagian royalti 15% saat pengguna membuka kunci episode.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Portal | Purpose | Best for |
+| Platform / Portal | Tujuan | Terbaik untuk |
 |---|---|---|
-| **FilmFreeway** | Central directory for film festival submissions globally. Includes filters for budget, genre, and "AI Film" categories. | Gaining credentials, winning cash prizes, and press releases. |
-| **Direct Brand Outreach (Email/LinkedIn)** | Reaching marketing managers directly to sell product placements. | Short-term cash flow and direct commercial partnerships. |
-| **Whop / Gumroad** | E-commerce hosting platforms to sell digital video assets or prompts. | Selling templates, visual assets, or LUT packs to other creators. |
+| **FilmJalan Tol** | Direktori pusat untuk pengiriman festival film secara global. Termasuk filter untuk kategori anggaran, genre, dan "Film AI". | Mendapatkan kredensial, memenangkan hadiah uang tunai, dan siaran pers. |
+| **Penjangkauan Merek Langsung (Email/LinkedIn)** | Menjangkau manajer pemasaran secara langsung untuk menjual penempatan produk. | Arus kas jangka pendek dan kemitraan komersial langsung. |
+| **Whop / Gumroad** | Platform hosting e-niaga untuk menjual aset atau permintaan video digital. | Menjual template, aset visual, atau paket LUT ke pembuat konten lain. |
 
-For direct monetization, cold outreach to brands and licensing to vertical platforms provides immediate, predictable income. Festivals should be treated as a marketing channel to increase your credibility and justify higher rates for future brand deals.
-
----
-
-## Launch It
-
-**How to price your work:**
-* **Product Placement / Sponsorship:** Charge based on production complexity. A 5-second product placement inside a 1-minute cinematic clip is priced at **$300–$800** upfront.
-* **Vertical Drama Episodes:** Pitch packages of 10–20 episodes. Sell them at **$150–$350** per episode to mobile platforms, or negotiate a lower upfront fee in exchange for a higher revenue share (20-30%).
-
-**Where to find sponsors:**
-Target brands that already advertise heavily on social media (look at Meta Ad Library) but lack high-production-value video assets. Offer them cinematic lookups they cannot get from typical low-budget film crews.
+Untuk monetisasi langsung, penjangkauan terhadap merek dan pemberian lisensi pada platform vertikal memberikan pendapatan yang cepat dan dapat diprediksi. Festival harus diperlakukan sebagai saluran pemasaran untuk meningkatkan kredibilitas Anda dan membenarkan tarif yang lebih tinggi untuk kesepakatan merek di masa depan.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Draft a 1-page visual pitch deck outline for an AI-generated sci-fi short film, including target brand sponsors.
-2. **Medium:** Write a cold pitch email to a real watch or tech gear brand, proposing a 5-second seamless visual integration in a travel-themed short video.
-3. **Hard:** Draft a complete licensing term sheet for a 10-episode vertical drama series, defining regional exclusivity, upfront payment milestones, and revenue-sharing terms.
+**Cara menentukan harga karya Anda:**
+* **Penempatan Produk / Sponsor:** Biaya berdasarkan kompleksitas produksi. Penempatan produk berdurasi 5 detik dalam klip sinematik berdurasi 1 menit dihargai **$300–$800** di muka.
+* **Episode Drama Vertikal:** Paket promosi 10–20 episode. Jual dengan harga **$150–$350** per episode ke platform seluler, atau negosiasikan biaya awal yang lebih rendah dengan imbalan bagi hasil yang lebih tinggi (20-30%).
+
+**Di mana menemukan sponsor:**
+Targetkan merek yang sudah banyak beriklan di media sosial (lihat Meta Ad Library) tetapi tidak memiliki aset video dengan nilai produksi tinggi. Tawarkan kepada mereka pencarian sinematik yang tidak dapat mereka peroleh dari kru film beranggaran rendah.
 
 ---
 
-## Templates
+## Latihan
 
-Reusable template(s) this module produces:
+1. **Mudah:** Buat draf ringkasan presentasi visual sepanjang 1 halaman untuk film pendek fiksi ilmiah buatan AI, termasuk sponsor merek target.
+2. **Medium:** Tulis email dingin ke merek jam tangan atau perlengkapan teknologi asli, yang mengusulkan integrasi visual berdurasi 5 detik tanpa hambatan dalam video pendek bertema perjalanan.
+3. **Sulit:** Buat draf lembar persyaratan lisensi lengkap untuk serial drama vertikal 10 episode, yang menjelaskan eksklusivitas regional, tahapan pembayaran di muka, dan persyaratan bagi hasil.
 
-* [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) — a cold email pitch structure for sponsorships.
-* [`templates/licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md) — a term sheet outlining licensing structures.
+---
+
+## Templat
+
+Templat yang dapat digunakan kembali yang dihasilkan modul ini:
+
+* [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) — struktur promosi email yang menarik untuk sponsorship.
+* [`templates/licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md) — lembar persyaratan yang menguraikan struktur perizinan.
 
 ---
 

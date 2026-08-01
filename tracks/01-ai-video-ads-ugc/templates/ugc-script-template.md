@@ -1,48 +1,48 @@
-# UGC Script Template
+# Templat Skrip UGC
 
-From [Module 1: How AI UGC Actually Works](../01-how-ugc-works.md). Copy the blank template below for a new script — the filled example above it is a real script from that module's Worked Example, kept here so you have something to pattern-match against instead of staring at brackets.
+Dari [Module 1: How AI UGC Actually Works](../01-how-ugc-works.md). Salin templat kosong di bawah untuk skrip baru — contoh yang diisi di atas adalah skrip nyata dari Contoh yang Dikerjakan modul tersebut, disimpan di sini sehingga Anda memiliki sesuatu untuk dicocokkan polanya alih-alih menatap tanda kurung.
 
-## Filled example (GripMount phone mount, $28)
+## Contoh yang terisi (pemasangan telepon GripMount, $28)
 
-**Product:** GripMount — magnetic phone car mount
-**Target length:** 28 seconds (~85 words)
+**Produk:** GripMount — dudukan telepon magnetik di mobil
+**Panjang target:** 28 detik (~85 kata)
 
-| Beat | Timing | Line |
+| Mengalahkan | Waktu | Garis |
 |---|---|---|
-| Hook | 0-2s | "Okay, I did not expect this to actually hold my phone through a pothole." |
-| Problem / Pitch | 2-15s | "I used to have one of those suction ones that fell off literally every drive — this one's magnetic, snaps on in like two seconds." |
-| Proof / Demo | 15-25s | "[demo: slaps phone onto mount] It's held through every drive for the last two weeks, potholes included." |
-| Call to Action | 25-28s | "It's $28, link's below — honestly just get it before your next road trip." |
+| Kait | 0-2 detik | "Oke, aku tidak menyangka ini akan membuat ponselku masuk ke dalam lubang." |
+| Masalah / Pitch | 2-15 detik | "Saya dulu punya salah satu alat pengisap yang jatuh setiap kali saya berkendara - yang ini bersifat magnetis, langsung menyala dalam waktu dua detik." |
+| Bukti / Demo | 15-25 detik | "[demo: menempelkan ponsel ke dudukannya] Ini dilakukan di setiap perjalanan selama dua minggu terakhir, termasuk jalan berlubang." |
+| Ajakan Bertindak | 25-28 detik | "Harganya $28, tautannya ada di bawah — sejujurnya, dapatkan saja sebelum perjalanan Anda berikutnya." |
 
-Why each beat does its job:
-- **Hook** is a surprised, specific claim ("through a pothole"), not a generic opener ("this product is great") — specificity is what stops a scroll.
-- **Pitch** names the competing product's actual failure mode (suction falling off) instead of just describing GripMount — sounds like a real complaint, not copy.
-- **Proof** pairs a visual demo with a concrete duration ("two weeks, potholes included") — numbers read as more credible than adjectives.
-- **CTA** states the price plainly and ties urgency to a real use case (road trip), one action only.
+Mengapa setiap ketukan melakukan tugasnya:
+- **Kait** adalah klaim yang mengejutkan dan spesifik ("melalui lubang"), bukan pembuka yang umum ("produk ini hebat") — kekhususanlah yang menghentikan gulungan.
+- **Pitch** menyebutkan mode kegagalan sebenarnya dari produk pesaing (pengisapan menurun) dan bukan hanya mendeskripsikan GripMount — terdengar seperti keluhan nyata, bukan tiruan.
+- **Bukti** memasangkan demo visual dengan durasi konkret ("dua minggu, termasuk jalan berlubang") — angka yang dibaca lebih kredibel daripada kata sifat.
+- **CTA** menyatakan harga dengan jelas dan mengaitkan urgensi dengan kasus penggunaan nyata (perjalanan), hanya satu tindakan.
 
-## Blank template — fill this in
+## Templat kosong — isi ini
 
-**Product:** ___________
-**Target length:** 25-30 seconds (~75-90 words)
+**Produk:** ___________
+**Panjang target:** 25-30 detik (~75-90 kata)
 
-### Hook (0-2 sec)
-[A question, bold claim, or visual surprise that stops the scroll — be specific, not generic. "I did not expect X" beats "this product is amazing."]
+### Kait (0-2 detik)
+[Pertanyaan, klaim yang berani, atau kejutan visual yang menghentikan alur cerita — harus spesifik, bukan umum. "Saya tidak menyangka X" mengalahkan "produk ini luar biasa."]
 
-### Problem / Pitch (2-15 sec)
-[What problem does the viewer have, and how does this product solve it — said like you'd tell a friend, not like ad copy. Naming a specific competing failure ("the old way always did X") reads more like a real opinion than a feature list.]
+### Soal / Pitch (2-15 detik)
+[Masalah apa yang dialami pemirsa, dan bagaimana produk ini mengatasinya — dikatakan seperti Anda memberi tahu teman, bukan seperti teks iklan. Memberi nama pada kegagalan persaingan tertentu ("cara lama selalu melakukan X") lebih terlihat seperti opini nyata daripada daftar fitur.]
 
-### Proof / Demo (15-25 sec)
-[Show it working, a result, or a specific detail that makes it credible. A concrete number ("two weeks," "10 minutes," "half the price") is more convincing than an adjective ("amazing," "life-changing").]
+### Bukti / Demo (15-25 detik)
+[Tunjukkan cara kerjanya, hasil, atau detail spesifik yang membuatnya kredibel. Angka konkrit (“dua minggu”, “10 menit”, “setengah harga”) lebih meyakinkan daripada kata sifat (“menakjubkan”, “mengubah hidup”).]
 
-### Call to Action (25-30 sec)
-[One clear next step — "link in bio," "use code X," "swipe up." State the price if it's a strength. Tie urgency to a real reason, not just "buy now."]
+### Ajakan Bertindak (25-30 detik)
+[Satu langkah berikutnya yang jelas — "tautan di bio", "gunakan kode X", "geser ke atas". Nyatakan harganya jika itu sebuah kekuatan. Kaitkan urgensi dengan alasan sebenarnya, bukan sekadar "beli sekarang".]
 
 ---
 
-## Checklist before recording
+## Daftar periksa sebelum merekam
 
-- [ ] Hook works with sound off (captions alone should make sense)
-- [ ] No more than one CTA
-- [ ] Sounds like speech, not a script, when read aloud
-- [ ] At least one concrete number or detail (not just adjectives) somewhere in the pitch or proof
-- [ ] Total read-aloud time is under 30 seconds
+- [ ] Hook berfungsi dengan suara mati (teks saja sudah masuk akal)
+- [ ] Tidak lebih dari satu CTA
+- [ ] Kedengarannya seperti ucapan, bukan naskah, jika dibacakan
+- [ ] Setidaknya satu angka atau detail konkret (bukan hanya kata sifat) di suatu tempat di nada atau bukti
+- [ ] Total waktu membaca dengan lantang kurang dari 30 detik

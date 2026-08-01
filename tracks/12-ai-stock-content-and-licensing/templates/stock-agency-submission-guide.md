@@ -1,26 +1,26 @@
-# Stock Agency Submission & FTP Upload Guide
+# Panduan Pengajuan Agen Saham & Pengunggahan FTP
 
-Use this step-by-step submission guide to upload batch AI stock assets to Adobe Stock, Freepik, and Wirestock.
-
----
-
-## 📤 Stock Agency Upload Specifications
-
-### 1. Adobe Stock Contributor Portal
-* **Min Resolution:** 4 Megapixels (e.g., 2400 × 1600 px). Recommended: **4000 × 2667 px (10.6 MP)**.
-* **File Format:** JPEG (.jpg) with maximum quality settings (Quality 10-12).
-* **AI Disclosure Mandate:** Select **"Created using Generative AI tools"** -> Check **"People and Property are fictional"** (eliminates model release requirement).
-
-### 2. Freepik Premium Contributor
-* **Min Resolution:** 2000 px on the shortest side.
-* **Batch Size:** Minimum 10 assets per initial submission batch.
-* **File Naming Standard:** Lowercase with underscores (`corporate_handshake_01.jpg`).
+Gunakan panduan pengiriman langkah demi langkah ini untuk mengunggah aset stok AI batch ke Adobe Stock, Freepik, dan Wirestock.
 
 ---
 
-## 🌐 FTP Batch Upload Configuration (Adobe Stock)
+## 📤 Spesifikasi Upload Agensi Stok
 
-Use an FTP client (FileZilla or Cyberduck) to upload 100+ files instantly without browser upload limits:
+### 1. Portal Kontributor Saham Adobe
+* **Resolusi Minimal:** 4 Megapiksel (mis., 2400 × 1600 piksel). Direkomendasikan: **4000 × 2667 piksel (10,6 MP)**.
+* **Format File:** JPEG (.jpg) dengan pengaturan kualitas maksimal (Kualitas 10-12).
+* **Mandat Pengungkapan AI:** Pilih **"Dibuat menggunakan alat AI Generatif"** -> Centang **"Orang dan Properti bersifat fiksi"** (menghilangkan persyaratan rilis model).
+
+### 2. Kontributor Premium Freepik
+* **Resolusi Min:** 2000 piksel pada sisi terpendek.
+* **Ukuran Batch:** Minimum 10 aset per batch pengiriman awal.
+* **Standar Penamaan File:** Huruf kecil dengan garis bawah (`corporate_handshake_01.jpg`).
+
+---
+
+## 🌐 Konfigurasi Unggah Batch FTP (Stok Adobe)
+
+Gunakan klien FTP (FileZilla atau Cyberduck) untuk mengunggah 100+ file secara instan tanpa batasan unggahan browser:
 
 ```yaml
 FTP_Configuration:
@@ -33,10 +33,10 @@ FTP_Configuration:
 
 ---
 
-## ⚡ 5-Point Pre-Submission Rejection Audit
+## ⚡ Audit Penolakan Pra-Pengajuan 5 Poin
 
-1. **100% Zoom Crop Inspection:** Inspect pupils, fingers, and text areas for bizarre AI distortions.
-2. **Copy Space Verification:** Confirm image contains clean area for buyers to add text headlines.
-3. **Trademark Scrub:** Verify zero brand logos (Apple, Nike, Samsung, car hood ornaments) are visible.
-4. **Metadata Density:** Ensure at least 30 relevant IPTC keywords are embedded in each file's metadata.
-5. **Color Space:** Exported in **sRGB** color space to prevent color shift on contributor portal previews.
+1. **Pemeriksaan Zoom Crop 100%:** Periksa pupil, jari, dan area teks untuk melihat adanya distorsi AI yang aneh.
+2. **Verifikasi Ruang Salin:** Konfirmasikan gambar berisi area bersih bagi pembeli untuk menambahkan judul teks.
+3. **Scrub Merek Dagang:** Pastikan tidak ada logo merek (Apple, Nike, Samsung, hiasan kap mobil) yang terlihat.
+4. **Kepadatan Metadata:** Pastikan setidaknya 30 kata kunci IPTC yang relevan disematkan di setiap metadata file.
+5. **Ruang Warna:** Diekspor dalam ruang warna **sRGB** untuk mencegah perubahan warna pada pratinjau portal kontributor.

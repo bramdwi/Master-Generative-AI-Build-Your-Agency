@@ -1,29 +1,29 @@
-# Channel Profitability Calculator
+# Kalkulator Profitabilitas Saluran
 
-Use this calculator to audit the financial viability of a channel. Track your API expenses against real, incoming cash flows.
+Gunakan kalkulator ini untuk mengaudit kelayakan finansial suatu saluran. Lacak pengeluaran API Anda terhadap arus kas masuk yang sebenarnya.
 
 ---
 
-## 1. Monthly Views & Platform RPM
-* **Total Views/Month:** __________________ views
-* **Niche RPM (Revenue Per Mille):** $_________ / 1,000 views
-* **AdSense Monthly Estimate:** `(Views / 1000) * RPM` = **$__________**
+## 1. Tampilan Bulanan & RPM Platform
+* **Total Penayangan/Bulan:** __________________ penayangan
+* **RPM Niche (Pendapatan Per Seribu):** $_________ / 1.000 penayangan
+* **Perkiraan Bulanan AdSense:** `(Views / 1000) * RPM` = **$__________**
 
-## 2. Monthly Direct Monetization (Off-AdSense)
-* **Affiliate Commissions:** $__________
-* **Digital Product Sales (Gumroad/Whop):** $__________
-* **Newsletter/Sponsorship Deals:** $__________
-* **Direct Monetization Monthly Estimate:** **$__________**
+## 2. Monetisasi Langsung Bulanan (Off-AdSense)
+* **Komisi Afiliasi:** $__________
+* **Penjualan Produk Digital (Gumroad/Whop):** $__________
+* **Penawaran Buletin/Sponsor:** $__________
+* **Perkiraan Bulanan Monetisasi Langsung:** **$__________**
 
-## 3. Monthly Operational Costs (Software & APIs)
-* **Video Generation API (e.g. muapi credits):** $__________
-* **Voice Generation API (e.g. ElevenLabs):** $__________
-* **Editing Software / Stock Footage Subscriptions:** $__________
-* **LLM Subscriptions (Claude/ChatGPT Pro):** $__________
-* **Total Monthly Expenses:** **$__________**
+## 3. Biaya Operasional Bulanan (Software & API)
+* **API Pembuatan Video (misalnya kredit muapi):** $__________
+* **Voice Generation API (misalnya ElevenLabs):** $__________
+* **Perangkat Lunak Pengeditan / Langganan Rekaman Stok:** $__________
+* **Langganan LLM (Claude/ChatGPT Pro):** $__________
+* **Total Pengeluaran Bulanan:** **$__________**
 
-## 4. Margin Summary
-* **Total Gross Revenue:** `AdSense + Direct` = **$__________**
-* **Total Operating Expenses:** **$__________**
-* **Net Monthly Profit:** **$__________**
-* **Net Profit Margin:** `(Net Profit / Gross Revenue) * 100` = **_______%**
+## 4. Ringkasan Margin
+* **Total Pendapatan Kotor:** `AdSense + Direct` = **$__________**
+* **Total Biaya Operasional:** **$__________**
+* **Laba Bersih Bulanan:** **$__________**
+* **Margin Laba Bersih:** `(Net Profit / Gross Revenue) * 100` = **_______%**

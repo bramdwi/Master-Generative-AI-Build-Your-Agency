@@ -1,15 +1,15 @@
-# Tool Scope Definition Template
+# Templat Definisi Lingkup Alat
 
-Use this before building any micro-tool. Answering these 4 questions prevents scope creep and ensures the agent receives a clear, unambiguous instruction.
+Gunakan ini sebelum membuat alat mikro apa pun. Menjawab 4 pertanyaan ini mencegah scope creep dan memastikan agen menerima instruksi yang jelas dan tidak ambigu.
 
 ---
 
-## 🔍 The 4 Scope Questions
+## 🔍 4 Pertanyaan Lingkup
 
-### 1. What is the exact input?
-> `[Describe the input file format, name, and example content]`
+### 1. Apa masukan tepatnya?
+> __KODE INLINE_0__
 
-*Example: "A plain text file called `products.txt` containing one product name per line, e.g.:*
+*Contoh: "File teks biasa bernama `products.txt` berisi satu nama produk per baris, misalnya:*
 ```
 Cyberpunk Cat Tee
 Botanical Wildflower Mug
@@ -19,67 +19,67 @@ Retro Mountain Hoodie
 
 ---
 
-### 2. What is the exact output?
-> `[Describe the output file format, name, column structure, and example row]`
+### 2. Apa keluaran sebenarnya?
+> __KODE INLINE_0__
 
-*Example: "A CSV file called `seo_titles.csv` with 4 columns:*
+*Contoh: "File CSV bernama `seo_titles.csv` dengan 4 kolom:*
 ```
 ProductName, Title1, Title2, Keywords
 ```
-*Example row: `"Cyberpunk Cat Tee","Cyberpunk Cat Shirt for Gamers","Futuristic Neon Cat Graphic Tee","cyberpunk,cat,neon,gamer,anime"`"*
+*Contoh baris: `"Cyberpunk Cat Tee","Cyberpunk Cat Shirt for Gamers","Futuristic Neon Cat Graphic Tee","cyberpunk,cat,neon,gamer,anime"`"*
 
 ---
 
-### 3. What is the one transformation?
-> `[Describe the single operation that converts input to output]`
+### 3. Apa yang dimaksud dengan transformasi?
+> __KODE INLINE_0__
 
-*Example: "For each product name, send a GPT-4o-mini API request with a fixed SEO prompt. Parse the JSON response and write the titles and keywords to the output CSV."*
-
----
-
-### 4. Who is the exact buyer?
-> `[Describe the target buyer's job, platform, and specific pain point]`
-
-*Example: "Etsy print-on-demand sellers who publish 15–50 new designs per month and currently spend 10–20 minutes manually writing SEO titles and keyword tags for each listing."*
+*Contoh: "Untuk setiap nama produk, kirim permintaan API GPT-4o-mini dengan permintaan SEO tetap. Parsing respons JSON dan tulis judul dan kata kunci ke CSV keluaran."*
 
 ---
 
-## 📊 Tool Validation Checklist
+### 4. Siapa pembeli sebenarnya?
+> __KODE INLINE_0__
 
-Before you open the agent, confirm:
-
-- [ ] The tool does **exactly one thing** (no secondary features in v1.0).
-- [ ] The input format is concrete (I know the exact filename and structure).
-- [ ] The output format is concrete (I know the exact filename, columns, and example row).
-- [ ] The buyer and their pain point are specific (not "creators in general").
-- [ ] I have a real sample input file ready to test with.
+*Contoh: "Penjual print-on-demand Etsy yang menerbitkan 15–50 desain baru per bulan dan saat ini menghabiskan 10–20 menit secara manual menulis judul SEO dan tag kata kunci untuk setiap listingan."*
 
 ---
 
-## 💰 Monetization Estimate
+## 📊 Daftar Periksa Validasi Alat
 
-Fill in before building to confirm the tool is worth selling:
+Sebelum Anda membuka agen, konfirmasikan:
 
-| Field | Your Estimate |
+- [ ] Alat ini melakukan **satu hal** (tidak ada fitur sekunder di v1.0).
+- [ ] Format masukannya konkret (saya tahu nama file dan struktur persisnya).
+- [] Format keluarannya konkret (saya tahu nama file, kolom, dan baris contoh yang tepat).
+- [ ] Pembeli dan titik kesulitannya bersifat spesifik (bukan "pencipta pada umumnya").
+- [] Saya memiliki contoh file masukan nyata yang siap untuk diuji.
+
+---
+
+## 💰 Perkiraan Monetisasi
+
+Isi sebelum membuat untuk mengonfirmasi bahwa alat tersebut layak dijual:
+
+| Bidang | Perkiraan Anda |
 |---|---|
-| **Hours saved per buyer per month** | `[e.g., 6 hours]` |
-| **Buyer's estimated hourly rate** | `[e.g., $20/hr]` |
-| **Monthly value saved** | `[Hours × Rate = e.g., $120/month]` |
-| **Suggested price (10% of monthly value)** | `[e.g., $12 — round up to $19 for pricing psychology]` |
-| **Break-even sales to recover build time** | `[e.g., 3 sales at $19 = $57 ≥ 1 hour of your time]` |
+| **Jam yang dihemat per pembeli per bulan** | __KODE INLINE_0__ |
+| **Perkiraan tarif per jam pembeli** | __KODE INLINE_0__ |
+| **Nilai bulanan dihemat** | __KODE INLINE_0__ |
+| **Harga yang disarankan (10% dari nilai bulanan)** | __KODE INLINE_0__ |
+| **Penjualan titik impas untuk memulihkan waktu pembuatan** | __KODE INLINE_0__ |
 
 ---
 
-## 🗂️ High-Value Micro-Tool Ideas (Starter List)
+## 🗂️ Ide Alat Mikro Bernilai Tinggi (Daftar Pemula)
 
-Use these as inspiration if you're unsure what to build first:
+Gunakan ini sebagai inspirasi jika Anda tidak yakin apa yang harus dibuat terlebih dahulu:
 
-| Tool Idea | Input | Output | Target Buyer |
+| Ide Alat | Masukan | Keluaran | Target Pembeli |
 |---|---|---|---|
-| FLUX Batch Prompt Runner | `prompts.txt` (one prompt/line) | `results.csv` (prompt + image URL) | AI image creators |
-| Etsy SEO Title Generator | `products.txt` (design names) | `titles.csv` (3 titles + keywords) | POD/Etsy sellers |
-| Stock Metadata CSV Writer | Image filenames folder | `metadata.csv` (title + 30 keywords) | Stock contributors |
-| YouTube Hook Generator | `topics.txt` (video topic per line) | `hooks.csv` (5 hook variations) | Faceless channel creators |
-| Pricing Calculator Widget | HTML form (no input file) | Interactive web page | AI service freelancers |
-| Podcast Show Notes Writer | `.txt` transcript | `shownotes.md` (summary + timestamps) | Podcast editors |
-| AI Prompt Enhancer | `basic_prompts.txt` | `enhanced_prompts.txt` (expanded with style tokens) | Midjourney/FLUX users |
+| Pelari Prompt Batch FLUX | `prompts.txt` (satu perintah/baris) | `results.csv` (prompt + URL gambar) | Pembuat gambar AI |
+| Pembuat Judul SEO Etsy | `products.txt` (nama desain) | `titles.csv` (3 judul + kata kunci) | Penjual POD/Etsy |
+| Penulis CSV Metadata Saham | Folder nama file gambar | `metadata.csv` (judul + 30 kata kunci) | Kontributor saham |
+| Pembuat Kait YouTube | `topics.txt` (topik video per baris) | `hooks.csv` (5 variasi kait) | Pembuat saluran tanpa wajah |
+| Widget Kalkulator Harga | Bentuk HTML (tidak ada file masukan) | Halaman web interaktif | Pekerja lepas layanan AI |
+| Penulis Catatan Acara Podcast | `.txt` transkrip | `shownotes.md` (ringkasan + cap waktu) | Editor podcast |
+| Peningkat Perintah AI | __KODE INLINE_0__ | `enhanced_prompts.txt` (diperluas dengan token gaya) | Pengguna tengah perjalanan/FLUX |

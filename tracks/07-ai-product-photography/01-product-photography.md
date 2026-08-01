@@ -1,117 +1,117 @@
-# Product Shots Without a Photographer
+# Pemotretan Produk Tanpa Fotografer
 
-> A premium backdrop shifts your product from cheap to premium.
+> Latar belakang premium mengubah produk Anda dari murah menjadi premium.
 
-**Track:** AI Product Photography & E-commerce  
-**Time:** ~45 minutes  
-**Prerequisites:** None  
+**Lagu:** Fotografi Produk AI & E-commerce
+**Waktu:** ~45 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-E-commerce brands live or die by their product photography. Hiring a studio photographer, renting cameras and lighting rigs, sourcing props, and hiring editors to clean up reflections costs thousands of dollars per product and takes weeks of coordination.
+Merek e-commerce hidup atau mati karena fotografi produk mereka. Menyewa seorang fotografer studio, menyewa kamera dan perlengkapan pencahayaan, mencari alat peraga, dan mempekerjakan editor untuk membersihkan refleksi memerlukan biaya ribuan dolar per produk dan membutuhkan koordinasi selama berminggu-minggu.
 
-If you try to take the photos yourself on a mobile phone against a cheap background, the listing looks unprofessional. Customers equate poor-quality images with poor-quality products, causing conversion rates to plummet.
+Jika Anda mencoba mengambil foto sendiri menggunakan ponsel dengan latar belakang murahan, daftarnya terlihat tidak profesional. Pelanggan menyamakan gambar berkualitas buruk dengan produk berkualitas buruk, sehingga menyebabkan tingkat konversi menurun.
 
-To launch products rapidly and test catalog variations, you need to generate high-end, studio-grade product photos in minutes at zero physical setup cost.
+Untuk meluncurkan produk dengan cepat dan menguji variasi katalog, Anda perlu menghasilkan foto produk kelas studio kelas atas dalam hitungan menit tanpa biaya penyiapan fisik.
 
-## The Concept
+## Konsep
 
-The pipeline for AI product photography relies on **Product Isolation**, **Backdrop Generation**, and **Composite Relighting**:
+Alur fotografi produk AI bergantung pada **Isolasi Produk**, **Pembuatan Latar Belakang**, dan **Pencahayaan Ulang Komposit**:
 
 ```
 Raw Product Photo ──► Background Mask Removal ──► AI Backdrop Generation ──► Layer Composite & Shadow Casting
 ```
 
-* **Label Preservation:** Standard image generators (like Stable Diffusion or FLUX) cannot render existing product labels or logos accurately. Instead of generating the product from scratch, you must photograph the physical product once, isolate it as a transparent PNG, and build the environment *around* it.
-* **Ambient Lighting Sync:** Simply pasting a product onto an AI background looks fake because the lighting colors do not match. You must adjust the color curves of the product layer to match the ambient tone of the background (e.g., warming the product colors if it is placed in a sunset backdrop).
-* **Double Shadow Technique:** To make the composite look real, you must cast two types of shadows:
-  1. **Contact Shadow (Ambient Occlusion):** A very thin, dark, highly-softened shadow directly underneath the product base where it touches the surface.
-  2. **Directional Shadow:** A larger, lighter shadow that stretches away from the product, matching the angle of the light sources in the background.
+* **Pelestarian Label:** Generator gambar standar (seperti Difusi Stabil atau FLUX) tidak dapat merender label atau logo produk yang ada secara akurat. Daripada membuat produk dari awal, Anda harus memotret produk fisik satu kali, mengisolasinya sebagai PNG transparan, dan membangun lingkungan *disekitarnya*.
+* **Sinkronisasi Pencahayaan Sekitar:** Menempelkan produk ke latar belakang AI saja akan terlihat palsu karena warna pencahayaannya tidak cocok. Anda harus menyesuaikan kurva warna lapisan produk agar sesuai dengan warna latar belakang sekitar (misalnya, menghangatkan warna produk jika ditempatkan di latar belakang matahari terbenam).
+* **Teknik Bayangan Ganda:** Untuk membuat komposit terlihat nyata, Anda harus membuat dua jenis bayangan:
+1. **Contact Shadow (Ambient Occlusion):** Bayangan yang sangat tipis, gelap, dan sangat lembut tepat di bawah dasar produk saat menyentuh permukaan.
+2. **Bayangan Terarah:** Bayangan lebih besar dan terang yang membentang menjauhi produk, sesuai dengan sudut sumber cahaya di latar belakang.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Capture and Isolate Your Product
-Take a clear, well-lit photo of your product with your phone. Ensure the label is clean, in focus, and has no extreme glare. Submit the photo to an AI background remover (such as Photoroom, Clipdrop, or call the `/remove-background` API). Download the output as a transparent `product_mask.png`.
+### Langkah 1: Tangkap dan Isolasi Produk Anda
+Ambil foto produk Anda dengan jelas dan terang menggunakan ponsel Anda. Pastikan label bersih, fokus, dan tidak terlalu silau. Kirimkan foto ke penghapus latar belakang AI (seperti Photoroom, Clipdrop, atau hubungi `/remove-background` API). Unduh hasilnya sebagai `product_mask.png` transparan.
 
-### Step 2: Generate the Studio Backdrop
-Open your photography brief in [`templates/photography-brief-template.md`](templates/photography-brief-template.md). Generate a background environment using an image generator:
-* *Prompt:* `"An elegant studio product backdrop. A single rectangular travertine stone slab on a beige concrete surface, soft side golden sunlight, warm shadows, minimalist aesthetic, commercial product setup, high resolution, f/4 lens, depth of field."`
-Run the model and save the generated image as `backdrop.jpg`.
+### Langkah 2: Hasilkan Latar Belakang Studio
+Buka ringkasan fotografi Anda di [`templates/photography-brief-template.md`](templates/photography-brief-template.md). Hasilkan lingkungan latar belakang menggunakan generator gambar:
+* *Permintaan:* `"An elegant studio product backdrop. A single rectangular travertine stone slab on a beige concrete surface, soft side golden sunlight, warm shadows, minimalist aesthetic, commercial product setup, high resolution, f/4 lens, depth of field."`
+Jalankan model dan simpan gambar yang dihasilkan sebagai `backdrop.jpg`.
 
-### Step 3: Composite the Layers
-Open a photo editor (like Photoshop, Photopea, or run a Python Pillow composting script). Place the `backdrop.jpg` as the bottom layer and import `product_mask.png` as the top layer. Scale the product to sit naturally on the travertine stone slab surface.
+### Langkah 3: Gabungkan Lapisan
+Buka editor foto (seperti Photoshop, Photopea, atau jalankan skrip pengomposan Python Pillow). Tempatkan `backdrop.jpg` sebagai lapisan bawah dan impor `product_mask.png` sebagai lapisan atas. Skalakan produk agar menempel secara alami pada permukaan lempengan batu travertine.
 
-### Step 4: Cast Real Shadows
-Create a new transparent layer between the product and the backdrop. Set the brush tool to black, opacity to 40%, hardness to 0%:
-* Paint a tight contact shadow right beneath the bottom edge of the product.
-* Paint a soft, elongated shadow stretching to the left, matching the angle of the sunlight in the backdrop. Set the layer blend mode to **Multiply**.
+### Langkah 4: Keluarkan Bayangan Nyata
+Buat lapisan transparan baru antara produk dan latar belakang. Atur alat kuas menjadi hitam, opacity menjadi 40%, kekerasan menjadi 0%:
+* Warnai bayangan kontak yang rapat tepat di bawah tepi bawah produk.
+* Lukislah bayangan lembut memanjang yang membentang ke kiri, serasi dengan sudut sinar matahari di latar belakang. Atur mode campuran lapisan ke **Berkembang biak**.
 
-### Step 5: Adjust Color Harmony
-Apply a color balance adjustment layer clipped to the product layer:
-* If the backdrop is a warm golden hour scene, add a slight yellow and red highlight shift to the product.
-* If the backdrop is an overcast beach scene, add a subtle blue/cyan midtone shift.
+### Langkah 5: Sesuaikan Harmoni Warna
+Terapkan lapisan penyesuaian keseimbangan warna yang terpotong pada lapisan produk:
+* Jika latar belakangnya adalah pemandangan jam emas yang hangat, tambahkan sedikit perubahan sorotan kuning dan merah pada produk.
+* Jika latar belakangnya adalah pemandangan pantai yang mendung, tambahkan pergeseran midtone biru/cyan yang halus.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/perfume-before-after.jpg" alt="Perfume Bottle Before and After AI Studio Backdrop" width="560">
+<img src="templates/examples/perfume-before-after.jpg" alt="Botol Parfum Sebelum dan Sesudah AI Studio Backdrop" width="560">
 <br>
-<img src="templates/examples/perfume-motion.gif" alt="Perfume Bottle Motion Loop (I2V)" width="320">
+<img src="templates/examples/perfume-motion.gif" alt="Lingkaran Gerakan Botol Parfum (I2V)" width="320">
 </p>
 <p align="center"><sub>Raw Photo vs. AI Studio Backdrop (Top) ──► Image-to-Video Reflection Loop (Bottom) · Video File: <a href="templates/examples/perfume-motion.mp4">templates/examples/perfume-motion.mp4</a></sub></p>
 
-**Backdrop Shift for an Organic Aloe Vera Gel Tube**
+**Pergeseran Latar Belakang untuk Tabung Gel Aloe Vera Organik**
 
 
 
-* **Source File:** A raw photo of a green plastic bottle shot on a white desk under office lighting.
-* **Isolator:** Background removed, saving only the clean green plastic container.
-* **Backdrop prompt:** `"Minimalist bathroom counter, white marble surface, warm sunbeams passing through a window, soft shadows, green eucalyptus leaf casting shadows, high-end organic cosmetic background, 85mm, photorealistic."`
-* **Compositing:** Tube scaled to occupy 70% of the vertical frame. A soft contact shadow painted at the base. Color temperature warmed by +10 to match the golden window sunbeams.
+* **File Sumber:** Foto mentah botol plastik hijau yang diambil di atas meja putih di bawah pencahayaan kantor.
+* **Isolator:** Latar belakang dihapus, hanya menyimpan wadah plastik hijau bersih.
+* **Permintaan latar belakang:** `"Minimalist bathroom counter, white marble surface, warm sunbeams passing through a window, soft shadows, green eucalyptus leaf casting shadows, high-end organic cosmetic background, 85mm, photorealistic."`
+* **Pengomposisian:** Tabung diskalakan untuk menempati 70% bingkai vertikal. Bayangan kontak lembut dilukis di dasarnya. Temperatur warna dihangatkan sebesar +10 agar sesuai dengan sinar matahari jendela keemasan.
 
-**The Result:** The product looks like it was shot in a high-end luxury spa, instantly raising its perceived value.
+**Hasilnya:** Produk ini terlihat seperti diambil di spa mewah kelas atas, sehingga langsung meningkatkan nilai yang dirasakan.
 
-> [!NOTE]
-> You can view a high-end product photography backdrop example here: [perfume-bottle-studio.jpg](templates/examples/perfume-bottle-studio.jpg) and its corresponding silent animation loop here: [perfume-motion.gif](templates/examples/perfume-motion.gif).
+> [!CATATAN]
+> Anda dapat melihat contoh latar belakang fotografi produk kelas atas di sini: [perfume-bottle-studio.jpg](templates/examples/perfume-bottle-studio.jpg) dan loop animasi senyap yang sesuai di sini: [perfume-motion.gif](templates/examples/perfume-motion.gif).
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Generation Purpose | Control Customization | Best for |
+| Platform / Alat | Tujuan Generasi | Kustomisasi Kontrol | Terbaik untuk |
 |---|---|---|---|
-| **FLUX Dev / Schnell** | Environment backdrop generation | High (Extremely responsive to prop and lighting prompts) | Generating complex, stylized studio settings. |
-| **Photoroom / Clipdrop** | Fast background replacement and auto shadow casting | Instant (Template-driven auto-shadows) | Fast, automated batch rendering of basic Amazon listings. |
-| **Magnific AI / Relight** | High-resolution image detailing and color matching | High | Mastering premium hero images for luxury websites and landing pages. |
+| **Pengembangan FLUX / Schnell** | Pembuatan latar belakang lingkungan | Tinggi (Sangat responsif terhadap perintah penyangga dan pencahayaan) | Menghasilkan pengaturan studio yang rumit dan bergaya. |
+| **Ruang Foto / Clipdrop** | Penggantian latar belakang yang cepat dan transmisi bayangan otomatis | Instan (Bayangan otomatis berbasis template) | Rendering batch yang cepat dan otomatis untuk daftar dasar Amazon. |
+| **AI Luar Biasa / Menyalakan Kembali** | Detail gambar resolusi tinggi dan pencocokan warna | Tinggi | Menguasai gambar pahlawan premium untuk situs web mewah dan halaman arahan. |
 
-For standard e-commerce listings, Photoroom's web app allows you to drag-and-drop a product shot and output a clean white-background listing with auto-shadows in 5 seconds. For creative banner campaigns, generating custom backdrops with FLUX and manually compositing them provides the highest quality results.
-
----
-
-## Launch It
-
-**How to set up your directory:**
-* **Keep lighting consistent:** When taking your raw product photo, use diffused daylight from a window. Avoid mixing warm yellow house lamps with cool white daylight, as this creates mixed reflections on the packaging that are impossible to correct with AI.
-* **Scale product layers correctly:** Never stretch or warp the aspect ratio of your product PNG when scaling it to fit the background. Always hold `Shift` in your editor to scale proportionally.
+Untuk listingan e-commerce standar, aplikasi web Photoroom memungkinkan Anda menarik dan melepas foto produk dan menampilkan listingan berlatar belakang putih bersih dengan bayangan otomatis dalam 5 detik. Untuk kampanye spanduk kreatif, membuat latar belakang khusus dengan FLUX dan menyusunnya secara manual akan memberikan hasil dengan kualitas terbaik.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Photograph a household object (like a coffee mug). Use a free online background remover to isolate it as a transparent PNG.
-2. **Medium:** Generate a studio setting backdrop containing a wooden block surface with a soft sunset shadow. Composite your isolated object onto it.
-3. **Hard:** Paint a realistic two-part shadow (contact shadow + directional shadow) under your composited object. Apply a color balance filter to make the object's highlight colors match the background light source.
-
----
-
-## Templates
-
-* [`templates/photography-brief-template.md`](templates/photography-brief-template.md) — backdrop environments, composition structures, and prompt assembly logs.
+**Cara mengatur direktori Anda:**
+* **Jaga pencahayaan tetap konsisten:** Saat mengambil foto produk mentah, gunakan cahaya matahari yang tersebar dari jendela. Hindari mencampurkan lampu rumah berwarna kuning yang hangat dengan cahaya siang hari yang putih sejuk, karena hal ini akan menciptakan pantulan campuran pada kemasan yang tidak mungkin diperbaiki dengan AI.
+* **Menskalakan lapisan produk dengan benar:** Jangan pernah meregangkan atau membengkokkan rasio aspek PNG produk Anda saat menskalakannya agar sesuai dengan latar belakang. Selalu tahan `Shift` di editor Anda untuk menskalakan secara proporsional.
 
 ---
 
-[Track overview](README.md) · Next: [Before/After Conversion Case Studies →](02-conversion-case-studies.md)
+## Latihan
+
+1. **Mudah:** Memotret benda rumah tangga (seperti cangkir kopi). Gunakan penghapus latar belakang online gratis untuk mengisolasinya sebagai PNG transparan.
+2. **Sedang:** Menghasilkan latar belakang pengaturan studio yang berisi permukaan balok kayu dengan bayangan matahari terbenam yang lembut. Gabungkan objek terisolasi Anda ke dalamnya.
+3. **Sulit:** Lukis bayangan dua bagian yang realistis (bayangan kontak + bayangan arah) di bawah objek gabungan Anda. Terapkan filter keseimbangan warna untuk membuat warna sorotan objek cocok dengan sumber cahaya latar belakang.
+
+---
+
+## Templat
+
+* [`templates/photography-brief-template.md`](templates/photography-brief-template.md) — lingkungan latar belakang, struktur komposisi, dan log perakitan cepat.
+
+---
+
+[Track overview](README.md) · Berikutnya: [Before/After Conversion Case Studies →](02-conversion-case-studies.md)

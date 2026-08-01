@@ -1,30 +1,30 @@
-# Sponsorship Pitch Template
+# Templat Pitch Sponsor
 
-Use this template to pitch brand sponsorships for your AI short films or vertical micro-dramas.
+Gunakan templat ini untuk mengajukan sponsor merek untuk film pendek AI atau drama mikro vertikal Anda.
 
 ---
 
-**Subject:** Collaborative Video Project Concept for [Brand Name]
+**Subjek:** Konsep Proyek Video Kolaboratif untuk [Nama Merek]
 
-Hi [Name],
+Hai [Nama],
 
-I am [Your Name], an AI filmmaker and content creator behind [Your Portfolio/Channel Link]. I have been following [Brand Name]'s recent campaigns and love your focus on [briefly mention a brand theme, e.g., urban exploration, minimalist lifestyle].
+Saya [Nama Anda], pembuat film AI dan pembuat konten di balik [Portofolio/Tautan Saluran Anda]. Saya telah mengikuti kampanye terbaru [Nama Merek] dan menyukai fokus Anda pada [sebutkan secara singkat tema merek, misalnya eksplorasi perkotaan, gaya hidup minimalis].
 
-I am currently in pre-production for a cinematic short film titled **"[Film Title]"**, which centers on [1-sentence intriguing premise, e.g., a time-traveler stranded in a neon-lit modern cityscape]. 
+Saat ini saya sedang dalam praproduksi untuk film pendek sinematik berjudul **"[Judul Film]"**, yang berpusat pada [1 kalimat premis yang menarik, misalnya, seorang penjelajah waktu yang terdampar di lanskap kota modern yang diterangi lampu neon].
 
-Given the visual aesthetic of the film, there is a perfect opportunity to seamlessly integrate [Brand's Product] into the narrative. Specifically, I've planned a scene where:
-> *"[Describe a visually compelling 3-5 second shot where the product is naturally used or shown, e.g., the protagonist checks their watch, clearly displaying the brand's new chronograph]"*
+Mengingat estetika visual film ini, ada peluang sempurna untuk mengintegrasikan [Produk Merek] ke dalam narasi dengan lancar. Secara khusus, saya telah merencanakan sebuah adegan di mana:
+> *"[Jelaskan gambar berdurasi 3-5 detik yang menarik secara visual di mana produk digunakan atau ditampilkan secara alami, misalnya, protagonis memeriksa jam tangannya, dengan jelas menampilkan kronograf baru dari merek tersebut]"*
 
-### What I Deliver:
-* **Brand Integration:** Seamless product placement inside the main film.
-* **Social Assets:** 1x main widescreen film (for YouTube/Vimeo) plus 2x high-energy vertical cuts (9:16) optimized for Instagram Reels/TikTok.
-* **Co-branding:** "Sponsored by [Brand Name]" in opening titles and description.
+### Apa yang Saya Berikan:
+* **Integrasi Merek:** Penempatan produk yang mulus di dalam film utama.
+* **Aset Sosial:** 1x film layar lebar utama (untuk YouTube/Vimeo) ditambah 2x potongan vertikal berenergi tinggi (9:16) yang dioptimalkan untuk Reel Instagram/TikTok.
+* **Co-branding:** "Disponsori oleh [Nama Merek]" dalam judul dan deskripsi pembuka.
 
-I’ve attached a 3-shot visual storyboard mockup for this scene to give you a feel for the color grading and look.
+Saya telah melampirkan mockup papan cerita visual 3 gambar untuk adegan ini guna memberi Anda gambaran tentang gradasi warna dan tampilannya.
 
-If you are open to discussing, I can send over a full project deck and pricing options. 
+Jika Anda terbuka untuk berdiskusi, saya dapat mengirimkan dek proyek lengkap dan opsi harga.
 
-Best regards,
+Salam,
 
-[Your Name]  
-[Link to Portfolio / Past Work]
+[Nama Anda]
+[Tautan ke Portofolio / Pekerjaan Sebelumnya]

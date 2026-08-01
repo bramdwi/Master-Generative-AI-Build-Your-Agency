@@ -1,116 +1,116 @@
-# Garment Try-on for Fashion E-commerce
+# Uji Coba Garmen untuk Fashion E-commerce
 
-> A garment only comes alive when it moves with a human body.
+> Sebuah pakaian hanya menjadi hidup ketika ia bergerak bersama tubuh manusia.
 
-**Track:** AI Fashion & Virtual Try-On  
-**Time:** ~45 minutes  
-**Prerequisites:** None  
+**Lagu:** Mode AI & Uji Coba Virtual
+**Waktu:** ~45 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-For e-commerce fashion brands, booking models, hair/makeup artists, photographers, and renting studios is a massive recurring cost. A single product line shoot can cost over $5,000 and take weeks to edit.
+Untuk merek fesyen e-niaga, pemesanan model, penata rambut/penata rias, fotografer, dan persewaan studio merupakan biaya berulang yang sangat besar. Satu pemotretan lini produk dapat menghabiskan biaya lebih dari $5.000 dan memerlukan waktu berminggu-minggu untuk mengeditnya.
 
-To save money, brands often rely on flat-lays (clothing laid flat on a table) or "ghost mannequin" shots (clothing on a plastic dummy that is edited out). While cheap, these photos look flat and uninspiring. Customers want to see how the fabric drapes, folds, fits, and matches a real person's body. Without human model photos, fashion brands suffer from low click-through rates and high return rates because customers cannot judge the fit.
+Untuk menghemat uang, merek sering kali mengandalkan flat-lays (pakaian yang diletakkan rata di atas meja) atau "manekin hantu" (pakaian di atas boneka plastik yang telah diedit). Meski murahan, foto-foto ini terlihat datar dan membosankan. Pelanggan ingin melihat bagaimana kain menutupi, melipat, menyesuaikan, dan serasi dengan tubuh orang sungguhan. Tanpa foto model manusia, merek fesyen akan mengalami rasio klik-tayang yang rendah dan tingkat pengembalian yang tinggi karena pelanggan tidak dapat menilai kecocokannya.
 
-To launch new designs instantly without physical photo shoots, you need to implement a **Virtual Try-On (VTO)** pipeline — a technology that takes a flat garment photo and digitally drapes it onto a model's body, producing realistic fitted product shots without a physical shoot.
+Untuk meluncurkan desain baru secara instan tanpa pemotretan fisik, Anda perlu menerapkan alur **Virtual Try-On (VTO)** — sebuah teknologi yang mengambil foto pakaian datar dan menggantungkannya secara digital ke tubuh model, sehingga menghasilkan foto produk yang pas dan realistis tanpa pemotretan fisik.
 
-## The Concept
+## Konsep
 
-The fashion synthesis workflow uses **Garment Segmentation**, **Virtual Try-On (VTO) Diffusion**, and **Draping Fitting**:
+Alur kerja sintesis fesyen menggunakan **Segmentasi Garmen**, **Difusi Virtual Try-On (VTO)**, dan **Draping Fitting**:
 
 ```
 Flat Garment Photo ──► Garment Mask Extraction ──► VTO Model Alignment ──► Timbre-Draping Synthesis
 ```
 
-* **Preserving Garment Integrity:** Unlike standard image generators that change clothing details, a VTO model uses a reference garment image. It isolates the garment, analyzes its texture, stitching, buttons, and patterns, and drapes it onto a target model's body while preserving **95%** of the original physical detail.
-* **Mannequin-to-Model Transfer:** If you already have ghost mannequin shots, VTO engines can use the mannequin pose as a structural guide, replace the plastic limbs and head with a real model, and keep the exact fit.
-* **Custom Model Demographics:** You can swap the model's ethnicity, age, height, and build while keeping the same garment. This allows brands to instantly personalize their landing pages for different regional target markets.
+* **Menjaga Integritas Pakaian:** Tidak seperti generator gambar standar yang mengubah detail pakaian, model VTO menggunakan gambar pakaian referensi. Teknologi ini mengisolasi pakaian, menganalisis tekstur, jahitan, kancing, dan polanya, serta menggantungkannya ke tubuh model target sambil mempertahankan **95%** detail fisik aslinya.
+* **Transfer Manekin-ke-Model:** Jika Anda sudah memiliki foto manekin hantu, mesin VTO dapat menggunakan pose manekin sebagai panduan struktural, mengganti anggota badan dan kepala plastik dengan model asli, dan menjaga ukurannya tetap pas.
+* **Demografi Model Khusus:** Anda dapat menukar etnis, usia, tinggi badan, dan bentuk tubuh model sambil tetap menggunakan pakaian yang sama. Hal ini memungkinkan merek untuk secara instan mempersonalisasi halaman arahan mereka untuk target pasar regional yang berbeda.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Prep Your Garment Reference Photo
-Photograph your physical garment flat-lay or on a mannequin. Make sure it is flat, in focus, and shot under clean daylight. Remove the background using an AI subject cutter to isolate the garment. Save it as `garment_ref.png`.
+### Langkah 1: Siapkan Foto Referensi Pakaian Anda
+Fotolah pakaian fisik Anda dalam posisi datar atau di atas manekin. Pastikan gambarnya datar, fokus, dan diambil di bawah cahaya matahari yang cerah. Hapus latar belakang menggunakan pemotong subjek AI untuk mengisolasi pakaian. Simpan sebagai `garment_ref.png`.
 
-### Step 2: Define Model Demographics
-Open your try-on specification sheet in [`templates/tryon-spec-sheet.md`](templates/tryon-spec-sheet.md). Document the target model's parameters:
-* *Example:* East Asian male, 28 years old, athletic build, standing in a studio environment.
+### Langkah 2: Tentukan Demografi Model
+Buka lembar spesifikasi percobaan Anda di [`templates/tryon-spec-sheet.md`](templates/tryon-spec-sheet.md). Dokumentasikan parameter model target:
+* *Contoh:* Pria Asia Timur, 28 tahun, bertubuh atletis, berdiri di lingkungan studio.
 
-### Step 3: Choose a Target Model Pose
-If your try-on pipeline supports reference models, upload a photo of a model in your desired pose (e.g. Pose A: standing straight, hands at sides). If using a text-to-image edit model (like `nano-banana-2-edit`), upload the original mannequin photo, mask the clothing area, and write your target model description.
+### Langkah 3: Pilih Pose Model Target
+Jika jalur percobaan Anda mendukung model referensi, unggah foto model dengan pose yang Anda inginkan (misalnya Pose A: berdiri tegak, tangan di samping). Jika menggunakan model edit teks ke gambar (seperti `nano-banana-2-edit`), unggah foto manekin asli, tutupi area pakaian, dan tulis deskripsi model target Anda.
 
-### Step 4: Run the VTO Draping Engine
-Submit your assets to the try-on engine (such as IDM-TryOn or Kolors VTO API):
-* Pass the `garment_ref.png` as the clothing input.
-* Pass the model pose image or text prompt as the target body input.
-* Set the draping fitting rate to **0.75** (balancing cloth detail preservation with realistic body movement wrinkles).
-Generate and download the output `.jpg`.
+### Langkah 4: Jalankan Mesin Draping VTO
+Kirimkan aset Anda ke mesin uji coba (seperti IDM-TryOn atau Kolors VTO API):
+* Berikan `garment_ref.png` sebagai input pakaian.
+* Berikan gambar pose model atau perintah teks sebagai input tubuh target.
+* Atur tingkat pemasangan tirai ke **0,75** (menyeimbangkan pelestarian detail kain dengan kerutan gerakan tubuh yang realistis).
+Hasilkan dan unduh keluaran `.jpg`.
 
-### Step 5: Perform Detail Quality Control
-Zoom in on the final image and inspect these key areas:
-* **Collar & Button borders:** Ensure the collar shapes are crisp and not blurry or merged with the skin.
-* **Cuffs & Hemlines:** Verify that the hands pass naturally through the shirt cuffs, and that the bottom hem lies straight.
-* **Prints & Textures:** Check that stripes, prints, or logos follow the natural curves and folds of the model's body.
+### Langkah 5: Lakukan Kontrol Kualitas Detail
+Perbesar gambar akhir dan periksa area utama berikut:
+* **Bagian Kerah & Kancing:** Pastikan bentuk kerah tajam dan tidak buram atau menyatu dengan kulit.
+* **Manset & Garis Kelim:** Pastikan tangan melewati manset kemeja secara alami, dan keliman bawah lurus.
+* **Cetakan & Tekstur:** Pastikan garis, cetakan, atau logo mengikuti lekuk dan lipatan alami tubuh model.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/linen-shirt-vto.jpg" alt="Linen Shirt Ghost Mannequin vs VTO Model" width="480">
+<img src="templates/examples/linen-shirt-vto.jpg" alt="Manekin Hantu Kemeja Linen vs Model VTO" width="480">
 <br>
-<img src="templates/examples/linen-shirt-motion.gif" alt="Linen Shirt Motion Loop (I2V)" width="360">
+<img src="templates/examples/linen-shirt-motion.gif" alt="Loop Gerakan Kemeja Linen (I2V)" width="360">
 </p>
 <p align="center"><sub>Virtual Try-On Model Image (Top) ──► Image-to-Video Fabric Motion Loop (Bottom) · Video File: <a href="templates/examples/linen-shirt-motion.mp4">templates/examples/linen-shirt-motion.mp4</a></sub></p>
 
-**Linen Shirt Mannequin-to-Model Swap**
+**Tukar Manekin Kemeja Linen dengan Model**
 
 
 
-* **Garment Input:** A flat ghost mannequin shot of an off-white linen button-down shirt.
-* **Target Model:** A 30-year-old Caucasian male model with an athletic build.
-* **VTO Pipeline:** IDM-TryOn API call.
-  * `garment_image` = `linen_shirt.png`
-  * `model_image` = `reference_male_model.jpg`
-* **Synthesis Output:** The off-white linen shirt is draped over the model. Buttons are clear, stitching lines are sharp, and the linen fabric's cross-hatch texture is fully preserved. Soft shadows sit naturally under the shirt collar.
+* **Masukan Garmen:** Manekin hantu datar yang diambil dari kemeja berkancing linen putih pucat.
+* **Model Target:** Model pria bule berusia 30 tahun dengan tubuh atletis.
+* **VTO Pipeline:** Panggilan API IDM-TryOn.
+* `garment_image` = `linen_shirt.png`
+* `model_image` = `reference_male_model.jpg`
+* **Hasil Sintesis:** Kemeja linen off-white disampirkan pada model. Kancingnya bening, garis jahitannya tajam, dan tekstur garis silang kain linen tetap terjaga sepenuhnya. Bayangan lembut terlihat alami di bawah kerah kemeja.
 
-**The Result:** The brand upgraded their online catalog page from a plastic mannequin to a professional model shot, raising the perceived premium value of the shirt.
+**Hasilnya:** Merek ini meningkatkan halaman katalog online mereka dari manekin plastik menjadi foto model profesional, sehingga meningkatkan persepsi nilai premium dari kemeja tersebut.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Detail Preservation | Pose Customization | Best for |
+| Platform / Alat | Pelestarian Detil | Kustomisasi Pose | Terbaik untuk |
 |---|---|---|---|
-| **IDM-TryOn** | Ultra-High (Preserves complex patterns, textures, and fabric stitching) | Medium | Creating high-fidelity e-commerce listing catalog photos. |
-| **Kolors Virtual Try-On** | High | High (Excellent at adjusting cloth to complex poses) | Creative fashion editorial lookbooks and social graphics. |
-| **Kling AI Image-to-Video** | Medium | High (Can animate models walking while wearing clothing) | Creating short video loops of models walking. |
+| **IDM-Coba** | Ultra-Tinggi (Mempertahankan pola, tekstur, dan jahitan kain yang rumit) | Sedang | Membuat foto katalog daftar e-niaga dengan ketelitian tinggi. |
+| **Percobaan Virtual Kolors** | Tinggi | Tinggi (Sangat baik dalam menyesuaikan kain dengan pose yang rumit) | Buku tampilan editorial mode kreatif dan grafik sosial. |
+| **Kling AI Gambar-ke-Video** | Sedang | Tinggi (Dapat menganimasikan model berjalan sambil mengenakan pakaian) | Membuat loop video pendek tentang model berjalan. |
 
-For standard product detail pages (PDP) on Shopify or Amazon, IDM-TryOn is the preferred tool because it keeps the garment's logos, text, and fabric textures perfectly sharp. For social media banner ads where you need models in active poses (running, jumping), Kolors VTO provides better pose adjustments.
-
----
-
-## Launch It
-
-**How to organize catalog images:**
-* **Maintain model consistency:** Use the exact same target model face and body across a single product category page. If a shopper clicks through shirts and the model's face changes on every item, the store layout will look amateur and inconsistent.
-* **Store high-resolution templates:** Save your top model pose templates in a master folder. When you release a new garment line, reuse these exact poses to speed up batch rendering.
+Untuk halaman detail produk standar (PDP) di Shopify atau Amazon, IDM-TryOn adalah alat pilihan karena menjaga logo, teks, dan tekstur kain pakaian tetap tajam. Untuk iklan banner media sosial yang membutuhkan model dengan pose aktif (berlari, melompat), Kolors VTO memberikan penyesuaian pose yang lebih baik.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Photograph a t-shirt flat-lay. Use a background cutter to create a clean clothing PNG mask.
-2. **Medium:** Submit your t-shirt PNG to a virtual try-on tool. Generate a male model and a female model wearing the same shirt.
-3. **Hard:** Using a ghost mannequin shot of a buttoned jacket, run a VTO draping pipeline. Review the collar edges and cuff seams at 200% zoom. Correct any border bleeding using a photo editor.
-
----
-
-## Templates
-
-* [`templates/tryon-spec-sheet.md`](templates/tryon-spec-sheet.md) — garment specs, model demographic charts, mask targets, and QA checks.
+**Cara mengatur gambar katalog:**
+* **Jaga konsistensi model:** Gunakan wajah dan tubuh model target yang sama persis di satu halaman kategori produk. Jika pembeli mengklik kaos dan wajah model berubah pada setiap item, tata letak toko akan terlihat amatir dan tidak konsisten.
+* **Simpan templat resolusi tinggi:** Simpan templat pose model teratas Anda di folder master. Saat Anda merilis lini garmen baru, gunakan kembali pose yang sama untuk mempercepat rendering batch.
 
 ---
 
-[Track overview](README.md) · Next: [High-converting Studio Lookbooks →](02-studio-lookbooks.md)
+## Latihan
+
+1. **Mudah:** Memotret t-shirt flat-lay. Gunakan pemotong latar belakang untuk membuat topeng PNG pakaian bersih.
+2. **Medium:** Kirimkan PNG kaos Anda ke alat uji coba virtual. Hasilkan model pria dan model wanita yang mengenakan kemeja yang sama.
+3. **Sulit:** Dengan menggunakan gambar manekin hantu dari jaket berkancing, jalankan saluran pipa VTO. Tinjau tepi kerah dan jahitan manset pada zoom 200%. Perbaiki pendarahan perbatasan menggunakan editor foto.
+
+---
+
+## Templat
+
+* [`templates/tryon-spec-sheet.md`](templates/tryon-spec-sheet.md) — spesifikasi garmen, bagan demografi model, target masker, dan pemeriksaan QA.
+
+---
+
+[Track overview](README.md) · Berikutnya: [High-converting Studio Lookbooks →](02-studio-lookbooks.md)

@@ -1,120 +1,120 @@
-# Voice Cloning & TTS Basics
+# Kloning Suara & Dasar-Dasar TTS
 
-> A computer reads text; a clone reads the room.
+> Komputer membaca teks; klon membaca ruangan.
 
-**Track:** AI Audio & Music  
-**Time:** ~40 minutes  
-**Prerequisites:** None  
+**Lagu:** AI Audio & Musik
+**Waktu:** ~40 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Traditional Text-to-Speech (TTS) systems sound robotic. They read sentences with static, predictable pitch curves, ignore the emotional context of the text, and generate zero breathing sounds. If you use these cheap default voices for your faceless videos, courses, or ads, viewers will immediately recognize the mechanical audio track and swipe away.
+Sistem Text-to-Speech (TTS) tradisional terdengar seperti robot. Mereka membaca kalimat dengan kurva nada yang statis dan dapat diprediksi, mengabaikan konteks emosional teks, dan tidak menghasilkan suara pernapasan. Jika Anda menggunakan suara default murah ini untuk video, kursus, atau iklan tanpa wajah, pemirsa akan segera mengenali trek audio mekanis dan menghapusnya.
 
-Simply recording your voice on a laptop microphone is not a scalable alternative for high-volume content factories. It takes too much time, and if you get sick or lose your voice, your production pipeline grinds to a halt.
+Hanya merekam suara Anda di mikrofon laptop bukanlah alternatif yang dapat diskalakan untuk pabrik konten bervolume tinggi. Hal ini memakan banyak waktu, dan jika Anda sakit atau kehilangan suara, jalur produksi Anda akan terhenti.
 
-To run a professional content agency, you must build high-fidelity, custom **cloned voice profiles** that capture the unique timbre, accent, and breathing elements of a real speaker, allowing you to generate hours of realistic narration from simple text scripts.
+Untuk menjalankan biro konten profesional, Anda harus membuat **profil suara kloning** kustom dengan ketelitian tinggi yang menangkap elemen timbre, aksen, dan pernapasan unik dari pembicara sungguhan, sehingga memungkinkan Anda menghasilkan berjam-jam narasi realistis dari skrip teks sederhana.
 
-## The Concept
+## Konsep
 
-Vocal synthesis divides into two major technical categories:
+Sintesis vokal dibagi menjadi dua kategori teknis utama:
 
-### 1. Instant Voice Cloning (IVC):
-Requires only **1 to 5 minutes** of sample audio. The cloning engine extracts the basic frequency signature (timbre) of the speaker. It is fast and cheap but can struggle with complex emotional ranges or unique pronunciations of technical terms.
+### 1. Kloning Suara Instan (IVC):
+Hanya memerlukan **1 hingga 5 menit** sampel audio. Mesin kloning mengekstrak tanda frekuensi dasar (timbre) dari speaker. Ini cepat dan murah tetapi dapat kesulitan dengan rentang emosi yang kompleks atau pengucapan istilah teknis yang unik.
 
-### 2. Professional Voice Cloning (PVC):
-Requires **30+ minutes** of high-fidelity, studio-quality speech samples. The model trains deep neural network weights specifically for that voice, capturing subtle throat dynamics, mouth clicks, laughing inflections, and accent parameters. The result is virtually indistinguishable from the original speaker.
+### 2. Kloning Suara Profesional (PVC):
+Membutuhkan **30+ menit** sampel ucapan kualitas studio dengan fidelitas tinggi. Model ini melatih bobot jaringan saraf dalam khusus untuk suara tersebut, menangkap dinamika tenggorokan yang halus, bunyi klik mulut, nada tawa, dan parameter aksen. Hasilnya hampir tidak bisa dibedakan dengan speaker aslinya.
 
 ```
 Studio Capture (Dry/Mono)  ──►  ElevenLabs PVC Training  ──►  Deep Voice Lock (Accents/Breaths)
 ```
 
-To ensure a clean training run, your raw samples must pass the target specifications defined in the [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md).
+Untuk memastikan pelatihan berjalan bersih, sampel mentah Anda harus melewati spesifikasi target yang ditentukan di [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md).
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Configure Your Recording Hardware
-Follow the [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md). Use a cardioid condenser microphone. Position it 6 inches from your mouth. Record in a room with soft furnishings (carpets, curtains) to prevent room echo.
+### Langkah 1: Konfigurasikan Perangkat Keras Perekaman Anda
+Ikuti [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md). Gunakan mikrofon kondensor cardioid. Posisikan 6 inci dari mulut Anda. Rekam di ruangan yang dilengkapi soft furnishing (karpet, gorden) untuk mencegah gema ruangan.
 
-### Step 2: Record the Sample Reading Script
-Read a diverse set of texts containing varied emotional tones (news paragraphs, technical explainers, conversational stories). Speak at a consistent volume. Do not rush. Collect at least 6 minutes of clean audio.
+### Langkah 2: Catat Contoh Naskah Bacaan
+Bacalah beragam kumpulan teks yang mengandung beragam nada emosional (paragraf berita, penjelasan teknis, cerita percakapan). Bicaralah dengan volume yang konsisten. Jangan terburu-buru. Kumpulkan setidaknya 6 menit audio bersih.
 
-### Step 3: Run Audio Cleaning
-Import the audio file into Audacity. Run these processes:
-* **Noise Reduction:** Sample the silent room noise and apply noise reduction (level: 12dB).
-* **Noise Gate:** Set a gate threshold at **-48dB** to completely silence gaps between breaths.
-* **Normalize:** Peak amplitude set to **-3.0dB** to maximize volume without clipping.
-Export the file as a mono `.wav` file.
+### Langkah 3: Jalankan Pembersihan Audio
+Impor file audio ke Audacity. Jalankan proses ini:
+* **Pengurangan Kebisingan:** Cicipi kebisingan ruangan yang sunyi dan terapkan pengurangan kebisingan (level: 12dB).
+* **Gerbang Kebisingan:** Tetapkan ambang gerbang pada **-48dB** untuk sepenuhnya membungkam celah di antara napas.
+* **Normalisasi:** Amplitudo puncak diatur ke **-3,0dB** untuk memaksimalkan volume tanpa terpotong.
+Ekspor file sebagai file mono `.wav`.
 
-### Step 4: Submit to the Cloning Engine
-Open ElevenLabs. Go to VoiceLab -> Add Instant Voice. Upload your cleaned `.wav` files. Write down the label specifications (e.g. *"energetic male, American accent, clear presentation tone"*). Submit the files for synthesis.
+### Langkah 4: Kirim ke Mesin Kloning
+Buka ElevenLabs. Buka VoiceLab -> Tambahkan Suara Instan. Unggah file `.wav` Anda yang sudah dibersihkan. Tuliskan spesifikasi labelnya (misalnya *"pria energik, aksen Amerika, nada presentasi jelas"*). Kirimkan file untuk sintesis.
 
-### Step 5: Conduct the Stability Audit
-Generate a 20-second test paragraph. Experiment with the configuration sliders:
-* **Stability (Target: 40% - 45%):** Lower values allow the voice to sound more expressive and dynamic; higher values lock in a consistent reading style.
-* **Clarity / Similarity (Target: 75% - 80%):** Higher values enforce the speaker's exact timbre, but setting it too high can introduce digital crackles.
-Save your ideal configurations in the cloning log.
+### Langkah 5: Lakukan Audit Stabilitas
+Hasilkan paragraf pengujian 20 detik. Bereksperimenlah dengan penggeser konfigurasi:
+* **Stabilitas (Target: 40% - 45%):** Nilai yang lebih rendah memungkinkan suara terdengar lebih ekspresif dan dinamis; nilai yang lebih tinggi mengunci gaya membaca yang konsisten.
+* **Kejelasan / Kesamaan (Target: 75% - 80%):** Nilai yang lebih tinggi akan memaksakan timbre pembicara yang tepat, namun menyetelnya terlalu tinggi dapat menyebabkan kresek digital.
+Simpan konfigurasi ideal Anda di log kloning.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/voice-studio-setup.jpg" alt="Voice Studio" width="280">
-<img src="templates/examples/voice-studio-clip.gif" alt="Voice Recording Motion (I2V)" width="280">
+<img src="template/examples/voice-studio-setup.jpg" alt="Voice Studio" width="280">
+<img src="templates/examples/voice-studio-clip.gif" alt="Gerakan Rekaman Suara (I2V)" width="280">
 </p>
 <p align="center"><sub>Voice Recording Booth Image (Left) ──► Image-to-Video Studio Motion (Right) · Audio File: <a href="templates/examples/rachel-vocal-cloned.mp3">templates/examples/rachel-vocal-cloned.mp3</a> · Video File: <a href="templates/examples/voice-studio-clip.mp4">templates/examples/voice-studio-clip.mp4</a></sub></p>
 
-**Creating "Arthur" (B2B SaaS Spokesperson)**
+**Membuat "Arthur" (Juru Bicara SaaS B2B)**
 
 
 
-* **Training Inputs:** 7 minutes of clean, dry wav recording of an instructional SaaS guide. Normalized to -3dB peak, gate set to -50dB.
-* **Cloning Interface:** ElevenLabs IVC portal. Cloned as `Arthur_B2B_V1`.
-* **Testing & Tuning Runs:**
-  * Run 1: Stability 60%, Clarity 90%. Output sound: clean timbre, but voice is monotone and lacks natural breath pauses.
-  * Run 2: Stability 40%, Clarity 75%. Output sound: voice is expressive, includes soft inhalation sounds at the start of sentences, and changes tone during question marks.
+* **Masukan Pelatihan:** Rekaman gelombang yang bersih dan kering selama 7 menit dari panduan SaaS instruksional. Dinormalisasi ke puncak -3dB, gerbang disetel ke -50dB.
+* **Antarmuka Kloning:** Portal IVC ElevenLabs. Dikloning sebagai `Arthur_B2B_V1`.
+* **Pengujian & Penyetelan Berjalan:**
+* Jalankan 1: Stabilitas 60%, Kejelasan 90%. Suara keluaran: timbre bersih, tetapi suaranya monoton dan tidak ada jeda napas alami.
+* Jalankan 2: Stabilitas 40%, Kejelasan 75%. Suara keluaran: suara bersifat ekspresif, mencakup suara hirupan lembut di awal kalimat, dan berubah nada saat tanda tanya.
 
-**The Result:** "Arthur" is ready for bulk voice synthesis. The output reads complex software documentation with the tone of a professional tech founder.
+**Hasilnya:** "Arthur" siap untuk sintesis suara massal. Outputnya berupa dokumentasi perangkat lunak yang kompleks dengan nada seorang pendiri teknologi profesional.
 
-> [!NOTE]
-> You can listen to a demo of a high-fidelity cloned vocal generated with this workflow here: [rachel-vocal-cloned.mp3](templates/examples/rachel-vocal-cloned.mp3).
+> [!CATATAN]
+> Anda dapat mendengarkan demo vokal kloning dengan fidelitas tinggi yang dihasilkan dengan alur kerja ini di sini: [rachel-vocal-cloned.mp3](templates/examples/rachel-vocal-cloned.mp3).
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Synthesis Realism | Customization Settings | Best for |
+| Platform / Alat | Realisme Sintesis | Pengaturan Kustomisasi | Terbaik untuk |
 |---|---|---|---|
-| **ElevenLabs IVC / PVC** | Ultra-High (Includes breathing elements, emotional pacing) | Stability, Clarity, Exaggeration sliders | Professional narrations, ads, and spokesperson clones. |
-| **Play.ht (v2.0)** | High | Speed and pitch controls | Conversational customer service avatars and explainers. |
-| **Coqui TTS (Local)** | Medium | Python code integration | Programmatic bulk rendering with zero API credit costs. |
+| **ElevenLabs IVC / PVC** | Sangat Tinggi (Termasuk elemen pernapasan, tempo emosional) | Stabilitas, Kejelasan, Slider yang berlebihan | Narasi profesional, iklan, dan klon juru bicara. |
+| **Mainkan.ht (v2.0)** | Tinggi | Kontrol kecepatan dan nada | Avatar dan penjelasan layanan pelanggan percakapan. |
+| **Coqui TTS (Lokal)** | Sedang | Integrasi kode Python | Rendering massal terprogram tanpa biaya kredit API. |
 
-ElevenLabs is the benchmark for high-quality commercial voice cloning. For high-volume networks, use their Instant Voice Cloning API. If you need to scale up local systems with zero operational credit costs, implement local open-source voice generators like XTTS v2 or Coqui.
-
----
-
-## Launch It
-
-**How to manage voice assets:**
-* **Keep training files isolated:** Store all raw training audio clips in a secure, local master folder. If the voice model ever suffers drift or updates, you can re-upload and re-train the model instantly.
-* **Protect voice security:** Never share your cloned Voice ID string publicly. Malicious users can use the ID to generate unauthorized voice scripts using your API limits.
+ElevenLabs adalah tolok ukur kloning suara komersial berkualitas tinggi. Untuk jaringan bervolume tinggi, gunakan API Kloning Suara Instan. Jika Anda perlu meningkatkan sistem lokal tanpa biaya kredit operasional, terapkan generator suara sumber terbuka lokal seperti XTTS v2 atau Coqui.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Record a 1-minute speaking sample. Import it into a free editor and check the decibel peak level of the silences.
-2. **Medium:** Upload a 3-minute sample to a cloning engine. Generate a test script and find the slider settings where the voice stops sounding robotic.
-3. **Hard:** Perform a full vocal preparation run: record 6 minutes of audio, run noise reduction, apply a noise gate below -48dB, export as mono wav, and train a cloned profile that passes the similarity test.
-
----
-
-## Templates
-
-* [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md) — hardware guidelines, noise gate parameters, and stability logs.
+**Cara mengelola aset suara:**
+* **Jaga file pelatihan tetap terisolasi:** Simpan semua klip audio pelatihan mentah di folder master lokal yang aman. Jika model suara mengalami penyimpangan atau pembaruan, Anda dapat mengunggah ulang dan melatih ulang model tersebut secara instan.
+* **Melindungi keamanan suara:** Jangan pernah membagikan string ID Suara kloning Anda secara publik. Pengguna jahat dapat menggunakan ID tersebut untuk membuat skrip suara tidak sah menggunakan batas API Anda.
 
 ---
 
-[← Track overview](README.md) · Next: [AI Dubbing & Translation →](02-dubbing-translation.md)
+## Latihan
+
+1. **Mudah:** Rekam contoh pembicaraan selama 1 menit. Impor ke editor gratis dan periksa tingkat puncak desibel dari keheningan.
+2. **Medium:** Unggah sampel berdurasi 3 menit ke mesin kloning. Buat skrip pengujian dan temukan pengaturan penggeser di mana suara berhenti terdengar seperti robot.
+3. **Sulit:** Melakukan proses persiapan vokal penuh: rekam audio selama 6 menit, jalankan pengurangan kebisingan, terapkan gerbang kebisingan di bawah -48dB, ekspor sebagai mono wav, dan latih profil kloning yang lolos uji kesamaan.
+
+---
+
+## Templat
+
+* [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md) — pedoman perangkat keras, parameter gerbang kebisingan, dan log stabilitas.
+
+---
+
+[← Track overview](README.md) · Berikutnya: [AI Dubbing & Translation →](02-dubbing-translation.md)

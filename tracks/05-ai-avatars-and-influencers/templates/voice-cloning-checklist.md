@@ -1,23 +1,23 @@
-# Voice Cloning Training Checklist
+# Daftar Periksa Pelatihan Kloning Suara
 
-Use this checklist before uploading audio samples to voice cloning engines (e.g. ElevenLabs Instant / Professional Voice Cloning) to ensure high-fidelity voice match.
-
----
-
-## 1. Source Audio Requirements (Instant Voice Cloning)
-- [ ] **Total Audio Duration:** Minimum **5 minutes** of continuous, high-quality audio (target: 10 minutes).
-- [ ] **Single Speaker Only:** Ensure zero background voices, crosstalk, or ambient crowd noise in the recording.
-- [ ] **Noise Floor:** Remove room reverb, echo, or fan noise. Record in a carpeted room or closet.
-- [ ] **File Quality:** Upload uncompressed `.wav` files (sample rate: 44.1kHz or 48kHz, mono).
-
-## 2. Professional Voice Cloning (Fidelity Capture)
-- [ ] **Total Audio Duration:** Minimum **30 minutes** of high-fidelity reading (target: 1-2 hours).
-- [ ] **Tone Variety:** Read passages with diverse inflections (neutral, excited, calm, questioning) to train the model across emotional states.
-- [ ] **Pronunciation Clearances:** Include a reading of specific industry-related words, brands, and acronyms (e.g. "SaaS", "muapi", "CRM") so the model pronounces them correctly.
+Gunakan daftar periksa ini sebelum mengunggah sampel audio ke mesin kloning suara (misalnya Kloning Suara Instan / Profesional ElevenLabs) untuk memastikan kecocokan suara dengan ketelitian tinggi.
 
 ---
 
-## 3. Post-Clone Validation Check
-- [ ] **Clarity Test:** Generate a 15-second test sentence. Check for digital rasps, hiss, or synthetic pops.
-- [ ] **Inflection Test:** Generate an excited sentence. Ensure the voice doesn't sound monotone or robotic.
-- [ ] **Age & Gender Match:** Verify that the generated voice profile matches the visual age and gender defined in the Character Style Guide.
+## 1. Persyaratan Sumber Audio (Kloning Suara Instan)
+- [ ] **Total Durasi Audio:** Minimum **5 menit** audio terus menerus berkualitas tinggi (target: 10 menit).
+- [ ] **Hanya Satu Speaker:** Pastikan tidak ada suara latar belakang, crosstalk, atau kebisingan orang banyak di sekitar dalam rekaman.
+- [ ] **Kebisingan Lantai:** Menghilangkan gema ruangan, gema, atau kebisingan kipas. Rekam di ruangan atau lemari berkarpet.
+- [ ] **Kualitas File:** Unggah file `.wav` yang tidak terkompresi (kecepatan sampel: 44,1kHz atau 48kHz, mono).
+
+## 2. Kloning Suara Profesional (Fidelity Capture)
+- [ ] **Total Durasi Audio:** Minimum **30 menit** pembacaan fidelitas tinggi (target: 1-2 jam).
+- [ ] **Variasi Nada:** Bacalah bagian-bagian dengan infleksi yang beragam (netral, bersemangat, tenang, penuh pertanyaan) untuk melatih model dalam berbagai keadaan emosi.
+- [ ] **Izin Pengucapan:** Sertakan pembacaan kata, merek, dan akronim tertentu yang terkait dengan industri (misalnya, "SaaS", "muapi", "CRM") sehingga model mengucapkannya dengan benar.
+
+---
+
+## 3. Pemeriksaan Validasi Pasca Klon
+- [ ] **Tes Kejelasan:** Hasilkan kalimat tes 15 detik. Periksa suara serak digital, desis, atau letupan sintetis.
+- [ ] **Tes Infleksi:** Menghasilkan kalimat yang bersemangat. Pastikan suaranya tidak terdengar monoton atau seperti robot.
+- [ ] **Kecocokan Usia & Gender:** Pastikan profil suara yang dihasilkan cocok dengan usia visual dan gender yang ditentukan dalam Panduan Gaya Karakter.

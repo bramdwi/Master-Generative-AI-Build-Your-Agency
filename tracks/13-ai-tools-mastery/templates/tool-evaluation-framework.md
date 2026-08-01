@@ -1,27 +1,27 @@
-# AI Tool Evaluation Framework Checklist
+# Daftar Periksa Kerangka Evaluasi Alat AI
 
-Use this 5-point evaluation framework to test and score new AI models before integrating them into production client workflows.
+Gunakan kerangka evaluasi 5 poin ini untuk menguji dan menilai model AI baru sebelum mengintegrasikannya ke dalam alur kerja klien produksi.
 
 ---
 
-## 🔍 5-Point Tool Evaluation Checklist
+## 🔍 Daftar Periksa Evaluasi Alat 5 Poin
 
-### 1. Photorealism & Micro-Detail Fidelity (Weight: 25%)
-- [ ] **Skin Pores & Anatomy:** Does the model maintain natural skin texture without waxy/plastic smoothing?
-- [ ] **Lighting Falloff:** Do highlights and shadows behave realistically across complex surfaces?
+### 1. Fotorealisme & Fidelitas Mikro-Detail (Berat: 25%)
+- [ ] **Pori-Pori & Anatomi Kulit:** Apakah model mempertahankan tekstur alami kulit tanpa penghalusan lilin/plastik?
+- [ ] **Kerusakan Pencahayaan:** Apakah sorotan dan bayangan berperilaku realistis di seluruh permukaan yang kompleks?
 
-### 2. Prompt Adherence & Spatial Control (Weight: 25%)
-- [ ] **Multi-Subject Placement:** Does the model respect positional instructions (left, right, background, foreground)?
-- [ ] **Text Legibility:** Can the model render clean, un-garbled typography when prompted?
+### 2. Kepatuhan Cepat & Kontrol Spasial (Berat: 25%)
+- [ ] **Penempatan Multi-Subjek:** Apakah model mematuhi instruksi posisi (kiri, kanan, latar belakang, latar depan)?
+- [ ] **Keterbacaan Teks:** Bisakah model merender tipografi yang bersih dan tidak kacau saat diminta?
 
-### 3. Identity & Geometry Stability (Weight: 20%)
-- [ ] **Face Vector Retention:** Does identity locking remain consistent across 5 consecutive generations?
-- [ ] **I2V Temporal Stability:** Does Image-to-Video generation prevent morphing distortion?
+### 3. Stabilitas Identitas & Geometri (Berat: 20%)
+- [ ] **Retensi Vektor Wajah:** Apakah penguncian identitas tetap konsisten selama 5 generasi berturut-turut?
+- [ ] **Stabilitas Temporal I2V:** Apakah pembuatan Gambar-ke-Video mencegah distorsi perubahan?
 
-### 4. API Speed & Developer Experience (Weight: 15%)
-- [ ] **Inference Speed:** Does the render complete within acceptable SLA thresholds (< 30 sec)?
-- [ ] **API Reliability:** Is the uptime and response rate above 99.5%?
+### 4. Kecepatan API & Pengalaman Pengembang (Berat: 15%)
+- [ ] **Kecepatan Inferensi:** Apakah render selesai dalam ambang batas SLA yang dapat diterima (< 30 detik)?
+- [ ] **Keandalan API:** Apakah waktu aktif dan tingkat respons di atas 99,5%?
 
-### 5. Unit Economics & Pricing Model (Weight: 15%)
-- [ ] **Margin Protection:** Does the cost-per-render allow for at least a 70%+ gross margin on client packages?
-- [ ] **Commercial Rights:** Does the provider grant full commercial licensing for generated assets?
+### 5. Model Ekonomi & Penetapan Harga Unit (Berat: 15%)
+- [ ] **Perlindungan Margin:** Apakah biaya per render memungkinkan setidaknya 70%+ margin kotor pada paket klien?
+- [ ] **Hak Komersial:** Apakah penyedia memberikan lisensi komersial penuh untuk aset yang dihasilkan?

@@ -1,102 +1,102 @@
-# Creative Headshots & Stylized Executive Portraits
+# Headshot Kreatif & Potret Eksekutif Bergaya
 
-> Expand into high-ticket editorial, keynote speaker, author, and creative industry portraits using cinematic mood lighting.
+> Perluas ke editorial terkenal, pembicara utama, penulis, dan potret industri kreatif menggunakan pencahayaan sesuai suasana sinematik.
 
-**Track:** AI Headshots & Portraits  
-**Time:** ~40 minutes  
-**Prerequisites:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)  
+**Lagu:** Foto & Potret AI
+**Waktu:** ~40 menit
+**Prasyarat:** [01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)
 
-## The Problem
+## Masalahnya
 
-While formal corporate headshots (suits & grey backgrounds) cover traditional corporate clients, creative professionals reject bland corporate photography. 
-* **Keynote Speakers & Authors:** Need dramatic stage lighting, dark moody backgrounds, and high-impact editorial framing for book covers and conference banners.
-* **Music Artists & Podcasters:** Require gel lighting accents (neon cyan, warm amber), cinematic depth, and stylized artistic mood.
-* **Tech Founders & Designers:** Prefer relaxed environmental settings (sunlit lofts, architectural brick walls, outdoor urban lofts).
+Meskipun foto perusahaan formal (jas & latar belakang abu-abu) mencakup klien korporat tradisional, para profesional kreatif menolak fotografi korporat yang hambar.
+* **Pembicara Utama & Penulis:** Membutuhkan pencahayaan panggung yang dramatis, latar belakang gelap yang murung, dan kerangka editorial berdampak tinggi untuk sampul buku dan spanduk konferensi.
+* **Artis & Podcaster Musik:** Membutuhkan aksen pencahayaan gel (neon cyan, amber hangat), kedalaman sinematik, dan suasana artistik yang bergaya.
+* **Pendiri & Desainer Teknologi:** Lebih menyukai lingkungan yang santai (loteng yang diterangi matahari, dinding bata arsitektur, loteng perkotaan luar ruangan).
 
-If you only offer standard corporate suit headshots, you miss out on high-paying creative, media, and executive editorial clients who pay **$150 to $350 per custom portrait pack**.
+Jika Anda hanya menawarkan foto kepala setelan korporat standar, Anda kehilangan klien kreatif, media, dan editorial eksekutif dengan bayaran tinggi yang membayar **$150 hingga $350 per paket potret khusus**.
 
 ---
 
-## The Concept
+## Konsep
 
-The **Creative Editorial Portrait Pipeline** shifts lighting geometry and environment dynamics:
+**Creative Editorial Portrait Pipeline** mengubah geometri pencahayaan dan dinamika lingkungan:
 
 ```
 Identity Vector Lock ──► Cinematic Mood Prompt ──► Gel & Environmental Light Sync ──► High-Res Editorial Polish
 ```
 
-### Creative Portrait Styles:
+### Gaya Potret Kreatif:
 
-1. **The Keynote Speaker (Dramatic Stage Lighting):** Dark moody background, strong directional key light, warm backlight rim, dramatic shadow falloff.
-2. **The Tech Founder Loft (Architectural Environmental):** Sunlit brick loft background, soft natural window light, relaxed business casual attire (turtlenecks, denim blazers).
-3. **The Podcast / Media Creator (Color Gel Accents):** Dual-tone lighting (magenta key light + cyan rim light), dark studio background, high energy expression.
-
----
-
-## Do It
-
-### Step 1: Select the Creative Aesthetic Style
-Open [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md). Match your client's brand personality:
-
-* **Keynote Author Prompt:**  
-  > `"Photorealistic 8k editorial portrait photograph of [Identity Anchor], thoughtful confident expression, dark moody studio background, dramatic Rembrandt side lighting, warm rim light on hair and shoulders, 85mm f/1.4 lens, shallow depth of field, high contrast, NYT bestseller book cover style."`
-* **Creative Tech Founder Prompt:**  
-  > `"Photorealistic 8k environmental portrait of [Identity Anchor], approachable friendly smile, wearing a dark navy turtleneck, exposed brick loft background with warm window sunlight, soft bokeh, 85mm lens."`
-
-### Step 2: Lock Identity & Execute Inference
-Pass your client's selfie into your identity-locked generator (muapi `/nano-banana-2` or InstantID). Set identity weight to `0.85` to ensure 100% facial accuracy while allowing the model to generate creative lighting effects.
-
-### Step 3: Refine Micro-Details & Color Grade
-Apply a subtle color balance filter (cinematic teal & orange or warm amber midtones) to match magazine cover aesthetics. Save as `creative-studio-headshot.jpg`.
+1. **Pembicara Utama (Pencahayaan Panggung Dramatis):** Latar belakang gelap murung, lampu tombol terarah kuat, pinggiran lampu latar hangat, penurunan bayangan dramatis.
+2. **Loteng Pendiri Teknologi (Lingkungan Arsitektur):** Latar belakang loteng bata yang diterangi matahari, cahaya jendela alami yang lembut, pakaian kasual bisnis yang santai (turtleneck, blazer denim).
+3. **Podcast / Media Creator (Aksen Gel Warna):** Pencahayaan dua warna (lampu tombol magenta + lampu tepi cyan), latar belakang studio gelap, ekspresi energi tinggi.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Pilih Gaya Estetika Kreatif
+Buka [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md). Cocokkan dengan kepribadian merek klien Anda:
+
+* **Perintah Penulis Utama:**
+> __KODE INLINE_0__
+* **Permintaan Pendiri Teknologi Kreatif:**
+> __KODE INLINE_0__
+
+### Langkah 2: Kunci Identitas & Jalankan Inferensi
+Berikan selfie klien Anda ke generator yang dikunci identitasnya (muapi `/nano-banana-2` atau InstantID). Tetapkan bobot identitas ke `0.85` untuk memastikan akurasi wajah 100% sekaligus memungkinkan model menghasilkan efek pencahayaan yang kreatif.
+
+### Langkah 3: Sempurnakan Detail Mikro & Tingkat Warna
+Terapkan filter keseimbangan warna yang halus (nuansa teal & oranye sinematik atau amber hangat) agar sesuai dengan estetika sampul majalah. Simpan sebagai `creative-studio-headshot.jpg`.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/creative-studio-headshot.jpg" alt="Creative Studio Tech Founder Portrait" width="480">
+<img src="templates/examples/creative-studio-headshot.jpg" alt="Potret Pendiri Teknologi Creative Studio" width="480">
 </p>
 <p align="center"><sub>Creative Studio Tech Founder Portrait (Warm Bokeh & Soft Studio Butterfly Lighting)</sub></p>
 
-**Creative Portrait Campaign for "Keynote Speaker Series"**
+**Kampanye Potret Kreatif untuk "Seri Pembicara Utama"**
 
-* **Client:** Bestselling Author & Keynote Speaker.
-* **Target Deliverable:** 5 Editorial Portraits for Book Cover, Billboard, and Speaker One-Sheet.
-* **Selected Styles:** Keynote Stage Lighting, NYT Author Mood, Warm Urban Loft.
-* **Package Rate:** **$249.00**.
-* **Production Time:** 25 minutes.
+* **Klien:** Penulis Buku Terlaris & Pembicara Utama.
+* **Target Hasil:** 5 Potret Editorial untuk Sampul Buku, Billboard, dan Satu Lembar Pembicara.
+* **Gaya Pilihan:** Pencahayaan Panggung Utama, Suasana Hati Penulis NYT, Loteng Perkotaan yang Hangat.
+* **Tarif Paket:** **$249.00**.
+* **Waktu Produksi:** 25 menit.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Style / Platform | Creative Control | Client Tier | Best For |
+| Gaya / Platform | Kontrol Kreatif | Tingkat Klien | Terbaik Untuk |
 |---|---|---|---|
-| **FLUX PuLID / InstantID (muapi)** | High (Responsive to cinematic prompt anchors: gel lighting, loft environments) | Creative professionals, media clients | Fast editorial portrait batches for agencies |
-| **Midjourney (--cref identity reference)** | Medium-High (Excellent aesthetic quality, weaker identity lock) | Individual creatives, personal brand | Social media editorial series and speaker headshots |
-| **Local ComfyUI (InstantID + LoRA)** | Maximum (Full creative node control over lighting geometry) | High-budget executive clients | Luxury speaker & author portrait packages |
+| **FLUX PuLID / InstantID (muapi)** | Tinggi (Responsif terhadap jangkar cepat sinematik: pencahayaan gel, lingkungan loteng) | Profesional kreatif, klien media | Kumpulan potret editorial cepat untuk agensi |
+| **Perjalanan Tengah (--referensi identitas cref)** | Sedang-Tinggi (Kualitas estetika luar biasa, kunci identitas lebih lemah) | Materi iklan individu, merek pribadi | Seri editorial media sosial dan foto pembicara |
+| **UI Nyaman Lokal (ID Instan + LoRA)** | Maksimum (Kontrol simpul materi iklan penuh atas geometri pencahayaan) | Klien eksekutif beranggaran tinggi | Paket potret pembicara & penulis mewah |
 
 ---
 
-## Launch It
+## Luncurkan
 
-**Pricing for creative portrait packages:**
-* **Individual Creative Portrait Pack:** **$149 – $249** (Includes 5 stylized variations: Keynote Stage, Loft Environmental, Podcast Gel, Author Dark, Studio Press Kit).
-* **Offer Pitch-Deck Formatting:** Package completed creative headshots into pre-sized assets for Spotify podcast covers (3000x3000px), YouTube banners (2560x1440px), and speaker press kits.
-
----
-
-## Exercises
-
-1. **Easy:** Generate a creative portrait with dual-color gel lighting (blue key light + amber rim light).
-2. **Medium:** Create an environmental loft headshot for a tech founder with exposed brick background.
-3. **Hard:** Produce a 4-portrait editorial press kit (Author Cover, Stage Lighting, Loft Casual, Studio Dark) for a keynote speaker.
+**Harga paket potret kreatif:**
+* **Paket Potret Kreatif Individu:** **$149 – $249** (Termasuk 5 variasi gaya: Keynote Stage, Loft Environmental, Podcast Gel, Author Dark, Studio Press Kit).
+* **Tawarkan Pemformatan Pitch-Deck:** Paket foto kepala kreatif yang telah selesai menjadi aset yang telah diukur sebelumnya untuk sampul podcast Spotify (3000x3000 piksel), spanduk YouTube (2560x1440 piksel), dan kit pers speaker.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Creative lighting prompts, gel lighting ratios, and editorial negative prompts.
+1. **Mudah:** Hasilkan potret kreatif dengan pencahayaan gel dua warna (lampu tombol biru + lampu tepi kuning).
+2. **Medium:** Buat foto loteng lingkungan untuk pendiri teknologi dengan latar belakang batu bata terbuka.
+3. **Sulit:** Membuat perlengkapan pers editorial 4 potret (Sampul Penulis, Pencahayaan Panggung, Loft Casual, Studio Dark) untuk pembicara utama.
+
+---
+
+## Templat
+
+* [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Perintah pencahayaan kreatif, rasio pencahayaan gel, dan perintah negatif editorial.
 
 ---
 

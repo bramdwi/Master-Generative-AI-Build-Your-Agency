@@ -1,35 +1,35 @@
-# Before/After Conversion Cases
+# Kasus Sebelum/Sesudah Konversi
 
-> Real models increase clicks; accurate fit reduces returns.
+> Model nyata meningkatkan klik; kecocokan yang akurat mengurangi pengembalian.
 
-**Track:** AI Fashion & Virtual Try-On  
-**Time:** ~45 minutes  
-**Prerequisites:** None  
+**Lagu:** Mode AI & Uji Coba Virtual
+**Waktu:** ~45 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Fashion e-commerce suffers from a massive profit leak: **High Return Rates**. On average, online apparel stores see return rates between **20% and 40%**. The primary reason? Fit-related errors (such as *"the shirt fits tighter than it looked on the hanger"* or *"I didn't realize how long the hemline was"*). Processing returns, shipping packages back, and sorting stock in warehouses destroys profit margins.
+E-commerce fesyen mengalami kebocoran keuntungan besar-besaran: **Tingkat Pengembalian Tinggi**. Rata-rata, toko pakaian online melihat tingkat pengembalian antara **20% dan 40%**. Alasan utamanya? Kesalahan terkait kesesuaian (seperti *"kemeja lebih pas daripada yang terlihat di gantungan"* atau *"Saya tidak menyadari berapa panjang kelimannya"*). Memproses pengembalian, mengirimkan paket kembali, dan menyortir stok di gudang menghancurkan margin keuntungan.
 
-At the same time, using static mannequin shots leads to low conversion rates because shoppers cannot visualize the clothing on a real body.
+Pada saat yang sama, penggunaan gambar manekin statis menghasilkan tingkat konversi yang rendah karena pembeli tidak dapat memvisualisasikan pakaian pada tubuh aslinya.
 
-To scale a fashion brand, you must not only increase sales (CVR) but actively decrease returns by providing accurate, consistent model visuals and fit expectations.
+Untuk meningkatkan skala merek fesyen, Anda tidak hanya harus meningkatkan penjualan (CVR) tetapi juga secara aktif mengurangi keuntungan dengan memberikan visual model yang akurat dan konsisten serta sesuai ekspektasi.
 
-## The Concept
+## Konsep
 
-The economics of apparel optimization rely on **Return Rate Reduction**, **Diverse Representation**, and **Fit Transparency**:
+Keekonomian pengoptimalan pakaian bergantung pada **Pengurangan Tingkat Pengembalian**, **Representasi Beragam**, dan **Transparansi yang Sesuai**:
 
 ```
 Identify Fit-Related Returns ──► Deploy AI Try-On Models ──► Add Fit Callouts ──► Measure CVR & Returns Lift
 ```
 
-### 1. Reducing Fit Discrepancies:
-Ghost mannequin shots hide the drape of the fabric. By showing the garment on a model with specified body measurements (height, chest, waist), you give customers a realistic reference point, reducing sizing purchase errors.
+### 1. Mengurangi Perbedaan Kesesuaian:
+Tembakan manekin hantu menyembunyikan tirai kain. Dengan menampilkan pakaian pada model dengan ukuran tubuh tertentu (tinggi, dada, pinggang), Anda memberikan pelanggan titik referensi yang realistis, sehingga mengurangi kesalahan pembelian ukuran.
 
-### 2. Diverse Model Personalization:
-If a customer only sees clothes on a slim, 6-foot model, they might hesitate to buy if they have a different build. AI try-on allows you to display the same dress on multiple body shapes (slim, athletic, curvy). Shoppers who see products on models that match their body type are **40%** more likely to convert.
+### 2. Personalisasi Model Beragam:
+Jika pelanggan hanya melihat pakaian dengan model ramping setinggi 6 kaki, mereka mungkin ragu untuk membeli jika modelnya berbeda. Uji coba AI memungkinkan Anda menampilkan gaun yang sama pada berbagai bentuk tubuh (langsing, atletis, berlekuk). Pembeli yang melihat produk dengan model yang cocok dengan tipe tubuh mereka **40%** lebih besar kemungkinannya untuk melakukan konversi.
 
-### 3. Clear Visual Overlays:
-Combine your model composite with clear text overlays detailing the model's measurements:
+### 3. Hapus Hamparan Visual:
+Gabungkan komposit model Anda dengan hamparan teks jelas yang merinci pengukuran model:
 
 ```
 [ Model Height: 5'10" / 178cm ] ──► [ Model Build: Athletic ] ──► [ Wearing Size: Medium ]
@@ -37,90 +37,90 @@ Combine your model composite with clear text overlays detailing the model's meas
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Analyze Return Rate Bottlenecks
-Open [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md). Review your store's return logistics data:
-* Calculate your return rate percentage.
-* Read return reason logs. If over **50%** of returns mention *"too small"*, *"too large"*, or *"poor fit"*, proceed to optimize the model listings.
+### Langkah 1: Analisis Hambatan Tingkat Pengembalian
+Buka [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md). Tinjau data logistik pengembalian toko Anda:
+* Hitung persentase tingkat pengembalian Anda.
+* Baca log alasan pengembalian. Jika lebih dari **50%** pengembalian menyebutkan *"terlalu kecil"*, *"terlalu besar"*, atau *"tidak pas"*, lanjutkan untuk mengoptimalkan daftar model.
 
-### Step 2: Set Up Fit Representation Models
-Select your best-selling garment. Generate three try-on model variations representing different body types (e.g. slim, athletic, curvy) wearing the item, following the Module 1 workflow.
+### Langkah 2: Siapkan Model Representasi yang Sesuai
+Pilih pakaian terlaris Anda. Hasilkan tiga variasi model percobaan yang mewakili tipe tubuh berbeda (misalnya langsing, atletis, berlekuk) saat mengenakan item, mengikuti alur kerja Modul 1.
 
-### Step 3: Add Model Measurement Callout Cards
-In your photo editor, add a clean, low-contrast text bar at the bottom of the listing image:
-* *Example:* `"Model is 5'9\" (175cm), athletic build, wearing size Small."`
-Ensure the font matches your brand's style guide.
+### Langkah 3: Tambahkan Kartu Info Pengukuran Model
+Di editor foto Anda, tambahkan bilah teks bersih dan kontras rendah di bagian bawah gambar daftar:
+* *Contoh:* `"Model is 5'9\" (175cm), athletic build, wearing size Small."`
+Pastikan font sesuai dengan panduan gaya merek Anda.
 
-### Step 4: Run the A/B Listing Test
-Configure your store's testing app:
-* **Control (Variant A):** Standard ghost mannequin gallery photos.
-* **Test (Variant B):** Upgraded AI model photos featuring different body types and measurement callouts.
-Split incoming traffic 50/50.
+### Langkah 4: Jalankan Tes Daftar A/B
+Konfigurasikan aplikasi pengujian toko Anda:
+* **Kontrol (Varian A):** Foto galeri manekin hantu standar.
+* **Pengujian (Varian B):** Foto model AI yang ditingkatkan menampilkan tipe tubuh dan info pengukuran berbeda.
+Bagi lalu lintas masuk 50/50.
 
-### Step 5: Monitor CVR and Returns
-Allow the split test to run for 30 days (apparel tests require longer cycles to track return shipments):
-* Check conversion rates and return rates for both variants.
-* Calculate the net profit margins after subtracting return shipping costs.
-If Variant B shows a reduction in returns and a lift in sales, push the changes live across the entire product category.
+### Langkah 5: Pantau CVR dan Pengembalian
+Biarkan pengujian terpisah berjalan selama 30 hari (pengujian pakaian memerlukan siklus yang lebih lama untuk melacak pengiriman kembali):
+* Periksa tingkat konversi dan tingkat pengembalian untuk kedua varian.
+* Hitung margin laba bersih setelah dikurangi biaya pengiriman kembali.
+Jika Varian B menunjukkan penurunan pengembalian dan peningkatan penjualan, dorong perubahan tersebut ke seluruh kategori produk.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/denim-model-measurements.jpg" alt="Denim Model Measurements" width="240">
+<img src="templates/examples/denim-model-measurements.jpg" alt="Pengukuran Model Denim" width="240">
 <img src="templates/examples/denim-model-clip.gif" alt="Denim Fit Video Motion (I2V)" width="240">
 </p>
 <p align="center"><sub>Denim Sizing Image (Left) ──► Image-to-Video Model Fit Motion (Right) · Video File: <a href="templates/examples/denim-model-clip.mp4">templates/examples/denim-model-clip.mp4</a></sub></p>
 
-**Fit-Related Return Reduction for a Denim Brand**
+**Pengurangan Pengembalian Terkait Kesesuaian untuk Merek Denim**
 
 
 
-* **Baseline Status:** A premium jeans brand suffered from a **28% return rate**. Product photos featured only flat-lay shots, leading to customer sizing confusion.
-* **Redesign Strategy (Variant B):**
-  * Generated model try-on shots showcasing the jeans on three models: Model 1 (5'11", slim build, size 26), Model 2 (5'8", curvy build, size 30), and Model 3 (5'6", petite build, size 25).
-  * Added clear text tags with model height and waist sizing.
-* **30-Day Split Test Results:**
-  * Variant A Return Rate: **28.0%** (280 returned units out of 1,000 sold).
-  * Variant B Return Rate: **16.5%** (165 returned units out of 1,000 sold).
-  * Variant B CVR Lift: **+38%** (Conversion jumped from 1.8% to 2.5%).
-* **Financial Impact:** Saved **$4,600 in return shipping fees** and increased net revenue by **$7,000** in one month.
+* **Status Dasar:** Sebuah merek jeans premium mengalami **tingkat pengembalian sebesar 28%**. Foto produk hanya menampilkan gambar datar, sehingga menyebabkan kebingungan ukuran bagi pelanggan.
+* **Strategi Desain Ulang (Varian B):**
+* Foto uji coba model yang dihasilkan menampilkan jeans pada tiga model: Model 1 (5'11", bentuk ramping, ukuran 26), Model 2 (5'8", bentuk melengkung, ukuran 30), dan Model 3 (5'6", bentuk mungil, ukuran 25).
+* Menambahkan tag teks yang jelas dengan tinggi model dan ukuran pinggang.
+* **Hasil Tes Terpisah 30 Hari:**
+* Tingkat Pengembalian Varian A: **28,0%** (280 unit dikembalikan dari 1.000 unit terjual).
+* Tingkat Pengembalian Varian B: **16,5%** (165 unit dikembalikan dari 1.000 unit terjual).
+* Peningkatan CVR Varian B: **+38%** (Konversi melonjak dari 1,8% menjadi 2,5%).
+* **Dampak Finansial:** Menghemat **$4.600 biaya pengiriman kembali** dan meningkatkan pendapatan bersih sebesar **$7.000** dalam satu bulan.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Optimization Purpose | Integration Level | Best for |
+| Platform / Alat | Tujuan Optimasi | Tingkat Integrasi | Terbaik untuk |
 |---|---|---|---|
-| **Loop Returns / Gorgias** | Tracking returns portal reasons and customer complaints | High (Direct Shopify app links) | Identifying specific sizing objections and return logs. |
-| **Google Analytics 4 (GA4)** | Funnel tracking and page drops | Medium | Tracking user drop-off points during cart checkout. |
-| **Shopify Flow** | Automating customer service tags | Medium | Tagging high-return SKUs automatically for design priority. |
+| **Pengembalian Loop / Gorgia** | Pelacakan alasan portal pengembalian dan keluhan pelanggan | Tinggi (Tautan aplikasi Shopify Langsung) | Mengidentifikasi keberatan ukuran tertentu dan mengembalikan log. |
+| **Google Analytics 4 (GA4)** | Pelacakan corong dan penurunan halaman | Sedang | Melacak titik pengantaran pengguna selama pembayaran keranjang. |
+| **Aliran Shopify** | Mengotomatiskan tag layanan pelanggan | Sedang | Memberi tag pada SKU dengan pengembalian tinggi secara otomatis untuk prioritas desain. |
 
-Use Loop Returns to track why customers return items (e.g. sizing fits too small). This database tells you exactly which products require urgent visual updates. Combine this with GA4 to monitor product page bounce rates.
-
----
-
-## Launch It
-
-**How to manage sizing visuals:**
-* **Keep sizing details accurate:** Never lie about the model's height or garment size in your overlays. If you list a model as wearing a size Medium when they are actually wearing an XS, customers will order the wrong size, causing returns to increase.
-* **Coordinate catalog scale bars:** Keep your layout guidelines consistent (Module 3) so that size callouts sit in the same visual location on every page.
+Gunakan Loop Returns untuk melacak alasan pelanggan mengembalikan barang (misalnya, ukurannya terlalu kecil). Basis data ini memberi tahu Anda produk mana yang memerlukan pembaruan visual segera. Gabungkan ini dengan GA4 untuk memantau rasio pentalan halaman produk.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Open a fashion listing and calculate its return rate if it sold 500 units and 90 were returned.
-2. **Medium:** Complete the CVR and Return log in the [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md) using mock data.
-3. **Hard:** Design a main gallery image for a dress. Place a model wearing the dress, add a sizing callout overlay at the bottom, align it to standard safety margins, and export a mobile-ready WebP file.
+**Cara mengelola visual ukuran:**
+* **Jaga agar detail ukuran tetap akurat:** Jangan pernah berbohong tentang tinggi model atau ukuran pakaian di lapisan luar Anda. Jika Anda mencantumkan model yang mengenakan ukuran Medium padahal sebenarnya mereka mengenakan XS, pelanggan akan memesan ukuran yang salah, sehingga menyebabkan pengembalian meningkat.
+* **Koordinasikan bilah skala katalog:** Jaga konsistensi pedoman tata letak Anda (Modul 3) sehingga info ukuran berada di lokasi visual yang sama di setiap halaman.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md) — conversion tables, return rate metrics, split-test logs, and CRO checklists.
+1. **Mudah:** Buka listingan fesyen dan hitung tingkat pengembaliannya jika terjual 500 unit dan dikembalikan 90.
+2. **Medium:** Lengkapi CVR dan log Pengembalian di [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md) menggunakan data tiruan.
+3. **Sulit:** Rancang gambar galeri utama untuk gaun. Tempatkan model yang mengenakan gaun tersebut, tambahkan overlay info ukuran di bagian bawah, sejajarkan dengan margin keamanan standar, dan ekspor file WebP yang siap untuk seluler.
+
+---
+
+## Templat
+
+* [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md) — tabel konversi, metrik tingkat pengembalian, log pengujian terpisah, dan daftar periksa CRO.
 
 ---
 

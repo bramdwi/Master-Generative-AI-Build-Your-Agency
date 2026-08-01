@@ -1,45 +1,45 @@
-# AI Storyboard Script & Shot Breakdown Template
+# Skrip Papan Cerita AI & Templat Perincian Bidikan
 
-Use this template to break down a screenplay scene into an AI-ready storyboard script before generating static images and video clips.
-
----
-
-## 🎬 Project Overview
-
-* **Film Title:** `[Film Name]`
-* **Genre / Style:** `[e.g., Sci-Fi Noir, Cyberpunk, Cinematic Drama, Quiet Luxury]`
-* **Scene Number & Title:** `Scene [X]: [Scene Title]`
-* **Location & Setting:** `[INT/EXT. Location - Time of Day]`
-* **Visual Anchor Character:** `[Character Name, Age, Outfit, Key Physical Attributes]`
-* **Color Palette & Lighting:** `[e.g., Cool teal and cyan, neon orange rim lights, deep shadows]`
+Gunakan templat ini untuk memecah adegan skenario menjadi skrip papan cerita yang siap AI sebelum menghasilkan gambar statis dan klip video.
 
 ---
 
-## 📌 Master Style Prefix & Negative Prompt
+## 🎬 Ikhtisar Proyek
 
-Lock consistency by prepending this exact style string to every AI image prompt in the scene:
-
-* **Master Prompt Prefix:**
-  > `"Cinematic 35mm film photograph, shot on Hasselblad 85mm lens, f/2.8 depth of field, [Color Palette/Mood], highly detailed 8k render."`
-
-* **Master Negative Prompt:**
-  > `"bad anatomy, cartoon, anime, 3d render, oversaturated, blurry, extra limbs, low resolution, watermark, deformed."`
+* **Judul Film:** `[Film Name]`
+* **Genre / Gaya:** `[e.g., Sci-Fi Noir, Cyberpunk, Cinematic Drama, Quiet Luxury]`
+* **Nomor & Judul Adegan:** `Scene [X]: [Scene Title]`
+* **Lokasi & Pengaturan:** `[INT/EXT. Location - Time of Day]`
+* **Karakter Jangkar Visual:** `[Character Name, Age, Outfit, Key Physical Attributes]`
+* **Palet Warna & Pencahayaan:** `[e.g., Cool teal and cyan, neon orange rim lights, deep shadows]`
 
 ---
 
-## 📋 Multi-Shot Storyboard Script Breakdown
+## 📌 Awalan Gaya Utama & Prompt Negatif
 
-| Shot # | Shot Type | Subject & Action | Camera Framing & Lighting | AI Image Generation Prompt (`nano-banana-2`) | Image-to-Video Motion Prompt (`seedance-2`) | Asset Reference File |
+Kunci konsistensi dengan menambahkan string gaya yang sama persis ini ke setiap perintah gambar AI dalam adegan:
+
+* **Awalan Perintah Utama:**
+> __KODE INLINE_0__
+
+* **Permintaan Negatif Utama:**
+> __KODE INLINE_0__
+
+---
+
+## 📋 Perincian Skrip Papan Cerita Multi-Shot
+
+| Tembakan # | Jenis Tembakan | Subjek & Tindakan | Pembingkaian & Pencahayaan Kamera | Perintah Pembuatan Gambar AI (`nano-banana-2`) | Perintah Gerakan Gambar-ke-Video (`seedance-2`) | File Referensi Aset |
 |---|---|---|---|---|---|---|
-| **Shot 1** | Wide Shot (WS) | Establishing shot of location | Wide angle, low position, volumetric mist | `[Master Prefix], wide establishing shot of [Location], [Lighting], widescreen 16:9` | `"Slow cinematic dolly forward into room, atmospheric smoke moving"` | `storyboard-shot1-wide.jpg` |
-| **Shot 2** | Medium Shot (MS) | Character entrance / reaction | Eye-level, shallow depth of field | `[Master Prefix], medium shot of [Character Name] [Action], cool blue key light` | `"Character turns head toward camera, subtle facial muscle movement"` | `storyboard-shot2-medium.jpg` |
-| **Shot 3** | Close-up (CU) | Prop / Detail interaction | Extreme close-up, macro focus | `[Master Prefix], close-up of [Prop/Object], macro focus, glowing status text` | `"Panning reflection across surface, digital screen flickering"` | `storyboard-shot3-closeup.jpg` |
+| **Tembakan 1** | Bidikan Lebar (WS) | Menetapkan bidikan lokasi | Sudut lebar, posisi rendah, kabut volumetrik | __KODE INLINE_0__ | __KODE INLINE_1__ | __KODE INLINE_2__ |
+| **Tembakan 2** | Tembakan Sedang (MS) | Karakter masuk / reaksi | Kedalaman bidang yang dangkal dan setinggi mata | __KODE INLINE_0__ | __KODE INLINE_1__ | __KODE INLINE_2__ |
+| **Tembakan 3** | Jarak Dekat (CU) | Interaksi Prop / Detail | Close-up ekstrim, fokus makro | __KODE INLINE_0__ | __KODE INLINE_1__ | __KODE INLINE_2__ |
 
 ---
 
-## ⚙️ Drift Control Checklist
+## ⚙️ Daftar Periksa Kontrol Melayang
 
-- [ ] Is the character reference image locked and passed as `images_list` for character shots?
-- [ ] Are master style prefixes identical across all 3 prompts?
-- [ ] Does the close-up shot isolate a prop to prevent character facial drift during scene transitions?
-- [ ] Are aspect ratios aligned across all storyboard shots (`16:9` for landscape films, `9:16` for vertical shorts)?
+- [ ] Apakah gambar referensi karakter dikunci dan diteruskan sebagai `images_list` untuk pengambilan gambar karakter?
+- [ ] Apakah awalan gaya master identik di ketiga perintah?
+- [ ] Apakah bidikan close-up mengisolasi penyangga untuk mencegah penyimpangan wajah karakter selama transisi adegan?
+- [ ] Apakah rasio aspek selaras di seluruh pengambilan gambar storyboard (`16:9` untuk film lanskap, `9:16` untuk film pendek vertikal)?

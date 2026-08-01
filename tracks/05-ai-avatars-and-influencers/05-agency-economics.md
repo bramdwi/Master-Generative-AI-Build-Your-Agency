@@ -1,119 +1,119 @@
-# Agency Case Study: Small-Team Economics
+# Studi Kasus Agensi: Ekonomi Tim Kecil
 
-> Don't build an audience for yourself; build and manage audiences for paying clients.
+> Jangan membangun audiens untuk diri Anda sendiri; membangun dan mengelola audiens untuk klien yang membayar.
 
-**Track:** AI Avatars & Influencers  
-**Time:** ~30 minutes  
-**Prerequisites:** Building a Consistent AI Character, Character to Content Pipeline, Voice Cloning & Dialogue, Monetization Tiers by Follower Count  
+**Lacak:** Avatar & Influencer AI
+**Waktu:** ~30 menit
+**Prasyarat:** Membangun Karakter AI yang Konsisten, Saluran Karakter ke Konten, Kloning & Dialog Suara, Tingkatan Monetisasi berdasarkan Jumlah Pengikut
 
-## The Problem
+## Masalahnya
 
-Launching your own virtual influencer from scratch is slow. You have to build an audience, optimize scripts, post daily, and wait for sponsorships to roll in. During this 6-month ramp-up phase, you have zero cash flow, but your monthly subscriptions and API bills keep arriving.
+Meluncurkan influencer virtual Anda sendiri dari awal sangatlah lambat. Anda harus membangun audiens, mengoptimalkan skrip, memposting setiap hari, dan menunggu sponsor masuk. Selama fase peningkatan 6 bulan ini, Anda tidak memiliki arus kas, tetapi langganan bulanan dan tagihan API Anda terus berdatangan.
 
-A faster, more predictable way to make a full-time income is running a **Virtual Influencer Agency (VIA)**.
+Cara yang lebih cepat dan dapat diprediksi untuk mendapatkan penghasilan penuh waktu adalah dengan menjalankan **Virtual Influencer Agency (VIA)**.
 
-Instead of building an audience for yourself, you **build, manage, and animate virtual spokespeople on behalf of existing corporate clients**. Companies (SaaS startups, law firms, accounting practices) need human faces to explain their products, but their founders are too busy or camera-shy to record videos themselves. They will gladly pay an agency an upfront monthly retainer to handle it for them.
+Daripada membangun audiens untuk diri Anda sendiri, Anda **membangun, mengelola, dan menghidupkan juru bicara virtual atas nama klien korporat yang ada**. Perusahaan (startup SaaS, firma hukum, praktik akuntansi) membutuhkan wajah manusia untuk menjelaskan produk mereka, namun pendirinya terlalu sibuk atau malu dengan kamera untuk merekam video sendiri. Mereka dengan senang hati akan membayar uang muka bulanan kepada agen untuk menanganinya bagi mereka.
 
-## The Concept
+## Konsep
 
-The economics of a Virtual Influencer Agency (VIA) are built on a **Management Retainer Contract**:
+Ekonomi dari Virtual Influencer Agency (VIA) dibangun berdasarkan **Kontrak Penahan Manajemen**:
 
 ```
 Client Retainer ($2,000/mo)  ──►  Upfront Invoice settled  ──►  Agency delivers 15 Videos/mo
 ```
 
-To run a profitable VIA:
-* **The Spokesperson Retention Agreement:** You structure a contract using the [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md) detailing the scope of work, monthly volume, and payment schedules.
-* **IP Separation:** You clearly define who owns the underlying assets. The industry standard is that the **Agency owns the engine files** (prompt guides, model seeds, and voice clone credentials), while the **Client owns the distribution rights to the completed video exports**. This protects your intellectual property and ensures client lock-in.
-* **Vocal & Visual Sync:** You charge a premium because you manage the entire pipeline (visual consistency, lip-sync rendering, and voice synthesis) under a unified service.
+Untuk menjalankan VIA yang menguntungkan:
+* **Perjanjian Retensi Juru Bicara:** Anda menyusun kontrak menggunakan [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md) yang merinci cakupan pekerjaan, volume bulanan, dan jadwal pembayaran.
+* **Pemisahan IP:** Anda dengan jelas menentukan siapa pemilik aset dasar. Standar industrinya adalah **Agensi memiliki file mesin** (panduan cepat, seed model, dan kredensial klon suara), sedangkan **Klien memiliki hak distribusi atas ekspor video yang telah selesai**. Ini melindungi kekayaan intelektual Anda dan memastikan klien terkunci.
+* **Sinkronisasi Vokal & Visual:** Anda mengenakan biaya premium karena Anda mengelola seluruh saluran (konsistensi visual, rendering sinkronisasi bibir, dan sintesis suara) dalam layanan terpadu.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Customize Your Service Contract
-Open the [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md). Define the monthly fee (**$1,500–$2,500/month** is standard for micro-agencies) and the volume (typically 15 vertical clips per month).
+### Langkah 1: Sesuaikan Kontrak Layanan Anda
+Buka [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md). Tentukan biaya bulanan (**$1.500–$2.500/bulan** adalah standar untuk agen mikro) dan volumenya (biasanya 15 klip vertikal per bulan).
 
-### Step 2: Pitch B2B Professional Services
-Reach out to service-based firms that need content marketing:
-* Bookkeeping/Accounting firms (explaining tax write-offs).
-* Recruiting agencies (explaining job interview tips).
-* Local real estate brokerages (explaining buying guides).
-Highlight that they don't need to show their face on camera or spend hours recording audio.
+### Langkah 2: Promosikan Layanan Profesional B2B
+Jangkau perusahaan berbasis layanan yang membutuhkan pemasaran konten:
+* Kantor Pembukuan/Akuntansi (menjelaskan penghapusan pajak).
+* Agen perekrutan (menjelaskan tips wawancara kerja).
+* Pialang real estat lokal (menjelaskan panduan pembelian).
+Soroti bahwa mereka tidak perlu menunjukkan wajahnya di depan kamera atau menghabiskan waktu berjam-jam merekam audio.
 
-### Step 3: Conduct the Character Briefing Session
-Upon securing the contract, run a briefing session. Agree on the character's age, look, style, and voice profile (e.g. *"professional HR advisor in her 30s, warm and clear voice"*). Create the visual seed guidelines.
+### Langkah 3: Lakukan Sesi Pengarahan Karakter
+Setelah mendapatkan kontrak, jalankan sesi pengarahan. Sepakati usia, penampilan, gaya, dan profil suara karakter (misalnya *"penasihat SDM profesional berusia 30-an, suara hangat dan jernih"*). Buat pedoman benih visual.
 
-### Step 4: Run the Weekly Batch Station
-Manage deliveries in weekly batches (4 videos every Friday).
-* Write the scripts and get client approval via email.
-* Batch-generate the cloned voice audio.
-* Run the static avatar image and voice tracks through the `/sync-lipsync` API.
-* Trim, subtitle, and color-grade the exports.
+### Langkah 4: Jalankan Stasiun Batch Mingguan
+Kelola pengiriman dalam kelompok mingguan (4 video setiap hari Jumat).
+* Tulis skrip dan dapatkan persetujuan klien melalui email.
+* Hasilkan batch audio suara yang dikloning.
+* Jalankan gambar avatar statis dan trek suara melalui `/sync-lipsync` API.
+* Pangkas, subjudul, dan tingkatkan warna ekspor.
 
-### Step 5: Deliver to Shared Folders
-Upload the finished files to the client's shared folder. Send a notification: *"Batch 2 is ready in your folder. Let us know if you need any adjustments by Monday."*
+### Langkah 5: Kirim ke Folder Bersama
+Unggah file yang sudah selesai ke folder bersama klien. Kirim pemberitahuan: *"Batch 2 sudah siap di folder Anda. Beri tahu kami jika Anda memerlukan penyesuaian paling lambat hari Senin."*
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
 <img src="templates/examples/avatar-agency-suite.jpg" alt="Agency Suite" width="280">
-<img src="templates/examples/avatar-agency-suite-clip.gif" alt="3D Avatar Agency Motion (I2V)" width="280">
+<img src="templates/examples/avatar-agency-suite-clip.gif" alt="Gerakan Agen Avatar 3D (I2V)" width="280">
 </p>
 <p align="center"><sub>Agency Suite Image (Left) ──► Image-to-Video 3D Avatar Motion (Right) · Video File: <a href="templates/examples/avatar-agency-suite-clip.mp4">templates/examples/avatar-agency-suite-clip.mp4</a></sub></p>
 
-**Virtual Spokesperson Campaign for "HireFast" (Recruiting SaaS)**
+**Kampanye Juru Bicara Virtual untuk "HireFast" (Perekrutan SaaS)**
 
 
 
-* **The Client:** A recruiting software startup.
-* **The Deal:** **$2,000/month** retainer.
-* **The Deliverables:** 15 vertical video tips (e.g. *"how to write a resume"*).
-* **The Character:** "Maya" (A virtual HR consultant, styled in business-casual clothing).
-* **Monthly Agency P&L:**
-  * **Retainer Income:** **$2,000.00**
-  * **API Expenses:** 15 videos * $0.70/video = **$10.50**
-  * **Software Subscriptions:** ElevenLabs + CapCut Pro = **$45.00**
-  * **Net Agency Profit:** **$1,944.50 / month** (97% profit margin).
-  * **Time Spent:** ~5 hours per month to script, generate, and edit the batch.
+* **Klien:** Startup perangkat lunak perekrutan.
+* **Kesepakatan:** **$2.000/bulan** punggawa.
+* **The Deliverables:** 15 tips video vertikal (misalnya *"cara menulis resume"*).
+* **Karakter:** "Maya" (Konsultan SDM virtual, mengenakan pakaian kasual bisnis).
+* **P&L Agensi Bulanan:**
+* **Pendapatan Retainer:** **$2,000.00**
+* **Biaya API:** 15 video * $0,70/video = **$10,50**
+* **Langganan Perangkat Lunak:** ElevenLabs + CapCut Pro = **$45,00**
+* **Laba Bersih Agensi:** **$1.944,50 / bulan** (margin keuntungan 97%).
+* **Waktu yang Dihabiskan:** ~5 jam per bulan untuk membuat skrip, membuat, dan mengedit batch.
 
-**The Result:** The client gets a high-performing brand spokesperson posting consistently. The agency runs a high-value service with almost zero overhead, allowing a single editor to manage up to 4 clients simultaneously ($8,000/month gross).
+**Hasilnya:** Klien mendapatkan postingan juru bicara merek berkinerja tinggi secara konsisten. Agensi ini menjalankan layanan bernilai tinggi dengan hampir nol overhead, memungkinkan satu editor untuk mengelola hingga 4 klien secara bersamaan ($8.000/bulan kotor).
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Invoice & Payments | Deliverables Management | Client Onboarding |
+| Platform / Alat | Faktur & Pembayaran | Manajemen Hasil Kerja | Orientasi Klien |
 |---|---|---|---|
-| **Stripe Invoicing** | Safe, reliable, recurring card charges. | N/A | Sending professional corporate billing terms. |
-| **Google Drive / Dropbox** | Simple, reliable, direct folder sharing. | Direct upload of large video files. | Staging raw client assets and visual templates. |
-| **ClickUp / Slack** | Client task assignment and project milestones. | N/A | Complex agency operations with multiple clients. |
+| **Faktur Stripe** | Tagihan kartu berulang yang aman, andal. | T/A | Mengirim persyaratan penagihan perusahaan profesional. |
+| **Google Drive/Dropbox** | Berbagi folder secara langsung, sederhana dan andal. | Unggah langsung file video besar. | Pementasan aset klien mentah dan templat visual. |
+| **Klik Atas / Kendur** | Penetapan tugas klien dan pencapaian proyek. | T/A | Operasi agensi yang kompleks dengan banyak klien. |
 
-For small agencies, keep communication simple. Do not invite clients into complex Slack channels or project management spaces. Send monthly invoices via Stripe, manage script approvals via simple email, and deliver final files through a shared Google Drive folder.
-
----
-
-## Launch It
-
-**How to manage approval cycles:**
-* **Establish a Lock-In Milestone:** In your agreement, state that once a script is approved, it cannot be modified. This prevents the client from requesting voiceover or lip-sync re-renders (which cost you API credits) after the video is compiled.
-* **Re-render Fees:** If the client requests a visual revision due to a change in their script *after* approval, charge a flat **$50 re-render fee** per video to cover API credits and edit times.
+Untuk agensi kecil, jaga komunikasi tetap sederhana. Jangan mengundang klien ke saluran Slack yang kompleks atau ruang manajemen proyek. Kirim faktur bulanan melalui Stripe, kelola persetujuan skrip melalui email sederhana, dan kirimkan file akhir melalui folder Google Drive bersama.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Fill out the Influencer Agency Agreement template with a mock client and specify character ownership rules.
-2. **Medium:** Research three local business niches. Write a 1-paragraph pitch email for a virtual spokesperson tailored specifically to one of them.
-3. **Hard:** Project the monthly profit-and-loss sheet for an agency managing 3 distinct client avatars, factoring in all software subscriptions and API credits used for a 15-video/month delivery schedule.
+**Cara mengelola siklus persetujuan:**
+* **Tetapkan Pencapaian Penguncian:** Dalam perjanjian Anda, nyatakan bahwa setelah skrip disetujui, skrip tersebut tidak dapat diubah. Hal ini mencegah klien meminta perenderan ulang sulih suara atau sinkronisasi bibir (yang akan dikenakan biaya kredit API) setelah video dikompilasi.
+* **Biaya Render Ulang:** Jika klien meminta revisi visual karena perubahan skrip mereka *setelah* persetujuan, kenakan biaya tetap **$50 biaya render ulang** per video untuk menutupi kredit API dan waktu pengeditan.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md) — agency service contract covering character ownership, retainers, and revisions.
+1. **Mudah:** Isi templat Perjanjian Agensi Influencer dengan klien tiruan dan tentukan aturan kepemilikan karakter.
+2. **Medium:** Teliti tiga ceruk bisnis lokal. Tulis email promosi 1 paragraf untuk juru bicara virtual yang dirancang khusus untuk salah satu dari mereka.
+3. **Sulit:** Proyeksikan lembar laba-rugi bulanan untuk agensi yang mengelola 3 avatar klien berbeda, dengan memperhitungkan semua langganan perangkat lunak dan kredit API yang digunakan untuk jadwal pengiriman 15 video/bulan.
+
+---
+
+## Templat
+
+* [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md) — kontrak layanan agensi yang mencakup kepemilikan karakter, penahan, dan revisi.
 
 ---
 

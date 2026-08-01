@@ -1,28 +1,28 @@
-# Bulk Content Pricing Sheet
+# Lembar Harga Konten Massal
 
-Use this reference sheet to price your content factory packages. Avoid billing per hour; always package your services into flat-rate bulk bundles.
+Gunakan lembar referensi ini untuk menentukan harga paket pabrik konten Anda. Hindari penagihan per jam; selalu kemas layanan Anda ke dalam paket massal dengan tarif tetap.
 
 ---
 
-## Short-Form Vertical Packages (TikTok / Reels / Shorts)
+## Paket Vertikal Bentuk Pendek (TikTok / Reels / Shorts)
 
-| Package Name | Monthly Deliverables | What is Included | Target Price | Est. Production Cost (API) | Net Profit Margin |
+| Nama Paket | Kiriman Bulanan | Apa yang Termasuk | Target Harga | Perkiraan. Biaya Produksi (API) | Margin Laba Bersih |
 |---|:---:|---|:---:|:---:|:---:|
-| **Starter Batch** | 10 Videos | Scripting, TTS Audio, visual matching, subtitle styling. | **$600** | ~$10 | **98%** |
-| **Growth Factory** | 30 Videos | 30 videos (1/day schedule), custom thumbnails, title SEO tags. | **$1,500** | ~$30 | **98%** |
-| **Syndication Network** | 60 Videos | 60 videos (2/day schedule), multi-platform syndication setup, email funnel hook. | **$2,800** | ~$60 | **97%** |
+| **Batch Pemula** | 10 Video | Scripting, TTS Audio, pencocokan visual, gaya subtitle. | **$600** | ~$10 | **98%** |
+| **Pabrik Pertumbuhan** | 30 Video | 30 video (jadwal 1/hari), thumbnail khusus, tag SEO judul. | **$1.500** | ~$30 | **98%** |
+| **Jaringan Sindikasi** | 60 Video | 60 video (jadwal 2/hari), pengaturan sindikasi multi-platform, pengait saluran email. | **$2.800** | ~$60 | **97%** |
 
 ---
 
-## Long-Form / Repurposing Packages
+## Paket Berbentuk Panjang / Digunakan Kembali
 
-| Package Name | Monthly Deliverables | What is Included | Target Price | Est. Cost | Net Profit Margin |
+| Nama Paket | Kiriman Bulanan | Apa yang Termasuk | Target Harga | Perkiraan. Biaya | Margin Laba Bersih |
 |---|:---:|---|:---:|:---:|:---:|
-| **Podcast Highlight Pack** | 20 Clips | Clipping 20 highlights from long podcast feeds, auto-captioning, branding overlays. | **$1,200** | ~$15 | **98%** |
-| **Widescreen Explorer** | 4 Videos | Four 8-10 minute long-form narrative explainers, voiceovers, custom script structures. | **$2,000** | ~$40 | **98%** |
+| **Paket Sorotan Podcast** | 20 Klip | Memotong 20 sorotan dari feed podcast panjang, teks otomatis, overlay branding. | **$1.200** | ~$15 | **98%** |
+| **Penjelajah Layar Lebar** | 4 Video | Empat penjelasan naratif berdurasi 8-10 menit, sulih suara, struktur skrip khusus. | **$2.000** | ~$40 | **98%** |
 
 ---
 
-### Pricing Strategy:
-* **The Retainer Hook:** Offer a 10% discount if the client signs a 3-month retainer contract. This gives you predictable recurring income.
-* **Add-On: Upload Management:** Offer to post and schedule the videos directly to the client's channels for an extra **$300/month**. This takes 3 hours a month but increases contract value.
+### Strategi Penetapan Harga:
+* **Kait Retainer:** Tawarkan diskon 10% jika klien menandatangani kontrak penahan 3 bulan. Ini memberi Anda pendapatan berulang yang dapat diprediksi.
+* **Add-On: Manajemen Unggahan:** Tawarkan untuk memposting dan menjadwalkan video langsung ke saluran klien dengan tambahan **$300/bulan**. Ini membutuhkan 3 jam sebulan tetapi meningkatkan nilai kontrak.

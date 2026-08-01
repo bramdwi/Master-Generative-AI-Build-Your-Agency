@@ -1,25 +1,25 @@
-# 30-Day Production Calendar
+# Kalender Produksi 30 Hari
 
-Use this calendar to schedule, track, and bulk-release monthly short-form or long-form videos across three channels.
-
----
-
-**Month:** __________________  
-**Goal:** 30 Videos per Channel (90 total posts syndicated across platforms).
-
-## Production Batching Plan
-
-* **Week 1 (Days 1-5):** Research keywords and script all 30 videos.
-* **Week 2 (Days 6-8):** Generate and clean all 30 voice narration tracks.
-* **Week 3 (Days 9-12):** Queue and generate all visual clips and background templates.
-* **Week 4 (Days 13-17):** Timeline editing, auto-captioning, and master rendering.
-* **Week 5 (Days 18-20):** Batch scheduling and SEO setup inside native schedulers.
+Gunakan kalender ini untuk menjadwalkan, melacak, dan merilis secara massal video bulanan berdurasi pendek atau panjang di tiga saluran.
 
 ---
 
-## 30-Day Calendar Matrix
+**Bulan:** __________________
+**Sasaran:** 30 Video per Saluran (total 90 postingan disindikasikan di seluruh platform).
 
-| Day | Video Title / Niche | Voice Status | Visuals Status | Edited Status | Scheduled Date | Upload Platforms (YT/TT/IG) |
+## Rencana Batching Produksi
+
+* **Minggu 1 (Hari 1-5):** Riset kata kunci dan skrip ke-30 video.
+* **Minggu 2 (Hari 6-8):** Menghasilkan dan membersihkan seluruh 30 trek narasi suara.
+* **Minggu 3 (Hari 9-12):** Mengantri dan membuat semua klip visual dan templat latar belakang.
+* **Minggu 4 (Hari 13-17):** Pengeditan garis waktu, pembuatan teks otomatis, dan rendering master.
+* **Minggu 5 (Hari 18-20):** Penjadwalan batch dan penyiapan SEO di dalam penjadwal asli.
+
+---
+
+## Matriks Kalender 30 Hari
+
+| Hari | Judul Video / Ceruk | Status Suara | Status Visual | Status Diedit | Tanggal yang Dijadwalkan | Platform Unggah (YT/TT/IG) |
 |---|---|:---:|:---:|:---:|---|:---:|
 | **01** | | [ ] | [ ] | [ ] | | [ ] YT [ ] TT [ ] IG |
 | **02** | | [ ] | [ ] | [ ] | | [ ] YT [ ] TT [ ] IG |
@@ -31,4 +31,4 @@ Use this calendar to schedule, track, and bulk-release monthly short-form or lon
 | | | | | | | |
 | | | | | | | |
 
-*Keep rolling 1 week ahead of release so you always have a buffer.*
+*Terus bergulir 1 minggu sebelum rilis sehingga Anda selalu memiliki buffer.*

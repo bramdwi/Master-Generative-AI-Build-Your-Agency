@@ -1,32 +1,32 @@
-# POD Unit Economics & Pricing Calculator Sheet
+# Lembar Kalkulator Ekonomi & Harga Unit POD
 
-Use this reference sheet to calculate base production costs, platform fees, and net profit margins across core product categories.
+Gunakan lembar referensi ini untuk menghitung biaya produksi dasar, biaya platform, dan margin laba bersih di seluruh kategori produk inti.
 
 ---
 
-## 📊 Product Pricing & Margin Breakdown
+## 📊 Penetapan Harga Produk & Perincian Margin
 
-| Product Category | Base Print Cost | Shipping Cost | Total COGS | Target Retail Price | Etsy / Shopify Fees | Net Profit / Sale | Net Margin % |
+| Kategori Produk | Biaya Cetak Dasar | Biaya Pengiriman | Jumlah HPP | Target Harga Eceran | Biaya Etsy / Shopify | Laba / Penjualan Bersih | Margin Bersih% |
 |---|---|---|---|---|---|---|---|
-| **Unisex T-Shirt (Bella 3001)** | $9.25 | $4.75 | $14.00 | **$24.99** | $2.50 | **$8.49** | **34.0%** |
-| **Ceramic Mug (11oz White)** | $4.50 | $5.00 | $9.50 | **$17.99** | $1.80 | **$6.69** | **37.2%** |
-| **Heavyweight Hoodie (Gildan 18000)** | $18.50 | $7.50 | $26.00 | **$44.99** | $4.50 | **$14.49** | **32.2%** |
-| **Canvas Tote Bag (15x15")** | $6.00 | $4.50 | $10.50 | **$19.99** | $2.00 | **$7.49** | **37.5%** |
+| **Kaos Uniseks (Bella 3001)** | $9,25 | $4,75 | $14,00 | **$24,99** | $2,50 | **$8,49** | **34,0%** |
+| **Mug Keramik (11oz Putih)** | $4,50 | $5,00 | $9,50 | **$17,99** | $1,80 | **$6,69** | **37,2%** |
+| **Hoodie Kelas Berat (Gildan 18000)** | $18,50 | $7,50 | $26,00 | **$44,99** | $4,50 | **$14,49** | **32,2%** |
+| **Tas Tote Kanvas (15x15")** | $6,00 | $4,50 | $10,50 | **$19,99** | $2,00 | **$7,49** | **37,5%** |
 
 ---
 
-## 💸 Marketplace Fee Structure Breakdown
+## 💸 Rincian Struktur Biaya Pasar
 
-* **Etsy Listing Fee:** $0.20 per published listing (renews every 4 months or upon sale).
-* **Etsy Transaction Fee:** 6.5% of total sale price (including shipping charged to customer).
-* **Etsy Payment Processing:** 3.0% + $0.25 flat transaction fee.
-* **Etsy Offsite Ads (Optional):** 12% to 15% fee on attributed sales (can be disabled for stores under $10k annual sales).
+* **Biaya Pendaftaran Etsy:** $0,20 per listingan yang diterbitkan (diperbarui setiap 4 bulan atau setelah penjualan).
+* **Biaya Transaksi Etsy:** 6,5% dari total harga jual (termasuk ongkos kirim dibebankan kepada pelanggan).
+* **Pemrosesan Pembayaran Etsy:** 3,0% + biaya transaksi tetap $0,25.
+* **Iklan Luar Situs Etsy (Opsional):** Biaya 12% hingga 15% untuk penjualan yang diatribusikan (dapat dinonaktifkan untuk toko dengan penjualan tahunan di bawah $10k).
 
 ---
 
-## 📈 Passive Monthly Income Matrix (Catalog Size Projections)
+## 📈 Matriks Pendapatan Bulanan Pasif (Proyeksi Ukuran Katalog)
 
-Assuming standard **2.0% store conversion rate** and average **$8.50 profit per order**:
+Dengan asumsi standar **tingkat konversi toko 2,0%** dan rata-rata **keuntungan $8,50 per pesanan**:
 
 ```
 Catalog Size: 25 Listings   ──► 2,500 Monthly Visitors   ──► 50 Orders  ──► $425 / Month Profit

@@ -1,25 +1,25 @@
-# Character Consistency Checklist
+# Daftar Periksa Konsistensi Karakter
 
-From [Module 2: Character & Face Consistency](../02-character-consistency.md). Before delivering a batch, compare all generated shots of the same character against these.
+Dari [Module 2: Character & Face Consistency](../02-character-consistency.md). Sebelum mengirimkan batch, bandingkan semua gambar yang dihasilkan dari karakter yang sama dengan gambar tersebut.
 
-## Filled example
+## Contoh yang diisi
 
-Using the real anchor portrait from Module 2's Worked Example (woman, late 20s, brown hair, freckles), fed as a reference into `nano-banana-2-edit` for 3 actual generations — [car interior](../02-character-consistency.md), kitchen counter, walking outside:
+Menggunakan potret jangkar asli dari Contoh Kerja Modul 2 (wanita, akhir 20-an, rambut cokelat, bintik-bintik), dimasukkan sebagai referensi ke `nano-banana-2-edit` untuk 3 generasi sebenarnya — [car interior](../02-character-consistency.md), meja dapur, berjalan di luar:
 
-| Check | Car interior | Kitchen counter | Walking outside |
+| Periksa | Interior mobil | Meja dapur | Berjalan di luar |
 |---|---|---|---|
-| Facial structure matches anchor | ✅ | ✅ | ✅ |
-| Apparent age consistent | ✅ | ✅ | ✅ |
-| Freckles present | ✅ | ✅ | ✅ |
-| Skin tone/lighting shift | Matches anchor | Matches anchor | Different (outdoor) lighting, identity still holds |
-| Outfit continuity (if same scene) | n/a — different shots | n/a | n/a |
+| Struktur wajah cocok dengan jangkar | ✅ | ✅ | ✅ |
+| Usia yang tampak konsisten | ✅ | ✅ | ✅ |
+| Bintik-bintik hadir | ✅ | ✅ | ✅ |
+| Warna kulit/pergeseran pencahayaan | Cocok dengan jangkar | Cocok dengan jangkar | Beda pencahayaan (outdoor), identitas tetap dipegang |
+| Kontinuitas pakaian (jika adegan sama) | t/a — bidikan berbeda | tidak ada | tidak ada |
 
-**Verdict:** no drift across any of the 3, including the outdoor shot with very different lighting from the anchor. This is what reference-image conditioning done right looks like — the reference image was passed to an *edit*-capable model (not a fresh text-only prompt), and the prompt described only the setting, never the face. If you see drift in your own attempts, check those two things first before assuming the model just can't hold identity.
+**Putusan:** tidak ada penyimpangan pada salah satu dari ketiganya, termasuk pengambilan gambar di luar ruangan dengan pencahayaan yang sangat berbeda dari jangkar. Seperti inilah pengkondisian gambar referensi yang dilakukan dengan benar - gambar referensi diteruskan ke model berkemampuan *edit* (bukan perintah hanya teks baru), dan perintah tersebut hanya menjelaskan pengaturannya, bukan wajahnya. Jika Anda melihat penyimpangan dalam upaya Anda sendiri, periksa kedua hal tersebut terlebih dahulu sebelum berasumsi bahwa model tersebut tidak dapat memiliki identitas.
 
-## Blank checklist
+## Daftar periksa kosong
 
-- [ ] Facial structure matches across shots (face shape, eye spacing, nose)
-- [ ] Apparent age is consistent
-- [ ] Any distinguishing features (freckles, scars, specific hairstyle) appear in every shot
-- [ ] Skin tone/lighting doesn't shift the apparent identity
-- [ ] If outfit should stay the same across a scene, check continuity between cuts
+- [ ] Struktur wajah cocok dengan seluruh bidikan (bentuk wajah, jarak mata, hidung)
+- [ ] Usia yang tampak konsisten
+- [ ] Ciri khas apa pun (bintik-bintik, bekas luka, gaya rambut tertentu) muncul di setiap bidikan
+- [ ] Warna/pencahayaan kulit tidak mengubah identitas yang terlihat
+- [ ] Jika pakaian harus tetap sama di seluruh adegan, periksa kontinuitas antar potongan

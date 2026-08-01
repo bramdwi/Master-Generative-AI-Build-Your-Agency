@@ -1,56 +1,56 @@
-# Micro-Tool Product Page Copy Template
+# Templat Salinan Halaman Produk Alat Mikro
 
-Use this to write your Gumroad or LemonSqueezy product listing. High-converting product pages lead with time saved, not feature lists.
-
----
-
-## 📝 Product Page Copy
-
-### Headline (The Outcome — not the Tool Name)
-> `[Time or Money Saved] in [How Long] — [What the Tool Does]`
-
-*Example: "Generate 30 IPTC Stock Keywords for Every Image in 4 Minutes"*
-*Example: "Write 3 Etsy SEO Titles Per Product — Automatically"*
-*Example: "Send 50 FLUX Prompts to muapi in One Click"*
-
-Write 3 headline variations below, then pick the strongest:
-1. `___`
-2. `___`
-3. `___`
+Gunakan ini untuk menulis daftar produk Gumroad atau LemonSqueezy Anda. Halaman produk dengan konversi tinggi memimpin dengan penghematan waktu, bukan daftar fitur.
 
 ---
 
-### The Pain (1–2 Sentences)
-> Describe the exact problem the buyer faces right now.
+## 📝 Salinan Halaman Produk
 
-*Example: "Manually tagging 100 stock images with IPTC keywords takes 25+ hours. This Python script processes your entire batch in under 4 minutes — automatically."*
+### Judul (Hasil — bukan Nama Alat)
+> __KODE INLINE_0__
 
-`[Your pain statement]`
+*Contoh: "Hasilkan 30 Kata Kunci Stok IPTC untuk Setiap Gambar dalam 4 Menit"*
+*Contoh: "Tulis 3 Judul SEO Etsy Per Produk — Secara Otomatis"*
+*Contoh: "Kirim 50 FLUX Prompt ke muapi dalam Satu Klik"*
 
----
-
-### What's Included (Bullet List)
-> List every file in the download zip.
-
-- `[tool-name].py` — The main script (Python 3.10+, runs on Mac, Windows, and Linux).
-- `README.md` — Plain-English installation and usage guide (no coding experience needed).
-- `sample_input.[ext]` — A ready-to-use example input file.
-- `sample_output.[ext]` — The expected output so you know exactly what to expect.
-- `requirements.txt` — One-command package installation (`pip install -r requirements.txt`).
+Tulis 3 variasi judul di bawah ini, lalu pilih yang paling kuat:
+1. __KODE INLINE_0__
+2. __KODE INLINE_0__
+3. __KODE INLINE_0__
 
 ---
 
-### Who It's For
-> Name the exact type of buyer and their context.
+### Rasa Sakit (1–2 Kalimat)
+> Jelaskan masalah sebenarnya yang dihadapi pembeli saat ini.
 
-*Example: "Built for Adobe Stock and Freepik contributors who upload 50+ commercial images per batch and currently spend hours manually typing keywords into the contributor portal."*
+*Contoh: "Menandai 100 gambar stok dengan kata kunci IPTC secara manual membutuhkan waktu lebih dari 25 jam. Skrip Python ini memproses seluruh batch Anda dalam waktu kurang dari 4 menit — secara otomatis."*
 
-`[Your who-it's-for statement]`
+__KODE INLINE_0__
 
 ---
 
-### The Price Anchor (Time vs. Cost Comparison)
-> Show the cost of the alternative — manual work.
+### Apa yang Termasuk (Daftar Butir)
+> Cantumkan setiap file di zip unduhan.
+
+- `[tool-name].py` — Skrip utama (Python 3.10+, berjalan di Mac, Windows, dan Linux).
+- `README.md` — Panduan instalasi dan penggunaan dalam bahasa Inggris biasa (tidak diperlukan pengalaman coding).
+- `sample_input.[ext]` — Contoh file masukan yang siap digunakan.
+- `sample_output.[ext]` — Output yang diharapkan sehingga Anda tahu persis apa yang diharapkan.
+- `requirements.txt` — Instalasi paket satu perintah (`pip install -r requirements.txt`).
+
+---
+
+### Untuk Siapa
+> Sebutkan jenis pembeli yang tepat dan konteksnya.
+
+*Contoh: "Dibuat untuk kontributor Adobe Stock dan Freepik yang mengunggah 50+ gambar komersial per batch dan saat ini menghabiskan waktu berjam-jam mengetik kata kunci secara manual ke portal kontributor."*
+
+__KODE INLINE_0__
+
+---
+
+### Jangkar Harga (Perbandingan Waktu vs. Biaya)
+> Tunjukkan biaya alternatifnya — pekerjaan manual.
 
 ```
 Manual alternative:
@@ -60,45 +60,45 @@ Manual alternative:
 This tool: $[YOUR PRICE] — one-time.
 ```
 
-`[Fill in your numbers]`
+__KODE INLINE_0__
 
 ---
 
-### FAQ (2–3 Common Questions)
+### FAQ (2–3 Pertanyaan Umum)
 
-**Do I need to know how to code?**
-No. The README walks you through every step. If you can open a terminal and type one command, you can run this tool.
+**Apakah saya perlu mengetahui cara membuat kode?**
+Tidak. README memandu Anda melalui setiap langkah. Jika Anda dapat membuka terminal dan mengetikkan satu perintah, Anda dapat menjalankan alat ini.
 
-**What operating systems does it support?**
-Mac, Windows, and Linux. Any system with Python 3.10+ installed.
+**Sistem operasi apa yang didukungnya?**
+Mac, Windows, dan Linux. Sistem apa pun yang menginstal Python 3.10+.
 
-**Do I need an API key?**
-`[Yes — you need a [OpenAI/muapi] API key, which costs roughly $X per [N] runs. OR: No — this tool runs entirely offline.]`
+**Apakah saya memerlukan kunci API?**
+__KODE INLINE_0__
 
 ---
 
-## 💰 Pricing Strategy Reference
+## 💰 Referensi Strategi Penetapan Harga
 
-| Your Tool's Monthly Value to Buyer | Recommended Price |
+| Nilai Bulanan Alat Anda bagi Pembeli | Harga yang Direkomendasikan |
 |---|---|
-| Saves < 2 hours/month | $9 – $19 |
-| Saves 2–5 hours/month | $19 – $39 |
-| Saves 5–10 hours/month | $39 – $59 |
-| Saves 10+ hours/month | $59 – $99 |
+| Menghemat < 2 jam/bulan | $9 – $19 |
+| Menghemat 2–5 jam/bulan | $19 – $39 |
+| Menghemat 5–10 jam/bulan | $39 – $59 |
+| Menghemat 10+ jam/bulan | $59 – $99 |
 
-**Pricing Psychology Tips:**
-* End prices in `9` (e.g., $29 not $30) — consistently converts 10–15% better.
-* Set a "suggested price" above the floor if using Pay-What-You-Want — most buyers pay the suggested price or higher.
-* Avoid pricing below $15 — signals low value and attracts high-maintenance refund-seekers.
+**Tips Psikologi Penetapan Harga:**
+* Harga akhir dalam `9` (mis., $29 bukan $30) — secara konsisten menghasilkan konversi 10–15% lebih baik.
+* Tetapkan "harga yang disarankan" di atas harga dasar jika menggunakan Bayar Sesuai Keinginan Anda — sebagian besar pembeli membayar harga yang disarankan atau lebih tinggi.
+* Hindari menetapkan harga di bawah $15 — menandakan nilai rendah dan menarik pencari pengembalian dana dengan biaya pemeliharaan tinggi.
 
 ---
 
-## 📣 Affiliate Program Setup
+## 📣 Pengaturan Program Afiliasi
 
-| Platform | Where to Set Up | Recommended Commission |
+| Peron | Tempat Mengatur | Komisi yang Direkomendasikan |
 |---|---|---|
-| **Gumroad** | Dashboard → Affiliates → Add Affiliate | 30–40% |
-| **LemonSqueezy** | Affiliates → Create Program | 30–40% |
+| **Jalan Karet** | Dasbor → Afiliasi → Tambahkan Afiliasi | 30–40% |
+| **Perasan Lemon** | Afiliasi → Buat Program | 30–40% |
 
-**Affiliate outreach message template:**
-> *"Hey [Creator Name], I just launched a tool that [one-sentence value prop]. Since your audience overlaps with [buyer type], I think they'd find it really useful. I'm offering 35% commission — you'd earn $[X] per sale with zero ongoing effort. Want me to send you a free copy to try?"*
+**Templat pesan penjangkauan afiliasi:**
+> *"Hai [Nama Pembuat Konten], saya baru saja meluncurkan alat yang [mendukung nilai satu kalimat]. Karena audiens Anda tumpang tindih dengan [tipe pembeli], menurut saya mereka akan merasakan manfaatnya. Saya menawarkan komisi 35% — Anda akan mendapatkan $[X] per penjualan tanpa upaya berkelanjutan. Ingin saya mengirimi Anda salinan gratis untuk dicoba?"*

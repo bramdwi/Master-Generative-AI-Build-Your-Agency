@@ -1,27 +1,27 @@
-# Podcast Production & Audio Cleaning Sheet
+# Produksi Podcast & Lembar Pembersihan Audio
 
-Use this sheet to specify your audio cleaning parameters, equalization thresholds, and mastering targets to output professional studio-quality voice tracks.
+Gunakan lembar ini untuk menentukan parameter pembersihan audio, ambang pemerataan, dan target mastering untuk menghasilkan trek suara berkualitas studio profesional.
 
 ---
 
-**Podcast Episode:** ________________________  
-**Raw Vocal Level (Avg Peak):** _________ dB  
+**Episode Podcast:** __________
+**Tingkat Vokal Mentah (Puncak Rata-Rata):** _________ dB
 
-## 1. Clean-Up Station (Noise & Hum Removal)
-* **Noise Gate Threshold:** `________` dB (Standard: -45dB to -50dB to silence gaps).
-* **High-Pass Filter (HPF):** Cut everything below `________` Hz (Standard: 80Hz for male voice, 100Hz for female voice to remove rumble).
-* **De-Esser Threshold:** `________` dB (Standard: target sibilance frequencies between 4kHz - 8kHz).
+## 1. Stasiun Pembersihan (Penghilangan Kebisingan & Hum)
+* **Ambang Batas Kebisingan:** `________` dB (Standar: -45dB hingga -50dB untuk membungkam celah).
+* **High-Pass Filter (HPF):** Potong semuanya di bawah `________` Hz (Standar: 80Hz untuk suara pria, 100Hz untuk suara wanita untuk menghilangkan gemuruh).
+* **Ambang Batas De-Esser:** `________` dB (Standar: frekuensi sibilance target antara 4kHz - 8kHz).
 
-## 2. Equalization (EQ) & Compression Settings
-* **EQ Boost Points:**
-  * Presence boost (clarity): +2dB at `________` kHz (Standard: 3kHz - 5kHz).
-  * Low boost (warmth): +1.5dB at `________` Hz (Standard: 120Hz - 150Hz).
-* **Compressor Settings:**
-  * Ratio: `________` (Standard: 3:1 or 4:1 for dialogue).
-  * Attack: `________` ms (Standard: 10ms - 15ms).
-  * Release: `________` ms (Standard: 100ms - 200ms).
+## 2. Pengaturan Ekualisasi (EQ) & Kompresi
+* **Poin Peningkatan EQ:**
+* Peningkatan kehadiran (kejelasan): +2dB pada `________` kHz (Standar: 3kHz - 5kHz).
+* Dorongan rendah (kehangatan): +1,5dB pada `________` Hz (Standar: 120Hz - 150Hz).
+* **Pengaturan Kompresor:**
+* Rasio: `________` (Standar: 3:1 atau 4:1 untuk dialog).
+* Serangan: `________` md (Standar: 10 md - 15 md).
+* Rilis: `________` mdtk (Standar: 100 md - 200 md).
 
-## 3. Mastering Targets (Loudness Check)
-* **Mono Dialogue Target:** **-19 LUFS** (Standard for mono speech podcasts).
-* **Stereo Master Target:** **-16 LUFS** (Standard for stereo tracks with background music).
-* **True Peak Limit:** **-1.0 dBTP** (To prevent clipping and distortion on mobile devices).
+## 3. Penguasaan Target (Pemeriksaan Kenyaringan)
+* **Target Dialog Mono:** **-19 LUFS** (Standar untuk podcast pidato mono).
+* **Target Master Stereo:** **-16 LUFS** (Standar untuk trek stereo dengan musik latar).
+* **Batas Puncak Sejati:** **-1,0 dBTP** (Untuk mencegah kliping dan distorsi pada perangkat seluler).

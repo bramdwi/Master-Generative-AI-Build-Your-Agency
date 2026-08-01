@@ -1,82 +1,82 @@
-# Track 4 — AI Content Factories
+# Track 4 - Pabrik Konten AI
 
-> Bulk content generation, scripting batches, automated pipelines, and recurring social retainers.
+> Pembuatan konten massal, kumpulan skrip, saluran otomatis, dan pengikut sosial berulang.
 
-Six modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (specs sheets, loop blueprints, proposals) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, cetak biru loop, proposal) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [The Multi-Step Production Pipeline](01-production-pipeline.md) | ~40 min | — |
-| 2 | [Building a TikTok/Reels Factory](02-tiktok-reels-factory.md) | ~45 min | Module 1 |
-| 3 | [Building a YouTube Shorts Factory](03-youtube-shorts-factory.md) | ~45 min | Modules 1–2 |
-| 4 | [AI Thumbnail Design](04-thumbnail-design.md) | ~40 min | Module 1 |
-| 5 | [Batching & Scheduling at Volume](05-batching-and-scheduling.md) | ~35 min | Modules 1, 3 |
-| 6 | [Selling Content-Factory Output as a Service](06-selling-content-services.md) | ~30 min | Modules 1, 5 |
+| 1 | [The Multi-Step Production Pipeline](01-production-pipeline.md) | ~40 menit | — |
+| 2 | [Building a TikTok/Reels Factory](02-tiktok-reels-factory.md) | ~45 menit | Modul 1 |
+| 3 | [Building a YouTube Shorts Factory](03-youtube-shorts-factory.md) | ~45 menit | Modul 1–2 |
+| 4 | [AI Thumbnail Design](04-thumbnail-design.md) | ~40 menit | Modul 1 |
+| 5 | [Batching & Scheduling at Volume](05-batching-and-scheduling.md) | ~35 menit | Modul 1, 3 |
+| 6 | [Selling Content-Factory Output as a Service](06-selling-content-services.md) | ~30 menit | Modul 1, 5 |
 
 ---
 
-### 1. [The Multi-Step Production Pipeline](01-production-pipeline.md)
+### 1.[The Multi-Step Production Pipeline](01-production-pipeline.md)
 
-> A factory is built on stations, not tasks.
+> Pabrik dibangun berdasarkan stasiun, bukan tugas.
 
-- Standardize local and cloud storage setups to support batched content runs.
-- Map out and separate video assembly into discrete, unidirectional stations.
-- Audit export media parameters against strict platform specs to avoid revision loops.
+- Standarisasi pengaturan penyimpanan lokal dan cloud untuk mendukung pengoperasian konten batch.
+- Petakan dan pisahkan kumpulan video ke dalam stasiun-stasiun yang terpisah dan searah.
+- Audit parameter media ekspor terhadap spesifikasi platform yang ketat untuk menghindari putaran revisi.
 
-**Templates:** [`pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) · [`asset-specs-checklist.md`](templates/asset-specs-checklist.md)
+**Templat:** [`pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) · [`asset-specs-checklist.md`](templates/asset-specs-checklist.md)
 
-### 2. [Building a TikTok/Reels Factory](02-tiktok-reels-factory.md)
+### 2.[Building a TikTok/Reels Factory](02-tiktok-reels-factory.md)
 
-> Attention is won in the first half-second, and kept with kinetic movement.
+> Perhatian diperoleh pada paruh kedua pertama, dan dipertahankan dengan gerakan kinetik.
 
-- Structure 9:16 vertical layouts with continuous Ken Burns motion effects to maintain viewer focus.
-- Style micro-word auto-captions (1-3 words) using bold high-contrast outlines and yellow keyword highlighting.
-- Position timeline text overlays strictly inside safe zone grids to avoid overlapping interface icons.
+- Susun tata letak vertikal 9:16 dengan efek gerakan Ken Burns yang berkelanjutan untuk mempertahankan fokus pemirsa.
+- Gaya teks otomatis kata mikro (1-3 kata) menggunakan garis tebal kontras tinggi dan penyorotan kata kunci berwarna kuning.
+- Posisikan hamparan teks garis waktu tepat di dalam kisi zona aman untuk menghindari ikon antarmuka yang tumpang tindih.
 
-**Templates:** [`tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md)
+**Templat:** [`tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md)
 
-### 3. [Building a YouTube Shorts Factory](03-youtube-shorts-factory.md)
+### 3.[Building a YouTube Shorts Factory](03-youtube-shorts-factory.md)
 
-> A video that never ends is watched forever.
+> Video yang tidak pernah berakhir ditonton selamanya.
 
-- Construct scripts using loop-sentence formulas where the ending half-sentence connects seamlessly back into the hook.
-- Crop tail silence frames down to the millisecond to hide loop boundaries.
-- Lock background audio levels across loop transitions to keep video replays silent and continuous.
+- Buatlah skrip menggunakan rumus kalimat perulangan di mana setengah kalimat akhir terhubung kembali dengan mulus ke dalam hook.
+- Pangkas frame keheningan ekor hingga milidetik untuk menyembunyikan batas loop.
+- Kunci level audio latar belakang di seluruh transisi loop untuk menjaga pemutaran ulang video senyap dan berkelanjutan.
 
-**Templates:** [`shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md)
+**Templat:** [`shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md)
 
-### 4. [AI Thumbnail Design](04-thumbnail-design.md)
+### 4.[AI Thumbnail Design](04-thumbnail-design.md)
 
-> The title gets them to think; the thumbnail gets them to click.
+> Judulnya membuat mereka berpikir; thumbnail membuat mereka mengklik.
 
-- Generate high-CTR background assets using `nano-banana-2` (16:9 and 1:1 layouts).
-- Position primary subjects and bold, short text overlays using rule-of-thirds splits.
-- Contrast and saturate images by 10-15% to check readability at mobile coin sizes.
+- Hasilkan aset latar belakang dengan RKT tinggi menggunakan `nano-banana-2` (tata letak 16:9 dan 1:1).
+- Posisikan subjek utama dan hamparan teks pendek dan tebal menggunakan pembagian aturan sepertiga.
+- Kontras dan saturasi gambar sebesar 10-15% untuk memeriksa keterbacaan pada ukuran koin seluler.
 
-**Templates:** [`thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md)
+**Templat:** [`thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md)
 
-### 5. [Batching & Scheduling at Volume](05-batching-and-scheduling.md)
+### 5.[Batching & Scheduling at Volume](05-batching-and-scheduling.md)
 
-> Consistency is scheduled; chaos is manual.
+> Konsistensi dijadwalkan; kekacauan itu manual.
 
-- Establish temporal batch schedules (scripting, voice generation, visual rendering, and editing blocks).
-- Queue monthly short runs and automate releases using native platform Studios.
-- Syndicating vertical videos across multiple platforms using automated clipping generators.
+- Tetapkan jadwal batch temporal (pembuatan skrip, pembuatan suara, rendering visual, dan blok pengeditan).
+- Antrean jangka pendek bulanan dan otomatisasi rilis menggunakan platform asli Studios.
+- Menyindikasikan video vertikal di berbagai platform menggunakan generator kliping otomatis.
 
-**Templates:** [`30-day-production-calendar.md`](templates/30-day-production-calendar.md)
+**Templat:** [`30-day-production-calendar.md`](templates/30-day-production-calendar.md)
 
-### 6. [Selling Content-Factory Output as a Service](06-selling-content-services.md)
+### 6.[Selling Content-Factory Output as a Service](06-selling-content-services.md)
 
-> Businesses don't want views; they want the consistency that builds views.
+> Dunia usaha tidak menginginkan penayangan; mereka menginginkan konsistensi yang membangun pandangan.
 
-- Package content creation into monthly recurring retainer bundles instead of charging per hour.
-- Customize corporate service proposals detailing delivery timelines and revision caps.
-- Invoice and collect retainer payments upfront using recurring Stripe billing links.
+- Kemas pembuatan konten ke dalam paket penahan rutin bulanan, bukan membebankan biaya per jam.
+- Sesuaikan proposal layanan perusahaan yang merinci jadwal pengiriman dan batas revisi.
+- Buat faktur dan kumpulkan pembayaran penahan di muka menggunakan tautan penagihan Stripe berulang.
 
-**Templates:** [`agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) · [`bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md)
+**Templat:** [`agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) · [`bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 12 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 12 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

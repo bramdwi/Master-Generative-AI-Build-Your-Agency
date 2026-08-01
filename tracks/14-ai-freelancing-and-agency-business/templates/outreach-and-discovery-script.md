@@ -1,12 +1,12 @@
-# Outbound Outreach & Discovery Sales Script Playbook
+# Buku Pedoman Skrip Penjualan Penjangkauan & Penemuan Keluar
 
-Use these tested cold email templates, LinkedIn B2B message sequences, discovery call scripts, and objection-handling scripts to acquire and close $5,000+ AI creation clients.
+Gunakan templat email dingin yang telah teruji ini, urutan pesan B2B LinkedIn, skrip panggilan penemuan, dan skrip penanganan keberatan untuk memperoleh dan menutup klien pembuatan AI senilai $5.000+.
 
 ---
 
-## 📧 1. Outbound Cold Email Sequences
+## 📧 1. Urutan Email Dingin Keluar
 
-### Sequence A — B2B Corporate Headshots (Tech / Remote Teams)
+### Urutan A — Headshot Perusahaan B2B (Tim Teknologi / Jarak Jauh)
 
 ```text
 SUBJECT: Quick question re: [Company Name] team headshots
@@ -26,7 +26,7 @@ Best,
 Managing Director | [Your Agency Name]
 ```
 
-### Sequence B — E-Commerce Apparel Renders & Ads
+### Urutan B — Render & Iklan Pakaian E-Commerce
 
 ```text
 SUBJECT: New asset pipeline for [Brand Name]'s Q3 catalog
@@ -48,28 +48,28 @@ Best,
 
 ---
 
-## 💬 2. The 20-Minute Sales Discovery Call Script
+## 💬 2. Skrip Panggilan Penemuan Penjualan 20 Menit
 
-### 0 – 3 Min: Agenda & Frame Setting
-> *"Hi [Client Name], thanks for jumping on! The goal of our call today is to learn a bit more about [Company Name]'s current content pipeline, see if our AI asset workflow is a fit for your Q3 goals, and if so, outline what a trial project would look like. Sound like a good plan?"*
+### 0 – 3 Menit: Pengaturan Agenda & Bingkai
+> *"Hai [Nama Klien], terima kasih telah bergabung! Tujuan dari panggilan kami hari ini adalah untuk mempelajari lebih lanjut tentang saluran konten [Nama Perusahaan] saat ini, melihat apakah alur kerja aset AI kami sesuai dengan sasaran Q3 Anda, dan jika demikian, jelaskan seperti apa proyek uji coba itu. Kedengarannya seperti rencana yang bagus?"*
 
-### 3 – 10 Min: Diagnostic Questions
-> *"To start off, what was your total expenditure on traditional photo and video shoots over the past 12 months?"*  
-> *"How long did it take from booking a photographer to getting final retouched files back for your last campaign?"*  
-> *"What is the single biggest bottleneck your team faces right now when launching new marketing campaigns?"*
+### 3 – 10 Menit: Pertanyaan Diagnostik
+> *"Pertama-tama, berapa total pengeluaran Anda untuk pengambilan foto dan video tradisional selama 12 bulan terakhir?"*
+> *"Berapa lama waktu yang dibutuhkan mulai dari memesan fotografer hingga mendapatkan kembali file akhir yang telah diperbaiki untuk kampanye terakhir Anda?"*
+> *"Apa hambatan terbesar yang dihadapi tim Anda saat ini ketika meluncurkan kampanye pemasaran baru?"*
 
-### 10 – 15 Min: Prototype Demo & Value Anchor
-> *"Let me share my screen. Here is an interactive comparison slider of a raw selfie vs. our 8k studio headshot pipeline. As you can see, our identity locking system preserves 100% skin texture while applying professional Rembrandt lighting. We delivered this entire 50-person roster in under 24 hours for $4,500—compared to the $22,000 traditional quote they received."*
+### 10 – 15 Menit: Demo Prototipe & Jangkar Nilai
+> *"Izinkan saya membagikan layar saya. Ini adalah penggeser perbandingan interaktif dari selfie mentah vs. pipeline headshot studio 8k kami. Seperti yang Anda lihat, sistem penguncian identitas kami mempertahankan 100% tekstur kulit sambil menerapkan pencahayaan Rembrandt profesional. Kami mengirimkan seluruh daftar 50 orang ini dalam waktu kurang dari 24 jam seharga $4.500—dibandingkan dengan penawaran tradisional $22.000 yang mereka terima."*
 
-### 15 – 20 Min: The Close
-> *"Based on your goal of updating 40 employee headshots by end of month, our Professional Package at $5,500 is the exact fit. I can send over our standard 1-page SOW for your sign-off today so we can begin processing initial drafts by tomorrow morning. Does that work for your timeline?"*
+### 15 – 20 Menit: Penutupan
+> *"Berdasarkan tujuan Anda memperbarui 40 foto karyawan pada akhir bulan, Paket Profesional kami seharga $5.500 adalah pilihan yang tepat. Saya dapat mengirimkan SOW 1 halaman standar kami untuk persetujuan Anda hari ini sehingga kami dapat mulai memproses draf awal besok pagi. Apakah itu sesuai dengan timeline Anda?"*
 
 ---
 
-## 🛡️ 3. Handling Live Client Objections
+## 🛡️ 3. Menangani Keberatan Klien Langsung
 
-| Objection | Script Response |
+| Keberatan | Respon Skrip |
 |---|---|
-| **"Isn't AI media recognizable?"** | *"Low-grade public tools look fake. We build custom LoRA identity locks and lighting control rigs that produce photorealistic 8k output matching traditional DSLR cameras. Here is a side-by-side test—can you tell which one is AI?"* |
-| **"Why not do this internally?"** | *"Midjourney is just software—like Photoshop. Having Photoshop doesn't make someone a professional commercial designer. You are paying for our custom workflows, DPI print scaling, prompt architecture, and enterprise IP clearance."* |
-| **"Can you do it cheaper?"** | *"We’d love to work with your $3,000 budget! To fit within that investment, we can adjust the package from 60 renders down to 25 renders with a 48-hour SLA. Which option works best for your team?"* |
+| **"Bukankah media AI dapat dikenali?"** | *"Alat publik tingkat rendah terlihat palsu. Kami membuat kunci identitas LoRA khusus dan perlengkapan kontrol pencahayaan yang menghasilkan keluaran fotorealistik 8k yang cocok dengan kamera DSLR tradisional. Berikut adalah pengujian berdampingan—dapatkah Anda membedakan mana yang AI?"* |
+| **"Mengapa tidak melakukan ini secara internal?"** | *"Perjalanan tengah hanyalah perangkat lunak—seperti Photoshop. Memiliki Photoshop tidak membuat seseorang menjadi desainer komersial profesional. Anda membayar untuk alur kerja khusus kami, penskalaan pencetakan DPI, arsitektur cepat, dan izin IP perusahaan."* |
+| **"Bisakah Anda melakukannya lebih murah?"** | *"Kami ingin bekerja dengan anggaran $3.000 Anda! Agar sesuai dengan investasi tersebut, kami dapat menyesuaikan paket dari 60 render menjadi 25 render dengan SLA 48 jam. Opsi manakah yang paling sesuai untuk tim Anda?"* |

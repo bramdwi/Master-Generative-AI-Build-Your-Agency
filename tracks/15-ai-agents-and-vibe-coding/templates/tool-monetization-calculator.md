@@ -1,25 +1,25 @@
-# Micro-Tool Monetization & Payback Calculator
+# Kalkulator Monetisasi & Pengembalian Alat Mikro
 
-Use this pricing framework to model API execution costs, subscription tiers, and payback periods for AI creator micro-tools built with vibe-coding agents.
+Gunakan kerangka harga ini untuk memodelkan biaya eksekusi API, tingkat langganan, dan periode pengembalian untuk alat mikro pembuat AI yang dibuat dengan agen pengkodean getaran.
 
 ---
 
-## 📊 1. API Cost vs. Retail Pricing Calculator
+## 📊 1. Kalkulator Biaya API vs. Harga Ritel
 
-### Unit Economics Formula:
-$$\text{Net Profit per User} = \text{Monthly Subscription Price} - (\text{Renders per User} \times \text{API Cost per Render}) - \text{Stripe/Hosting Fees}$$
+### Rumus Ekonomi Satuan:
+$$\text{Laba Bersih per Pengguna} = \text{Harga Langganan Bulanan} - (\text{Render per Pengguna} \times \text{Biaya API per Render}) - \text{Biaya Stripe/Hosting}$$
 
-### Sample Micro-Tool Unit Economics:
+### Contoh Ekonomi Unit Alat Mikro:
 
-| Micro-Tool Concept | API Provider | API Cost / Call | Renders Included / Mo | Monthly API Cost | Subscription Price | Gross Margin % |
+| Konsep Alat Mikro | Penyedia API | Biaya / Panggilan API | Termasuk Render / Bulan | Biaya API Bulanan | Harga Berlangganan | Margin Kotor% |
 |---|---|---|---|---|---|---|
-| **AI Thumbnail Generator** | FLUX 1.1 Pro | $0.04 | 30 | $1.20 | **$19.00 / mo** | **93.6%** |
-| **Shorts Subtitle Generator** | Whisper + ElevenLabs | $0.02 | 40 | $0.80 | **$15.00 / mo** | **94.6%** |
-| **Real Estate Virtual Stager** | Replicate (SDXL) | $0.05 | 20 | $1.00 | **$29.00 / mo** | **96.5%** |
+| **Pembuat Gambar Kecil AI** | FLUX 1.1 Pro | $0,04 | 30 | $1,20 | **$19,00 / bln** | **93,6%** |
+| **Pembuat Subtitle Pendek** | Bisikan + ElevenLabs | $0,02 | 40 | $0,80 | **$15,00 / bln** | **94,6%** |
+| **Pemain Virtual Real Estat** | Replikasi (SDXL) | $0,05 | 20 | $1,00 | **$29,00 / bln** | **96,5%** |
 
 ---
 
-## 📦 2. Standard 3-Tier SaaS Pricing Matrix
+## 📦 2. Matriks Harga SaaS 3 Tingkat Standar
 
 ```
 +------------------------------------+------------------------------------+------------------------------------+
@@ -36,11 +36,11 @@ $$\text{Net Profit per User} = \text{Monthly Subscription Price} - (\text{Render
 
 ---
 
-## 🔄 3. Payback Period & MRR Scaling Calculator
+## 🔄 3. Periode Pembayaran Kembali & Kalkulator Penskalaan MRR
 
-| Active Paying Users | Average Revenue Per User (ARPU) | Monthly Recurring Revenue (MRR) | Hosting & API Costs | Monthly Net Income |
+| Pengguna Aktif yang Membayar | Pendapatan Rata-Rata Per Pengguna (ARPU) | Pendapatan Berulang Bulanan (MRR) | Biaya Hosting & API | Pendapatan Bersih Bulanan |
 |---|---|---|---|---|
-| 25 Users | $29.00 | **$725 / mo** | $45.00 | **$680 / mo** |
-| 100 Users | $29.00 | **$2,900 / mo** | $180.00 | **$2,720 / mo** |
-| 500 Users | $29.00 | **$14,500 / mo** | $850.00 | **$13,650 / mo** |
-| 1,000 Users | $29.00 | **$29,000 / mo** | $1,650.00 | **$27,350 / mo** |
+| 25 Pengguna | $29,00 | **$725 / bln** | $45,00 | **$680 / bln** |
+| 100 Pengguna | $29,00 | **$2.900 / bln** | $180,00 | **$2.720 / bln** |
+| 500 Pengguna | $29,00 | **$14.500 / bln** | $850,00 | **$13.650 / bln** |
+| 1.000 Pengguna | $29,00 | **$29.000 / bln** | $1.650,00 | **$27.350 / bln** |

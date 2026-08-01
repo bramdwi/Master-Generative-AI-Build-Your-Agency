@@ -1,128 +1,128 @@
-# Building a YouTube Shorts Factory
+# Membangun Pabrik Celana Pendek YouTube
 
-> A video that never ends is watched forever.
+> Video yang tidak pernah berakhir ditonton selamanya.
 
-**Track:** AI Content Factories  
-**Time:** ~45 minutes  
-**Prerequisites:** The Multi-Step Production Pipeline, Building a TikTok/Reels Factory  
+**Lacak:** Pabrik Konten AI
+**Waktu:** ~45 menit
+**Prasyarat:** Jalur Produksi Multi-Langkah, Membangun Pabrik TikTok/Reels
 
-## The Problem
+## Masalahnya
 
-On YouTube Shorts, the algorithm is highly focused on **Retention Percentage**. Because Shorts play on an infinite loop, if a viewer watches your video all the way through, and then stays for the first 3 seconds of the loop repeating, the platform records their retention rate as **105%**. If you get enough viewers to stay past the 100% mark, the algorithm pushes your video into the Shorts shelf, yielding hundreds of thousands of views.
+Di YouTube Shorts, algoritme sangat fokus pada **Persentase Retensi**. Karena video Shorts diputar dalam putaran tak terbatas, jika pemirsa menonton video Anda hingga selesai, lalu tetap mengulanginya selama 3 detik pertama, platform akan mencatat tingkat retensi mereka sebagai **105%**. Jika Anda mendapatkan cukup penonton untuk tetap melampaui angka 100%, algoritme akan memasukkan video Anda ke dalam galeri Shorts, sehingga menghasilkan ratusan ribu penayangan.
 
-However, most creators kill their retention at the very end of their video. They say *"Thanks for watching,"* display a subscribe button, or let the music fade out over 2 seconds of a blank screen. This tells the viewer the video is over, and they swipe away instantly.
+Namun, sebagian besar pembuat konten menghentikan retensinya di akhir video. Mereka mengatakan *"Terima kasih telah menonton,"* menampilkan tombol berlangganan, atau membiarkan musik menghilang selama 2 detik di layar kosong. Ini memberi tahu pemirsa bahwa video sudah selesai, dan mereka langsung menghapusnya.
 
-To build a high-performance Shorts factory, you must master the art of the **infinite loop**, designing both your script and editing timeline to hide the boundary between the video's end and its restart.
+Untuk membangun pabrik Shorts berperforma tinggi, Anda harus menguasai seni **perulangan tak terbatas**, merancang skrip dan garis waktu pengeditan untuk menyembunyikan batas antara akhir video dan pemutaran ulang.
 
-## The Concept
+## Konsep
 
-The core mechanism of a high-retention Short is the **Seamless Script & Audio Loop**:
+Mekanisme inti dari video Shorts dengan retensi tinggi adalah **Skrip & Loop Audio yang Mulus**:
 
 ```
 [Final Word of Script] ──► (0-frame gap) ──► [First Word of Script]
 ```
 
-This works because most viewers won't notice a gap-free loop restart — they'll keep watching and only realize they've started again after a second or third loop, which registers as extra watch time. To create an invisible loop:
-1. **The Loop Sentence:** The last sentence of the video must remain unfinished. The starting sentence of the video must complete it.
-2. **Audio Continuity:** The background music track must maintain a constant volume and tempo across the cut. Never apply a fade-out effect to the audio tail.
-3. **Visual Continuity:** The visual style (framing, color grading) of the final clip must closely match the starting clip so the transition does not flash.
+Hal ini berhasil karena sebagian besar pemirsa tidak akan menyadari adanya pengulangan yang dimulai ulang tanpa jeda — mereka akan terus menonton dan baru menyadari bahwa mereka telah memulai lagi setelah pengulangan yang kedua atau ketiga, yang dicatat sebagai waktu tonton tambahan. Untuk membuat lingkaran tak terlihat:
+1. **Kalimat Loop:** Kalimat terakhir video harus masih belum selesai. Kalimat awal video harus melengkapinya.
+2. **Kontinuitas Audio:** Trek musik latar belakang harus mempertahankan volume dan tempo yang konstan sepanjang potongan. Jangan pernah menerapkan efek fade-out pada bagian audio.
+3. **Kontinuitas Visual:** Gaya visual (pembingkaian, gradasi warna) klip akhir harus sangat cocok dengan klip awal sehingga transisi tidak berkedip.
 
-*Automated Loop Note:* You can reference the [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator) repository, which handles the assembly of automated Shorts and audio files programmatically.
-
----
-
-## Do It
-
-### Step 1: Draft the Loop Hook
-Before writing the body of your script, write your looping boundary using the [`templates/shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md).
-* *Ending text:* *"The best secret to high productivity is..."*
-* *Starting text:* *"...this simple time-management trick."*
-* When the loop executes, the sentence flows naturally: *"The best secret to high productivity is... this simple time-management trick."*
-
-### Step 2: Record/Generate the Audio
-Generate the script. When using TTS, output the ending phrase and starting phrase in separate files to prevent the AI voice from dropping its pitch (which typically happens at the end of sentences).
-
-### Step 3: Trim the Audio Tail in the Editor
-Place the audio tracks on your timeline. Zoom in to the frame level. Find the exact frame where the voice stops speaking at the end of the video. **Slice and delete all trailing silent frames**. Do not leave even a 0.1-second gap of silence.
-
-### Step 4: Configure Music Continuity
-Place your background music track on A2. Cut the track exactly at the end of the video. Make sure the volume level is locked (e.g. at -18dB) from start to finish. Avoid applying any fade-in or fade-out effects at the timeline edges.
-
-### Step 5: Visual Transition Match
-Check the first frame of your video and the last frame of your video. If the first frame is a dark visual, the last frame should be dark. Apply a constant **pan-right** or slow zoom-out animation to both edges to make the motion flow seamlessly.
+*Catatan Loop Otomatis:* Anda dapat mereferensikan repositori [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator), yang menangani perakitan file Shorts dan audio otomatis secara terprogram.
 
 ---
 
-## Worked Example
+## Lakukan itu
+
+### Langkah 1: Draf Kait Lingkaran
+Sebelum menulis isi skrip Anda, tulis batas perulangan Anda menggunakan [`templates/shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md).
+* *Teks ​​penutup:* *"Rahasia terbaik untuk produktivitas tinggi adalah..."*
+* *Teks ​​awal:* *"...trik manajemen waktu yang sederhana ini."*
+* Ketika loop dijalankan, kalimat mengalir secara alami: *"Rahasia terbaik untuk produktivitas tinggi adalah... trik manajemen waktu yang sederhana ini."*
+
+### Langkah 2: Rekam/Hasilkan Audio
+Hasilkan skrip. Saat menggunakan TTS, keluarkan frasa akhir dan frasa awal dalam file terpisah untuk mencegah suara AI menurunkan nadanya (yang biasanya terjadi di akhir kalimat).
+
+### Langkah 3: Pangkas Ekor Audio di Editor
+Tempatkan trek audio di timeline Anda. Perbesar ke tingkat bingkai. Temukan bingkai tepat di mana suara berhenti berbicara di akhir video. **Potong dan hapus semua bingkai senyap yang tertinggal**. Jangan tinggalkan jeda hening 0,1 detik pun.
+
+### Langkah 4: Konfigurasikan Kontinuitas Musik
+Tempatkan trek musik latar belakang Anda di A2. Potong trek tepat di akhir video. Pastikan level volume terkunci (misalnya -18dB) dari awal hingga akhir. Hindari menerapkan efek fade-in atau fade-out di tepi garis waktu.
+
+### Langkah 5: Pencocokan Transisi Visual
+Periksa frame pertama video Anda dan frame terakhir video Anda. Jika frame pertama adalah visual yang gelap, frame terakhir harusnya gelap. Terapkan animasi **pan-right** atau zoom-out lambat secara konstan pada kedua sisi untuk membuat gerakan mengalir mulus.
+
+---
+
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/focus-anchor.jpg" alt="Focus Anchor Image" width="240">
-<img src="templates/examples/focus-loop-clip.gif" alt="YouTube Shorts Infinite Loop Video (I2V)" width="240">
+<img src="templates/examples/focus-anchor.jpg" alt="Fokus Jangkar Gambar" width="240">
+<img src="templates/examples/focus-loop-clip.gif" alt="Video Loop Tak Terbatas YouTube Shorts (I2V)" width="240">
 </p>
 <p align="center"><sub>Shorts Model Image (Left) ──► Image-to-Video Shorts Infinite Motion Loop (Right) · Video File: <a href="templates/examples/focus-loop-clip.mp4">templates/examples/focus-loop-clip.mp4</a></sub></p>
 
-**Loop Build: "Focus Blueprint" (Productivity Niche)**
+**Pembangunan Loop: "Cetak Biru Fokus" (Niche Produktivitas)**
 
 
 
-* **Timeline Layout:**
-  * **Video Start (0:00 - 0:03.0):** Visual: A glowing digital clock. Caption: `[is this simple rule.] (0.0-1.5s)` -> `[If you want focus,] (1.5-3.0s)`.
-  * **Video Body (0:03.0 - 0:56.0):** [Explains the 90-minute focus block method].
-  * **Video End (0:56.0 - 0:59.0):** Visual: A digital clock glowing. Caption: `[The best hack for work] (56.0-59.0s)`.
+* **Tata Letak Garis Waktu:**
+* **Video Mulai (0:00 - 0:03.0):** Visual: Jam digital yang bersinar. Keterangan: `[is this simple rule.] (0.0-1.5s)` -> `[If you want focus,] (1.5-3.0s)`.
+* **Isi Video (0:03.0 - 0:56.0):** [Menjelaskan metode blok fokus 90 menit].
+* **Video Akhir (0:56.0 - 0:59.0):** Visual: Jam digital bersinar. Keterangan: `[The best hack for work] (56.0-59.0s)`.
 
-* **The Audio Cut:**
-  * Track A1 (Narrator voice) finishes speaking the word *"work"* at exactly 0:59.00.
-  * The timeline length is set to exactly 0:59.00.
-  * When the video loops to 0:00.00, the voice immediately speaks *"is this simple rule."*
+* **Potongan Audio:**
+* Track A1 (Suara Narator) selesai mengucapkan kata *"bekerja"* tepat pada pukul 0:59.00.
+* Panjang garis waktu diatur tepat 0:59.00.
+* Saat video diputar ke 0:00.00, suara langsung berbicara *"ini aturan sederhananya."*
 
-* **The Result:** The viewer hears: *"...The best hack for work... is this simple rule. If you want focus..."* The loop is invisible, keeping the viewer watching for a second loop and boosting retention metrics.
+* **Hasilnya:** Penonton mendengar: *"...Retas terbaik untuk bekerja... adalah aturan sederhana ini. Jika Anda ingin fokus..."* Perulangan tidak terlihat, membuat pemirsa tetap menonton untuk perulangan kedua dan meningkatkan metrik retensi.
 
-**The clip below is real, not a mockup** — the anchor image generated via `nano-banana-2` (9:16 vertical aspect ratio) and animated into a short vertical video loop using `seedance-2-image-to-video-fast` from the script excerpt above, so you can see what a first-pass output actually looks like:
+**Klip di bawah ini asli, bukan mockup** — gambar jangkar dihasilkan melalui `nano-banana-2` (rasio aspek vertikal 9:16) dan dianimasikan menjadi loop video vertikal pendek menggunakan `seedance-2-image-to-video-fast` dari kutipan skrip di atas, sehingga Anda dapat melihat seperti apa keluaran first-pass sebenarnya:
 
 
 
 <p align="center"><i>An unedited first pass — the image represents a high-concept visual of the digital focus clock, dynamically animated by the video engine for high-retention looping.</i></p>
 
-*How this was actually produced, end to end, via the muapi API:*
-1. Generated the anchor vertical portrait of the clock with **`nano-banana-2`** (text-to-image, $0.06/image) with a `9:16` aspect ratio.
-2. Uploaded that image via muapi's `upload_file` endpoint to get a URL.
-3. Fed that image URL into **`seedance-2-image-to-video-fast`** (image-to-video, $0.50/clip) on the `images_list` param with a vertical aspect ratio and a prompt describing the camera zoom.
-4. Downloaded the resulting `.mp4` and converted it to the silent GIF preview above using `ffmpeg`.
+*Bagaimana ini sebenarnya diproduksi, secara end to end, melalui muapi API:*
+1. Menghasilkan potret vertikal jangkar jam dengan **`nano-banana-2`** (teks-ke-gambar, $0,06/gambar) dengan rasio aspek `9:16`.
+2. Mengunggah gambar itu melalui titik akhir `upload_file` muapi untuk mendapatkan URL.
+3. Masukkan URL gambar tersebut ke **`seedance-2-image-to-video-fast`** (gambar-ke-video, $0,50/klip) pada parameter `images_list` dengan rasio aspek vertikal dan perintah yang menjelaskan zoom kamera.
+4. Mengunduh `.mp4` yang dihasilkan dan mengonversinya menjadi pratinjau GIF senyap di atas menggunakan `ffmpeg`.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Production Method | Loop Precision | Background Audio | Best for |
+| Metode Produksi | Loop Presisi | Audio Latar Belakang | Terbaik untuk |
 |---|---|---|---|
-| **Manual CapCut Editing** | High (Visual timeline zoom lets you slice silent frames precisely) | Manual loop cuts | Creating custom, highly engaging short loops. |
-| **Programmatic Automation** (`AI-Youtube-Shorts-Generator`) | Instant (Cuts silence programmatically using audio libraries) | Automated music looping | Mass-producing short networks and testing script concepts. |
-| **Platform Mobile Apps** | Low (Difficult to trim frames precisely on a touch screen) | In-app music sync | Informal, ad-hoc behind-the-scenes updates. |
+| **Pengeditan CapCut Manual** | Tinggi (Zoom garis waktu visual memungkinkan Anda mengiris bingkai senyap dengan tepat) | Pemotongan lingkaran manual | Membuat loop pendek khusus yang sangat menarik. |
+| **Otomasi Terprogram** (`AI-Youtube-Shorts-Generator`) | Instan (Memotong keheningan secara terprogram menggunakan perpustakaan audio) | Perulangan musik otomatis | Memproduksi jaringan pendek secara massal dan menguji konsep skrip. |
+| **Platform Aplikasi Seluler** | Rendah (Sulit untuk memangkas bingkai secara tepat pada layar sentuh) | Sinkronisasi musik dalam aplikasi | Pembaruan informal dan ad-hoc di belakang layar. |
 
-For a high-volume factory, programmatically generating your loop audio using tools like `AI-Youtube-Shorts-Generator` ensures that every single short has zero tail silence, maintaining a high retention benchmark across all uploads.
-
----
-
-## Launch It
-
-**How to leverage the loop:**
-* **Looping Comments:** Pin a comment that completes the loop or asks a question related to it (e.g. *"Did you catch the loop?"*). This encourages viewers to comment, driving engagement rates up.
-* **Keep titles short:** On YouTube Shorts, long titles cover the screen text. Keep your title under **40 characters** (e.g. *"Automate your invoices in 10 mins"*).
+Untuk pabrik bervolume tinggi, membuat audio loop secara terprogram menggunakan alat seperti `AI-Youtube-Shorts-Generator` akan memastikan bahwa setiap video pendek tidak memiliki efek senyap, sehingga mempertahankan tolok ukur retensi tinggi di semua upload.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Write a 3-sentence script where the final sentence connects back to the first. Read it aloud to ensure it flows naturally.
-2. **Medium:** Import a voiceover clip into your editor. Zoom in to the timeline and crop all silent frames at the tail down to the millisecond.
-3. **Hard:** Produce a 15-second loop video. Export it and upload it to a test channel. Verify that the audio and visual loops occur seamlessly without any visual stutter or audio pop.
-
----
-
-## Templates
-
-* [`templates/shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md) — script templates and editing rules for infinite loops.
+**Cara memanfaatkan loop:**
+* **Perulangan Komentar:** Sematkan komentar yang melengkapi perulangan atau ajukan pertanyaan terkait komentar tersebut (misalnya *"Apakah Anda menangkap perulangan?"*). Hal ini mendorong pemirsa untuk berkomentar, sehingga meningkatkan tingkat keterlibatan.
+* **Buat judul tetap pendek:** Di YouTube Shorts, judul panjang menutupi teks layar. Jaga agar judul Anda kurang dari **40 karakter** (misalnya *"Otomatiskan faktur Anda dalam 10 menit"*).
 
 ---
 
-[← Building a TikTok/Reels Factory](02-tiktok-reels-factory.md) · Next: [AI Thumbnail Design →](04-thumbnail-design.md)
+## Latihan
+
+1. **Mudah:** Tulis skrip 3 kalimat yang kalimat terakhirnya terhubung kembali ke kalimat pertama. Bacalah dengan lantang untuk memastikannya mengalir secara alami.
+2. **Medium:** Impor klip sulih suara ke editor Anda. Perbesar garis waktu dan pangkas semua bingkai senyap di bagian ekor hingga milidetik.
+3. **Sulit:** Menghasilkan video loop berdurasi 15 detik. Ekspor dan unggah ke saluran pengujian. Pastikan loop audio dan visual terjadi dengan lancar tanpa ada gangguan visual atau letupan audio.
+
+---
+
+## Templat
+
+* [`templates/shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md) — templat skrip dan aturan pengeditan untuk loop tak terbatas.
+
+---
+
+[← Building a TikTok/Reels Factory](02-tiktok-reels-factory.md) · Berikutnya: [AI Thumbnail Design →](04-thumbnail-design.md)

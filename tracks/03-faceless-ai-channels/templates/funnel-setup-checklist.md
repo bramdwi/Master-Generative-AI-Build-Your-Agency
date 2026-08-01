@@ -1,23 +1,23 @@
-# Funnel Setup Checklist
+# Daftar Periksa Penyiapan Corong
 
-Use this checklist to build a high-conversion sales funnel for your faceless channel, allowing you to monetize a small subscriber base (<10,000 followers).
+Gunakan daftar periksa ini untuk membangun saluran penjualan dengan konversi tinggi untuk saluran tanpa wajah Anda, sehingga memungkinkan Anda memonetisasi basis pelanggan yang kecil (<10.000 pengikut).
 
 ---
 
-## 1. Lead Magnet (The Entry Point)
-- [ ] **Define High-Value Asset:** Create a simple PDF guide, template, spreadsheet, or resource folder directly solving the niche's primary problem.
-- [ ] **Build Opt-In Landing Page:** Set up a clean landing page (e.g. via Carrd, ConvertKit) with a single field for name and email address.
-- [ ] **Visual Mockup:** Generate an image mockup of the resource (e.g. using text-to-image) to display on the opt-in page.
+## 1. Magnet Timbal (Titik Masuk)
+- [ ] **Tentukan Aset Bernilai Tinggi:** Buat panduan PDF sederhana, templat, spreadsheet, atau folder sumber daya yang secara langsung memecahkan masalah utama niche tersebut.
+- [ ] **Bangun Laman Landas Keikutsertaan:** Siapkan laman landas yang bersih (misalnya melalui Carrd, ConvertKit) dengan satu bidang untuk nama dan alamat email.
+- [ ] **Visual Mockup:** Menghasilkan mockup gambar sumber daya (misalnya menggunakan teks-ke-gambar) untuk ditampilkan pada halaman keikutsertaan.
 
-## 2. The Conversion Link (Video Call to Action)
-- [ ] **Pinned Comment Link:** Place the landing page URL as the first link in the video description and pin it in the comments.
-- [ ] **CTA Visuals:** Insert a clean visual overlay pointing downward at the 55-second mark of the video, guiding users to click the link.
+## 2. Tautan Konversi (Video Call to Action)
+- [ ] **Tautan Komentar yang Disematkan:** Tempatkan URL laman landas sebagai tautan pertama dalam deskripsi video dan sematkan di komentar.
+- [ ] **CTA Visuals:** Sisipkan hamparan visual bersih yang mengarah ke bawah pada tanda 55 detik video, yang memandu pengguna untuk mengeklik tautan.
 
-## 3. Email Welcome Sequence
-- [ ] **Deliverable Email:** Automate an immediate welcome email delivering the promised lead magnet.
-- [ ] **Value Sequence (Email 2-3):** Deliver extra free tips/data points 2 days later to build trust, avoiding hard sales pitches at this stage.
-- [ ] **The Pitch (Email 4):** Introduce your premium digital product (e.g. ebook, community membership, or consultation slot) with a clear purchase link.
+## 3. Urutan Selamat Datang Email
+- [ ] **Email yang Dapat Dikirim:** Otomatiskan email selamat datang langsung yang mengirimkan magnet utama yang dijanjikan.
+- [ ] **Urutan Nilai (Email 2-3):** Berikan tips/poin data tambahan gratis 2 hari kemudian untuk membangun kepercayaan, menghindari promosi penjualan yang sulit pada tahap ini.
+- [ ] **Pitch (Email 4):** Perkenalkan produk digital premium Anda (misalnya ebook, keanggotaan komunitas, atau slot konsultasi) dengan link pembelian yang jelas.
 
-## 4. Payment & Delivery Gate
-- [ ] **Checkout Page:** Set up a clean check-out portal (via Gumroad, Stripe, or Whop).
-- [ ] **Fulfillment Automation:** Connect the purchase event to email software to instantly deliver access details.
+## 4. Gerbang Pembayaran & Pengiriman
+- [ ] **Halaman Checkout:** Siapkan portal check-out yang bersih (melalui Gumroad, Stripe, atau Whop).
+- [ ] **Otomasi Pemenuhan:** Hubungkan peristiwa pembelian ke perangkat lunak email untuk mengirimkan detail akses secara instan.

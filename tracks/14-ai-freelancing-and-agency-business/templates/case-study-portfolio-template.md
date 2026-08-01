@@ -1,50 +1,50 @@
-# B2B Commercial Case Study Template
+# Templat Studi Kasus Komersial B2B
 
-Use this 4-part case study architecture to present past agency projects, highlight quantifiable ROI metrics, and close high-ticket client proposals.
-
----
-
-## 📈 CASE STUDY: `[Client Company Name]`
-
-**PROJECT TITLE:** `[e.g., 24-Hour Remote Team Corporate Headshot Overhaul]`  
-**INDUSTRY:** `[e.g., B2B SaaS / Enterprise Technology]`  
-**CONTRACT VALUE:** `$ [Amount, e.g., $7,500.00]`  
+Gunakan arsitektur studi kasus 4 bagian ini untuk mempresentasikan proyek agensi sebelumnya, menyoroti metrik ROI yang dapat diukur, dan menyelesaikan proposal klien yang bernilai tinggi.
 
 ---
 
-### 1. The Client Challenge
-`[Describe client baseline setup, previous traditional costs, slow turnaround timelines, and pain points.]`
+## 📈 STUDI KASUS: `[Client Company Name]`
 
-* **Previous Traditional Shoot Quote:** $28,500 (photographer day rates, travel, venue rentals).
-* **Previous Production Timeline:** 4 Weeks from shoot date to final retouch delivery.
-* **Core Pain Point:** 80+ employees distributed across 12 countries, making physical photo shoots logistically impossible.
-
----
-
-### 2. The AI Agency Solution
-`[Detail the custom AI generation pipeline, model selection, identity locking, and quality control workflow applied.]`
-
-* **Pipeline Architecture:** Built custom FLUX 1.1 Pro batch workflow with 1:1 facial geometry locking.
-* **Input Requirements:** Uploaded 3 smartphone selfies per employee via automated Google Form.
-* **Post-Processing:** Applied 4x Topaz AI upscaling to deliver 4500x4500px @ 300 DPI print-ready master files.
+**JUDUL PROYEK:** `[e.g., 24-Hour Remote Team Corporate Headshot Overhaul]`
+**INDUSTRI:** `[e.g., B2B SaaS / Enterprise Technology]`
+**NILAI KONTRAK:** `$ [Amount, e.g., $7,500.00]`
 
 ---
 
-### 3. Quantifiable Business Metrics
+### 1. Tantangan Klien
+__KODE INLINE_0__
 
-| Performance Metric | Traditional Photographer Method | AI Agency Pipeline | Measurable Client Impact |
+* **Kutipan Pemotretan Tradisional Sebelumnya:** $28.500 (tarif harian fotografer, perjalanan, sewa tempat).
+* **Jadwal Produksi Sebelumnya:** 4 Minggu sejak tanggal pengambilan gambar hingga pengiriman retouch akhir.
+* **Core Pain Point:** 80+ karyawan tersebar di 12 negara, sehingga pemotretan fisik secara logistik tidak mungkin dilakukan.
+
+---
+
+### 2. Solusi Agensi AI
+__KODE INLINE_0__
+
+* **Arsitektur Saluran Pipa:** Alur kerja batch FLUX 1.1 Pro kustom yang dibuat dengan penguncian geometri wajah 1:1.
+* **Persyaratan Masukan:** Mengunggah 3 foto selfie ponsel cerdas per karyawan melalui Google Formulir otomatis.
+* **Pasca Pemrosesan:** Menerapkan peningkatan 4x Topaz AI untuk menghasilkan file master siap cetak 4500x4500px @ 300 DPI.
+
+---
+
+### 3. Metrik Bisnis yang Dapat Dikuantifikasi
+
+| Metrik Kinerja | Metode Fotografer Tradisional | Saluran Agensi AI | Dampak Klien yang Terukur |
 |---|---|---|---|
-| **Total Financial Cost** | $28,500 | $7,500 | **$21,000 Direct Savings (73.6%)** |
-| **Delivery Speed** | 28 Business Days | 24 Hours | **28x Faster Turnaround** |
-| **Employee Downtime** | 3.5 Hours / Employee | 2 Minutes / Employee | **280 Hours Productive Time Saved** |
-| **Usage Rights** | 2-Year Regional License | Perpetual Global IP Transfer | **100% Commercial Asset Rights** |
+| **Total Biaya Finansial** | $28.500 | $7.500 | **Tabungan Langsung$21.000 (73,6%)** |
+| **Kecepatan Pengiriman** | 28 Hari Kerja | 24 Jam | **Perputaran 28x Lebih Cepat** |
+| **Waktu Henti Karyawan** | 3,5 Jam / Karyawan | 2 Menit / Karyawan | **Waktu Produktif 280 Jam Dihemat** |
+| **Hak Penggunaan** | Lisensi Regional 2 Tahun | Transfer IP Global Abadi | **100% Hak Aset Komersial** |
 
 ---
 
-### 4. Client Testimonial & Interactive Proof
+### 4. Testimoni Klien & Bukti Interaktif
 
-> *"Working with [Your Agency Name] was an absolute game-changer. They delivered 80 flawless, studio-grade corporate headshots for our global remote team in 24 hours. They saved us over $20,000 and delivered better quality than our previous in-person shoots!"*  
-> — **`[Client Executive Name]`, VP of People at `[Client Company]`**
+> *"Bekerja dengan [Nama Agensi Anda] benar-benar membawa perubahan besar. Mereka memberikan 80 foto perusahaan yang sempurna dan berkelas studio untuk tim jarak jauh global kami dalam 24 jam. Mereka menghemat lebih dari $20.000 dan memberikan kualitas yang lebih baik daripada pengambilan gambar tatap muka kami sebelumnya!"*
+> — **`[Client Executive Name]`, Wakil Presiden Sumber Daya Manusia di `[Client Company]`**
 
 ```
 +-----------------------------------------------------------------------------+

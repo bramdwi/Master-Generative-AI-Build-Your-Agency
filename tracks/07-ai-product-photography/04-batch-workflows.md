@@ -1,118 +1,118 @@
-# Batch Workflows for Catalogs
+# Alur Kerja Batch untuk Katalog
 
-> Consistency is what turns separate photos into a brand catalog.
+> Konsistensi inilah yang mengubah foto-foto individual menjadi katalog merek.
 
-**Track:** AI Product Photography & E-commerce  
-**Time:** ~45 minutes  
-**Prerequisites:** Product Shots Basics  
+**Lagu:** Fotografi Produk AI & E-commerce
+**Waktu:** ~45 menit
+**Prasyarat:** Dasar-dasar Pemotretan Produk
 
-## The Problem
+## Masalahnya
 
-Brands rarely sell just a single item. They launch full catalog collections containing 20, 50, or 200 variations (such as 10 different scent profiles of the same perfume bottle, or varying color patterns of the same water flask).
+Merek jarang hanya menjual satu barang saja. Mereka meluncurkan koleksi katalog lengkap yang berisi 20, 50, atau 200 variasi (seperti 10 profil aroma berbeda dari botol parfum yang sama, atau pola warna berbeda dari botol air yang sama).
 
-If you design each backdrop prompt from scratch, the lighting angles, shadows, and camera coordinates will differ. When displayed on a catalog page, the products will look messy, jumping around the screen as the user scrolls.
+Jika Anda mendesain setiap latar belakang dari awal, sudut pencahayaan, bayangan, dan koordinat kamera akan berbeda. Saat ditampilkan di halaman katalog, produk akan terlihat berantakan dan melompat-lompat di layar saat pengguna menggulir.
 
-Designing these variations one-by-one is also incredibly slow. If you spend 1 hour editing each product, a 50-item catalog eats up a week of labor, destroying your agency's margins. You need a batch workflow to keep layouts identical and render catalogs in minutes.
+Mendesain variasi ini satu per satu juga sangat lambat. Jika Anda menghabiskan 1 jam untuk mengedit setiap produk, katalog yang berisi 50 item akan menghabiskan waktu seminggu, sehingga menghancurkan margin agensi Anda. Anda memerlukan alur kerja batch untuk menjaga tata letak tetap identik dan merender katalog dalam hitungan menit.
 
-## The Concept
+## Konsep
 
-Scaling catalog production requires **Layout Standardization**, **Prompt Pinning**, and **Batch Masking**:
+Penskalaan produksi katalog memerlukan **Standarisasi Tata Letak**, **Penyematan Cepat**, dan **Penyembunyian Batch**:
 
 ```
 [20 Product Images] ──► Batch Background Remover ──► Locked Backdrop Prompt ──► Template Bounding Box ──► Export WebP
 ```
 
-* **Prompt Pinning:** To ensure the background environment remains identical, use the same prompt and seed for the backdrop scene. Do not generate a new background for each product. Place the products onto the *same* pre-rendered background image.
-* **Layout Standardization:** Establish rigid bounding box coordinates. In a product lineup, all containers must sit at the exact same vertical baseline (Y-coordinate) and occupy the same relative height percentage inside the frame.
-* **Batch Masking:** Use programmatic API folder calls or batch tools to remove backgrounds in bulk. This eliminates the need to manually click and erase pixels for every item.
+* **Penyematan Segera:** Untuk memastikan lingkungan latar belakang tetap sama, gunakan perintah dan seed yang sama untuk adegan latar belakang. Jangan membuat latar belakang baru untuk setiap produk. Tempatkan produk pada gambar latar belakang yang *sama* telah dirender sebelumnya.
+* **Standarisasi Tata Letak:** Tetapkan koordinat kotak pembatas yang kaku. Dalam jajaran produk, semua kontainer harus berada pada garis dasar vertikal yang sama (koordinat Y) dan menempati persentase tinggi relatif yang sama di dalam bingkai.
+* **Penyembunyian Batch:** Gunakan panggilan folder API terprogram atau alat batch untuk menghapus latar belakang secara massal. Ini menghilangkan kebutuhan untuk mengklik secara manual dan menghapus piksel untuk setiap item.
 
 ---
 
-## Do It
+## Lakukan itu
 
-### Step 1: Set Up Your Catalog Folders
-Open [`templates/batch-catalog-spec.md`](templates/batch-catalog-spec.md). Build your local folder structure to separate work-in-progress files from completed assets:
-* Place all raw product shots in `01_raw_assets/`.
-* Name files by their product SKU (e.g., `sku_lavender_01.jpg`, `sku_rose_02.jpg`).
+### Langkah 1: Siapkan Folder Katalog Anda
+Buka [`templates/batch-catalog-spec.md`](templates/batch-catalog-spec.md). Bangun struktur folder lokal Anda untuk memisahkan file yang sedang dalam proses dari aset yang sudah selesai:
+* Tempatkan semua foto produk mentah di `01_raw_assets/`.
+* Beri nama file berdasarkan SKU produknya (misalnya, `sku_lavender_01.jpg`, `sku_rose_02.jpg`).
 
-### Step 2: Batch Remove Backgrounds
-Run a batch background removal tool. If using Photoshop:
-* Open File -> Scripts -> Image Processor.
-* Set source folder to `01_raw_assets/` and select "Save as PSD".
-* Open the actions panel, record a new action: select Subject, apply Mask, and save as transparent PNG. Run the batch action on the folder to output files into `02_isolated_masks/`.
-If using an API, run a Python script to send the folder files to `/remove-background` and download the results.
+### Langkah 2: Hapus Latar Belakang Secara Batch
+Jalankan alat penghapus latar belakang batch. Jika menggunakan Photoshop:
+* Buka File -> Skrip -> Pemroses Gambar.
+* Atur folder sumber ke `01_raw_assets/` dan pilih "Simpan sebagai PSD".
+* Buka panel tindakan, rekam tindakan baru: pilih Subjek, terapkan Mask, dan simpan sebagai PNG transparan. Jalankan tindakan batch pada folder untuk mengeluarkan file ke `02_isolated_masks/`.
+Jika menggunakan API, jalankan skrip Python untuk mengirim file folder ke `/remove-background` dan unduh hasilnya.
 
-### Step 3: Select and Lock Your Backdrop
-Generate and select your best-performing studio backdrop image. Scale and center the travertine block or pedestal surface. Save this single master image as `master_background.jpg`.
+### Langkah 3: Pilih dan Kunci Latar Belakang Anda
+Hasilkan dan pilih gambar latar studio dengan performa terbaik. Skala dan pusatkan blok travertine atau permukaan alas. Simpan gambar master tunggal ini sebagai `master_background.jpg`.
 
-### Step 4: Construct the Alignment Template
-Open `master_background.jpg` in your photo editor. Pull down a horizontal ruler guide to set the baseline height where the bottom of the products will touch the pedestal surface. Mark side guides to represent the maximum padding limits. Save this document as `catalog_template.psd`.
+### Langkah 4: Buat Template Alignment
+Buka `master_background.jpg` di editor foto Anda. Tarik ke bawah pemandu penggaris horizontal untuk mengatur ketinggian garis dasar di mana bagian bawah produk akan menyentuh permukaan alas. Tandai pemandu samping untuk mewakili batas bantalan maksimum. Simpan dokumen ini sebagai `catalog_template.psd`.
 
-### Step 5: Run Batch Compositing
-Import your isolated PNG masks into the template:
-* Align each product mask's base to the horizontal baseline guide.
-* Proportional Scale: Ensure each variation fills the standard bounding box (e.g. 80% height).
-* Duplicate the shadow layer under the product. Since the lighting is identical, the same contact and drop shadow layers can be reused across all files.
-* Save each product variation layer group separately, and export the files as WebP into `05_final_deliver/`.
+### Langkah 5: Jalankan Pengomposisian Batch
+Impor topeng PNG terisolasi Anda ke dalam templat:
+* Sejajarkan setiap dasar masker produk dengan panduan garis dasar horizontal.
+* Skala Proporsional: Pastikan setiap variasi memenuhi kotak pembatas standar (misalnya tinggi 80%).
+* Gandakan layer bayangan di bawah produk. Karena pencahayaannya identik, lapisan kontak dan drop shadow yang sama dapat digunakan kembali di semua file.
+* Simpan setiap grup lapisan variasi produk secara terpisah, dan ekspor file sebagai WebP ke `05_final_deliver/`.
 
 ---
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/batch-skincare-grid.jpg" alt="Skincare Grid" width="280">
-<img src="templates/examples/batch-skincare-grid-clip.gif" alt="Catalog Batch Motion (I2V)" width="280">
+<img src="templates/examples/batch-skincare-grid.jpg" alt="Kisi Perawatan Kulit" width="280">
+<img src="templates/examples/batch-skincare-grid-clip.gif" alt="Katalog Batch Motion (I2V)" width="280">
 </p>
 <p align="center"><sub>Skincare Collection Catalog Image (Left) ──► Image-to-Video Batch Lighting Motion (Right) · Video File: <a href="templates/examples/batch-skincare-grid-clip.mp4">templates/examples/batch-skincare-grid-clip.mp4</a></sub></p>
 
-**Batch Catalog Refurbishing for a Skincare Brand**
+**Pembaruan Katalog Batch untuk Merek Perawatan Kulit**
 
 
 
-* **Catalog Scope:** 5 different facial serum droppers (Rose, Lavender, Cucumber, Tea Tree, Citrus).
-* **Baseline Setup:**
-  * Master environment: Travertine marble ledge against a cream stucco background.
-  * Baseline coordinate: Set at Y: 800px on a 1920x1920px square canvas.
-  * Product height: Standardized to exactly 1100px.
-* **Batch Processing:**
-  * Ran folder-wide background removal on the 5 raw product shots.
-  * Imported all 5 PNG masks into the template PSD.
-  * Toggled each dropper layer on one by one (in Photoshop: click the eye icon next to a layer to show/hide it), keeping the base shadows and background layers identical.
-* **Results:** Generated 5 perfectly matching catalog images with uniform lighting, shadows, and sizing in under 10 minutes.
+* **Cakupan Katalog:** 5 tetes serum wajah yang berbeda (Mawar, Lavender, Mentimun, Pohon Teh, Jeruk).
+* **Penyiapan Dasar:**
+* Lingkungan utama: Langkan marmer travertine dengan latar belakang plesteran berwarna krem.
+* Koordinat dasar: Tetapkan pada Y: 800 piksel pada kanvas persegi berukuran 1920x1920 piksel.
+* Tinggi produk: Distandarisasi hingga tepat 1100 piksel.
+* **Pemrosesan Batch:**
+* Jalankan penghapusan latar belakang seluruh folder pada 5 gambar produk mentah.
+* Mengimpor semua 5 topeng PNG ke dalam templat PSD.
+* Mengalihkan setiap lapisan penetes satu per satu (di Photoshop: klik ikon mata di sebelah lapisan untuk menampilkan/menyembunyikannya), menjaga bayangan dasar dan lapisan latar belakang tetap identik.
+* **Hasil:** Menghasilkan 5 gambar katalog yang sangat cocok dengan pencahayaan, bayangan, dan ukuran yang seragam dalam waktu kurang dari 10 menit.
 
 ---
 
-## Compare Tools
+## Bandingkan Alat
 
-| Platform / Tool | Automation Speed | Workflow Suitability | Best for |
+| Platform / Alat | Kecepatan Otomatisasi | Kesesuaian Alur Kerja | Terbaik untuk |
 |---|---|---|---|
-| **Photoshop Batch Actions** | High (Processes local folders using recorded hotkeys) | Excellent (Preserves manual control over adjustments) | Professional designers managing complex layer adjustments. |
-| **Photoroom Batch API** | Ultra-High (Processes hundreds of files concurrently in the cloud) | Good | High-volume store operations with simple layouts. |
-| **Python Pillow (PIL)** | Ultra-High | Good (Requires writing python scripts) | Programmers automating bulk catalog overlays. |
+| **Tindakan Batch Photoshop** | Tinggi (Memproses folder lokal menggunakan hotkey yang direkam) | Luar Biasa (Mempertahankan kontrol manual atas penyesuaian) | Desainer profesional mengelola penyesuaian lapisan yang rumit. |
+| **API Batch Ruang Foto** | Ultra-High (Memproses ratusan file secara bersamaan di cloud) | Bagus | Operasi toko bervolume tinggi dengan tata letak sederhana. |
+| **Bantal Python (PIL)** | Sangat Tinggi | Bagus (Membutuhkan penulisan skrip python) | Pemrogram mengotomatiskan hamparan katalog massal. |
 
-For design agencies, recording batch actions in Photoshop is the best workflow. It allows you to automate the repetitive tasks (masking, importing, positioning) while giving you the freedom to manually tweak the final shadows for high-quality QA. For massive catalogs (e.g. 500+ items), Photoroom's Batch API provides the fastest cloud execution.
-
----
-
-## Launch It
-
-**How to organize file names:**
-* **Use standardized SKU tags:** Always name your files using the product SKU code (e.g., `SKU-BOT-01.webp`). This allows web developers to import and link images to correct product listings automatically via CSV spreadsheets, saving hours of manual uploads.
-* **Keep canvas sizes uniform:** Ensure all final exported images are exported at the same aspect ratio (e.g., 2000x2000px square). Mix-matching square and vertical shapes will cause your e-commerce layout grid to break.
+Untuk agensi desain, merekam tindakan batch di Photoshop adalah alur kerja terbaik. Hal ini memungkinkan Anda untuk mengotomatiskan tugas yang berulang (masking, mengimpor, memposisikan) sambil memberi Anda kebebasan untuk mengubah bayangan akhir secara manual untuk QA berkualitas tinggi. Untuk katalog besar (misalnya 500+ item), Batch API Photoroom menyediakan eksekusi cloud tercepat.
 
 ---
 
-## Exercises
+## Luncurkan
 
-1. **Easy:** Set up the standard directory folders (`01_raw_assets/`, `02_isolated_masks/`, `03_ai_backgrounds/`, `04_composite_drafts/`, `05_final_deliver/`) on your computer.
-2. **Medium:** Record a Photoshop Action (or write a basic Python script) to scale an image to 1080x1080px and add a 10% outer border.
-3. **Hard:** Batch process 3 different colored beverage cans. Place them on the same background ledge at the exact same baseline coordinate, apply the same drop shadow layer, and export 3 matching catalog WebP files.
+**Cara mengatur nama file:**
+* **Gunakan tag SKU standar:** Selalu beri nama file Anda menggunakan kode SKU produk (misalnya, `SKU-BOT-01.webp`). Hal ini memungkinkan pengembang web mengimpor dan menautkan gambar ke daftar produk yang benar secara otomatis melalui spreadsheet CSV, sehingga menghemat waktu berjam-jam untuk mengunggah secara manual.
+* **Jaga agar ukuran kanvas tetap seragam:** Pastikan semua gambar akhir yang diekspor diekspor dengan rasio aspek yang sama (misalnya, 2000x2000 piksel persegi). Pencocokan bentuk persegi dan vertikal akan menyebabkan kisi tata letak e-niaga Anda rusak.
 
 ---
 
-## Templates
+## Latihan
 
-* [`templates/batch-catalog-spec.md`](templates/batch-catalog-spec.md) — directory setups, bounding box maps, catalog logs, and workflow checklists.
+1. **Mudah:** Siapkan folder direktori standar (`01_raw_assets/`, `02_isolated_masks/`, `03_ai_backgrounds/`, `04_composite_drafts/`, `05_final_deliver/`) di komputer Anda.
+2. **Medium:** Rekam Action Photoshop (atau tulis skrip Python dasar) untuk menskalakan gambar menjadi 1080x1080 piksel dan menambahkan batas luar 10%.
+3. **Keras:** Proses batch 3 kaleng minuman berwarna berbeda. Tempatkan mereka di tepian latar belakang yang sama pada koordinat garis dasar yang sama, terapkan lapisan drop shadow yang sama, dan ekspor 3 file WebP katalog yang cocok.
+
+---
+
+## Templat
+
+* [`templates/batch-catalog-spec.md`](templates/batch-catalog-spec.md) — pengaturan direktori, peta kotak pembatas, log katalog, dan daftar periksa alur kerja.
 
 ---
 

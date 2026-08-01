@@ -1,34 +1,34 @@
-# AI Print-on-Demand Vector Brief & Style Guide Template
+# Templat Panduan Gaya & Singkat Vektor AI Print-on-Demand
 
-Use this template to structure apparel-optimized vector art prompts, background removal specifications, and 300 DPI resolution scaling.
-
----
-
-## 🎨 Vector Style Prompt Frameworks
-
-Select a vector aesthetic matching your target apparel sub-niche:
-
-### 1. Cyberpunk Neon Vector (Apparel & Posters)
-* **Description:** Bold linework, vibrant neon colors, futuristic cyber elements, high contrast.
-* **Prompt Anchor:**
-  > `"Clean vector t-shirt graphic of [SUBJECT], Japanese typography accents, bold black outlines, vibrant synthwave neon teal and magenta colors, high contrast, isolated on solid black background, 300 DPI apparel graphic."`
-
-### 2. Retro 70s Badge / Outdoor Vintage
-* **Description:** Distressed vintage color palette (burnt orange, mustard yellow, sage green), sunburst backdrop, retro typography.
-* **Prompt Anchor:**
-  > `"Retro 70s vintage badge t-shirt graphic of [SUBJECT], sunburst rays in background, distressed muted earth tones, vintage typography, clean vector illustration, isolated on white background, 300 DPI."`
-
-### 3. Cottagecore Botanical Watercolor
-* **Description:** Delicate botanical illustrations, soft organic textures, elegant linework. Ideal for mugs, tote bags, and pastel apparel.
-* **Prompt Anchor:**
-  > `"Vintage botanical watercolor illustration of [SUBJECT], detailed floral accents, elegant linework, soft natural colors, clean background, 300 DPI graphic."`
+Gunakan templat ini untuk menyusun perintah seni vektor yang dioptimalkan untuk pakaian, spesifikasi penghapusan latar belakang, dan penskalaan resolusi 300 DPI.
 
 ---
 
-## 📐 Print Specifications Checklist
+## 🎨 Kerangka Prompt Gaya Vektor
 
-- [ ] **Canvas Resolution:** Scaled to at least **4500 × 5400 px @ 300 DPI** (standard DTG chest print area).
-- [ ] **Transparency:** Background completely removed, saved as 32-bit transparent `PNG-24`.
-- [ ] **Color Mode:** Formatted in **RGB** for DTG digital printing.
-- [ ] **Linework Sharpness:** Edges upscaled using vector interpolation to prevent pixelation on dark fabrics.
-- [ ] **Trademark Search:** Verified keywords and phrases on USPTO TESS database to ensure zero trademark conflicts.
+Pilih estetika vektor yang cocok dengan sub-niche pakaian target Anda:
+
+### 1. Cyberpunk Neon Vector (Pakaian & Poster)
+* **Deskripsi:** Garis tebal, warna neon cerah, elemen cyber futuristik, kontras tinggi.
+* **Penyiar Cepat:**
+> __KODE INLINE_0__
+
+### 2. Lencana Retro 70an/Vintage Luar Ruangan
+* **Deskripsi:** Palet warna vintage yang tertekan (oranye terbakar, kuning mustard, hijau sage), latar belakang sunburst, tipografi retro.
+* **Penyiar Cepat:**
+> __KODE INLINE_0__
+
+### 3. Cat Air Botani Cottagecore
+* **Deskripsi:** Ilustrasi botani halus, tekstur organik lembut, garis elegan. Ideal untuk mug, tas jinjing, dan pakaian berwarna pastel.
+* **Penyiar Cepat:**
+> __KODE INLINE_0__
+
+---
+
+## 📐 Daftar Periksa Spesifikasi Cetak
+
+- [ ] **Resolusi Kanvas:** Diskalakan ke setidaknya **4500 × 5400 px @ 300 DPI** (area cetak dada DTG standar).
+- [ ] **Transparansi:** Latar belakang dihapus sepenuhnya, disimpan sebagai `PNG-24` transparan 32-bit.
+- [ ] **Mode Warna:** Diformat dalam **RGB** untuk pencetakan digital DTG.
+- [ ] **Ketajaman Garis:** Tepi ditingkatkan menggunakan interpolasi vektor untuk mencegah pikselasi pada kain gelap.
+- [ ] **Pencarian Merek Dagang:** Kata kunci dan frasa terverifikasi di database USPTO TESS untuk memastikan tidak ada konflik merek dagang.

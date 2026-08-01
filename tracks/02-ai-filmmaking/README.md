@@ -1,71 +1,71 @@
-# Track 2: AI Filmmaking
+# Jalur 2: Pembuatan Film AI
 
-> Short films, music videos, trailers, and documentaries — made without a crew.
+> Film pendek, video musik, trailer, dan dokumenter — dibuat tanpa kru.
 
-Five modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (a screenplay template, shot list, terms sheet) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (templat skenario, daftar pengambilan gambar, lembar persyaratan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [Screenplay & Story Generation](01-screenplay-and-story.md) | ~40 min | — |
-| 2 | [Storyboarding & Shot Planning](02-storyboarding-and-shots.md) | ~40 min | Module 1 |
-| 3 | [Camera Movement & Cinematography Prompts](03-camera-movement.md) | ~50 min | Modules 1–2 |
-| 4 | [Assembling a Short Film](04-assembling-short-film.md) | ~50 min | Modules 1–3 |
-| 5 | [Selling Short-Form Films](05-selling-short-films.md) | ~30 min | Modules 1, 4 |
+| 1 | [Screenplay & Story Generation](01-screenplay-and-story.md) | ~40 menit | — |
+| 2 | [Storyboarding & Shot Planning](02-storyboarding-and-shots.md) | ~40 menit | Modul 1 |
+| 3 | [Camera Movement & Cinematography Prompts](03-camera-movement.md) | ~50 menit | Modul 1–2 |
+| 4 | [Assembling a Short Film](04-assembling-short-film.md) | ~50 menit | Modul 1–3 |
+| 5 | [Selling Short-Form Films](05-selling-short-films.md) | ~30 menit | Modul 1, 4 |
 
 ---
 
-### 1. [Screenplay & Story Generation](01-screenplay-and-story.md)
+### 1.[Screenplay & Story Generation](01-screenplay-and-story.md)
 
-> A good script is cheap; a good story that can actually be filmed by AI is rare.
+> Naskah yang bagus itu murah; jarang ada cerita bagus yang benar-benar bisa difilmkan oleh AI.
 
-- Learn the unique physical and character constraints of modern generative video models.
-- Structure visual screenplay actions to double directly as text prompts.
-- Utilize General LLMs (Claude/Gemini) to output structured prompts instead of generic actions.
+- Pelajari batasan fisik dan karakter unik model video generatif modern.
+- Susun tindakan skenario visual untuk digandakan secara langsung sesuai petunjuk teks.
+- Manfaatkan LLM Umum (Claude/Gemini) untuk menghasilkan perintah terstruktur, bukan tindakan umum.
 
-**Templates:** [`screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) · [`ai-film-brief.md`](templates/ai-film-brief.md)
+**Templat:** [`screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) · [`ai-film-brief.md`](templates/ai-film-brief.md)
 
-### 2. [Storyboarding & Shot Planning](02-storyboarding-and-shots.md)
+### 2.[Storyboarding & Shot Planning](02-storyboarding-and-shots.md)
 
-> A storyboard is the blueprint that stops you from burning credits on random video generations.
+> Papan cerita adalah cetak biru yang menghentikan Anda membakar kredit pada pembuatan video secara acak.
 
-- Establish consistent characters (wardrobe, facial features, styling) using static image references.
-- Utilize prompt prefixes and seeds to align the lighting and color palette before generating video.
-- Design a complete camera shot list matching visual hierarchy (Wide, Medium, Close-up).
+- Tetapkan karakter yang konsisten (lemari pakaian, fitur wajah, gaya) menggunakan referensi gambar statis.
+- Manfaatkan awalan dan benih yang cepat untuk menyelaraskan pencahayaan dan palet warna sebelum membuat video.
+- Rancang daftar jepretan kamera lengkap yang sesuai dengan hierarki visual (Lebar, Sedang, Close-up).
 
-**Templates:** [`shot-list-template.md`](templates/shot-list-template.md) · [`style-guide-template.md`](templates/style-guide-template.md)
+**Templat:** [`shot-list-template.md`](templates/shot-list-template.md) · [`style-guide-template.md`](templates/style-guide-template.md)
 
-### 3. [Camera Movement & Cinematography Prompts](03-camera-movement.md)
+### 3.[Camera Movement & Cinematography Prompts](03-camera-movement.md)
 
-> Camera movement is the difference between an AI slideshow and a movie.
+> Pergerakan kamera adalah perbedaan antara tayangan slide AI dan film.
 
-- Apply dynamic cinematography verbs (dolly, track, tilt, crane) instead of generic motion terms.
-- Condition video generators on storyboard first-frames to lock starting compositions.
-- Control rendering artifacts using motion strength values and speed sliders.
+- Terapkan kata kerja sinematografi dinamis (dolly, track, tilt, crane) daripada istilah gerak umum.
+- Kondisikan generator video pada frame pertama storyboard untuk mengunci komposisi awal.
+- Kontrol artefak rendering menggunakan nilai kekuatan gerakan dan penggeser kecepatan.
 
-**Templates:** [`motion-prompt-library.md`](templates/motion-prompt-library.md) · [`cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md)
+**Templat:** [`motion-prompt-library.md`](templates/motion-prompt-library.md) · [`cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md)
 
-### 4. [Assembling a Short Film](04-assembling-short-film.md)
+### 4.[Assembling a Short Film](04-assembling-short-film.md)
 
-> The film isn't made in the generator; it's made in the editor.
+> Film ini tidak dibuat di generator; itu dibuat di editor.
 
-- Cut, trim, and stitch silent video clips to build scene rhythm.
-- Set up a multi-layered sound design timeline: voiceover narration, continuous ambient room tone, Foley SFX, and score.
-- Color grade separate clips using LUTs to achieve unified visual tone and cinematic atmosphere.
+- Potong, pangkas, dan gabungkan klip video senyap untuk membangun ritme adegan.
+- Siapkan garis waktu desain suara berlapis-lapis: narasi sulih suara, nada ruangan sekitar yang berkelanjutan, Foley SFX, dan skor.
+- Klip terpisah tingkat warna menggunakan LUT untuk mencapai nada visual dan suasana sinematik yang terpadu.
 
-**Templates:** [`sound-design-checklist.md`](templates/sound-design-checklist.md)
+**Templat:** [`sound-design-checklist.md`](templates/sound-design-checklist.md)
 
-### 5. [Selling Short-Form Films](05-selling-short-films.md)
+### 5.[Selling Short-Form Films](05-selling-short-films.md)
 
-> Festivals want the story; sponsors want the eyeballs; platforms want the assets.
+> Festival menginginkan ceritanya; sponsor menginginkan perhatian; platform menginginkan aset tersebut.
 
-- Direct film packaging structures (widescreen master, vertical cuts, clean voice-less audio tracks).
-- Target and structure brand sponsorship pitch proposals for product placement.
-- Negotiate upfront platform fees and revenue-sharing splits for episodic vertical dramas.
+- Struktur pengemasan film langsung (master layar lebar, potongan vertikal, trek audio tanpa suara yang bersih).
+- Menargetkan dan menyusun proposal promosi sponsor merek untuk penempatan produk.
+- Negosiasikan biaya platform dimuka dan bagi hasil untuk drama vertikal episodik.
 
-**Templates:** [`sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) · [`licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md)
+**Templat:** [`sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) · [`licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 14 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

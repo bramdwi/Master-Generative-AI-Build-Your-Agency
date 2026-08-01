@@ -1,71 +1,71 @@
-# Track 6 — AI Audio & Music
+# Trek 6 — AI Audio & Musik
 
-> Voice cloning, translation, dubbing, podcast production, and AI music — the track every video track quietly depends on.
+> Kloning suara, terjemahan, sulih suara, produksi podcast, dan musik AI — trek yang menjadi sandaran setiap trek video.
 
-Five modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (specs sheets, checklists, libraries) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, daftar periksa, pustaka) — file aktual yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [Voice Cloning & TTS Basics](01-voice-cloning-tts.md) | ~40 min | — |
-| 2 | [AI Dubbing & Translation](02-dubbing-translation.md) | ~45 min | Module 1 |
-| 3 | [Podcast Production & Audio Cleaning](03-podcast-production.md) | ~35 min | — |
-| 4 | [AI Music & Sound Effects](04-music-sfx-generation.md) | ~35 min | — |
-| 5 | [Singing Voice Conversion & Vocal Synthesis](05-singing-vocal-synthesis.md) | ~30 min | Module 1 |
+| 1 | [Voice Cloning & TTS Basics](01-voice-cloning-tts.md) | ~40 menit | — |
+| 2 | [AI Dubbing & Translation](02-dubbing-translation.md) | ~45 menit | Modul 1 |
+| 3 | [Podcast Production & Audio Cleaning](03-podcast-production.md) | ~35 menit | — |
+| 4 | [AI Music & Sound Effects](04-music-sfx-generation.md) | ~35 menit | — |
+| 5 | [Singing Voice Conversion & Vocal Synthesis](05-singing-vocal-synthesis.md) | ~30 menit | Modul 1 |
 
 ---
 
-### 1. [Voice Cloning & TTS Basics](01-voice-cloning-tts.md)
+### 1.[Voice Cloning & TTS Basics](01-voice-cloning-tts.md)
 
-> A computer reads text; a clone reads the room.
+> Komputer membaca teks; klon membaca ruangan.
 
-- Train custom high-fidelity voice profiles on ElevenLabs using clean, dry speech samples.
-- Configure stability and clarity sliders to enable natural expression without digital distortion.
-- Record training audio in isolated environments using cardioid condenser microphones.
+- Latih profil suara khusus dengan fidelitas tinggi di ElevenLabs menggunakan sampel ucapan yang bersih dan kering.
+- Konfigurasikan penggeser stabilitas dan kejelasan untuk memungkinkan ekspresi alami tanpa distorsi digital.
+- Rekam audio pelatihan di lingkungan terisolasi menggunakan mikrofon kondensor cardioid.
 
-**Templates:** [`voice-cloning-spec.md`](templates/voice-cloning-spec.md)
+**Templat:** [`voice-cloning-spec.md`](templates/voice-cloning-spec.md)
 
-### 2. [AI Dubbing & Translation](02-dubbing-translation.md)
+### 2.[AI Dubbing & Translation](02-dubbing-translation.md)
 
-> A video that speaks only one language reaches only a fraction of the world.
+> Sebuah video yang hanya berbicara dalam satu bahasa hanya menjangkau sebagian kecil dunia.
 
-- Dub and translate narratives into multiple target languages while keeping original speaker voice timber.
-- Compress speech speed programmatically to fit foreign phrases into strict visual time boundaries.
-- Localize video text descriptions and channel titles using translation checklists.
+- Sulih suara dan terjemahkan narasi ke dalam berbagai bahasa target sambil mempertahankan suara asli pembicara.
+- Kompres kecepatan bicara secara terprogram untuk menyesuaikan frasa asing ke dalam batas waktu visual yang ketat.
+- Lokalkan deskripsi teks video dan judul saluran menggunakan daftar periksa terjemahan.
 
-**Templates:** [`dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md)
+**Templat:** [`dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md)
 
-### 3. [Podcast Production & Audio Cleaning](03-podcast-production.md)
+### 3.[Podcast Production & Audio Cleaning](03-podcast-production.md)
 
-> Bad audio is turned off; good audio is listened to for hours.
+> Audio buruk dimatikan; audio yang bagus didengarkan berjam-jam.
 
-- Clean voice recordings by cutting rumble below 80Hz and gating noise floor below -48dB.
-- Smooth volume peaks and compress dynamic range using standardized 3:1 compressor thresholds.
-- Limit and normalize completed mono and stereo mixes to spotify loudness standards.
+- Bersihkan rekaman suara dengan memotong gemuruh di bawah 80Hz dan menghilangkan kebisingan di bawah -48dB.
+- Menghaluskan puncak volume dan mengompres rentang dinamis menggunakan ambang batas kompresor 3:1 standar.
+- Batasi dan normalkan campuran mono dan stereo yang telah selesai untuk menentukan standar kenyaringan.
 
-**Templates:** [`podcast-production-sheet.md`](templates/podcast-production-sheet.md)
+**Templat:** [`podcast-production-sheet.md`](templates/podcast-production-sheet.md)
 
-### 4. [AI Music & Sound Effects](04-music-sfx-generation.md)
+### 4.[AI Music & Sound Effects](04-music-sfx-generation.md)
 
-> The right sound turns b-roll into a movie.
+> Suara yang tepat mengubah b-roll menjadi film.
 
-- Write structured musical prompts specifying tempo (BPM), instruments, and vocal exclusions.
-- Automatically lower background music levels using auto-ducking limits when narration is speaking.
-- Generate clean transition swooshes and button taps in isolation.
+- Tulis petunjuk musik terstruktur yang menentukan tempo (BPM), instrumen, dan pengecualian vokal.
+- Secara otomatis menurunkan level musik latar belakang menggunakan batas pengecilan otomatis saat narasi sedang berbicara.
+- Hasilkan sapuan transisi yang bersih dan ketukan tombol secara terpisah.
 
-**Templates:** [`audio-prompt-library.md`](templates/audio-prompt-library.md)
+**Templat:** [`audio-prompt-library.md`](templates/audio-prompt-library.md)
 
-### 5. [Singing Voice Conversion & Vocal Synthesis](05-singing-vocal-synthesis.md)
+### 5.[Singing Voice Conversion & Vocal Synthesis](05-singing-vocal-synthesis.md)
 
-> Synthesize the melody, clone the artist.
+> Sintesiskan melodi, tiru artisnya.
 
-- Convert voice timbres using retrieval-based voice conversion (RVC) models.
-- Correct pitch variations in guide vocal recordings using pitch snap filters before conversion.
-- Adjust pitch shifting values by octaves to convert guide tracks across male and female vocal ranges.
+- Konversi warna nada suara menggunakan model konversi suara berbasis pengambilan (RVC).
+- Variasi nada yang benar dalam rekaman vokal pemandu menggunakan filter jepretan nada sebelum konversi.
+- Sesuaikan nilai pergeseran nada berdasarkan oktaf untuk mengonversi trek panduan dalam rentang vokal pria dan wanita.
 
-**Templates:** [`vocal-conversion-brief.md`](templates/vocal-conversion-brief.md)
+**Templat:** [`vocal-conversion-brief.md`](templates/vocal-conversion-brief.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 9 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 9 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

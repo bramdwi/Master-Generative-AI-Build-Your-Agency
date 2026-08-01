@@ -1,26 +1,26 @@
-# Track 9: AI Real Estate (Virtual Staging)
+# Jalur 9: AI Real Estat (Pementasan Virtual)
 
-> Stage a listing in minutes, not days. Transform vacant properties into high-converting luxury homes using AI inpainting, perspective locking, and targeted realtor sales pipelines.
+> Buat daftar dalam hitungan menit, bukan hari. Ubah properti kosong menjadi rumah mewah dengan konversi tinggi menggunakan pengecatan AI, penguncian perspektif, dan jalur penjualan agen properti yang ditargetkan.
 
 ---
 
-## 🗺️ Curriculum Overview
+## 🗺️ Ikhtisar Kurikulum
 
-| # | Module | Core Concept | Output / Deliverable |
+| # | Modul | Konsep Inti | Keluaran / Hasil |
 |---|---|---|---|
-| 1 | [Empty Room → Staged Room Pipeline](01-empty-room-to-staged-room.md) | Perspective locking, depth masking, and furniture inpainting | High-res staged room photos & walkthrough GIF/MP4 motion clips |
-| 2 | [Pricing Against Traditional Staging](02-pricing-against-traditional-staging.md) | Value-based anchor pricing vs. physical staging | Package pricing sheet & ROI sales deck |
-| 3 | [Selling to Realtors & Agencies](03-selling-to-realtors-and-agencies.md) | Active vacant listing prospecting & before/after audits | Cold outreach emails, Loom pitch scripts & agency retainers |
+| 1 | [Empty Room → Staged Room Pipeline](01-empty-room-to-staged-room.md) | Penguncian perspektif, penyembunyian kedalaman, dan pengecatan furnitur | Foto ruangan beresolusi tinggi & klip gerak GIF/MP4 panduan |
+| 2 | [Pricing Against Traditional Staging](02-pricing-against-traditional-staging.md) | Penetapan harga jangkar berbasis nilai vs. pementasan fisik | Lembar harga paket & dek penjualan ROI |
+| 3 | [Selling to Realtors & Agencies](03-selling-to-realtors-and-agencies.md) | Pencarian calon pembeli listing kosong aktif & audit sebelum/sesudah | Email penjangkauan dingin, skrip promosi Loom & pengikut agensi |
 
 ---
 
-## 🛠️ Reusable Templates & Examples
+## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
 
-* [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md) — Interior design style guides, prompt frameworks, and quality control checklists.
-* [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) — Package structures, margin calculators, and service agreement terms.
-* [`templates/agency-outreach-template.md`](templates/agency-outreach-template.md) — Cold email templates, Loom video scripts, and real estate photographer partnership agreements.
-* [`templates/examples/staged-living-room.jpg`](templates/examples/staged-living-room.jpg) — AI staged modern luxury living room photograph.
-* [`templates/examples/staged-bedroom-luxury.jpg`](templates/examples/staged-bedroom-luxury.jpg) — AI staged master bedroom interior photograph.
-* [`templates/examples/empty-to-staged-before-after.jpg`](templates/examples/empty-to-staged-before-after.jpg) — Vacant property vs. AI virtual staging comparison graphic.
-* [`templates/examples/living-room-staging-motion.gif`](templates/examples/living-room-staging-motion.gif) — Image-to-Video walkthrough clip ([living-room-staging-motion.mp4](templates/examples/living-room-staging-motion.mp4)).
-* [`templates/examples/bedroom-staging-motion.gif`](templates/examples/bedroom-staging-motion.gif) — Image-to-Video bedroom walkthrough clip ([bedroom-staging-motion.mp4](templates/examples/bedroom-staging-motion.mp4)).
+* [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md) — Panduan gaya desain interior, kerangka kerja cepat, dan daftar periksa kendali mutu.
+* [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) — Struktur paket, kalkulator margin, dan persyaratan perjanjian layanan.
+* [`templates/agency-outreach-template.md`](templates/agency-outreach-template.md) — Templat email keren, skrip video Loom, dan perjanjian kemitraan fotografer real estat.
+* [`templates/examples/staged-living-room.jpg`](templates/examples/staged-living-room.jpg) — AI menampilkan foto ruang tamu mewah modern.
+* [`templates/examples/staged-bedroom-luxury.jpg`](templates/examples/staged-bedroom-luxury.jpg) — Foto interior kamar tidur utama yang dipentaskan oleh AI.
+* [`templates/examples/empty-to-staged-before-after.jpg`](templates/examples/empty-to-staged-before-after.jpg) — Properti kosong vs. grafik perbandingan pementasan virtual AI.
+* [`templates/examples/living-room-staging-motion.gif`](templates/examples/living-room-staging-motion.gif) — Klip penelusuran Gambar-ke-Video ([living-room-staging-motion.mp4](templates/examples/living-room-staging-motion.mp4)).
+* [`templates/examples/bedroom-staging-motion.gif`](templates/examples/bedroom-staging-motion.gif) — Klip panduan kamar tidur Gambar-ke-Video ([bedroom-staging-motion.mp4](templates/examples/bedroom-staging-motion.mp4)).

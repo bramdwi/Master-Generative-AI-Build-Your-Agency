@@ -1,94 +1,94 @@
-# Building a 10-Ad Batch
+# Membangun Kelompok 10 Iklan
 
-> Clients don't buy one ad — they buy variants to test. Batching is the actual product.
+> Klien tidak membeli satu iklan — mereka membeli varian untuk diuji. Batching adalah produk sebenarnya.
 
-**Track:** AI Video Ads & UGC
-**Time:** ~50 minutes
-**Prerequisites:** How AI UGC Actually Works, Character & Face Consistency
+**Lagu:** Iklan Video AI & UGC
+**Waktu:** ~50 menit
+**Prasyarat:** Cara Kerja AI UGC, Konsistensi Karakter & Wajah
 
-## The Problem
+## Masalahnya
 
-A single ad, however good, is a gamble on one hook and one angle. Brands that run paid social know this — they test multiple variants against each other and keep whichever performs. This is why the real service isn't "make me an ad," it's "make me 10 ad variants I can test" — and producing a batch efficiently, rather than one at a time from scratch, is what makes this a viable business rather than a slow craft.
+Sebuah iklan, betapapun bagusnya, adalah pertaruhan pada satu sudut dan satu sudut. Merek yang menjalankan media sosial berbayar mengetahui hal ini — mereka menguji berbagai varian satu sama lain dan mempertahankan varian mana yang berkinerja baik. Inilah sebabnya mengapa layanan sebenarnya bukanlah "buatkan saya iklan", melainkan "buatkan saya 10 varian iklan yang dapat saya uji" — dan memproduksi secara batch secara efisien, bukan satu per satu dari awal, itulah yang menjadikan bisnis ini layak dan bukan kerajinan yang lambat.
 
-## The Concept
+## Konsep
 
-A batch isn't 10 unrelated ads — it's one product, varied along a small number of axes, so you can produce it efficiently while still giving the client meaningfully different things to test:
+Satu batch bukanlah 10 iklan yang tidak terkait — ini adalah satu produk, yang divariasikan dalam sejumlah kecil sumbu, sehingga Anda dapat memproduksinya secara efisien sambil tetap memberikan hal-hal berbeda yang bermakna kepada klien untuk diuji:
 
-- **Hook variation** — same product, different opening 2 seconds (question, bold claim, before/after, problem-first)
-- **Angle variation** — same product, different selling angle (price, convenience, social proof, novelty)
-- **Format variation** — same script, different avatar/voice or b-roll style
+- **Variasi pengait** — produk yang sama, pembukaan berbeda 2 detik (pertanyaan, klaim tebal, sebelum/sesudah, soal terlebih dahulu)
+- **Variasi sudut** — produk yang sama, sudut penjualan berbeda (harga, kenyamanan, bukti sosial, kebaruan)
+- **Variasi format** — skrip yang sama, avatar/suara atau gaya b-roll yang berbeda
 
-Varying all three per ad would make every ad different in every way, making it impossible to know *why* one outperformed another. Vary one or two axes at a time and hold the rest constant — that's what makes the results the client gets back actually useful, not just "another ad."
+Memvariasikan ketiganya per iklan akan membuat setiap iklan berbeda dalam segala hal, sehingga mustahil untuk mengetahui *mengapa* satu iklan mengungguli yang lain. Variasikan satu atau dua sumbu sekaligus dan pertahankan sisanya konstan — itulah yang membuat hasil yang diperoleh klien benar-benar berguna, bukan sekadar "iklan lain".
 
-## Do It
+## Lakukan itu
 
-1. **Lock the constants.** Same product, same core proof point, same CTA — these stay fixed across the whole batch.
-2. **Write 3-4 hook variants** using the script template from Module 1, each testing a different opening angle.
-3. **Pair hooks with 2-3 angle variants** (price-focused, convenience-focused, social-proof-focused) to generate your combination matrix — e.g. 4 hooks × 3 angles doesn't mean 12 ads; pick the most promising 8-10 combinations rather than every permutation.
-4. **Reuse your consistent character** (Module 2) across the whole batch unless the brief calls for multiple creator "types."
-5. **Batch-produce voice and avatar generation** — since script/character are locked, this step is mostly repetition with different script text, which is where API-based generation earns its keep over one-by-one manual tools.
-6. **Deliver with a simple test plan** — label each ad by which axis it varies, so the client (or you) can actually read the results afterward.
+1. **Kunci konstanta.** Produk yang sama, titik bukti inti yang sama, CTA yang sama — produk ini tetap sama di seluruh batch.
+2. **Tulis 3-4 varian kait** menggunakan templat skrip dari Modul 1, masing-masing menguji sudut pembukaan yang berbeda.
+3. **Pasangkan kait dengan 2-3 varian sudut** (berfokus pada harga, berfokus pada kenyamanan, berfokus pada ketahanan sosial) untuk menghasilkan matriks kombinasi Anda — misalnya. 4 kait × 3 sudut tidak berarti 12 iklan; pilihlah 8-10 kombinasi yang paling menjanjikan daripada setiap permutasi.
+4. **Gunakan kembali karakter Anda yang konsisten** (Modul 2) di seluruh kumpulan kecuali ringkasan tersebut memerlukan beberapa "tipe" pembuat.
+5. **Pembuatan suara dan avatar secara batch** — karena skrip/karakter dikunci, langkah ini sebagian besar merupakan pengulangan dengan teks skrip yang berbeda, yang mana pembuatan berbasis API dapat menggunakan alat manual satu per satu.
+6. **Tayangkan dengan rencana pengujian sederhana** — beri label pada setiap iklan berdasarkan sumbu mana iklan tersebut bervariasi, sehingga klien (atau Anda) benar-benar dapat membaca hasilnya setelahnya.
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/gripmount-ad2-problem-first.gif" alt="Ad Variation 2: Problem-First Loop" width="240">
-<img src="templates/examples/gripmount-ad3-pov.gif" alt="Ad Variation 3: POV Demonstration Loop" width="240">
+<img src="templates/examples/gripmount-ad2-problem-first.gif" alt="Variasi Iklan 2: Loop Masalah-Pertama" width="240">
+<img src="templates/examples/gripmount-ad3-pov.gif" alt="Variasi Iklan 3: Lingkaran Demonstrasi POV" width="240">
 </p>
 <p align="center"><sub>Image-to-Video Problem-First Hook (Left) ──► POV Product Demonstration Loop (Right) · <a href="templates/examples/gripmount-ad2-problem-first.mp4">Ad 2 MP4</a> · <a href="templates/examples/gripmount-ad3-pov.mp4">Ad 3 MP4</a></sub></p>
 
-Continuing the GripMount ad (Module 1) with the consistent "creator" from Module 2. Here's a real 5-ad test batch matrix:
+Melanjutkan iklan GripMount (Modul 1) dengan "pembuat" yang konsisten dari Modul 2. Berikut matriks kumpulan pengujian 5 iklan yang sebenarnya:
 
-| Ad # | Hook | Angle | Constant |
+| Iklan # | Kait | Sudut | Konstan |
 |---|---|---|---|
-| 1 | "I did not expect this to hold through a pothole." | Durability/surprise | Same product demo, same CTA |
-| 2 | "My old mount fell off literally every drive." | Problem-first (names the pain point) | Same product demo, same CTA |
-| 3 | "POV: you're driving and your phone doesn't fall for once." | Relatable/POV format | Same product demo, same CTA |
-| 4 | "This $28 thing fixed a problem I didn't know had a fix." | Price/value framing | Same product demo, same CTA |
-| 5 | "Two weeks, every pothole, still holding." | Proof-first (leads with the result, not the hook question) | Same product demo, same CTA |
+| 1 | "Saya tidak mengira ini akan terjadi melalui lubang." | Daya tahan/kejutan | Demo produk yang sama, CTA yang sama |
+| 2 | "Gunung lamaku terjatuh setiap kali berkendara." | Masalah-pertama (sebutkan titik sakitnya) | Demo produk yang sama, CTA yang sama |
+| 3 | "POV: kamu sedang mengemudi dan ponselmu tidak jatuh sekali pun." | Format terkait/POV | Demo produk yang sama, CTA yang sama |
+| 4 | "Benda seharga $28 ini memperbaiki masalah yang saya tidak tahu ada perbaikannya." | Pembingkaian harga/nilai | Demo produk yang sama, CTA yang sama |
+| 5 | "Dua minggu, setiap lubang, masih bertahan." | Buktikan dulu (memimpin dengan hasil, bukan pertanyaan yang menarik) | Demo produk yang sama, CTA yang sama |
 
-Only the hook and opening angle change — product demo, proof section, and CTA stay identical across all 5, so if one ad wins, you know it's the hook, not some other variable.
+Hanya pengait dan sudut bukaan yang berubah — demo produk, bagian bukti, dan CTA tetap sama di kelima iklan tersebut, jadi jika satu iklan menang, Anda tahu itu pengaitnya, bukan variabel lainnya.
 
-**Ad 1 (Module 1) vs. Ad 2 and Ad 3, actually generated** — same anchor character (Module 2), same product, only the opening line changes. This is what "batching" looks like in practice, not just a table of hooks:
+**Iklan 1 (Modul 1) vs. Iklan 2 dan Iklan 3, sebenarnya dihasilkan** — karakter jangkar yang sama (Modul 2), produk yang sama, hanya baris pembuka yang berubah. Seperti inilah tampilan "batching" dalam praktiknya, bukan sekadar tabel pengait:
 
 
 
-Producing these 3 took re-using the same uploaded anchor image across 3 separate `seedance-2-image-to-video-fast` calls, changing only the prompt's dialogue line each time (~$0.75/clip) — this is exactly what "batch-produce voice and avatar generation" in Do It, step 5 means: the character and product stay fixed, only the script text changes per call.
+Memproduksi 3 ini memerlukan penggunaan kembali gambar jangkar yang diunggah yang sama di 3 panggilan `seedance-2-image-to-video-fast` yang terpisah, hanya mengubah baris dialog perintah setiap kali (~$0,75/klip) — inilah tepatnya yang dimaksud dengan "pembuatan suara dan avatar yang menghasilkan batch" di Do It, langkah 5 berarti: karakter dan produk tetap, hanya teks skrip yang berubah per panggilan.
 
-**How to actually read the test** once these are running as paid social ads: check **hook rate** first (the % of viewers who watch past the first 2-3 seconds) — an ad with a weak hook rate is dead regardless of anything downstream, so don't bother comparing CPA on it yet. Only compare cost-per-result (CPA/ROAS) across ads that already have a decent hook rate; a low CPA on very little spend is noise, not a signal. A common rule of thumb: run each variant long enough to clear a few thousand impressions (roughly 3-4 days at a modest daily budget per variant) before calling a winner — long enough to get past the platform's initial learning phase, short enough not to waste spend on an obvious loser.
+**Cara membaca tes** setelah iklan ini dijalankan sebagai iklan sosial berbayar: periksa **hook rate** terlebih dahulu (% pemirsa yang menonton setelah 2-3 detik pertama) — iklan dengan hook rate yang lemah akan mati, apa pun yang terjadi di hilir, jadi jangan repot-repot membandingkan CPA di dalamnya dulu. Hanya bandingkan biaya per hasil (CPA/ROAS) di seluruh iklan yang sudah memiliki tingkat kaitan yang layak; BPA yang rendah dengan pembelanjaan yang sangat sedikit hanyalah gangguan, bukan sinyal. Aturan praktis yang umum: jalankan setiap varian dalam jangka waktu yang cukup lama untuk menghapus beberapa ribu tayangan (kira-kira 3-4 hari dengan anggaran harian per varian yang sederhana) sebelum menentukan pemenangnya — cukup lama untuk melewati fase pembelajaran awal platform, cukup singkat untuk tidak menyia-nyiakan pembelanjaan pada varian yang jelas-jelas kalah.
 
-**Labeling for the client:** deliver the batch with each ad tagged by which single thing it varies ("Ad 2 = problem-first hook") so whoever's running the media buy can read the result back to a specific creative decision, not just "ad 2 did better."
+**Pelabelan untuk klien:** mengirimkan kumpulan iklan dengan masing-masing iklan diberi tag berdasarkan hal yang berbeda-beda ("Iklan 2 = pengait pertama yang bermasalah") sehingga siapa pun yang menjalankan pembelian media dapat membaca hasilnya kembali ke keputusan materi iklan tertentu, bukan hanya "iklan 2 berkinerja lebih baik".
 
-## Compare Tools
+## Bandingkan Alat
 
-| Path | Throughput for a 10-ad batch | Best for |
+| Jalur | Throughput untuk kumpulan 10 iklan | Terbaik untuk |
 |---|---|---|
-| **muapi API** | Fast — script the batch as repeated calls varying only script text/params | Client work with deadlines; the default for batch production |
-| **Other paid UGC tools (GUI-based)** | Slower — usually one-at-a-time through a UI, even if the UI is polished | Occasional single ads, not batch production |
-| **Local/self-hosted** | Can be fast once a batch-generation workflow is set up (e.g. a ComfyUI workflow queue), but the setup investment only pays off at high recurring volume | Agencies producing many batches per month who've already paid the local setup cost in Module 1/2 |
+| **muapiAPI** | Cepat — membuat skrip batch sebagai panggilan berulang yang hanya memvariasikan teks skrip/params | Klien bekerja dengan tenggat waktu; default untuk produksi batch |
+| **Alat UGC berbayar lainnya (berbasis GUI)** | Lebih lambat — biasanya satu per satu melalui UI, meskipun UI telah dipoles | Iklan tunggal sesekali, bukan produksi batch |
+| **Lokal/dihosting sendiri** | Bisa cepat setelah alur kerja pembuatan batch disiapkan (misalnya antrean alur kerja ComfyUI), namun investasi penyiapan hanya membuahkan hasil pada volume berulang yang tinggi | Agensi yang memproduksi banyak batch per bulan yang telah membayar biaya setup lokal di Modul 1/2 |
 
-## Launch It
+## Luncurkan
 
-**How to price it:** Price per batch, not per ad — e.g. "$150-$300 for a 5-8 ad test batch," scaling with revisions included. This matches how brands already think about UGC ad budgets and is easier to sell than a per-ad rate card.
+**Cara menentukan harga:** Harga per batch, bukan per iklan — mis. "$150-$300 untuk 5-8 batch pengujian iklan," termasuk penskalaan dengan revisi. Hal ini sesuai dengan pemikiran merek tentang anggaran iklan UGC dan lebih mudah untuk dijual dibandingkan kartu tarif per iklan.
 
-**How to position it:** Sell the *testing capability*, not the ad count — "get 8 variants to find your winner" is a stronger pitch than "get 8 ads." Brands running paid social already understand why this matters.
+**Cara memposisikannya:** Jual *kemampuan pengujian*, bukan jumlah iklan — "dapatkan 8 varian untuk menemukan pemenang" adalah promosi yang lebih kuat daripada "dapatkan 8 iklan". Merek yang menjalankan media sosial berbayar sudah memahami mengapa hal ini penting.
 
-**Where to find first clients:** Same as Module 1 — DTC brands visibly running paid social ads. For batch work specifically, mention in outreach that you can turn around a full test batch faster than sourcing multiple human creators, since speed-to-test is the actual value prop here.
+**Di mana menemukan klien pertama:** Sama seperti Modul 1 — merek DTC secara nyata menjalankan iklan sosial berbayar. Khusus untuk pekerjaan batch, sebutkan dalam penjangkauan bahwa Anda dapat menyelesaikan batch pengujian lengkap lebih cepat daripada mencari beberapa pembuat manusia, karena kecepatan untuk menguji adalah nilai sebenarnya yang didukung di sini.
 
-**The real numbers:** Agency-level UGC ad retainers documented in the $1,500-$3,000/month range are typically buying ongoing batch production like this, not one-off ads — this module is what makes that retainer model deliverable.
+**Jumlah sebenarnya:** Pengikut iklan UGC tingkat agensi yang didokumentasikan dalam kisaran $1.500-$3.000/bulan biasanya membeli produksi batch berkelanjutan seperti ini, bukan iklan satu kali — modul inilah yang membuat model pengikut tersebut dapat diterapkan.
 
-## Exercises
+## Latihan
 
-1. **Easy:** Plan a 6-ad batch matrix (3 hooks × 2 angles) for a product of your choice, without producing it yet.
-2. **Medium:** Produce a 5-ad batch end-to-end, holding character and CTA constant while varying hook and angle.
-3. **Hard:** Produce a 10-ad batch and write a one-page "test plan" a client could use to track which variant performed best.
+1. **Mudah:** Rencanakan matriks kumpulan 6 iklan (3 kait × 2 sudut) untuk produk pilihan Anda, tanpa harus memproduksinya terlebih dahulu.
+2. **Sedang:** Menghasilkan kumpulan 5 iklan secara menyeluruh, mempertahankan karakter dan CTA yang konstan sambil memvariasikan kaitan dan sudut.
+3. **Sulit:** Buat kumpulan 10 iklan dan tulis "rencana pengujian" satu halaman yang dapat digunakan klien untuk melacak varian mana yang berkinerja terbaik.
 
-## Templates
+## Templat
 
-Reusable template(s) this module produces — fill these in and reuse them on real work:
+Templat yang dapat digunakan kembali yang dihasilkan modul ini — isi templat ini dan gunakan kembali pada pekerjaan nyata:
 
-- [`templates/batch-matrix-template.md`](templates/batch-matrix-template.md) — a fill-in template for planning hook × angle combinations before production.
+- [`templates/batch-matrix-template.md`](templates/batch-matrix-template.md) — templat pengisian untuk merencanakan kombinasi kait × sudut sebelum produksi.
 
 ---
 
-[← Previous: Character & Face Consistency](02-character-consistency.md) · [Track overview](README.md) · Next: [Pricing & Selling UGC Ads →](04-pricing-and-selling-ugc.md)
+[← Previous: Character & Face Consistency](02-character-consistency.md) · [Track overview](README.md) · Berikutnya: [Pricing & Selling UGC Ads →](04-pricing-and-selling-ugc.md)

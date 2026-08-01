@@ -1,123 +1,123 @@
-# How AI UGC Actually Works
+# Bagaimana Sebenarnya AI UGC Bekerja
 
-> A UGC ad is just five pieces stitched together — once you can see the seams, you can make any of them.
+> Iklan UGC hanya terdiri dari lima bagian yang dijahit menjadi satu — setelah Anda dapat melihat jahitannya, Anda dapat membuat salah satu darinya.
 
-**Track:** AI Video Ads & UGC
-**Time:** ~45 minutes
-**Prerequisites:** None
+**Lagu:** Iklan Video AI & UGC
+**Waktu:** ~45 menit
+**Prasyarat:** Tidak ada
 
-## The Problem
+## Masalahnya
 
-Brands pay real creators $200-$1,500 per UGC (user-generated-content-style) ad because it converts better than polished studio ads — it looks like a real person talking to camera about a product, not a commercial. The problem: sourcing, briefing, filming, and revising human creators is slow, and it doesn't scale. A brand that wants 20 ad variants to test can't get 20 creators on short notice.
+Brand membayar pembuat konten nyata sebesar $200-$1.500 per iklan UGC (gaya konten buatan pengguna) karena iklan tersebut berkonversi lebih baik daripada iklan studio yang dipoles — terlihat seperti orang sungguhan berbicara di depan kamera tentang suatu produk, bukan iklan. Masalahnya: pencarian sumber, pengarahan, pembuatan film, dan revisi pencipta manusia berjalan lambat, dan tidak berskala. Sebuah merek yang ingin menguji 20 varian iklan tidak bisa mendapatkan 20 pembuat konten dalam waktu singkat.
 
-AI-generated UGC solves the scaling problem, but most people trying it get stuck on one thing: their AI "creator" doesn't look consistent from shot to shot, or the voice/lip-sync looks obviously fake, and the ad gets rejected. Understanding the actual pipeline — not just "type a prompt" — is what separates a usable ad from an uncanny one.
+UGC yang dihasilkan oleh AI memecahkan masalah penskalaan, namun kebanyakan orang yang mencobanya terjebak pada satu hal: "pencipta" AI mereka tidak terlihat konsisten dari satu gambar ke gambar lainnya, atau suara/sinkronisasi bibir terlihat palsu, dan iklan ditolak. Memahami alur sebenarnya — bukan sekadar "ketikkan perintah" — adalah hal yang membedakan iklan yang dapat digunakan dari iklan yang luar biasa.
 
-## The Concept
+## Konsep
 
-A UGC-style AI ad is five stages, each producible independently and swappable:
+Iklan AI gaya UGC terdiri dari lima tahap, masing-masing dapat diproduksi secara independen dan dapat ditukar:
 
 ```
 Script  →  Avatar / Voice  →  Video  →  Captions  →  Export
 ```
 
-- **Script** — a short, conversational hook + pitch + call-to-action, written the way a real person talks, not ad copy.
-- **Avatar/Voice** — either a generated talking-head avatar with a cloned/synthetic voice, or a still reference image animated with lip-sync driven by an audio track.
-- **Video** — the avatar's performance, plus any b-roll (product shots, screen recordings) cut around it.
-- **Captions** — auto-generated, burned-in captions, standard for the format because most viewers watch muted.
-- **Export** — format/aspect ratio matched to the platform (9:16 for Reels/TikTok/Shorts, sometimes 1:1 or 16:9).
+- **Script** — kalimat percakapan singkat + nada + ajakan bertindak, ditulis dengan cara orang sungguhan berbicara, bukan teks iklan.
+- **Avatar/Suara** — baik avatar kepala bicara yang dihasilkan dengan suara kloning/sintetis, atau gambar referensi diam yang dianimasikan dengan sinkronisasi bibir yang digerakkan oleh trek audio.
+- **Video** — performa avatar, ditambah b-roll (jepretan produk, rekaman layar) apa pun yang dipotong di sekitarnya.
+- **Teks** — teks yang dibuat secara otomatis dan tertanam, standar untuk format ini karena sebagian besar pemirsa menonton dalam mode senyap.
+- **Ekspor** — format/rasio aspek yang disesuaikan dengan platform (9:16 untuk Reels/TikTok/Shorts, terkadang 1:1 atau 16:9).
 
-The reason this pipeline matters more than any single "best model" is that each stage can be produced by a different tool, and the weak link is whichever stage looks least real — usually the avatar's face/voice sync, not the script or captions.
+Alasan mengapa pipeline ini lebih penting daripada "model terbaik" mana pun adalah karena setiap tahap dapat dihasilkan oleh alat yang berbeda, dan titik lemahnya adalah tahap mana pun yang terlihat paling tidak nyata — biasanya sinkronisasi wajah/suara avatar, bukan skrip atau teks.
 
-## Do It
+## Lakukan itu
 
-1. **Write the script.** Keep it under 30 seconds spoken (~75-90 words). Structure: hook (first 2 seconds — a question, a bold claim, or a visual surprise), problem/pitch (10-15 seconds), proof or demo (10-15 seconds), call-to-action (last 2-3 seconds).
-2. **Generate the voice.** Use a text-to-speech or voice-cloning model to turn the script into natural-sounding narration. Match tone to the product (energetic for a gadget, calm for skincare) — and don't stop at the first take. Generate 2-3 versions varying pacing and emphasis (which word gets stressed in the hook line changes how "surprised" or "casual" it reads), and pick the one that sounds least like it's being read off a page. Accent/demographic match to the product's likely audience matters here too — a mismatched voice can undercut an otherwise good script.
-3. **Generate or animate the avatar.** Either generate a talking-head video directly from the script/voice, or animate a reference image with lip-sync driven by the audio track.
-4. **Add b-roll.** Cut in product shots or screen recordings during the pitch/proof section — this also hides any short imperfect stretches in the avatar footage.
-5. **Caption and export.** Auto-generate captions, burn them in, and export at 9:16 for short-form platforms.
-6. **Ship check.** Before sending anything to a client, watch the finished ad once with sound off (does the hook work from captions alone?) and once with sound on at regular volume. If you catch yourself pausing anywhere to figure out what's happening, a client will too — that's a sign to fix pacing or cut, not just ship it and see.
+1. **Tulis naskahnya.** Ucapkan naskahnya kurang dari 30 detik (~75-90 kata). Struktur: hook (2 detik pertama — pertanyaan, klaim yang berani, atau kejutan visual), masalah/promosi (10-15 detik), bukti atau demo (10-15 detik), ajakan bertindak (2-3 detik terakhir).
+2. **Hasilkan suara.** Gunakan model text-to-speech atau kloning suara untuk mengubah naskah menjadi narasi yang terdengar alami. Sesuaikan warna dengan produk (energik untuk gadget, tenang untuk perawatan kulit) — dan jangan berhenti pada pengambilan pertama. Buatlah 2-3 versi dengan tempo dan penekanan yang berbeda-beda (kata mana yang diberi tekanan pada garis pengait akan mengubah cara "terkejut" atau "santai" bacaannya), dan pilih salah satu yang kedengarannya paling tidak seperti dibacakan dari satu halaman. Kecocokan aksen/demografis dengan kemungkinan audiens produk juga penting di sini — suara yang tidak cocok dapat melemahkan naskah yang bagus.
+3. **Buat atau animasikan avatar.** Buat video kepala bicara langsung dari skrip/suara, atau animasikan gambar referensi dengan sinkronisasi bibir yang digerakkan oleh trek audio.
+4. **Tambahkan b-roll.** Potong gambar produk atau rekaman layar selama bagian pitch/proof — ini juga menyembunyikan bagian pendek yang tidak sempurna dalam rekaman avatar.
+5. **Teks ​​dan ekspor.** Buat teks secara otomatis, masukkan, dan ekspor pada 09:16 untuk platform berdurasi pendek.
+6. **Pemeriksaan pengiriman.** Sebelum mengirim apa pun ke klien, tonton iklan yang sudah selesai sekali dengan suara mati (apakah pengait berfungsi hanya dari teksnya?) dan sekali dengan suara menyala pada volume reguler. Jika Anda mendapati diri Anda berhenti sejenak di mana saja untuk mencari tahu apa yang terjadi, klien juga akan melakukannya — itu pertanda untuk memperbaiki atau memotong tempo, bukan hanya mengirimkannya dan melihatnya.
 
-## Worked Example
+## Contoh yang berhasil
 
 <p align="center">
-<img src="templates/examples/character-anchor.jpg" alt="UGC Character Anchor" width="240">
-<img src="templates/examples/gripmount-hook-clip.gif" alt="UGC Hook Video Motion (I2V)" width="240">
+<img src="templates/examples/character-anchor.jpg" alt="Jangkar Karakter UGC" width="240">
+<img src="templates/examples/gripmount-hook-clip.gif" alt="Gerakan Video Kait UGC (I2V)" width="240">
 </p>
 <p align="center"><sub>AI UGC Character Image (Left) ──► Image-to-Video Motion Loop (Right) · <a href="templates/examples/gripmount-hook-clip.mp4">MP4</a></sub></p>
 
-Product: a $28 magnetic phone car mount ("GripMount").
+Produk: dudukan telepon magnetik di mobil seharga $28 ("GripMount").
 
-**Script** (hook/pitch/proof/CTA, ~28 seconds spoken):
+**Skrip** (hook/pitch/proof/CTA, ~28 detik diucapkan):
 
-> "Okay, I did not expect this to actually hold my phone through a pothole. [holds up phone, taps mount] I used to have one of those suction ones that fell off literally every drive — this one's magnetic, snaps on in like two seconds. [demo: slaps phone onto mount] It's held through every drive for the last two weeks, potholes included. It's $28, link's below — honestly just get it before your next road trip."
+> "Oke, saya tidak mengira ini akan benar-benar menahan ponsel saya melalui lubang. [mengangkat ponsel, mengetuk dudukan] Dulu saya punya salah satu pengisap yang jatuh di setiap drive - yang ini bersifat magnetis, langsung menyala dalam waktu sekitar dua detik. [demo: menempelkan ponsel ke dudukan] Ini ditahan di setiap drive selama dua minggu terakhir, termasuk lubang. Harganya $28, tautan ada di bawah — sejujurnya, dapatkan saja sebelum perjalanan Anda berikutnya."
 
-Mapped to the structure:
-- **Hook (0-2s):** "Okay, I did not expect this to actually hold my phone through a pothole." — a surprised, specific claim, not generic ("this product is great").
-- **Problem/Pitch (2-15s):** names the actual competing product's failure (suction mount falling off) — this is what makes it sound like a real person, not ad copy.
-- **Proof/Demo (15-25s):** a visual demo (slapping the phone on) plus a concrete duration ("two weeks, potholes included") — specific numbers read as more credible than "it works great."
-- **CTA (25-28s):** price stated plainly, one action ("link's below"), urgency tied to a real use case (road trip) instead of a generic "buy now."
+Dipetakan ke struktur:
+- **Hook (0-2s):** "Oke, aku tidak mengira ini akan membuat ponselku masuk ke dalam lubang." — klaim yang mengejutkan dan spesifik, bukan generik (“produk ini hebat”).
+- **Masalah/Pitch (2-15 detik):** menyebutkan kegagalan produk pesaing yang sebenarnya (dudukan pengisap terjatuh) — inilah yang membuatnya terdengar seperti orang sungguhan, bukan salinan iklan.
+- **Bukti/Demo (15-25 detik):** demo visual (menampar ponsel) ditambah durasi nyata ("dua minggu, termasuk jalan berlubang") — angka tertentu dianggap lebih kredibel daripada "berhasil dengan baik".
+- **CTA (25-28 detik):** harga dinyatakan dengan jelas, satu tindakan ("tautan ada di bawah"), urgensi terkait dengan kasus penggunaan nyata (perjalanan darat) dan bukan "beli sekarang" yang umum.
 
-**Why this script would survive production:** it's short enough to keep energy up on one take, the demo moment (slapping the phone on) gives the avatar something to *do* with its hands instead of just talking — which also hides minor avatar imperfections — and it never says "AI" or sounds scripted.
+**Mengapa skrip ini dapat bertahan dalam produksi:** skrip ini cukup singkat untuk menghemat energi dalam sekali pengambilan, momen demo (menampar ponsel) memberi avatar sesuatu untuk *dilakukan* dengan tangannya alih-alih hanya berbicara — yang juga menyembunyikan ketidaksempurnaan kecil pada avatar — dan tidak pernah tertulis "AI" atau terdengar seperti skrip.
 
-**Common first-attempt mistake:** writing the pitch section like copy ("Introducing GripMount, the revolutionary new way to...") instead of like speech. Read your script out loud before producing anything — if you wouldn't say it to a friend, rewrite it.
+**Kesalahan umum pada percobaan pertama:** menulis bagian nada seperti salinan ("Memperkenalkan GripMount, cara baru yang revolusioner untuk...") alih-alih seperti ucapan. Bacalah naskah Anda dengan lantang sebelum membuat apa pun — jika Anda tidak ingin mengatakannya kepada teman, tulis ulang.
 
-**The clip below is real, not a mockup** — the anchor image from Module 2 animated into a short talking clip from the hook line above, so you can see what a first-pass output actually looks like before any editing/b-roll/captions are added:
+**Klip di bawah ini asli, bukan mockup** — gambar jangkar dari Modul 2 dianimasikan menjadi klip percakapan singkat dari garis kait di atas, sehingga Anda dapat melihat seperti apa keluaran first-pass sebenarnya sebelum pengeditan/b-roll/teks ditambahkan:
 
 
 
 <p align="center"><i>An unedited first pass — lip movement is decent but not perfect, which is normal at this stage. Cutting in b-roll during the pitch/proof section (Do It, step 4) is what usually hides this kind of imperfection in a finished ad.</i></p>
 
-*How this was actually produced, end to end, via the muapi API:*
-1. Generated the anchor portrait with **`nano-banana-2`** (text-to-image, $0.06/image) — the same image used in Module 2's example.
-2. Uploaded that image via muapi's `upload_file` endpoint to get a URL the next model could reference.
-3. Fed that image URL into **`seedance-2-image-to-video-fast`** (image-to-video, $0.75/clip) with a prompt describing the action and the exact line of dialogue — no separate TTS/lip-sync pass was needed, since this model generates speech and mouth movement together from the prompt.
-4. Downloaded the resulting `.mp4` from muapi's CDN (generated outputs expire after 30 days, so anything you want to keep needs downloading promptly) and converted it to the silent GIF preview above with `ffmpeg` for inline display.
+*Bagaimana ini sebenarnya diproduksi, secara end to end, melalui muapi API:*
+1. Menghasilkan potret jangkar dengan **`nano-banana-2`** (teks-ke-gambar, $0,06/gambar) — gambar yang sama yang digunakan dalam contoh Modul 2.
+2. Mengunggah gambar tersebut melalui titik akhir `upload_file` muapi untuk mendapatkan URL yang dapat direferensikan oleh model berikutnya.
+3. Masukkan URL gambar tersebut ke **`seedance-2-image-to-video-fast`** (gambar-ke-video, $0,75/klip) dengan perintah yang menjelaskan tindakan dan alur dialog yang tepat — tidak diperlukan sandi TTS/sinkronisasi bibir yang terpisah, karena model ini menghasilkan ucapan dan gerakan mulut secara bersamaan dari perintah tersebut.
+4. Mengunduh `.mp4` yang dihasilkan dari CDN muapi (keluaran yang dihasilkan akan kedaluwarsa setelah 30 hari, jadi apa pun yang ingin Anda simpan perlu segera diunduh) dan mengonversikannya ke pratinjau GIF senyap di atas dengan `ffmpeg` untuk tampilan sebaris.
 
-Total cost for this one clip: **$0.81** across the two model calls. This is exactly the "image → video model, prompt-driven" pipeline described in Do It, step 3 — the models named here are current examples, not a fixed recommendation; see Compare Tools below for how to pick a model when these become outdated.
+Total biaya untuk satu klip ini: **$0,81** untuk dua panggilan model. Ini persis seperti alur "model gambar → video, yang digerakkan oleh perintah" yang dijelaskan dalam Lakukan, langkah 3 — model yang disebutkan di sini adalah contoh terkini, bukan rekomendasi tetap; lihat Bandingkan Alat di bawah untuk mengetahui cara memilih model ketika sudah ketinggalan zaman.
 
-## Compare Tools
+## Bandingkan Alat
 
-Model names change constantly, but the *category* choice matters more than any specific model — here's what's actually reasonable for each stage right now:
+Nama model terus berubah, tetapi pilihan *kategori* lebih penting daripada model tertentu — inilah yang sebenarnya masuk akal untuk setiap tahap saat ini:
 
-| Stage | Good muapi models to reach for | Why |
+| Tahap | Model muapi yang bagus untuk diraih | Mengapa |
 |---|---|---|
-| Voice/TTS | Gemini TTS, ElevenLabs text-to-dialogue | Natural multi-speaker delivery with emotion/pace control — not robotic TTS |
-| Avatar/video (image → talking clip) | Seedance 2.x, Kling 3.0 | Current-generation video models that handle head/hand motion and speech convincingly in one pass, as in the clip above |
-| Lip-sync (audio-driven, onto an existing video/image) | A dedicated lip-sync model (e.g. sync-style lip-sync) or a Kling avatar model | Better fit when you already have separately-recorded narration you need to match to a face, rather than generating speech+motion together |
+| Suara/TTS | Gemini TTS, teks-ke-dialog ElevenLabs | Penyampaian multi-speaker alami dengan kontrol emosi/kecepatan — bukan TTS robotik |
+| Avatar/video (gambar → klip berbicara) | Seedance 2.x, Kling 3.0 | Model video generasi saat ini yang menangani gerakan kepala/tangan dan ucapan secara meyakinkan dalam satu gerakan, seperti dalam klip di atas |
+| Sinkronisasi bibir (berbasis audio, ke video/gambar yang ada) | Model sinkronisasi bibir khusus (misalnya sinkronisasi bibir gaya sinkronisasi) atau model avatar Kling | Lebih cocok jika Anda sudah memiliki rekaman narasi terpisah yang perlu Anda cocokkan dengan wajah, daripada menghasilkan ucapan+gerakan secara bersamaan |
 
-| Path | Cost per ad | Setup effort | Consistency | Best for |
+| Jalur | Biaya per iklan | Upaya pengaturan | Konsistensi | Terbaik untuk |
 |---|---|---|---|---|
-| **muapi API** (managed) | Per-generation credit cost, no infra | Low — call the endpoint, get a result | High — same model/voice reused via API params | Fast iteration, client work, testing many variants |
-| **Other paid all-in-one UGC tools** | Often subscription-gated, per-seat pricing | Low, but locked to their UI/workflow | Varies by tool | Teams that want a GUI, not an API |
-| **Local/self-hosted** (ComfyUI + local TTS/video models, e.g. LTX 2.3) | Free after hardware, but needs a capable GPU | High — workflow setup, model downloads, tuning | Can be very high once tuned, but slower to get there | Zero marginal cost at volume, full control, privacy-sensitive clients who don't want cloud processing |
+| **muapi API** (dikelola) | Biaya kredit per generasi, tanpa infra | Rendah — panggil titik akhir, dapatkan hasil | Tinggi — model/suara yang sama digunakan kembali melalui parameter API | Iterasi cepat, pekerjaan klien, pengujian banyak varian |
+| **Alat UGC lengkap berbayar lainnya** | Seringkali harga per kursi berdasarkan langganan | Rendah, tetapi terkunci pada UI/alur kerja | Bervariasi menurut alat | Tim yang menginginkan GUI, bukan API |
+| **Lokal/dihosting sendiri** (ComfyUI + model TTS/video lokal, misalnya LTX 2.3) | Gratis setelah perangkat keras, tetapi membutuhkan GPU yang mumpuni | Tinggi — pengaturan alur kerja, pengunduhan model, penyetelan | Bisa sangat tinggi sekali disetel, tapi lebih lambat untuk sampai ke sana | Tanpa biaya marjinal pada volume, kontrol penuh, klien yang sensitif terhadap privasi yang tidak menginginkan pemrosesan cloud |
 
-LTX 2.3 is worth naming specifically for the local path: it's an open-weight video model runnable in ComfyUI, so it's the closest local equivalent to the Seedance/Kling-class models above — weaker out of the box, but the only one of this group you can actually run on your own GPU instead of an API call.
+LTX 2.3 layak diberi nama khusus untuk jalur lokalnya: ini adalah model video berbobot terbuka yang dapat dijalankan di ComfyUI, jadi ini adalah model lokal terdekat dengan model kelas Seedance/Kling di atas — lebih lemah, namun satu-satunya dari grup ini yang benar-benar dapat Anda jalankan di GPU Anda sendiri, bukan di panggilan API.
 
-The honest tradeoff: local is genuinely free per-generation once set up, but the setup and iteration time cost is real — expect to spend a weekend tuning a ComfyUI workflow before it's reliable. API is the right default while you're still learning what "good" looks like; local becomes worth it once you're producing at real volume (dozens of ads/month) or a client specifically needs on-premise generation.
+Pengorbanannya yang jujur: lokal benar-benar gratis per generasi setelah disiapkan, tetapi biaya pengaturan dan waktu iterasi adalah nyata — perkirakan untuk menghabiskan akhir pekan menyetel alur kerja ComfyUI sebelum dapat diandalkan. API adalah default yang tepat saat Anda masih mempelajari seperti apa tampilan "bagus"; lokal menjadi berharga setelah Anda memproduksi dengan volume nyata (puluhan iklan/bulan) atau klien secara khusus membutuhkan pembuatan di lokasi.
 
-## Launch It
+## Luncurkan
 
-**How to price it:** Individual UGC-style ad gigs on freelance marketplaces run roughly $10-$55 per finished ad; agencies retainer this work at $1,500-$3,000/month for ongoing batches. Price by deliverable (e.g., "$150 for 5 ad variants") rather than by hour — clients understand ad packages, not your production time.
+**Cara menentukan harganya:** Pertunjukan iklan bergaya UGC individual di pasar freelance menghasilkan sekitar $10-$55 per iklan yang selesai; agensi mempertahankan pekerjaan ini dengan harga $1.500-$3.000/bulan untuk batch yang sedang berlangsung. Harga berdasarkan hasil penayangan (misalnya, "$150 untuk 5 varian iklan") bukan berdasarkan jam — klien memahami paket iklan, bukan waktu produksi Anda.
 
-**How to position it:** Lead with the business outcome ("more ad variants to test, faster, without a film crew"), not the AI process. Brands buying UGC ads care about conversion and testing speed, not how the video was made.
+**Cara memposisikannya:** Memimpin dengan hasil bisnis ("lebih banyak varian iklan untuk diuji, lebih cepat, tanpa kru film"), bukan proses AI. Merek yang membeli iklan UGC peduli dengan konversi dan kecepatan pengujian, bukan cara video dibuat.
 
-**Where to find first clients:** DTC e-commerce brands running paid social ads are the best fit — they already buy UGC and already understand the format. Cold outreach to brands you can see running Meta/TikTok ads (visible in the platforms' public ad libraries) with a sample ad for their actual product is a stronger opener than a generic pitch.
+**Di mana menemukan klien pertama:** Merek e-commerce DTC yang menjalankan iklan sosial berbayar adalah yang paling cocok — mereka sudah membeli UGC dan memahami formatnya. Penjangkauan dingin terhadap merek yang Anda lihat menjalankan iklan Meta/TikTok (terlihat di perpustakaan iklan publik platform) dengan contoh iklan untuk produk mereka yang sebenarnya adalah pembuka yang lebih kuat daripada promosi umum.
 
-**The real numbers:** Documented case studies show individual brands running AI-UGC-style creative at $600K+/month in ad spend for a single product — the point isn't that you'll match that, it's that the format is proven at scale, not a novelty.
+**Angka sebenarnya:** Studi kasus yang terdokumentasi menunjukkan bahwa masing-masing merek menjalankan materi iklan bergaya AI-UGC dengan pembelanjaan iklan sebesar $600K+/bulan untuk satu produk — intinya bukanlah Anda akan menyamainya, namun formatnya terbukti dalam skala besar, bukan hal baru.
 
-## Exercises
+## Latihan
 
-1. **Easy:** Write three 30-second UGC scripts for a product you use, following the hook/pitch/proof/CTA structure.
-2. **Medium:** Produce one full ad end-to-end (script → voice → avatar → captions → export) for a real or hypothetical product.
-3. **Hard:** Produce 5 variants of the same ad (same product, different hooks or angles) and compare which hook you'd expect to perform best, and why.
+1. **Mudah:** Tulis tiga skrip UGC berdurasi 30 detik untuk produk yang Anda gunakan, dengan mengikuti struktur hook/pitch/proof/CTA.
+2. **Media:** Menghasilkan satu iklan lengkap secara end-to-end (skrip → suara → avatar → teks → ekspor) untuk produk nyata atau hipotetis.
+3. **Sulit:** Buat 5 varian iklan yang sama (produk yang sama, pengait atau sudut berbeda) dan bandingkan pengait mana yang Anda harapkan berkinerja terbaik, dan alasannya.
 
-## Templates
+## Templat
 
-Reusable template(s) this module produces — fill these in and reuse them on real work:
+Templat yang dapat digunakan kembali yang dihasilkan modul ini — isi templat ini dan gunakan kembali pada pekerjaan nyata:
 
-- [`templates/ugc-script-template.md`](templates/ugc-script-template.md) — the hook/pitch/proof/CTA script structure as a fill-in-the-blank template.
-- [`templates/ad-brief-checklist.md`](templates/ad-brief-checklist.md) — a checklist for briefing yourself (or a client) before producing a batch.
+- [`templates/ugc-script-template.md`](templates/ugc-script-template.md) — struktur skrip hook/pitch/proof/CTA sebagai templat isian.
+- [`templates/ad-brief-checklist.md`](templates/ad-brief-checklist.md) — daftar periksa untuk memberi pengarahan kepada diri Anda sendiri (atau klien) sebelum memproduksi batch.
 
 ---
 
-[← Track overview](README.md) · Next: [Character & Face Consistency →](02-character-consistency.md)
+[← Track overview](README.md) · Berikutnya: [Character & Face Consistency →](02-character-consistency.md)

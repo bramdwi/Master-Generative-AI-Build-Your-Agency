@@ -1,38 +1,38 @@
-# Motion Prompt Library
+# Perpustakaan Prompt Gerak
 
-Use these pre-tested camera direction phrases in your text-to-video and image-to-video prompts to control motion dynamics.
+Gunakan frasa arah kamera yang telah diuji sebelumnya ini dalam perintah teks-ke-video dan gambar-ke-video untuk mengontrol dinamika gerakan.
 
 ---
 
-## 1. Dolly & Tracking Shots
-Move the camera physically closer, further, or alongside the character.
-* **Dolly In / Push-in:**
-  > `"Slow cinematic dolly in, camera slowly pushes toward the character's face, high quality, 24fps."`
-* **Dolly Out / Pull-back:**
-  > `"Cinematic dolly out, camera pulls back to reveal the surrounding environment, wide shot."`
-* **Tracking / Lateral Follow:**
-  > `"Tracking shot, camera moves parallel to the character as they walk down the hallway, side profile view."`
+## 1. Tembakan Dolly & Pelacakan
+Gerakkan kamera secara fisik lebih dekat, lebih jauh, atau di samping karakter.
+* **Dolly Masuk / Dorong Masuk:**
+> __KODE INLINE_0__
+* **Dolly Keluar / Tarik Kembali:**
+> __KODE INLINE_0__
+* **Pelacakan / Ikuti Lateral:**
+> __KODE INLINE_0__
 
-## 2. Pan, Tilt, and Roll
-Rotate the camera from a fixed point.
-* **Pan Left/Right:**
-  > `"Camera slowly pans left, revealing the landscape, cinematic movement."`
-* **Tilt Up/Down:**
-  > `"Slow camera tilt up, starting from the boots on the wet ground up to the character's face."`
-* **Dutch Angle / Roll:**
-  > `"Dutch angle, subtle camera roll to create tension, moody cinema style."`
+## 2. Geser, Miringkan, dan Gulung
+Putar kamera dari titik tetap.
+* **Geser ke Kiri/Kanan:**
+> __KODE INLINE_0__
+* **Miringkan Atas/Bawah:**
+> __KODE INLINE_0__
+* **Sudut/Gulungan Belanda:**
+> __KODE INLINE_0__
 
-## 3. Advanced Cinematography Actions
-* **Dolly Zoom (Vertigo Effect):**
-  > `"Subtle dolly zoom effect, background compresses while character remains size-consistent, high tension."`
-* **Whip Pan:**
-  > `"Fast whip pan transition to the right, motion blur, clean cut."`
-* **Drone Crane Shot:**
-  > `"High angle crane shot, camera slowly rises vertically, looking down on the streets below."`
+## 3. Aksi Sinematografi Tingkat Lanjut
+* **Dolly Zoom (Efek Vertigo):**
+> __KODE INLINE_0__
+* **Panci Cambuk:**
+> __KODE INLINE_0__
+* **Tembakan Drone Derek:**
+> __KODE INLINE_0__
 
-## 4. Movement Control Tips
-* **Start and End Frames:** If your tool supports image-to-video with a start and end frame, place the static composition at start frame and the final target framing at end frame. The AI will interpolate the movement.
-* **Motion Strength Slider:**
-  * **Low (1-3):** Best for portrait dialogues, subtle wind in hair, slow lighting shifts.
-  * **Medium (4-7):** Best for walking, slow camera pan/tilt, pouring water.
-  * **High (8-10):** Best for action sequences, driving cars, running shots (be prepared for higher morphing/artifacts).
+## 4. Tip Kontrol Gerakan
+* **Bingkai Awal dan Akhir:** Jika alat Anda mendukung gambar-ke-video dengan bingkai awal dan akhir, letakkan komposisi statis di bingkai awal dan bingkai target akhir di bingkai akhir. AI akan menginterpolasi gerakan tersebut.
+* **Penggeser Kekuatan Gerak:**
+* **Rendah (1-3):** Terbaik untuk dialog potret, angin halus di rambut, peralihan pencahayaan lambat.
+* **Sedang (4-7):** Terbaik untuk berjalan, menggeser/memiringkan kamera secara perlahan, menuangkan air.
+* **Tinggi (8-10):** Terbaik untuk rangkaian aksi, mengendarai mobil, berlari (bersiaplah untuk morphing/artefak yang lebih tinggi).

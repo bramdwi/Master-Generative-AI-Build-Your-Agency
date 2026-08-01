@@ -1,30 +1,30 @@
-# Film Licensing Terms Sheet
+# Lembar Ketentuan Lisensi Film
 
-Use this sheet to outline and negotiate licensing terms when selling your AI short films or vertical micro-drama episodes to platforms or brands.
+Gunakan lembar ini untuk menguraikan dan menegosiasikan persyaratan lisensi saat menjual film pendek AI atau episode mikrodrama vertikal Anda ke platform atau merek.
 
 ---
 
-## 1. Parties & Project Info
-* **Licensor (Filmmaker):** ________________________
-* **Licensee (Client/Platform):** ________________________
-* **Film Title / Series:** ________________________
+## 1. Pihak & Info Proyek
+* **Pemberi Lisensi (Pembuat Film):** __________
+* **Pemegang Lisensi (Klien/Platform):** __________
+* **Judul/Seri Film:** __________
 
-## 2. Grant of License
-* **License Type:** [Exclusive / Non-exclusive]
-* **Territory:** [e.g., Worldwide, North America only, Online-only]
-* **Media Scope:** [e.g., Social media platforms, streaming apps, television broadcast]
-* **Duration (Term):** [e.g., 1 Year, 2 Years, Perpetual]
+## 2. Pemberian Lisensi
+* **Jenis Lisensi:** [Eksklusif / Non-eksklusif]
+* **Wilayah:** [mis., Seluruh Dunia, Khusus Amerika Utara, Khusus Online]
+* **Cakupan Media:** [misalnya, platform media sosial, aplikasi streaming, siaran televisi]
+* **Durasi (Jangka Waktu):** [misalnya, 1 Tahun, 2 Tahun, Abadi]
 
-## 3. Financial Agreement
-* **Upfront Licensing Fee:** $[amount]
-* **Royalty Split (if applicable):** [e.g., % of platform ad-revenue or pay-per-view revenue]
-* **Payment Schedule:** [e.g., 50% upon contract signing, 50% upon final delivery of master files]
+## 3. Perjanjian Keuangan
+* **Biaya Lisensi di Muka:** $[jumlah]
+* **Pembagian Royalti (jika berlaku):** [misalnya, % pendapatan iklan platform atau pendapatan bayar-per-tayang]
+* **Jadwal Pembayaran:** [misalnya, 50% setelah penandatanganan kontrak, 50% setelah pengiriman akhir file induk]
 
-## 4. Deliverables
-* [ ] Master video file (Widescreen 16:9, 1080p or 4K ProRes/MP4)
-* [ ] Vertical assets (9:16 vertical cuts for mobile apps)
-* [ ] Clean audio master (no dialogue voice track, music/SFX only) for localization/dubbing
-* [ ] Promotional key art (3 high-resolution thumbnail images)
+## 4. Hasil Kerja
+* [ ] File video master (Layar lebar 16:9, 1080p atau 4K ProRes/MP4)
+* [ ] Aset vertikal (potongan vertikal 9:16 untuk aplikasi seluler)
+* [ ] Bersihkan master audio (tidak ada trek suara dialog, hanya musik/SFX) untuk pelokalan/dubbing
+* [ ] Seni kunci promosi (3 gambar mini resolusi tinggi)
 
-## 5. Credits & Attribution
-* **Requirement:** Licensee must include credit: *"Created by [Your Name/Studio]"* in all public distributions of the video.
+## 5. Kredit & Atribusi
+* **Persyaratan:** Penerima Lisensi harus menyertakan kredit: *"Dibuat oleh [Nama/Studio Anda]"* di semua distribusi publik video.

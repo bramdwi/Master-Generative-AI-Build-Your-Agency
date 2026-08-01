@@ -1,72 +1,72 @@
-# Track 1: AI Video Ads & UGC
+# Jalur 1: Iklan Video AI & UGC
 
-> Turn AI-generated video into ads brands actually pay for.
+> Ubah video yang dihasilkan AI menjadi iklan yang benar-benar dibayar oleh merek.
 
-Five modules, in order. Each is one markdown file — click straight in, no subfolders. Every module follows the same structure: Problem → Concept → Do It → Compare Tools → Launch It → Exercises.
+Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templates" below** = the reusable template(s) each module produces (a script template, checklist, pricing sheet) — actual files you fill in and reuse, saved in [`templates/`](templates/).
+**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (templat skrip, daftar periksa, lembar harga) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
-| # | Module | Time | Requires |
+| # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
-| 1 | [How AI UGC Actually Works](01-how-ugc-works.md) | ~45 min | — |
-| 2 | [Character & Face Consistency](02-character-consistency.md) | ~40 min | Module 1 |
-| 3 | [Building a 10-Ad Batch](03-building-an-ad-batch.md) | ~50 min | Modules 1-2 |
-| 4 | [Pricing & Selling UGC Ads](04-pricing-and-selling-ugc.md) | ~35 min | Modules 1, 3 |
-| 5 | [Case Study Teardown](05-case-study-teardown.md) | ~30 min | Modules 1, 4 |
+| 1 | [How AI UGC Actually Works](01-how-ugc-works.md) | ~45 menit | — |
+| 2 | [Character & Face Consistency](02-character-consistency.md) | ~40 menit | Modul 1 |
+| 3 | [Building a 10-Ad Batch](03-building-an-ad-batch.md) | ~50 menit | Modul 1-2 |
+| 4 | [Pricing & Selling UGC Ads](04-pricing-and-selling-ugc.md) | ~35 menit | Modul 1, 3 |
+| 5 | [Case Study Teardown](05-case-study-teardown.md) | ~30 menit | Modul 1, 4 |
 
 ---
 
-### 1. [How AI UGC Actually Works](01-how-ugc-works.md)
+### 1.[How AI UGC Actually Works](01-how-ugc-works.md)
 
-> A UGC ad is just five pieces stitched together — once you can see the seams, you can make any of them.
+> Iklan UGC hanya terdiri dari lima bagian yang dijahit menjadi satu — setelah Anda dapat melihat jahitannya, Anda dapat membuat salah satu darinya.
 
-- The 5-stage pipeline: **Script → Avatar/Voice → Video → Captions → Export**
-- Writing a 30-second hook/pitch/proof/CTA script
-- Why avatar face/voice sync — not the script — is usually what gets an ad rejected
-- Real pricing context: $10-$55/ad gig rates, $1,500-$3,000/mo agency retainers
+- Alur 5 tahap: **Skrip → Avatar/Suara → Video → Teks → Ekspor**
+- Menulis skrip hook/pitch/proof/CTA berdurasi 30 detik
+- Mengapa sinkronisasi wajah/suara avatar — bukan skrip — biasanya yang membuat iklan ditolak
+- Konteks harga sebenarnya: tarif pertunjukan $10-$55/iklan, pengikut agensi $1.500-$3.000/bln
 
-**Templates:** [`ugc-script-template.md`](templates/ugc-script-template.md) · [`ad-brief-checklist.md`](templates/ad-brief-checklist.md)
+**Templat:** [`ugc-script-template.md`](templates/ugc-script-template.md) · [`ad-brief-checklist.md`](templates/ad-brief-checklist.md)
 
-### 2. [Character & Face Consistency](02-character-consistency.md)
+### 2.[Character & Face Consistency](02-character-consistency.md)
 
-> If your AI creator looks like a different person in every shot, nobody will pay for the ad.
+> Jika pembuat AI Anda terlihat seperti orang yang berbeda di setiap pengambilan gambar, tidak ada yang akan membayar untuk iklan tersebut.
 
-- The single most common failure point in AI-generated content
-- Three anchor techniques, weakest to strongest: prompt-only → reference-image conditioning → trained/locked identity (LoRA)
-- A drift-check workflow, and when a one-time LoRA training pass pays for itself
+- Satu-satunya titik kegagalan paling umum dalam konten yang dihasilkan AI
+- Tiga teknik jangkar, dari yang terlemah hingga yang terkuat: hanya perintah → pengondisian gambar referensi → identitas terlatih/terkunci (LoRA)
+- Alur kerja pemeriksaan penyimpangan, dan kapan tiket pelatihan LoRA satu kali akan terbayar dengan sendirinya
 
-**Templates:** [`character-consistency-checklist.md`](templates/character-consistency-checklist.md)
+**Templat:** [`character-consistency-checklist.md`](templates/character-consistency-checklist.md)
 
-### 3. [Building a 10-Ad Batch](03-building-an-ad-batch.md)
+### 3.[Building a 10-Ad Batch](03-building-an-ad-batch.md)
 
-> Clients don't buy one ad — they buy variants to test. Batching is the actual product.
+> Klien tidak membeli satu iklan — mereka membeli varian untuk diuji. Batching adalah produk sebenarnya.
 
-- Locking constants (product, proof point, CTA) while varying hook/angle/format
-- Why varying everything at once makes results unreadable
-- Delivering a batch with a test plan the client can actually use
+- Konstanta pengunci (produk, titik bukti, CTA) sambil memvariasikan kait/sudut/format
+- Mengapa memvariasikan semuanya sekaligus membuat hasil tidak terbaca
+- Mengirimkan batch dengan rencana pengujian yang benar-benar dapat digunakan klien
 
-**Templates:** [`batch-matrix-template.md`](templates/batch-matrix-template.md)
+**Templat:** [`batch-matrix-template.md`](templates/batch-matrix-template.md)
 
-### 4. [Pricing & Selling UGC Ads as a Service](04-pricing-and-selling-ugc.md)
+### 4.[Pricing & Selling UGC Ads as a Service](04-pricing-and-selling-ugc.md)
 
-> The production is the easy part now. Getting paid for it is a different skill.
+> Produksi adalah bagian yang mudah sekarang. Dibayar untuk itu adalah keterampilan yang berbeda.
 
-- The gig → project → retainer progression, anchored to real ranges ($10-$55/ad → $150-$300/batch → $1,500-$3,000+/mo)
-- Building a portfolio from your first few pieces
-- Outreach that leads with a finished sample, not your process
+- Pertunjukan → proyek → perkembangan pengikut, ditetapkan ke rentang nyata ($10-$55/iklan → $150-$300/batch → $1.500-$3.000+/bln)
+- Membangun portofolio dari beberapa bagian pertama Anda
+- Penjangkauan yang mengarah dengan sampel yang sudah selesai, bukan proses Anda
 
-**Templates:** [`outreach-template.md`](templates/outreach-template.md) · [`retainer-proposal-template.md`](templates/retainer-proposal-template.md)
+**Templat:** [`outreach-template.md`](templates/outreach-template.md) · [`retainer-proposal-template.md`](templates/retainer-proposal-template.md)
 
-### 5. [Case Study Teardown](05-case-study-teardown.md)
+### 5.[Case Study Teardown](05-case-study-teardown.md)
 
-> Learn to reverse-engineer a winning ad instead of guessing what worked.
+> Pelajari cara merekayasa balik iklan pemenang alih-alih menebak-nebak mana yang berhasil.
 
-- A repeatable method for breaking a real running ad into 5 layers and asking why each choice was made
-- Turns "that ad performed well" into reusable structural takeaways
-- Doubles as a sales tool: a free teardown as a prospecting opener
+- Metode berulang untuk membagi iklan yang sedang berjalan menjadi 5 lapisan dan menanyakan alasan setiap pilihan dibuat
+- Mengubah "iklan tersebut berkinerja baik" menjadi kesimpulan struktural yang dapat digunakan kembali
+- Berfungsi ganda sebagai alat penjualan: pembongkaran gratis sebagai pembuka calon pelanggan
 
-**Templates:** [`teardown-worksheet.md`](templates/teardown-worksheet.md)
+**Templat:** [`teardown-worksheet.md`](templates/teardown-worksheet.md)
 
 ---
 
-All templates live in [`templates/`](templates/). For status across the other 14 tracks, see [ROADMAP.md](../../ROADMAP.md).
+Semua templat ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

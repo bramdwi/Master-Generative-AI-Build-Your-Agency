@@ -1,91 +1,91 @@
-# Vibe-Coding Session Brief Template
+# Templat Singkat Sesi Vibe-Coding
 
-Use this brief to plan each coding session before opening your agent. Completing this sheet takes 8–10 minutes and prevents session confusion.
-
----
-
-## 🗂️ Session Details
-
-* **Date:** `[YYYY-MM-DD]`
-* **Tool Name:** `[e.g., FLUX Batch Prompt Runner]`
-* **Session Goal:** `[e.g., Build a working v1.0 and verify it runs on 10 prompts]`
-* **Agent Platform:** `[ ] Claude Code  [ ] Cursor  [ ] Windsurf  [ ] Other: ___`
-* **Target Session Length:** `[e.g., 60 minutes]`
+Gunakan penjelasan singkat ini untuk merencanakan setiap sesi pengkodean sebelum membuka agen Anda. Menyelesaikan lembar ini membutuhkan waktu 8–10 menit dan mencegah kebingungan sesi.
 
 ---
 
-## 📋 Tool Specification
+## 🗂️ Detail Sesi
 
-### One-Sentence Description
-> `[Tool Name] reads [INPUT] and produces [OUTPUT] by [TRANSFORMATION].`
-
-*Example: "This tool reads a list of product names from `products.txt` and produces `seo_titles.csv` containing 3 SEO-optimized Etsy listing titles and 5 keywords per product, generated using GPT-4o-mini."*
-
-### Input Definition
-* **Input File Name:** `[e.g., products.txt]`
-* **Input Format:** `[e.g., Plain text, one product name per line]`
-* **Example Input Row:** `[e.g., "Cyberpunk Cat Tee"]`
-
-### Output Definition
-* **Output File Name:** `[e.g., seo_titles.csv]`
-* **Output Format:** `[e.g., CSV with columns: ProductName, Title1, Title2, Title3, Keywords]`
-* **Example Output Row:** `[e.g., "Cyberpunk Cat Tee","Cyberpunk Cat Shirt for Gamers","Neon Cat Anime T-Shirt","Futuristic Cat Graphic Tee","cyberpunk,anime,cat,gamer,neon"]`
-
-### Transformation
-* **API / Service Used:** `[e.g., OpenAI GPT-4o-mini / muapi /nano-banana-2 / None (local logic)]`
-* **API Key Storage:** `[e.g., Environment variable OPENAI_API_KEY]`
-* **Core Prompt / Logic:** `[Paste the system prompt or describe the transformation logic]`
+* **Tanggal:** `[YYYY-MM-DD]`
+* **Nama Alat:** `[e.g., FLUX Batch Prompt Runner]`
+* **Tujuan Sesi:** `[e.g., Build a working v1.0 and verify it runs on 10 prompts]`
+* **Platform Agen:** `[ ] Claude Code  [ ] Cursor  [ ] Windsurf  [ ] Other: ___`
+* **Target Durasi Sesi:** `[e.g., 60 minutes]`
 
 ---
 
-## ⚠️ Error Handling Rules
+## 📋 Spesifikasi Alat
 
-List how the tool should behave when things go wrong:
-* Blank or empty input lines: `[e.g., Skip silently and continue]`
-* API rate limit or timeout: `[e.g., Retry once after 5 seconds, then log to errors.log]`
-* Invalid file format: `[e.g., Print a clear error message and exit]`
+### Deskripsi Satu Kalimat
+> __KODE INLINE_0__
 
----
+*Contoh: "Alat ini membaca daftar nama produk dari `products.txt` dan menghasilkan `seo_titles.csv` yang berisi 3 judul listingan Etsy yang dioptimalkan untuk SEO dan 5 kata kunci per produk, yang dihasilkan menggunakan GPT-4o-mini."*
 
-## 🔧 Technical Constraints
+### Definisi Masukan
+* **Masukkan Nama File:** `[e.g., products.txt]`
+* **Format Masukan:** `[e.g., Plain text, one product name per line]`
+* **Contoh Baris Masukan:** `[e.g., "Cyberpunk Cat Tee"]`
 
-* **Allowed packages:** `[e.g., openai, requests, csv (standard library) — no additional installs]`
-* **Python version:** `[e.g., 3.10+]`
-* **Output encoding:** `[e.g., UTF-8]`
-* **Max input size to handle:** `[e.g., Up to 500 rows without timeout]`
+### Definisi Keluaran
+* **Nama File Keluaran:** `[e.g., seo_titles.csv]`
+* **Format Keluaran:** `[e.g., CSV with columns: ProductName, Title1, Title2, Title3, Keywords]`
+* **Contoh Baris Keluaran:** `[e.g., "Cyberpunk Cat Tee","Cyberpunk Cat Shirt for Gamers","Neon Cat Anime T-Shirt","Futuristic Cat Graphic Tee","cyberpunk,anime,cat,gamer,neon"]`
 
----
-
-## ✅ Definition of Done (Phase 3 Test Checklist)
-
-Check these before moving to Phase 4 — SHIP:
-
-- [ ] Runs without errors on a real 10-row input file.
-- [ ] Output file contains the correct number of rows (1 per input line).
-- [ ] Output format matches the specification exactly.
-- [ ] Handles at least 1 edge case (blank line, special character, or long string).
-- [ ] Completes in under 60 seconds for a 50-row input.
-- [ ] Error messages are clear and human-readable.
+### Transformasi
+* **API/Layanan yang Digunakan:** `[e.g., OpenAI GPT-4o-mini / muapi /nano-banana-2 / None (local logic)]`
+* **Penyimpanan Kunci API:** `[e.g., Environment variable OPENAI_API_KEY]`
+* **Prompt/Logika Inti:** `[Paste the system prompt or describe the transformation logic]`
 
 ---
 
-## 📦 Phase 4 — SHIP Checklist
+## ⚠️ Aturan Penanganan Kesalahan
 
-Ask the agent to generate these packaging files before zipping:
-
-- [ ] `README.md` — Installation steps, usage instructions (no assumed knowledge).
-- [ ] `requirements.txt` — All pip-installable packages.
-- [ ] `sample_input.[ext]` — A real example input file buyers can test immediately.
-- [ ] `sample_output.[ext]` — The expected output from the sample input.
-- [ ] Version tag in README: `v1.0 — [Release Date]`
+Buat daftar bagaimana alat harus berperilaku ketika terjadi kesalahan:
+* Baris masukan kosong atau kosong: `[e.g., Skip silently and continue]`
+* Batas atau batas waktu laju API: `[e.g., Retry once after 5 seconds, then log to errors.log]`
+* Format file tidak valid: `[e.g., Print a clear error message and exit]`
 
 ---
 
-## 📝 Session Log (Fill In During Session)
+## 🔧 Kendala Teknis
 
-| Phase | Status | Notes |
+* **Paket yang diizinkan:** `[e.g., openai, requests, csv (standard library) — no additional installs]`
+* **Versi Python:** `[e.g., 3.10+]`
+* **Pengkodean keluaran:** `[e.g., UTF-8]`
+* **Ukuran masukan maksimal yang harus ditangani:** `[e.g., Up to 500 rows without timeout]`
+
+---
+
+## ✅ Definisi Selesai (Daftar Periksa Tes Tahap 3)
+
+Periksa ini sebelum melanjutkan ke Tahap 4 — KAPAL:
+
+- [ ] Berjalan tanpa kesalahan pada file input 10 baris yang sebenarnya.
+- [ ] File keluaran berisi jumlah baris yang benar (1 per baris masukan).
+- [ ] Format keluaran sama persis dengan spesifikasi.
+- [ ] Menangani setidaknya 1 kasus tepi (garis kosong, karakter khusus, atau string panjang).
+- [ ] Selesai dalam waktu kurang dari 60 detik untuk input 50 baris.
+- [ ] Pesan kesalahan jelas dan dapat dibaca manusia.
+
+---
+
+## 📦 Fase 4 — Daftar Periksa KAPAL
+
+Minta agen untuk membuat file pengemasan berikut sebelum membuat zip:
+
+- [ ] `README.md` — Langkah-langkah instalasi, instruksi penggunaan (tidak ada asumsi pengetahuan).
+- [ ] `requirements.txt` — Semua paket yang dapat diinstal pip.
+- [ ] `sample_input.[ext]` — Contoh nyata file masukan yang dapat langsung diuji oleh pembeli.
+- [ ] `sample_output.[ext]` — Keluaran yang diharapkan dari masukan sampel.
+- [ ] Tag versi di README: `v1.0 — [Release Date]`
+
+---
+
+## 📝 Log Sesi (Isi Selama Sesi)
+
+| Fase | Status | Catatan |
 |---|---|---|
-| Prompt (Brief) | ⬜ / ✅ | |
-| Build (Agent First Draft) | ⬜ / ✅ | |
-| Test (Real Data Run) | ⬜ / ✅ | Errors encountered: |
-| Ship (README + Zip) | ⬜ / ✅ | |
+| Cepat (Singkat) | ⬜ / ✅ | |
+| Bangun (Draf Pertama Agen) | ⬜ / ✅ | |
+| Uji (Pengelolaan Data Nyata) | ⬜ / ✅ | Kesalahan yang ditemui: |
+| Kirim (README + Zip) | ⬜ / ✅ | |

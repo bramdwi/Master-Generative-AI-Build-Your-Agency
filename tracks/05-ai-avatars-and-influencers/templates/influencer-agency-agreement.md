@@ -1,38 +1,38 @@
-# Virtual Influencer Agency Agreement
+# Perjanjian Agensi Influencer Virtual
 
-Use this agreement contract when managing an AI avatar brand or character profile on behalf of a business client.
-
----
-
-## Virtual Influencer Management Agreement
-
-**Client Name:** ________________________  
-**Agency Name:** ________________________  
-**AI Character Identity:** ________________________  
-**Effective Date:** ________________________  
-
-### 1. Scope of Work
-The Agency agrees to design, build, and maintain the online presence of the AI Character Identity for the Client:
-* **Character Setup:** Design and lock down the visual prompts, face model seeds, and voice profiles.
-* **Content Delivery:** Deliver fifteen (15) vertical video reels per month featuring the AI Character explaining Client-approved topics.
-* **Lipsync & Voice:** Generate and align synchronized dialogue matching Client-approved script inputs.
-* **Account Management:** Schedule and post deliverables across the Client's social media accounts.
-
-### 2. Character Ownership & Intellectual Property
-* **Visual Model & Prompts:** The visual style guides, prompt anchors, seeds, and voice clone credentials remain the proprietary property of the **[Agency / Client — specify ownership, standard is Agency owns the engine files, Client owns final exported videos]**.
-* **Final Videos:** Upon payment of invoices, the Client owns the distribution rights to the completed video exports.
-* **Termination:** Upon termination of this agreement, the Agency will stop posting under the Character Identity.
-
-### 3. Retainer & Payment Schedule
-* **Monthly Management Fee:** **$2,000.00 USD** per month.
-* **Upfront Billing:** Billed on the 1st of every month. Production halts if fees are unpaid by the 5th.
+Gunakan kontrak perjanjian ini saat mengelola merek avatar AI atau profil karakter atas nama klien bisnis.
 
 ---
 
-**Signed by:**
+## Perjanjian Manajemen Influencer Virtual
 
-____________________________________  
-**For the Client** (Name & Title)  
+**Nama Klien:** __________
+**Nama Agensi:** __________
+**Identitas Karakter AI:** __________
+**Tanggal berlaku:** ________________________
 
-____________________________________  
-**For the Agency** (Name & Title)
+### 1. Lingkup Pekerjaan
+Agensi setuju untuk merancang, membangun, dan memelihara kehadiran online Identitas Karakter AI untuk Klien:
+* **Penyiapan Karakter:** Rancang dan kunci perintah visual, benih model wajah, dan profil suara.
+* **Pengiriman Konten:** Mengirimkan lima belas (15) gulungan video vertikal per bulan yang menampilkan Karakter AI yang menjelaskan topik yang disetujui Klien.
+* **Lipsync & Suara:** Menghasilkan dan menyelaraskan dialog tersinkronisasi yang cocok dengan input skrip yang disetujui Klien.
+* **Manajemen Akun:** Menjadwalkan dan memposting kiriman di seluruh akun media sosial Klien.
+
+### 2. Kepemilikan Karakter & Kekayaan Intelektual
+* **Model & Perintah Visual:** Panduan gaya visual, jangkar prompt, seed, dan kredensial klon suara tetap menjadi milik milik **[Agensi / Klien — tentukan kepemilikan, standarnya adalah Agensi memiliki file mesin, Klien memiliki video akhir yang diekspor]**.
+* **Video Akhir:** Setelah pembayaran faktur, Klien memiliki hak distribusi atas ekspor video yang telah selesai.
+* **Penghentian:** Setelah pengakhiran perjanjian ini, Agensi akan berhenti memposting berdasarkan Identitas Karakter.
+
+### 3. Retainer & Jadwal Pembayaran
+* **Biaya Manajemen Bulanan:** **$2.000,00 USD** per bulan.
+* **Penagihan di Muka:** Ditagih pada tanggal 1 setiap bulan. Produksi terhenti jika biaya belum dibayar pada tanggal 5.
+
+---
+
+**Ditandatangani oleh:**
+
+________________________
+**Untuk Klien** (Nama & Jabatan)
+
+________________________
+**Untuk Agensi** (Nama & Jabatan)
