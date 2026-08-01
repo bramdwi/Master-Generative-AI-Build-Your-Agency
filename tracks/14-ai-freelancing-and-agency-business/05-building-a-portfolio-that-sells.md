@@ -53,12 +53,12 @@ Sajikan tabel data yang presisi dan terukur dalam Case Study Anda guna membuktik
 
 ### Contoh Perincian Metrik — Kampanye Headshot Perusahaan:
 
-| Metrik Kinerja | Produksi Tradisional | AI Agency Pipeline | Manfaat Klien yang Terukur |
+| Performance Metric | Traditional Production | AI Agency Pipeline | Measurable Client Benefit |
 | --- | --- | --- | --- |
-| **Total Biaya Kampanye** | $24.500 | $6.000 | **Efisiensi Langsung $18.500 (75,5%)** |
-| **Waktu Penyerahan** | 25 Hari Kerja | 24 Jam | **Eksekusi 25x Lebih Cepat** |
-| **Waktu Henti Karyawan** | 3,5 Jam / Karyawan | 2 Menit (Unggah Selfie) | **420 Jam Produktif Terhemat** |
-| **Hak Penggunaan** | Lisensi Terbatas 2 Tahun | Transfer IP Komersial Penuh | **Hak Aset Global Abadi** |
+| **Total Campaign Cost** | $24,500 | $6,000 | **$18,500 Direct Savings (75.5%)** |
+| **Delivery Turnaround** | 25 Business Days | 24 Hours | **25x Faster Execution** |
+| **Employee Downtime** | 3.5 Hours / Employee | 2 Minutes (Selfie Upload) | **420 Productive Hours Saved** |
+| **Usage Rights** | 2-Year Limited License | Full Commercial IP Transfer | **Perpetual Global Asset Rights** |
 
 ---
 
@@ -76,9 +76,9 @@ Format gambar PNG statis tidak mampu menonjolkan keunggulan render AI 8k yang mu
 
 ### Elemen Kunci Portal Demo Berkonversi Tinggi:
 
-1. **Interactive Image Slider:** Memungkinkan Klien menggeser perbandingan secara dinamis antara foto masukan mentah dan hasil akhir render AI 8k.
+1. **Interactive Image Sliders:** Memungkinkan Klien menggeser perbandingan secara dinamis antara foto masukan mentah dan hasil akhir render AI 8k.
 2. **Video Motion Clips:** Menyajikan sampel pergerakan Image-to-Video yang terintegrasi untuk memperlihatkan dinamika pencahayaan serta pergerakan Kamera.
-3. **Downloadable Sample Asset Bundle:** Sediakan berkas Zip siap unduh yang memuat 5 sampel berkas 8k tanpa kompresi untuk dievaluasi oleh tim Desain Klien.
+3. **Downloadable Sample Asset Bundles:** Sediakan berkas Zip siap unduh yang memuat 5 sampel berkas 8k tanpa kompresi untuk dievaluasi oleh tim Desain Klien.
 
 ---
 
@@ -95,3 +95,7 @@ Format gambar PNG statis tidak mampu menonjolkan keunggulan render AI 8k yang mu
 - Alihkan fokus dari sekadar merancang galeri seni visual menuju penyusunan Case Study komersial yang berorientasi pada ROI dan penyelesaian masalah bisnis.
 - Susun setiap bagian Portofolio mengandalkan Kerangka Case Study 4 Bagian (Tantangan → Pipeline → Metrik → Testimonial).
 - Manfaatkan Slider gambar sebelum/sesudah yang interaktif serta perulangan Video Motion untuk mendemonstrasikan kualitas produksi secara impresif saat Discovery Call berlangsung.
+
+---
+
+[← Sebelum: Peningkatan dari Freelancer ke Agensi Kecil](04-scaling-from-freelancer-to-small-agency.md) · [Track overview](README.md)

@@ -111,3 +111,7 @@ Mendelegasikan eksekusi membawa risiko luaran berkualitas rendah sampai ke tanga
 - Mentransformasi peran pribadi Anda dari seorang Prompt Operator menjadi Creative Director dan Account Executive.
 - Merancang SOPs tertulis yang presisi untuk tahap intake, GPU rendering, pemeriksaan QC, hingga delivery.
 - Merekrut offshore operators ($12–$25/hr) guna mengakselerasi kapasitas produksi dengan tetap menjaga ambang net margin di atas 80%.
+
+---
+
+[← Sebelum: Menggaet & Mengunci Klien](03-finding-and-closing-clients.md) · [Track overview](README.md) · Berikutnya: [Membangun Portofolio yang Menjual →](05-building-a-portfolio-that-sells.md)
