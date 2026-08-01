@@ -1,18 +1,18 @@
 # Modul 4: Peningkatan dari Freelancer ke Agensi Kecil
 
-> Standard Operating Procedure (SOP), merekrut AI Operator lepas pantai, menjaga Margin Keuntungan, dan kerangka delegasi untuk Agensi bernilai $20k+/bulan.
+> Standard Operating Procedure (SOP) Operasional, merekrut offshore AI operators, menjaga profit margins, dan kerangka kerja delegasi untuk agensi bernilai $20k+/bulan.
 
 ---
 
-## 🚀 Kemacetan Tunggal: Transisi dari Operator menjadi CEO
+## 🚀 The Solo Bottleneck: Transisi dari Operator menjadi CEO
 
-Saat Anda mengawali langkah sebagai AI Creator solo, Anda mengampu seluruh peranan: Sales, Prompt Engineering, GPU rendering, Video Editing, penagihan Invoice, hingga Customer Support.
+Saat Anda mengawali langkah sebagai solo AI creator, Anda mengampu seluruh peran: sales, prompt engineering, GPU rendering, video editing, penagihan invoice, hingga customer support.
 
 Memasuki kisaran skala **$8.000 hingga $10.000 / bulan**, Anda akan membentur **Solo Bottleneck**:
 
-- Alokasi waktu Anda tercurah sepenuhnya untuk mengeksekusi Prompt dan menyunting video.
-- Aktivitas Outbound Sales dan Lead Generation terhenti akibat kesibukan pemenuhan Proyek.
-- Pendapatan bergerak stagnan karena Anda tak lagi sanggup mengakomodasi Klien ke-6 tanpa mengorbankan 80 jam kerja seminggu.
+- Alokasi waktu Anda tercurah sepenuhnya untuk mengeksekusi prompt runs dan menyunting video.
+- Aktivitas outbound sales dan lead generation terhenti akibat kesibukan pemenuhan proyek.
+- Pendapatan bergerak stagnan karena Anda tak lagi sanggup mengakomodasi client #6 tanpa mengorbankan 80 jam kerja seminggu.
 
 ```
                            THE AGENCY SCALING MATRIX
@@ -33,9 +33,9 @@ Guna menembus skala **$25.000 – $50.000 / bulan**, Anda wajib mentransformasi 
 
 ---
 
-## 📜 Cetak Biru Standard Operating Procedure (SOP)
+## 📜 Cetak Biru Standard Operating Procedures (SOP)
 
-Delegasi tugas tak akan berjalan optimal sekadar mengandalkan instruksi lisan di Slack. Anda wajib merancang Standard Operating Procedure (SOP) tertulis yang tersusun rapi serta terdokumentasi melalui rekaman video pada setiap tahapan Pipeline produksi Anda.
+Delegasi tugas tak akan berjalan optimal sekadar mengandalkan instruksi lisan di Slack. Anda wajib merancang Standard Operating Procedures (SOPs) tertulis yang tersusun rapi serta terdokumentasi melalui rekaman video pada setiap tahapan production pipeline Anda.
 
 ### Anatomi SOP Agensi:
 
@@ -51,36 +51,36 @@ Delegasi tugas tak akan berjalan optimal sekadar mengandalkan instruksi lisan di
 
 #### Urutan Eksekusi Langkah demi Langkah:
 
-1. **Audit Onboarding:** Buka direktori Google Drive milik Klien `01_Raw_Inputs`. Pastikan resolusi gambar memenuhi standar minimal 1080p.
-2. **Crop & Centering:** Jalankan skrip otomatisasi pemotongan Python `scratch/crop_headshots.py` guna memosisikan Bounding Box wajah secara presisi di tengah dengan rasio 1:1.
-3. **Ingetsi ComfyUI:** Muat alur kerja JSON `workflows/b2b_headshot_v4.json`. Atur Seed pada posisi `-1` serta bobot LoRA pada angka `0.75`.
-4. **Pemeriksaan Quality Control:** Evaluasi luaran yang dihasilkan berdasarkan 4 Kriteria Quality Control:
+1. **Intake Audit:** Buka direktori Google Drive milik client `01_Raw_Inputs`. Pastikan resolusi gambar memenuhi standar minimal 1080p.
+2. **Crop & Center:** Jalankan Python auto-crop script `scratch/crop_headshots.py` guna memosisikan bounding box wajah secara presisi di tengah dengan rasio 1:1.
+3. **ComfyUI Ingestion:** Muat JSON workflow `workflows/b2b_headshot_v4.json`. Atur seed pada posisi `-1` serta bobot LoRA pada angka `0.75`.
+4. **Quality Control Check:** Evaluasi luaran yang dihasilkan berdasarkan 4 Kriteria Quality Control:
    - ✅ Simetri pantulan mata (tidak ada pupil yang terdistorsi).
    - ✅ Jumlah & penyelarasan gigi (tanpa keberadaan gigi seri tambahan).
    - ✅ Preservasi tekstur kulit (bebas dari efek plastik blur).
    - ✅ Kontras pencahayaan latar belakang.
-5. **Upscaling & Ekspor:** Ekspor hasil Render yang telah disetujui ke dalam Topaz Gigapixel AI. Lakukan Upscaling 4x hingga mencapai 4500x4500px @ 300 DPI JPEG. Simpan dokumen ke dalam direktori `02_Final_Delivery`.
+5. **Upscale & Export:** Ekspor hasil render yang telah disetujui ke dalam Topaz Gigapixel AI. Lakukan upscale 4x hingga mencapai 4500x4500px @ 300 DPI JPEG. Simpan dokumen ke dalam direktori `02_Final_Delivery`.
 
 ---
 
-## 💰 Perekrutan & Delegasi Tanpa Menggerus Margin
+## 💰 Perekrutan & Delegasi Tanpa Menggerus Margins
 
-Rekrut talenta lepas pantai yang terspesialisasi (seperti dari Filipina, Eropa Timur, maupun LATAM) untuk mengeksekusi Prompt dan penyuntingan Post-Production, sembari mempertahankan **80%+ Net Profit Margin** Agensi Anda:
+Rekrut talenta offshore yang terspesialisasi (seperti dari Philippines, Eastern Europe, maupun LATAM) untuk mengeksekusi prompt dan penyuntingan post-production, sembari mempertahankan **80%+ Net Agency Profit Margin**:
 
-### Rincian Biaya Tim Lepas Pantai & Dampak Margin Keuntungan:
+### Rincian Biaya Tim Offshore & Dampak Profit Margin:
 
-| Peran | Wilayah Perekrutan Target | Tarif Per Jam | Jam Mingguan | Biaya Bulanan | Pendapatan yang Dihasilkan | Kontribusi Margin Bersih |
+| Role | Target Hiring Region | Hourly Rate | Weekly Hours | Monthly Cost | Revenue Generated | Net Margin Contribution |
 | --- | --- | --- | --- | --- | --- | --- |
-| **Offshore AI Prompt Operator** | Filipina / LATAM | $12 – $18 / jam | 20 jam | $1.200 | $12.000 | **+$10.800 / bulan** |
-| **Editor Video Post-Production** | Eropa Timur / India | $15 – $25 / jam | 15 jam | $1.200 | $8.500 | **+$7.300 / bulan** |
-| **Virtual Assistant / Admin Akun** | Filipina | $8 – $12 / jam | 10 jam | $400 | Operations Support | **Reclaim 40 Jam / Bulan** |
-| **Total Overhead Tim** | — | — | **45 jam** | **$2.800 / bulan** | **$20.500 / bulan** | **Laba Bersih $17.700 (86%)** |
+| **Offshore AI Prompt Operator** | Philippines / LATAM | $12 – $18 / hr | 20 hrs | $1.200 | $12.000 | **+$10.800 / mo** |
+| **Post-Production Video Editor** | Eastern Europe / India | $15 – $25 / hr | 15 hrs | $1.200 | $8.500 | **+$7.300 / mo** |
+| **Virtual Assistant / Account Admin** | Philippines | $8 – $12 / hr | 10 hrs | $400 | Operations Support | **Reclaims 40 Hrs / Mo** |
+| **Total Team Overhead** | — | — | **45 hrs** | **$2.800 / mo** | **$20.500 / mo** | **$17.700 Net Profit (86%)** |
 
 ---
 
 ## ⚖️ Kerangka Gerbang Quality Control (QC)
 
-Mendelegasikan eksekusi membawa risiko luaran berkualitas rendah sampai ke tangan Klien. Lindungi reputasi Agensi Anda dengan menerapkan sistem **Persetujuan QC Tier 2**:
+Mendelegasikan eksekusi membawa risiko luaran berkualitas rendah sampai ke tangan client. Lindungi reputasi agensi Anda dengan menerapkan sistem **2-Tier QC Sign-Off**:
 
 ```
 +------------------+      +------------------+      +------------------+      +------------------+
@@ -89,12 +89,12 @@ Mendelegasikan eksekusi membawa risiko luaran berkualitas rendah sampai ke tanga
 +------------------+      +------------------+      +------------------+      +------------------+
 ```
 
-### Daftar Periksa QC Mandatory:
+### QC Checklist Requirements:
 
 - [ ] Simetri dan geometri wajah terverifikasi secara presisi.
 - [ ] Resolusi memenuhi standar cetak 300 DPI.
 - [ ] Bebas dari artefak AI atau bentuk tangan/jari yang terdistorsi.
-- [ ] Profil warna selaras dengan Brand Guidelines milik Klien (RGB/CMYK).
+- [ ] Profil warna selaras dengan brand guidelines milik client (RGB/CMYK).
 
 ---
 
@@ -102,12 +102,12 @@ Mendelegasikan eksekusi membawa risiko luaran berkualitas rendah sampai ke tanga
 
 1. **Dokumentasikan 3 SOP Perdana Anda:** Rekam layar Anda mengandalkan Loom saat mengeksekusi proyek berikutnya, lalu transkripsikan ke dalam panduan SOP tertulis.
 2. **Publikasikan Lowongan Operator:** Tayangkan deskripsi pekerjaan pada platform Upwork atau OnlineJobs.ph untuk posisi "AI Media Production Operator".
-3. **Konfigurasi Slack & ClickUp Agensi:** Bangun struktur Kanal yang rapi (`#sales-leads`, `#active-production`, `#qc-audit`, `#client-delivery`).
+3. **Konfigurasi Slack & ClickUp Agensi:** Bangun struktur kanal yang rapi (`#sales-leads`, `#active-production`, `#qc-audit`, `#client-delivery`).
 
 ---
 
 ## 💡 Poin Penting
 
 - Mentransformasi peran pribadi Anda dari seorang Prompt Operator menjadi Creative Director dan Account Executive.
-- Merancang SOP tertulis yang presisi untuk tahap Ingestion, GPU rendering, pemeriksaan QC, hingga penyerahan akhir.
-- Merekrut Operator lepas pantai ($12–$25/jam) guna mengakselerasi kapasitas produksi dengan tetap menjaga ambang Margin Bersih di atas 80%.
+- Merancang SOPs tertulis yang presisi untuk tahap intake, GPU rendering, pemeriksaan QC, hingga delivery.
+- Merekrut offshore operators ($12–$25/hr) guna mengakselerasi kapasitas produksi dengan tetap menjaga ambang net margin di atas 80%.
