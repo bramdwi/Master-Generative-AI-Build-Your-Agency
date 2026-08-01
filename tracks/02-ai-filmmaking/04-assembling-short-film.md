@@ -1,6 +1,6 @@
 # Merakit Film Pendek
 
-> Film ini tidak dibuat di generator; itu dibuat di editor.
+> Film ini tidak diciptakan di dalam generator; karya ini dianyam indah di meja editor.
 
 **Lagu:** Pembuatan Film AI
 **Waktu:** ~50 menit
@@ -8,56 +8,54 @@
 
 ## Masalahnya
 
-Jika Anda mengambil klip mentah dan senyap langsung dari generator video dan memutarnya secara berurutan, hasilnya akan sangat mengejutkan. Satu klip mungkin memiliki sedikit warna hijau, klip berikutnya berwarna kuning hangat. Kecepatan gerak kamera tidak cocok. Dan yang terpenting, keheningan total membuat video terasa mati, sehingga langsung mengungkap sifat buatan dari rekaman tersebut.
+Apabila Anda mengambil klip mentah tanpa suara langsung dari generator video lalu memutarnya secara berurutan, visual yang dihasilkan akan terasa sangat janggal. Satu klip mungkin memancarkan pendar hijau temaram, sementara klip berikutnya diselimuti kehangatan nuansa kuning. Ritme pergerakan kamera tidak saling berselarasan. Yang paling mendasar, keheningan yang hampa membuat karya visual ini terasa mati, seketika menyibak aura kaku dari rekaman artifisial tersebut.
 
-Sebagian besar tutorial hanya berfokus pada fase pembuatan, sehingga Anda memiliki folder berisi file-file yang diam dan tidak terhubung.
+Sebagian besar panduan hanya berfokus pada tahapan generasi visual, meninggalkan Anda dengan sekumpulan berkas bisu yang terisolasi.
 
-Film AI hanya menjadi film nyata ketika masuk ke editor. Anda harus menyatukan klip-klip tersebut, menetapkan tempo narasi, mencocokkan palet warna di seluruh generasi yang berbeda, dan membuat trek audio yang kaya dan berlapis-lapis.
+Karya AI baru dapat menjelma menjadi film sejati saat menyentuh ranah editor. Anda wajib merajut tiap klip dengan anggun, menyelaraskan tempo narasi, memadukan palet warna dari pelbagai proses generasi yang berbeda, serta merancang aransemen Audio yang kaya dan berlapis.
 
 ## Konsep
 
-Perakitan pascaproduksi menjembatani kesenjangan antara klip AI senyap dan karya sinematik yang sudah jadi. Alur kerja ini terdiri dari dua pilar utama: **Pelapisan Audio** dan **Penilaian Warna**.
+Penyatuan pascaproduksi menjadi jembatan yang menghubungkan klip AI bisu dengan mahakarya sinematik yang utuh. Alur kerja ini bertumpu pada dua pilar utama: **Audio Layering** dan **Color Grading**.
 
 ### Hirarki Desain Suara:
-Karena klip video AI dihasilkan secara senyap, Anda harus membuat trek audio dari awal. Kami melapisi audio dalam hierarki yang tepat:
-1. **Dialog / Narasi:** Pertunjukan vokal (sulih suara atau ucapan yang disinkronkan).
-2. **Suasana / Nada Ruangan:** Kebisingan latar belakang terus-menerus yang menentukan ruangan (misalnya, dengungan mesin pesawat ruang angkasa, hujan).
-3. **Foley / Efek Suara (SFX):** Suara terpisah yang disinkronkan dengan peristiwa visual (misalnya, bunyi klik tombol, langkah kaki yang berat).
-4. **Musik / Soundtrack:** Inti emosional dari adegan tersebut.
+
+Lantaran klip video AI terlahir dalam keheningan, Anda harus merangkai tatanan Audio dari titik nol. Kami menyusun alur Audio dalam tingkatan yang presisi:
+
+1. **Dialog / Narasi:** Penjiwaan vokal (Voiceover atau tuturan yang terkoordinasi).
+2. **Ambience / Tone Ruangan:** Pendar suara latar yang mengalir konstan guna menghidupkan ruang (seperti dengung mesin pesawat antariksa atau derai hujan).
+3. **Foley / Sound Effects (SFX):** Detail suara terpisah yang diselaraskan dengan aksentuasi visual (misalnya, denting tombol atau derap langkah kaki).
+4. **Musik / Soundtrack:** Jiwa emosional yang mengalir dalam adegan.
 
 ```
 Silent Visual Cuts  →  Narration  →  Ambience Track  →  Foley Sync  →  Music Score
 ```
 
 ### Penyatuan Visual:
-Untuk memperbaiki sedikit perubahan dalam penilaian warna antar generasi, terapkan **LUT (Tabel Pencarian)** ke seluruh garis waktu pengeditan. Ini melapisi tingkat warna yang seragam di semua klip, memadukannya menjadi satu gaya visual.
-
----
+Guna menyelaraskan pergeseran tipis pada Color Grading antarproses generasi, sematkan **LUT (Lookup Table)** ke seluruh rentang timeline penyuntingan. Langkah ini menyelimuti seluruh klip dengan tingkatan warna yang harmonis, memadukannya ke dalam satu estetika visual yang padu.
 
 ## Lakukan itu
 
 ### Langkah 1: Atur Timeline Proyek Anda
-Impor klip yang Anda buat ke NLE (Non-Linear Editor — program pengeditan video yang memungkinkan Anda mengatur dan memotong klip pada timeline) seperti DaVinci Resolve, Premiere Pro, atau CapCut. Susun secara berurutan di trek video utama Anda (V1). Pangkas semua gangguan visual yang terjadi di awal atau akhir klip (model video sering kali hilang atau melengkung dalam setengah detik terakhir).
+Impor klip yang telah Anda ciptakan ke dalam NLE (Non-Linear Editor — perangkat lunak penyuntingan video yang memungkinkan Anda menyusun dan memotong klip pada timeline) seperti DaVinci Resolve, Premiere Pro, atau CapCut. Susun secara berurutan pada trek video utama Anda (V1). Pangkas bagian visual yang kurang sempurna pada awal atau akhir klip (model video kerap kali mengalami distorsi pada setengah detik terakhir).
 
-### Langkah 2: Hasilkan Narasi Sulih Suara
-Gunakan TTS atau API kloning suara berkualitas tinggi (seperti ElevenLabs).
-* Tempel skrip Anda dari Modul 1.
-* Tambahkan jeda baris atau tanda baca buatan (koma, elips) untuk memaksa model suara berhenti secara alami.
-* Impor file audio ke editor di trek audio A1. Sinkronkan awal baris dialog dengan pintu masuk visual karakter Anda.
+### Langkah 2: Hasilkan Narasi Voiceover
+Manfaatkan TTS atau API kloning suara beresolusi tinggi (seperti ElevenLabs).
+- Sematkan naskah Anda dari Modul 1.
+- Sisipkan jeda atau tanda baca bernuansa ekspresif (koma, elipsis) guna memberi intonasi jeda yang alami pada model suara.
+- Impor berkas audio tersebut ke dalam editor pada trek audio A1. Selaraskan titik awal dialog dengan kehadiran visual karakter Anda.
 
 ### Langkah 3: Lapisi Soundscape Sekitar
-Temukan atau buat trek kebisingan latar belakang berkelanjutan yang cocok dengan ringkasan film Anda (misalnya, nada ruangan statis atau hujan kota). Tempatkan ini di jalur A2. Pudarkan pada bingkai pembuka dan biarkan berjalan terus menerus di bawah semua pengeditan untuk menyatukan potongan.
+Temukan atau rancang trek lanskap suara yang selaras dengan ringkasan film Anda (seperti dengung ruang statis atau derai hujan perkotaan). Tempatkan aset ini pada trek A2. Buat efek fade in pada frame pembuka dan biarkan mengalir tenang di bawah seluruh potongan adegan untuk merajut tiap transisi.
 
 ### Langkah 4: Sinkronisasi Foley SFX
-Gulir ke seluruh video bingkai demi bingkai. Di mana pun tindakan fisik terjadi (layar berkedip, kepala menoleh, sepatu bot membentur trotoar), tempatkan efek suara yang cocok di trek A3. Sejajarkan puncak audio dengan tepat dengan momen visual dampaknya.
+Cermati seluruh bingkai video secara teliti. Setiap kali terjadi dinamika fisik (pendar layar yang berkedip, gestur kepala yang berpaling, atau derap sepatu bot menghantam lantai), sematkan Sound Effects yang presisi pada trek A3. Selaraskan puncak gelombang audio secara tepat dengan momen aksentuasi visualnya.
 
 ### Langkah 5: Skor Adegannya
-Tempatkan musik latar Anda di trek A4. Atur volume musik secara umum ke rendah (sekitar -18dB hingga -24dB). Aktifkan **Audio Ducking** sehingga musik otomatis turun sebesar 6dB tambahan setiap kali trek suara (A1) aktif.
+Sematkan alunan musik latar Anda pada trek A4. Atur intensitas volume musik secara umum pada tingkat yang lembut (sekitar -18dB hingga -24dB). Aktifkan fitur **Audio Ducking** agar volume musik meredup secara otomatis sebesar 6dB saat trek vokal (A1) berkumandang.
 
 ### Langkah 6: Terapkan Tingkat Warna Terpadu
-Pilih semua klip video di V1. Tambahkan lapisan penyesuaian di seluruh garis waktu dan terapkan emulasi film LUT (misalnya gaya Kodak 2383). Ini menyatukan warna highlight dan bayangan di semua generasi yang berbeda, menyembunyikan perbedaan warna kecil. Ekspor proyek yang sudah selesai pada 24fps.
-
----
+Pilih seluruh klip video pada V1. Tambahkan adjustment layer di sepanjang timeline lalu terapkan emulasi film LUT (seperti gaya Kodak 2383). Langkah ini menyelaraskan pendar highlight dan bayangan di seluruh generasi yang berbeda, menyamarkan perbedaan warna yang samar. Ekspor mahakarya yang telah rampung pada format 24fps.
 
 ## Contoh yang berhasil
 
@@ -65,79 +63,67 @@ Pilih semua klip video di V1. Tambahkan lapisan penyesuaian di seluruh garis wak
 <img src="templates/examples/the-last-signal-poster.jpg" alt="Poster Seni Utama" width="280">
 <img src="templates/examples/last-signal-assembly-clip.gif" alt="Gerakan Video Perakitan Adegan (I2V)" width="280">
 </p>
-<p align="center"><sub>Film Key Art (Left) ──► Image-to-Video Film Assembly Motion (Right) · Video File: <a href="templates/examples/last-signal-assembly-clip.mp4">templates/examples/last-signal-assembly-clip.mp4</a></sub></p>
+<p align="center"><sub>Film Key Art (Kiri) ──► Animasi Perakitan Film Gambar-ke-Video (Kanan) · Berkas Video: <a href="templates/examples/last-signal-assembly-clip.mp4">MP4</a></sub></p>
 
 **Perakitan Timeline untuk "The Last Signal" Adegan 1**
 
+Berikut adalah komposisi trek pada timeline penyuntingan untuk rentang 12 detik pertama:
 
+- **V1 (Trek Video):**
+  - 0:00 - 0:04: Shot 1.1 (Establishing Wide Shot kokpit)
+  - 0:04 - 0:08: Shot 1.2 (Potret astronot, slow dolly-in)
+  - 0:08 - 0:12: Shot 1.3 (Close-up layar statis)
+  - *Efek:* Adjustment layer di atas V1 dengan LUT "Teal & Orange" pada tingkat opasitas 70%.
 
-Berikut adalah tata letak trek di dalam timeline pengeditan selama 12 detik pertama:
+- **A1 (Trek Dialog):**
+  - 0:05 - 0:08: JOHN (V.O.): *"Belum ada yang menjawab dalam enam bulan."*
+  - *Pengaturan:* Saluran mono terpusat, volume dikonfigurasi pada -3dB.
 
-* **V1 (Trek Video):**
-* 0:00 - 0:04: Bidikan 1.1 (Membuat Bidikan Lebar kokpit)
-* 0:04 - 0:08: Bidikan 1.2 (Potret astronot, dolly-in lambat)
-* 0:08 - 0:12: Bidikan 1.3 (Close-up layar statis)
-* *Efek:* Lapisan penyesuaian di atas V1 dengan LUT "Teal & Oranye" pada opasitas 70%.
+- **A2 (Trek Ambience):**
+  - 0:00 - 0:12: Alur berulang yang konstan dari `"Low spaceship drone hum with computer static"`
+  - *Pengaturan:* Volume dikonfigurasi pada -18dB.
 
-* **A1 (Jalur Dialog):**
-* 0:05 - 0:08: JOHN (V.O.): *"Belum ada yang menjawab dalam enam bulan."*
-* *Pengaturan:* Saluran mono terpusat, volume diatur ke -3dB.
+- **A3 (Trek SFX/Foley):**
+  - 0:08 - 0:09: `"Electric spark & CRT monitor flicker hum"` disinkronkan saat Shot 1.3 hadir.
+  - *Pengaturan:* Volume dikonfigurasi pada -6dB.
 
-* **A2 (Jalur Suasana):**
-* 0:00 - 0:12: Perulangan berkelanjutan dari `"Low spaceship drone hum with computer static"`
-* *Pengaturan:* Volume diatur ke -18dB.
+- **A4 (Trek Musik):**
+  - 0:00 - 0:12: Alunan synthesizer ambient yang mengalun puitis dan penuh ketegangan.
+  - *Pengaturan:* Volume dikonfigurasi pada -20dB, meredup halus hingga -26dB saat vokal John bergema.
 
-* **A3 (Jalur SFX/Foley):**
-* 0:08 - 0:09: `"Electric spark & CRT monitor flicker hum"` disinkronkan saat Shot 1.3 masuk.
-* *Pengaturan:* Volume diatur ke -6dB.
-
-* **A4 (Trek Musik):**
-* 0:00 - 0:12: Pad synthesizer ambien yang lambat dan tegang.
-* *Pengaturan:* Volume diatur ke -20dB, turun ke -26dB selama saluran suara John.
-
-**Hasilnya:** Urutannya terasa seperti satu kesatuan. Suara kedipan layar menyembunyikan potongan visual yang keras pada layar statis, dan dengungan pesawat ruang angkasa yang terus menerus menyatukan atmosfer di seluruh potongan.
-
-*Referensi Otomatisasi yang Ada:* Jika Anda ingin mengotomatiskan perakitan garis waktu dan sinkronisasi audio ini, Anda dapat mereferensikan aplikasi [`Open-AI-Micro-Drama-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/Open-AI-Micro-Drama-Generator), yang memetakan transkrip dialog langsung ke durasi video dan membuat aset gabungan secara terprogram.
-
----
+**Hasilnya:** Urutan adegan mengalir bagaikan satu kesatuan yang utuh. Suara pendar layar yang berkedip menyamarkan transisi visual yang kaku pada layar statis, sementara dengung pesawat antariksa yang konstan merajut nuansa atmosferik di setiap perpindahan adegan.
 
 ## Bandingkan Alat
 
 | Alat Pengeditan / Suara | Kemampuan | Upaya Pengaturan | Terbaik untuk |
-|---|---|---|---|
-| **Resolve DaVinci / Premiere Pro** | NLE profesional. Pengeditan multi-track, pengecilan audio tingkat lanjut, penilaian warna LUT profesional. | Tinggi (Membutuhkan instalasi lokal dan kurva pembelajaran) | Film layar lebar, iklan komersial, dan entri festival kelas atas. |
-| **Desktop CapCut** | Editor ringan. Teks otomatis, perpustakaan efek suara bawaan, dan pemotongan garis waktu yang mudah. | Rendah | Drama mikro vertikal, TikToks, dan format media sosial cepat. |
-| **ElevenLabs (Audio-Natif)** | Kloning suara terbaik, perubahan emosi alami, dan generasi Foley SFX bawaan dari perintah teks. | Rendah (API/antarmuka Web) | Narasi dengan ketelitian tinggi, sulih suara karakter, dan efek suara khusus. |
+| --- | --- | --- | --- |
+| **DaVinci Resolve / Premiere Pro** | NLE profesional. Penyuntingan multi-track, Audio Ducking tingkat lanjut, serta Color Grading LUT berkelas profesional. | Tinggi (Membutuhkan konfigurasi lokal serta pemahaman yang mendalam) | Film layar lebar, iklan komersial, serta karya sinematik kelas atas untuk ajang festival. |
+| **CapCut Desktop** | Editor yang ringkas. Teks otomatis, pustaka Sound Effects terintegrasi, serta penyuntingan timeline yang praktis. | Rendah | Mikro drama vertikal, konten TikTok, serta format media sosial yang dinamis. |
+| **ElevenLabs (Audio-Natif)** | Kloning suara tingkat tinggi, artikulasi emosi yang natural, serta pembuatan Foley SFX langsung dari instruksi teks. | Rendah (Antarmuka API/Web) | Narasi beresolusi tinggi, penjiwaan karakter, serta Sound Effects khusus. |
 
-Untuk produksi cepat dan bervolume tinggi (seperti serial drama vertikal), CapCut adalah pilihan paling efisien karena aset dan mesin teks bawaannya. Untuk film pendek naratif, DaVinci Resolve lebih disukai karena mesin penilaian warnanya yang unggul.
-
----
+Untuk ritme produksi yang cepat dan bervolume tinggi (seperti serial drama vertikal), CapCut merupakan instrumen paling efisien berkat ketersediaan aset serta mesin teks terintegrasi. Adapun untuk film pendek naratif, DaVinci Resolve menjadi pilihan utama berkat keunggulan mesin Color Grading yang tiada tanding.
 
 ## Luncurkan
 
-**Cara memonetisasi keterampilan ini:**
-* **AI Film Editor & Sound Designer:** Banyak pembuat AI yang dapat menghasilkan gambar cantik tetapi tidak tahu cara mengedit atau mendesain suara. Tawarkan "Paket Perakitan dan Desain Suara" untuk pembuat film AI, dengan mengenakan biaya **$100–$300** per menit akhir pembuatan film.
-* **Produksi Drama Vertikal:** Memproduksi dan mengedit episode drama berdurasi 1 menit untuk kreator yang membuat serial mini seluler. Agensi dan platform membayar **$150–$350** per episode vertikal yang diedit.
+**Strategi mengomersialkan keahlian ini:**
+- **AI Film Editor & Sound Designer:** Banyak kreator AI mampu menghasilkan citra yang memikat namun terbentur pada seni penyuntingan dan perancangan suara. Tawarkan "Paket Perakitan dan Desain Suara" untuk para pembuat film AI, dengan menetapkan tarif **$100–$300** per menit dari hasil akhir film.
+- **Produksi Drama Vertikal:** Ciptakan dan sunting episode drama berdurasi 1 menit untuk para kreator yang menggarap serial mikro seluler. Agensi dan platform siap menginvestasikan **$150–$350** untuk setiap episode vertikal yang disunting secara menawan.
 
-**Di mana menemukan klien:**
-Influencer AI cold pitch di YouTube/Instagram yang memposting silent loop atau tayangan slide. Tunjukkan kepada mereka sampel 10 detik hasil edit rekaman mereka sendiri dengan sulih suara dan efek suara untuk membuktikan manfaatnya.
-
----
+**Saluran untuk menggaet klien:**
+Lakukan pendekatan langsung kepada influencer AI di YouTube/Instagram yang kerap mengunggah animasi bisu berulang atau tayangan slide. Sajikan sampel berdurasi 10 detik dari hasil penyuntingan karya mereka yang telah diperkaya dengan Voiceover serta Sound Effects untuk membuktikan keunggulan seni Anda.
 
 ## Latihan
 
-1. **Mudah:** Impor 3 klip video senyap acak ke editor Anda. Sinkronkan suara latar sekitar secara terus-menerus dan trek musik latar sederhana.
-2. **Medium:** Ambil klip diam berdurasi 4 detik dari karakter yang sedang berbicara. Buat baris dialog di ElevenLabs, impor, dan edit durasi visual klip agar sama persis dengan panjang baris audio.
-3. **Sulit:** Lakukan tantangan pencocokan warna: impor 3 klip video yang dihasilkan dari model video berbeda (dengan pencahayaan berbeda). Nilai warnanya menggunakan roda pencocokan warna atau LUT bersama untuk membuatnya tampak seperti difilmkan di ruangan yang sama dengan kamera yang sama.
-
----
+1. **Mudah:** Impor 3 klip video bisu secara acak ke dalam editor Anda. Selaraskan nada suara latar secara berkelanjutan dipadu dengan alunan musik latar yang lembut.
+2. **Sedang:** Ambil klip bisu berdurasi 4 detik dari karakter yang sedang bertutur. Ciptakan baris dialog di ElevenLabs, impor berkas tersebut, lalu sesuaikan durasi visual klip agar menyatu sempurna dengan panjang gelombang audio.
+3. **Sulit:** Lakukan eksperimen penyelarasan warna: impor 3 klip video hasil pendaran model video yang berbeda (dengan karakter tata cahaya yang beragam). Olah Color Grading memanfaatkan Color Wheels atau LUT bersama guna menghadirkan ilusi seolah seluruh adegan diabadikan di dalam ruangan yang sama dengan kamera yang serupa.
 
 ## Templat
 
-Templat yang dapat digunakan kembali yang dihasilkan modul ini:
+Templat siap guna yang dihasilkan oleh modul ini:
 
-* [`templates/sound-design-checklist.md`](templates/sound-design-checklist.md) — daftar master untuk dialog, suasana, SFX, dan leveling musik.
+- [`templates/sound-design-checklist.md`](templates/sound-design-checklist.md) — Panduan utama untuk penyelarasan dialog, ambience, SFX, dan keseimbangan musik.
 
 ---
 
-[← Camera Movement & Cinematography Prompts](03-camera-movement.md) · Berikutnya: [Selling Short-Form Films →](05-selling-short-films.md)
+[← Sebelum: Pergerakan Kamera & Perintah Sinematografi](03-camera-movement.md) · [Track overview](README.md) · Berikutnya: [Penjualan Film Pendek →](05-selling-short-films.md)
