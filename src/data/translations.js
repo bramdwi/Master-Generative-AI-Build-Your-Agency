@@ -23,7 +23,7 @@ export const uiTranslations = {
     templatesCount: 'Ready Templates',
     
     // Dashboard
-    heroWelcome: 'WELCOME BACK TO AI CREATOR ACADEMY',
+    heroWelcome: 'WELCOME BACK TO KAMPUS KREATOR AI',
     heroTitle: 'Master Generative AI & Build Your Agency',
     heroDesc: 'Free, open-source curriculum for monetizing AI video, audio, and image assets for creators and agencies.',
     statOverallProgress: 'Overall Progress',
@@ -165,7 +165,7 @@ export const uiTranslations = {
     templatesCount: 'Template Siap Pakai',
     
     // Dashboard
-    heroWelcome: 'SELAMAT DATANG DI AI CREATOR ACADEMY',
+    heroWelcome: 'SELAMAT DATANG DI KAMPUS KREATOR AI',
     heroTitle: 'Kuasai AI Generatif & Bangun Agensi Kreatif Anda',
     heroDesc: 'Kurikulum gratis & open-source untuk menghasilkan uang dari konten video, audio, dan gambar buatan AI untuk kreator & agensi.',
     statOverallProgress: 'Total Progress',
