@@ -1,93 +1,82 @@
-# Membangun Katalog Tanpa Mengulanginya Sendiri
+# Building a Catalog Without Repeating Yourself
 
-> Skalakan mulai dari 1 hingga 100+ listingan merchandise unik menggunakan variasi matriks cepat dan sub-segmentasi khusus.
+> Mengakselerasi skala katalog dari 1 menjadi 100+ listing merch yang unik mengandalkan variasi matrix prompt serta segmentasi niche yang terarah.
 
-**Lacak:** AI Print-on-Demand & Desain Merchandise
+**Lagu:** AI Print-on-Demand & Desain Merchandise
 **Waktu:** ~40 menit
-**Prasyarat:** [01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md), [02: POD Platform Basics](02-print-on-demand-platform-basics.md)
+**Prasyarat:** Merancang AI Art yang Menjual untuk Merch, Dasar-Dasar Platform Print-on-Demand
 
 ## Masalahnya
 
-Untuk menghasilkan pendapatan yang berarti di pasar Etsy atau POD, Anda memerlukan beragam katalog yang terdiri dari **50 hingga 200+ listingan**. Namun, pencipta sering melakukan dua kesalahan fatal:
-1. **Desain Identik yang Mengirimkan Spam:** Mengunggah gambar yang sama persis dengan sedikit perubahan warna, ditandai karena mencantumkan spam oleh algoritme pasar.
-2. **Kelelahan karena Permintaan Sekali Pakai:** Menghabiskan waktu berjam-jam untuk membuat permintaan khusus untuk satu kaos, sehingga perluasan katalog tidak mungkin dipertahankan.
+Guna menghasilkan revenue yang substansial pada Etsy maupun marketplace POD, Anda membutuhkan katalog yang beragam berisikan **50 hingga 200+ listing**. Kendati demikian, creator kerap kali terjerumus ke dalam dua kekeliruan fatal:
 
-Anda memerlukan **Sistem Ekspansi Matriks Cepat** yang terstruktur untuk menghasilkan desain yang berbeda dan bertarget khusus secara efisien tanpa pengulangan kreatif.
+1. **Spamming Identical Designs:** Mengunggah gambar yang identik secara berulang sekadar dengan sedikit penyesuaian warna, yang berisiko terkena penalti listing spam oleh algoritma marketplace.
+2. **Burnout dari One-Off Prompting:** Menghabiskan waktu berjam-jam demi merangkai custom prompt hanya untuk satu kaos, sehingga ekspansi katalog menjadi mustahil untuk dipertahankan secara konsisten.
 
----
+Anda membutuhkan **Prompt Matrix Expansion System** yang terstruktur untuk menghasilkan desain yang memikat serta terspesialisasi sesuai niche tanpa terjebak dalam pengulangan kreatif.
 
 ## Konsep
 
-**Niche Prompt Matrix** memperluas 1 tema desain inti di beberapa sub-niche:
+**Niche Prompt Matrix** mengekspansi 1 tema desain utama ke berbagai sub-niche yang spesifik:
 
 ```
 Core Theme (Retro Vintage Animals) ──► Niche Matrix (Cat / Dog / Owl / Bear) ──► Style Variations (80s Synthwave / Japanese Ink / Minimal Line) ──► 12 Distinct Listings
 ```
 
-### Kerangka Ekspansi 3x3:
+### Kerangka Kerja Ekspansi 3x3:
 
-| Subjek (Sumbu A) | Gaya Estetika (Sumbu B) | Niche Pelanggan Sasaran (Sumbu C) |
-|---|---|---|
-| Kucing Cyberpunk | Tinta Sumi-e Jepang | Pengembang & Pemrogram Teknologi |
-| Bunga Matahari Botani Vintage | Cat Air Cottagecore | Penggemar Berkebun & Tanaman |
-| Gunung Synthwave Retro | Vektor Neon 80an | Pendaki & Berkemah di Luar Ruangan |
-
----
+| Subject (Axis A) | Aesthetic Style (Axis B) | Target Customer Niche (Axis C) |
+| --- | --- | --- |
+| Cyberpunk Cat | Japanese Sumi-e Ink | Tech Developers & Programmers |
+| Vintage Botanical Sunflower | Cottagecore Watercolor | Gardening & Plant Enthusiasts |
+| Retro Synthwave Mountain | 80s Neon Vector | Hikers & Outdoor Campers |
 
 ## Lakukan itu
 
-### Langkah 1: Pilih Matriks Niche Gairah
-Identifikasi ceruk pembeli yang menarik (misalnya, *Berkemah & Kopi di Luar Ruangan*).
+### Langkah 1: Pilih Passion Niche Matrix
 
-### Langkah 2: Buat Templat Prompt Variabel
-Buka [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md). Buat template prompt dengan variabel yang dapat diganti:
-* __KODE INLINE_0__
-* Gantikan `[SUBJECT]` dengan: `Bear`, `Fox`, `Raccoon`, `Owl`.
-* Gantikan `[STYLE]` dengan: `Retro 70s Badge`, `Minimalist Linework`, `Synthwave Neon`.
+Tentukan target niche pembeli yang memiliki antusiasme tinggi (misalnya, *Outdoor Camping & Coffee*).
 
-### Langkah 3: Batch Hasilkan 12 Grafik Berbeda
-Jalankan kombinasi prompt melalui muapi `/nano-banana-2`. Pisahkan latar belakang dan tingkatkan 12 grafik secara bersamaan.
+### Langkah 2: Susun Variable Prompt Template
 
-### Langkah 4: Publikasikan Silang di Seluruh Jenis Produk
-Terapkan setiap gambar ke 3 jenis produk dengan margin tinggi (T-Shirt, Mug Kopi, Tas Tote Kanvas) untuk mengubah 12 gambar menjadi **36 listingan toko unik**.
+Buka panduan kerja [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md). Buatlah prompt template dengan variabel yang dapat disesuaikan:
 
----
+- `"Clean vector graphic of [SUBJECT] drinking coffee by a campfire, [STYLE] style, bold outlines, isolated on solid background, 300 DPI"`
+- Gantikan `[SUBJECT]` dengan: `Bear`, `Fox`, `Raccoon`, `Owl`.
+- Gantikan `[STYLE]` dengan: `Retro 70s Badge`, `Minimalist Linework`, `Synthwave Neon`.
+
+### Langkah 3: Generate Batch 12 Grafis Unik
+
+Jalankan kombinasi prompt tersebut melalui muapi `/nano-banana-2`. Isolasi background serta tingkatkan skala seluruh 12 grafis secara batch.
+
+### Langkah 4: Publikasikan Silang di Berbagai Tipe Produk
+
+Terapkan setiap grafis pada 3 tipe produk bernilai margin tinggi (T-Shirt, Coffee Mug, Canvas Tote Bag) untuk mentransformasi 12 grafis menjadi **36 listing toko yang unik**.
 
 ## Contoh yang berhasil
 
-<p align="center">
-<img src="templates/examples/merch-design-vector-art.jpg" alt="Desain Seni Merchandise Vektor Terisolasi" width="480">
-</p>
-<p align="center"><sub>Isolated Vector Art Graphic (Ready for Multi-Product Catalog Placement)</sub></p>
+**Studi Kasus Penyesuaian Skala Katalog: "The Retro Outdoor Collection"**
 
-**Studi Kasus Penskalaan Katalog: "Koleksi Retro Outdoor"**
-
-* **Konsep Inti:** Ilustrasi Lencana Taman Nasional Retro.
-* **Subjek yang Dihasilkan:** 5 Hewan (Beruang, Serigala, Bison, Elang, Rusa Besar).
-* **Gaya yang Diterapkan:** Sunburst & Linework Vintage 70-an.
-* **Total Produk yang Diterbitkan:** 5 Hewan × 3 Produk (Kemeja, Mug, Hoodie) = **45 Listingan Aktif**.
-* **Waktu yang Dibutuhkan:** Total penyiapan 2,5 jam.
-
----
+- **Core Concept:** Ilustrasi Retro National Park Badge.
+- **Subjects Generated:** 5 Hewan (Bear, Wolf, Bison, Eagle, Moose).
+- **Styles Applied:** 70s Vintage Sunburst & Linework.
+- **Total Products Published:** 5 Hewan × 3 Produk (Shirt, Mug, Hoodie) = **45 Listing Aktif**.
+- **Waktu Eksekusi:** Total 2,5 jam konfigurasi.
 
 ## Luncurkan
 
-* **Hindari Pelanggaran Hak Cipta & Merek Dagang:** Jangan pernah menggunakan nama merek dagang (misalnya, Disney, Marvel, Nike) atau kemiripan selebriti dalam petunjuk atau tag toko Anda. Cari database USPTO TESS sebelum dipublikasikan.
-
----
+- **Hindari Pelanggaran Copyright & Trademark:** Jangan pernah menggunakan nama yang memiliki trademark (seperti Disney, Marvel, Nike) maupun tokoh publik dalam prompt atau tag toko Anda. Lakukan penelusuran pada basis data USPTO TESS sebelum memublikasikan produk.
 
 ## Latihan
 
-1. **Mudah:** Buat matriks prompt 3x3 untuk niche pilihan Anda (misalnya, Kopi, Game, Kucing).
-2. **Medium:** Batch menghasilkan 6 grafik berbeda dari matriks Anda dan mengisolasi latar belakangnya.
-3. **Sulit:** Publikasikan 15 item koleksi produk di 3 jenis produk (Tee, Mug, Tote) di toko pengembang Anda.
-
----
+1. **Mudah:** Buatlah 3x3 prompt matrix untuk niche pilihan Anda (misalnya, Coffee, Gaming, Cats).
+2. **Sedang:** Hasilkan batch 6 grafis unik dari matrix Anda lalu isolasi background-nya.
+3. **Sulit:** Publikasikan koleksi 15 item produk pada 3 tipe produk (Tee, Mug, Tote) di dev store Anda.
 
 ## Templat
 
-* [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Templat perintah matriks, tabel variabel khusus, dan daftar periksa kepatuhan merek dagang.
+- [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Matrix prompt templates, tabel variabel niche, serta daftar periksa kepatuhan trademark.
 
 ---
 
-[← POD Platform Basics](02-print-on-demand-platform-basics.md) · Berikutnya: [Pricing & Passive-Income Math for POD →](04-pricing-and-passive-income-math.md)
+[← Sebelum: Dasar-Dasar Platform POD](02-print-on-demand-platform-basics.md) · [Track overview](README.md) · Berikutnya: [Kalkulasi Harga & Pendapatan Pasif POD →](04-pricing-and-passive-income-math.md)
