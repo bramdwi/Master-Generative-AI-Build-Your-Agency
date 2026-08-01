@@ -1,52 +1,51 @@
-# Penetapan Harga Terhadap Pementasan Tradisional
+# Penentuan Harga Berbanding Traditional Staging
 
-> Pementasan virtual Frame AI bukan sebagai kompromi yang murah, tetapi sebagai mesin berkecepatan ROI tinggi untuk agen real estat.
+> Posisikan AI virtual staging bukan sekadar kompromi yang murah, melainkan sebagai mesin akselerasi ber-ROI tinggi bagi para real estate agents.
 
 **Lagu:** AI Real Estat (Pementasan Virtual)
 **Waktu:** ~35 menit
-**Prasyarat:** [01: Empty Room → Staged Room Pipeline](01-empty-room-to-staged-room.md)
+**Prasyarat:** Empty Room → Staged Room Pipeline
 
 ## Masalahnya
 
-Sebagian besar pembuat konten yang memasuki pementasan virtual terjebak dalam perangkap harga komoditas: mereka mengenakan biaya **$5 hingga $10 per foto** pada platform freelance seperti Fiverr, sehingga bersaing dengan editor luar negeri berkualitas rendah yang menggunakan clip-art 3D yang sudah ketinggalan zaman.
+Sebagian besar creators yang memasuki ranah virtual staging terperangkap dalam jebakan penetapan harga komoditas: mereka mematok tarif **$5 hingga $10 per photo** pada platform freelance seperti Fiverr, bersaing menghadapi para editor luar negeri berkualitas rendah yang mengandalkan 3D clip-art usang.
 
-Pada saat yang sama, agen dan broker real estat secara rutin menghabiskan **$2.500 hingga $6.000** untuk penataan furnitur fisik di satu properti. Saat Anda menawarkan pementasan virtual AI dengan harga $10/foto, agen berasumsi bahwa hasilnya murah, berkualitas rendah, dan tidak cocok untuk listingan MLS kelas atas.
+Pada saat yang sama, para real estate agents dan brokers secara rutin menggelontorkan anggaran sebesar **$2,500 hingga $6,000** untuk kebutuhan physical furniture staging pada satu properti tunggal. Ketika Anda menawarkan AI virtual staging seharga $10/photo, para agents akan berasumsi bahwa hasilnya terkesan murah, berkualitas rendah, serta tidak layak untuk dipublikasikan pada MLS listings kelas atas.
 
-Jika Anda tidak tahu cara mengartikulasikan trade-off ekonomi antara pementasan fisik, rendering 3D kelas bawah, dan pementasan AI fotorealistik, Anda kehilangan klien mahal yang memiliki anggaran besar dan volume pencatatan berulang.
-
----
+Apabila Anda tidak memahami cara mengartikulasikan kompromi ekonomis antara physical staging, 3D rendering kelas bawah, serta AI staging yang photorealistic, Anda akan kehilangan kesempatan menggaet klien bernilai tinggi yang memiliki anggaran besar serta volume listing yang berulang.
 
 ## Konsep
 
-Memenangkan kontrak pementasan virtual dengan margin tinggi memerlukan pengalihan percakapan penjualan dari *biaya per gambar* menjadi **kecepatan, kecepatan pasar, dan ROI pencatatan**.
+Memenangkan kontrak virtual staging ber-margin tinggi menuntut pergeseran narasi penjualan dari sekadar *cost per image* menuju **kecepatan, laju pasar, serta ROI listing**.
 
 ```
 Physical Staging ($3,500 + 5 Days Wait) ──► AI Virtual Staging ($199 + 24 Hour Turnaround) ──► Agent Savings: $3,301 & 4 Days Faster Listing
 ```
 
-### Persamaan ROI untuk Agen Real Estat:
+### Formulasi ROI bagi Real Estate Agents:
 
-$$\text{ROI Pencatatan} = \frac{\text{Persepsi Peningkatan Nilai Properti} - \text{Biaya Pementasan}}{\text{Hari di Pasar (DOM)}}$$
+$$\text{Listing ROI} = \frac{\text{Perceived Property Value Increase} - \text{Staging Cost}}{\text{Days on Market (DOM)}}$$
 
-1. **Pengurangan Hari di Pasar (DOM):** Setiap hari tambahan sebuah rumah kosong dikenakan biaya pengangkutan hipotek penjual/makelar, biaya HOA, dan pajak properti (rata-rata **$100 hingga $250/hari**). Pementasan virtual AI memungkinkan properti ditayangkan di MLS dalam waktu 24 jam setelah fotografi.
-2. **Strategi Penetapan Harga Jangkar:** Jangan pernah bersaing dengan pekerja lepas senilai $10 lainnya. Pertahankan harga Anda dengan **penawaran pementasan fisik senilai $3.000**. Menawarkan paket pementasan AI 5 kamar untuk seluruh rumah seharga **$199** mewakili **93% penghematan biaya** sekaligus memberikan 95%+ dampak visual.
-3. **Layanan Tambahan Margin Tinggi:**
-* **Penguraian Virtual / Penghapusan Furnitur:** Menghapus furnitur penyewa lama sebelum dipentaskan (**+$25/foto**).
-* **Konversi Senja Virtual:** Mengonversi foto eksterior siang hari menjadi foto senja saat matahari terbenam yang dramatis (**+$30/foto**).
-* **Staging Motion Clips (Panduan Video I2V):** Menganimasikan foto statis menjadi klip video berdurasi 5 detik yang mulus untuk Reel Instagram dan daftar TikTok (**+$40/klip**).
-
----
+1. **Efisiensi Days on Market (DOM):** Setiap hari ekstra saat hunian dibiarkan kosong akan membebani seller/realtor dengan biaya tanggungan hipotek, iuran HOA, serta pajak properti (dengan rata-rata **$100 hingga $250/day**). AI virtual staging memungkinkan suatu properti untuk segera tayang di MLS dalam kurun waktu 24 jam pasca proses fotografi.
+2. **Strategi Anchor Pricing:** Jangan pernah memosisikan penawaran Anda berhadapan dengan freelancers bertarif $10. Tautkan penawaran harga Anda terhadap **estimasi $3,000 physical staging**. Menyajikan paket lengkap AI staging 5 ruangan untuk seluruh rumah seharga **$199** mencerminkan **penghematan biaya sebesar 93%** sembari menghadirkan lebih dari 95% dampak visual.
+3. **Layanan Tambahan Ber-Margin Tinggi:**
+   - **Virtual Decluttering / Furniture Removal:** Membuang furniture lama milik penyewa sebelum melangkah ke proses staging (**+$25/photo**).
+   - **Virtual Twilight Conversion:** Mentransformasi foto eksterior siang hari menjadi lanskap senja yang dramatis (**+$30/photo**).
+   - **Staging Motion Clips (I2V Video Walkthroughs):** Menganimasikan foto staged statis menjadi klip video halus berdurasi 5 detik untuk kebutuhan Instagram Reels serta TikTok listings (**+$40/clip**).
 
 ## Lakukan itu
 
-### Langkah 1: Tolok Ukur Biaya Pementasan Fisik Lokal
-Teliti perusahaan pementasan fisik di kota target Anda. Perhatikan tarif tipikal mereka:
-* **Biaya penyiapan awal:** $1.500 – $2.500.
-* **Sewa furnitur bulanan:** $1.000 – $2.000/bulan.
-* Gunakan angka-angka ini untuk mengisi matriks perbandingan penjualan Anda di [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md).
+### Langkah 1: Evaluasi Standar Biaya Physical Staging Lokal
 
-### Langkah 2: Tetapkan Paket Berjenjang yang Diproduksi
-Susun penawaran Anda menjadi 3 paket yang jelas untuk menghilangkan keraguan klien:
+Lakukan riset terhadap perusahaan physical staging di kota target Anda. Cermati kisaran tarif umum mereka:
+
+- **Biaya persiapan awal (Initial setup fee):** $1,500 – $2,500.
+- **Sewa furniture bulanan:** $1,000 – $2,000/month.
+- Manfaatkan angka-angka ini untuk melengkapi matriks komparasi penjualan Anda pada [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md).
+
+### Langkah 2: Susun Paket Bertingkat yang Terstruktur
+
+Susun penawaran Anda ke dalam 3 paket yang jelas untuk mengeliminasi keraguan klien:
 
 ```
 ┌─────────────────────────┐  ┌─────────────────────────┐  ┌─────────────────────────┐
@@ -55,73 +54,62 @@ Susun penawaran Anda menjadi 3 paket yang jelas untuk menghilangkan keraguan kli
 ├─────────────────────────┤  ├─────────────────────────┤  ├─────────────────────────┤
 │ • 3 Staged Rooms        │  │ • 6 Staged Rooms        │  │ • 8 Staged Rooms        │
 │ • 1 Style Revision      │  │ • 2 Style Variations    │  │ • Virtual Decluttering  │
-│ • 24h Turnaround        │  │ • Virtual Twilight Shot │  │ • 2 Motion Video Clips  │
-│ • High-Res MLS Specs    │  │ • 24h Turnaround        │  │ • Same-Day Turnaround   │
+│ • 24h Turnaround        │  │ • 24h Turnaround        │  │ • 2 Motion Video Clips  │
+│ • High-Res MLS Specs    │  │ • Same-Day Turnaround   │  │ • Same-Day Turnaround   │
 └─────────────────────────┘  └─────────────────────────┘  └─────────────────────────┘
 ```
 
-### Langkah 3: Hitung Margin Kotor & Ekonomi Unit Anda
-Hitung API dan biaya produksi Anda per paket:
-* **Biaya Pembuatan (muapi / FLUX):** ~$0,06 per render ruangan × 6 ruangan = **$0,36**.
-* **Penyimpanan & Pengiriman:** $0,05.
-* **Tenaga Kerja / Waktu Penggerakan:** 15 menit = ~$10 setara tenaga kerja.
-* **Pendapatan Paket ($199) - Biaya Produksi ($0,41) = $198,59 Laba Kotor (Margin 99,8%).**
+### Langkah 3: Kalkulasikan Gross Margin & Unit Economics Anda
 
-### Langkah 4: Bangun "Dek Perbandingan Pementasan"
-Buat lembar perbandingan PDF visual 1 halaman yang menunjukkan:
-* **Sisi Kiri:** Pementasan Fisik ($3.500, penyiapan 5 hari, 1 gaya statis).
-* **Sisi Kanan:** Pementasan Virtual AI Anda ($199, pengiriman 24 jam, 3 pilihan gaya: Modern, Skandinavia, Mewah).
+Hitung estimasi biaya API serta produksi per paket:
 
----
+- **Biaya Generation (muapi / FLUX):** ~$0.06 per room render × 6 ruangan = **$0.36**.
+- **Penyimpanan & Pengiriman:** $0.05.
+- **Waktu Pengerjaan / Prompting:** 15 menit = setara dengan biaya tenaga kerja ~$10.
+- **Pendapatan Paket ($199) - Biaya Produksi ($0.41) = $198.59 Gross Profit (Margin 99.8%).**
+
+### Langkah 4: Rancang "Staging Comparison Deck"
+
+Buatlah lembar perbandingan visual PDF 1 halaman yang menampilkan:
+
+- **Sisi Kiri:** Physical Staging ($3,500, waku persiapan 5 hari, 1 gaya statis).
+- **Sisi Kanan:** AI Virtual Staging Anda ($199, pengiriman 24 jam, 3 pilihan gaya: Modern, Scandinavian, Luxury).
 
 ## Contoh yang berhasil
 
-<p align="center">
-<img src="templates/examples/staged-bedroom-luxury.jpg" alt="Gambar AI Kamar Tidur Mewah Bertahap" width="320">
-<img src="templates/examples/bedroom-staging-motion.gif" alt="Lingkaran Gerakan Kamar Tidur Utama Bertahap (I2V)" width="320">
-</p>
-<p align="center"><sub>AI Staged Master Bedroom (Left) ──► Image-to-Video Motion Walkthrough (Right) · Video File: <a href="templates/examples/bedroom-staging-motion.mp4">templates/examples/bedroom-staging-motion.mp4</a></sub></p>
+**Rincian Proposal untuk Century 21 Premier Real Estate**
 
-**Rincian Proposal untuk Real Estat Century 21 Premier**
-
-* **Alamat Properti:** 442 Highland Ave (rumah kosong 3 tempat tidur, 2 kamar mandi).
-* **Pementasan Fisik yang Dikutip:** $3.800 untuk sewa 1 bulan.
-* **Penawaran Pementasan AI Anda:** Paket Full House ($199) + 2 Klip Gerak ($80) = **Total $279**.
-* **Hasil:** Agen disetujui dalam waktu 2 jam. Mengirimkan 6 foto panggung + 2 klip video Reel dalam 18 jam.
-* **Hasil Klien:** Listing ditayangkan di Zillow Jumat pagi, menerima 4 penawaran melebihi harga yang diminta pada hari Minggu, sehingga menghemat biaya pementasan bagi penjual **$3.521**.
-
----
+- **Alamat Properti:** 442 Highland Ave (hunian kosong dengan 3 kamar tidur, 2 kamar mandi).
+- **Penawaran Physical Staging:** $3,800 untuk masa sewa 1 bulan.
+- **Penawaran AI Staging Anda:** Full House Package ($199) + 2 Motion Clips ($80) = **Total $279**.
+- **Hasil:** Agent menyetujui dalam kurun waktu 2 jam. Menyerahkan 6 foto staged + 2 klip video Reel dalam waktu 18 jam.
+- **Dampak Klien:** Listing tayang di Zillow pada Jumat pagi, menerima 4 penawaran di atas harga pembukaan pada hari Minggu, menghemat biaya staging seller sebesar **$3,521**.
 
 ## Bandingkan Alat
 
-| Alat Penetapan Harga & Proposal | Fungsi Utama | Waktu Pengaturan | Terbaik Untuk |
-|---|---|---|---|
-| **Canva / Google Slide** | Dek proposal & sebelum/sesudah pembuatan PDF | 15 menit | Membuat presentasi singkat visual untuk agen lokal |
-| **Faktur Stripe / Gelombang** | Pengumpulan pembayaran kartu kredit otomatis & penagihan berulang | 10 menit | Mengumpulkan pembayaran di muka sebelum mengirimkan file beresolusi tinggi |
-| **Dropbox / Google Drive** | Pemeriksaan klien dan pengiriman aset beresolusi tinggi | 5 menit | Mengorganisir unduhan JPEG akhir yang sesuai dengan MLS |
-
----
+| Peralatan Penentuan Harga & Proposal | Fungsi Utama | Waktu Persiapan | Sangat Cocok Untuk |
+| --- | --- | --- | --- |
+| **Canva / Google Slides** | Pembuatan proposal deck & PDF sebelum/sesudah | 15 menit | Merancang visual pitch decks bagi agents lokal |
+| **Stripe Invoicing / Wave** | Penagihan kartu kredit otomatis & pembayaran berulang | 10 menit | Mengumpulkan pembayaran di awal sebelum menyerahkan berkas beresolusi tinggi |
+| **Dropbox / Google Drive** | Pratinjau klien serta penyerahan aset beresolusi tinggi | 5 menit | Mengorganisir unduhan JPEG akhir yang sesuai standar MLS |
 
 ## Luncurkan
 
-**Aturan utama untuk negosiasi kontrak:**
-* **Memerlukan Pembayaran di Muka 100%:** Real estat bergerak cepat; selalu kumpulkan pembayaran kartu kredit melalui Stripe sebelum merilis file MLS resolusi tinggi yang tidak diberi tanda air.
-* **Batasi Siklus Revisi:** Sertakan **1 revisi gaya gratis** per foto (misalnya, menukar kayu ek Skandinavia dengan logam hitam Industri). Biaya **$15 per foto** untuk perubahan gaya selanjutnya guna menghemat waktu Anda.
+**Aturan utama dalam negosiasi kontrak:**
 
----
+- **Wajibkan Pembayaran 100% di Awal:** Pergerakan real estate berlangsung cepat; senantiasa kumpulkan pembayaran kartu kredit melalui Stripe sebelum menyerahkan berkas MLS beresolusi tinggi tanpa watermark.
+- **Batasi Siklus Revisi:** Sertakan **1 revisi gaya gratis** per foto (misalnya, mengganti kayu Scandinavian oak menjadi logam hitam Industrial). Kenakan biaya **$15 per foto** untuk perubahan gaya berikutnya demi melindungi efisiensi waktu Anda.
 
 ## Latihan
 
-1. **Mudah:** Isi lembar harga Anda di [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) dengan harga khusus yang disesuaikan dengan pasar real estat lokal Anda.
-2. **Sedang:** Hitung margin keuntungan pada paket agensi senilai $299 yang mencakup 8 foto panggung, 1 konversi senja virtual, dan 2 klip gerak.
-3. **Sulit:** Buat PDF perbandingan 1 halaman sebelum/sesudah yang menyampaikan kepada agen real estat mewah tentang mengapa pementasan virtual AI lebih unggul daripada foto listingan kosong.
-
----
+1. **Mudah:** Lengkapi lembar penentuan harga Anda pada [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) dengan tarif kustom yang disesuaikan pada pasar real estate lokal Anda.
+2. **Sedang:** Hitung margin keuntungan pada paket agensi seharga $299 yang mencakup 8 foto staged, 1 virtual twilight conversion, serta 2 motion clips.
+3. **Sulit:** Buat lembar perbandingan sebelum/sesudah 1 halaman berbentuk PDF yang memaparkan kepada realtor kelas atas mengenai keunggulan AI virtual staging dibandingkan foto listing yang kosong.
 
 ## Templat
 
-* [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) — Struktur paket, kalkulator margin, dan persyaratan perjanjian layanan.
+- [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) — Struktur paket, kalkulator margin, serta ketentuan kesepakatan layanan.
 
 ---
 
-[← Empty Room → Staged Room Pipeline](01-empty-room-to-staged-room.md) · Berikutnya: [Selling to Realtors & Agencies →](03-selling-to-realtors-and-agencies.md)
+[← Sebelum: Ruang Kosong → Staged Room](01-empty-room-to-staged-room.md) · [Track overview](README.md) · Berikutnya: [Selling to Realtors & Agencies →](03-selling-to-realtors-and-agencies.md)
