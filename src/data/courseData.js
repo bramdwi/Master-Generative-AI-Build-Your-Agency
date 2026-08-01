@@ -28,7 +28,7 @@ export const tracksData = [
         "moduleId": "01-how-ugc-works",
         "num": 1,
         "title": "Bagaimana Sebenarnya AI UGC Bekerja",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -87,7 +87,7 @@ export const tracksData = [
         "moduleId": "02-character-consistency",
         "num": 2,
         "title": "Konsistensi Karakter & Wajah",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Cara Kerja AI UGC Sebenarnya",
         "headers": [
           {
@@ -146,7 +146,7 @@ export const tracksData = [
         "moduleId": "03-building-an-ad-batch",
         "num": 3,
         "title": "Membangun Kelompok 10 Iklan",
-        "time": "~20 minutes",
+        "time": "~50 menit",
         "prerequisites": "Cara Kerja AI UGC, Konsistensi Karakter & Wajah",
         "headers": [
           {
@@ -205,7 +205,7 @@ export const tracksData = [
         "moduleId": "04-pricing-and-selling-ugc",
         "num": 4,
         "title": "Penetapan Harga & Penjualan Iklan UGC sebagai Layanan",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Cara Kerja AI UGC, Membuat Batch 10 Iklan",
         "headers": [
           {
@@ -256,7 +256,7 @@ export const tracksData = [
         "moduleId": "05-case-study-teardown",
         "num": 5,
         "title": "Pembongkaran Studi Kasus",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Cara Kerja AI UGC, Penetapan Harga & Penjualan Iklan UGC",
         "headers": [
           {
@@ -399,7 +399,7 @@ export const tracksData = [
         "moduleId": "01-screenplay-and-story",
         "num": 1,
         "title": "Skenario & Pembuatan Cerita",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -488,7 +488,7 @@ export const tracksData = [
         "moduleId": "02-storyboarding-and-shots",
         "num": 2,
         "title": "Pembuatan Storyboard & Perencanaan Pengambilan Gambar",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Skenario & Pembuatan Cerita",
         "headers": [
           {
@@ -577,7 +577,7 @@ export const tracksData = [
         "moduleId": "03-camera-movement",
         "num": 3,
         "title": "Pergerakan Kamera & Perintah Sinematografi",
-        "time": "~20 minutes",
+        "time": "~50 menit",
         "prerequisites": "Skenario & Pembuatan Cerita, Pembuatan Storyboard & Perencanaan Pengambilan Gambar",
         "headers": [
           {
@@ -661,7 +661,7 @@ export const tracksData = [
         "moduleId": "04-assembling-short-film",
         "num": 4,
         "title": "Merakit Film Pendek",
-        "time": "~20 minutes",
+        "time": "~50 menit",
         "prerequisites": "Skenario & Pembuatan Cerita, Pembuatan Storyboard & Perencanaan Pengambilan Gambar, Pergerakan Kamera & Perintah Sinematografi",
         "headers": [
           {
@@ -760,7 +760,7 @@ export const tracksData = [
         "moduleId": "05-selling-short-films",
         "num": 5,
         "title": "Jual Film Berbentuk Pendek",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Skenario & Pembuatan Cerita, Merakit Film Pendek",
         "headers": [
           {
@@ -958,7 +958,7 @@ export const tracksData = [
         "moduleId": "01-niche-and-script",
         "num": 1,
         "title": "Pemilihan Niche & Saluran Skrip",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -1042,7 +1042,7 @@ export const tracksData = [
         "moduleId": "02-narration-and-pacing",
         "num": 2,
         "title": "Narasi & Kecepatan yang Sesuai Durasi",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Pemilihan Niche & Pipeline Skrip",
         "headers": [
           {
@@ -1126,7 +1126,7 @@ export const tracksData = [
         "moduleId": "03-rpm-and-earnings",
         "num": 3,
         "title": "RPM Jujur & Penghasilan Matematika",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Pemilihan Niche & Pipeline Skrip, Narasi & Kecepatan yang Sesuai Durasi",
         "headers": [
           {
@@ -1225,7 +1225,7 @@ export const tracksData = [
         "moduleId": "04-scaling-channels",
         "num": 4,
         "title": "Menskalakan ke Banyak Saluran",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Pemilihan Niche & Pipeline Skrip, Narasi & Kecepatan yang Sesuai Durasi",
         "headers": [
           {
@@ -1329,7 +1329,7 @@ export const tracksData = [
         "moduleId": "05-monetization-ladder",
         "num": 5,
         "title": "Tangga Monetisasi",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Pemilihan Niche & Pipeline Skrip, RPM Jujur & Matematika Penghasilan",
         "headers": [
           {
@@ -1497,7 +1497,7 @@ export const tracksData = [
         "moduleId": "01-production-pipeline",
         "num": 1,
         "title": "Jalur Produksi Multi-Langkah",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -1586,7 +1586,7 @@ export const tracksData = [
         "moduleId": "02-tiktok-reels-factory",
         "num": 2,
         "title": "Membangun Pabrik TikTok/Reels",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Jalur Produksi Multi-Langkah",
         "headers": [
           {
@@ -1685,7 +1685,7 @@ export const tracksData = [
         "moduleId": "03-youtube-shorts-factory",
         "num": 3,
         "title": "Membangun Pabrik Celana Pendek YouTube",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Jalur Produksi Multi-Langkah, Membangun Pabrik TikTok/Reels",
         "headers": [
           {
@@ -1769,7 +1769,7 @@ export const tracksData = [
         "moduleId": "04-thumbnail-design",
         "num": 4,
         "title": "Desain Gambar Kecil AI",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Jalur Produksi Multi-Langkah",
         "headers": [
           {
@@ -1868,7 +1868,7 @@ export const tracksData = [
         "moduleId": "05-batching-and-scheduling",
         "num": 5,
         "title": "Batching & Penjadwalan pada Volume",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Jalur Produksi Multi-Langkah",
         "headers": [
           {
@@ -1957,7 +1957,7 @@ export const tracksData = [
         "moduleId": "06-selling-content-services",
         "num": 6,
         "title": "Menjual Hasil Pabrik Konten sebagai Layanan",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Jalur Produksi Multi-Langkah, Batching & Penjadwalan pada Volume",
         "headers": [
           {
@@ -2135,7 +2135,7 @@ export const tracksData = [
         "moduleId": "01-consistent-character",
         "num": 1,
         "title": "Membangun Karakter AI yang Konsisten",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -2229,7 +2229,7 @@ export const tracksData = [
         "moduleId": "02-character-content-pipeline",
         "num": 2,
         "title": "Karakter ke Saluran Konten",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Membangun Karakter AI yang Konsisten",
         "headers": [
           {
@@ -2308,7 +2308,7 @@ export const tracksData = [
         "moduleId": "03-voice-cloning-dialogue",
         "num": 3,
         "title": "Kloning & Dialog Suara",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Membangun Karakter AI yang Konsisten, Karakter hingga Saluran Konten",
         "headers": [
           {
@@ -2402,7 +2402,7 @@ export const tracksData = [
         "moduleId": "04-monetization-tiers",
         "num": 4,
         "title": "Tingkat Monetisasi berdasarkan Jumlah Pengikut",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Membangun Karakter AI yang Konsisten, Saluran Karakter ke Konten, Kloning Suara & Dialog",
         "headers": [
           {
@@ -2486,7 +2486,7 @@ export const tracksData = [
         "moduleId": "05-agency-economics",
         "num": 5,
         "title": "Studi Kasus Agensi: Ekonomi Tim Kecil",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Membangun Karakter AI yang Konsisten, Saluran Karakter ke Konten, Kloning & Dialog Suara, Tingkatan Monetisasi berdasarkan Jumlah Pengikut",
         "headers": [
           {
@@ -2634,7 +2634,7 @@ export const tracksData = [
         "moduleId": "01-voice-cloning-tts",
         "num": 1,
         "title": "Kloning Suara & Dasar-Dasar TTS",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -2728,7 +2728,7 @@ export const tracksData = [
         "moduleId": "02-dubbing-translation",
         "num": 2,
         "title": "Sulih Suara & Terjemahan AI",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Kloning Suara & Dasar-dasar TTS",
         "headers": [
           {
@@ -2807,7 +2807,7 @@ export const tracksData = [
         "moduleId": "03-podcast-production",
         "num": 3,
         "title": "Produksi Podcast & Pembersihan Audio",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -2891,7 +2891,7 @@ export const tracksData = [
         "moduleId": "04-music-sfx-generation",
         "num": 4,
         "title": "Musik AI & Efek Suara",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -2985,7 +2985,7 @@ export const tracksData = [
         "moduleId": "05-singing-vocal-synthesis",
         "num": 5,
         "title": "Konversi Suara Bernyanyi & Sintesis Vokal",
-        "time": "~20 minutes",
+        "time": "~30 menit",
         "prerequisites": "Kloning Suara & Dasar-dasar TTS",
         "headers": [
           {
@@ -3133,7 +3133,7 @@ export const tracksData = [
         "moduleId": "01-product-photography",
         "num": 1,
         "title": "Pemotretan Produk Tanpa Fotografer",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -3214,7 +3214,7 @@ export const tracksData = [
         "moduleId": "02-conversion-case-studies",
         "num": 2,
         "title": "Studi Kasus Sebelum/Sesudah Konversi",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -3310,7 +3310,7 @@ export const tracksData = [
         "moduleId": "03-productized-service",
         "num": 3,
         "title": "Menjual sebagai Layanan yang Diproduksi",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -3391,7 +3391,7 @@ export const tracksData = [
         "moduleId": "04-batch-workflows",
         "num": 4,
         "title": "Alur Kerja Batch untuk Katalog",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Dasar-dasar Pemotretan Produk",
         "headers": [
           {
@@ -3526,7 +3526,7 @@ export const tracksData = [
         "moduleId": "01-garment-tryon",
         "num": 1,
         "title": "Uji Coba Garmen untuk Fashion E-commerce",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -3607,7 +3607,7 @@ export const tracksData = [
         "moduleId": "02-studio-lookbooks",
         "num": 2,
         "title": "Studio Lookbook dengan konversi tinggi",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -3688,7 +3688,7 @@ export const tracksData = [
         "moduleId": "03-sizing-layout-consistency",
         "num": 3,
         "title": "Konsistensi Ukuran & Tata Letak",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Dasar-Dasar Percobaan Pakaian",
         "headers": [
           {
@@ -3769,7 +3769,7 @@ export const tracksData = [
         "moduleId": "04-conversion-cases",
         "num": 4,
         "title": "Kasus Sebelum/Sesudah Konversi",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -3919,7 +3919,7 @@ export const tracksData = [
         "moduleId": "01-empty-room-to-staged-room",
         "num": 1,
         "title": "Ruang Kosong → Saluran Pipa Ruang Bertahap",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Pemahaman dasar tentang perintah pembuatan gambar",
         "headers": [
           {
@@ -4005,7 +4005,7 @@ export const tracksData = [
         "moduleId": "02-pricing-against-traditional-staging",
         "num": 2,
         "title": "Penetapan Harga Terhadap Pementasan Tradisional",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "[01: Empty Room → Staged Room Pipeline](01-empty-room-to-staged-room.md)",
         "headers": [
           {
@@ -4086,7 +4086,7 @@ export const tracksData = [
         "moduleId": "03-selling-to-realtors-and-agencies",
         "num": 3,
         "title": "Menjual ke Realtors & Agensi",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "[01: Empty Room Pipeline](01-empty-room-to-staged-room.md), [02: Pricing & Packaging](02-pricing-against-traditional-staging.md)",
         "headers": [
           {
@@ -4216,7 +4216,7 @@ export const tracksData = [
         "moduleId": "01-consistent-headshot-generation",
         "num": 1,
         "title": "Generasi Headshot yang Konsisten",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -4302,7 +4302,7 @@ export const tracksData = [
         "moduleId": "02-standing-out-against-fiverr-competition",
         "num": 2,
         "title": "Menonjol Melawan Kompetisi Fiverr",
-        "time": "~20 minutes",
+        "time": "~45 menit",
         "prerequisites": "[01: Consistent Headshot Generation](01-consistent-headshot-generation.md)",
         "headers": [
           {
@@ -4388,7 +4388,7 @@ export const tracksData = [
         "moduleId": "03-batch-headshots-for-remote-teams",
         "num": 3,
         "title": "Headshot Batch & Otomatisasi Massal untuk Tim Jarak Jauh",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)",
         "headers": [
           {
@@ -4469,7 +4469,7 @@ export const tracksData = [
         "moduleId": "04-creative-headshots-and-stylized-portraits",
         "num": 4,
         "title": "Headshot Kreatif & Potret Eksekutif Bergaya",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[01: Consistent Headshot Generation](01-consistent-headshot-generation.md), [02: Standing Out Against Fiverr Competition](02-standing-out-against-fiverr-competition.md)",
         "headers": [
           {
@@ -4599,7 +4599,7 @@ export const tracksData = [
         "moduleId": "01-designing-sellable-ai-art-for-merch",
         "num": 1,
         "title": "Merancang Seni AI yang Dapat Dijual untuk Merchandise",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -4680,7 +4680,7 @@ export const tracksData = [
         "moduleId": "02-print-on-demand-platform-basics",
         "num": 2,
         "title": "Dasar-dasar Platform Cetak Sesuai Permintaan",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "[01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md)",
         "headers": [
           {
@@ -4761,7 +4761,7 @@ export const tracksData = [
         "moduleId": "03-building-a-catalog-without-repeating",
         "num": 3,
         "title": "Membangun Katalog Tanpa Mengulanginya Sendiri",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md), [02: POD Platform Basics](02-print-on-demand-platform-basics.md)",
         "headers": [
           {
@@ -4837,7 +4837,7 @@ export const tracksData = [
         "moduleId": "04-pricing-and-passive-income-math",
         "num": 4,
         "title": "Penetapan Harga & Matematika Pendapatan Pasif untuk POD",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "[01: Designing Sellable AI Art](01-designing-sellable-ai-art-for-merch.md), [02: POD Platform Basics](02-print-on-demand-platform-basics.md), [03: Building a Catalog](03-building-a-catalog-without-repeating.md)",
         "headers": [
           {
@@ -4967,7 +4967,7 @@ export const tracksData = [
         "moduleId": "01-what-actually-sells-on-stock-marketplaces",
         "num": 1,
         "title": "Apa yang Sebenarnya Dijual di Pasar Saham",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -5048,7 +5048,7 @@ export const tracksData = [
         "moduleId": "02-batch-generating-a-licensable-catalog",
         "num": 2,
         "title": "Pembuatan Batch Katalog yang Dapat Dilisensikan",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[01: What Sells on Stock Marketplaces](01-what-actually-sells-on-stock-marketplaces.md)",
         "headers": [
           {
@@ -5129,7 +5129,7 @@ export const tracksData = [
         "moduleId": "03-licensing-models-and-passive-income",
         "num": 3,
         "title": "Model Perizinan & Harapan Pendapatan Pasif yang Realistis",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "[01: What Sells on Stock Marketplaces](01-what-actually-sells-on-stock-marketplaces.md), [02: Batch-Generating a Catalog](02-batch-generating-a-licensable-catalog.md)",
         "headers": [
           {
@@ -5259,7 +5259,7 @@ export const tracksData = [
         "moduleId": "01-image-models-which-one-for-which-use-case",
         "num": 1,
         "title": "Model Gambar - Yang Mana untuk Kasus Penggunaan Yang Mana",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -5335,7 +5335,7 @@ export const tracksData = [
         "moduleId": "02-video-models-which-one-for-which-use-case",
         "num": 2,
         "title": "Model Video — Yang Mana untuk Kasus Penggunaannya",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[01: Image Models](01-image-models-which-one-for-which-use-case.md)",
         "headers": [
           {
@@ -5411,7 +5411,7 @@ export const tracksData = [
         "moduleId": "03-voice-audio-models-which-one-for-which-use-case",
         "num": 3,
         "title": "Model Suara/Audio — Yang Mana untuk Kasus Penggunaannya",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "[01: Image Models](01-image-models-which-one-for-which-use-case.md), [02: Video Models](02-video-models-which-one-for-which-use-case.md)",
         "headers": [
           {
@@ -5487,7 +5487,7 @@ export const tracksData = [
         "moduleId": "04-api-vs-local-decision-framework",
         "num": 4,
         "title": "API vs. Lokal: Kerangka Keputusan",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[01: Image Models](01-image-models-which-one-for-which-use-case.md), [02: Video Models](02-video-models-which-one-for-which-use-case.md), [03: Voice & Audio Models](03-voice-audio-models-which-one-for-which-use-case.md)",
         "headers": [
           {
@@ -6021,7 +6021,7 @@ export const tracksData = [
         "moduleId": "01-what-coding-agents-actually-do",
         "num": 1,
         "title": "Apa yang Sebenarnya Dilakukan Agen Pengkodean",
-        "time": "~20 minutes",
+        "time": "~35 menit",
         "prerequisites": "Tidak ada",
         "headers": [
           {
@@ -6107,7 +6107,7 @@ export const tracksData = [
         "moduleId": "02-building-your-first-sellable-micro-tool",
         "num": 2,
         "title": "Membangun Alat Mikro Pertama Anda yang Dapat Dijual",
-        "time": "~20 minutes",
+        "time": "~50 menit",
         "prerequisites": "[01: What Coding Agents Actually Do](01-what-coding-agents-actually-do.md)",
         "headers": [
           {
@@ -6193,7 +6193,7 @@ export const tracksData = [
         "moduleId": "03-vibe-coding-workflow",
         "num": 3,
         "title": "Alur Kerja Vibe-Coding: Prompt → Bangun → Uji → Kirim",
-        "time": "~20 minutes",
+        "time": "~50 menit",
         "prerequisites": "[01: What Coding Agents Actually Do](01-what-coding-agents-actually-do.md), [02: Building Your First Sellable Micro-Tool](02-building-your-first-sellable-micro-tool.md)",
         "headers": [
           {
@@ -6274,7 +6274,7 @@ export const tracksData = [
         "moduleId": "04-pricing-and-selling-tools",
         "num": 4,
         "title": "Alat Penetapan Harga & Penjualan yang Anda Buat Dengan Agen",
-        "time": "~20 minutes",
+        "time": "~40 menit",
         "prerequisites": "[02: Building Your First Sellable Micro-Tool](02-building-your-first-sellable-micro-tool.md), [03: The Vibe-Coding Workflow](03-vibe-coding-workflow.md)",
         "headers": [
           {

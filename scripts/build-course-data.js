@@ -4,9 +4,42 @@ import path from 'path';
 const projectRoot = process.cwd();
 const tracksDir = path.join(projectRoot, 'tracks');
 const outputDir = path.join(projectRoot, 'src', 'data');
+const publicTracksDir = path.join(projectRoot, 'public', 'tracks');
+const publicDocsDir = path.join(projectRoot, 'public', 'docs');
 
 if (!fs.existsSync(outputDir)) {
   fs.mkdirSync(outputDir, { recursive: true });
+}
+
+// Copy media assets (images, gifs, mp4s) to public directory so Vite & production build can serve them directly
+function copyMediaAssets(srcDir, targetDir) {
+  if (!fs.existsSync(srcDir)) return;
+  if (!fs.existsSync(targetDir)) {
+    fs.mkdirSync(targetDir, { recursive: true });
+  }
+
+  const entries = fs.readdirSync(srcDir, { withFileTypes: true });
+  const mediaExts = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.mp4', '.webm', '.svg'];
+
+  for (const entry of entries) {
+    const srcPath = path.join(srcDir, entry.name);
+    const destPath = path.join(targetDir, entry.name);
+
+    if (entry.isDirectory()) {
+      copyMediaAssets(srcPath, destPath);
+    } else if (entry.isFile()) {
+      const ext = path.extname(entry.name).toLowerCase();
+      if (mediaExts.includes(ext)) {
+        fs.copyFileSync(srcPath, destPath);
+      }
+    }
+  }
+}
+
+// Sync media files to public folder
+copyMediaAssets(tracksDir, publicTracksDir);
+if (fs.existsSync(path.join(projectRoot, 'docs'))) {
+  copyMediaAssets(path.join(projectRoot, 'docs'), publicDocsDir);
 }
 
 // Category mapping based on track names/topics
@@ -99,7 +132,7 @@ const tracksData = trackFolders.map(dir => {
     }
 
     const titleMatch = content.match(/^#\s+(.+)$/m);
-    const timeMatch = content.match(/\*\*Time:\*\*\s*(.+)/i) || content.match(/\*\*Waktu Belajar:\*\*\s*(.+)/i);
+    const timeMatch = content.match(/\*\*Time:\*\*\s*(.+)/i) || content.match(/\*\*Waktu Belajar:\*\*\s*(.+)/i) || content.match(/\*\*Waktu:\*\*\s*(.+)/i);
     const prereqMatch = content.match(/\*\*Prerequisites:\*\*\s*(.+)/i) || content.match(/\*\*Prasyarat:\*\*\s*(.+)/i);
     
     const moduleId = mf.replace('.md', '');
@@ -207,4 +240,4 @@ export const allTemplatesData = ${JSON.stringify(allTemplatesList, null, 2)};
 `;
 
 fs.writeFileSync(path.join(outputDir, 'courseData.js'), fileContent, 'utf8');
-console.log(`[OK] Successfully compiled ${tracksData.length} tracks, ${allModulesCount} modules, ${allTemplatesCount} templates (with English & Indonesian content) into src/data/courseData.js!`);
+console.log(`[OK] Successfully compiled ${tracksData.length} tracks, ${allModulesCount} modules, ${allTemplatesCount} templates & synced media assets into public/!`);

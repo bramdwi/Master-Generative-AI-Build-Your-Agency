@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import { marked } from 'marked';
-import { Copy, Check } from 'lucide-react';
 
 export default function MarkdownViewer({ 
   content, 
@@ -69,48 +68,76 @@ export default function MarkdownViewer({
     const parser = new DOMParser();
     const doc = parser.parseFromString(rawHtml, 'text/html');
 
-    // Fix images and update src
+    // Fix image elements
     const imgs = doc.querySelectorAll('img');
     imgs.forEach(img => {
       const origSrc = img.getAttribute('src');
       if (origSrc) {
-        img.src = resolveMediaUrl(origSrc);
+        const resolved = resolveMediaUrl(origSrc);
+        img.setAttribute('src', resolved);
         img.style.maxWidth = '100%';
+        img.style.height = 'auto';
         img.style.borderRadius = '10px';
         img.style.margin = '0.5rem 0';
         img.loading = 'lazy';
       }
     });
 
-    // Fix links pointing to .mp4 videos and embed video player
+    // Fix native video elements
+    const videos = doc.querySelectorAll('video');
+    videos.forEach(v => {
+      const origSrc = v.getAttribute('src');
+      if (origSrc) {
+        v.setAttribute('src', resolveMediaUrl(origSrc));
+      }
+      v.querySelectorAll('source').forEach(s => {
+        const sSrc = s.getAttribute('src');
+        if (sSrc) s.setAttribute('src', resolveMediaUrl(sSrc));
+      });
+      v.setAttribute('controls', 'true');
+      v.setAttribute('loop', 'true');
+      v.setAttribute('muted', 'true');
+      v.setAttribute('playsinline', 'true');
+      v.style.maxWidth = '100%';
+      v.style.borderRadius = '12px';
+    });
+
+    // Fix standalone links pointing to .mp4 or .webm files
     const links = doc.querySelectorAll('a');
     links.forEach(link => {
       const href = link.getAttribute('href');
       if (href && (href.endsWith('.mp4') || href.endsWith('.webm'))) {
         const videoUrl = resolveMediaUrl(href);
-        const videoContainer = doc.createElement('div');
-        videoContainer.className = 'video-embed-container';
-        videoContainer.style.margin = '1rem 0';
+        link.setAttribute('href', videoUrl);
+        link.setAttribute('target', '_blank');
 
-        videoContainer.innerHTML = `
-          <video 
-            controls 
-            autoplay 
-            loop 
-            muted 
-            playsinline 
-            style="width: 100%; max-width: 640px; border-radius: 12px; border: 1px solid var(--border-color); background: #000;"
-            src="${videoUrl}"
-          >
-            Your browser does not support video playback.
-          </video>
-        `;
+        // Check if a video player for this URL is already present right after or inside
+        const container = link.closest('.video-embed-container');
+        if (!container) {
+          const videoWrap = doc.createElement('div');
+          videoWrap.className = 'video-embed-container';
+          videoWrap.style.margin = '1rem 0';
+          videoWrap.style.textAlign = 'center';
 
-        // Replace link text if link is alone in paragraph, or append video
-        if (link.parentNode && link.parentNode.tagName === 'P' && link.parentNode.childNodes.length === 1) {
-          link.parentNode.replaceWith(videoContainer);
-        } else {
-          link.after(videoContainer);
+          videoWrap.innerHTML = `
+            <video 
+              controls 
+              autoplay 
+              loop 
+              muted 
+              playsinline 
+              style="width: 100%; max-width: 640px; border-radius: 12px; border: 1px solid var(--border-color); background: #000; display: block; margin: 0.5rem auto;"
+              src="${videoUrl}"
+            >
+              Your browser does not support video playback.
+            </video>
+          `;
+
+          // Insert video wrap after the outer paragraph or block element
+          const blockElement = link.closest('p, div, blockquote, table') || link.parentNode;
+          if (blockElement && blockElement.parentNode) {
+            blockElement.parentNode.insertBefore(videoWrap, blockElement.nextSibling);
+          }
         }
       }
     });
