@@ -1,119 +1,108 @@
-# Ruang Kosong → Saluran Pipa Ruang Bertahap
+# Empty Room → Staged Room Pipeline
 
-> Ubah properti kosong menjadi rumah mewah dengan konversi tinggi dalam hitungan menit menggunakan pengecatan AI yang mendalam.
+> Mentransformasi ruang kosong menjadi hunian mewah berkonversi tinggi dalam hitungan menit mengandalkan depth-aware AI inpainting.
 
 **Lagu:** AI Real Estat (Pementasan Virtual)
 **Waktu:** ~40 menit
-**Prasyarat:** Pemahaman dasar tentang perintah pembuatan gambar
+**Prasyarat:** Pemahaman dasar tentang image generation prompts
 
-## Masalahnya
+## The Problem
 
-Listingan real estat yang kosong mengalami kesenjangan persepsi pembeli yang besar: ruangan kosong terasa lebih kecil, lebih dingin, dan lebih sulit untuk divisualisasikan dibandingkan ruangan berperabotan. Menurut National Association of Realtors (NAR), **81% pembeli merasa lebih mudah memvisualisasikan properti sebagai rumah masa depan ketika dipentaskan**, dan rumah panggung dijual dengan harga **hingga 20% lebih mahal** dibandingkan properti kosong.
+Properti kosong dalam listing real estate kerap kali memicu kesenjangan persepsi yang signifikan bagi calon pembeli: ruangan yang hampa tampak lebih sempit, dingin, serta sulit dibayangkan potensi tata letaknya ketimbang ruang yang berfurnitur. Berdasarkan data National Association of Realtors (NAR), **81% pembeli merasa jauh lebih mudah mengimajinasikan properti sebagai hunian masa depan ketika disajikan dalam kondisi staged**, dan properti dengan staging mampu meraih nilai jual **hingga 20% lebih tinggi** ketimbang ruangan kosong.
 
-Namun, pementasan fisik tradisional sangatlah mahal dan lambat:
-* **Biaya:** Menyewa furnitur fisik dan mempekerjakan kru desain interior dikenakan biaya **$2.500 hingga $5.000+ per bulan** per listing.
-* **Perputaran:** Penjadwalan pemindahan dan perakitan furnitur memerlukan waktu **3 hingga 7 hari**, sehingga menunda peluncuran listing.
-* **Risiko:** Perabotan fisik berisiko menggores lantai atau merusak dinding selama pengangkutan.
+Meski demikian, eksekusi physical staging tradisional menuntut biaya yang sangat tinggi serta memakan waktu:
 
-Jika Anda mencoba pengeditan gambar dasar atau rendering 3D kelas bawah, furnitur akan terlihat datar, tidak berskala, dan melayang secara tidak wajar di atas lantai, sehingga merusak kepercayaan pembeli. Anda memerlukan alur kerja AI fotorealistik yang cepat yang mempertahankan geometri ruangan sekaligus mengisi ruang secara mulus dengan dekorasi interior trendi.
+- **Cost:** Menyewa furniture fisik dan mempekerjakan tim interior design menghabiskan alokasi anggaran **$2,500 hingga $5,000+ per bulan** untuk setiap listing.
+- **Turnaround:** Penjadwalan tim pengangkut serta perakitan furniture memakan waktu **3 hingga 7 hari**, yang berimbas pada tertundanya peluncuran listing.
+- **Risk:** Proses pemindahan furniture fisik berisiko menggores lantai atau merusak dinding selama masa transportasi.
 
----
+Apabila Anda mengandalkan penyuntingan gambar sederhana atau 3D rendering kelas bawah, furniture yang dihasilkan tampak pipih, tidak proporsional, serta mengambang secara tidak alami di atas lantai—yang seketika meruntuhkan kepercayaan calon pembeli. Anda membutuhkan workflow AI yang cepat dan photorealistic untuk mempertahankan geometri ruangan sembari mengisi sudut ruang secara sempurna dengan interior decor yang elegan.
 
-## Konsep
+## The Concept
 
-Alur pementasan virtual AI mengandalkan **Inpainting Terkunci Perspektif** dan **Penempatan Furnitur Sadar Kedalaman**:
+Alur kerja AI virtual staging bertumpu pada **Perspective-Locked Inpainting** serta **Depth-Aware Furniture Placement**:
 
 ```
 Empty Room Photo ──► Depth Mask Generation ──► Perspective Alignment ──► Inpainting Furniture ──► Shadow & Reflection Matching
 ```
 
-### Pilar Teknis Inti:
+### Pilar Teknis Utama:
 
-1. **Penguncian Perspektif & Titik Hilang:** Fotografi real estat menggunakan lensa sudut lebar (16–24mm) dengan titik hilang arsitektural yang berbeda. Untuk mencegah furnitur tampak terdistorsi atau miring, model AI harus memperhatikan garis cakrawala dan sudut vertikal dinding yang ada.
-2. **Pelestarian Kedalaman Lantai & Dinding:** Saat mengisi ruangan kosong, model AI harus mendeteksi bidang lantai, alas tiang, dan sumber cahaya jendela. Menggunakan ControlNet Depth atau depth-masking memastikan kaki sofa yang bertumpu pada lantai sejajar sempurna dengan dasar dinding tanpa mengubah struktur jendela, pintu, atau tekstur lantai.
-3. **Preset Gaya Interior:** Pementasan virtual berperforma tinggi menargetkan demografi pembeli tertentu melalui tema estetika yang dikurasi:
-* **Skandinavia Modern:** Sofa linen netral dari kayu ek ringan, meja kopi minimalis, tanaman monstera dalam pot.
-* **Kemewahan Kontemporer:** Bagian beludru, meja kopi marmer, pencahayaan beraksen kuningan, permadani mewah.
-* **Modern Pesisir:** Tekstil ringan, aksen rotan, warna biru lembut, permadani anyaman goni, sinar matahari alami yang hangat.
+1. **Perspective & Vanishing Point Locking:** Fotografi real estate memanfaatkan lensa sudut lebar (16–24mm) dengan vanishing point arsitektural yang presisi. Guna mencegah furniture tampak terdistorsi atau miring, model AI wajib mengacu pada horizon line serta sudut dinding vertikal yang ada.
+2. **Floor & Wall Depth Preserving:** Saat menata ruang kosong, model AI harus mampu mendeteksi floor planes, baseboards, serta arah pencahayaan jendela. Mengintegrasikan ControlNet Depth atau depth-masking memastikan kaki sofa menapak sempurna di atas permukaan lantai dan sejajar dengan batas dinding tanpa mengubah tekstur jendela, pintu, maupun lantai secara struktural.
+3. **Interior Style Presets:** Virtual staging yang efektif menyasar demografi pembeli secara spesifik melalui tema estetika terkurasi:
+   - **Modern Scandinavian:** Kayu oak terang, sofa berbahan linen netral, coffee table minimalis, serta pot tanaman monstera.
+   - **Contemporary Luxury:** Sofa sectional berbahan beludru, coffee table marmer, pencahayaan aksen kuningan, serta area rug yang empuk.
+   - **Coastal Modern:** Tekstil bernuansa terang, aksen rotan, warna biru lembut, jute rug tenun, serta pendar sinar matahari alami yang hangat.
 
----
+## Do It
 
-## Lakukan itu
+### Step 1: Capture & Select the Source Photograph
 
-### Langkah 1: Ambil & Pilih Foto Sumber
-Dapatkan foto sudut lebar resolusi tinggi dari ruangan kosong. Pastikan fotonya lurus (datar secara horizontal dan tegak lurus secara vertikal) dan memiliki penerangan yang baik dengan cahaya alami. Simpan sebagai `empty-room-source.jpg`.
+Dapatkan foto sudut lebar beresolusi tinggi dari ruangan kosong tersebut. Pastikan foto tegak lurus (seimbang secara horizontal dan tegak lurus secara vertikal) serta tersinari secara optimal oleh pendar cahaya alami. Simpan sebagai berkas `empty-room-source.jpg`.
 
-### Langkah 2: Tentukan Area Staging Mask
-Buka editor foto atau antarmuka lukisan Anda. Pilih area lantai di mana furnitur harus diletakkan sambil menjaga fitur struktural (jendela, perapian, tiang penyangga, dinding struktural) tidak tersentuh. Buat lapisan topeng inpainting yang menutupi 60–70% ruang lantai terbuka.
+### Step 2: Define the Staging Mask Area
 
-### Langkah 3: Tulis Perintah Pementasan Sadar Kedalaman
-Susun prompt menggunakan spesifikasi gaya interior Anda dari [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md). Tambahkan token jangkar arsitektur dan pencahayaan yang cocok dengan foto asli:
+Buka aplikasi photo editor atau antarmuka inpainting Anda. Tandai area lantai yang akan ditempati furniture sembari mempertahankan elemen struktural (jendela, perapian, tiang penyangga, dinding utama) agar tidak tersentuh. Buat inpainting mask layer yang mencakup 60–70% dari area lantai yang terbuka.
 
-* **Mengingatkan:**
-> __KODE INLINE_0__
-* **Perintah Negatif:**
-> __KODE INLINE_0__
+### Step 3: Write the Depth-Aware Staging Prompt
 
-### Langkah 4: Jalankan Inpainting dengan ControlNet / Referensi Kedalaman
-Teruskan `empty-room-source.jpg` dan topeng Anda ke dalam model (mis., FLUX Inpainting atau muapi `/nano-banana-2` mode inpainting). Tetapkan bobot Kedalaman ControlNet ke `0.75` untuk menerapkan geometri lantai struktural sekaligus memungkinkan model menghasilkan volume furnitur 3D.
+Rangkai prompt mengandalkan spesifikasi gaya interior Anda dari panduan [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md). Sematkan kata kunci arsitektur dan pencahayaan diawal prompt agar selaras dengan foto asli:
 
-### Langkah 5: Gabungkan & Verifikasi Bayangan Kontak
-Periksa output pada zoom 100%:
-* **Kontak Lantai:** Pastikan kaki sofa dan meja menyentuh lantai secara alami dengan bayangan kontak yang gelap dan rapat (oklusi sekitar).
-* **Konsistensi Sumber Cahaya:** Pastikan sorotan furnitur sesuai dengan arah sinar matahari jendela.
-* Simpan gambar akhir yang dipentaskan sebagai `staged-living-room.jpg`.
+- **Prompt:**
+> `"High-end modern luxury living room virtual staging. A sleek cream fabric L-shaped sectional sofa with plush pillows resting on a soft beige area rug, low-profile oval wood coffee table, potted fiddle-leaf fig in ceramic planter, natural sunlight casting soft shadows, interior design magazine style, 8k photorealistic resolution, perfectly aligned to floor plane."`
 
----
+- **Negative Prompt:**
+> `"warped floor, distorted furniture legs, floating objects, cartoon, low resolution, blurry, altered windows, altered walls, 3d render look, oversaturated."`
 
-## Contoh yang berhasil
+### Step 4: Execute Inpainting with ControlNet / Depth Reference
 
-<p align="center">
-<img src="templates/examples/staged-living-room.jpg" alt="Gambar AI Ruang Tamu Bertahap" width="320">
-<img src="templates/examples/living-room-staging-motion.gif" alt="Lingkaran Gerakan Ruang Tamu Bertahap (I2V)" width="320">
-</p>
-<p align="center"><sub>AI Staged Living Room Image (Left) ──► Image-to-Video Walkthrough Loop (Right) · Video File: <a href="templates/examples/living-room-staging-motion.mp4">templates/examples/living-room-staging-motion.mp4</a></sub></p>
+Masukkan berkas `empty-room-source.jpg` beserta mask Anda ke dalam model (seperti FLUX Inpainting atau muapi `/nano-banana-2` dalam mode inpainting). Atur ControlNet Depth weight pada angka `0.75` guna mempertahankan geometri lantai secara struktural sembari memberi ruang bagi model untuk membentuk volume 3D furniture.
 
-**Rincian Eksekusi Pementasan untuk "Daftar Oakridge"**
+### Step 5: Composite & Verify Contact Shadows
 
-* **Sumber Properti:** Ruang tamu kosong seluas 450 kaki persegi dengan lantai kayu keras dan jendela besar yang diterangi matahari.
-* **Target Pembeli:** Pasangan profesional muda yang mencari gaya mewah modern.
-* **Paket Furnitur Pilihan:** Kemewahan Skandinavia (Bagian Krim, Meja Kopi Kayu Oak, Karpet Bertekstur, Tumbuhan Dalam Ruangan).
-* **Setelan Render:** Kekuatan denoising `0.65`, Bobot kedalaman `0.80`, rasio aspek 16:9 yang cocok dengan keluaran kamera.
-* **Waktu Penyelesaian:** Total waktu pemrosesan 4 menit.
-* **Biaya:** **$0,06** Biaya pembuatan AI vs. **$3.200** penawaran pementasan fisik tradisional.
+Cermati luaran render pada tingkat pembesaran 100% zoom:
 
----
+- **Floor Contact:** Pastikan kaki sofa dan meja menapak secara alami pada lantai disertai bayangan kontak yang pekat dan presisi (ambient occlusion).
+- **Light Source Consistency:** Pastikan pendar bayangan pada furniture selaras dengan arah jatuhnya sinar matahari dari jendela.
+- Simpan hasil staging akhir sebagai berkas `staged-living-room.jpg`.
 
-## Bandingkan Alat
+## Worked Example
 
-| Platform / Metode | Waktu Penyelesaian | Biaya per Foto | Realisme & Kontrol | Terbaik Untuk |
-|---|---|---|---|---|
-| **API Pengecatan FLUX / muapi** | < 1 menit | $0,05 - $0,15 | **Sangat Tinggi** — Kontrol kedalaman khusus, gaya furnitur yang tepat | Agen real estat bervolume tinggi dan alur kerja pementasan otomatis |
-| **SaaS Staging Khusus (BoxBrownie, VirtualStagingAI)** | 24 - 48 jam | $20 - $35 | **Tinggi** — Tinjauan desainer manual atau katalog 3D tetap | Daftar perumahan satu kali dengan anggaran tetap |
-| **Pementasan Fisik Tradisional** | 3 - 7 hari | $2.500 - $5.000+ | **Realitas Fisik** — Perabotan sebenarnya di rumah | Mega-mansion ultra-mewah ($5M+) dengan open house tatap muka |
+**Rincian Eksekusi Staging untuk "Oakridge Listing"**
 
----
+- **Source Property:** Ruang tamu kosong seluas 450 sq ft dengan lantai kayu murni dan jendela besar bertabur sinar matahari.
+- **Target Buyer:** Pasangan profesional muda yang mendambakan gaya modern luxury.
+- **Selected Furniture Pack:** Scandinavian Luxury (Cream Sectional, Oak Coffee Table, Textured Rug, Indoor Botanicals).
+- **Render Settings:** Denoising strength `0.65`, Depth weight `0.80`, serta rasio aspek 16:9 yang presisi sesuai luaran kamera.
+- **Turnaround Time:** Total durasi pemrosesan selama 4 menit.
+- **Cost:** Biaya generation AI sebesar **$0.06** berbanding tawaran physical staging tradisional senilai **$3,200**.
 
-## Luncurkan
+## Compare Tools
 
-**Cara menentukan harga & mengemas layanan ini:**
-* **Pementasan Kamar Single:** **$35 – $50** per foto.
-* **Paket Listing Rumah Lengkap (5 Kamar):** **$149 – $199** harga paket (termasuk Ruang Tamu, Kamar Tidur Utama, Dapur/Ruang Makan, Kamar Tidur Tamu, Teras).
-* **Spesifikasi Pengiriman:** Mengirimkan JPEG resolusi tinggi (lebar 3000 piksel+) yang dioptimalkan untuk MLS (Layanan Daftar Berganda) dan unggahan Zillow/Redfin dalam waktu 24 jam.
+| Platform / Method | Turnaround Time | Cost per Photo | Realism & Control | Best For |
+| --- | --- | --- | --- | --- |
+| **FLUX / muapi Inpainting API** | < 1 minute | $0.05 - $0.15 | **Extremely High** — Custom depth control, exact furniture styling | Agensi real estate bereputasi tinggi serta workflow staging terotomatisasi |
+| **Specialized Staging SaaS (BoxBrownie, VirtualStagingAI)** | 24 - 48 hours | $20 - $35 | **High** — Peninjauan desainer secara manual atau katalog 3D statis | Listing hunian tunggal dengan alokasi anggaran terbatas |
+| **Traditional Physical Staging** | 3 - 7 days | $2,500 - $5,000+ | **Physical Reality** — Penataan furniture nyata di dalam hunian | Mega-mansion super mewah ($5M+) dengan agenda open house langsung |
 
----
+## Launch It
 
-## Latihan
+**Panduan penetapan harga & pengemasan layanan ini:**
 
-1. **Mudah:** Potret ruangan kosong di rumah Anda atau unduh foto stok ruangan kosong. Identifikasi titik hilang utama dan sumber cahaya jendela.
-2. **Sedang:** Gunakan alat pengecatan untuk menempatkan sofa modern dan meja kopi di ruangan kosong dengan tetap mempertahankan tekstur lantai dan dinding asli.
-3. **Sulit:** Lakukan pengujian staging multi-gaya pada ruangan kosong yang sama: render satu versi dalam **Skandinavia Modern** dan versi kedua dalam **Industri Loft**, pastikan pencahayaan dan perspektif cocok di kedua render.
+- **Single Room Staging:** **$35 – $50** per foto.
+- **Full House Listing Package (5 Rooms):** Paket seharga **$149 – $199** (mencakup Living Room, Master Bedroom, Kitchen/Dining, Guest Bedroom, dan Patio).
+- **Delivery Specs:** Serahkan berkas JPEG beresolusi tinggi (lebar 3000px+) yang teroptimasi untuk diunggah ke MLS (Multiple Listing Service), Zillow, maupun Redfin dalam kurun waktu 24 jam.
 
----
+## Exercises
 
-## Templat
+1. **Easy:** Abadikan foto ruang kosong di kediaman Anda atau unduh stock photo ruangan hampa. Tentukan vanishing point utama serta sumber cahaya jendela.
+2. **Medium:** Gunakan inpainting tool untuk menata sofa modern serta coffee table ke dalam ruang kosong tersebut sembari menjaga keaslian tekstur lantai dan dinding.
+3. **Hard:** Lakukan pengujian staging multi-gaya pada ruangan kosong yang sama: hasilkan versi pertama berkonsep **Modern Scandinavian** dan versi kedua berkonsep **Industrial Loft**, sembari memastikan konsistensi pencahayaan serta presisi perspektif pada kedua render.
 
-* [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md) — Panduan gaya desain interior, kerangka kerja cepat, dan daftar periksa kendali mutu.
+## Templates
+
+- [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md) — Panduan gaya interior design, kerangka kerja prompt, serta daftar periksa quality control.
 
 ---
 
