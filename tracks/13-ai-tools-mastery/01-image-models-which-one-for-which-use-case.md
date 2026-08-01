@@ -1,102 +1,87 @@
-# Model Gambar - Yang Mana untuk Kasus Penggunaan Yang Mana
+# Image Models — Which One for Which Use Case
 
-> Panduan pembeli dan matriks keputusan teknis untuk memilih model pembuatan gambar AI yang tepat untuk setiap hasil materi iklan.
+> Panduan komprehensif dan matriks keputusan teknis untuk memilih AI image generation model yang tepat bagi setiap hasil kreatif komersial.
 
-**Lacak:** Penguasaan Alat AI
+**Lagu:** Penguasaan Alat AI
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 
 ## Masalahnya
 
-Lanskap pembuatan gambar AI bergerak dengan kecepatan yang memusingkan. Pembuat konten kewalahan dengan pilihan: Midjourney v6, FLUX 1.1 Pro, SDXL, Ideogram v2, DALL-E 3, dan model LoRA khusus.
+Lansekap AI image generation bergerak dengan kecepatan yang sangat pesat. Para creator sering kali merasa kewalahan oleh banyaknya pilihan: Midjourney v6, FLUX 1.1 Pro, SDXL, Ideogram v2, DALL-E 3, hingga custom LoRA models.
 
-Banyak pembuat konten yang terjebak dalam penggunaan satu alat untuk semuanya. Misalnya, menggunakan Midjourney untuk rendering tipografi yang rumit (yang menghasilkan teks kacau) atau menggunakan DALL-E 3 untuk foto wajah perusahaan yang fotorealistik (yang menghasilkan tekstur kulit plastik yang terlalu jenuh).
+Banyak creator terjebak dalam kekeliruan dengan mengandalkan satu tool tunggal untuk seluruh kebutuhan. Sebagai contoh, memanfaatkan Midjourney untuk merender typography yang rumit (yang berakhir dengan teks berantakan) atau mengandalkan DALL-E 3 untuk membuat photorealistic corporate headshots (yang menghasilkan tekstur kulit tampak terlalu jenuh dan buatan).
 
-Jika Anda tidak mencocokkan model dengan persyaratan materi iklan yang tepat, Anda membuang-buang waktu untuk mengatasi keterbatasan model alih-alih mengirimkan aset yang siap untuk klien.
-
----
+Apabila Anda tidak menyelaraskan model secara presisi dengan kebutuhan kreatif spesifik, alokasi waktu Anda akan terbuang sia-sia hanya untuk mengompromikan keterbatasan model, ketimbang menyerahkan aset siap pakai kepada client.
 
 ## Konsep
 
-Setiap model gambar AI memiliki kekuatan dan keunggulan arsitektur yang berbeda:
+Setiap AI image model memiliki keunggulan arsitektural serta kompromi yang khas:
 
 ```
 Creative Requirement ──► Architectural Match ──► Selected Model ──► Client Output
 ```
 
-### 4 Dimensi Evaluasi Gambar Inti:
+### 4 Dimensi Utama Evaluasi Gambar:
 
-1. **Fotorealisme & Akurasi Tekstur:** Seberapa autentiknya model tersebut menampilkan tekstur mikro kulit, keruntuhan pencahayaan, dan tenunan kain. (Model utama: **FLUX 1.1 Pro** / **FLUX Schnell**).
-2. **Tipografi & Rendering Teks:** Akurasi saat menghasilkan kata-kata yang dieja dengan jelas di dalam logo, papan tanda, dan poster. (Model utama: **Ideogram v2** / **FLUX**).
-3. **Kepatuhan Cepat & Komposisi Spasial Kompleks:** Seberapa akurat model mengikuti instruksi spasial multi-subjek (misalnya, *"cangkir keramik biru di sebelah kiri buku catatan kulit"*). (Model utama: **DALL-E 3** / **FLUX**).
-4. **Gaya Artistik & Estetika Pelukis:** Penilaian warna yang kohesif, default pencahayaan sinematik, dan ilustrasi bergaya. (Model utama: **Midjourney v6**).
-
----
+1. **Photorealism & Texture Accuracy:** Seberapa autentik model dalam merender mikrotekstur kulit, gradasi pencahayaan, serta serat kain. (Model unggulan: **FLUX 1.1 Pro** / **FLUX Schnell**).
+2. **Typography & Text Rendering:** Akurasi dalam menghasilkan susunan kata yang terbaca secara presisi pada logo, papan penunjuk jalan, dan poster. (Model unggulan: **Ideogram v2** / **FLUX**).
+3. **Prompt Adherence & Complex Spatial Composition:** Seberapa presisi model mengeksekusi instruksi spasial multi-subjek (contoh: *"a blue ceramic cup on the left of a leather notebook"*). (Model unggulan: **DALL-E 3** / **FLUX**).
+4. **Artistic Style & Painterly Aesthetics:** Keselarasan color grading, pencahayaan sinematik secara bawaan, serta ilustrasi bergaya artistik. (Model unggulan: **Midjourney v6**).
 
 ## Lakukan itu
 
-### Langkah 1: Analisis Persyaratan Singkat Klien
-Buka [`templates/image-model-selection-guide.md`](templates/image-model-selection-guide.md). Tentukan kendala utama proyek:
-* **Foto Realistik Headshots / Produk:** Membutuhkan hamburan di bawah permukaan dan pori-pori kulit -> **FLUX 1.1 Pro / muapi `/nano-banana-2`**.
-* **Tipografi Grafis & Kutipan Merchandise:** Membutuhkan ejaan huruf yang sempurna -> **Ideogram v2 / FLUX**.
-* **Seni & Papan Cerita Konsep Sinematik:** Membutuhkan default pencahayaan yang indah -> **Midjourney v6**.
+### Langkah 1: Analisis Kebutuhan Client Brief
 
-### Langkah 2: Konfigurasikan Parameter Model
-Sesuaikan pengaturan inferensi berdasarkan keluaran target:
-* Untuk model FLUX: Tetapkan skala panduan `3.5`, langkah `28` hingga `40`.
-* Untuk Midjourney v6: Tetapkan `--stylize 100-250` untuk fotorealisme atau `--stylize 500+` untuk bakat artistik.
+Buka panduan [`templates/image-model-selection-guide.md`](templates/image-model-selection-guide.md). Tentukan batasan utama dari proyek Anda:
 
-### Langkah 3: Audit Render pada Zoom 100%.
-Periksa tepian, keterbacaan teks, dan geometri jari untuk memastikan pilihan model memenuhi persyaratan singkat.
+- **Photorealistic Headshots / Products:** Menuntut kelengkapan sub-surface scattering serta pori-pori kulit -> **FLUX 1.1 Pro / muapi `/nano-banana-2`**.
+- **Graphic Typography & Merch Quotes:** Menuntut ejaan karakter yang sempurna -> **Ideogram v2 / FLUX**.
+- **Cinematic Concept Art & Storyboards:** Menuntut pencahayaan sinematik yang indah secara bawaan -> **Midjourney v6**.
 
----
+### Langkah 2: Konfigurasi Parameter Model
+
+Sesuaikan pengaturan inference berdasarkan target output:
+
+- Untuk FLUX models: Atur guidance scale `3.5`, steps `28` hingga `40`.
+- Untuk Midjourney v6: Atur `--stylize 100-250` untuk mengejar photorealism atau `--stylize 500+` untuk sentuhan artistik yang kuat.
+
+### Langkah 3: Audit Hasil Render pada Pembesaran 100% Zoom
+
+Periksa setiap sudut detail, keterbacaan teks, serta geometri jemari untuk memastikan bahwa pilihan model telah memenuhi kebutuhan client brief secara sempurna.
 
 ## Contoh yang berhasil
 
-<p align="center">
-<img src="templates/examples/model-benchmark-comparison.jpg" alt="Perbandingan Tolok Ukur Model Gambar AI" width="480">
-<img src="templates/examples/tools-workflow-motion.gif" alt="Alat Workflow Motion Loop (I2V)" width="480">
-</p>
-<p align="center"><sub>AI Image Model Benchmark Infographic (Left) ──► Image-to-Video Workflow Loop (Right) · Video File: <a href="templates/examples/tools-workflow-motion.mp4">templates/examples/tools-workflow-motion.mp4</a></sub></p>
+**Studi Kasus Keputusan Model: "High-Fashion Apparel Campaign"**
 
-**Studi Kasus Keputusan Model: "Kampanye Pakaian Mode Tinggi"**
-
-* **Persyaratan:** Foto produk studio 8k dengan tipografi merek yang dapat dibaca pada hoodie hitam.
-* **Alat yang Diuji A (DALL-E 3):** Ejaan teks bagus, tetapi tekstur kulit tampak seperti lilin dan plastik.
-* **Alat B yang Diuji (FLUX 1.1 Pro / muapi):** Pori-pori kulit sempurna, tenunan kain tajam, ejaan tipografi tepat.
-* **Seleksi Akhir:** **FLUX 1.1 Pro** memberikan 100% persetujuan klien.
-
----
+- **Requirement:** Hasil foto produk studio beresolusi 8k dengan brand typography yang terbaca jelas pada hoodie berwarna hitam.
+- **Tested Tool A (DALL-E 3):** Ejaan teks sangat presisi, namun tekstur kulit tampak terlalu buatan dan menyerupai lilin.
+- **Tested Tool B (FLUX 1.1 Pro / muapi):** Pori-pori kulit tampak sempurna, serat kain terlihat tajam, serta ejaan typography sangat presisi.
+- **Final Selection:** **FLUX 1.1 Pro** berhasil meraih persetujuan 100% dari client.
 
 ## Bandingkan Alat
 
-| Model | Kekuatan | Kelemahan | Kasus Penggunaan Terbaik |
-|---|---|---|---|
-| **FLUX 1.1 Pro / Schnell** | Kulit fotorealistik, rendering teks tingkat atas, kepatuhan cepat yang tinggi | Membutuhkan petunjuk pencahayaan yang eksplisit | Foto perusahaan, merchandise POD, konten stok |
-| **Tengah perjalanan v6** | Estetika luar biasa yang unggul, default warna sinematik | Ejaan teks bisa melayang, antarmuka Discord berpemilik | Seni konsep, papan cerita film, kreatif sosial |
-| **Ideogram v2** | Tipografi vektor & tata letak logo yang tak tertandingi | Fotorealisme lebih rendah pada kulit manusia | Poster, desain teks pakaian, lencana |
-| **DALL-E 3** | Kepatuhan cepat yang tinggi untuk konsep sederhana | Tekstur kulit kartun yang terlalu jenuh | Brainstorming konseptual cepat |
-
----
+| Model | Keunggulan | Kelemahan | Best Use Case |
+| --- | --- | --- | --- |
+| **FLUX 1.1 Pro / Schnell** | Photorealistic skin yang autentik, text rendering kelas atas, prompt adherence yang tinggi | Membutuhkan lighting prompts yang spesifik | Corporate headshots, POD merch, stock content |
+| **Midjourney v6** | Estetika visual bawaan yang superior, color defaults bernuansa sinematik | Ejaan teks dapat bergeser, interaksi berbasis Discord yang proprietary | Concept art, film storyboards, social creative |
+| **Ideogram v2** | Keunggulan tiada tanding pada vector typography & logo layout | Tingkat photorealism pada kulit manusia relatif lebih rendah | Posters, apparel text designs, badges |
+| **DALL-E 3** | Prompt adherence yang tinggi untuk konsep-konsep sederhana | Tekstur kulit terlalu jenuh dan berkesan kartun | Conceptual brainstorming yang cepat |
 
 ## Luncurkan
 
-* **Bangun Saluran Multi-Model:** Gunakan FLUX untuk pembuatan aset dasar, Ideogram untuk hamparan teks, dan Midjourney untuk eksplorasi suasana artistik.
-
----
+- **Bangun Multi-Model Pipeline:** Manfaatkan FLUX untuk pembuatan aset dasar, Ideogram untuk penyematan teks, serta Midjourney untuk eksplorasi nuansa artistik.
 
 ## Latihan
 
-1. **Mudah:** Buat grafis logo 1 kata di Ideogram v2 vs. Midjourney v6 dan bandingkan akurasi ejaan teks.
-2. **Sedang:** Render potret perusahaan menggunakan FLUX 1.1 Pro dan periksa tekstur mikro kulit dengan pemangkasan 100%.
-3. **Sulit:** Buat matriks keputusan pemilihan alat untuk kampanye klien 3 bagian yang memerlukan foto wajah, logo, dan spanduk sinematik.
-
----
+1. **Mudah:** Hasilkan grafis logo 1 kata menggunakan Ideogram v2 berbanding Midjourney v6, lalu bandingkan akurasi ejaan teksnya.
+2. **Sedang:** Render sebuah potret profesional menggunakan FLUX 1.1 Pro, lalu cermati mikrotekstur kulit pada pemotongan gambar 100%.
+3. **Sulit:** Susun matriks keputusan pemilihan tool untuk kampanye client 3 bagian yang membutuhkan headshots, logo, serta banner sinematik.
 
 ## Templat
 
-* [`templates/image-model-selection-guide.md`](templates/image-model-selection-guide.md) — Matriks perbandingan arsitektur, aturan kepatuhan yang cepat, dan tolok ukur resolusi.
+- [`templates/image-model-selection-guide.md`](templates/image-model-selection-guide.md) — Matriks komparasi arsitektural, aturan prompt adherence, serta tolak ukur resolusi.
 
 ---
 
-[Track Overview](README.md) · Berikutnya: [Video Models — Which One for Which Use Case →](02-video-models-which-one-for-which-use-case.md)
+[Track Overview](README.md) · Berikutnya: [Model Video — Yang Mana untuk Kasus Penggunaan Yang Mana →](02-video-models-which-one-for-which-use-case.md)
