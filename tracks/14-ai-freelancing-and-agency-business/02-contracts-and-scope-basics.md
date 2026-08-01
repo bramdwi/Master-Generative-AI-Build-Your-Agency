@@ -1,35 +1,38 @@
 # Modul 2: Dasar-Dasar Kontrak & Ruang Lingkup
 
-> Menyusun Perjanjian Layanan Utama (MSA), Pernyataan Kerja (SOW), batasan revisi, jadwal pembayaran tonggak sejarah, dan klausul penetapan hak cipta/IP AI.
+> Menyusun Master Services Agreement (MSA), Statement of Work (SOW), batasan revisi, jadwal pembayaran milestone, dan klausul penetapan Hak Cipta/IP AI.
 
 ---
 
 ## 🎯 Mengapa Kontrak Standar Gagal untuk Agensi AI
 
-Kontrak kreatif tradisional mengasumsikan tenaga manusia, pengambilan gambar kamera manual, dan garis waktu linier yang jelas. Saat mengelola jalur pembuatan AI, templat kontrak tradisional meninggalkan celah hukum yang besar:
+Kontrak kreatif tradisional mengasumsikan penggunaan tenaga kerja manual, proses pengambilan gambar kamera konvensional, serta alur waktu linier yang terstruktur. Saat mengelola pipeline pembuatan AI, templat kontrak tradisional justru meninggalkan celah hukum yang signifikan:
 
-1. **Jebakan Revisi:** Klien berasumsi bahwa karena *"AI menghasilkan gambar dalam hitungan detik,"* mereka dapat meminta 50 variasi tanpa batas secara gratis.
-2. **Kebingungan IP Prompt:** Klien yang menuntut kepemilikan penuh atas pustaka prompt internal, alur kerja ComfyUI, dan bobot LoRA Anda.
-3. **Ambiguitas Hak Cipta AI:** Kesalahpahaman seputar peraturan Kantor Hak Cipta AS mengenai aset yang dihasilkan AI dan jaminan penggunaan komersial.
+1. **Jebakan Revisi:** Klien mengasumsikan bahwa karena *"AI mampu menghasilkan gambar dalam hitungan detik,"* mereka berhak mengajukan 50 variasi tanpa batas secara cuma-cuma.
+2. **Ambiguasi IP Prompt:** Klien yang menuntut kepemilikan mutlak atas pustaka Prompt internal, alur kerja ComfyUI, serta bobot LoRA milik Anda.
+3. **Ketidakpastian Hak Cipta AI:** Kesalahpahaman seputar regulasi Kantor Hak Cipta AS mengenai aset yang dihasilkan AI dan jaminan commercial usage.
 
-Untuk melindungi margin dan kewarasan agensi Anda, setiap hubungan klien harus diatur oleh dua perjanjian yang mengikat secara hukum:
-* **Perjanjian Layanan Utama (MSA):** Kontrak hukum menyeluruh yang mengatur seluruh hubungan klien — mencakup batas tanggung jawab, kerahasiaan, syarat pembayaran, dan hukum yang mengatur. Ditandatangani satu kali per klien dan berlaku untuk semua proyek masa depan.
-* **Pernyataan Kerja (SOW):** Tambahan khusus proyek pada MSA yang menentukan hasil yang tepat, tanggal pencapaian, batas revisi, dan biaya untuk satu penugasan. SOW baru ditandatangani untuk masing-masing proyek.
+Demi melindungi margin keuntungan dan stabilitas operasional agensi Anda, setiap ikatan kerja sama dengan klien wajib diatur oleh dua perjanjian yang mengikat secara hukum:
+
+- **Master Services Agreement (MSA):** Kontrak hukum induk yang mengawasi seluruh ikatan kemitraan dengan klien — mencakup batasan tanggung jawab, kerahasiaan, syarat pembayaran, serta hukum yang berlaku. Ditandatangani satu kali untuk setiap klien dan berlaku efektif bagi seluruh proyek di masa depan.
+- **Statement of Work (SOW):** Adendum khusus proyek yang terikat pada MSA untuk mendefinisikan deliverable secara presisi, tanggal milestone, batasan revisi, serta alokasi biaya untuk satu penugasan. SOW baru ditandatangani untuk setiap penugasan individual.
 
 ---
 
 ## 🔒 5 Klausul Kontrak Wajib bagi Kreator AI
 
-### 1. Tutup Revisi & Scope Creep Shield
-Scope creep adalah satu-satunya ancaman terbesar terhadap keuntungan agensi. Tentukan *secara tepat* apa yang dimaksud dengan revisi valid vs. perintah perubahan di luar cakupan:
+### 1. Batasan Revisi & Scope Creep Shield
 
-> **Klausul 4.2 — Ruang Lingkup Revisi:**
-> *"Nilai Kontrak yang disepakati mencakup tepat dua (2) putaran revisi per kiriman. 'Revisi' sangat terbatas pada penyesuaian kecil dalam gradasi warna, penyesuaian pencahayaan latar belakang, koreksi kontras, atau perbaikan penyembunyian kecil. Setiap permintaan oleh Klien untuk rekayasa ulang struktur secara cepat, penggantian model, perubahan pose, atau perubahan gaya mendasar setelah penandatanganan Ringkasan awal akan diklasifikasikan sebagai Perintah Perubahan Di Luar Cakupan, yang ditagih dengan tarif standar Agensi sebesar $150,00 per jam."*
+Scope creep merupakan ancaman terbesar terhadap margin keuntungan agensi. Tentukan *secara presisi* batas antara revisi yang valid dan change order di luar cakupan:
+
+> **Klausul 4.2 — Ruang Lingkup Revisi:**  
+> *"Nilai Kontrak yang disepakati mencakup tepat dua (2) putaran revisi per deliverable. 'Revisi' dibatasi secara ketat pada penyesuaian minor dalam gradasi warna, penyelarasan pencahayaan latar belakang, koreksi kontras, atau perbaikan inpainting skala kecil. Setiap permintaan dari Klien untuk melakukan rekayasa ulang struktur secara cepat, penggantian model, perubahan pose, atau modifikasi gaya yang mendasar setelah penandatanganan Brief awal akan dikategorikan sebagai Change Order Di Luar Cakupan, yang akan ditagihkan sesuai tarif standar Agensi sebesar $150,00 per jam."*
 
 ---
 
 ### 2. Struktur Pembayaran Milestone & Kunci Pembayaran
-Jangan pernah memulai rendering GPU atau eksekusi cepat tanpa uang tunai di muka yang tidak dapat dikembalikan. Struktur pencapaian standar memastikan arus kas positif:
+
+Hindari memulai proses rendering GPU atau eksekusi Prompt tanpa dana muka yang bersifat non-refundable. Struktur milestone standar menjamin kelancaran arus kas:
 
 ```
 +-----------------------------------------------------------------------------+
@@ -46,57 +49,64 @@ Jangan pernah memulai rendering GPU atau eksekusi cepat tanpa uang tunai di muka
 +-----------------------------------------------------------------------------+
 ```
 
-> [!PERINGATAN]
-> **Jangan Pernah Mengirimkan File Induk Akhir yang Tidak Diberi Watermark Sebelum Izin Pembayaran 100%.** Menyerahkan aset yang tidak diberi watermark lebih awal akan menghilangkan semua leverage pembayaran dan menyebabkan tertundanya piutang.
+> [!WARNING]
+> **Hindari Menyerahkan Master File Akhir Tanpa Watermark Sebelum Pelunasan Pembayaran 100%.** Menyerahkan aset tanpa watermark lebih awal akan menghilangkan seluruh leverage pembayaran Anda dan memicu keterlambatan pelunasan piutang.
 
 ---
 
 ### 3. Penetapan Hak Cipta & Kekayaan Intelektual AI
-Tangani undang-undang hak cipta mengenai media yang dihasilkan AI dengan jelas untuk menetapkan harapan yang realistis dan melindungi hak komersial klien:
 
-> **Klausul 8.1 — Kekayaan Intelektual & Lisensi Komersial AI:**
-> *"Setelah menerima pembayaran penuh, Agensi memberikan kepada Klien lisensi penggunaan komersial eksklusif, abadi, di seluruh dunia untuk menggunakan, menampilkan, mendistribusikan, dan memonetisasi aset media akhir yang dikirimkan. Klien mengakui bahwa kiriman menggunakan model AI Generatif yang canggih (misalnya, FLUX, Runway, ElevenLabs) yang beroperasi berdasarkan perjanjian tingkat perusahaan komersial. Agensi menjamin bahwa alur kerja cepat dan metode pasca-pemrosesan tidak menyertakan rahasia dagang pihak ketiga yang bersifat rahasia atau aset visual bermerek dagang tanpa izin."*
+Atur regulasi hak cipta terkait media buatan AI secara transparan untuk membangun ekspektasi yang realistis sekaligus melindungi hak komersial klien:
+
+> **Klausul 8.1 — Kekayaan Intelektual & Lisensi Komersial AI:**  
+> *"Setelah pelunasan pembayaran diterima secara penuh, Agensi memberikan lisensi commercial usage yang eksklusif, abadi, dan berlaku secara global kepada Klien untuk memanfaatkan, menampilkan, mendistribusikan, serta memonetisasi aset media akhir yang diserahkan. Klien memahami bahwa deliverable ini memanfaatkan model AI Generatif mutakhir (seperti FLUX, Runway, ElevenLabs) yang beroperasi di bawah perjanjian commercial enterprise tier. Agensi menjamin bahwa alur kerja Prompt dan metode pascapemrosesan tidak mengandung rahasia dagang pihak ketiga yang bersifat rahasia atau aset visual bermerek dagang tanpa izin."*
 
 ---
 
-### 4. Latar Belakang Reservasi IP Kepemilikan
-Lindungi aset alur kerja internal Anda sehingga klien tidak dapat mencuri tumpukan teknis Anda:
+### 4. Proteksi IP Proprietary Latar Belakang
 
-> **Klausul 8.4 — Teknologi Latar Belakang Agensi:**
-> *"Agensi memegang semua hak, kepemilikan, dan kepentingan dalam dan terhadap alat yang sudah ada sebelumnya, perpustakaan cepat kepemilikan, grafik node ComfyUI, bobot model LoRA, skrip alur kerja, dan teknologi otomatisasi latar belakang ("IP Latar Belakang Agensi"). Tidak ada hal dalam Perjanjian ini yang dapat ditafsirkan sebagai pengalihan kepemilikan IP Latar Belakang Agensi kepada Klien."*
+Lindungi aset alur kerja internal Anda agar klien tidak dapat mengambil alih tech stack milik Anda:
+
+> **Klausul 8.4 — Teknologi Latar Belakang Agensi:**  
+> *"Agensi memegang hak kepemilikan penuh dan kepentingan atas instrumen yang telah ada sebelumnya, pustaka Prompt proprietary, grafik node ComfyUI, bobot model LoRA, skrip alur kerja, serta teknologi otomatisasi latar belakang ("IP Latar Belakang Agensi"). Tidak ada poin dalam Perjanjian ini yang dapat ditafsirkan sebagai pengalihan hak milik IP Latar Belakang Agensi kepada Klien."*
 
 ---
 
 ### 5. Garansi & Ganti Rugi Masukan Klien
-Pastikan klien bertanggung jawab secara hukum jika mereka memberikan foto referensi bermerek dagang atau hak cipta:
 
-> **Klausul 9.3 — Data Klien & Jaminan Masukan:**
-> *"Klien menyatakan dan menjamin bahwa semua logo, pedoman merek, gambar referensi, merek dagang, dan foto kepala karyawan yang diberikan kepada Agensi untuk masukan model AI tidak melanggar hak kekayaan intelektual atau hak privasi pihak ketiga mana pun. Klien setuju untuk membela, mengganti kerugian, dan membebaskan Agensi dari klaim apa pun yang timbul dari masukan yang diberikan Klien."*
+Pastikan klien bertanggung jawab secara hukum apabila mereka menyediakan gambar referensi yang terikat merek dagang atau hak cipta:
+
+> **Klausul 9.3 — Data Klien & Jaminan Masukan:**  
+> *"Klien menyatakan serta menjamin bahwa seluruh logo, pedoman merek, gambar referensi, merek dagang, dan foto headshot karyawan yang diserahkan kepada Agensi sebagai masukan model AI tidak melanggar hak kekayaan intelektual atau hak privasi pihak ketiga mana pun. Klien menyetujui untuk membela, mengganti kerugian, dan membebaskan Agensi dari segala tuntutan hukum yang timbul akibat masukan yang disediakan oleh Klien."*
 
 ---
 
-## 🛑 Skenario Common Scope Creep & Respons Klien yang Tepat
+## 🛑 Skenario Common Scope Creep & Respon Klien yang Tepat
 
-| Skenario Ruang Lingkup Creep | Permintaan Klien | Pertahanan Kontrak & Respon Tepat |
-|---|---|---|
-| **Variasi Tanpa Akhir** | *"Bisakah kita mencoba 30 variasi pengaturan pencahayaan ini lagi?"* | *"Kami ingin menjelajahi variasi baru tersebut! Sesuai Klausul 4.2 SOW kami, 2 putaran revisi yang kami sertakan telah selesai. Saya dapat mengirimkan Pesanan Perubahan Di Luar Cakupan sebesar $450 untuk mencakup 15 variasi tambahan."* |
-| **File Sumber Alur Kerja** | *"Kirimkan semua perintah JSON mentah dan grafik simpul sehingga tim kami dapat menjalankannya secara internal."* | *"Penyerahan 8k akhir kami dilisensikan sepenuhnya kepada Anda setelah pembayaran akhir! Namun, sebagaimana diuraikan dalam Klausul 8.4, grafik node ComfyUI internal dan perpustakaan cepat kami adalah hak milik IP Latar Belakang Agensi dan tidak termasuk dalam penyampaian ini."* |
-| **Keterlambatan Pembayaran** | *"Departemen akuntansi kami membayar Net-60. Kirim file HD sekarang dan kami akan membayar bulan depan."* | *"Kami benar-benar memahami siklus AP perusahaan! Berdasarkan perjanjian kami, file master beresolusi tinggi yang tidak diberi watermark akan dirilis segera setelah izin faktur akhir. Beri tahu kami segera setelah transfer berhasil!"* |
+| Skenario Scope Creep | Permintaan Klien | Pertahanan Kontrak & Respon Tepat |
+| --- | --- | --- |
+| **Variasi Tanpa Akhir** | *"Bisakah kita mencoba 30 variasi pengaturan pencahayaan ini lagi?"* | *"Kami sangat terbuka untuk mengeksplorasi variasi baru tersebut! Sesuai Klausul 4.2 pada SOW kita, jatah 2 putaran revisi telah terpenuhi. Saya dapat menerbitkan Change Order Di Luar Cakupan senilai $450 untuk mengakomodasi 15 variasi tambahan."* |
+| **File Sumber Alur Kerja** | *"Kirimkan seluruh Prompt JSON mentah dan grafik node agar tim kami dapat menjalankannya secara internal."* | *"Penyerahan master file 8k akhir telah dilisensikan secara penuh kepada Anda setelah pelunasan pembayaran! Namun, sebagaimana tercantum pada Klausul 8.4, grafik node ComfyUI internal serta pustaka Prompt kami merupakan IP Latar Belakang Agensi yang bersifat proprietary dan tidak termasuk dalam deliverable ini."* |
+| **Keterlambatan Pembayaran** | *"Departemen akuntansi kami menerapkan sistem pembayaran Net-60. Mohon kirimkan file HD sekarang dan kami akan melunasinya bulan depan."* | *"Kami sangat memahami siklus AP di perusahaan Anda! Namun berdasarkan kesepakatan Perjanjian kita, master file beresolusi tinggi tanpa watermark akan segera dirilis begitu konfirmasi faktur akhir diterima. Mohon beri tahu kami segera setelah proses transfer berhasil!"* |
 
 ---
 
 ## 🛠️ Rencana Aksi Langkah demi Langkah
 
 1. **Adopsi Perjanjian Utama:** Unduh [`templates/freelance-client-contract.md`](templates/freelance-client-contract.md) untuk menyesuaikan perjanjian agensi Anda.
-2. **Tetapkan Batasan Revisi yang Kaku:** Selalu nyatakan batas revisi secara tertulis dalam proposal proyek awal Anda.
-3. **Gunakan Pemeriksaan Bertanda Air:** Memberikan pratinjau bertanda air beresolusi rendah sebelum rilis pencapaian akhir.
-4. **Tinjau Dasbor Kinerja Klien:** Lihat grafik laporan dasbor metrik klien:
-![Client Metrics Dashboard](templates/examples/client-dashboard-metrics.jpg)
-*Tonton loop video gerak analitik ([client-dashboard-motion.mp4](templates/examples/client-dashboard-motion.mp4) / [.gif](templates/examples/client-dashboard-motion.gif)).*
+2. **Tetapkan Batasan Revisi yang Kaku:** Senantiasa cantumkan batasan revisi secara tertulis dalam proposal proyek awal Anda.
+3. **Gunakan Pemeriksaan Bertanda Air:** Sediakan pratinjau beresolusi rendah dengan watermark sebelum merilis milestone akhir.
+4. **Tinjau Dasbor Kinerja Klien:** Amati visualisasi laporan dasbor metrik klien berikut:
+
+<p align="center">
+<img src="templates/examples/client-dashboard-motion.gif" alt="Pratinjau Animasi Dasbor Kinerja Klien" width="480">
+</p>
+<p align="center"><sub>Pratinjau Animasi Dasbor Metrik Klien · Berkas Video: <a href="templates/examples/client-dashboard-motion.mp4">MP4</a></sub></p>
 
 ---
 
 ## 💡 Poin Penting
-- Selalu terapkan deposit sebesar 50% yang tidak dapat dikembalikan sebelum memulai rendering GPU atau pipeline cepat apa pun.
-- Pisahkan lisensi keluaran akhir (ditransfer ke klien) dari grafik perintah internal dan IP alur kerja (disimpan oleh agensi).
-- Tentukan secara eksplisit parameter revisi untuk mencegah scope creep menghancurkan margin bersih Anda.
+
+- Senantiasa terapkan deposit sebesar 50% yang bersifat non-refundable sebelum mengeksekusi rendering GPU atau pipeline Prompt apa pun.
+- Separasi lisensi keluaran akhir (yang dialihkan kepada klien) dari grafik Prompt internal serta IP alur kerja (yang ditahan oleh agensi).
+- Tentukan parameter revisi secara eksplisit guna mencegah scope creep mencederai margin bersih Anda.
