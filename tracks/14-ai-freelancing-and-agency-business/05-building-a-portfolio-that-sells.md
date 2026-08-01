@@ -1,16 +1,16 @@
 # Modul 5: Membangun Portofolio yang Menjual
 
-> Merancang studi kasus klien yang digerakkan oleh ROI, metrik sebelum/sesudah, portal demo interaktif, dan kerangka kerja bukti sosial yang menutup pengikut setia.
+> Merancang Case Study klien yang berorientasi pada ROI, menyajikan metrik sebelum/sesudah, membangun portal Demo interaktif, serta menyusun kerangka Bukti Sosial yang mampu mengunci calon Klien.
 
 ---
 
 ## 🎯 Kesalahan Portofolio: Galeri Seni vs. Pemecah Masalah Bisnis
 
-Sebagian besar pembuat konten lepas membuat portofolio seperti galeri seni—menampilkan gambar AI yang cantik, render fiksi ilmiah, dan potret bergaya tanpa konteks bisnis komersial apa pun.
+Sebagian besar Creator lepas merancang Portofolio mereka menyerupai sebuah Galeri Seni — sekadar memamerkan karya visual AI yang memikat, render fiksi ilmiah, hingga potret estetis tanpa menyertakan konteks komersial maupun nilai bisnis nyata.
 
-Klien korporat kelas atas (CMO, VP Pemasaran, Direktur E-Commerce) **jangan membeli karya seni**. Mereka membeli **solusi untuk masalah bisnis yang mahal**:
+Klien korporat kelas atas (CMO, VP of Marketing, Head of E-Commerce) **tidak membeli karya seni semata**. Mereka menginvestasikan dana untuk **solusi atas kendala bisnis yang menguras alokasi anggaran**:
 
-### Portofolio Galeri Seni vs. Studi Kasus Komersial:
+### Portofolio Galeri Seni vs. Case Study Komersial:
 
 ```
 ❌ TRADITIONAL CREATOR PORTFOLIO (Fails to Close B2B Clients)
@@ -30,9 +30,9 @@ Klien korporat kelas atas (CMO, VP Pemasaran, Direktur E-Commerce) **jangan memb
 
 ---
 
-## 📐 Arsitektur Studi Kasus 4 Bagian
+## 📐 Arsitektur Case Study 4 Bagian
 
-Susun setiap proyek portofolio menggunakan kerangka studi kasus komersial 4 bagian yang telah terbukti ini:
+Susun setiap proyek dalam Portofolio Anda mengandalkan kerangka kerja Case Study komersial 4 bagian yang telah teruji ini:
 
 ```
 +-----------------------------------------------------------------------------+
@@ -49,14 +49,14 @@ Susun setiap proyek portofolio menggunakan kerangka studi kasus komersial 4 bagi
 
 ## 📊 Metrik Keras & Pameran Bukti Sosial
 
-Sajikan tabel data yang jelas dan dapat diukur dalam studi kasus Anda untuk membuktikan keuntungan finansial:
+Sajikan tabel data yang presisi dan terukur dalam Case Study Anda guna membuktikan keunggulan finansial secara nyata:
 
 ### Contoh Perincian Metrik — Kampanye Headshot Perusahaan:
 
-| Metrik Kinerja | Produksi Tradisional | Saluran Agensi AI | Manfaat Klien yang Terukur |
-|---|---|---|---|
-| **Total Biaya Kampanye** | $24,500 | $6.000 | **Tabungan Langsung$18.500 (75,5%)** |
-| **Perputaran Pengiriman** | 25 Hari Kerja | 24 Jam | **Eksekusi 25x Lebih Cepat** |
+| Metrik Kinerja | Produksi Tradisional | AI Agency Pipeline | Manfaat Klien yang Terukur |
+| --- | --- | --- | --- |
+| **Total Biaya Kampanye** | $24.500 | $6.000 | **Efisiensi Langsung $18.500 (75,5%)** |
+| **Waktu Penyerahan** | 25 Hari Kerja | 24 Jam | **Eksekusi 25x Lebih Cepat** |
 | **Waktu Henti Karyawan** | 3,5 Jam / Karyawan | 2 Menit (Unggah Selfie) | **420 Jam Produktif Terhemat** |
 | **Hak Penggunaan** | Lisensi Terbatas 2 Tahun | Transfer IP Komersial Penuh | **Hak Aset Global Abadi** |
 
@@ -64,7 +64,7 @@ Sajikan tabel data yang jelas dan dapat diukur dalam studi kasus Anda untuk memb
 
 ## 🌐 Membangun Portal Demo Interaktif
 
-Gambar PNG statis tidak menunjukkan kualitas render AI 8k yang canggih. Bangun portal demo web interaktif langsung (menggunakan Notion, Webflow, Framer (pembuat situs web tanpa kode dengan komponen interaktif bawaan), atau HTML sederhana) yang menampilkan **slider perbandingan sebelum/sesudah interaktif**:
+Format gambar PNG statis tidak mampu menonjolkan keunggulan render AI 8k yang mutakhir secara optimal. Bangun portal Demo web interaktif secara langsung (memanfaatkan Notion, Webflow, Framer, atau HTML sederhana) yang menghadirkan **Slider komparasi sebelum/sesudah yang interaktif**:
 
 ```
 +-----------------------------------------------------------------------------+
@@ -74,22 +74,24 @@ Gambar PNG statis tidak menunjukkan kualitas render AI 8k yang canggih. Bangun p
 +-----------------------------------------------------------------------------+
 ```
 
-### Elemen Kunci Portal Demo dengan Konversi Tinggi:
-1. **Penggeser Gambar Interaktif:** Memungkinkan klien menyeret bolak-balik antara foto masukan mentah dan render AI 8k akhir.
-2. **Klip Gerakan Video:** Menampilkan loop penelusuran Gambar-ke-Video tertanam yang menampilkan gerakan pencahayaan dan panel kamera.
-3. **Paket Aset Sampel yang Dapat Didownload:** Berikan file zip yang dapat diunduh berisi 5 file sampel 8k yang tidak terkompresi untuk diperiksa oleh tim desain klien.
+### Elemen Kunci Portal Demo Berkonversi Tinggi:
+
+1. **Interactive Image Slider:** Memungkinkan Klien menggeser perbandingan secara dinamis antara foto masukan mentah dan hasil akhir render AI 8k.
+2. **Video Motion Clips:** Menyajikan sampel pergerakan Image-to-Video yang terintegrasi untuk memperlihatkan dinamika pencahayaan serta pergerakan Kamera.
+3. **Downloadable Sample Asset Bundle:** Sediakan berkas Zip siap unduh yang memuat 5 sampel berkas 8k tanpa kompresi untuk dievaluasi oleh tim Desain Klien.
 
 ---
 
 ## 🛠️ Rencana Aksi Langkah demi Langkah
 
-1. **Menyusun Ulang Proyek yang Ada:** Ubah 3 proyek terbaik Anda sebelumnya menjadi 4 bagian studi kasus komersial menggunakan [`templates/case-study-portfolio-template.md`](templates/case-study-portfolio-template.md).
-2. **Tambahkan Metrik Dolar Konkret:** Hitung perkiraan penghematan biaya dan jumlah percepatan penyelesaian untuk setiap proyek.
-3. **Kumpulkan Testimonial Video:** Minta testimoni video ponsel cerdas berdurasi 30 detik dari klien yang puas untuk disematkan langsung di situs portofolio Anda.
+1. **Mentransformasi Proyek Terlampaui:** Ubah 3 proyek terbaik Anda sebelumnya menjadi Case Study komersial 4 bagian mengandalkan panduan [`templates/case-study-portfolio-template.md`](templates/case-study-portfolio-template.md).
+2. **Sematkan Metrik Finansial Konkret:** Kalkulasikan estimasi penghematan alokasi dana serta akselerasi durasi penyelesaian pada setiap proyek.
+3. **Kumpulkan Testimonial Video:** Mintalah Testimonial video singkat berdurasi 30 detik dari Klien yang puas untuk disematkan secara langsung pada situs Portofolio Anda.
 
 ---
 
 ## 💡 Poin Penting
-- Berhenti membangun galeri seni visual; membangun studi kasus komersial yang berfokus pada ROI dan pemecahan masalah bisnis.
-- Susun setiap bagian portofolio menggunakan Kerangka Studi Kasus 4 Bagian (Tantangan → Saluran → Metrik → Testimonial).
-- Gunakan penggeser gambar sebelum/sesudah interaktif dan loop gerakan video untuk mendemonstrasikan kualitas produksi secara langsung melalui panggilan penjualan.
+
+- Alihkan fokus dari sekadar merancang galeri seni visual menuju penyusunan Case Study komersial yang berorientasi pada ROI dan penyelesaian masalah bisnis.
+- Susun setiap bagian Portofolio mengandalkan Kerangka Case Study 4 Bagian (Tantangan → Pipeline → Metrik → Testimonial).
+- Manfaatkan Slider gambar sebelum/sesudah yang interaktif serta perulangan Video Motion untuk mendemonstrasikan kualitas produksi secara impresif saat Discovery Call berlangsung.
