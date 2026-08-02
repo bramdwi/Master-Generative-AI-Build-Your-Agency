@@ -637,6 +637,23 @@ body {
   color: #d1d5db;
 }
 
+.markdown-body a {
+  color: #818cf8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  transition: color 0.15s ease;
+  cursor: pointer;
+}
+
+.markdown-body a:hover {
+  color: #c084fc;
+}
+
+.markdown-body a code {
+  color: #c084fc;
+  border-bottom: 1px dashed #c084fc;
+}
+
 .markdown-body ul, .markdown-body ol {
   margin-bottom: 1.25rem;
   padding-left: 1.5rem;

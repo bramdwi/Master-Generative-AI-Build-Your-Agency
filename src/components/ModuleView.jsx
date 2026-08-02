@@ -30,6 +30,8 @@ export default function ModuleView({
   onNavigatePrev,
   onNavigateNext,
   onBackToTrack,
+  onSelectModule,
+  onSetActiveTab,
   lang = 'id'
 }) {
   const t = uiTranslations[lang] || uiTranslations.id;
@@ -119,6 +121,10 @@ export default function ModuleView({
         trackId={track.id}
         completedCheckboxes={completedCheckboxes}
         onToggleCheckbox={onToggleCheckbox}
+        onSelectModule={onSelectModule}
+        onBackToTrack={onBackToTrack}
+        onSetActiveTab={onSetActiveTab}
+        lang={lang}
       />
 
       {/* Personal Notes Section */}

@@ -203,6 +203,8 @@ export default function App() {
                   : null
               }
               onBackToTrack={() => setActiveTab('tracks')}
+              onSelectModule={handleSelectModule}
+              onSetActiveTab={setActiveTab}
               lang={userData.lang}
             />
           )}
