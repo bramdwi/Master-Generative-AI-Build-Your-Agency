@@ -5,3 +5,5 @@ PROJECT_STATUS.md
 CLAUDE.md
 AGENTS.md
 scripts/sync-internal.sh
+server/.env
+server/node_modules/

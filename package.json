@@ -1,13 +1,16 @@
 {
   "name": "ai-creator-academy-webapp",
   "private": true,
-  "version": "1.0.0",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
     "dev": "node scripts/build-course-data.js && vite",
     "build": "node scripts/build-course-data.js && vite build",
     "preview": "vite preview",
-    "sync-data": "node scripts/build-course-data.js"
+    "sync-data": "node scripts/build-course-data.js",
+    "server": "cd server && node index.js",
+    "server:dev": "cd server && node --watch index.js",
+    "dev:full": "node scripts/build-course-data.js && (cd server && node index.js &) && vite"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",

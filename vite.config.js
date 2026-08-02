@@ -36,6 +36,14 @@ export default defineConfig({
   plugins: [react(), serveCourseAssets()],
   server: {
     port: 3000,
-    host: true
+    host: true,
+    // Proxy API requests to the Express payment server
+    proxy: {
+      '/api': {
+        target: 'http://localhost:3001',
+        changeOrigin: true,
+        secure: false
+      }
+    }
   }
 });

@@ -3,6 +3,13 @@ const STORAGE_KEY = 'ai_creator_academy_user_data_v2';
 const defaultData = {
   lang: 'id', // Default to Indonesian!
   isSubscribed: false, // Default to free tier (Module 1 free preview, Module 2+ locked)
+  subscriptionData: {
+    plan: null,        // 'monthly' | 'yearly' | 'lifetime'
+    orderId: null,     // Midtrans order ID
+    paidAt: null,      // ISO date string
+    expiresAt: null,   // ISO date string (null for lifetime)
+    status: null       // 'active' | 'expired' | 'pending'
+  },
   completedModules: [],
   bookmarks: [],
   notes: {},
@@ -19,7 +26,12 @@ export function getStoredData() {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (!raw) return defaultData;
     const parsed = JSON.parse(raw);
-    return { ...defaultData, ...parsed };
+    // Merge with defaults so new fields are always present
+    return { 
+      ...defaultData, 
+      ...parsed,
+      subscriptionData: { ...defaultData.subscriptionData, ...(parsed.subscriptionData || {}) }
+    };
   } catch (e) {
     console.error('Failed to load storage data', e);
     return defaultData;
@@ -41,12 +53,99 @@ export function setLanguage(lang) {
   return data;
 }
 
-export function toggleSubscriptionStatus() {
+// ─────────────────────────────────────────────
+// Subscription Management (Payment-aware)
+// ─────────────────────────────────────────────
+
+const PLAN_DURATIONS = {
+  monthly: 30,
+  yearly: 365,
+  lifetime: null // Never expires
+};
+
+/**
+ * Activate a paid subscription after successful payment
+ */
+export function activateSubscription(plan, orderId) {
   const data = getStoredData();
-  data.isSubscribed = !data.isSubscribed;
+  const now = new Date();
+  
+  let expiresAt = null;
+  if (PLAN_DURATIONS[plan]) {
+    const expiry = new Date(now);
+    expiry.setDate(expiry.getDate() + PLAN_DURATIONS[plan]);
+    expiresAt = expiry.toISOString();
+  }
+
+  data.isSubscribed = true;
+  data.subscriptionData = {
+    plan,
+    orderId,
+    paidAt: now.toISOString(),
+    expiresAt,
+    status: 'active'
+  };
+
   saveStoredData(data);
   return data;
 }
+
+/**
+ * Check if subscription has expired (for monthly/yearly plans)
+ * Call this on app load.
+ */
+export function checkSubscriptionExpiry() {
+  const data = getStoredData();
+  
+  if (!data.isSubscribed || !data.subscriptionData?.expiresAt) {
+    // Not subscribed or lifetime plan — no check needed
+    return data;
+  }
+
+  const now = new Date();
+  const expiresAt = new Date(data.subscriptionData.expiresAt);
+
+  if (now > expiresAt) {
+    // Subscription has expired
+    data.isSubscribed = false;
+    data.subscriptionData.status = 'expired';
+    saveStoredData(data);
+    console.log(`⚠️ Subscription expired. Plan: ${data.subscriptionData.plan}, Expired at: ${data.subscriptionData.expiresAt}`);
+  }
+
+  return data;
+}
+
+/**
+ * Deactivate subscription (admin/manual use)
+ */
+export function deactivateSubscription() {
+  const data = getStoredData();
+  data.isSubscribed = false;
+  data.subscriptionData = {
+    ...data.subscriptionData,
+    status: 'cancelled'
+  };
+  saveStoredData(data);
+  return data;
+}
+
+/**
+ * Legacy toggle — kept for backward compatibility but now wraps activate/deactivate
+ */
+export function toggleSubscriptionStatus() {
+  const data = getStoredData();
+  if (data.isSubscribed) {
+    return deactivateSubscription();
+  } else {
+    // For demo/manual toggle without payment
+    return activateSubscription('lifetime', 'DEMO-' + Date.now());
+  }
+}
+
+// ─────────────────────────────────────────────
+// Module Progress & Bookmarks
+// ─────────────────────────────────────────────
 
 export function toggleModuleCompleted(moduleId) {
   const data = getStoredData();

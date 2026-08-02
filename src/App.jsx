@@ -15,7 +15,8 @@ import { tracksData, allTemplatesData } from './data/courseData';
 import { 
   getStoredData, 
   setLanguage,
-  toggleSubscriptionStatus,
+  activateSubscription,
+  checkSubscriptionExpiry,
   toggleModuleCompleted, 
   toggleBookmark, 
   saveModuleNote, 
@@ -24,7 +25,10 @@ import {
 } from './utils/storage';
 
 export default function App() {
-  const [userData, setUserData] = useState(getStoredData());
+  const [userData, setUserData] = useState(() => {
+    // Check subscription expiry on initial load
+    return checkSubscriptionExpiry();
+  });
   const [activeTab, setActiveTab] = useState('dashboard'); // dashboard | tracks | templates | calculator | prompt-gen | module
   const [currentTrackId, setCurrentTrackId] = useState(tracksData[0]?.id);
   const [currentModuleId, setCurrentModuleId] = useState(null);
@@ -37,6 +41,23 @@ export default function App() {
   useEffect(() => {
     saveStoredData(userData);
   }, [userData]);
+
+  // Check for payment success from URL params (Midtrans callback redirect)
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    if (params.get('payment') === 'success') {
+      const orderId = params.get('order_id');
+      if (orderId && !userData.isSubscribed) {
+        // Parse plan from orderId: KKA-YEARLY-timestamp-hex
+        const planMatch = orderId.match(/KKA-(\w+)-/);
+        const plan = planMatch ? planMatch[1].toLowerCase() : 'yearly';
+        const updated = activateSubscription(plan, orderId);
+        setUserData(updated);
+      }
+      // Clean URL
+      window.history.replaceState({}, document.title, window.location.pathname);
+    }
+  }, []);
 
   // Global Cmd+K keyboard shortcut
   useEffect(() => {
@@ -70,8 +91,8 @@ export default function App() {
     setUserData(updated);
   };
 
-  const handleToggleSubscribe = () => {
-    const updated = toggleSubscriptionStatus();
+  const handleActivateSubscription = (plan, orderId) => {
+    const updated = activateSubscription(plan, orderId);
     setUserData(updated);
   };
 
@@ -270,7 +291,7 @@ export default function App() {
         isOpen={subscriptionModalOpen}
         onClose={() => setSubscriptionModalOpen(false)}
         isSubscribed={userData.isSubscribed}
-        onToggleSubscribe={handleToggleSubscribe}
+        onActivateSubscription={handleActivateSubscription}
         lang={userData.lang}
       />
     </div>
