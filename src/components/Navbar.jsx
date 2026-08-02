@@ -9,7 +9,8 @@ import {
   LayoutDashboard, 
   Flame, 
   Menu,
-  CheckCircle2
+  CheckCircle2,
+  Crown
 } from 'lucide-react';
 import { uiTranslations } from '../data/translations';
 
@@ -21,6 +22,8 @@ export default function Navbar({
   completedCount, 
   totalModules,
   onToggleSidebar,
+  isSubscribed = false,
+  onOpenSubscribeModal,
   lang = 'id'
 }) {
   const t = uiTranslations[lang] || uiTranslations.id;
@@ -97,7 +100,31 @@ export default function Navbar({
             <span className="kbd-shortcut desktop-only">⌘K</span>
           </button>
 
-          <div className="nav-badges">
+          <button
+            onClick={onOpenSubscribeModal}
+            style={{
+              display: 'flex',
+              alignItems: 'center',
+              gap: '6px',
+              padding: '0.4rem 0.8rem',
+              borderRadius: '8px',
+              border: isSubscribed ? '1px solid rgba(168, 85, 247, 0.4)' : 'none',
+              background: isSubscribed 
+                ? 'rgba(168, 85, 247, 0.15)' 
+                : 'linear-gradient(90deg, #ec4899, #8b5cf6)',
+              color: isSubscribed ? '#d8b4fe' : 'white',
+              fontSize: '0.8rem',
+              fontWeight: 700,
+              cursor: 'pointer',
+              boxShadow: isSubscribed ? 'none' : '0 4px 12px rgba(168, 85, 247, 0.35)',
+              transition: 'transform 0.15s ease'
+            }}
+          >
+            <Crown size={15} />
+            <span className="desktop-only">{isSubscribed ? (t.proBadge || 'MEMBER PRO') : (t.subscribePro || 'Berlangganan Pro')}</span>
+          </button>
+
+          <div className="nav-badges desktop-only">
             <div className="badge-item badge-streak" title={t.dailyStreakTitle}>
               <Flame size={15} />
               <span>{streakCount}d</span>

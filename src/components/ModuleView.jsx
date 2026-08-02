@@ -11,7 +11,11 @@ import {
   Edit3,
   Save,
   Sparkles,
-  BookOpen
+  BookOpen,
+  Lock,
+  Crown,
+  ShieldCheck,
+  Zap
 } from 'lucide-react';
 import MarkdownViewer from './MarkdownViewer';
 import { uiTranslations, trackTranslationsID } from '../data/translations';
@@ -23,6 +27,8 @@ export default function ModuleView({
   isBookmarked,
   userNote,
   completedCheckboxes,
+  isSubscribed = false,
+  onOpenSubscribeModal,
   onToggleComplete,
   onToggleBookmark,
   onSaveNote,
@@ -42,6 +48,7 @@ export default function ModuleView({
 
   const trackTitle = lang === 'id' ? (trackTranslationsID[track.id]?.title || track.title) : track.title;
   const displayContent = (lang === 'id' && module.content_id) ? module.content_id : module.content;
+  const isLocked = module.num > 1 && !isSubscribed;
 
   const handleCompleteClick = () => {
     if (!isCompleted) {
@@ -67,7 +74,18 @@ export default function ModuleView({
           <span>Track {track.num}: {trackTitle}</span>
         </div>
 
-        <h1 className="viewer-title">{module.num}. {module.title}</h1>
+        <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginTop: '0.5rem' }}>
+          <h1 className="viewer-title" style={{ margin: 0 }}>{module.num}. {module.title}</h1>
+          {isLocked ? (
+            <span style={{ fontSize: '0.75rem', fontWeight: 800, color: '#f59e0b', background: 'rgba(245, 158, 11, 0.15)', border: '1px solid rgba(245, 158, 11, 0.3)', padding: '2px 10px', borderRadius: '12px', display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+              <Lock size={12} /> PRO TERKUNCI
+            </span>
+          ) : module.num === 1 && !isSubscribed ? (
+            <span style={{ fontSize: '0.75rem', fontWeight: 800, color: '#10b981', background: 'rgba(16, 185, 129, 0.15)', border: '1px solid rgba(16, 185, 129, 0.3)', padding: '2px 10px', borderRadius: '12px', display: 'inline-flex', alignItems: 'center', gap: '4px' }}>
+              <Sparkles size={12} /> GRATIS PREVIEW
+            </span>
+          ) : null}
+        </div>
 
         <div className="viewer-meta">
           <div className="meta-tags">
@@ -103,29 +121,117 @@ export default function ModuleView({
               <span>{isBookmarked ? t.saved : t.save}</span>
             </button>
 
-            <button
-              className={`btn ${isCompleted ? 'btn-success' : 'btn-primary'}`}
-              onClick={handleCompleteClick}
-            >
-              {isCompleted ? <CheckCircle2 size={16} /> : <Circle size={16} />}
-              <span>{isCompleted ? t.completedBadge : t.markComplete}</span>
-            </button>
+            {!isLocked && (
+              <button
+                className={`btn ${isCompleted ? 'btn-success' : 'btn-primary'}`}
+                onClick={handleCompleteClick}
+              >
+                {isCompleted ? <CheckCircle2 size={16} /> : <Circle size={16} />}
+                <span>{isCompleted ? t.completedBadge : t.markComplete}</span>
+              </button>
+            )}
           </div>
         </div>
       </div>
 
-      {/* Module Content */}
-      <MarkdownViewer
-        content={displayContent}
-        moduleId={module.id}
-        trackId={track.id}
-        completedCheckboxes={completedCheckboxes}
-        onToggleCheckbox={onToggleCheckbox}
-        onSelectModule={onSelectModule}
-        onBackToTrack={onBackToTrack}
-        onSetActiveTab={onSetActiveTab}
-        lang={lang}
-      />
+      {/* Module Content or Paywall Lock Banner */}
+      {isLocked ? (
+        <div style={{
+          marginTop: '2rem',
+          marginBottom: '2rem',
+          padding: '2.5rem 2rem',
+          background: 'linear-gradient(135deg, rgba(30, 27, 75, 0.85), rgba(17, 24, 39, 0.95))',
+          border: '1px solid rgba(168, 85, 247, 0.4)',
+          borderRadius: '20px',
+          boxShadow: '0 20px 40px -15px rgba(168, 85, 247, 0.3)',
+          textAlign: 'center',
+          position: 'relative',
+          overflow: 'hidden'
+        }}>
+          <div style={{
+            width: '64px',
+            height: '64px',
+            borderRadius: '50%',
+            background: 'linear-gradient(135deg, #ec4899, #8b5cf6)',
+            display: 'flex',
+            alignItems: 'center',
+            justifyContent: 'center',
+            margin: '0 auto 1.25rem',
+            boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.5)'
+          }}>
+            <Lock size={30} color="white" />
+          </div>
+
+          <h2 style={{ fontSize: '1.8rem', fontWeight: 800, color: 'white', marginBottom: '0.75rem' }}>
+            {t.paywallTitle || 'Modul Eksklusif Member Berlangganan'}
+          </h2>
+          <p style={{ color: '#d1d5db', fontSize: '1rem', maxWidth: '600px', margin: '0 auto 1.5rem', lineHeight: 1.6 }}>
+            {t.paywallDesc || 'Modul ini berisi strategi mendalam, naskah produksi, dan alur kerja eksklusif. Berlangganan hanya Rp 99.000/bulan untuk membuka seluruh 66+ modul di 15 track.'}
+          </p>
+
+          <div style={{
+            display: 'inline-flex',
+            flexDirection: 'column',
+            gap: '0.5rem',
+            textAlign: 'left',
+            background: 'rgba(0, 0, 0, 0.3)',
+            padding: '1.25rem 1.5rem',
+            borderRadius: '12px',
+            border: '1px solid rgba(255, 255, 255, 0.1)',
+            marginBottom: '1.75rem',
+            fontSize: '0.9rem',
+            color: '#e9d5ff'
+          }}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Zap size={16} style={{ color: '#f59e0b' }} />
+              <span>Naskah Produksi & Prompt Siap Pakai</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <Crown size={16} style={{ color: '#a855f7' }} />
+              <span>Panduan Penentuan Harga & Menutup Klien Agensi</span>
+            </div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <ShieldCheck size={16} style={{ color: '#10b981' }} />
+              <span>Garansi Uang Kembali 7 Hari (100% Risk Free)</span>
+            </div>
+          </div>
+
+          <div>
+            <button
+              onClick={onOpenSubscribeModal}
+              style={{
+                padding: '0.9rem 2.25rem',
+                borderRadius: '12px',
+                border: 'none',
+                background: 'linear-gradient(90deg, #ec4899, #8b5cf6)',
+                color: 'white',
+                fontSize: '1.05rem',
+                fontWeight: 800,
+                cursor: 'pointer',
+                boxShadow: '0 10px 25px -5px rgba(236, 72, 153, 0.5)',
+                display: 'inline-flex',
+                alignItems: 'center',
+                gap: '10px'
+              }}
+            >
+              <Crown size={20} />
+              <span>{t.unlockBtn || 'Buka Akses Berlangganan (Rp 99rb/bln)'}</span>
+            </button>
+          </div>
+        </div>
+      ) : (
+        <MarkdownViewer
+          content={displayContent}
+          moduleId={module.id}
+          trackId={track.id}
+          completedCheckboxes={completedCheckboxes}
+          onToggleCheckbox={onToggleCheckbox}
+          onSelectModule={onSelectModule}
+          onBackToTrack={onBackToTrack}
+          onSetActiveTab={onSetActiveTab}
+          lang={lang}
+        />
+      )}
 
       {/* Personal Notes Section */}
       <div 

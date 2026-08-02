@@ -5,7 +5,9 @@ import {
   CheckCircle2, 
   Circle, 
   Bookmark,
-  Award
+  Award,
+  Lock,
+  Sparkles
 } from 'lucide-react';
 import { uiTranslations, trackTranslationsID } from '../data/translations';
 
@@ -31,6 +33,8 @@ export default function Sidebar({
   currentModuleId, 
   completedModules, 
   bookmarks,
+  isSubscribed = false,
+  onOpenSubscribeModal,
   onSelectModule, 
   onSelectTrack,
   isOpen,
@@ -137,11 +141,12 @@ export default function Sidebar({
                     const isModCompleted = completedModules.includes(mod.id);
                     const isModActive = currentModuleId === mod.id;
                     const isBookmarked = bookmarks.includes(mod.id);
+                    const isLocked = mod.num > 1 && !isSubscribed;
 
                     return (
                       <button
                         key={mod.id}
-                        className={`sidebar-module-item ${isModActive ? 'active' : ''}`}
+                        className={`sidebar-module-item ${isModActive ? 'active' : ''} ${isLocked ? 'locked' : ''}`}
                         onClick={() => {
                           onSelectModule(mod);
                           if (onClose && window.innerWidth <= 868) onClose();
@@ -150,15 +155,29 @@ export default function Sidebar({
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', overflow: 'hidden' }}>
                           {isModCompleted ? (
                             <CheckCircle2 size={13} className="mod-check-icon" />
+                          ) : isLocked ? (
+                            <Lock size={13} style={{ color: '#eab308', flexShrink: 0 }} />
                           ) : (
-                            <Circle size={13} style={{ color: '#4b5563' }} />
+                            <Circle size={13} style={{ color: '#4b5563', flexShrink: 0 }} />
                           )}
-                          <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>
+                          <span style={{ whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', color: isLocked ? '#9ca3af' : 'inherit' }}>
                             {mod.num}. {mod.title}
                           </span>
                         </div>
 
-                        {isBookmarked && <Bookmark size={12} style={{ color: '#a855f7' }} />}
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '4px', flexShrink: 0 }}>
+                          {mod.num === 1 && !isSubscribed && (
+                            <span style={{ fontSize: '0.6rem', fontWeight: 700, color: '#34d399', background: 'rgba(52, 211, 153, 0.15)', padding: '1px 5px', borderRadius: '4px' }}>
+                              GRATIS
+                            </span>
+                          )}
+                          {isLocked && (
+                            <span style={{ fontSize: '0.6rem', fontWeight: 700, color: '#f59e0b', background: 'rgba(245, 158, 11, 0.15)', padding: '1px 5px', borderRadius: '4px' }}>
+                              PRO
+                            </span>
+                          )}
+                          {isBookmarked && <Bookmark size={12} style={{ color: '#a855f7' }} />}
+                        </div>
                       </button>
                     );
                   })}

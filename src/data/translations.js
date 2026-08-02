@@ -140,7 +140,18 @@ export const uiTranslations = {
     // Prompt Studio Presets
     presetPromptUgc: 'UGC Video Avatar',
     presetPromptHeadshot: 'B2B Corporate Headshot',
-    presetPromptProduct: 'E-commerce Product Shot'
+    presetPromptProduct: 'E-commerce Product Shot',
+
+    // Subscription & Paywall
+    subscribePro: 'Subscribe to Pro',
+    proBadge: 'PRO MEMBER',
+    freePreview: 'Free Preview',
+    lockedPro: 'Locked (Pro)',
+    paywallTitle: 'Exclusive Pro Member Lesson',
+    paywallDesc: 'This lesson contains in-depth strategies, scripts, and workflows. Subscribe for just Rp 99,000/mo to unlock all 66+ modules across 15 tracks.',
+    unlockBtn: 'Unlock Pro Access (Rp 99k/mo)',
+    demoActivate: 'Activate Pro Access (Demo Simulation)',
+    demoDeactivate: 'Switch to Free Guest Mode'
   },
 
   id: {
@@ -148,6 +159,17 @@ export const uiTranslations = {
     brandTitle: 'Kampus Kreator AI',
     brandBadge: 'Pro LMS',
     searchPlaceholder: 'Cari materi & template... (⌘K)',
+    
+    // Subscription & Paywall
+    subscribePro: 'Berlangganan Pro',
+    proBadge: 'MEMBER PRO',
+    freePreview: 'Gratis Preview',
+    lockedPro: 'Terkunci (Pro)',
+    paywallTitle: 'Modul Eksklusif Member Berlangganan',
+    paywallDesc: 'Modul ini berisi strategi mendalam, naskah produksi, dan alur kerja eksklusif. Berlangganan hanya Rp 99.000/bulan untuk membuka seluruh 66+ modul di 15 track.',
+    unlockBtn: 'Buka Akses Berlangganan (Rp 99rb/bln)',
+    demoActivate: 'Aktifkan Akses Pro (Simulasi Demo)',
+    demoDeactivate: 'Kembali ke Mode Pengunjung Gratis',
     
     // Tabs
     tabDashboard: 'Dashboard',

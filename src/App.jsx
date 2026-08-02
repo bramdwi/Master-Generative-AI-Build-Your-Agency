@@ -9,11 +9,13 @@ import CalculatorView from './components/CalculatorView';
 import PromptGeneratorView from './components/PromptGeneratorView';
 import SearchModal from './components/SearchModal';
 import CertificateModal from './components/CertificateModal';
+import SubscriptionModal from './components/SubscriptionModal';
 
 import { tracksData, allTemplatesData } from './data/courseData';
 import { 
   getStoredData, 
   setLanguage,
+  toggleSubscriptionStatus,
   toggleModuleCompleted, 
   toggleBookmark, 
   saveModuleNote, 
@@ -27,6 +29,7 @@ export default function App() {
   const [currentTrackId, setCurrentTrackId] = useState(tracksData[0]?.id);
   const [currentModuleId, setCurrentModuleId] = useState(null);
   const [searchOpen, setSearchOpen] = useState(false);
+  const [subscriptionModalOpen, setSubscriptionModalOpen] = useState(false);
   const [certTrack, setCertTrack] = useState(null);
   const [sidebarOpen, setSidebarOpen] = useState(true);
 
@@ -64,6 +67,11 @@ export default function App() {
   const handleToggleLang = () => {
     const nextLang = userData.lang === 'id' ? 'en' : 'id';
     const updated = setLanguage(nextLang);
+    setUserData(updated);
+  };
+
+  const handleToggleSubscribe = () => {
+    const updated = toggleSubscriptionStatus();
     setUserData(updated);
   };
 
@@ -128,6 +136,8 @@ export default function App() {
         completedCount={userData.completedModules.length}
         totalModules={totalModulesCount}
         onToggleSidebar={() => setSidebarOpen(prev => !prev)}
+        isSubscribed={userData.isSubscribed}
+        onOpenSubscribeModal={() => setSubscriptionModalOpen(true)}
         lang={userData.lang}
       />
 
@@ -144,6 +154,8 @@ export default function App() {
           currentModuleId={currentModuleId}
           completedModules={userData.completedModules}
           bookmarks={userData.bookmarks}
+          isSubscribed={userData.isSubscribed}
+          onOpenSubscribeModal={() => setSubscriptionModalOpen(true)}
           onSelectModule={handleSelectModule}
           onSelectTrack={handleSelectTrack}
           isOpen={sidebarOpen}
@@ -159,6 +171,8 @@ export default function App() {
               bookmarks={userData.bookmarks}
               streakCount={userData.streak.count}
               lastModuleId={userData.lastVisited}
+              isSubscribed={userData.isSubscribed}
+              onOpenSubscribeModal={() => setSubscriptionModalOpen(true)}
               onSelectTrack={handleSelectTrack}
               onSelectModule={handleSelectModule}
               onSetActiveTab={setActiveTab}
@@ -171,6 +185,8 @@ export default function App() {
             <TrackOverview
               track={currentTrack}
               completedModules={userData.completedModules}
+              isSubscribed={userData.isSubscribed}
+              onOpenSubscribeModal={() => setSubscriptionModalOpen(true)}
               onSelectModule={handleSelectModule}
               onOpenTemplate={(tmp) => {
                 setActiveTab('templates');
@@ -188,6 +204,8 @@ export default function App() {
               isBookmarked={userData.bookmarks.includes(currentModule.id)}
               userNote={userData.notes[currentModule.id] || ''}
               completedCheckboxes={userData.completedCheckboxes[currentModule.id] || []}
+              isSubscribed={userData.isSubscribed}
+              onOpenSubscribeModal={() => setSubscriptionModalOpen(true)}
               onToggleComplete={handleToggleComplete}
               onToggleBookmark={handleToggleBookmark}
               onSaveNote={handleSaveNote}
@@ -247,6 +265,14 @@ export default function App() {
           lang={userData.lang}
         />
       )}
+
+      <SubscriptionModal
+        isOpen={subscriptionModalOpen}
+        onClose={() => setSubscriptionModalOpen(false)}
+        isSubscribed={userData.isSubscribed}
+        onToggleSubscribe={handleToggleSubscribe}
+        lang={userData.lang}
+      />
     </div>
   );
 }

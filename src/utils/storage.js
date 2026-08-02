@@ -2,6 +2,7 @@ const STORAGE_KEY = 'ai_creator_academy_user_data_v2';
 
 const defaultData = {
   lang: 'id', // Default to Indonesian!
+  isSubscribed: false, // Default to free tier (Module 1 free preview, Module 2+ locked)
   completedModules: [],
   bookmarks: [],
   notes: {},
@@ -36,6 +37,13 @@ export function saveStoredData(data) {
 export function setLanguage(lang) {
   const data = getStoredData();
   data.lang = lang;
+  saveStoredData(data);
+  return data;
+}
+
+export function toggleSubscriptionStatus() {
+  const data = getStoredData();
+  data.isSubscribed = !data.isSubscribed;
   saveStoredData(data);
   return data;
 }

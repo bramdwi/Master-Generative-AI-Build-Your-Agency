@@ -6,13 +6,17 @@ import {
   FileText, 
   ArrowRight,
   Award,
-  Sparkles
+  Sparkles,
+  Lock,
+  Crown
 } from 'lucide-react';
 import { uiTranslations, trackTranslationsID } from '../data/translations';
 
 export default function TrackOverview({
   track,
   completedModules,
+  isSubscribed = false,
+  onOpenSubscribeModal,
   onSelectModule,
   onOpenTemplate,
   onGetCertificate,
@@ -81,29 +85,57 @@ export default function TrackOverview({
       <div className="modules-grid">
         {track.modules.map(mod => {
           const isDone = completedModules.includes(mod.id);
+          const isLocked = mod.num > 1 && !isSubscribed;
 
           return (
             <div
               key={mod.id}
-              className={`module-card ${isDone ? 'completed' : ''}`}
+              className={`module-card ${isDone ? 'completed' : ''} ${isLocked ? 'locked-card' : ''}`}
               onClick={() => onSelectModule(mod)}
+              style={{
+                position: 'relative',
+                border: isLocked ? '1px solid rgba(234, 179, 8, 0.25)' : undefined,
+                background: isLocked ? 'rgba(17, 24, 39, 0.65)' : undefined
+              }}
             >
               <div>
                 <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                  <span className="card-num-badge">{t.moduleLabel} {mod.num}</span>
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '6px' }}>
+                    <span className="card-num-badge">{t.moduleLabel} {mod.num}</span>
+                    {mod.num === 1 && !isSubscribed && (
+                      <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#34d399', background: 'rgba(52, 211, 153, 0.15)', padding: '2px 8px', borderRadius: '12px' }}>
+                        GRATIS PREVIEW
+                      </span>
+                    )}
+                    {isLocked && (
+                      <span style={{ fontSize: '0.65rem', fontWeight: 700, color: '#f59e0b', background: 'rgba(245, 158, 11, 0.15)', padding: '2px 8px', borderRadius: '12px', display: 'inline-flex', alignItems: 'center', gap: '3px' }}>
+                        <Lock size={10} /> PRO TERKUNCI
+                      </span>
+                    )}
+                  </div>
                   {isDone ? (
                     <CheckCircle2 size={18} style={{ color: '#10b981' }} />
+                  ) : isLocked ? (
+                    <Lock size={16} style={{ color: '#f59e0b' }} />
                   ) : null}
                 </div>
-                <h3 className="card-title">{mod.title}</h3>
+                <h3 className="card-title" style={{ color: isLocked ? '#d1d5db' : 'white' }}>{mod.title}</h3>
               </div>
 
               <div className="card-footer">
                 <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
                   <Clock size={13} /> {mod.time}
                 </span>
-                <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: '#a5b4fc', fontWeight: 600 }}>
-                  {t.startLesson} <ArrowRight size={13} />
+                <span style={{ display: 'flex', alignItems: 'center', gap: '4px', color: isLocked ? '#f59e0b' : '#a5b4fc', fontWeight: 600 }}>
+                  {isLocked ? (
+                    <>
+                      <Crown size={13} /> Subscribe PRO
+                    </>
+                  ) : (
+                    <>
+                      {t.startLesson} <ArrowRight size={13} />
+                    </>
+                  )}
                 </span>
               </div>
             </div>
