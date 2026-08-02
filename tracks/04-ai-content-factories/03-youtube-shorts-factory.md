@@ -27,7 +27,7 @@ Hal ini berhasil karena sebagian besar pemirsa tidak akan menyadari adanya pengu
 2. **Kontinuitas Audio:** Track musik latar belakang harus mempertahankan volume dan tempo yang konstan sepanjang potongan. Jangan pernah menerapkan efek fade-out pada bagian audio.
 3. **Kontinuitas Visual:** Gaya visual (pembingkaian, gradasi warna) klip akhir harus sangat cocok dengan klip awal sehingga transisi tidak berkedip.
 
-*Catatan Loop Otomatis:* Anda dapat mereferensikan repositori [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator), yang menangani perakitan file Shorts dan audio otomatis secara terprogram.
+*Catatan Loop Otomatis:* Anda dapat memanfaatkan modul `AI-Youtube-Shorts-Generator`, yang menangani perakitan file Shorts dan audio otomatis secara terprogram.
 
 ---
 

@@ -72,6 +72,42 @@ export default function PaymentCheckout({
   const [orderId, setOrderId] = useState(null);
   const [redirectUrl, setRedirectUrl] = useState(null);
 
+  // Dynamic Snap script loader synced with backend environment config
+  React.useEffect(() => {
+    let isMounted = true;
+    fetch(`${API_BASE}/config`)
+      .then(res => res.json())
+      .then(config => {
+        if (!isMounted || !config.clientKey) return;
+        const snapUrl = config.snapUrl || (config.isProduction
+          ? 'https://app.midtrans.com/snap/snap.js'
+          : 'https://app.sandbox.midtrans.com/snap/snap.js');
+
+        const existingScript = document.getElementById('midtrans-snap-script');
+        if (existingScript) {
+          if (existingScript.src !== snapUrl || existingScript.getAttribute('data-client-key') !== config.clientKey) {
+            existingScript.remove();
+          } else {
+            return;
+          }
+        }
+
+        const script = document.createElement('script');
+        script.id = 'midtrans-snap-script';
+        script.src = snapUrl;
+        script.setAttribute('data-client-key', config.clientKey);
+        script.async = true;
+        document.head.appendChild(script);
+      })
+      .catch(err => {
+        console.warn('Could not sync Midtrans script config:', err);
+      });
+
+    return () => {
+      isMounted = false;
+    };
+  }, []);
+
   const initiatePayment = useCallback(async () => {
     setStatus('loading');
     setErrorMsg('');

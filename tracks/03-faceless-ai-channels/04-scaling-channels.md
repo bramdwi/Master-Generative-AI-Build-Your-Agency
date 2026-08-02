@@ -33,7 +33,7 @@ Jangan pernah membuat video hanya untuk satu platform. Video vertikal 09:16 dapa
 Hal ini melipatgandakan potensi penayangan Anda tanpa biaya produksi tambahan.
 
 ### 3. Penggunaan Kembali Panjang-ke-Pendek:
-Jika Anda menghasilkan video berdurasi panjang (8+ menit), Anda dapat menguraikannya untuk mengekstrak 5–10 sorotan pendek. Anda dapat mereferensikan aplikasi [`ai-clipping-generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/ai-clipping-generator) dari repositori saudaranya, yang menunjukkan cara mengotomatiskan ekstraksi klip pendek dari video panjang.
+Jika Anda menghasilkan video berdurasi panjang (8+ menit), Anda dapat menguraikannya untuk mengekstrak 5–10 sorotan pendek. Anda dapat menggunakan alat `ai-clipping-generator` untuk mengotomatiskan ekstraksi klip pendek dari video panjang.
 
 ---
 

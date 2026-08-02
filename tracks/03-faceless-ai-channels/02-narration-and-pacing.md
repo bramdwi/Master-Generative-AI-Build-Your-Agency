@@ -26,7 +26,7 @@ Script Text  →  Voice Generation  →  Duration Logging  →  Video Clipping/G
 2. **Kecepatan Visual:** Umpan video berdurasi pendek memerlukan tingkat perubahan visual yang tinggi. Rentang retensi visual rata-rata sangat pendek — Anda harus beralih ke gambar baru, memotong, memperbesar, atau klip b-roll setiap **2,5 hingga 4,0 detik**.
 3. **Pemetaan Kata-ke-Durasi:** Jika Anda berbicara dengan kecepatan rata-rata 150 kata per menit, setiap kata membutuhkan waktu sekitar 0,4 detik. Kalimat 10 kata memerlukan klip video berdurasi 4 detik.
 
-*Catatan Alur Kerja Otomatis:* Anda dapat mereferensikan aplikasi [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator) dari repositori saudaranya, yang menunjukkan cara mencocokkan segmen audio dengan aset video secara otomatis secara terprogram.
+*Catatan Alur Kerja Otomatis:* Anda dapat menggunakan skrip otomatisasi `AI-Youtube-Shorts-Generator` untuk mencocokkan segmen audio dengan aset video secara otomatis secara terprogram.
 
 ---
 
