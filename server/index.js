@@ -14,10 +14,9 @@ app.use(cors({
 }));
 app.use(express.json());
 
-// Initialize Midtrans Snap with auto-detection for Production vs Sandbox keys
+// Initialize Midtrans Snap
 const serverKey = process.env.MIDTRANS_SERVER_KEY || '';
-const isProductionMode = process.env.MIDTRANS_IS_PRODUCTION === 'true' || 
-  (serverKey.startsWith('Mid-server-') && !serverKey.startsWith('SB-'));
+const isProductionMode = process.env.MIDTRANS_IS_PRODUCTION === 'true';
 
 const snap = new midtransClient.Snap({
   isProduction: isProductionMode,
@@ -194,12 +193,16 @@ app.get('/api/payment-status/:orderId', async (req, res) => {
 
 // ─────────────────────────────────────────────
 // GET /api/config
-// Return public client key for frontend
+// Return public client key and dynamic Snap script URL for frontend
 // ─────────────────────────────────────────────
 app.get('/api/config', (req, res) => {
+  const isProd = isProductionMode;
   res.json({
-    clientKey: process.env.MIDTRANS_CLIENT_KEY,
-    isProduction: process.env.MIDTRANS_IS_PRODUCTION === 'true'
+    clientKey: process.env.MIDTRANS_CLIENT_KEY || '',
+    isProduction: isProd,
+    snapUrl: isProd
+      ? 'https://app.midtrans.com/snap/snap.js'
+      : 'https://app.sandbox.midtrans.com/snap/snap.js'
   });
 });
 
