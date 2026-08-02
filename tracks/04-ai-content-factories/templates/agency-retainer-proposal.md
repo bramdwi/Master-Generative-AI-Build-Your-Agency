@@ -1,4 +1,4 @@
-# Proposal Pengikut Pabrik Konten
+# Proposal Pengikut Content Factory
 
 Gunakan template ini untuk menawarkan layanan pembuatan konten berulang kepada klien merek atau pemberi pengaruh yang sibuk.
 
@@ -16,7 +16,7 @@ Penyedia Layanan setuju untuk mengirimkan kumpulan video vertikal retensi tinggi
 * **Durasi:** 30–60 detik per video.
 * **Saluran Termasuk:**
 - Penelitian topik dan penulisan naskah (Conversational hooks).
-- Generasi sulih suara AI premium.
+- Generasi voiceover AI premium.
 - Pembuatan aset visual khusus dan pengondisian storyboard.
 - Perakitan garis waktu video, teks kinetik, dan desain suara latar belakang.
 - Mengirimkan file akhir melalui folder Google Drive/Dropbox bersama.

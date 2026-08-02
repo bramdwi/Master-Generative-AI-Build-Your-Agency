@@ -2,7 +2,7 @@
 
 > Video yang tidak pernah berakhir ditonton selamanya.
 
-**Lacak:** Pabrik Konten AI
+**Lacak:** AI Content Factory
 **Waktu:** ~45 menit
 **Prasyarat:** Jalur Produksi Multi-Langkah, Membangun Pabrik TikTok/Reels
 
@@ -24,7 +24,7 @@ Mekanisme inti dari video Shorts dengan retensi tinggi adalah **Skrip & Loop Aud
 
 Hal ini berhasil karena sebagian besar pemirsa tidak akan menyadari adanya pengulangan yang dimulai ulang tanpa jeda — mereka akan terus menonton dan baru menyadari bahwa mereka telah memulai lagi setelah pengulangan yang kedua atau ketiga, yang dicatat sebagai waktu tonton tambahan. Untuk membuat lingkaran tak terlihat:
 1. **Kalimat Loop:** Kalimat terakhir video harus masih belum selesai. Kalimat awal video harus melengkapinya.
-2. **Kontinuitas Audio:** Trek musik latar belakang harus mempertahankan volume dan tempo yang konstan sepanjang potongan. Jangan pernah menerapkan efek fade-out pada bagian audio.
+2. **Kontinuitas Audio:** Track musik latar belakang harus mempertahankan volume dan tempo yang konstan sepanjang potongan. Jangan pernah menerapkan efek fade-out pada bagian audio.
 3. **Kontinuitas Visual:** Gaya visual (pembingkaian, gradasi warna) klip akhir harus sangat cocok dengan klip awal sehingga transisi tidak berkedip.
 
 *Catatan Loop Otomatis:* Anda dapat mereferensikan repositori [`AI-Youtube-Shorts-Generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/AI-Youtube-Shorts-Generator), yang menangani perakitan file Shorts dan audio otomatis secara terprogram.
@@ -43,10 +43,10 @@ Sebelum menulis isi skrip Anda, tulis batas perulangan Anda menggunakan [`templa
 Hasilkan skrip. Saat menggunakan TTS, keluarkan frasa akhir dan frasa awal dalam file terpisah untuk mencegah suara AI menurunkan nadanya (yang biasanya terjadi di akhir kalimat).
 
 ### Langkah 3: Pangkas Ekor Audio di Editor
-Tempatkan trek audio di timeline Anda. Perbesar ke tingkat bingkai. Temukan bingkai tepat di mana suara berhenti berbicara di akhir video. **Potong dan hapus semua bingkai senyap yang tertinggal**. Jangan tinggalkan jeda hening 0,1 detik pun.
+Tempatkan track audio di timeline Anda. Perbesar ke tingkat bingkai. Temukan bingkai tepat di mana suara berhenti berbicara di akhir video. **Potong dan hapus semua bingkai senyap yang tertinggal**. Jangan tinggalkan jeda hening 0,1 detik pun.
 
 ### Langkah 4: Konfigurasikan Kontinuitas Musik
-Tempatkan trek musik latar belakang Anda di A2. Potong trek tepat di akhir video. Pastikan level volume terkunci (misalnya -18dB) dari awal hingga akhir. Hindari menerapkan efek fade-in atau fade-out di tepi garis waktu.
+Tempatkan track musik latar belakang Anda di A2. Potong track tepat di akhir video. Pastikan level volume terkunci (misalnya -18dB) dari awal hingga akhir. Hindari menerapkan efek fade-in atau fade-out di tepi garis waktu.
 
 ### Langkah 5: Pencocokan Transisi Visual
 Periksa frame pertama video Anda dan frame terakhir video Anda. Jika frame pertama adalah visual yang gelap, frame terakhir harusnya gelap. Terapkan animasi **pan-right** atau zoom-out lambat secara konstan pada kedua sisi untuk membuat gerakan mengalir mulus.
@@ -114,7 +114,7 @@ Untuk pabrik bervolume tinggi, membuat audio loop secara terprogram menggunakan 
 ## Latihan
 
 1. **Mudah:** Tulis skrip 3 kalimat yang kalimat terakhirnya terhubung kembali ke kalimat pertama. Bacalah dengan lantang untuk memastikannya mengalir secara alami.
-2. **Medium:** Impor klip sulih suara ke editor Anda. Perbesar garis waktu dan pangkas semua bingkai senyap di bagian ekor hingga milidetik.
+2. **Medium:** Impor klip voiceover ke editor Anda. Perbesar garis waktu dan pangkas semua bingkai senyap di bagian ekor hingga milidetik.
 3. **Sulit:** Menghasilkan video loop berdurasi 15 detik. Ekspor dan unggah ke saluran pengujian. Pastikan loop audio dan visual terjadi dengan lancar tanpa ada gangguan visual atau letupan audio.
 
 ---

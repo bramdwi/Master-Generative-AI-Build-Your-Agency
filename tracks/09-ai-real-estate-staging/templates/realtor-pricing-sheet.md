@@ -1,6 +1,6 @@
 # Matriks Perjanjian Harga & Layanan Realtor
 
-Gunakan lembar harga ini untuk menyajikan tingkat layanan yang jelas, perbandingan ROI, dan persyaratan layanan untuk agen dan pialang real estat.
+Gunakan lembar harga ini untuk menyajikan tingkat layanan yang jelas, perbandingan ROI, dan persyaratan layanan untuk agen dan pialang real estate.
 
 ---
 
@@ -14,9 +14,9 @@ Gunakan lembar harga ini untuk menyajikan tingkat layanan yang jelas, perbanding
 
 ---
 
-## 📊 Rincian Biaya Pementasan Virtual Fisik vs. AI
+## 📊 Rincian Biaya Virtual Staging Virtual Fisik vs. AI
 
-Bagikan perincian ini dengan klien real estat untuk menunjukkan penghematan biaya:
+Bagikan perincian ini dengan klien real estate untuk menunjukkan penghematan biaya:
 
 ```
 Physical Staging Costs (Single Listing):
@@ -40,4 +40,4 @@ TOTAL AI VIRTUAL STAGING COST:  $199 (SAVE $3,401 / 94% Savings!)
 1. **Ketentuan Pembayaran:** Pembayaran 100% diperlukan sebelum pengiriman akhir file MLS resolusi tinggi melalui faktur Stripe.
 2. **Kebijakan Revisi:** Revisi mencakup pertukaran gaya furnitur atau sedikit penyesuaian warna yang diminta dalam waktu 7 hari sejak pengiriman draf awal. Perubahan struktural (misalnya, penambahan dinding atau penggantian material lantai) dikenakan biaya **$15/foto**.
 3. **Hak Penggunaan:** Klien diberikan hak penggunaan komersial penuh untuk listingan MLS, pemasaran media sosial, dan brosur cetak.
-4. **Penafian Kepatuhan MLS:** Semua gambar bertahap yang dikirimkan menyertakan pembacaan penafian rahasia *"Dipentaskan Secara Praktis untuk Visualisasi"* untuk menjaga kepatuhan terhadap peraturan dewan real estat setempat.
+4. **Penafian Kepatuhan MLS:** Semua gambar bertahap yang dikirimkan menyertakan pembacaan penafian rahasia *"Dipentaskan Secara Praktis untuk Visualisasi"* untuk menjaga kepatuhan terhadap peraturan dewan real estate setempat.

@@ -1,8 +1,8 @@
-# Menjual Hasil Pabrik Konten sebagai Layanan
+# Menjual Hasil Content Factory sebagai Layanan
 
 > Dunia usaha tidak menginginkan penayangan; mereka menginginkan konsistensi yang membangun pandangan.
 
-**Lacak:** Pabrik Konten AI
+**Lacak:** AI Content Factory
 **Waktu:** ~30 menit
 **Prasyarat:** Jalur Produksi Multi-Langkah, Batching & Penjadwalan pada Volume
 
@@ -12,11 +12,11 @@ Kebanyakan editor video lepas menjual layanan mereka "per video" atau "per jam".
 
 Selain itu, klien tidak dapat diandalkan. Mereka akan memesan 3 video, menjeda selama sebulan, lalu meminta revisi tiga minggu kemudian. Ini merusak jalur pabrik Anda dan menyumbat jadwal pengeditan Anda.
 
-Untuk meningkatkan penghasilan Anda, Anda harus berhenti menjual hasil edit satu kali. Sebaliknya, paketkan hasil pabrik Anda ke dalam **penyimpan rutin bulanan** (model agen berlangganan), yang menjual volume yang konsisten dan dapat diprediksi sehingga klien tetap membayar dari bulan ke bulan.
+Untuk meningkatkan penghasilan Anda, Anda harus berhenti menjual hasil edit satu kali. Sebaliknya, paketkan hasil pabrik Anda ke dalam **retainer bulanan** (model agen berlangganan), yang menjual volume yang konsisten dan dapat diprediksi sehingga klien tetap membayar dari bulan ke bulan.
 
 ## Konsep
 
-Model bisnis agen pabrik konten adalah **Penyimpan Konten Berlangganan**:
+Model bisnis agen content factory adalah **Penyimpan Konten Berlangganan**:
 
 ```
 Client Retainer ($1,500/mo)  ──►  Upfront Payment  ──►  Weekly Batch Delivery (7 Videos)
@@ -41,7 +41,7 @@ Buka akun pedagang (Stripe, PayPal, atau Whop). Siapkan produk berlangganan yang
 
 ### Langkah 3: Targetkan Klien Ideal Anda
 Fokus pada bisnis yang memiliki anggaran pemasaran tinggi tetapi tidak punya waktu untuk membuat konten:
-* Layanan profesional (broker real estat, firma hukum, akuntan, klinik swasta).
+* Layanan profesional (broker real estate, firma hukum, akuntan, klinik swasta).
 * Konsultan ternama, pelatih bisnis, dan pendiri perangkat lunak.
 * Pemilik merek e-commerce.
 
@@ -104,7 +104,7 @@ Untuk agensi kecil, Stripe Billing adalah alat pembuatan faktur standar. Kirimka
 ## Latihan
 
 1. **Mudah:** Susun lembar harga paket agensi Anda sendiri yang disesuaikan.
-2. **Medium:** Isi template Proposal Retainer Pabrik Konten dengan nama klien tiruan, yang menentukan kiriman batch mingguan.
+2. **Medium:** Isi template Proposal Retainer Content Factory dengan nama klien tiruan, yang menentukan kiriman batch mingguan.
 3. **Sulit:** Temukan tiga situs web layanan profesional lokal (misalnya akuntansi, dokter gigi lokal, broker real estate) yang memiliki feed media sosial kosong. Buat draf penawaran email dingin menggunakan tingkat harga Anda untuk menawarkan kepada mereka kumpulan pengujian 10 video.
 
 ---

@@ -8,11 +8,11 @@
 
 ## Masalahnya
 
-Kesalahan umum dalam pembuatan konten AI adalah membuat video b-roll terlebih dahulu, lalu mencoba merekam atau membuat sulih suara agar sesuai dengan garis waktu visual. Hasilnya hampir selalu berupa bencana: narator harus berbicara dengan sangat cepat selama klip pendek, atau berhenti dengan canggung selama klip panjang agar tetap sinkron. Kecepatannya terasa dibuat-buat, dan penonton langsung berhenti menonton.
+Kesalahan umum dalam pembuatan konten AI adalah membuat video b-roll terlebih dahulu, lalu mencoba merekam atau membuat voiceover agar sesuai dengan garis waktu visual. Hasilnya hampir selalu berupa bencana: narator harus berbicara dengan sangat cepat selama klip pendek, atau berhenti dengan canggung selama klip panjang agar tetap sinkron. Kecepatannya terasa dibuat-buat, dan penonton langsung berhenti menonton.
 
-Dalam produksi video tanpa wajah profesional, **trek audio adalah inti dari keseluruhan linimasa**.
+Dalam produksi video tanpa wajah profesional, **track audio adalah inti dari keseluruhan linimasa**.
 
-Jika Anda mencoba mengedit video tanpa trek audio yang terkunci, Anda akan menghabiskan waktu berjam-jam untuk meregangkan, memotong, dan mengambil ulang file suara. Anda memerlukan alur kerja terstruktur yang menetapkan inti narasi terlebih dahulu, memungkinkan Anda memotong dan menyinkronkan elemen visual ke milidetik audio yang tepat.
+Jika Anda mencoba mengedit video tanpa track audio yang terkunci, Anda akan menghabiskan waktu berjam-jam untuk meregangkan, memotong, dan mengambil ulang file suara. Anda memerlukan alur kerja terstruktur yang menetapkan inti narasi terlebih dahulu, memungkinkan Anda memotong dan menyinkronkan elemen visual ke milidetik audio yang tepat.
 
 ## Konsep
 
@@ -45,10 +45,10 @@ Untuk setiap baris audio yang dicatat, rencanakan aset visual yang cocok:
 * Jika Anda membuat video (yang biasanya menghasilkan klip berdurasi 4 atau 5 detik), Anda akan mengimpor video dan memotong bingkai tambahan agar sesuai dengan panjang audio.
 
 ### Langkah 4: Susun Garis Waktu
-Tempatkan semua file narasi secara berurutan di trek audio utama Anda (A1). Pangkas semua suara bising atau keheningan di awal dan akhir setiap klip sehingga suara mengalir secara alami tanpa jeda.
+Tempatkan semua file narasi secara berurutan di track audio utama Anda (A1). Pangkas semua suara bising atau keheningan di awal dan akhir setiap klip sehingga suara mengalir secara alami tanpa jeda.
 
 ### Langkah 5: Tempatkan dan Pangkas Klip Video
-Tempatkan klip b-roll Anda pada trek video V1, cocokkan potongannya persis dengan batas file audio. Tambahkan animasi skala halus (zoom-in lambat 10%) ke klip statis untuk menjaga layar tetap dinamis selama pemotongan.
+Tempatkan klip b-roll Anda pada track video V1, cocokkan potongannya persis dengan batas file audio. Tambahkan animasi skala halus (zoom-in lambat 10%) ke klip statis untuk menjaga layar tetap dinamis selama pemotongan.
 
 ---
 
@@ -64,7 +64,7 @@ Tempatkan klip b-roll Anda pada trek video V1, cocokkan potongannya persis denga
 
 
 
-* **Audio Spine (Trek A1):**
+* **Audio Spine (Track A1):**
 * `01_hook.mp3`: *"Jika Anda masih menyalin faktur secara manual ke perangkat lunak akuntansi, Anda membuang waktu lima jam seminggu."* (Durasi: **4,2 detik**).
 * `02_problem.mp3`: *"Sebagian besar pekerja lepas berpikir mereka harus membayar asisten virtual untuk melakukan ini."* (Durasi: **3,8 detik**).
 
@@ -105,7 +105,7 @@ Untuk pengoperasian saluran tunggal, pengeditan manual di dalam CapCut adalah ca
 
 ## Latihan
 
-1. **Mudah:** Buat klip sulih suara 10 detik. Catat durasi pastinya. Edit klip video latar belakang untuk mencocokkan durasinya dengan frame.
+1. **Mudah:** Buat klip voiceover 10 detik. Catat durasi pastinya. Edit klip video latar belakang untuk mencocokkan durasinya dengan frame.
 2. **Sedang:** Ambil skrip berdurasi 30 detik. Bagilah menjadi 6 kalimat pendek. Hasilkan klip suara. Catatlah di Log Durasi Narasi. Rencanakan dan kompilasi 6 aset visual yang sesuai dengan durasi setiap klip.
 3. **Sulit:** Siapkan aplikasi `AI-Youtube-Shorts-Generator` secara lokal, konfigurasikan dengan kunci API Anda, dan buat video vertikal lengkap secara otomatis dari perintah teks.
 
@@ -113,7 +113,7 @@ Untuk pengoperasian saluran tunggal, pengeditan manual di dalam CapCut adalah ca
 
 ## Template
 
-* [`templates/narration-duration-log.md`](templates/narration-duration-log.md) — log garis waktu untuk mencocokkan potongan visual dengan durasi trek audio.
+* [`templates/narration-duration-log.md`](templates/narration-duration-log.md) — log garis waktu untuk mencocokkan potongan visual dengan durasi track audio.
 
 ---
 

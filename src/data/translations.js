@@ -135,7 +135,7 @@ export const uiTranslations = {
     presetHeadshot: 'Headshot Korporat (Tim 20 orang)',
     presetProduct: 'Katalog Foto Produk (25 foto)',
     presetFaceless: 'Retainer Kanal Tanpa Wajah (15 video)',
-    presetStaging: 'Virtual Staging Real Estat (10 ruangan)',
+    presetStaging: 'Virtual Staging Real Estate (10 ruangan)',
 
     // Prompt Studio Presets
     presetPromptUgc: 'UGC Video Avatar',
@@ -277,7 +277,7 @@ export const uiTranslations = {
     presetHeadshot: 'Headshot Korporat (Tim 20 orang)',
     presetProduct: 'Katalog Foto Produk (25 foto)',
     presetFaceless: 'Retainer Kanal Tanpa Wajah (15 video)',
-    presetStaging: 'Virtual Staging Real Estat (10 ruangan)',
+    presetStaging: 'Virtual Staging Real Estate (10 ruangan)',
 
     // Prompt Studio Presets
     presetPromptUgc: 'Avatar Video UGC',
@@ -300,7 +300,7 @@ export const trackTranslationsID = {
     desc: 'Bangun dan monetisasi kanal YouTube/Reels otomatis tanpa pernah tampil di kamera.'
   },
   '04-ai-content-factories': {
-    title: 'Pabrik Konten AI Skala Masal',
+    title: 'AI Content Factory Skala Masal',
     desc: 'Otomatisasi riset ide, naskah, rendering, hingga publikasi video harian.'
   },
   '05-ai-avatars-and-influencers': {
@@ -320,7 +320,7 @@ export const trackTranslationsID = {
     desc: 'Model pakaian virtual dan lookbook digital untuk e-commerce fashion.'
   },
   '09-ai-real-estate-staging': {
-    title: 'Virtual Staging Real Estat AI',
+    title: 'Virtual Staging Real Estate AI',
     desc: 'Ubah foto properti kosong menjadi ruangan ber-furnitur siap huni.'
   },
   '10-ai-headshots-and-portraits': {

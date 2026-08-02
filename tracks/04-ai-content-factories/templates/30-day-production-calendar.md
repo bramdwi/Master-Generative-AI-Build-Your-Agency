@@ -10,7 +10,7 @@ Gunakan kalender ini untuk menjadwalkan, melacak, dan merilis secara massal vide
 ## Rencana Batching Produksi
 
 * **Minggu 1 (Hari 1-5):** Riset kata kunci dan skrip ke-30 video.
-* **Minggu 2 (Hari 6-8):** Menghasilkan dan membersihkan seluruh 30 trek narasi suara.
+* **Minggu 2 (Hari 6-8):** Menghasilkan dan membersihkan seluruh 30 track narasi suara.
 * **Minggu 3 (Hari 9-12):** Mengantri dan membuat semua klip visual dan template latar belakang.
 * **Minggu 4 (Hari 13-17):** Pengeditan garis waktu, pembuatan teks otomatis, dan rendering master.
 * **Minggu 5 (Hari 18-20):** Penjadwalan batch dan penyiapan SEO di dalam penjadwal asli.

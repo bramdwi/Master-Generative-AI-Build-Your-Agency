@@ -38,7 +38,7 @@ Buka [`templates/influencer-agency-agreement.md`](templates/influencer-agency-ag
 Jangkau perusahaan berbasis layanan yang membutuhkan pemasaran konten:
 * Kantor Pembukuan/Akuntansi (menjelaskan penghapusan pajak).
 * Agen perekrutan (menjelaskan tips wawancara kerja).
-* Pialang real estat lokal (menjelaskan panduan pembelian).
+* Pialang real estate lokal (menjelaskan panduan pembelian).
 Soroti bahwa mereka tidak perlu menunjukkan wajahnya di depan kamera atau menghabiskan waktu berjam-jam merekam audio.
 
 ### Langkah 3: Lakukan Sesi Pengarahan Karakter
@@ -48,7 +48,7 @@ Setelah mendapatkan kontrak, jalankan sesi pengarahan. Sepakati usia, penampilan
 Kelola pengiriman dalam kelompok mingguan (4 video setiap hari Jumat).
 * Tulis skrip dan dapatkan persetujuan klien melalui email.
 * Hasilkan batch audio suara yang dikloning.
-* Jalankan gambar avatar statis dan trek suara melalui `/sync-lipsync` API.
+* Jalankan gambar avatar statis dan track suara melalui `/sync-lipsync` API.
 * Pangkas, subjudul, dan tingkatkan warna ekspor.
 
 ### Langkah 5: Kirim ke Folder Bersama
@@ -88,7 +88,7 @@ Unggah file yang sudah selesai ke folder bersama klien. Kirim pemberitahuan: *"B
 | Platform / Alat | Faktur & Pembayaran | Manajemen Hasil Kerja | Orientasi Klien |
 |---|---|---|---|
 | **Faktur Stripe** | Tagihan kartu berulang yang aman, andal. | T/A | Mengirim persyaratan penagihan perusahaan profesional. |
-| **Google Drive/Dropbox** | Berbagi folder secara langsung, sederhana dan andal. | Unggah langsung file video besar. | Pementasan aset klien mentah dan template visual. |
+| **Google Drive/Dropbox** | Berbagi folder secara langsung, sederhana dan andal. | Unggah langsung file video besar. | Virtual Staging aset klien mentah dan template visual. |
 | **Klik Atas / Kendur** | Penetapan tugas klien dan pencapaian proyek. | T/A | Operasi agensi yang kompleks dengan banyak klien. |
 
 Untuk agensi kecil, jaga komunikasi tetap sederhana. Jangan mengundang klien ke saluran Slack yang kompleks atau ruang manajemen proyek. Kirim faktur bulanan melalui Stripe, kelola persetujuan skrip melalui email sederhana, dan kirimkan file akhir melalui folder Google Drive bersama.
@@ -98,7 +98,7 @@ Untuk agensi kecil, jaga komunikasi tetap sederhana. Jangan mengundang klien ke 
 ## Luncurkan
 
 **Cara mengelola siklus persetujuan:**
-* **Tetapkan Pencapaian Penguncian:** Dalam perjanjian Anda, nyatakan bahwa setelah skrip disetujui, skrip tersebut tidak dapat diubah. Hal ini mencegah klien meminta perenderan ulang sulih suara atau sinkronisasi bibir (yang akan dikenakan biaya kredit API) setelah video dikompilasi.
+* **Tetapkan Pencapaian Penguncian:** Dalam perjanjian Anda, nyatakan bahwa setelah skrip disetujui, skrip tersebut tidak dapat diubah. Hal ini mencegah klien meminta perenderan ulang voiceover atau sinkronisasi bibir (yang akan dikenakan biaya kredit API) setelah video dikompilasi.
 * **Biaya Render Ulang:** Jika klien meminta revisi visual karena perubahan skrip mereka *setelah* persetujuan, kenakan biaya tetap **$50 biaya render ulang** per video untuk menutupi kredit API dan waktu pengeditan.
 
 ---

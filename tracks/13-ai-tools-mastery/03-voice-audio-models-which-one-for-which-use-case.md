@@ -8,11 +8,11 @@
 
 ## Masalahnya
 
-Kualitas audio menentukan atau menghancurkan produksi video. Penelitian menunjukkan bahwa pemirsa menoleransi resolusi video yang biasa-biasa saja, namun segera menghindari audio yang buruk atau sulih suara robot.
+Kualitas audio menentukan atau menghancurkan produksi video. Penelitian menunjukkan bahwa pemirsa menoleransi resolusi video yang biasa-biasa saja, namun segera menghindari audio yang buruk atau voiceover robot.
 
 Pembuat konten kesulitan dalam memilih model AI audio:
-* Penggunaan mesin TTS kelas bawah menghasilkan sulih suara robotik yang monoton dengan kecepatan yang tidak wajar.
-* Menghasilkan trek musik lengkap dengan vokal saat adegan hanya membutuhkan instrumental latar belakang akan merusak kejelasan dialog.
+* Penggunaan mesin TTS kelas bawah menghasilkan voiceover robotik yang monoton dengan kecepatan yang tidak wajar.
+* Menghasilkan track musik lengkap dengan vokal saat adegan hanya membutuhkan instrumental latar belakang akan merusak kejelasan dialog.
 * Mencoba mengkloning suara tanpa audio referensi yang menghilangkan noise akan menghasilkan artefak audio yang terdistorsi.
 
 Anda memerlukan strategi pemetaan alat yang tepat untuk sintesis suara, pembuatan musik, dan isolasi batang audio.
@@ -39,7 +39,7 @@ Text Script ──► ElevenLabs Voice Synthesis ──► Suno/Udio Instrumenta
 
 ### Langkah 1: Sesuaikan Persyaratan Audio dengan Singkat
 Buka [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md). Petakan kebutuhan audio Anda:
-* **Narasi & Sulih Suara Komersial:** **ElevenLabs Multibahasa v2** (Dinamika emosi tinggi, stabilitas `0.45`, kejelasan `0.85`).
+* **Narasi & Voiceover Komersial:** **ElevenLabs Multibahasa v2** (Dinamika emosi tinggi, stabilitas `0.45`, kejelasan `0.85`).
 * **Skor Film Sinematik / Ketukan Latar Belakang:** **Suno v3.5** (Mode perintah instrumental) atau **Udio**.
 * **Pembuatan Subtitle & Transkrip:** **OpenAI Whisper** (model Large-v3).
 
@@ -49,13 +49,13 @@ Di ElevenLabs:
 * Setel **Kejelasan + Peningkatan Kesamaan** ke `0.80` untuk tampilan studio yang bersih.
 
 ### Langkah 3: Campurkan Dialog & Batang Musik
-Pastikan musik latar dikecilkan **-14dB** di bawah trek narasi sulih suara selama pengeditan video.
+Pastikan musik latar dikecilkan **-14dB** di bawah track narasi voiceover selama pengeditan video.
 
 ---
 
 ## Contoh yang berhasil
 
-**Saluran Produksi Audio untuk "Iklan Real Estat Komersial"**
+**Saluran Produksi Audio untuk "Iklan Real Estate Komersial"**
 
 * **Suara:** ElevenLabs "Adam - Narator Perusahaan yang Mendalam" (Stabilitas `0.45`).
 * **Skor Latar Belakang:** Suno v3.5 Instrumental (`"Ambient corporate piano, warm uplifting strings, 110 bpm"`).
@@ -70,7 +70,7 @@ Pastikan musik latar dikecilkan **-14dB** di bawah trek narasi sulih suara selam
 | Model/Platform | Kategori Utama | Kekuatan | Terbaik Untuk |
 |---|---|---|---|
 | **SebelasLabs** | Sintesis & Kloning Suara | Dinamika emosional, dialog multi-speaker, kloning suara | Sulih suara komersial, buku audio, podcast |
-| **Suno v3.5** | Musik Generatif | Struktur lagu lengkap (Verses, Chorus), generasi cepat | Trek musik latar, jingle, partitur |
+| **Suno v3.5** | Musik Generatif | Struktur lagu lengkap (Verses, Chorus), generasi cepat | Track musik latar, jingle, partitur |
 | **Udio** | Musik Generatif | Fidelitas unggul dan kontrol campuran vokal | Produksi & batang musik dengan ketelitian tinggi |
 | **Bisikan (OpenAI)** | Pidato-ke-Teks | Akurasi transkripsi 99%+ dalam 50+ bahasa | Subtitel video, transkrip, teks tertutup |
 
@@ -84,8 +84,8 @@ Pastikan musik latar dikecilkan **-14dB** di bawah trek narasi sulih suara selam
 
 ## Latihan
 
-1. **Mudah:** Buat skrip sulih suara komersial berdurasi 30 detik menggunakan ElevenLabs.
-2. **Medium:** Buat trek latar belakang instrumental menggunakan Suno v3.5 yang sesuai dengan tempo sulih suara Anda.
+1. **Mudah:** Buat skrip voiceover komersial berdurasi 30 detik menggunakan ElevenLabs.
+2. **Medium:** Buat track latar belakang instrumental menggunakan Suno v3.5 yang sesuai dengan tempo voiceover Anda.
 3. **Sulit:** Menghasilkan campuran audio lengkap (Suara + Musik + Subtitle) untuk iklan video berdurasi 60 detik.
 
 ---

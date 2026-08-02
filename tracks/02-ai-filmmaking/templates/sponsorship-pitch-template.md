@@ -20,7 +20,7 @@ Mengingat estetika visual film ini, ada peluang sempurna untuk mengintegrasikan 
 * **Aset Sosial:** 1x film layar lebar utama (untuk YouTube/Vimeo) ditambah 2x potongan vertikal berenergi tinggi (9:16) yang dioptimalkan untuk Reel Instagram/TikTok.
 * **Co-branding:** "Disponsori oleh [Nama Merek]" dalam judul dan deskripsi pembuka.
 
-Saya telah melampirkan mockup papan cerita visual 3 gambar untuk adegan ini guna memberi Anda gambaran tentang gradasi warna dan tampilannya.
+Saya telah melampirkan mockup storyboard visual 3 gambar untuk adegan ini guna memberi Anda gambaran tentang gradasi warna dan tampilannya.
 
 Jika Anda terbuka untuk berdiskusi, saya dapat mengirimkan dek proyek lengkap dan opsi harga.
 

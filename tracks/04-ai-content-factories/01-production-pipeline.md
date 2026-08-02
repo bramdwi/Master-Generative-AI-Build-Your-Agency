@@ -2,7 +2,7 @@
 
 > Pabrik dibangun berdasarkan stasiun, bukan tugas.
 
-**Lacak:** Pabrik Konten AI
+**Lacak:** AI Content Factory
 **Waktu:** ~40 menit
 **Prasyarat:** Tidak ada
 
@@ -16,14 +16,14 @@ Untuk menghasilkan keuntungan, Anda harus menjalankan produksi seperti jalur per
 
 ## Konsep
 
-Prinsip inti pabrik konten adalah **Jalur Produksi Linier**:
+Prinsip inti content factory adalah **Jalur Produksi Linier**:
 
 ```
 Idea  ──►  Script  ──►  Voiceover  ──►  Visuals  ──►  Assembly  ──►  Polish  ──►  Schedule
 ```
 
 Dengan mengatur pekerjaan Anda ke dalam stasiun, Anda mencapai:
-* **Aliran Searah:** Anda tidak pernah menulis atau mengubah skrip *setelah* pembuatan sulih suara selesai. Anda tidak pernah membuat aset visual baru *setelah* pengeditan selesai. Pekerjaan hanya bergerak maju melalui jalur pipa – tidak pernah mundur.
+* **Aliran Searah:** Anda tidak pernah menulis atau mengubah skrip *setelah* pembuatan voiceover selesai. Anda tidak pernah membuat aset visual baru *setelah* pengeditan selesai. Pekerjaan hanya bergerak maju melalui jalur pipa – tidak pernah mundur.
 * **Spesialisasi Stasiun:** Setiap tahapan memiliki kriteria input dan output yang ketat, sehingga pekerjaan yang belum selesai dapat mencegah penyumbat down-line editor.
 * **Hasil yang Distandarkan:** File ekspor diperiksa berdasarkan parameter teknis yang ketat (resolusi, codec, ambang batas audio) sebelum dikirim untuk menghindari revisi.
 
@@ -46,7 +46,7 @@ Di hard drive Anda, buat template folder yang mencerminkan struktur stasiun pipa
 Draf skrip batch. Pastikan mereka memenuhi batasan jumlah kata yang ketat (di bawah 180 kata untuk bentuk pendek) dan ikuti struktur pengait. Kunci skripnya.
 
 ### Langkah 3: Stasiun 3 & 4 (Audio Spine)
-Hasilkan file audio sulih suara secara batch. Impor ke folder proyek Anda. Hentikan keheningan awal dan akhir. Catat durasinya di template log narasi Anda.
+Hasilkan file audio voiceover secara batch. Impor ke folder proyek Anda. Hentikan keheningan awal dan akhir. Catat durasinya di template log narasi Anda.
 
 ### Langkah 4: Stasiun 5 (Panen Visual)
 Hasilkan atau unduh visual latar belakang yang cocok dengan garis waktu audio yang dicatat. Jangan buka editor video dulu. Atur visual dalam subfolder berdasarkan nomor video.

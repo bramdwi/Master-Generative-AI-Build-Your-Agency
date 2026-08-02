@@ -47,7 +47,7 @@ Gunakan lembar contekan ini untuk menghasilkan foto wajah yang disesuaikan untuk
 ### 11. Direktur Kreatif/Kepala Agensi
 > __KODE INLINE_0__
 
-### 12. Pialang/Agen Real Estat
+### 12. Pialang/Agen Real Estate
 > __KODE INLINE_0__
 
 ### 13. Konsultan Manajemen

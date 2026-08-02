@@ -1,6 +1,6 @@
 # Produksi Podcast & Lembar Pembersihan Audio
 
-Gunakan lembar ini untuk menentukan parameter pembersihan audio, ambang pemerataan, dan target mastering untuk menghasilkan trek suara berkualitas studio profesional.
+Gunakan lembar ini untuk menentukan parameter pembersihan audio, ambang pemerataan, dan target mastering untuk menghasilkan track suara berkualitas studio profesional.
 
 ---
 
@@ -23,5 +23,5 @@ Gunakan lembar ini untuk menentukan parameter pembersihan audio, ambang pemerata
 
 ## 3. Penguasaan Target (Pemeriksaan Kenyaringan)
 * **Target Dialog Mono:** **-19 LUFS** (Standar untuk podcast pidato mono).
-* **Target Master Stereo:** **-16 LUFS** (Standar untuk trek stereo dengan musik latar).
+* **Target Master Stereo:** **-16 LUFS** (Standar untuk track stereo dengan musik latar).
 * **Batas Puncak Sejati:** **-1,0 dBTP** (Untuk mencegah kliping dan distorsi pada perangkat seluler).

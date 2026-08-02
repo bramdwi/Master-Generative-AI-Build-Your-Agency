@@ -2,7 +2,7 @@
 
 > Mentransformasi listing properti kosong yang aktif menjadi retainer agensi bulanan yang berulang melalui audit sebelum/sesudah yang terarah.
 
-**Track:** AI Real Estat (Pementasan Virtual)
+**Track:** AI Real Estate (Virtual Staging Virtual)
 **Waktu:** ~45 menit
 **Prasyarat:** Empty Room → Staged Room Pipeline, Penentuan Harga Berbanding Traditional Staging
 

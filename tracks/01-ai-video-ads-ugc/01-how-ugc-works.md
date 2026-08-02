@@ -24,7 +24,7 @@ Script  →  Avatar / Voice  →  Video  →  Captions  →  Export
 ```
 
 * **Script** — susunan narasi singkat berupa hook + pitch + call-to-action yang dirancang menyerupai gaya tutur manusia nyata, bukan sekadar ad copy.
-* **Avatar/Voice** — dapat berupa avatar talking-head yang dihasilkan bersama voice sintetis/kloning, maupun gambar referensi statis yang dianimasikan mengandalkan lip-sync berbasis trek audio.
+* **Avatar/Voice** — dapat berupa avatar talking-head yang dihasilkan bersama voice sintetis/kloning, maupun gambar referensi statis yang dianimasikan mengandalkan lip-sync berbasis track audio.
 * **Video** — penampilan dari avatar, ditunjang oleh materi b-roll (tampilan produk, rekaman layar) yang disunting secara presisi di sekitarnya.
 * **Captions** — teks otomatis yang disematkan secara permanen (burned-in captions), menjadi standar utama format ini mengingat mayoritas penonton menyimak video tanpa mengaktifkan suara.
 * **Export** — format serta aspect ratio yang disesuaikan secara presisi dengan platform tujuan (9:16 untuk Reels/TikTok/Shorts, atau sesekali 1:1 dan 16:9).
@@ -35,7 +35,7 @@ Alasan mengapa pemahaman alur pipeline ini jauh lebih krusial ketimbang sekadar 
 
 1. **Susun script.** Pertahankan durasi penuturan di bawah 30 detik (~75-90 kata). Struktur naskah: hook (2 detik awal — berupa pertanyaan, klaim lugas, maupun kejutan visual), problem/pitch (10-15 detik), proof atau demo (10-15 detik), serta call-to-action (2-3 detik akhir).
 2. **Hasilkan voice.** Manfaatkan model text-to-speech atau voice-cloning untuk mengubah script menjadi narasi berartikulasi natural. Selaraskan intonasi dengan karakter produk (energik untuk gawai, tenang untuk produk perawatan kulit) — dan hindari menyudahi proses pada percobaan pertama. Hasilkan 2-3 variasi dengan dinamika tempo serta penekanan kata yang berbeda (penekanan kata pada baris hook dapat mengubah persepsi "terkejut" atau "santai" saat dibaca), lalu pilih opsi yang paling tidak terkesan seperti sedang membaca teks. Keselarasan aksen dan demografi terhadap calon audiens produk juga memegang peranan krusial di sini — pilihan suara yang tidak selaras dapat merusak kualitas script yang sejatinya sudah tersusun baik.
-3. **Hasilkan atau animasikan avatar.** Anda dapat menghasilkan video talking-head secara langsung dari script/voice, maupun menganimasikan gambar referensi melalui sinkronisasi lip-sync berbasis trek audio.
+3. **Hasilkan atau animasikan avatar.** Anda dapat menghasilkan video talking-head secara langsung dari script/voice, maupun menganimasikan gambar referensi melalui sinkronisasi lip-sync berbasis track audio.
 4. **Sematkan b-roll.** Sisipkan tampilan produk atau rekaman layar pada bagian pitch/proof — langkah ini sekaligus berfungsi menyamarkan celah ketidaksempurnaan singkat pada rekaman avatar.
 5. **Sematkan caption dan lakukan export.** Hasilkan captions secara otomatis, sematkan secara permanen, lalu lakukan export pada format 9:16 untuk kebutuhan platform short-form.
 6. **Lakukan ship check.** Sebelum menyerahkan materi kepada client, simak ad yang telah selesai sebanyak satu kali tanpa suara (pastikan apakah hook tetap bekerja secara optimal hanya melalui captions) dan satu kali dengan suara pada volume standar. Apabila Anda mendapati diri Anda jeda sejenak untuk memahami apa yang sedang terjadi, client pun akan merasakan hal yang sama — itu merupakan indikasi untuk memperbaiki tempo atau memotong bagian tertentu, bukan sekadar langsung mengirimkannya.

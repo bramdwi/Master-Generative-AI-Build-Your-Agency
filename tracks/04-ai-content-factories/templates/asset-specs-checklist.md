@@ -18,4 +18,4 @@ Gunakan daftar periksa ini selama ekspor/mastering akhir untuk memastikan video 
 
 ## 3. Lembar metadata SEO
 - [ ] **Penamaan File:** Beri nama file yang diekspor dengan kata kunci target utama (misalnya `how-to-automate-invoices.mp4`, bukan `final_render_v2_edit.mp4`).
-- [ ] **Bio Baris Pertama:** Tempatkan tautan corong utama Anda (laman keikutsertaan) di **100 karakter pertama** deskripsi video sehingga terlihat sebelum pengguna mengeklik "Lainnya".
+- [ ] **Bio Baris Pertama:** Tempatkan tautan funnel utama Anda (laman keikutsertaan) di **100 karakter pertama** deskripsi video sehingga terlihat sebelum pengguna mengeklik "Lainnya".

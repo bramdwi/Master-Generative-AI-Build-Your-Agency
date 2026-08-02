@@ -15,7 +15,7 @@ $$\text{Laba Bersih per Pengguna} = \text{Harga Langganan Bulanan} - (\text{Rend
 |---|---|---|---|---|---|---|
 | **Pembuat Gambar Kecil AI** | FLUX 1.1 Pro | $0,04 | 30 | $1,20 | **$19,00 / bln** | **93,6%** |
 | **Pembuat Subtitle Pendek** | Bisikan + ElevenLabs | $0,02 | 40 | $0,80 | **$15,00 / bln** | **94,6%** |
-| **Pemain Virtual Real Estat** | Replikasi (SDXL) | $0,05 | 20 | $1,00 | **$29,00 / bln** | **96,5%** |
+| **Pemain Virtual Real Estate** | Replikasi (SDXL) | $0,05 | 20 | $1,00 | **$29,00 / bln** | **96,5%** |
 
 ---
 

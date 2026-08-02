@@ -1,6 +1,6 @@
 # Pelacak Konversi Mode & Log Pengembalian
 
-Gunakan pelacak ini untuk mencatat kinerja listingan, peningkatan konversi, dan penurunan tingkat pengembalian setelah memperkenalkan model uji coba virtual dan pembaruan lookbook.
+Gunakan pelacak ini untuk mencatat kinerja listingan, peningkatan konversi, dan penurunan tingkat pengembalian setelah memperkenalkan model virtual try-on dan pembaruan lookbook.
 
 ## 1. Metrik CVR Visual Inti
 

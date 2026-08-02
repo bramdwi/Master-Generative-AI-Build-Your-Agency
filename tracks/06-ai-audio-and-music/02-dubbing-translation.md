@@ -12,9 +12,9 @@
 
 Jika Anda hanya mendistribusikan konten, iklan, atau kursus online dalam bahasa Inggris, Anda mengabaikan lebih dari 80% pengguna internet global. Potensi pasar yang sangat besar di Amerika Latin, Eropa, dan Asia menjadi terisolasi dari alur pemasaran Anda.
 
-Namun demikian, metode penerjemahan dan lokalisasi tradisional berlangsung lambat dan membutuhkan alokasi anggaran yang besar. Anda harus menyewa spesialis penerjemah asing, mengontrak pengisi suara lokal di berbagai negara, merekam trek vokal di studio profesional, serta menyelaraskan trek audio baru secara manual agar presisi dengan tempo alur waktu video asli.
+Namun demikian, metode penerjemahan dan lokalisasi tradisional berlangsung lambat dan membutuhkan alokasi anggaran yang besar. Anda harus menyewa spesialis penerjemah asing, mengontrak pengisi suara lokal di berbagai negara, merekam track vokal di studio profesional, serta menyelaraskan track audio baru secara manual agar presisi dengan tempo alur waktu video asli.
 
-Guna mengakselerasi jaringan konten global, Anda membutuhkan alur kerja yang teruji untuk menerjemahkan trek audio ke dalam berbagai bahasa asing secara otomatis, sembari mempertahankan artikulasi asli, profil vokal, dan infleksi emosional penutur.
+Guna mengakselerasi jaringan konten global, Anda membutuhkan alur kerja yang teruji untuk menerjemahkan track audio ke dalam berbagai bahasa asing secara otomatis, sembari mempertahankan artikulasi asli, profil vokal, dan infleksi emosional penutur.
 
 ## Konsep
 
@@ -49,17 +49,17 @@ Buka ElevenLabs lalu akses tab **Dubbing** (atau panggil rute API `/dubbing`). K
 
 Kirimkan berkas video. Engine AI akan:
 
-* Memisahkan trek dialog dari trek musik latar mengandalkan teknik stem splitting.
+* Memisahkan track dialog dari track musik latar mengandalkan teknik stem splitting.
 * Menerjemahkan teks bahasa Inggris.
 * Menyintesis ulang dialog ke dalam bahasa target mengandalkan vokal kloning dari penutur asli.
-* Menggabungkan kembali dialog baru dengan trek musik latar asli.
+* Menggabungkan kembali dialog baru dengan track musik latar asli.
 
 ### Langkah 4: Audit Tempo dan Kecepatan Suku Kata
 
 Cermati luaran dubbing bahasa asing yang dihasilkan. Lakukan pembesaran pada alur waktu di aplikasi penyunting Anda:
 
 * Evaluasi potensi efek suara "chipmunk" di mana penerjemahan dipampatkan secara berlebihan agar muat dalam durasi yang singkat.
-* Jika kalimat terjemahan terpotong di bagian akhir, sesuaikan alur waktu pada editor visual dengan membelah cuplikan latar belakang dan menambahkan freeze frame berdurasi 0,5 detik, yang memberi ruang bagi trek vokal untuk selesai secara natural.
+* Jika kalimat terjemahan terpotong di bagian akhir, sesuaikan alur waktu pada editor visual dengan membelah cuplikan latar belakang dan menambahkan freeze frame berdurasi 0,5 detik, yang memberi ruang bagi track vokal untuk selesai secara natural.
 
 ---
 
@@ -72,7 +72,7 @@ Cermati luaran dubbing bahasa asing yang dihasilkan. Lakukan pembesaran pada alu
 * **Audit Sintesis:**
 * Karakter vokal bahasa Spanyol terdengar sangat identik dengan timbre vokal penutur bahasa Inggris.
 * Dikarenakan teks bahasa Spanyol memuat suku kata yang lebih banyak, engine memampatkan kecepatan tuturan secara otomatis sebesar **1.12x**.
-* Trek audio diselaraskan untuk dimulai secara presisi pada 0:00.00 dan berakhir pada 0:04.45.
+* Track audio diselaraskan untuk dimulai secara presisi pada 0:00.00 dan berakhir pada 0:04.45.
 
 
 * **Hasilnya:** Hasil dubbing bahasa Spanyol menyatu secara presisi pada alur waktu video asli. Pengguna dapat mengespor dan mempublikasikan video secara langsung.
@@ -83,9 +83,9 @@ Cermati luaran dubbing bahasa asing yang dihasilkan. Lakukan pembesaran pada alu
 
 | Platform / Tool | Kualitas Preservasi Vokal | Tempo & Penyelarasan | Sangat Cocok Untuk |
 | --- | --- | --- | --- |
-| **ElevenLabs Dubbing API** | Presisi Tinggi (Mempertahankan timbre vokal dan pemisahan trek musik latar) | Baik (Memampatkan kecepatan tuturan secara otomatis agar sesuai dengan batasan waktu) | Dubbing otomatis untuk video YouTube dan iklan secara cepat. |
+| **ElevenLabs Dubbing API** | Presisi Tinggi (Mempertahankan timbre vokal dan pemisahan track musik latar) | Baik (Memampatkan kecepatan tuturan secara otomatis agar sesuai dengan batasan waktu) | Dubbing otomatis untuk video YouTube dan iklan secara cepat. |
 | **HeyGen Video Translate** | Tinggi (Menyertakan penerjemahan lip-sync otomatis agar sesuai dengan artikulasi bibir asing) | Moderat | Video face-to-camera di mana gerakan bibir selaras dengan audio target. |
-| **Local Pipeline (Whisper + XTTS)** | Moderat | Manual (Membutuhkan penyesuaian alur waktu trek audio secara manual) | Pengembangan kustom tanpa beban biaya API. |
+| **Local Pipeline (Whisper + XTTS)** | Moderat | Manual (Membutuhkan penyesuaian alur waktu track audio secara manual) | Pengembangan kustom tanpa beban biaya API. |
 
 Untuk saluran B2B faceless, memanfaatkan ElevenLabs Dubbing API merupakan pilihan yang paling efisien karena memproses penerjemahan dan rekonstruksi audio latar belakang dalam satu alur kerja tunggal. Untuk video juru bicara face-to-camera, HeyGen Video Translate merupakan opsi ideal karena menyelaraskan bentuk bibir dengan bahasa baru.
 
@@ -95,8 +95,8 @@ Untuk saluran B2B faceless, memanfaatkan ElevenLabs Dubbing API merupakan piliha
 
 **Cara mengelola saluran terlokalisasi:**
 
-* **Manfaatkan Fitur YouTube Multi-Language Audio:** YouTube memungkinkan Anda mengunggah berbagai trek audio (Inggris, Spanyol, Portugis) ke dalam satu berkas video tunggal. Hal ini mengkonsolidasikan seluruh jumlah tayangan pada satu URL tunggal, yang mendongkrak peringkat Anda pada algoritma.
-* **Terjemahkan metadata:** Hindari mengunggah trek audio bahasa Spanyol yang disertai judul dan deskripsi bahasa Inggris. Terjemahkan judul, deskripsi, dan berkas tag Anda mengandalkan template daftar periksa media Anda.
+* **Manfaatkan Fitur YouTube Multi-Language Audio:** YouTube memungkinkan Anda mengunggah berbagai track audio (Inggris, Spanyol, Portugis) ke dalam satu berkas video tunggal. Hal ini mengkonsolidasikan seluruh jumlah tayangan pada satu URL tunggal, yang mendongkrak peringkat Anda pada algoritma.
+* **Terjemahkan metadata:** Hindari mengunggah track audio bahasa Spanyol yang disertai judul dan deskripsi bahasa Inggris. Terjemahkan judul, deskripsi, dan berkas tag Anda mengandalkan template daftar periksa media Anda.
 
 ---
 

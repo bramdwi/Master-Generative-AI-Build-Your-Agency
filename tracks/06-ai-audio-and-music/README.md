@@ -1,8 +1,8 @@
-# Trek 6 — AI Audio & Musik
+# Track 6 — AI Audio & Musik
 
-> Kloning suara, terjemahan, sulih suara, produksi podcast, dan musik AI — trek yang menjadi sandaran setiap trek video.
+> Kloning suara, terjemahan, voiceover, produksi podcast, dan musik AI — track yang menjadi sandaran setiap track video.
 
-Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Lima modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, daftar periksa, pustaka) — file aktual yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
@@ -62,10 +62,10 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 - Konversi warna nada suara menggunakan model konversi suara berbasis pengambilan (RVC).
 - Variasi nada yang benar dalam rekaman vokal pemandu menggunakan filter jepretan nada sebelum konversi.
-- Sesuaikan nilai pergeseran nada berdasarkan oktaf untuk mengonversi trek panduan dalam rentang vokal pria dan wanita.
+- Sesuaikan nilai pergeseran nada berdasarkan oktaf untuk mengonversi track panduan dalam rentang vokal pria dan wanita.
 
 **Template:** [`vocal-conversion-brief.md`](templates/vocal-conversion-brief.md)
 
 ---
 
-Semua template ada di [`templates/`](templates/). Untuk status di 9 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 9 track lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

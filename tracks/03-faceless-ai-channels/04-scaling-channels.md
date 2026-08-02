@@ -8,7 +8,7 @@
 
 ## Masalahnya
 
-Saat Anda memulai saluran tanpa wajah pertama Anda, hal baru membuat Anda terus maju. Anda menulis naskah, membuat sulih suara, mengunduh gambar, menggabungkannya, menambahkan keterangan, dan mengunggah. Ini membutuhkan waktu sekitar 2 jam per video.
+Saat Anda memulai saluran tanpa wajah pertama Anda, hal baru membuat Anda terus maju. Anda menulis naskah, membuat voiceover, mengunduh gambar, menggabungkannya, menambahkan keterangan, dan mengunggah. Ini membutuhkan waktu sekitar 2 jam per video.
 
 Namun jika Anda ingin meningkatkan penghasilan Anda, Anda akan segera menyadari keterbatasan waktu. Jika Anda mencoba menjalankan tiga saluran berbeda (misalnya satu untuk Teknologi, satu untuk Keuangan, dan satu lagi untuk Kesehatan) menggunakan metode manual ini, satu per satu, Anda akan menghabiskan 6 jam sehari untuk mengedit. Anda akan melewatkan unggahan, memposting secara tidak konsisten, dan algoritme rekomendasi akan berhenti mempromosikan video Anda.
 
@@ -19,7 +19,7 @@ Untuk menskalakan jaringan saluran tanpa wajah tanpa kehabisan tenaga, Anda haru
 Penskalaan bergantung pada tiga prinsip inti: **Temporal Batching**, **Sindikasi**, dan **Repurposing**.
 
 ### 1. Pengelompokan Sementara:
-Daripada mengubah konteks Anda dari pembuatan skrip, sulih suara, hingga pengeditan beberapa kali sehari, Anda melakukan satu tugas dalam skala besar. Anda menulis kelima skrip untuk minggu ini pada hari Senin. Anda menghasilkan semua 5 file audio pada hari Selasa. Hal ini meningkatkan kecepatan produksi dengan menghilangkan waktu penyiapan dan peralihan konteks.
+Daripada mengubah konteks Anda dari pembuatan skrip, voiceover, hingga pengeditan beberapa kali sehari, Anda melakukan satu tugas dalam skala besar. Anda menulis kelima skrip untuk minggu ini pada hari Senin. Anda menghasilkan semua 5 file audio pada hari Selasa. Hal ini meningkatkan kecepatan produksi dengan menghilangkan waktu penyiapan dan peralihan konteks.
 
 ```
 Monday: Write 5 Scripts ──► Tuesday: Gen 5 Voices ──► Wednesday: Render 5 Clips ──► Thursday: Edit & Schedule
@@ -54,7 +54,7 @@ Jika Anda menjalankan lebih dari dua saluran, siapkan **profil Google Chrome** (
 Hasilkan semua aset visual latar belakang dalam satu sesi. Buka generator gambar Anda dan antri perintah untuk kelima video tersebut. Simpan dalam folder berlabel `[Video_1]`, `[Video_2]`, dll.
 
 ### Langkah 5: Edit dan Antrean
-* Impor semua trek audio dan folder visual ke CapCut atau editor Anda.
+* Impor semua track audio dan folder visual ke CapCut atau editor Anda.
 * Edit kelima video sekaligus, salin-tempel gaya teks dan pengaturan audio.
 * Ekspor file yang sudah selesai.
 
@@ -82,7 +82,7 @@ Unggah video ke YouTube Studio, TikTok Studio, dan Instagram Creator Studio. Gun
 | Hari | Tugas Aktif | Keluaran | Jam yang dihabiskan |
 |---|---|---|:---:|
 | **Senin** | Pembuatan skrip | 5 skrip lengkap (masing-masing kurang dari 160 kata) | 1,5 jam |
-| **Selasa** | Sulih Suara | 5 mp3 narasi yang diproses (keheningan dipangkas) | 0,5 jam |
+| **Selasa** | Voiceover | 5 mp3 narasi yang diproses (keheningan dipangkas) | 0,5 jam |
 | **Rabu** | Visual | 25 klip / tangkapan layar b-roll yang dihasilkan | 2,0 jam |
 | **Kamis** | Mengedit | 5 video akhir 9:16, diberi teks otomatis & diberi warna | 1,5 jam |
 | **Jumat** | Penjadwalan | Dijadwalkan rilis di YouTube/TikTok/Instagram | 0,5 jam |
@@ -99,7 +99,7 @@ Unggah video ke YouTube Studio, TikTok Studio, dan Instagram Creator Studio. Gun
 | **Kliping Terprogram** (`ai-clipping-generator`) | Secara otomatis mendeteksi jeda ucapan dan memotong video panjang menjadi sorotan pendek. | Menskalakan inventaris saluran jangka panjang. |
 | **Penjadwal Pihak Ketiga** (Buffer/Nanti) | Dasbor tunggal untuk semua akun, tetapi sering kali membatasi pilihan musik khusus atau format carousel pada platform berdurasi pendek. | Mengelola pembaruan merek umum, kurang ideal untuk feed singkat yang berfokus pada pembuat konten. |
 
-Selalu pilih penjadwal asli (YouTube Studio Web, TikTok Studio Web) untuk saluran pembuat konten. API otomatisasi pihak ketiga terkadang ditandai atau memiliki batasan postingan terkait trek audio yang sedang tren.
+Selalu pilih penjadwal asli (YouTube Studio Web, TikTok Studio Web) untuk saluran pembuat konten. API otomatisasi pihak ketiga terkadang ditandai atau memiliki batasan postingan terkait track audio yang sedang tren.
 
 ---
 

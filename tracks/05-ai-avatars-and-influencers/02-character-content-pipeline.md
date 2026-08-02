@@ -23,15 +23,15 @@ Static Avatar Portrait + Clean Voice Audio  ──►  Lip-Sync Engine  ──�
 ```
 
 1. **Jangkar Statis:** Daripada membuat video lengkap dari awal, Anda menggunakan Potret Master yang konsisten sebagai jangkar visual.
-2. **Sinkronisasi Bibir Berbasis Audio:** Anda memasukkan Potret Master dan trek suara yang Anda buat ke dalam API sinkronisasi bibir (seperti `sync-lipsync` atau `volcengine-video-to-video-lip-sync` melalui muapi). Mesin mengubah *hanya* mulut, rahang, dan mata agar sesuai dengan bentuk gelombang audio, menjaga struktur kepala, rambut, dan pakaian 100% konsisten.
-3. **Pengomposisian & Hamparan:** Untuk membuat video terlihat dinamis, Anda memotong bagian kepala yang berbicara setiap 4–5 detik, melapisi tangkapan layar, bagan, atau slide b-roll sementara trek suara terus diputar.
+2. **Sinkronisasi Bibir Berbasis Audio:** Anda memasukkan Potret Master dan track suara yang Anda buat ke dalam API sinkronisasi bibir (seperti `sync-lipsync` atau `volcengine-video-to-video-lip-sync` melalui muapi). Mesin mengubah *hanya* mulut, rahang, dan mata agar sesuai dengan bentuk gelombang audio, menjaga struktur kepala, rambut, dan pakaian 100% konsisten.
+3. **Pengomposisian & Hamparan:** Untuk membuat video terlihat dinamis, Anda memotong bagian kepala yang berbicara setiap 4–5 detik, melapisi tangkapan layar, bagan, atau slide b-roll sementara track suara terus diputar.
 
 ---
 
 ## Lakukan itu
 
 ### Langkah 1: Siapkan Aset Anda
-Pastikan file Anda memenuhi pedoman di [`templates/lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md). Kunci Potret Master statis Anda (`emma-master.jpg`) dan narasi sulih suara yang bersih (`01_intro.mp3`).
+Pastikan file Anda memenuhi pedoman di [`templates/lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md). Kunci Potret Master statis Anda (`emma-master.jpg`) dan narasi voiceover yang bersih (`01_intro.mp3`).
 
 ### Langkah 2: Panggil API Lip-Sync
 Kirimkan aset Anda ke titik akhir `/sync-lipsync` (atau sinkronisasi bibir volcengine):
@@ -42,12 +42,12 @@ Kirimkan aset Anda ke titik akhir `/sync-lipsync` (atau sinkronisasi bibir volce
 ### Langkah 3: Unduh & Audit Render
 Unduh file `.mp4` yang dihasilkan. Jalankan audit kualitas:
 * **Mulut melengkung:** Periksa apakah koordinat mulut meregang secara tidak wajar saat mengucapkan kata-kata cepat.
-* **Drift:** Pastikan bibir cocok dengan suku kata trek suara. Jika ada sedikit jeda, sesuaikan trek audio sebesar -50 md hingga -100 md di timeline Anda untuk menyelaraskan sinkronisasi.
+* **Drift:** Pastikan bibir cocok dengan suku kata track suara. Jika ada sedikit jeda, sesuaikan track audio sebesar -50 md hingga -100 md di timeline Anda untuk menyelaraskan sinkronisasi.
 
 ### Langkah 4: Tambahkan B-Roll Overlay dalam Pengeditan
 Impor video kepala bicara ke CapCut. Jangan biarkan kepala yang berbicara di layar selama 60 detik.
 * **0.0 - 3.0s:** Pertahankan avatar di layar untuk membuat human hook.
-* **3.0 - 15.0s:** Dipotong ke b-roll kontras tinggi (rekaman layar, jepretan produk) sementara sulih suara berlanjut di A1.
+* **3.0 - 15.0s:** Dipotong ke b-roll kontras tinggi (rekaman layar, jepretan produk) sementara voiceover berlanjut di A1.
 * **15.0 - 18.0s:** Potong kembali ke wajah avatar untuk membangun kembali koneksi.
 
 ---
@@ -68,8 +68,8 @@ Impor video kepala bicara ke CapCut. Jangan biarkan kepala yang berbicara di lay
 * **Pemrosesan Sinkronisasi Bibir:** Aset dimasukkan ke `/sync-lipsync`. File video keluaran berdurasi 4,5 detik, memperlihatkan Emma mengucapkan teks intro secara alami dengan animasi berkedip.
 * **Perakitan Timeline:**
 * **0.0 - 4.5s:** Emma di layar berbicara langsung kepada penonton. Hamparan teks pada sumbu Y.
-* **4.5 - 20.0s:** Trek video dipotong ke rekaman layar ruang kerja otomatisasi Zapier. Sulih suara Emma berlanjut.
-* **20.0 - 24.0s:** Trek video dipotong kembali saat Emma berbicara.
+* **4.5 - 20.0s:** Track video dipotong ke rekaman layar ruang kerja otomatisasi Zapier. Sulih suara Emma berlanjut.
+* **20.0 - 24.0s:** Track video dipotong kembali saat Emma berbicara.
 
 **Hasilnya:** Videonya sangat dinamis. Penonton terpikat oleh wajah yang realistis dan berbicara, namun isi video dipenuhi dengan tangkapan layar yang informatif, menjaga interaksi tetap tinggi sekaligus meminimalkan biaya rendering.
 
@@ -95,7 +95,7 @@ Impor video kepala bicara ke CapCut. Jangan biarkan kepala yang berbicara di lay
 | **HeiGen / Synthesia** | Sangat Tinggi (Tubuh dan gerakan tangan yang sudah dibuat sebelumnya, tetapi biaya berlangganan mahal) | Tinggi ($30–$200/bln) | Rendah |
 | **UI Nyaman Lokal (LivePortrait)** | Ultra-High (Melacak pergerakan persis dari aktor webcam) | Gratis | Sangat Tinggi (Memerlukan pengaturan GPU yang berat dan pemetaan node) |
 
-Untuk pabrik konten yang mengirimkan proyek klien, menggunakan `/sync-lipsync` muapi adalah opsi yang paling skalabel. Ini hanya mengenakan biaya per panggilan API tanpa penguncian langganan bulanan, dan menghasilkan pergerakan kepala dengan ketelitian tinggi yang cocok dengan file sulih suara khusus.
+Untuk content factory yang mengirimkan proyek klien, menggunakan `/sync-lipsync` muapi adalah opsi yang paling skalabel. Ini hanya mengenakan biaya per panggilan API tanpa penguncian langganan bulanan, dan menghasilkan pergerakan kepala dengan ketelitian tinggi yang cocok dengan file voiceover khusus.
 
 ---
 
@@ -110,7 +110,7 @@ Untuk pabrik konten yang mengirimkan proyek klien, menggunakan `/sync-lipsync` m
 ## Latihan
 
 1. **Mudah:** Kumpulkan satu gambar wajah bersih menghadap ke depan dan klip audio berdurasi 5 detik. Verifikasi bahwa mereka memenuhi spesifikasi daftar periksa.
-2. **Medium:** Kirimkan aset Anda yang telah disiapkan ke mesin sinkronisasi bibir. Unduh video dan sejajarkan trek audio dengan timeline, perbaiki sedikit penundaan sinkronisasi bibir.
+2. **Medium:** Kirimkan aset Anda yang telah disiapkan ke mesin sinkronisasi bibir. Unduh video dan sejajarkan track audio dengan timeline, perbaiki sedikit penundaan sinkronisasi bibir.
 3. **Sulit:** Menghasilkan video vertikal berdurasi 30 detik yang menampilkan avatar AI berbicara selama 3 detik pertama, memotong ke b-roll latar belakang layar hijau selama 20 detik, dan memotong kembali ke avatar untuk ajakan bertindak selama 7 detik.
 
 ---

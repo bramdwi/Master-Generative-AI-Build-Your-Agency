@@ -2,7 +2,7 @@
 
 > Posisikan AI virtual staging bukan sekadar kompromi yang murah, melainkan sebagai mesin akselerasi ber-ROI tinggi bagi para real estate agents.
 
-**Track:** AI Real Estat (Pementasan Virtual)
+**Track:** AI Real Estate (Virtual Staging Virtual)
 **Waktu:** ~35 menit
 **Prasyarat:** Empty Room → Staged Room Pipeline
 

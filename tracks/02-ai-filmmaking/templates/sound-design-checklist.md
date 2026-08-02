@@ -20,7 +20,7 @@ Gunakan daftar periksa ini selama pascaproduksi untuk memastikan film AI Anda te
 ## 4. Musik & Skor
 - [ ] **Penyelarasan Nada:** Cocokkan genre musik dengan genre film.
 - [ ] **Level Dinamis:** Turunkan volume musik sebesar 6dB hingga 12dB setiap kali dialog diputar.
-- [ ] **Sinkronisasi Kunci:** Menyinkronkan potongan visual ke irama atau titik transisi di trek musik jika memungkinkan.
+- [ ] **Sinkronisasi Kunci:** Menyinkronkan potongan visual ke irama atau titik transisi di track musik jika memungkinkan.
 
 ## 5. Pemeriksaan Keluaran Utama
 - [ ] **Level Balance:** Dialog harus terdengar jelas, musik sekunder, SFX tersier.

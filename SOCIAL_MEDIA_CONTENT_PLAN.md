@@ -1,6 +1,6 @@
 # Blueprint Content Strategy & Script Planning: Kampus Kreator AI
 
-Dokumen ini berisi panduan perencanaan konten, naskah (*script*) siap rekam/sulih suara (*voiceover*), prompt gambar visual (Midjourney/Flux), serta alokasi kalender konten sosial media (Instagram Reels/Carousel, TikTok, YouTube Shorts, dan LinkedIn) untuk mempromosikan **Kampus Kreator AI: Master Generative AI & Build Your Agency**.
+Dokumen ini berisi panduan perencanaan konten, naskah (*script*) siap rekam/voiceover (*voiceover*), prompt gambar visual (Midjourney/Flux), serta alokasi kalender konten sosial media (Instagram Reels/Carousel, TikTok, YouTube Shorts, dan LinkedIn) untuk mempromosikan **Kampus Kreator AI: Master Generative AI & Build Your Agency**.
 
 ---
 

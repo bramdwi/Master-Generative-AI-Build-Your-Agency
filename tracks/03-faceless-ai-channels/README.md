@@ -2,7 +2,7 @@
 
 > Saluran YouTube/TikTok tanpa kamera atau rekaman suara — berjalan sebagai sistem bisnis yang skalabel.
 
-Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Lima modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (matriks, struktur skrip, kalkulator) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
@@ -30,7 +30,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 > Visual menceritakan kisahnya, tetapi durasi audio mengontrol pengeditan.
 
-- Letakkan trek audio narasi suara terlebih dahulu untuk menentukan inti garis waktu pengeditan Anda.
+- Letakkan track audio narasi suara terlebih dahulu untuk menentukan inti garis waktu pengeditan Anda.
 - Ukur dan catat durasi klip audio yang tepat untuk menjadwalkan pemotongan visual setiap 2–4 detik.
 - Pangkas jeda tambahan dan frame senyap untuk mempertahankan tempo yang cepat dan bebas drop.
 
@@ -50,7 +50,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 > Satu saluran adalah pekerjaan; tiga saluran adalah sebuah sistem.
 
-- Tetapkan jadwal batch sementara (skripsi pada hari Senin, sulih suara pada hari Selasa, rendering pada hari Rabu).
+- Tetapkan jadwal batch sementara (skripsi pada hari Senin, voiceover pada hari Selasa, rendering pada hari Rabu).
 - Jalankan beberapa akun saluran dengan aman di satu komputer menggunakan profil browser yang terisolasi.
 - Menyindikasikan video vertikal 9:16 secara bersamaan di YouTube Shorts, TikTok, dan Instagram Reels.
 
@@ -68,4 +68,4 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 ---
 
-Semua template ada di [`templates/`](templates/). Untuk status di 13 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 13 track lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

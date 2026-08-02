@@ -1,6 +1,6 @@
 # Lembar Harga Konten Massal
 
-Gunakan lembar referensi ini untuk menentukan harga paket pabrik konten Anda. Hindari penagihan per jam; selalu kemas layanan Anda ke dalam paket massal dengan tarif tetap.
+Gunakan lembar referensi ini untuk menentukan harga paket content factory Anda. Hindari penagihan per jam; selalu kemas layanan Anda ke dalam paket massal dengan tarif tetap.
 
 ---
 
@@ -19,7 +19,7 @@ Gunakan lembar referensi ini untuk menentukan harga paket pabrik konten Anda. Hi
 | Nama Paket | Kiriman Bulanan | Apa yang Termasuk | Target Harga | Perkiraan. Biaya | Margin Laba Bersih |
 |---|:---:|---|:---:|:---:|:---:|
 | **Paket Sorotan Podcast** | 20 Klip | Memotong 20 sorotan dari feed podcast panjang, teks otomatis, overlay branding. | **$1.200** | ~$15 | **98%** |
-| **Penjelajah Layar Lebar** | 4 Video | Empat penjelasan naratif berdurasi 8-10 menit, sulih suara, struktur skrip khusus. | **$2.000** | ~$40 | **98%** |
+| **Penjelajah Layar Lebar** | 4 Video | Empat penjelasan naratif berdurasi 8-10 menit, voiceover, struktur skrip khusus. | **$2.000** | ~$40 | **98%** |
 
 ---
 

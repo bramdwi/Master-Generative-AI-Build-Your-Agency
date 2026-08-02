@@ -73,11 +73,11 @@ Hitung berapa banyak tampilan yang Anda perlukan untuk mengamankan konversi prod
 * **Biaya:** ElevenLabs + CapCut + Kredit video = **$75**
 * **Laba Bersih Bulanan:** **-$35** (Rugi)
 
-### Skenario B: Saluran Otomatisasi SaaS (Shorts + Corong Digital)
+### Skenario B: Saluran Otomatisasi SaaS (Shorts + Funnel Digital)
 * **Penayangan Bulanan:** 100.000 penayangan (Video Shorts)
 * **RPM Khusus:** $0,05
 * **Penghasilan AdSense:** `(100,000 / 1000) * 0.05` = **$5**
-* **Penjualan Langsung (corong Magnet Utama):** 100 pendaftaran -> 5 penjualan template otomatisasi senilai $27 = **$135**
+* **Penjualan Langsung (funnel Lead Magnet):** 100 pendaftaran -> 5 penjualan template otomatisasi senilai $27 = **$135**
 * **Biaya:** Skrip LLM + ElevenLabs + kredit video muapi = **$45**
 * **Laba Bersih Bulanan:** **$95** (Laba)
 

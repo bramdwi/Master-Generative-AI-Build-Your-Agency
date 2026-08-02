@@ -56,7 +56,7 @@ Pembedahan mayoritas merupakan keahlian manual (Lakukan itu di atas), namun vide
 
 > **Hook:** "...her immediate, palpable surprise and excitement are very engaging... 'Okay, I did not expect this...' creates immediate curiosity."
 > **CTA: Miss.** "Tidak ada ajakan bertindak (CTA) yang eksplisit atau tersirat dalam klip pendek ini. Klip berakhir secara tiba-tiba... Ad lengkap idealnya ditindaklanjuti dengan instruksi 'Shop now'..."
-> **Lip sync:** "Sangat baik... tanpa celah dan selaras secara presisi terhadap trek audio."
+> **Lip sync:** "Sangat baik... tanpa celah dan selaras secara presisi terhadap track audio."
 > **Struktur:** "Talking-head tunggal. ...tanpa keberadaan rekaman b-roll."
 
 Hasil analisis tersebut terhitung akurat — klip sampel tersebut memang hanya berupa hook tanpa CTA untuk kebutuhan demonstrasi awal.

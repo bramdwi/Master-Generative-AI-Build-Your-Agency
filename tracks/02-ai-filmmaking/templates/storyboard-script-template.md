@@ -1,6 +1,6 @@
-# Skrip Papan Cerita AI & Template Perincian Bidikan
+# Skrip Storyboard AI & Template Perincian Bidikan
 
-Gunakan template ini untuk memecah adegan skenario menjadi skrip papan cerita yang siap AI sebelum menghasilkan gambar statis dan klip video.
+Gunakan template ini untuk memecah adegan skenario menjadi skrip storyboard yang siap AI sebelum menghasilkan gambar statis dan klip video.
 
 ---
 
@@ -27,7 +27,7 @@ Kunci konsistensi dengan menambahkan string gaya yang sama persis ini ke setiap 
 
 ---
 
-## 📋 Perincian Skrip Papan Cerita Multi-Shot
+## 📋 Perincian Skrip Storyboard Multi-Shot
 
 | Tembakan # | Jenis Tembakan | Subjek & Tindakan | Pembingkaian & Pencahayaan Kamera | Perintah Pembuatan Gambar AI (`nano-banana-2`) | Perintah Gerakan Gambar-ke-Video (`seedance-2`) | File Referensi Aset |
 |---|---|---|---|---|---|---|

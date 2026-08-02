@@ -1,8 +1,8 @@
-# Track 4 - Pabrik Konten AI
+# Track 4 - AI Content Factory
 
 > Pembuatan konten massal, kumpulan skrip, saluran otomatis, dan pengikut sosial berulang.
 
-Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Enam modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, cetak biru loop, proposal) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
@@ -79,4 +79,4 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 ---
 
-Semua template ada di [`templates/`](templates/). Untuk status di 12 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 12 track lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

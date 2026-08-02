@@ -1,10 +1,10 @@
-# Template Panduan Singkat & Gaya Pementasan Virtual AI
+# Template Panduan Singkat & Gaya Virtual Staging Virtual AI
 
-Gunakan ringkasan ini untuk menentukan estetika desain interior, parameter pencahayaan ruangan, dan pengaturan kedalaman kamera sebelum membuat aset pementasan virtual untuk listingan real estat.
+Gunakan ringkasan ini untuk menentukan estetika desain interior, parameter pencahayaan ruangan, dan pengaturan kedalaman kamera sebelum membuat aset virtual staging virtual untuk listingan real estate.
 
 ---
 
-## Ringkasan Properti & Pementasan
+## Ringkasan Properti & Virtual Staging
 
 * **Alamat Properti:** `[Property Street Address, City, State]`
 * **Jenis Properti:** `[e.g., Single Family Home, Modern Condo, Historic Craftsman, Luxury Penthouse]`

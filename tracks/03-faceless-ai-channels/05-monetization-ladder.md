@@ -25,13 +25,13 @@ Tier 2: High-Value Affiliates (100+ Subs) ──► Software/SaaS Recurring Comm
 Tier 1: Lead Magnet & Email (0+ Subs) ──► Free Guide/Template, Building list
 ```
 
-Daripada menawarkan produk seharga $100 kepada audiens yang acuh tak acuh pada hari pertama, Anda memimpin dengan **Magnet Timbal Gratis** (Tingkat 1). Hal ini mengalihkan perhatian ke alamat email, memungkinkan Anda membangun hubungan dan menjual Tingkat 2, 3, dan 4 melalui otomatisasi email, dengan tingkat konversi 10x lebih tinggi daripada deskripsi video.
+Daripada menawarkan produk seharga $100 kepada audiens yang acuh tak acuh pada hari pertama, Anda memimpin dengan **Lead Magnet Gratis** (Tingkat 1). Hal ini mengalihkan perhatian ke alamat email, memungkinkan Anda membangun hubungan dan menjual Tingkat 2, 3, dan 4 melalui otomatisasi email, dengan tingkat konversi 10x lebih tinggi daripada deskripsi video.
 
 ---
 
 ## Lakukan itu
 
-### Langkah 1: Rancang Magnet Timbal Bernilai Tinggi
+### Langkah 1: Rancang Lead Magnet Bernilai Tinggi
 Identifikasi satu-satunya titik gesekan terbesar di niche Anda. Buat alat visual sederhana untuk menyelesaikannya:
 * *SaaS Niche:* Template otomatisasi siap pakai atau daftar alat.
 * *Niche Keuangan:* Kalkulator anggaran dasar Google Sheets.
@@ -43,7 +43,7 @@ Gunakan [`templates/funnel-setup-checklist.md`](templates/funnel-setup-checklist
 ### Langkah 3: Siapkan Portal Checkout Anda
 Buat akun pedagang gratis di Gumroad, Whop, atau Stripe. Siapkan penawaran premium pertama Anda:
 * Pertahankan harga tetap rendah (**$19–$29**) untuk mengurangi gesekan pembelian.
-* Bingkailah sebagai kelanjutan dari magnet utama gratis Anda (misalnya jika penawaran gratis adalah daftar periksa, penawaran berbayar adalah kursus video/perpustakaan template yang lengkap).
+* Bingkailah sebagai kelanjutan dari lead magnet gratis Anda (misalnya jika penawaran gratis adalah daftar periksa, penawaran berbayar adalah kursus video/perpustakaan template yang lengkap).
 
 ### Langkah 4: Amankan Perjanjian Afiliasi
 Identifikasi alat perangkat lunak yang Anda rekomendasikan dalam video Anda. Promosikan mereka untuk mendapatkan tarif rujukan khusus menggunakan [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md). Hasilkan tautan pelacakan afiliasi Anda.
@@ -70,8 +70,8 @@ Siapkan alur kerja otomatis di dalam perangkat lunak pemasaran email Anda (misal
 
 * **Penayangan Channel Bulanan:** 60.000 penayangan (Video Shorts)
 * **Status AdSense:** Belum memenuhi syarat (0 pendapatan iklan)
-* **Konversi Corong:**
-* **Keikutsertaan Magnet Utama:** Tingkat konversi 0,5% = **300 pendaftaran email**
+* **Konversi Funnel:**
+* **Keikutsertaan Lead Magnet:** Tingkat konversi 0,5% = **300 pendaftaran email**
 * **Tingkat 2 (Afiliasi):** 3% pendaftaran mengeklik tautan afiliasi dan membeli alat senilai $49/bln (komisi berulang 30% = $14,70/pengguna) -> 9 penjualan = **$132,30/bulan (berulang)**
 * **Tingkat 3 (Penjualan Digital):** 2% pendaftaran membeli Template Parsing Faktur senilai $29 di Gumroad -> 6 penjualan = **$174,00/bulan**
 * **Total Pendapatan Non-AdSense:** **$306,30/bulan**
@@ -83,9 +83,9 @@ Siapkan alur kerja otomatis di dalam perangkat lunak pemasaran email Anda (misal
 
 ## Bandingkan Alat
 
-| Alat Corong | Kemampuan | Upaya Pengaturan | Terbaik untuk |
+| Alat Funnel | Kemampuan | Upaya Pengaturan | Terbaik untuk |
 |---|---|---|---|
-| **Gumroad / Kekalahan** | Gratis untuk diatur, menangani pemrosesan pembayaran, pengiriman aset digital, dan manajemen afiliasi dasar. Membebankan biaya transaksi tetap (5-10%). | Rendah | Menjual panduan PDF, lembar template, dan slot akses komunitas. |
+| **Gumroad / Whop** | Gratis untuk diatur, menangani pemrosesan pembayaran, pengiriman aset digital, dan manajemen afiliasi dasar. Membebankan biaya transaksi tetap (5-10%). | Rendah | Menjual panduan PDF, lembar template, dan slot akses komunitas. |
 | **ConvertKit / MailerLite** | Tag email otomatis, jalur otomatisasi visual, hosting halaman arahan, dan tingkat pengiriman yang tinggi. | Sedang | Mengelola pelanggan email dan menjalankan urutan penjualan otomatis. |
 | **Kartu** | Pembuat situs web satu halaman yang sangat responsif dengan integrasi formulir yang mudah. | Rendah | Membuat halaman keikutsertaan khusus dengan konversi tinggi. |
 

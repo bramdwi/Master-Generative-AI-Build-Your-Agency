@@ -2,7 +2,7 @@
 
 > Ubah video yang dihasilkan AI menjadi iklan yang benar-benar dibayar oleh merek.
 
-Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Lima modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (template skrip, daftar periksa, lembar harga) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
@@ -69,4 +69,4 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 ---
 
-Semua template ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 14 track lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

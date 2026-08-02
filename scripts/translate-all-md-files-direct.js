@@ -46,12 +46,12 @@ Komunitas berbayar yang mengajarkan hal seperti ini (seperti Skool/Whop, seharga
 | 1 | [Iklan Video AI & UGC](tracks/01-ai-video-ads-ugc/) | Batch iklan gaya UGC yang siap dijual ke brand | 5 | ✅ Tersedia |
 | 2 | [Pembuatan Film AI](tracks/02-ai-filmmaking/) | Film pendek, trailer, video musik | 5 | ✅ Tersedia |
 | 3 | [Kanal AI Tanpa Wajah](tracks/03-faceless-ai-channels/) | Kanal YouTube/TikTok tanpa kamera | 5 | ✅ Tersedia |
-| 4 | [Pabrik Konten AI](tracks/04-ai-content-factories/) | Pipeline Ide → Naskah → Video → Publish secara masal | 6 | ✅ Tersedia |
+| 4 | [AI Content Factory](tracks/04-ai-content-factories/) | Pipeline Ide → Naskah → Video → Publish secara masal | 6 | ✅ Tersedia |
 | 5 | [Avatar & Influencer AI](tracks/05-ai-avatars-and-influencers/) | Karakter AI konsisten sebagai aset bisnis | 5 | ✅ Tersedia |
 | 6 | [Audio & Musik AI](tracks/06-ai-audio-and-music/) | Kloning suara, dubbing, podcast, musik | 5 | ✅ Tersedia |
 | 7 | [Fotografi Produk AI](tracks/07-ai-product-photography/) | Foto produk kualitas studio tanpa fotografer | 4 | ✅ Tersedia |
 | 8 | [Fashion AI & Virtual Try-On](tracks/08-ai-fashion-and-virtual-tryon/) | Fitting baju virtual untuk e-commerce fashion | 4 | ✅ Tersedia |
-| 9 | [Staging Real Estat AI](tracks/09-ai-real-estate-staging/) | Foto ruangan kosong → ruangan ber-furnitur | 3 | ✅ Tersedia |
+| 9 | [Staging Real Estate AI](tracks/09-ai-real-estate-staging/) | Foto ruangan kosong → ruangan ber-furnitur | 3 | ✅ Tersedia |
 | 10 | [Headshots & Potret AI](tracks/10-ai-headshots-and-portraits/) | Foto profil & headshot profesional konsisten | 4 | ✅ Tersedia |
 | 11 | [Print-on-Demand & Merch AI](tracks/11-ai-print-on-demand-and-merch/) | Seni AI laris di produk fisik merchandise | 4 | ✅ Tersedia |
 | 12 | [Konten Stok AI & Lisensi](tracks/12-ai-stock-content-and-licensing/) | Katalog stok yang bisa dilisensikan berulang kali | 3 | ✅ Tersedia |
@@ -84,7 +84,7 @@ Keterangan status: ✅ tersedia · 🚧 dalam pengerjaan · ⬜ segera hadir
 
 ## Track 2 — Pembuatan Film AI ✅
 1. Generasi Skenario & Jalan Cerita
-2. Papan Cerita & Perencanaan Shot
+2. Storyboard & Perencanaan Shot
 3. Gerakan Kamera & Prompt Sinematografi
 4. Merangkai & Editing Film Pendek
 5. Menjual Film Pendek (Sponsor & Lisensi)
@@ -96,13 +96,13 @@ Keterangan status: ✅ tersedia · 🚧 dalam pengerjaan · ⬜ segera hadir
 4. Mengembangkan Banyak Kanal Sekaligus
 5. Tangga Monetisasi & Sumber Income
 
-## Track 4 — Pabrik Konten AI ✅
-1. Pipeline Ide → Naskah → Papan Cerita → Video → Suara → Musik → Kaption → Publish
-2. Membangun Pabrik Konten TikTok & Reels
-3. Membangun Pabrik Konten YouTube Shorts
+## Track 4 — AI Content Factory ✅
+1. Pipeline Ide → Naskah → Storyboard → Video → Suara → Musik → Kaption → Publish
+2. Membangun Content Factory TikTok & Reels
+3. Membangun Content Factory YouTube Shorts
 4. Desain Thumbnail Menarik dengan AI
 5. Produksi Masal & Penjadwalan Konten
-6. Menjual Layanan Pabrik Konten ke Klien
+6. Menjual Layanan Content Factory ke Klien
 
 ## Track 5 — Avatar & Influencer AI Konsisten ✅
 1. Membuat Karakter AI yang Konsisten
@@ -130,7 +130,7 @@ Keterangan status: ✅ tersedia · 🚧 dalam pengerjaan · ⬜ segera hadir
 3. Konsistensi Ukuran & Layout Pakaian
 4. Kasus Konversi Penjualan Fashion
 
-## Track 9 — Staging Real Estat AI ✅
+## Track 9 — Staging Real Estate AI ✅
 1. Pipeline Ruangan Kosong → Ruangan Berisi Furnitur
 2. Strategi Harga Dibandingkan Staging Fisik Tradisional
 3. Menjual Layanan Staging ke Agen Properti

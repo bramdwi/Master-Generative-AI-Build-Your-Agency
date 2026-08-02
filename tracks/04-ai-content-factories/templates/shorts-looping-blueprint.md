@@ -28,6 +28,6 @@ Saat video selesai dan diputar berulang-ulang, penonton akan mendengar:
 ---
 
 ## Aturan Pengeditan Timeline untuk Loop:
-- [ ] **Tanpa Musik Fade-Out:** Jaga agar trek musik latar belakang tetap pada volume yang konstan hingga frame terakhir. Potong trek musik dengan tajam di bagian akhir agar cocok dengan musik frame awal.
+- [ ] **Tanpa Musik Fade-Out:** Jaga agar track musik latar belakang tetap pada volume yang konstan hingga frame terakhir. Potong track musik dengan tajam di bagian akhir agar cocok dengan musik frame awal.
 - [ ] **Zero Tail Silence:** Pangkas file suara akhir ke frame yang tepat saat pembicara selesai berbicara. Jangan tinggalkan jeda 0,5 detik di akhir timeline.
 - [ ] **Gerakan Berkelanjutan:** Jika klip terakhir memiliki gerakan kamera yang bergerak, klip awal harus memiliki arah gerakan yang serupa (misalnya, menggeser ke kanan ke menggeser ke kanan) untuk menjaga aliran visual tetap berkelanjutan.

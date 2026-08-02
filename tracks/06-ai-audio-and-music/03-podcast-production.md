@@ -8,15 +8,15 @@
 
 ## Masalahnya
 
-Pendengar memaafkan resolusi video yang rendah, tetapi mereka akan mematikan video, podcast, atau kursus dalam waktu 10 detik jika trek audionya menyakitkan untuk didengar. Rekaman suara mentah memiliki cacat audio struktural:
+Pendengar memaafkan resolusi video yang rendah, tetapi mereka akan mematikan video, podcast, atau kursus dalam waktu 10 detik jika track audionya menyakitkan untuk didengar. Rekaman suara mentah memiliki cacat audio struktural:
 * **Room Echo:** Suara memantul dari dinding kosong.
 * **Rendah Gemuruh:** Getaran frekuensi rendah dari lalu lintas di luar atau unit AC.
 * **Sibilance:** Suara "S" yang tajam dan menusuk.
 * **Ayunan Volume:** Pembicara menjadi hening, lalu tiba-tiba berteriak, memaksa pendengar untuk menyesuaikan volume headphone mereka.
 
-Jika Anda mengirimkan trek audio mentah dan kasar ke klien atau platform, konten Anda akan terlihat amatir, sehingga mengurangi metrik retensi.
+Jika Anda mengirimkan track audio mentah dan kasar ke klien atau platform, konten Anda akan terlihat amatir, sehingga mengurangi metrik retensi.
 
-Agar berhasil dalam produksi audio, Anda harus menerapkan saluran pembersihan dan penguasaan vokal standar yang menghasilkan trek suara profesional yang jelas, konsisten.
+Agar berhasil dalam produksi audio, Anda harus menerapkan saluran pembersihan dan penguasaan vokal standar yang menghasilkan track suara profesional yang jelas, konsisten.
 
 ## Konsep
 
@@ -30,7 +30,7 @@ Raw Vocal ──► High-Pass (Rumble) ──► Noise Gate (Hum) ──► EQ B
 2. **Gerbang Kebisingan:** Membungkam semua level sinyal di bawah ambang batas yang ditetapkan (misalnya -48dB). Saat pengeras suara berhenti, gerbang akan tertutup, membungkam dengungan ruangan dan bunyi napas.
 3. **Equalization (EQ):** Menyesuaikan pita frekuensi tertentu. Meningkatkan kehadiran (3kHz–5kHz) untuk kejernihan dan menghilangkan lumpur (300Hz–400Hz) untuk membuat suara terdengar jernih.
 4. **Kompresi:** Bertindak seperti fader volume otomatis. Ini mengecilkan nada keras dan memperkuat suku kata yang pelan, sehingga meratakan rentang volume.
-5. **Normalisasi Kenyaringan:** Menstandarkan volume keluaran. Platform podcast dan streaming menargetkan **-16 LUFS** untuk trek stereo dan **-19 LUFS** untuk trek mono guna mencegah distorsi pada perangkat seluler.
+5. **Normalisasi Kenyaringan:** Menstandarkan volume keluaran. Platform podcast dan streaming menargetkan **-16 LUFS** untuk track stereo dan **-19 LUFS** untuk track mono guna mencegah distorsi pada perangkat seluler.
 
 ---
 
@@ -60,7 +60,7 @@ Terapkan Kompresor:
 
 ### Langkah 5: Ekspor ke Standar Kenyaringan
 Jalankan efek Normalisasi Kenyaringan:
-* Tetapkan target kenyaringan ke **-16,0 LUFS** (Unit Kenyaringan relatif terhadap Skala Penuh — cara standar industri untuk mengukur dan mencocokkan volume audio di seluruh platform) untuk stereo, atau **-19,0 ​​LUFS** untuk trek mono.
+* Tetapkan target kenyaringan ke **-16,0 LUFS** (Unit Kenyaringan relatif terhadap Skala Penuh — cara standar industri untuk mengukur dan mencocokkan volume audio di seluruh platform) untuk stereo, atau **-19,0 ​​LUFS** untuk track mono.
 * Atur **True Peak Limiter** ke **-1,0 dBTP** untuk mencegah kliping digital saat diunggah ke platform seperti Spotify atau Apple Podcasts.
 
 ---
@@ -97,7 +97,7 @@ Jalankan efek Normalisasi Kenyaringan:
 | **Adobe Tingkatkan API** | Tinggi (Membersihkan gema yang parah, namun dapat menimbulkan suara digital buatan) | Tidak ada | Rendah (Pemrosesan sekali klik) |
 | **Auponik / Kecepatan Gelombang** | Tinggi | Sedang (Pencocokan target kenyaringan yang sangat baik) | Rendah (Alur kerja API otomatis) |
 
-Untuk pembuat konten pemula, menggunakan Audacity atau Adobe Audition memberi Anda kontrol terbaik atas kualitas vokal. Untuk pabrik bervolume tinggi yang memproses rekaman klien, menjalankan trek melalui alat otomatis seperti Adobe Enhance atau Auphonic API akan mempercepat jalur pengiriman Anda sekaligus mempertahankan tolok ukur kualitas yang konsisten.
+Untuk pembuat konten pemula, menggunakan Audacity atau Adobe Audition memberi Anda kontrol terbaik atas kualitas vokal. Untuk pabrik bervolume tinggi yang memproses rekaman klien, menjalankan track melalui alat otomatis seperti Adobe Enhance atau Auphonic API akan mempercepat jalur pengiriman Anda sekaligus mempertahankan tolok ukur kualitas yang konsisten.
 
 ---
 
@@ -108,8 +108,8 @@ Untuk pembuat konten pemula, menggunakan Audacity atau Adobe Audition memberi An
 * **Paket Pengeditan Retainer:** Daftarkan klien podcast dengan pengikut bulanan (misalnya 4 episode/bulan seharga **$300–$500/bulan**) untuk memastikan pendapatan yang konsisten. Klien menghargai konsistensi — podcaster yang merekam setiap minggu adalah kontrak berulang yang ideal.
 
 **Cara mengelola file audio:**
-* **Jaga agar trek tetap kering:** Saat merekam, jangan pernah menerapkan efek reverb, penundaan, atau EQ selama pengambilan. Jaga file mentah tetap bersih dan kering sehingga Anda dapat menyesuaikan pengaturan pascaproduksi.
-* **Periksa audio Anda dalam mono:** Banyak pendengar menggunakan satu earbud headphone. Alihkan campuran akhir Anda ke mono di editor Anda untuk memverifikasi bahwa trek vokal tidak saling menghilangkan atau memudar.
+* **Jaga agar track tetap kering:** Saat merekam, jangan pernah menerapkan efek reverb, penundaan, atau EQ selama pengambilan. Jaga file mentah tetap bersih dan kering sehingga Anda dapat menyesuaikan pengaturan pascaproduksi.
+* **Periksa audio Anda dalam mono:** Banyak pendengar menggunakan satu earbud headphone. Alihkan campuran akhir Anda ke mono di editor Anda untuk memverifikasi bahwa track vokal tidak saling menghilangkan atau memudar.
 
 ---
 
@@ -117,7 +117,7 @@ Untuk pembuat konten pemula, menggunakan Audacity atau Adobe Audition memberi An
 
 1. **Mudah:** Impor rekaman suara ke Audacity. Terapkan Filter High-Pass pada 80Hz dan catat perubahan kejernihan vokal.
 2. **Medium:** Konfigurasikan Gerbang Kebisingan di editor Anda. Sesuaikan ambang batas hingga jeda senyap di antara kata-kata yang diucapkan terbaca sebagai keheningan total (-inf dB).
-3. **Sulit:** Kuasai trek intro podcast 1 menit. Terapkan filter lolos tinggi, gerbang kebisingan, kompresor, dan pembatas puncak untuk menghasilkan keluaran trek akhir yang menargetkan -16 LUFS.
+3. **Sulit:** Kuasai track intro podcast 1 menit. Terapkan filter lolos tinggi, gerbang kebisingan, kompresor, dan pembatas puncak untuk menghasilkan keluaran track akhir yang menargetkan -16 LUFS.
 
 ---
 

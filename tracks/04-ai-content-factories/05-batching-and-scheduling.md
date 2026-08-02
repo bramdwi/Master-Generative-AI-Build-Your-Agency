@@ -2,7 +2,7 @@
 
 > Konsistensi dijadwalkan; kekacauan itu manual.
 
-**Lacak:** Pabrik Konten AI
+**Lacak:** AI Content Factory
 **Waktu:** ~35 menit
 **Prasyarat:** Jalur Produksi Multi-Langkah
 
@@ -23,7 +23,7 @@ Mekanisme inti penerbitan volume tinggi adalah **Sistem Antrean 30 Hari**:
 ```
 
 Untuk membangun sistem ini, Anda menggunakan:
-* **Temporal Batching:** Anda hanya menjalankan satu stasiun produksi dalam satu waktu. Anda tidak dapat mengedit video sampai semua skrip dan sulih suara dikunci untuk keseluruhan batch.
+* **Temporal Batching:** Anda hanya menjalankan satu stasiun produksi dalam satu waktu. Anda tidak dapat mengedit video sampai semua skrip dan voiceover dikunci untuk keseluruhan batch.
 * **Penjadwal Tersindikasi:** Anda mengunggah kumpulan yang telah selesai ke penjadwal platform asli, mengaturnya agar dirilis secara otomatis.
 * **Repurusing Pipelines:** Anda menskalakan inventaris dengan memasukkan video berdurasi panjang ke alat kliping otomatis seperti [`ai-clipping-generator`](https://github.com/Anil-matcha/awesome-generative-ai-apps/tree/main/video_generation/ai-clipping-generator), yang mengekstrak beberapa video pendek vertikal dari satu file berdurasi panjang.
 

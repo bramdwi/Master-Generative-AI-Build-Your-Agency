@@ -1,6 +1,6 @@
-# Lembar Spesifikasi Uji Coba Virtual
+# Lembar Spesifikasi Virtual Try-On
 
-Gunakan template ini untuk menentukan parameter garmen dan model untuk menjalankan generasi uji coba virtual.
+Gunakan template ini untuk menentukan parameter garmen dan model untuk menjalankan generasi virtual try-on.
 
 ## 1. Parameter Pakaian
 * **Nama Garmen:** misalnya Kemeja Linen Kancing Klasik

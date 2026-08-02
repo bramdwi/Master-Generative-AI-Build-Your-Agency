@@ -69,7 +69,7 @@ Setelah kesepakatan ditutup, buat video dengan mengikuti pedoman merek. Siapkan 
 * **Produksi Visual:**
 * Wajah Master Potret bertukar ke adegan yang memperlihatkan Emma memegang telepon.
 * Hamparan rekaman layar situs web TaskFlow.
-* Sulih Suara: *"Inilah cara saya mengotomatiskan jadwal kerja harian saya..."*
+* Voiceover: *"Inilah cara saya mengotomatiskan jadwal kerja harian saya..."*
 * **Penghasilan vs. Biaya:**
 * Kredit API yang dibelanjakan: **$2,40**
 * Pendapatan Kotor: **$400,00**

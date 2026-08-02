@@ -10,7 +10,7 @@
 
 ## Masalahnya
 
-Sistem Text-to-Speech (TTS) tradisional terdengar kaku. Sistem ini melafalkan kalimat dengan kurva nada yang statis, mengabaikan konteks emosional, serta hampa akan suara helaan napas. Jika Anda memanfaatkan vokal bawaan yang terkesan murah ini untuk kebutuhan faceless videos, materi kursus, atau iklan, audiens akan seketika menyadari trek audio mekanis tersebut lalu mengusap layar untuk beralih.
+Sistem Text-to-Speech (TTS) tradisional terdengar kaku. Sistem ini melafalkan kalimat dengan kurva nada yang statis, mengabaikan konteks emosional, serta hampa akan suara helaan napas. Jika Anda memanfaatkan vokal bawaan yang terkesan murah ini untuk kebutuhan faceless videos, materi kursus, atau iklan, audiens akan seketika menyadari track audio mekanis tersebut lalu mengusap layar untuk beralih.
 
 Sekadar merekam vokal Anda mengandalkan mikrofon laptop bukanlah alternatif yang dapat diakselerasi untuk kebutuhan content factories ber-volume tinggi. Proses tersebut menyita terlalu banyak alokasi waktu, dan jika kondisi kesehatan Anda menurun hingga kehilangan vokal, alur produksi Anda akan terhenti secara total.
 

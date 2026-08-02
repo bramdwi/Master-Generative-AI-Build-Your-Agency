@@ -2,7 +2,7 @@
 
 > Judulnya membuat mereka berpikir; thumbnail membuat mereka mengklik.
 
-**Lacak:** Pabrik Konten AI
+**Lacak:** AI Content Factory
 **Waktu:** ~40 menit
 **Prasyarat:** Jalur Produksi Multi-Langkah
 
@@ -102,7 +102,7 @@ Perkecil layar editor Anda hingga gambar kecilnya seukuran koin (skala sekitar 1
 | **Tengah perjalanan v6** | Sangat Tinggi | Lambat (Membutuhkan antarmuka Discord dan proses generasi lambat) | Tinggi |
 | **Difusi Lokal Stabil** | Tinggi | Sedang (Membutuhkan pengaturan GPU yang kuat) | Sangat Tinggi (Mendukung ControlNet) |
 
-Untuk pabrik konten volume, menggunakan `nano-banana-2` melalui muapi adalah jalur tercepat. Ini memungkinkan Anda mengotomatiskan pembuatan thumbnail langsung di dalam alat skrip Anda, mengekspor aset visual yang cocok di sepanjang skrip Anda berjalan.
+Untuk content factory volume, menggunakan `nano-banana-2` melalui muapi adalah jalur tercepat. Ini memungkinkan Anda mengotomatiskan pembuatan thumbnail langsung di dalam alat skrip Anda, mengekspor aset visual yang cocok di sepanjang skrip Anda berjalan.
 
 ---
 

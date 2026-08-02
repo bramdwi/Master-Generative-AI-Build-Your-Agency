@@ -23,7 +23,7 @@ Gunakan lembar ini untuk menguraikan dan menegosiasikan persyaratan lisensi saat
 ## 4. Hasil Kerja
 * [ ] File video master (Layar lebar 16:9, 1080p atau 4K ProRes/MP4)
 * [ ] Aset vertikal (potongan vertikal 9:16 untuk aplikasi seluler)
-* [ ] Bersihkan master audio (tidak ada trek suara dialog, hanya musik/SFX) untuk pelokalan/dubbing
+* [ ] Bersihkan master audio (tidak ada track suara dialog, hanya musik/SFX) untuk pelokalan/dubbing
 * [ ] Seni kunci promosi (3 gambar mini resolusi tinggi)
 
 ## 5. Kredit & Atribusi

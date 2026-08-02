@@ -40,7 +40,7 @@ Buat formulir orientasi (menggunakan Typeform atau Google Formulir) yang tertaut
 * Warna merek, preferensi suasana estetika (minimalis, tropis, gelap), dan file logo.
 * Pedoman kotak pembatas (misalnya aturan pengisian Amazon 85%).
 
-### Langkah 3: Buat Pitch Magnet Utama Anda
+### Langkah 3: Buat Pitch Lead Magnet Anda
 Daripada mengirim portofolio umum melalui email, gunakan **Perulangan Sampel Gratis**:
 * Temukan merek Shopify lokal dengan foto daftar produk yang lemah.
 * Unduh salah satu gambar produk mereka.

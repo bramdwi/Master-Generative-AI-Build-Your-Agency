@@ -38,7 +38,7 @@ AI Short Film ──► │ Brand Sponsorships    │ ──► Direct Product P
 Sebelum melakukan pitch, pastikan Anda memiliki paket pengiriman profesional:
 - **Master Cut:** Video resolusi tinggi layar lebar 16:9 atau 2,39:1.
 - **Potongan Vertikal:** Versi vertikal 9:16 dioptimalkan untuk feed seluler.
-- **The Clean Master:** Ekspor video dengan efek suara dan musik, tetapi *tanpa trek suara* (ini memungkinkan platform untuk men-dubbing film Anda ke bahasa lain).
+- **The Clean Master:** Ekspor video dengan efek suara dan musik, tetapi *tanpa track suara* (ini memungkinkan platform untuk men-dubbing film Anda ke bahasa lain).
 
 ### Langkah 2: Bangun Dek Pitch Visual
 Gunakan [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) untuk menguraikan konsep proyek Anda. Sertakan bingkai Storyboard statis Anda dari Modul 2 untuk menunjukkan kualitas visual yang tinggi dari proyek sebelum dirender.

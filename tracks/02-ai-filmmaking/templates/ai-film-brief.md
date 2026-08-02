@@ -24,7 +24,7 @@ Isi ringkasan ini sebelum membuat aset storyboard atau klip video.
 * **Pengidentifikasi Visual:** [misalnya, kuncir kuda pirang, jas hujan abu-abu, garis rahang lancip]
 
 ## 4. Arah Audio
-* **Dialog / Sulih Suara:** [Jelaskan nada, aksen, usia narator]
+* **Dialog / Voiceover:** [Jelaskan nada, aksen, usia narator]
 * **Efek Suara (Foley):** [Suara kunci yang diperlukan: gemerisik angin, langkah kaki di atas kerikil, gemuruh synth rendah]
 * **Musik / Soundtrack:** [misalnya, synth-wave sinematik ambien, piano solo, gelombang orkestra dramatis]
 

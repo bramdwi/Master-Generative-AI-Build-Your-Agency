@@ -1,4 +1,4 @@
-# Trek 10: Headshot & Potret AI
+# Track 10: Headshot & Potret AI
 
 > Ubah selfie smartphone kasual menjadi potret korporat dan kreatif tingkat studio. Penguncian identitas wajah master, paket tim B2B, otomatisasi massal, dan pencahayaan suasana editorial.
 

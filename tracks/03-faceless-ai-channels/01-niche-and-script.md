@@ -109,7 +109,7 @@ Bacalah draf naskah Anda yang sudah selesai dengan lantang. Jika Anda menemukan 
 | **Editor Skrip Tradisional** | Pemformatan standar untuk televisi, tidak dioptimalkan untuk visual hook berdurasi pendek. | Narasi linier bentuk panjang. |
 | **ObrolanGPT Plus (GPT-4o)** | Bertukar pikiran secara kreatif, tetapi cenderung menulis hal-hal murahan (misalnya *"Apakah Anda bosan dengan..."*) yang menurunkan retensi. | Brainstorming topik awal. |
 
-Frontier LLM (Claude/Gemini) adalah pilihan jalur pipa terbaik. Dengan mengonfigurasi instruksi sistem khusus, Anda dapat mengotomatiskan tata letak skrip yang menghasilkan teks sulih suara dan tombol perintah video dalam sekali proses.
+Frontier LLM (Claude/Gemini) adalah pilihan jalur pipa terbaik. Dengan mengonfigurasi instruksi sistem khusus, Anda dapat mengotomatiskan tata letak skrip yang menghasilkan teks voiceover dan tombol perintah video dalam sekali proses.
 
 ---
 

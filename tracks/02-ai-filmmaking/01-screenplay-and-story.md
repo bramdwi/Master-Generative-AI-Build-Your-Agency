@@ -90,7 +90,7 @@ VIDEO PROMPT (Shot 1.1):
 
 **Klip di bawah ini nyata, bukan sekadar visualisasi tiruan** — gambar jangkar dihasilkan menggunakan **`nano-banana-2`** dan dianimasikan menjadi adegan sinematik singkat memanfaatkan **`seedance-2-image-to-video-fast`** berdasarkan kutipan naskah di atas, sehingga Anda dapat mengamati secara langsung wujud asli dari proses generasi tahap awal:
 
-<p align="center"><i>Generasi tahap awal tanpa penyuntingan — ciri fisik karakter, pakaian, dan latar belakang terjaga secara konsisten dari bingkai papan cerita awal karena pengondisian bingkai pertama.</i></p>
+<p align="center"><i>Generasi tahap awal tanpa penyuntingan — ciri fisik karakter, pakaian, dan latar belakang terjaga secara konsisten dari bingkai storyboard awal karena pengondisian bingkai pertama.</i></p>
 
 *Tata cara produksinya secara menyeluruh dari awal hingga akhir via muapi API:*
 1. Memproduksi potret jangkar menggunakan **`nano-banana-2`** (text-to-image, $0,06/gambar) memanfaatkan instruksi visual di atas dalam format rasio layar lebar.

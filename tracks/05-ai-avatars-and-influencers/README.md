@@ -2,7 +2,7 @@
 
 > Bangun karakter AI yang konsisten, sintesiskan suaranya, sinkronkan bibir dialognya, dan kelola influencer virtual untuk klien.
 
-Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Lima modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (panduan gaya, kit media, perjanjian penahan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 

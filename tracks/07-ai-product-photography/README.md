@@ -2,7 +2,7 @@
 
 > Fotografi produk berkualitas studio dan variasi katalog sesuai permintaan, pencahayaan yang serasi, refleksi, bayangan, dan perspektif—tanpa menyewa kamera atau studio fisik.
 
-Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Empat modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, daftar periksa, lembar spesifikasi) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
@@ -57,4 +57,4 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 
 ---
 
-Semua template ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 11 track lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

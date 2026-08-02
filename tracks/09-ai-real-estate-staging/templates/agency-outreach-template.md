@@ -1,6 +1,6 @@
-# Template Penjangkauan Agen Real Estat & Cold Pitch
+# Template Penjangkauan Agen Real Estate & Cold Pitch
 
-Gunakan template email, skrip video, dan proposal kemitraan ini untuk memperoleh klien agen real estat dan pialang.
+Gunakan template email, skrip video, dan proposal kemitraan ini untuk memperoleh klien agen real estate dan pialang.
 
 ---
 
@@ -33,27 +33,27 @@ Gunakan template email, skrip video, dan proposal kemitraan ini untuk memperoleh
 **Naskah:**
 > "Hai [Nama Agen], [Nama Anda] di sini. Saya menelusuri listingan aktif di [Nama Kota] dan menemukan properti Anda di [Alamat Properti].
 >
-> Ini rumah yang bagus, tapi saya perhatikan foto ruang tamu saat ini kosong. Saya menjalankan foto Anda melalui jalur pementasan virtual AI kami — lihat transformasi ini di layar saya sekarang:
+> Ini rumah yang bagus, tapi saya perhatikan foto ruang tamu saat ini kosong. Saya menjalankan foto Anda melalui jalur virtual staging virtual AI kami — lihat transformasi ini di layar saya sekarang:
 >
 > [Tampilkan Sebelum/Sesudah Transformasi]
 >
-> Perhatikan bagaimana permadani modern dan hangat langsung mengikat ruangan dan membuatnya terasa seperti rumah mewah. Kami dapat menampilkan seluruh listingan Anda dalam 24 jam hanya dengan $199, menghemat ribuan dibandingkan dengan pementasan fisik.
+> Perhatikan bagaimana permadani modern dan hangat langsung mengikat ruangan dan membuatnya terasa seperti rumah mewah. Kami dapat menampilkan seluruh listingan Anda dalam 24 jam hanya dengan $199, menghemat ribuan dibandingkan dengan virtual staging fisik.
 >
 > Saya akan memberikan tautan di bawah untuk melihat sampel resolusi tinggi. Beri tahu saya jika Anda ingin saya mengirimkan file final untuk pembaruan MLS Anda hari ini!"
 
 ---
 
-## 🤝 Penawaran Kemitraan: Pembagian Komisi Fotografer Real Estat
+## 🤝 Penawaran Kemitraan: Pembagian Komisi Fotografer Real Estate
 
-**Baris Subjek:** Ide kemitraan untuk pemotretan real estat Anda di [Nama Kota]
+**Baris Subjek:** Ide kemitraan untuk pemotretan real estate Anda di [Nama Kota]
 
 > Hai [Nama Fotografer],
 >
-> Sukai karya fotografi real estat Anda di [Nama Kota] — pencahayaan dan komposisi Anda di [Proyek/Alamat Terbaru] tampak terbaik.
+> Sukai karya fotografi real estate Anda di [Nama Kota] — pencahayaan dan komposisi Anda di [Proyek/Alamat Terbaru] tampak terbaik.
 >
-> Saya menjalankan studio pementasan virtual AI. Banyak klien agen Anda mungkin bertanya apakah Anda menawarkan pementasan virtual untuk listingan yang kosong.
+> Saya menjalankan studio virtual staging virtual AI. Banyak klien agen Anda mungkin bertanya apakah Anda menawarkan virtual staging virtual untuk listingan yang kosong.
 >
-> Saya ingin membangun kemitraan label putih di mana Anda dapat menawarkan pementasan virtual kepada klien Anda sebagai tambahan $45/foto. Kami menangani 100% rendering pementasan dalam 24 jam dan memberi Anda **pembagian komisi sebesar 35% ($15/foto)** untuk setiap kamar yang dipesan.
+> Saya ingin membangun kemitraan label putih di mana Anda dapat menawarkan virtual staging virtual kepada klien Anda sebagai tambahan $45/foto. Kami menangani 100% rendering virtual staging dalam 24 jam dan memberi Anda **pembagian komisi sebesar 35% ($15/foto)** untuk setiap kamar yang dipesan.
 >
 > Apakah Anda bersedia untuk mengobrol singkat selama 5 menit minggu ini untuk mengetahui apakah ini masuk akal untuk paket foto Anda?
 >

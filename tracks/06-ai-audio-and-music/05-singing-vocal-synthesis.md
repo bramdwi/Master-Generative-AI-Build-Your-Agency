@@ -10,7 +10,7 @@
 
 ## Masalahnya
 
-Anda ingin memproduksi lagu tema kustom, iklan musikal, atau trek pembuka parodi untuk klien, namun Anda tidak memiliki keahlian bernyanyi. Menyewa penyanyi studio profesional untuk proyek insidental sangat mahal, dan mencoba bernyanyi sendiri berisiko menghasilkan ketidaktepatan nada atau jangkauan vokal yang tidak mampu Anda capai.
+Anda ingin memproduksi lagu tema kustom, iklan musikal, atau track pembuka parodi untuk klien, namun Anda tidak memiliki keahlian bernyanyi. Menyewa penyanyi studio profesional untuk proyek insidental sangat mahal, dan mencoba bernyanyi sendiri berisiko menghasilkan ketidaktepatan nada atau jangkauan vokal yang tidak mampu Anda capai.
 
 Model Text-to-Speech (TTS) standar tidak memiliki kemampuan untuk bernyanyi. Jika Anda memasukkan lirik, model akan melafalkannya menyerupai perkuliahan yang membosankan, tanpa irama, melodi, maupun tempo.
 
@@ -35,7 +35,7 @@ Source Guide Vocal  ──►  Pitch Correction (Auto-Tune)  ──►  RVC Timb
 
 ### Langkah 1: Siapkan Vokal Panduan Anda
 
-Rekam trek vokal jernih yang menyanyikan lirik. Jangan khawatir jika vokal Anda terdengar datar. Impor trek ke dalam penyunting Anda. Terapkan instrumen koreksi nada (seperti GSnap atau Auto-Tune) untuk menyelaraskan nada vokal ke tangga nada musik yang tepat. Simpan trek bersih sebagai `guide_vocal.wav`.
+Rekam track vokal jernih yang menyanyikan lirik. Jangan khawatir jika vokal Anda terdengar datar. Impor track ke dalam penyunting Anda. Terapkan instrumen koreksi nada (seperti GSnap atau Auto-Tune) untuk menyelaraskan nada vokal ke tangga nada musik yang tepat. Simpan track bersih sebagai `guide_vocal.wav`.
 
 ### Langkah 2: Konfigurasikan Model Konversi
 
@@ -53,11 +53,11 @@ Eksplorasi parameter berikut:
 
 ### Langkah 4: Jalankan Timbre Transfer
 
-Klik konversi untuk memproses trek. Unduh berkas luaran `.wav`.
+Klik konversi untuk memproses track. Unduh berkas luaran `.wav`.
 
 ### Langkah 5: Bersihkan dan Racik Vokal Akhir
 
-Impor kembali trek nyanyian yang telah dikonversi ke dalam editor audio Anda. Tambahkan efek plate reverb yang halus dan stereo delay agar vokal menyatu ke dalam trek musik latar instrumen. Batasi tingkat puncak vokal pada -3dB.
+Impor kembali track nyanyian yang telah dikonversi ke dalam editor audio Anda. Tambahkan efek plate reverb yang halus dan stereo delay agar vokal menyatu ke dalam track musik latar instrumen. Batasi tingkat puncak vokal pada -3dB.
 
 ---
 
@@ -73,7 +73,7 @@ Impor kembali trek nyanyian yang telah dikonversi ke dalam editor audio Anda. Ta
 
 
 * **Sintesis Audio:** Berkas terkonversi menghasilkan vokal wanita yang jernih dan presisi menyanyikan melodi dengan timbre vokal Emma.
-* **Stasiun Pemrosesan:** Trek vokal diracik dengan trek latar lofi, reverb diatur pada 15% wet, diselaraskan hingga -16 LUFS.
+* **Stasiun Pemrosesan:** Track vokal diracik dengan track latar lofi, reverb diatur pada 15% wet, diselaraskan hingga -16 LUFS.
 
 **Hasilnya:** Avatar memiliki lagu tema kustom. Vokal nyanyian terdengar presisi, natural, dan selaras sempurna dengan profil karakter visual.
 
@@ -87,7 +87,7 @@ Impor kembali trek nyanyian yang telah dikonversi ke dalam editor audio Anda. Ta
 | **ElevenLabs Voice-to-Voice** | Presisi Tinggi (Mempertahankan infleksi vokal yang rumit dan helaan napas) | Tinggi (Ditagih per karakter yang dihasilkan) | Sederhana (Dashboard web intuitif) |
 | **So-Vits-SVC 4.0** | Presisi Tinggi | Gratis | Tinggi (Pipeline pelatihan Python yang rumit) |
 
-Untuk pembuatan konten yang terakselerasi dan efisien dari segi biaya, mengoperasikan RVC v2 pada GPU lokal merupakan metode standar. Hal ini memungkinkan Anda mengkonversi banyak trek tanpa beban biaya kredit API. Untuk realisme vokal dan integrasi helaan napas yang maksimal, ElevenLabs Voice-to-Voice menyajikan kepresisian tertinggi.
+Untuk pembuatan konten yang terakselerasi dan efisien dari segi biaya, mengoperasikan RVC v2 pada GPU lokal merupakan metode standar. Hal ini memungkinkan Anda mengkonversi banyak track tanpa beban biaya kredit API. Untuk realisme vokal dan integrasi helaan napas yang maksimal, ElevenLabs Voice-to-Voice menyajikan kepresisian tertinggi.
 
 ---
 
@@ -95,16 +95,16 @@ Untuk pembuatan konten yang terakselerasi dan efisien dari segi biaya, mengopera
 
 **Cara mengelola hak cipta:**
 
-* **Gunakan model vokal terbuka:** Hindari memanfaatkan model RVC yang dilatih dari bintang pop terkenal (seperti Drake atau Ariana Grande) untuk proyek klien komersial atau saluran yang dimonetisasi. Platform secara aktif menghapus trek-trek ini, dan Anda berisiko menghadapi tuntutan hukum hak cipta.
+* **Gunakan model vokal terbuka:** Hindari memanfaatkan model RVC yang dilatih dari bintang pop terkenal (seperti Drake atau Ariana Grande) untuk proyek klien komersial atau saluran yang dimonetisasi. Platform secara aktif menghapus track-track ini, dan Anda berisiko menghadapi tuntutan hukum hak cipta.
 * **Latih model nyanyian kustom:** Minta penyanyi lokal merekam 20 menit tangga nada dan lagu, latih model kustom, lalu kunci kepemilikan IP atas vokal tersebut untuk agensi Anda.
 
 ---
 
 ## Latihan
 
-1. **Mudah:** Rekam trek panduan berdurasi 10 detik dari diri Anda yang bertutur dengan gaya irama bernyanyi.
-2. **Sedang:** Kirimkan trek panduan Anda ke converter voice-to-voice dengan pergeseran nada +12 semitones. Analisis pergeseran oktaf yang terjadi.
-3. **Sulit:** Hasilkan trek vokal berulang berdurasi 15 detik secara utuh. Ekstraksi panduan akapela, jalankan auto-tune, konversi timbre mengandalkan RVC, terapkan delay dan reverb, lalu racik kembali di atas trek instrumen.
+1. **Mudah:** Rekam track panduan berdurasi 10 detik dari diri Anda yang bertutur dengan gaya irama bernyanyi.
+2. **Sedang:** Kirimkan track panduan Anda ke converter voice-to-voice dengan pergeseran nada +12 semitones. Analisis pergeseran oktaf yang terjadi.
+3. **Sulit:** Hasilkan track vokal berulang berdurasi 15 detik secara utuh. Ekstraksi panduan akapela, jalankan auto-tune, konversi timbre mengandalkan RVC, terapkan delay dan reverb, lalu racik kembali di atas track instrumen.
 
 ---
 

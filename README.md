@@ -1,6 +1,6 @@
 <p menyelaraskan="tengah">
 <a href="LISENSI"><img src="https://img.shields.io/badge/lisensi-MIT-1a1a1a?style=flat-square" alt="Lisensi MIT"></a>
-<a href="ROADMAP.md"><img src="https://img.shields.io/badge/tracks-15-3553ff?style=flat-square" alt="15 trek"></a>
+<a href="ROADMAP.md"><img src="https://img.shields.io/badge/tracks-15-3553ff?style=flat-square" alt="15 track"></a>
 <a href="ROADMAP.md"><img src="https://img.shields.io/badge/modul-66_tersedia-3553ff?style=flat-square" alt="66 modul"></a>
 </p>
 
@@ -30,7 +30,7 @@ Komunitas berbayar yang mengajarkan hal seperti ini (seperti Skool/Whop, seharga
 - [FAQ](#faq)
 - [Lisensi](#lisensi)
 
-## Daftar Lagu
+## Daftar Track
 
 15 track independen — pilih mana saja yang sesuai dengan bisnis yang ingin Anda bangun.
 
@@ -39,12 +39,12 @@ Komunitas berbayar yang mengajarkan hal seperti ini (seperti Skool/Whop, seharga
 | 1 | [Iklan Video AI & UGC](tracks/01-ai-video-ads-ugc/) | Batch iklan gaya UGC yang siap dijual ke merek | 5 | ✅ Tersedia |
 | 2 | [Pembuatan Film AI](tracks/02-ai-filmmaking/) | Film pendek, trailer, video musik | 5 | ✅ Tersedia |
 | 3 | [Kanal AI Tanpa Wajah](tracks/03-faceless-ai-channels/) | Kanal YouTube/TikTok tanpa kamera | 5 | ✅ Tersedia |
-| 4 | [Pabrik Konten AI](tracks/04-ai-content-factories/) | Ide Pipeline → Naskah → Video → Publikasikan secara masal | 6 | ✅ Tersedia |
+| 4 | [AI Content Factory](tracks/04-ai-content-factories/) | Ide Pipeline → Naskah → Video → Publikasikan secara masal | 6 | ✅ Tersedia |
 | 5 | [Avatar & Influencer AI](tracks/05-ai-avatars-and-influencers/) | Karakter AI konsisten sebagai aset bisnis | 5 | ✅ Tersedia |
 | 6 | [Audio & Musik AI](tracks/06-ai-audio-and-music/) | Kloning suara, dubbing, podcast, musik | 5 | ✅ Tersedia |
 | 7 | [Fotografi Produk AI](tracks/07-ai-product-photography/) | Foto produk kualitas studio tanpa fotografer | 4 | ✅ Tersedia |
 | 8 | [Fashion AI & Virtual Try-On](tracks/08-ai-fashion-and-virtual-tryon/) | Fitting baju virtual untuk e-commerce fashion | 4 | ✅ Tersedia |
-| 9 | [Staging Real Estat AI](tracks/09-ai-real-estate-staging/) | Foto ruangan kosong → ruangan ber-furnitur | 3 | ✅ Tersedia |
+| 9 | [Staging Real Estate AI](tracks/09-ai-real-estate-staging/) | Foto ruangan kosong → ruangan ber-furnitur | 3 | ✅ Tersedia |
 | 10 | [Headshots & Potret AI](tracks/10-ai-headshots-and-portraits/) | Foto profil & headshot profesional konsisten | 4 | ✅ Tersedia |
 | 11 | [Print-on-Demand & Merch AI](tracks/11-ai-print-on-demand-and-merch/) | Seni AI laris di produk fisik merchandise | 4 | ✅ Tersedia |
 | 12 | [Konten Stok AI & Lisensi](tracks/12-ai-stock-content-and-licensing/) | Katalog stok yang bisa dilisensikan berulang kali | 3 | ✅ Tersedia |

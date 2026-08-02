@@ -2,7 +2,7 @@
 
 > Film pendek, video musik, trailer, dan dokumenter — dibuat tanpa kru.
 
-Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
+Lima modul, secara berurutan. Masing-masing adalah satu file markdown — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
 **"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (template skenario, daftar pengambilan gambar, lembar persyaratan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
@@ -51,7 +51,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 > Film ini tidak dibuat di generator; itu dibuat di editor.
 
 - Potong, pangkas, dan gabungkan klip video senyap untuk membangun ritme adegan.
-- Siapkan garis waktu desain suara berlapis-lapis: narasi sulih suara, nada ruangan sekitar yang berkelanjutan, Foley SFX, dan skor.
+- Siapkan garis waktu desain suara berlapis-lapis: narasi voiceover, nada ruangan sekitar yang berkelanjutan, Foley SFX, dan skor.
 - Klip terpisah tingkat warna menggunakan LUT untuk mencapai nada visual dan suasana sinematik yang terpadu.
 
 **Template:** [`sound-design-checklist.md`](templates/sound-design-checklist.md)
@@ -60,7 +60,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 > Festival menginginkan ceritanya; sponsor menginginkan perhatian; platform menginginkan aset tersebut.
 
-- Struktur pengemasan film langsung (master layar lebar, potongan vertikal, trek audio tanpa suara yang bersih).
+- Struktur pengemasan film langsung (master layar lebar, potongan vertikal, track audio tanpa suara yang bersih).
 - Menargetkan dan menyusun proposal promosi sponsor merek untuk penempatan produk.
 - Negosiasikan biaya platform dimuka dan bagi hasil untuk drama vertikal episodik.
 
@@ -68,4 +68,4 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 
 ---
 
-Semua template ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 14 track lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

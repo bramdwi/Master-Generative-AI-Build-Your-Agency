@@ -15,7 +15,7 @@ $$\text{Biaya yang Diusulkan} = \text{Biaya Pasar Tradisional} \kali 0,30$$
 |---|---|---|---|---|---|
 | Batch Headshot Perusahaan (50 Orang) | $15.000 | **$4.500** | $25,00 | $4,475.00 | **99,4%** |
 | Kampanye Produk (20 Render Merchandise + 3 Video) | $18,000 | **$5.500** | $45,00 | $5.455,00 | **99,2%** |
-| Pementasan Virtual Real Estat (10 Daftar) | $6.000 | **$2.200** | $30,00 | $2,170.00 | **98,6%** |
+| Virtual Staging Virtual Real Estate (10 Daftar) | $6.000 | **$2.200** | $30,00 | $2,170.00 | **98,6%** |
 
 ---
 

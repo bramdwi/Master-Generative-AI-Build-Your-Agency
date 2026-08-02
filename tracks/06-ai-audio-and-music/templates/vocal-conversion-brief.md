@@ -10,7 +10,7 @@ Gunakan penjelasan singkat ini untuk mengonfigurasi dan mengaudit proses transfe
 
 ## 1. Masukkan Persiapan Vokal
 
-- [ ] **Ekstraksi Acapella:** Ekstrak trek vokal dari instrumental lagu asli menggunakan pembagi batang AI (mis. Demucs atau Lalal.ai).
+- [ ] **Ekstraksi Acapella:** Ekstrak track vokal dari instrumental lagu asli menggunakan pembagi batang AI (mis. Demucs atau Lalal.ai).
 - [ ] **Penyelarasan Nada & Penyetelan:** Jalankan penalaan otomatis (atau koreksi nada) pada vokal sumber *sebelum* konversi. Mesin model mentransfer timbre, tetapi kesulitan memperbaiki nada yang tidak selaras.
 - [ ] **Kompresi Dinamis:** Menghaluskan lonjakan volume ekstrem sehingga konverter menerima tingkat masukan yang stabil.
 

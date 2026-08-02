@@ -2,7 +2,7 @@
 
 > Perhatian diperoleh pada paruh kedua pertama, dan dipertahankan dengan gerakan kinetik.
 
-**Lacak:** Pabrik Konten AI
+**Lacak:** AI Content Factory
 **Waktu:** ~45 menit
 **Prasyarat:** Jalur Produksi Multi-Langkah
 
@@ -12,7 +12,7 @@ Kecepatan menggesek pada feed vertikal (TikTok, Instagram Reels, YouTube Shorts)
 
 Selain itu, banyak pembuat konten yang memperlakukan pengeditan video vertikal seperti pengeditan layar lebar. Mereka membiarkan gambar diam tetap di layar, menggunakan teks kecil yang sulit dibaca di bagian bawah, atau menempatkan teks di tempat yang ditutupi oleh hamparan antarmuka pengguna platform (komentar, tombol suka, dan nama saluran).
 
-Untuk membangun pabrik konten vertikal berkinerja tinggi, Anda perlu mengonfigurasi preset editor khusus yang mengoptimalkan potongan visual, tipografi teks, dan zona aman khusus untuk feed yang mengutamakan seluler.
+Untuk membangun content factory vertikal berkinerja tinggi, Anda perlu mengonfigurasi preset editor khusus yang mengoptimalkan potongan visual, tipografi teks, dan zona aman khusus untuk feed yang mengutamakan seluler.
 
 ## Konsep
 
@@ -35,13 +35,13 @@ Setiap platform melapisi ikon antarmuka pengguna (suka, bagikan, komentar) di si
 Di editor Anda (misalnya CapCut), atur rasio aspek proyek ke `9:16` (1080 x 1920 piksel). Pastikan aset latar belakang Anda menutupi seluruh tinggi layar tanpa meninggalkan bilah hitam di bagian atas atau bawah.
 
 ### Langkah 2: Pembuatan Teks Otomatis
-Jalankan utilitas teks otomatis. Setelah trek teks dibuat, pilih semua keterangan dan terapkan gaya visual berikut:
+Jalankan utilitas teks otomatis. Setelah track teks dibuat, pilih semua keterangan dan terapkan gaya visual berikut:
 * **Font:** Montserrat Tebal atau Berdampak.
 * **Warna:** Putih (`#FFFFFF`) dengan garis luar/guratan hitam (lebar: 8).
 * **Kata Kunci:** Pindai timeline. Ubah warna font kata kerja tindakan atau kata kunci utama secara manual (misalnya "WIN", "DAGER") menjadi Kuning (`#FFD700`) atau Hijau (`#00FF00`).
 
 ### Langkah 3: Penempatan posisi dalam Zona Aman
-Posisikan trek teks di tengah layar. Dalam kotak koordinat posisi, atur nilai sumbu Y sehingga teks berada sedikit di bawah tengah, namun jauh di atas area nama pengguna akun:
+Posisikan track teks di tengah layar. Dalam kotak koordinat posisi, atur nilai sumbu Y sehingga teks berada sedikit di bawah tengah, namun jauh di atas area nama pengguna akun:
 * Koordinat target: **Y = -120 hingga -150 piksel** pada petak standar 1080x1920.
 
 ### Langkah 4: Terapkan Aturan Kecepatan Visual
@@ -70,7 +70,7 @@ Pada tanda 15 detik atau 30 detik, masukkan peningkatan visual secara tiba-tiba 
 * **3,5 detik:** Dipotong menjadi siluet atlet yang melakukan pull-up (dengan zoom-in lambat).
 
 * **Sinkronisasi Teks:**
-* Sulih Suara: *"Jika ingin kemajuan, berhentilah mencari kenyamanan."*
+* Voiceover: *"Jika ingin kemajuan, berhentilah mencari kenyamanan."*
 * Urutan keluaran teks: `[If you want] (0.0-0.8s)` -> `[PROGRESS] (0.8-1.5s, highlighted in green)` -> `[stop looking] (1.5-2.5s)` -> `[for comfort] (2.5-3.5s)`.
 
 * **Desain Suara:**
@@ -104,7 +104,7 @@ CapCut adalah editor pabrik terbaik untuk konten vertikal karena menghasilkan te
 ## Latihan
 
 1. **Mudah:** Impor gambar layar lebar ke proyek vertikal. Skalakan dan pangkas agar sesuai dengan `9:16`. Simpan itu.
-2. **Medium:** Buat teks secara otomatis untuk trek audio 30 detik. Terapkan font Montserrat Bold, ubah jumlah kelompok kata menjadi 2 kata per layar, dan sorot warna 3 kata kunci.
+2. **Medium:** Buat teks secara otomatis untuk track audio 30 detik. Terapkan font Montserrat Bold, ubah jumlah kelompok kata menjadi 2 kata per layar, dan sorot warna 3 kata kunci.
 3. **Sulit:** Menghasilkan video vertikal berdurasi 30 detik yang mencakup: (1) pemotongan setiap 2 detik, (2) animasi skala 100% hingga 108% pada semua gambar latar belakang, dan (3) teks diposisikan tepat di dalam zona aman.
 
 ---
