@@ -118,7 +118,7 @@ Bagi para pembuat konten yang baru memulai, menggunakan Midjourney atau `nano-ba
 
 ---
 
-## Templat
+## Template
 
 * [`templates/character-style-guide.md`](templates/character-style-guide.md) — direktori profil untuk mengunci jangkar cepat dan daftar unggulan.
 

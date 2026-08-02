@@ -1,10 +1,10 @@
-# Templat Penjangkauan Agen Real Estat & Cold Pitch
+# Template Penjangkauan Agen Real Estat & Cold Pitch
 
-Gunakan templat email, skrip video, dan proposal kemitraan ini untuk memperoleh klien agen real estat dan pialang.
+Gunakan template email, skrip video, dan proposal kemitraan ini untuk memperoleh klien agen real estat dan pialang.
 
 ---
 
-## Templat Email 1: Audit Daftar Kosong Aktif (Konversi Tertinggi)
+## Template Email 1: Audit Daftar Kosong Aktif (Konversi Tertinggi)
 
 **Target:** Agen dengan listing aktif 14+ hari yang memiliki foto ruangan kosong.
 

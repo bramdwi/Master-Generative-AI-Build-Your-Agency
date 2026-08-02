@@ -5,7 +5,7 @@ Gunakan daftar periksa ini untuk membangun saluran penjualan dengan konversi tin
 ---
 
 ## 1. Magnet Timbal (Titik Masuk)
-- [ ] **Tentukan Aset Bernilai Tinggi:** Buat panduan PDF sederhana, templat, spreadsheet, atau folder sumber daya yang secara langsung memecahkan masalah utama niche tersebut.
+- [ ] **Tentukan Aset Bernilai Tinggi:** Buat panduan PDF sederhana, template, spreadsheet, atau folder sumber daya yang secara langsung memecahkan masalah utama niche tersebut.
 - [ ] **Bangun Laman Landas Keikutsertaan:** Siapkan laman landas yang bersih (misalnya melalui Carrd, ConvertKit) dengan satu bidang untuk nama dan alamat email.
 - [ ] **Visual Mockup:** Menghasilkan mockup gambar sumber daya (misalnya menggunakan teks-ke-gambar) untuk ditampilkan pada halaman keikutsertaan.
 

@@ -92,7 +92,7 @@ Kalkulasikan potensi passive monthly income berdasarkan skala katalog serta rata
 2. **Sedang:** Manfaatkan lembar kalkulasi harga Anda untuk memodelkan katalog berisikan 50 produk yang menghasilkan 50 transaksi penjualan per bulan.
 3. **Hard:** Susun matriks harga dinamis yang mengalokasikan 10% Etsy ad spend dengan tetap mempertahankan batas minimal profit sebesar $8.00 per transaksi.
 
-## Templat
+## Template
 
 - [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — Lembar kerja profit dinamis, formulasi biaya platform, serta tolak ukur COGS.
 

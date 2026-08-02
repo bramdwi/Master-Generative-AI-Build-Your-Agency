@@ -98,7 +98,7 @@ Untuk pembuatan latar belakang, FLUX Pro sangat efektif dalam merender tekstur s
 2. **Sedang:** Hasilkan 2 latar belakang lookbook yang menyatu mengandalkan prompt berbeda, namun pertahankan palet warna dan sudut pencahayaan agar tetap identik.
 3. **Sulit:** Satukan model fashion ke atas latar belakang yang Anda hasilkan. Terapkan custom color lookup table (LUT) untuk menyelaraskan highlight model dengan nuansa hangat latar belakang. Tambahkan layer grain lembut di atas komposit tersebut.
 
-## Templat
+## Template
 
 - [`templates/lookbook-moodboard.md`](templates/lookbook-moodboard.md) — tema estetika, koordinat pencahayaan, preset latar belakang, dan token prompt.
 

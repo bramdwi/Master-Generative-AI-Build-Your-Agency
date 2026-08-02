@@ -15,7 +15,7 @@ Dokumen ini berisi panduan perencanaan konten, naskah (*script*) siap rekam/suli
 * **Pilar 1: Edukasi & Value-First (40%)** — Tutorial singkat, tips rahasia, *framework* teknis (misal: penguncian konsistensi wajah, formula *prompt* sinematik).
 * **Pilar 2: Pembongkaran & Studi Kasus / Show & Tell (30%)** — Membedah iklan UGC bernilai tinggi, breakdown biaya produksi API vs GUI, demo visual AI sebelum/sesudah.
 * **Pilar 3: Tech Stack & Otomasi (15%)** — Review *tool*, alur kerja *multi-agent*, integrasi API (muapi, ComfyUI, ElevenLabs).
-* **Pilar 4: Call to Action & Monetiase (15%)** — Promosi paket kursus, *lead magnet* templat gratis, pendaftaran agensi.
+* **Pilar 4: Call to Action & Monetiase (15%)** — Promosi paket kursus, *lead magnet* template gratis, pendaftaran agensi.
 
 ---
 

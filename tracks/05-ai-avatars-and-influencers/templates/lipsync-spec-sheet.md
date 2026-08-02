@@ -22,7 +22,7 @@ Gunakan lembar ini untuk mempersiapkan aset audio dan video Anda sebelum memasuk
 
 Lacak pencapaian penyelarasan pada timeline selama rendering:
 
-| Jalur Dialog | Berkas Audio | Templat Video | Durasi | Nilai Warping (Lulus/Gagal) | Sinkronisasi Drift (ms) |
+| Jalur Dialog | Berkas Audio | Template Video | Durasi | Nilai Warping (Lulus/Gagal) | Sinkronisasi Drift (ms) |
 |---|---|---|:---:|:---:|---|
 | "Hei, ini [Nama] di sini. Hari ini kita..." | __KODE INLINE_0__ | __KODE INLINE_1__ | 4,5 detik | | |
 | "Jika Anda ingin mengotomatiskan faktur..." | __KODE INLINE_0__ | __KODE INLINE_1__ | 8.2 detik | | |

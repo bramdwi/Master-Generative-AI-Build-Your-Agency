@@ -90,7 +90,7 @@ Pastikan musik latar dikecilkan **-14dB** di bawah trek narasi sulih suara selam
 
 ---
 
-## Templat
+## Template
 
 * [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Pengaturan parameter suara, struktur perintah musik, dan daftar periksa pencampuran batang.
 

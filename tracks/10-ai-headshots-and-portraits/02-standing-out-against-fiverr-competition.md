@@ -136,13 +136,13 @@ Kirimkan foto kepala tim lengkap yang disusun berdasarkan folder nama karyawan y
 
 ## Latihan
 
-1. **Mudah:** Buat templat formulir penerimaan B2B dengan kolom untuk nama karyawan, jabatan, pilihan pakaian, dan unggahan selfie.
+1. **Mudah:** Buat template formulir penerimaan B2B dengan kolom untuk nama karyawan, jabatan, pilihan pakaian, dan unggahan selfie.
 2. **Medium:** Ambil 1 selfie santai teman atau kolega dan ubah menjadi 3 gaya korporat yang berbeda (Navy Suit, Tech Turtleneck, Creative Blazer) yang serasi dengan latar belakang gradien abu-abu terpadu.
 3. **Sulit:** Promosikan perusahaan atau startup lokal dengan tim yang terdiri dari 10+ karyawan dengan membuat contoh foto profil CEO Sebelum/Sesudah kustom.
 
 ---
 
-## Templat
+## Template
 
 * [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Proposal penjualan perusahaan, skema formulir penerimaan, perjanjian privasi GDPR, dan kontrak SLA.
 

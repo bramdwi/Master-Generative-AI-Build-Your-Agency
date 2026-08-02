@@ -1,4 +1,4 @@
-# Templat Penjangkauan
+# Template Penjangkauan
 
 Dari [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-selling-ugc.md). Memimpin dengan sampel akhir yang spesifik untuk produk — tidak pernah dengan penjelasan tentang proses AI.
 
@@ -16,7 +16,7 @@ Dari [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-sellin
 
 Mengapa ini berhasil: ini menyebutkan merek dan produk sebenarnya (bukan "perusahaan Anda"), menghubungkan sampel nyata yang sudah jadi alih-alih menjelaskan kemampuan, dan permintaannya kecil (lihat satu sampel) daripada komitmen besar.
 
-## Templat kosong
+## Template kosong
 
 Subjek: Konsep iklan singkat untuk [Merek]
 

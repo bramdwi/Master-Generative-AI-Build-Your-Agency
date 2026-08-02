@@ -101,7 +101,7 @@ Selalu pilih penjadwal platform asli untuk saluran dengan lalu lintas tinggi. Un
 
 ---
 
-## Templat
+## Template
 
 * [`templates/30-day-production-calendar.md`](templates/30-day-production-calendar.md) — jadwal batch bulanan dan pelacak unggahan.
 

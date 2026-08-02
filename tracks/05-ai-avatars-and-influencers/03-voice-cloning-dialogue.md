@@ -108,7 +108,7 @@ Untuk influencer virtual profesional, ElevenLabs Professional Voice Cloning (PVC
 
 ---
 
-## Templat
+## Template
 
 * [`templates/voice-cloning-checklist.md`](templates/voice-cloning-checklist.md) — persyaratan audio pelatihan, gerbang kebisingan, dan daftar periksa validasi pasca-klon.
 

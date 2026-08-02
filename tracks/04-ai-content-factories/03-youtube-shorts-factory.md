@@ -119,9 +119,9 @@ Untuk pabrik bervolume tinggi, membuat audio loop secara terprogram menggunakan 
 
 ---
 
-## Templat
+## Template
 
-* [`templates/shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md) — templat skrip dan aturan pengeditan untuk loop tak terbatas.
+* [`templates/shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md) — template skrip dan aturan pengeditan untuk loop tak terbatas.
 
 ---
 

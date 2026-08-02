@@ -73,9 +73,9 @@ Pertimbangkan secara rasional seberapa sering Anda akan menggunakan kembali kara
 2. **Sedang:** Hasilkan karakter yang sama dalam 5 adegan/latar belakang berbeda lalu identifikasi detail mana yang bergeser terlebih dahulu (umumnya: usia, proporsi wajah spesifik, gaya rambut).
 3. **Sulit:** Konfigurasikan alur kerja ComfyUI lokal dengan identitas terlatih untuk satu karakter, lalu bandingkan konsistensinya terhadap pendekatan foto referensi API pada 5 adegan yang sama.
 
-## Templat
+## Template
 
-Templat siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
+Template siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
 
 * [`templates/character-consistency-checklist.md`](templates/character-consistency-checklist.md) — hal yang perlu diperiksa dari pergeseran karakter sebelum menyerahkan hasil pengerjaan kepada client.
 

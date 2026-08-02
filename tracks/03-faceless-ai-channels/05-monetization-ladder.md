@@ -33,7 +33,7 @@ Daripada menawarkan produk seharga $100 kepada audiens yang acuh tak acuh pada h
 
 ### Langkah 1: Rancang Magnet Timbal Bernilai Tinggi
 Identifikasi satu-satunya titik gesekan terbesar di niche Anda. Buat alat visual sederhana untuk menyelesaikannya:
-* *SaaS Niche:* Templat otomatisasi siap pakai atau daftar alat.
+* *SaaS Niche:* Template otomatisasi siap pakai atau daftar alat.
 * *Niche Keuangan:* Kalkulator anggaran dasar Google Sheets.
 Pastikan mudah untuk dikirimkan secara digital sebagai tautan atau PDF.
 
@@ -73,7 +73,7 @@ Siapkan alur kerja otomatis di dalam perangkat lunak pemasaran email Anda (misal
 * **Konversi Corong:**
 * **Keikutsertaan Magnet Utama:** Tingkat konversi 0,5% = **300 pendaftaran email**
 * **Tingkat 2 (Afiliasi):** 3% pendaftaran mengeklik tautan afiliasi dan membeli alat senilai $49/bln (komisi berulang 30% = $14,70/pengguna) -> 9 penjualan = **$132,30/bulan (berulang)**
-* **Tingkat 3 (Penjualan Digital):** 2% pendaftaran membeli Templat Parsing Faktur senilai $29 di Gumroad -> 6 penjualan = **$174,00/bulan**
+* **Tingkat 3 (Penjualan Digital):** 2% pendaftaran membeli Template Parsing Faktur senilai $29 di Gumroad -> 6 penjualan = **$174,00/bulan**
 * **Total Pendapatan Non-AdSense:** **$306,30/bulan**
 * **Biaya produksi API:** 12 video diproduksi @ $0,70/video = **$8,40**
 
@@ -96,7 +96,7 @@ Untuk pemula, kombinasi Carrd (halaman arahan), MailerLite (otomatisasi email), 
 ## Luncurkan
 
 **Cara mengoptimalkan konversi Anda:**
-* **Gunakan Komentar yang Disematkan:** Orang membaca komentar. Komentar yang dipasangi pin *"Dapatkan templat lembar anggaran gratis di sini: [link]"* mendapat klik 3x lebih banyak daripada tautan yang ditempatkan di bagian bawah kotak deskripsi video.
+* **Gunakan Komentar yang Disematkan:** Orang membaca komentar. Komentar yang dipasangi pin *"Dapatkan template lembar anggaran gratis di sini: [link]"* mendapat klik 3x lebih banyak daripada tautan yang ditempatkan di bagian bawah kotak deskripsi video.
 * **Hindari Penjualan Keras dalam Video:** Jangan menghabiskan 20 detik dari video berdurasi 60 detik untuk menjelaskan produk berbayar. Cukup ucapkan: *"Saya meletakkan templatenya di komentar di bawah."* Biarkan rangkaian email otomatis yang melakukan penjualan.
 
 ---
@@ -109,10 +109,10 @@ Untuk pemula, kombinasi Carrd (halaman arahan), MailerLite (otomatisasi email), 
 
 ---
 
-## Templat
+## Template
 
 * [`templates/funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) — daftar periksa tata letak untuk menghubungkan halaman keikutsertaan, email selamat datang, dan portal pembayaran pedagang.
-* [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md) — templat email keren untuk mengamankan struktur rujukan khusus.
+* [`templates/affiliate-pitch-template.md`](templates/affiliate-pitch-template.md) — template email keren untuk mengamankan struktur rujukan khusus.
 
 ---
 

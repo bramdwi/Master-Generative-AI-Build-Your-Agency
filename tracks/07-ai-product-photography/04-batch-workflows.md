@@ -49,7 +49,7 @@ Hasilkan dan pilih gambar latar studio dengan performa terbaik. Skala dan pusatk
 Buka `master_background.jpg` di editor foto Anda. Tarik ke bawah pemandu penggaris horizontal untuk mengatur ketinggian garis dasar di mana bagian bawah produk akan menyentuh permukaan alas. Tandai pemandu samping untuk mewakili batas bantalan maksimum. Simpan dokumen ini sebagai `catalog_template.psd`.
 
 ### Langkah 5: Jalankan Pengomposisian Batch
-Impor topeng PNG terisolasi Anda ke dalam templat:
+Impor topeng PNG terisolasi Anda ke dalam template:
 * Sejajarkan setiap dasar masker produk dengan panduan garis dasar horizontal.
 * Skala Proporsional: Pastikan setiap variasi memenuhi kotak pembatas standar (misalnya tinggi 80%).
 * Gandakan layer bayangan di bawah produk. Karena pencahayaannya identik, lapisan kontak dan drop shadow yang sama dapat digunakan kembali di semua file.
@@ -76,7 +76,7 @@ Impor topeng PNG terisolasi Anda ke dalam templat:
 * Tinggi produk: Distandarisasi hingga tepat 1100 piksel.
 * **Pemrosesan Batch:**
 * Jalankan penghapusan latar belakang seluruh folder pada 5 gambar produk mentah.
-* Mengimpor semua 5 topeng PNG ke dalam templat PSD.
+* Mengimpor semua 5 topeng PNG ke dalam template PSD.
 * Mengalihkan setiap lapisan penetes satu per satu (di Photoshop: klik ikon mata di sebelah lapisan untuk menampilkan/menyembunyikannya), menjaga bayangan dasar dan lapisan latar belakang tetap identik.
 * **Hasil:** Menghasilkan 5 gambar katalog yang sangat cocok dengan pencahayaan, bayangan, dan ukuran yang seragam dalam waktu kurang dari 10 menit.
 
@@ -110,7 +110,7 @@ Untuk agensi desain, merekam tindakan batch di Photoshop adalah alur kerja terba
 
 ---
 
-## Templat
+## Template
 
 * [`templates/batch-catalog-spec.md`](templates/batch-catalog-spec.md) — pengaturan direktori, peta kotak pembatas, log katalog, dan daftar periksa alur kerja.
 

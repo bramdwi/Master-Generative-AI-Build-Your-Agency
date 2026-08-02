@@ -91,7 +91,7 @@ Untuk pengoperasian saluran tunggal, pengeditan manual di dalam CapCut adalah ca
 ## Luncurkan
 
 **Cara mengoptimalkan alur kerja Anda:**
-* **Direktori Templat:** Siapkan templat folder lokal yang bersih di komputer Anda:
+* **Direktori Template:** Siapkan template folder lokal yang bersih di komputer Anda:
   ```
   [project-folder]/
   ├── audio/          # Narrations and voiceovers
@@ -99,7 +99,7 @@ Untuk pengoperasian saluran tunggal, pengeditan manual di dalam CapCut adalah ca
   ├── project_files/  # Saved CapCut/Premiere project
   └── exports/        # Completed renders
   ```
-* **Render Batch:** Buat semua audio narasi terlebih dahulu, catat di templat log Anda, lalu buat semua latar belakang video secara batch. Ini membuat Anda tetap fokus pada satu waktu, menggandakan kecepatan pengeditan Anda.
+* **Render Batch:** Buat semua audio narasi terlebih dahulu, catat di template log Anda, lalu buat semua latar belakang video secara batch. Ini membuat Anda tetap fokus pada satu waktu, menggandakan kecepatan pengeditan Anda.
 
 ---
 
@@ -111,7 +111,7 @@ Untuk pengoperasian saluran tunggal, pengeditan manual di dalam CapCut adalah ca
 
 ---
 
-## Templat
+## Template
 
 * [`templates/narration-duration-log.md`](templates/narration-duration-log.md) — log garis waktu untuk mencocokkan potongan visual dengan durasi trek audio.
 

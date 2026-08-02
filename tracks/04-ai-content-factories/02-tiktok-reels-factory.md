@@ -85,8 +85,8 @@ Pada tanda 15 detik atau 30 detik, masukkan peningkatan visual secara tiba-tiba 
 
 | Jalur Pengeditan | Kecepatan | Kustomisasi Teks | Panduan Zona Aman |
 |---|---|---|---|
-| **CapCut (Desktop)** | Cepat | Luar Biasa (Perpustakaan besar templat dan gaya teks) | Bawaan (Menampilkan hamparan UI vertikal) |
-| **Tayangan Perdana Pro** | Sedang | Bagus (Sangat dapat disesuaikan, tetapi memerlukan pengaturan templat prasetel secara manual) | Diperlukan pengaturan manual |
+| **CapCut (Desktop)** | Cepat | Luar Biasa (Perpustakaan besar template dan gaya teks) | Bawaan (Menampilkan hamparan UI vertikal) |
+| **Tayangan Perdana Pro** | Sedang | Bagus (Sangat dapat disesuaikan, tetapi memerlukan pengaturan template prasetel secara manual) | Diperlukan pengaturan manual |
 | **Editor Dalam Aplikasi** (TikTok/Reel) | Lambat | Rendah (Opsi font dasar, sulit menentukan waktu yang tepat untuk audio) | Dinamis |
 
 CapCut adalah editor pabrik terbaik untuk konten vertikal karena menghasilkan teks otomatis dalam hitungan detik, memiliki garis zona aman bawaan, dan mendukung ekspor batch cepat. Gunakan pengunggah dalam aplikasi asli hanya untuk menambahkan file audio terakhir yang sedang tren selama pengeposan.
@@ -109,7 +109,7 @@ CapCut adalah editor pabrik terbaik untuk konten vertikal karena menghasilkan te
 
 ---
 
-## Templat
+## Template
 
 * [`templates/tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md) — catatan tata letak untuk tarif pemotongan, tipografi teks, dan zona aman.
 

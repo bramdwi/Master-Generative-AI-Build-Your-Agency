@@ -4,7 +4,7 @@
 
 Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, daftar periksa, lembar spesifikasi) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, daftar periksa, lembar spesifikasi) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -23,7 +23,7 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Tulis petunjuk lingkungan latar belakang studio deskriptif yang menentukan detail permukaan dan sudut sinar matahari.
 - Gabungkan produk ke latar belakang dengan menampilkan bayangan kontak oklusi ambien dan bayangan jatuh terarah yang serasi.
 
-**Templat:** [`photography-brief-template.md`](templates/photography-brief-template.md)
+**Template:** [`photography-brief-template.md`](templates/photography-brief-template.md)
 
 ### 2.[Before/After Conversion Case Studies](02-conversion-case-studies.md)
 
@@ -33,7 +33,7 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Bangun hipotesis visual yang menargetkan rasio klik-tayang (RKT) dan rasio konversi laman landas (CVR).
 - Pengujian pemisahan statistik struktur dijalankan dengan mengarahkan lalu lintas antara tata letak stok lama dan latar belakang gaya hidup AI baru.
 
-**Templat:** [`conversion-audit-checklist.md`](templates/conversion-audit-checklist.md)
+**Template:** [`conversion-audit-checklist.md`](templates/conversion-audit-checklist.md)
 
 ### 3.[Selling as a Productized Service](03-productized-service.md)
 
@@ -43,7 +43,7 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Konfigurasikan kuesioner penerimaan klien untuk menangkap masker produk dan gaya logo resolusi tinggi.
 - Promosikan pemilik merek e-niaga menggunakan pembaruan visual berdampingan sebagai pengait utama.
 
-**Templat:** [`productized-service-offer.md`](templates/productized-service-offer.md)
+**Template:** [`productized-service-offer.md`](templates/productized-service-offer.md)
 
 ### 4.[Batch Workflows for Catalogs](04-batch-workflows.md)
 
@@ -53,8 +53,8 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Pertahankan ukuran, penempatan dasar, dan konsistensi pencahayaan di seluruh daftar pelepasan koleksi.
 - Percepat produksi dengan memanfaatkan lapisan file master PSD untuk bayangan dan latar belakang yang berulang.
 
-**Templat:** [`batch-catalog-spec.md`](templates/batch-catalog-spec.md)
+**Template:** [`batch-catalog-spec.md`](templates/batch-catalog-spec.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

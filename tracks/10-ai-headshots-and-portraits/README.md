@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
 * [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Perintah pengaturan pencahayaan, deskriptor lemari pakaian, dan perpustakaan perintah negatif.
 * [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Proposal penjualan perusahaan, skema formulir penerimaan, perjanjian privasi GDPR, dan kontrak SLA.

@@ -1,4 +1,4 @@
-# Templat Panduan Gaya Karakter
+# Template Panduan Gaya Karakter
 
 Gunakan panduan gaya ini untuk mendokumentasikan dan mengunci identitas visual karakter AI Anda. Jaga agar token dan nilai-nilai ini tetap identik di seluruh sesi generasi untuk mencegah penyimpangan wajah.
 

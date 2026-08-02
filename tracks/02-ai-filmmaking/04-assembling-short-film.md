@@ -118,9 +118,9 @@ Lakukan pendekatan langsung kepada influencer AI di YouTube/Instagram yang kerap
 2. **Sedang:** Ambil klip bisu berdurasi 4 detik dari karakter yang sedang bertutur. Ciptakan baris dialog di ElevenLabs, impor berkas tersebut, lalu sesuaikan durasi visual klip agar menyatu sempurna dengan panjang gelombang audio.
 3. **Sulit:** Lakukan eksperimen penyelarasan warna: impor 3 klip video hasil pendaran model video yang berbeda (dengan karakter tata cahaya yang beragam). Olah Color Grading memanfaatkan Color Wheels atau LUT bersama guna menghadirkan ilusi seolah seluruh adegan diabadikan di dalam ruangan yang sama dengan kamera yang serupa.
 
-## Templat
+## Template
 
-Templat siap guna yang dihasilkan oleh modul ini:
+Template siap guna yang dihasilkan oleh modul ini:
 
 - [`templates/sound-design-checklist.md`](templates/sound-design-checklist.md) — Panduan utama untuk penyelarasan dialog, ambience, SFX, dan keseimbangan musik.
 

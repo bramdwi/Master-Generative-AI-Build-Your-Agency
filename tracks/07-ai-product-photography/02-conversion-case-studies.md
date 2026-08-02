@@ -109,11 +109,11 @@ Untuk penyiapan e-niaga yang cepat, aplikasi Shopify seperti paket *Themewood* a
 
 1. **Mudah:** Buka merek online favorit Anda dan temukan daftar produk dengan foto galeri gaya hidup lemah. Identifikasi 3 cara untuk meningkatkan daya tarik visual mereka.
 2. **Media:** Selesaikan audit visual lengkap atas listingan tiruan menggunakan [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md). Tuliskan hipotesis uji terpisah yang jelas.
-3. **Keras:** Desain Varian A (produk standar berwarna putih) dan Varian B (komposit premium dengan dasar batu AI) untuk produk dapur. Siapkan templat pangkas yang dioptimalkan untuk seluler untuk kedua varian.
+3. **Keras:** Desain Varian A (produk standar berwarna putih) dan Varian B (komposit premium dengan dasar batu AI) untuk produk dapur. Siapkan template pangkas yang dioptimalkan untuk seluler untuk kedua varian.
 
 ---
 
-## Templat
+## Template
 
 * [`templates/conversion-audit-checklist.md`](templates/conversion-audit-checklist.md) — pelacak metrik, kriteria pengujian terpisah, dan log konversi.
 

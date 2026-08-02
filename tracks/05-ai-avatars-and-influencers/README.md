@@ -4,7 +4,7 @@
 
 Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (panduan gaya, kit media, perjanjian penahan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (panduan gaya, kit media, perjanjian penahan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -24,7 +24,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Cegah variasi wajah di seluruh adegan dengan menggunakan gambar referensi dan pertukaran wajah pasca-generasi.
 - Atur karakter ke dalam panduan gaya visual untuk mengulangi fitur visual dengan mulus.
 
-**Templat:** [`character-style-guide.md`](templates/character-style-guide.md)
+**Template:** [`character-style-guide.md`](templates/character-style-guide.md)
 
 ### 2.[Character to Content Pipeline](02-character-content-pipeline.md)
 
@@ -34,7 +34,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Kunci dimensi karakter dan detail rambut dengan membatasi gerakan wajah pada bibir yang berbicara dan kedipan.
 - Urutkan kepala pembicaraan di samping potongan slide B-roll di editor video untuk membuat pemirsa tetap terlibat.
 
-**Templat:** [`lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md)
+**Template:** [`lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md)
 
 ### 3.[Voice Cloning & Dialogue](03-voice-cloning-dialogue.md)
 
@@ -44,7 +44,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Tulis penggantian kata fonetik di kolom skrip untuk memaksa pengucapan akronim dan merek yang benar.
 - Kontrol ritme naratif dan jeda pernapasan menggunakan segmen kalimat terstruktur dan tanda baca.
 
-**Templat:** [`voice-cloning-checklist.md`](templates/voice-cloning-checklist.md)
+**Template:** [`voice-cloning-checklist.md`](templates/voice-cloning-checklist.md)
 
 ### 4.[Monetization Tiers by Follower Count](04-monetization-tiers.md)
 
@@ -54,7 +54,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Paket penempatan bundel (integrasi, tautan yang disematkan, dan bios) untuk mempromosikan merek dengan anggaran aktif.
 - Kemas metrik akun, niche, dan demografi audiens ke dalam Kit Media khusus.
 
-**Templat:** [`sponsor-media-kit.md`](templates/sponsor-media-kit.md)
+**Template:** [`sponsor-media-kit.md`](templates/sponsor-media-kit.md)
 
 ### 5.[Agency Case Study: Small-Team Economics](05-agency-economics.md)
 
@@ -64,8 +64,8 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Pertahankan kepemilikan file panduan mesin yang mendasarinya (prompt, seed, suara) saat mentransfer hak video.
 - Koordinasikan jadwal pengiriman batch mingguan dan siklus persetujuan dengan klien layanan profesional.
 
-**Templat:** [`influencer-agency-agreement.md`](templates/influencer-agency-agreement.md)
+**Template:** [`influencer-agency-agreement.md`](templates/influencer-agency-agreement.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 10 lagu lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 10 lagu lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

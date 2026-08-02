@@ -1,6 +1,6 @@
 # Spesifikasi Moodboard & Pencahayaan Lookbook Mode
 
-Gunakan templat ini untuk menstandarkan gaya visual, pencahayaan studio, dan pengaturan warna untuk buku tampilan editorial mode.
+Gunakan template ini untuk menstandarkan gaya visual, pencahayaan studio, dan pengaturan warna untuk buku tampilan editorial mode.
 
 ## 1. Getaran Visual & Pola Dasar Estetika
 * **Nama Tema:** misalnya Musim Gugur Minimalis Nordik

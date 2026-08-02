@@ -96,7 +96,7 @@ Gunakan **Cloud API** untuk penerimaan klien seluler yang cepat dan pemrosesan b
 
 ---
 
-## Templat
+## Template
 
 * [`templates/api-cost-calculator.md`](templates/api-cost-calculator.md) — Rumus biaya API, kalkulator pengembalian GPU, dan pohon keputusan VRAM perangkat keras.
 * [`templates/tool-evaluation-framework.md`](templates/tool-evaluation-framework.md) — Daftar periksa evaluasi 5 poin untuk menguji model AI baru sebelum mengintegrasikannya ke dalam alur kerja produksi.

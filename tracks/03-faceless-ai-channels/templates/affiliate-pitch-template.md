@@ -1,6 +1,6 @@
-# Templat Pitch Afiliasi
+# Template Pitch Afiliasi
 
-Gunakan templat email ini untuk menjangkau merek perangkat lunak/layanan di niche Anda guna mendapatkan kode promo afiliasi khusus dan tarif rujukan.
+Gunakan template email ini untuk menjangkau merek perangkat lunak/layanan di niche Anda guna mendapatkan kode promo afiliasi khusus dan tarif rujukan.
 
 ---
 

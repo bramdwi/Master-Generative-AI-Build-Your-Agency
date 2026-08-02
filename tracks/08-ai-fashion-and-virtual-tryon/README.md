@@ -4,7 +4,7 @@
 
 Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, lembar spesifikasi, log) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (ringkasan, lembar spesifikasi, log) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -23,7 +23,7 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Menggantungkan pakaian terisolasi ke struktur model target menggunakan saluran pipa virtual try-on (VTO).
 - Verifikasi tepi kerah, garis luar tombol, dan perataan pola teks pada tingkat zoom tinggi.
 
-**Templat:** [`tryon-spec-sheet.md`](templates/tryon-spec-sheet.md)
+**Template:** [`tryon-spec-sheet.md`](templates/tryon-spec-sheet.md)
 
 ### 2.[High-converting Studio Lookbooks](02-studio-lookbooks.md)
 
@@ -33,7 +33,7 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Terapkan pencahayaan softbox samping dan berikan bayangan sekitar yang lembut dalam komposit model.
 - Terapkan peta pencarian warna global (LUT) untuk mencocokkan warna sorotan dan bayangan di seluruh lookbook.
 
-**Templat:** [`lookbook-moodboard.md`](templates/lookbook-moodboard.md)
+**Template:** [`lookbook-moodboard.md`](templates/lookbook-moodboard.md)
 
 ### 3.[Sizing & Layout Consistency](03-sizing-layout-consistency.md)
 
@@ -43,7 +43,7 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Pertahankan rasio aspek standar dan margin keamanan untuk tata letak seluler.
 - Pusatkan jahitan dan ritsleting produk utama ke titik tengah horizontal kanvas.
 
-**Templat:** [`mannequin-alignment-template.md`](templates/mannequin-alignment-template.md)
+**Template:** [`mannequin-alignment-template.md`](templates/mannequin-alignment-template.md)
 
 ### 4.[Before/After Conversion Cases](04-conversion-cases.md)
 
@@ -53,8 +53,8 @@ Empat modul, secara berurutan. Masing-masing adalah satu file penurunan harga �
 - Tampilkan pakaian dalam berbagai bentuk tubuh model untuk meningkatkan konversi.
 - Tempatkan pengukuran model dan label ukuran yang jelas pada daftar grafik pahlawan.
 
-**Templat:** [`fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md)
+**Template:** [`fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 11 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

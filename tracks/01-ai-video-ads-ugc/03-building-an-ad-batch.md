@@ -25,7 +25,7 @@ Mengubah ketiga elemen tersebut pada setiap ad akan membuat tiap ad berbeda seca
 ## Lakukan itu
 
 1. **Kunci elemen konstan.** Produk yang sama, poin pembuktian utama yang sama, serta CTA yang sama — elemen-elemen ini dipertahankan di seluruh rangkaian batch.
-2. **Susun 3-4 variasi hook** mengandalkan templat script dari Modul 1, di mana masing-masing menguji sudut pembuka yang berbeda.
+2. **Susun 3-4 variasi hook** mengandalkan template script dari Modul 1, di mana masing-masing menguji sudut pembuka yang berbeda.
 3. **Padukan hook dengan 2-3 variasi angle** (berfokus pada harga, kepraktisan, maupun bukti sosial) untuk menyusun matriks kombinasi — contohnya 4 hook × 3 angle tidak harus menghasilkan 12 ad; pilih 8-10 kombinasi paling potensial.
 4. **Gunakan kembali karakter konsisten Anda** (Modul 2) di seluruh rangkaian batch kecuali brief mewajibkan beberapa tipe creator.
 5. **Lakukan produksi voice dan avatar secara batch** — karena script/karakter telah terkunci, tahapan ini mayoritas berupa pengulangan dengan teks script yang berbeda, di mana generasi berbasis API menunjukkan efisiensinya dibanding tools manual satu per satu.
@@ -77,11 +77,11 @@ Memproduksi 3 variasi ini memanfaatkan kembali gambar anchor terunggah yang sama
 2. **Sedang:** Produksi 5-ad batch dari awal hingga akhir, dengan mempertahankan karakter dan CTA tetap konstan sembari menyesuaikan variasi hook dan angle.
 3. **Sulit:** Produksi 10-ad batch dan susun "rencana pengujian" satu halaman yang dapat digunakan client untuk memantau variasi mana yang berkinerja paling optimal.
 
-## Templat
+## Template
 
-Templat siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
+Template siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
 
-* [`templates/batch-matrix-template.md`](templates/batch-matrix-template.md) — templat isian untuk merencanakan kombinasi hook × angle sebelum melangkah ke proses produksi.
+* [`templates/batch-matrix-template.md`](templates/batch-matrix-template.md) — template isian untuk merencanakan kombinasi hook × angle sebelum melangkah ke proses produksi.
 
 ---
 

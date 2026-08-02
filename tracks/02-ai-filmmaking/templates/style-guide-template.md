@@ -1,4 +1,4 @@
-# Templat Panduan Gaya Visual
+# Template Panduan Gaya Visual
 
 Buat panduan gaya terkunci untuk proyek film Anda guna memastikan gradasi warna, pencahayaan, dan tekstur cocok di semua adegan yang dihasilkan.
 

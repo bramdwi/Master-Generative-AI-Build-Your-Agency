@@ -34,7 +34,7 @@ Your Plain-English Instruction ──► Agent Reads Existing Files ──► Ag
 
 - **Batch API runner** — Skrip yang mengeksekusi panggilan muapi sebanyak 50 kali secara otomatis, memangkas durasi alokasi waktu dari interaksi manual.
 - **Generator metadata** — Instrumen yang menelaah direktori gambar lalu merangkai judul CSV dan kata kunci secara otomatis untuk platform penyedia stok.
-- **Perluas matriks cepat** — Memproduksi 100 variasi cepat dari templat 3 variabel dalam hitungan detik.
+- **Perluas matriks cepat** — Memproduksi 100 variasi cepat dari template 3 variabel dalam hitungan detik.
 - **Otomasi penerimaan klien** — Formulir interaktif yang menerima swafoto lalu memicu saluran pembuatan potret wajah secara otomatis.
 - **Kalkulator harga** — Instrumen web interaktif yang dimanfaatkan klien Anda untuk mengkalkulasi estimasi alokasi biaya proyek mereka.
 
@@ -106,7 +106,7 @@ Agen akan menyunting skrip secara otomatis. Anda tidak perlu menelaah kodenya �
 2. **Sedang:** Instruksikan agen untuk merangkai skrip Python yang menelaah berkas teks nama produk, lalu mengonversi seluruh nama tersebut menjadi format huruf kapital pada dokumen baru.
 3. **Sulit:** Minta agen untuk merancang skrip yang memproduksi 5 variasi prompt Midjourney dari satu subjek, gaya estetika, serta sudut pengambilan gambar — dengan menelaah masukan berkas CSV dan menyajikan hasilnya ke dalam dokumen CSV baru.
 
-## Templat
+## Template
 
 - [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Kerangka instruksi agen, lembar perencanaan sesi, serta pustaka perintah instrumen perdana.
 

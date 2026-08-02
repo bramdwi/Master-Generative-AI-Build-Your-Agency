@@ -111,7 +111,7 @@ Gunakan Loop Returns untuk melacak alasan pelanggan mengembalikan item (seperti 
 2. **Sedang:** Lengkapi log CVR dan Retur pada [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md) mengandalkan data simulasi.
 3. **Sulit:** Rancang gambar galeri utama untuk sebuah gaun. Tempatkan model yang mengenakan gaun tersebut, tambahkan hamparan teks ukuran di bagian bawah, selaraskan dengan margin aman standar, lalu ekspor berkas WebP yang siap untuk perangkat seluler.
 
-## Templat
+## Template
 
 - [`templates/fashion-cvr-tracker.md`](templates/fashion-cvr-tracker.md) — tabel konversi, metrik return rate, log split-test, dan daftar periksa CRO.
 

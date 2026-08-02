@@ -78,7 +78,7 @@ Periksa setiap sudut detail, keterbacaan teks, serta geometri jemari untuk memas
 2. **Sedang:** Render sebuah potret profesional menggunakan FLUX 1.1 Pro, lalu cermati mikrotekstur kulit pada pemotongan gambar 100%.
 3. **Sulit:** Susun matriks keputusan pemilihan tool untuk kampanye client 3 bagian yang membutuhkan headshots, logo, serta banner sinematik.
 
-## Templat
+## Template
 
 - [`templates/image-model-selection-guide.md`](templates/image-model-selection-guide.md) — Matriks komparasi arsitektural, aturan prompt adherence, serta tolak ukur resolusi.
 

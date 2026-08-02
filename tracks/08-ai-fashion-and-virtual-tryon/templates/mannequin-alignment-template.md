@@ -1,6 +1,6 @@
-# Templat Penyelarasan Manekin
+# Template Penyelarasan Manekin
 
-Gunakan templat ini untuk menstandardisasi proporsi, margin, dan koordinat pose saat memindahkan pakaian dari foto manekin datar ke model.
+Gunakan template ini untuk menstandardisasi proporsi, margin, dan koordinat pose saat memindahkan pakaian dari foto manekin datar ke model.
 
 ## 1. Dimensi Kanvas & Batas Margin
 * **Ukuran Kotak Standar:** 1080 x 1350 piksel (vertikal Instagram / potret Shopify).

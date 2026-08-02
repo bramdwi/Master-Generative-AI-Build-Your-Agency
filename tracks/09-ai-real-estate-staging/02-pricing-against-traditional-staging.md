@@ -106,7 +106,7 @@ Buatlah lembar perbandingan visual PDF 1 halaman yang menampilkan:
 2. **Sedang:** Hitung margin keuntungan pada paket agensi seharga $299 yang mencakup 8 foto staged, 1 virtual twilight conversion, serta 2 motion clips.
 3. **Sulit:** Buat lembar perbandingan sebelum/sesudah 1 halaman berbentuk PDF yang memaparkan kepada realtor kelas atas mengenai keunggulan AI virtual staging dibandingkan foto listing yang kosong.
 
-## Templat
+## Template
 
 - [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) — Struktur paket, kalkulator margin, serta ketentuan kesepakatan layanan.
 

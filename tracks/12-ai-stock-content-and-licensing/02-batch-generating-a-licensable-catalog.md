@@ -90,7 +90,7 @@ Hasilkan judul pemetaan file `metadata.csv` dan 30 kata kunci untuk setiap file.
 
 ---
 
-## Templat
+## Template
 
 * [`templates/stock-metadata-template.md`](templates/stock-metadata-template.md) — Kumpulan skema CSV, pustaka penandaan kata kunci, dan panduan pengunggahan FTP.
 

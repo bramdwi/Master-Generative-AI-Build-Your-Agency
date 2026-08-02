@@ -108,7 +108,7 @@ Untuk listingan e-commerce standar, aplikasi web Photoroom memungkinkan Anda men
 
 ---
 
-## Templat
+## Template
 
 * [`templates/photography-brief-template.md`](templates/photography-brief-template.md) — lingkungan latar belakang, struktur komposisi, dan log perakitan cepat.
 

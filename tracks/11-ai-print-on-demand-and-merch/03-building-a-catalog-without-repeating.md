@@ -73,7 +73,7 @@ Terapkan setiap grafis pada 3 tipe produk bernilai margin tinggi (T-Shirt, Coffe
 2. **Sedang:** Hasilkan batch 6 grafis unik dari matrix Anda lalu isolasi background-nya.
 3. **Sulit:** Publikasikan koleksi 15 item produk pada 3 tipe produk (Tee, Mug, Tote) di dev store Anda.
 
-## Templat
+## Template
 
 - [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Matrix prompt templates, tabel variabel niche, serta daftar periksa kepatuhan trademark.
 

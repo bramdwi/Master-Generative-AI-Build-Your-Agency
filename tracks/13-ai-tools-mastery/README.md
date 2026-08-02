@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
 * [`templates/image-model-selection-guide.md`](templates/image-model-selection-guide.md) — Matriks perbandingan arsitektur, aturan kepatuhan yang cepat, dan tolok ukur resolusi.
 * [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Parameter kontrol gerakan, panduan pergerakan kamera, dan tolok ukur kecepatan model.

@@ -15,7 +15,7 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
 * [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Perintah gaya vektor, spesifikasi penskalaan DPI, dan daftar periksa kepatuhan merek dagang.
 * [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — Model penetapan harga COGS, kalkulator margin keuntungan, dan struktur biaya platform.

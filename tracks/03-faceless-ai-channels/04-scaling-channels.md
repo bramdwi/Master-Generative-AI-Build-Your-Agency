@@ -46,7 +46,7 @@ Gunakan [`templates/production-schedule-tracker.md`](templates/production-schedu
 Jika Anda menjalankan lebih dari dua saluran, siapkan **profil Google Chrome** (atau profil browser) terpisah untuk setiap identitas saluran. Hal ini membuat dasbor YouTube, dasbor afiliasi, dan akun email Anda tetap terisolasi, sehingga mencegah kebingungan login.
 
 ### Langkah 3: Jalankan Script & Voice Batch
-* Tulis kumpulan 5 skrip dalam satu blok menggunakan templat retensi Anda.
+* Tulis kumpulan 5 skrip dalam satu blok menggunakan template retensi Anda.
 * Masukkan skrip ke dalam ElevenLabs secara berurutan.
 * Unduh file audio ke direktori proyek terorganisir Anda.
 
@@ -119,7 +119,7 @@ Selalu pilih penjadwal asli (YouTube Studio Web, TikTok Studio Web) untuk salura
 
 ---
 
-## Templat
+## Template
 
 * [`templates/production-schedule-tracker.md`](templates/production-schedule-tracker.md) — kalender batch dan lembar antrian untuk mengatur rilis multi-saluran.
 

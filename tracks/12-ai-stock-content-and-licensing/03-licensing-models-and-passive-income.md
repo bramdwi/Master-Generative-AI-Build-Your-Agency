@@ -85,7 +85,7 @@ Hitung penghasilan bulanan berdasarkan skala portofolio dan rata-rata unduhan pe
 
 ---
 
-## Templat
+## Template
 
 * [`templates/stock-licensing-calculator.md`](templates/stock-licensing-calculator.md) — Kalkulator royalti, pelacak sindikasi multi-platform, dan model pertumbuhan portofolio.
 

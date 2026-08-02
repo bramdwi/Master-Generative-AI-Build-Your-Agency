@@ -4,7 +4,7 @@
 
 Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, daftar periksa, pustaka) — file aktual yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, daftar periksa, pustaka) — file aktual yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -24,7 +24,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Konfigurasikan penggeser stabilitas dan kejelasan untuk memungkinkan ekspresi alami tanpa distorsi digital.
 - Rekam audio pelatihan di lingkungan terisolasi menggunakan mikrofon kondensor cardioid.
 
-**Templat:** [`voice-cloning-spec.md`](templates/voice-cloning-spec.md)
+**Template:** [`voice-cloning-spec.md`](templates/voice-cloning-spec.md)
 
 ### 2.[AI Dubbing & Translation](02-dubbing-translation.md)
 
@@ -34,7 +34,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Kompres kecepatan bicara secara terprogram untuk menyesuaikan frasa asing ke dalam batas waktu visual yang ketat.
 - Lokalkan deskripsi teks video dan judul saluran menggunakan daftar periksa terjemahan.
 
-**Templat:** [`dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md)
+**Template:** [`dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md)
 
 ### 3.[Podcast Production & Audio Cleaning](03-podcast-production.md)
 
@@ -44,7 +44,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Menghaluskan puncak volume dan mengompres rentang dinamis menggunakan ambang batas kompresor 3:1 standar.
 - Batasi dan normalkan campuran mono dan stereo yang telah selesai untuk menentukan standar kenyaringan.
 
-**Templat:** [`podcast-production-sheet.md`](templates/podcast-production-sheet.md)
+**Template:** [`podcast-production-sheet.md`](templates/podcast-production-sheet.md)
 
 ### 4.[AI Music & Sound Effects](04-music-sfx-generation.md)
 
@@ -54,7 +54,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Secara otomatis menurunkan level musik latar belakang menggunakan batas pengecilan otomatis saat narasi sedang berbicara.
 - Hasilkan sapuan transisi yang bersih dan ketukan tombol secara terpisah.
 
-**Templat:** [`audio-prompt-library.md`](templates/audio-prompt-library.md)
+**Template:** [`audio-prompt-library.md`](templates/audio-prompt-library.md)
 
 ### 5.[Singing Voice Conversion & Vocal Synthesis](05-singing-vocal-synthesis.md)
 
@@ -64,8 +64,8 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Variasi nada yang benar dalam rekaman vokal pemandu menggunakan filter jepretan nada sebelum konversi.
 - Sesuaikan nilai pergeseran nada berdasarkan oktaf untuk mengonversi trek panduan dalam rentang vokal pria dan wanita.
 
-**Templat:** [`vocal-conversion-brief.md`](templates/vocal-conversion-brief.md)
+**Template:** [`vocal-conversion-brief.md`](templates/vocal-conversion-brief.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 9 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 9 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

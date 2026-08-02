@@ -97,7 +97,7 @@ Untuk QA desain, menggunakan garis panduan horizontal Photoshop merupakan alur k
 2. **Sedang:** Impor 2 foto model lalu ubah skalanya agar bahu mereka sejajar sempurna dengan garis panduan Anda. Beralih antar layer untuk memverifikasi keselarasan.
 3. **Sulit:** Susun daftar periksa untuk melakukan QA pada 10 halaman listing pakaian. Tuliskan 4 potensi kesalahan penyelarasan (seperti ritsleting tidak di tengah, kepala terpotong) beserta cara memperbaikinya.
 
-## Templat
+## Template
 
 - [`templates/mannequin-alignment-template.md`](templates/mannequin-alignment-template.md) — ukuran kanvas, batasan margin, pemetaan koordinat baseline, dan daftar periksa QA.
 

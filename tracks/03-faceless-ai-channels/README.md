@@ -4,7 +4,7 @@
 
 Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (matriks, struktur skrip, kalkulator) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (matriks, struktur skrip, kalkulator) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -24,7 +24,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Susun skrip percakapan dengan batas ketat 180 kata untuk mempertahankan tempo audio yang nyaman.
 - LLM teks cepat untuk menampilkan segmen skrip dengan kecepatan visual, bukan prosa formal.
 
-**Templat:** [`niche-evaluation-matrix.md`](templates/niche-evaluation-matrix.md) · [`retention-script-template.md`](templates/retention-script-template.md)
+**Template:** [`niche-evaluation-matrix.md`](templates/niche-evaluation-matrix.md) · [`retention-script-template.md`](templates/retention-script-template.md)
 
 ### 2.[Duration-Matched Narration & Pacing](02-narration-and-pacing.md)
 
@@ -34,7 +34,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Ukur dan catat durasi klip audio yang tepat untuk menjadwalkan pemotongan visual setiap 2–4 detik.
 - Pangkas jeda tambahan dan frame senyap untuk mempertahankan tempo yang cepat dan bebas drop.
 
-**Templat:** [`narration-duration-log.md`](templates/narration-duration-log.md)
+**Template:** [`narration-duration-log.md`](templates/narration-duration-log.md)
 
 ### 3.[Honest RPM & Earnings Math](03-rpm-and-earnings.md)
 
@@ -44,7 +44,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Audit biaya pembuatan API (scripting, text-to-speech, kredit video) untuk menghitung biaya unit per video.
 - Rancang tingkat konversi perolehan prospek untuk membuat saluran kecil memperoleh keuntungan sejak hari pertama.
 
-**Templat:** [`channel-profitability-calculator.md`](templates/channel-profitability-calculator.md)
+**Template:** [`channel-profitability-calculator.md`](templates/channel-profitability-calculator.md)
 
 ### 4.[Scaling to Multiple Channels](04-scaling-channels.md)
 
@@ -54,7 +54,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Jalankan beberapa akun saluran dengan aman di satu komputer menggunakan profil browser yang terisolasi.
 - Menyindikasikan video vertikal 9:16 secara bersamaan di YouTube Shorts, TikTok, dan Instagram Reels.
 
-**Templat:** [`production-schedule-tracker.md`](templates/production-schedule-tracker.md)
+**Template:** [`production-schedule-tracker.md`](templates/production-schedule-tracker.md)
 
 ### 5.[Monetization Ladder](05-monetization-ladder.md)
 
@@ -64,8 +64,8 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Promosikan alat SaaS di niche Anda untuk mendapatkan komisi afiliasi berulang bulanan yang bernilai tinggi.
 - Integrasikan komentar yang dipasangi pin dan CTA halus untuk mengarahkan pemirsa video ke email selamat datang otomatis.
 
-**Templat:** [`funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) · [`affiliate-pitch-template.md`](templates/affiliate-pitch-template.md)
+**Template:** [`funnel-setup-checklist.md`](templates/funnel-setup-checklist.md) · [`affiliate-pitch-template.md`](templates/affiliate-pitch-template.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 13 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 13 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

@@ -85,9 +85,9 @@ Gunakan pemrosesan AI sebagai alat bantu pendamping (membandingkan hasil analisi
 2. **Sedang:** Lakukan teardown pada 3 ad dalam kategori yang sama dan identifikasi persamaan strukturalnya berbanding elemen unik tiap ad.
 3. **Sulit:** Terapkan kesimpulan struktural hasil teardown untuk merancang ad baru pada produk yang berbeda, lalu dokumentasikan keputusan struktural yang Anda adopsi beserta alasannya.
 
-## Templat
+## Template
 
-Templat siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
+Template siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
 
 * [`templates/teardown-worksheet.md`](templates/teardown-worksheet.md) — struktur pembedahan 5 lapisan dalam bentuk lembar kerja isian.
 

@@ -1,4 +1,4 @@
-# Templat Singkat Fotografi Produk AI
+# Template Singkat Fotografi Produk AI
 
 Gunakan ringkasan ini untuk mengunci komposisi, model pencahayaan, dan struktur prompt untuk menghasilkan foto produk.
 

@@ -1,6 +1,6 @@
 # Buku Pedoman Skrip Penjualan Penjangkauan & Penemuan Keluar
 
-Gunakan templat email dingin yang telah teruji ini, urutan pesan B2B LinkedIn, skrip panggilan penemuan, dan skrip penanganan keberatan untuk memperoleh dan menutup klien pembuatan AI senilai $5.000+.
+Gunakan template email dingin yang telah teruji ini, urutan pesan B2B LinkedIn, skrip panggilan penemuan, dan skrip penanganan keberatan untuk memperoleh dan menutup klien pembuatan AI senilai $5.000+.
 
 ---
 

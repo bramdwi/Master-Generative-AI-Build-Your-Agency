@@ -1,4 +1,4 @@
-# Templat Panduan Singkat & Gaya Pementasan Virtual AI
+# Template Panduan Singkat & Gaya Pementasan Virtual AI
 
 Gunakan ringkasan ini untuk menentukan estetika desain interior, parameter pencahayaan ruangan, dan pengaturan kedalaman kamera sebelum membuat aset pementasan virtual untuk listingan real estat.
 

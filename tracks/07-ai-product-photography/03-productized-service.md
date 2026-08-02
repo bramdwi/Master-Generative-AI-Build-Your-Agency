@@ -73,7 +73,7 @@ Kirimkan aset WebP akhir ke klien dalam jangka waktu yang dijanjikan. Sertakan s
 * 8 pemilik toko merespons.
 * 3 segera membeli paket $499.
 * 1 ditingkatkan menjadi "Infinite Retainer" $999/bulan untuk menyegarkan aset katalog mereka untuk promosi musiman.
-* **Efisiensi Operasional:** Total waktu produksi untuk penagihan $2.496 kurang dari 8 jam, dengan menggunakan templat untuk membuat dan menggabungkan latar belakang.
+* **Efisiensi Operasional:** Total waktu produksi untuk penagihan $2.496 kurang dari 8 jam, dengan menggunakan template untuk membuat dan menggabungkan latar belakang.
 
 ---
 
@@ -105,7 +105,7 @@ Stripe Billing adalah standar industri untuk mengelola langganan desain bulanan.
 
 ---
 
-## Templat
+## Template
 
 * [`templates/productized-service-offer.md`](templates/productized-service-offer.md) — spesifikasi paket, penerimaan klien, panduan gaya merek, dan daftar periksa pengiriman.
 

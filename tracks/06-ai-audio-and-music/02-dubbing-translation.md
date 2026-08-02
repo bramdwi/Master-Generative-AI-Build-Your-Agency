@@ -96,7 +96,7 @@ Untuk saluran B2B faceless, memanfaatkan ElevenLabs Dubbing API merupakan piliha
 **Cara mengelola saluran terlokalisasi:**
 
 * **Manfaatkan Fitur YouTube Multi-Language Audio:** YouTube memungkinkan Anda mengunggah berbagai trek audio (Inggris, Spanyol, Portugis) ke dalam satu berkas video tunggal. Hal ini mengkonsolidasikan seluruh jumlah tayangan pada satu URL tunggal, yang mendongkrak peringkat Anda pada algoritma.
-* **Terjemahkan metadata:** Hindari mengunggah trek audio bahasa Spanyol yang disertai judul dan deskripsi bahasa Inggris. Terjemahkan judul, deskripsi, dan berkas tag Anda mengandalkan templat daftar periksa media Anda.
+* **Terjemahkan metadata:** Hindari mengunggah trek audio bahasa Spanyol yang disertai judul dan deskripsi bahasa Inggris. Terjemahkan judul, deskripsi, dan berkas tag Anda mengandalkan template daftar periksa media Anda.
 
 ---
 
@@ -108,7 +108,7 @@ Untuk saluran B2B faceless, memanfaatkan ElevenLabs Dubbing API merupakan piliha
 
 ---
 
-## Templat
+## Template
 
 * [`templates/dubbing-translation-checklist.md`](templates/dubbing-translation-checklist.md) — panduan penerjemahan skrip, alokasi timestamp, dan penyesuaian tempo kecepatan.
 

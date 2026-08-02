@@ -4,7 +4,7 @@
 
 Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (templat skenario, daftar pengambilan gambar, lembar persyaratan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (template skenario, daftar pengambilan gambar, lembar persyaratan) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -24,7 +24,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Susun tindakan skenario visual untuk digandakan secara langsung sesuai petunjuk teks.
 - Manfaatkan LLM Umum (Claude/Gemini) untuk menghasilkan perintah terstruktur, bukan tindakan umum.
 
-**Templat:** [`screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) · [`ai-film-brief.md`](templates/ai-film-brief.md)
+**Template:** [`screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) · [`ai-film-brief.md`](templates/ai-film-brief.md)
 
 ### 2.[Storyboarding & Shot Planning](02-storyboarding-and-shots.md)
 
@@ -34,7 +34,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Manfaatkan awalan dan benih yang cepat untuk menyelaraskan pencahayaan dan palet warna sebelum membuat video.
 - Rancang daftar jepretan kamera lengkap yang sesuai dengan hierarki visual (Lebar, Sedang, Close-up).
 
-**Templat:** [`shot-list-template.md`](templates/shot-list-template.md) · [`style-guide-template.md`](templates/style-guide-template.md)
+**Template:** [`shot-list-template.md`](templates/shot-list-template.md) · [`style-guide-template.md`](templates/style-guide-template.md)
 
 ### 3.[Camera Movement & Cinematography Prompts](03-camera-movement.md)
 
@@ -44,7 +44,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Kondisikan generator video pada frame pertama storyboard untuk mengunci komposisi awal.
 - Kontrol artefak rendering menggunakan nilai kekuatan gerakan dan penggeser kecepatan.
 
-**Templat:** [`motion-prompt-library.md`](templates/motion-prompt-library.md) · [`cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md)
+**Template:** [`motion-prompt-library.md`](templates/motion-prompt-library.md) · [`cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md)
 
 ### 4.[Assembling a Short Film](04-assembling-short-film.md)
 
@@ -54,7 +54,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Siapkan garis waktu desain suara berlapis-lapis: narasi sulih suara, nada ruangan sekitar yang berkelanjutan, Foley SFX, dan skor.
 - Klip terpisah tingkat warna menggunakan LUT untuk mencapai nada visual dan suasana sinematik yang terpadu.
 
-**Templat:** [`sound-design-checklist.md`](templates/sound-design-checklist.md)
+**Template:** [`sound-design-checklist.md`](templates/sound-design-checklist.md)
 
 ### 5.[Selling Short-Form Films](05-selling-short-films.md)
 
@@ -64,8 +64,8 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Menargetkan dan menyusun proposal promosi sponsor merek untuk penempatan produk.
 - Negosiasikan biaya platform dimuka dan bagi hasil untuk drama vertikal episodik.
 
-**Templat:** [`sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) · [`licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md)
+**Template:** [`sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) · [`licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

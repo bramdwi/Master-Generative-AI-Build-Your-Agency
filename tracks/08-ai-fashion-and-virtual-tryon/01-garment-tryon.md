@@ -95,7 +95,7 @@ Untuk product detail pages (PDP) standar pada Shopify atau Amazon, IDM-TryOn mer
 2. **Sedang:** Kirimkan PNG t-shirt Anda ke tool virtual try-on. Hasilkan model pria dan model wanita yang mengenakan t-shirt tersebut.
 3. **Sulit:** Menggunakan foto ghost mannequin dari jaket berkancing, jalankan VTO draping pipeline. Evaluasi tepi kerah dan jahitan cuff pada pembesaran 200%. Perbaiki setiap batas yang kabur menggunakan photo editor.
 
-## Templat
+## Template
 
 - [`templates/tryon-spec-sheet.md`](templates/tryon-spec-sheet.md) — spesifikasi garment, bagan demografi model, target mask, dan pemeriksaan QA.
 

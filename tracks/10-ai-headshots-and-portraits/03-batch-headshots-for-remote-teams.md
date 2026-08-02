@@ -99,7 +99,7 @@ Buat subfolder karyawan yang berisi `[FullName]_linkedin.jpg` (1080x1080px) dan 
 
 ---
 
-## Templat
+## Template
 
 * [`templates/b2b-headshot-proposal.md`](templates/b2b-headshot-proposal.md) — Skema CSV batch, standar penamaan folder otomatis, dan panduan pengemasan tim.
 

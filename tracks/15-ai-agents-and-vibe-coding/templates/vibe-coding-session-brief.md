@@ -1,4 +1,4 @@
-# Templat Singkat Sesi Vibe-Coding
+# Template Singkat Sesi Vibe-Coding
 
 Gunakan penjelasan singkat ini untuk merencanakan setiap sesi pengkodean sebelum membuka agen Anda. Menyelesaikan lembar ini membutuhkan waktu 8–10 menit dan mencegah kebingungan sesi.
 

@@ -116,7 +116,7 @@ Kini instrumen digital Anda telah siap dipasarkan. Pembeli dari kalangan penjual
 2. **Sedang:** Manfaatkan *coding agent* pilihan Anda untuk membangun skrip Python yang sanggup membaca daftar `designs.txt` lalu menghasilkan berkas `titles.csv` berisi 3 opsi judul SEO Etsy per desain mengandalkan model GPT-4o-mini.
 3. **Sulit:** Kemas *micro-tool* buatan Anda secara profesional lengkap dengan dokumen `README.md`, sampel berkas masukan, serta berkas dependensi `requirements.txt`. Bagikan berkas `.zip` tersebut kepada rekan kreator lainnya untuk diuji coba langsung pada sistem mereka.
 
-## Templat
+## Template
 
 - [`templates/tool-scope-definition.md`](templates/tool-scope-definition.md) — Panduan penentuan cakupan *micro-tool* dengan fungsi tunggal, spesifikasi masukan/keluaran, serta daftar periksa monetisasi produk.
 

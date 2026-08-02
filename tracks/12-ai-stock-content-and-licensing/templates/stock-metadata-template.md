@@ -1,4 +1,4 @@
-# Metadata Stok & Templat Penandaan
+# Metadata Stok & Template Penandaan
 
 Gunakan panduan referensi ini untuk kata kunci metadata IPTC, pemformatan judul komersial, dan pembuatan skema CSV batch.
 

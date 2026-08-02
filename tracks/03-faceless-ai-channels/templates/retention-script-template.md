@@ -1,4 +1,4 @@
-# Templat Skrip Tanpa Wajah
+# Template Skrip Tanpa Wajah
 
 Gunakan struktur ini untuk menyusun skrip saluran tanpa wajah dengan retensi tinggi (panjang: 60 detik / ~150-180 kata).
 

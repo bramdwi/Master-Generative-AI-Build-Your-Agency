@@ -75,7 +75,7 @@ Aktifkan **Automatic Fulfillment** pada pengaturan supplier Anda agar setiap pes
 2. **Sedang:** Hubungkan POD supplier Anda ke toko pengembang Etsy atau Shopify.
 3. **Sulit:** Konfigurasikan automated order fulfillment lalu uji coba pengiriman pesanan sampel.
 
-## Templat
+## Template
 
 - [`templates/pod-pricing-calculator.md`](templates/pod-pricing-calculator.md) — Model penentuan harga COGS, kalkulator profit margin, serta rincian biaya platform.
 

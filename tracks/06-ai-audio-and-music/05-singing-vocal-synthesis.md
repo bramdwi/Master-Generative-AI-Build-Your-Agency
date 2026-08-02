@@ -108,7 +108,7 @@ Untuk pembuatan konten yang terakselerasi dan efisien dari segi biaya, mengopera
 
 ---
 
-## Templat
+## Template
 
 * [`templates/vocal-conversion-brief.md`](templates/vocal-conversion-brief.md) — daftar periksa persiapan akapela, bagan transposisi, dan log retrieval.
 

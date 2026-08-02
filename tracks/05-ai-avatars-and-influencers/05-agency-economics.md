@@ -88,7 +88,7 @@ Unggah file yang sudah selesai ke folder bersama klien. Kirim pemberitahuan: *"B
 | Platform / Alat | Faktur & Pembayaran | Manajemen Hasil Kerja | Orientasi Klien |
 |---|---|---|---|
 | **Faktur Stripe** | Tagihan kartu berulang yang aman, andal. | T/A | Mengirim persyaratan penagihan perusahaan profesional. |
-| **Google Drive/Dropbox** | Berbagi folder secara langsung, sederhana dan andal. | Unggah langsung file video besar. | Pementasan aset klien mentah dan templat visual. |
+| **Google Drive/Dropbox** | Berbagi folder secara langsung, sederhana dan andal. | Unggah langsung file video besar. | Pementasan aset klien mentah dan template visual. |
 | **Klik Atas / Kendur** | Penetapan tugas klien dan pencapaian proyek. | T/A | Operasi agensi yang kompleks dengan banyak klien. |
 
 Untuk agensi kecil, jaga komunikasi tetap sederhana. Jangan mengundang klien ke saluran Slack yang kompleks atau ruang manajemen proyek. Kirim faktur bulanan melalui Stripe, kelola persetujuan skrip melalui email sederhana, dan kirimkan file akhir melalui folder Google Drive bersama.
@@ -105,13 +105,13 @@ Untuk agensi kecil, jaga komunikasi tetap sederhana. Jangan mengundang klien ke 
 
 ## Latihan
 
-1. **Mudah:** Isi templat Perjanjian Agensi Influencer dengan klien tiruan dan tentukan aturan kepemilikan karakter.
+1. **Mudah:** Isi template Perjanjian Agensi Influencer dengan klien tiruan dan tentukan aturan kepemilikan karakter.
 2. **Medium:** Teliti tiga ceruk bisnis lokal. Tulis email promosi 1 paragraf untuk juru bicara virtual yang dirancang khusus untuk salah satu dari mereka.
 3. **Sulit:** Proyeksikan lembar laba-rugi bulanan untuk agensi yang mengelola 3 avatar klien berbeda, dengan memperhitungkan semua langganan perangkat lunak dan kredit API yang digunakan untuk jadwal pengiriman 15 video/bulan.
 
 ---
 
-## Templat
+## Template
 
 * [`templates/influencer-agency-agreement.md`](templates/influencer-agency-agreement.md) — kontrak layanan agensi yang mencakup kepemilikan karakter, penahan, dan revisi.
 

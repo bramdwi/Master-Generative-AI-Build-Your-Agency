@@ -32,7 +32,7 @@ Dengan mengatur pekerjaan Anda ke dalam stasiun, Anda mencapai:
 ## Lakukan itu
 
 ### Langkah 1: Siapkan Folder Pabrik Anda
-Di hard drive Anda, buat templat folder yang mencerminkan struktur stasiun pipa:
+Di hard drive Anda, buat template folder yang mencerminkan struktur stasiun pipa:
 ```
 [Factory_Batch_01]/
 ├── 01_scripts/     # Locked script drafts
@@ -46,13 +46,13 @@ Di hard drive Anda, buat templat folder yang mencerminkan struktur stasiun pipa:
 Draf skrip batch. Pastikan mereka memenuhi batasan jumlah kata yang ketat (di bawah 180 kata untuk bentuk pendek) dan ikuti struktur pengait. Kunci skripnya.
 
 ### Langkah 3: Stasiun 3 & 4 (Audio Spine)
-Hasilkan file audio sulih suara secara batch. Impor ke folder proyek Anda. Hentikan keheningan awal dan akhir. Catat durasinya di templat log narasi Anda.
+Hasilkan file audio sulih suara secara batch. Impor ke folder proyek Anda. Hentikan keheningan awal dan akhir. Catat durasinya di template log narasi Anda.
 
 ### Langkah 4: Stasiun 5 (Panen Visual)
 Hasilkan atau unduh visual latar belakang yang cocok dengan garis waktu audio yang dicatat. Jangan buka editor video dulu. Atur visual dalam subfolder berdasarkan nomor video.
 
 ### Langkah 5: Stasiun 6 & 7 (Edit Garis Waktu & Poles)
-Impor semua aset. Potong klip visual ke pencapaian audio yang tepat. Terapkan templat keterangan teks dan profil warna LUT.
+Impor semua aset. Potong klip visual ke pencapaian audio yang tepat. Terapkan template keterangan teks dan profil warna LUT.
 
 ### Langkah 6: Stasiun 8 (Pemeriksaan & Ekspor Spesifikasi)
 Sebelum mengekspor, jalankan melalui [`templates/asset-specs-checklist.md`](templates/asset-specs-checklist.md). Verifikasi bahwa:
@@ -90,7 +90,7 @@ Sebelum mengekspor, jalankan melalui [`templates/asset-specs-checklist.md`](temp
 | Metode Produksi | Kecepatan | Kualitas Keluaran | Terbaik untuk |
 |---|---|---|---|
 | **Pengeditan CapCut Manual** | Sedang (30 menit/video) | Tinggi (Teks yang sangat khusus, transisi khusus) | Hasil kerja klien profesional dan saluran premium. |
-| **Rendering Terprogram** (`AI-Youtube-Shorts-Generator`) | Cepat (5 menit/video) | Sedang (Hamparan templat umum dan klip stok) | Saluran tanpa wajah dan jaringan video placeholder yang diproduksi secara massal. |
+| **Rendering Terprogram** (`AI-Youtube-Shorts-Generator`) | Cepat (5 menit/video) | Sedang (Hamparan template umum dan klip stok) | Saluran tanpa wajah dan jaringan video placeholder yang diproduksi secara massal. |
 | **Editor Tradisional** (Premiere/DaVinci) | Lambat (60+ mnt/video) | Ultra-Tinggi (Penilaian warna tidak terbatas, pencampuran audio tingkat lanjut) | Video korporat tingkat bioskop dan penjelasan berdurasi panjang. |
 
 Untuk keluaran skala agensi, CapCut adalah alat standar karena waktu rendering yang cepat dan kemampuan teks otomatis. Saat menskalakan lebih dari 3 saluran, gunakan generator terprogram seperti `AI-Youtube-Shorts-Generator` untuk menangani rendering massal.
@@ -113,7 +113,7 @@ Untuk keluaran skala agensi, CapCut adalah alat standar karena waktu rendering y
 
 ---
 
-## Templat
+## Template
 
 * [`templates/pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) — diagram tata letak dan lembar audit untuk stasiun pipa.
 * [`templates/asset-specs-checklist.md`](templates/asset-specs-checklist.md) — ekspor daftar periksa untuk resolusi, codec, dan zona aman.

@@ -1,4 +1,4 @@
-# Proposal & Templat Penerimaan Headshot Perusahaan B2B
+# Proposal & Template Penerimaan Headshot Perusahaan B2B
 
 Gunakan dokumen proposal ini, skema formulir penerimaan klien, dan perjanjian privasi untuk menawarkan dan menerima klien tim korporat.
 

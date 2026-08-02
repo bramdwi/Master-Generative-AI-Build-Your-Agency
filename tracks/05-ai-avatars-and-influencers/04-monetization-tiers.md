@@ -107,9 +107,9 @@ Untuk mikro-influencer, menyiapkan tautan Bento.me gratis yang menampilkan klip 
 
 ---
 
-## Templat
+## Template
 
-* [`templates/sponsor-media-kit.md`](templates/sponsor-media-kit.md) — templat kit media yang merinci statistik, niche, opsi paket, dan harga.
+* [`templates/sponsor-media-kit.md`](templates/sponsor-media-kit.md) — template kit media yang merinci statistik, niche, opsi paket, dan harga.
 
 ---
 

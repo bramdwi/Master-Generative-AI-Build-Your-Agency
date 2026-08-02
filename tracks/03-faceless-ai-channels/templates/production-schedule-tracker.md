@@ -8,7 +8,7 @@ Gunakan pelacak ini untuk menjadwalkan dan mengoordinasikan penayangan konten ba
 
 | Hari | Tugas | Status/Tujuan |
 |---|---|---|
-| **Senin** | **Riset & Pembuatan Skrip** | Draf dan buat kerangka 5 skrip menggunakan templat retensi. |
+| **Senin** | **Riset & Pembuatan Skrip** | Draf dan buat kerangka 5 skrip menggunakan template retensi. |
 | **Selasa** | **Pembuatan Audio** | File narasi suara yang dihasilkan secara batch; memangkas jeda. |
 | **Rabu**| **Pengambilan Aset & Pembuatan Video** | Hasilkan elemen papan cerita dan render klip latar belakang video. |
 | **Kamis** | **Pengeditan Garis Waktu** | Susun garis waktu, tambahkan keterangan, tingkat warna, dan audio master. |

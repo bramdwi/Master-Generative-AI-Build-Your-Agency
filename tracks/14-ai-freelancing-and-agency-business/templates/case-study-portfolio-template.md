@@ -1,4 +1,4 @@
-# Templat Studi Kasus Komersial B2B
+# Template Studi Kasus Komersial B2B
 
 Gunakan arsitektur studi kasus 4 bagian ini untuk mempresentasikan proyek agensi sebelumnya, menyoroti metrik ROI yang dapat diukur, dan menyelesaikan proposal klien yang bernilai tinggi.
 

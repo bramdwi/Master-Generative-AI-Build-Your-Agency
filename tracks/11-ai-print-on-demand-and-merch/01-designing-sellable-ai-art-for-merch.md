@@ -84,7 +84,7 @@ Letakkan `merch-graphic-transparent.png` pada Mockup kaos Heavy Cotton di editor
 2. **Sedang:** Hapus latar belakang dan tingkatkan skala grafis menjadi 4500x5400px pada 300 DPI.
 3. **Sulit:** Buat koleksi 3 item Merch (T-shirt, Mug, Tote Bag) yang menampilkan variasi dari gaya desain yang menyatu.
 
-## Templat
+## Template
 
 - [`templates/merch-prompt-brief.md`](templates/merch-prompt-brief.md) — Prompt gaya vektor, spesifikasi DPI Scaling, dan pustaka Negative Prompt.
 

@@ -1,6 +1,6 @@
-# Templat Perjanjian Layanan Utama & Pernyataan Kerja (SOW).
+# Template Perjanjian Layanan Utama & Pernyataan Kerja (SOW).
 
-Gunakan templat kontrak yang mengikat secara hukum ini untuk mengatur hubungan klien, melindungi batas revisi, menerapkan setoran pencapaian, dan menetapkan hak kekayaan intelektual komersial untuk proyek pembuatan AI.
+Gunakan template kontrak yang mengikat secara hukum ini untuk mengatur hubungan klien, melindungi batas revisi, menerapkan setoran pencapaian, dan menetapkan hak kekayaan intelektual komersial untuk proyek pembuatan AI.
 
 ---
 

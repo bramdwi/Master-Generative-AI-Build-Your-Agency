@@ -1,4 +1,4 @@
-# Templat Daftar Pemotretan
+# Template Daftar Pemotretan
 
 Gunakan lembar ini untuk merencanakan dan mencatat generasi setiap adegan untuk menghindari pemborosan kredit pada sudut duplikat.
 

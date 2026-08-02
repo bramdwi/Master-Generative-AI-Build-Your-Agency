@@ -1,6 +1,6 @@
 # Proposal Pengikut Pabrik Konten
 
-Gunakan templat ini untuk menawarkan layanan pembuatan konten berulang kepada klien merek atau pemberi pengaruh yang sibuk.
+Gunakan template ini untuk menawarkan layanan pembuatan konten berulang kepada klien merek atau pemberi pengaruh yang sibuk.
 
 ---
 

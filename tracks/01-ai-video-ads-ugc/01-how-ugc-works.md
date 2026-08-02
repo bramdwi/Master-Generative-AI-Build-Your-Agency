@@ -106,11 +106,11 @@ Keseimbangan nyata yang perlu dipertimbangkan: alur local sepenuhnya bebas biaya
 2. **Sedang:** Produksi satu ad utuh dari awal hingga akhir (script → voice → avatar → captions → export) untuk produk nyata maupun simulasi.
 3. **Sulit:** Produksi 5 variasi dari ad yang sama (produk serupa, dengan hook atau sudut pandang berbeda) lalu bandingkan hook mana yang diproyeksikan berkinerja paling optimal, beserta alasannya.
 
-## Templat
+## Template
 
-Templat siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
+Template siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
 
-* [`templates/ugc-script-template.md`](templates/ugc-script-template.md) — struktur script hook/pitch/proof/CTA dalam bentuk templat isian.
+* [`templates/ugc-script-template.md`](templates/ugc-script-template.md) — struktur script hook/pitch/proof/CTA dalam bentuk template isian.
 * [`templates/ad-brief-checklist.md`](templates/ad-brief-checklist.md) — daftar periksa untuk memberi brief pada diri sendiri (atau client) sebelum memulai produksi.
 
 ---

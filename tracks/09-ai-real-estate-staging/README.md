@@ -14,11 +14,11 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
 * [`templates/virtual-staging-brief.md`](templates/virtual-staging-brief.md) — Panduan gaya desain interior, kerangka kerja cepat, dan daftar periksa kendali mutu.
 * [`templates/realtor-pricing-sheet.md`](templates/realtor-pricing-sheet.md) — Struktur paket, kalkulator margin, dan persyaratan perjanjian layanan.
-* [`templates/agency-outreach-template.md`](templates/agency-outreach-template.md) — Templat email keren, skrip video Loom, dan perjanjian kemitraan fotografer real estat.
+* [`templates/agency-outreach-template.md`](templates/agency-outreach-template.md) — Template email keren, skrip video Loom, dan perjanjian kemitraan fotografer real estat.
 * [`templates/examples/staged-living-room.jpg`](templates/examples/staged-living-room.jpg) — AI menampilkan foto ruang tamu mewah modern.
 * [`templates/examples/staged-bedroom-luxury.jpg`](templates/examples/staged-bedroom-luxury.jpg) — Foto interior kamar tidur utama yang dipentaskan oleh AI.
 * [`templates/examples/empty-to-staged-before-after.jpg`](templates/examples/empty-to-staged-before-after.jpg) — Properti kosong vs. grafik perbandingan pementasan virtual AI.

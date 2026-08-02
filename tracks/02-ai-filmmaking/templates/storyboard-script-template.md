@@ -1,6 +1,6 @@
-# Skrip Papan Cerita AI & Templat Perincian Bidikan
+# Skrip Papan Cerita AI & Template Perincian Bidikan
 
-Gunakan templat ini untuk memecah adegan skenario menjadi skrip papan cerita yang siap AI sebelum menghasilkan gambar statis dan klip video.
+Gunakan template ini untuk memecah adegan skenario menjadi skrip papan cerita yang siap AI sebelum menghasilkan gambar statis dan klip video.
 
 ---
 

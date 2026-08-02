@@ -34,7 +34,7 @@ Cold email sering kali gagal karena tampak seperti naskah penjualan yang panjang
 3. **Kalimat 3 (Social Proof):** Tampilkan hasil nyata dari klien yang serupa.
 4. **Kalimat 4 (Low-Friction CTA):** Minta izin untuk mengirimkan sampel demo terpersonalisasi berdurasi 30 detik.
 
-### Templat Cold Email — B2B Corporate Headshots:
+### Template Cold Email — B2B Corporate Headshots:
 
 ```text
 SUBJECT: Quick question re: [Company Name] team headshots
@@ -54,7 +54,7 @@ Best,
 Managing Director | [Your Agency Name]
 ```
 
-### Templat Cold Email — E-Commerce Apparel Renders:
+### Template Cold Email — E-Commerce Apparel Renders:
 
 ```text
 SUBJECT: New asset pipeline for [Brand Name]'s Q3 catalog
@@ -121,7 +121,7 @@ Saat calon klien menyetujui sesi diskusi, susun alokasi waktu 20 menit tersebut 
 ## 🛠️ Rencana Aksi Langkah demi Langkah
 
 1. **Susun Daftar Prospek Terarah:** Gunakan LinkedIn Sales Navigator atau Apollo.io untuk mengumpulkan 100 kontak B2B yang potensial.
-2. **Manfaatkan Templat Komunikasi:** Dapatkan naskah lengkap untuk email dan percakapan pada panduan [`templates/outreach-and-discovery-script.md`](templates/outreach-and-discovery-script.md).
+2. **Manfaatkan Template Komunikasi:** Dapatkan naskah lengkap untuk email dan percakapan pada panduan [`templates/outreach-and-discovery-script.md`](templates/outreach-and-discovery-script.md).
 3. **Rekam Video Prototipe Loom:** Buat penjelasan video terpersonalisasi berdurasi 60 detik yang menampilkan prototipe aset untuk prospek bernilai tinggi.
 
 ---

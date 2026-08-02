@@ -94,7 +94,7 @@ Terapkan filter keseimbangan warna yang halus (nuansa teal & oranye sinematik at
 
 ---
 
-## Templat
+## Template
 
 * [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Perintah pencahayaan kreatif, rasio pencahayaan gel, dan perintah negatif editorial.
 

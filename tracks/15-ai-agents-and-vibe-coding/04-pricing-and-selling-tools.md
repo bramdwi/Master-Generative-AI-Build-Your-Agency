@@ -98,11 +98,11 @@ Fitur bawaan pada platform Gumroad maupun LemonSqueezy telah mendukung sistem ru
 
 ## Latihan
 
-1. **Mudah:** Lengkapi templat halaman produk Gumroad untuk instrumen yang telah Anda rancang atau yang tengah Anda rencanakan. Berfokuslah pada penulisan judul — susun 5 variasi kalimat lalu pilih opsi yang paling menonjolkan transformasi hasil.
+1. **Mudah:** Lengkapi template halaman produk Gumroad untuk instrumen yang telah Anda rancang atau yang tengah Anda rencanakan. Berfokuslah pada penulisan judul — susun 5 variasi kalimat lalu pilih opsi yang paling menonjolkan transformasi hasil.
 2. **Sedang:** Kalkulasikan besaran nominal yang presisi untuk sebuah instrumen yang sanggup memangkas 6 jam alokasi waktu fotografer stok pada setiap sesi pengunggahan masal, dengan mengasumsikan nilai waktu mereka sebesar $20/jam.
 3. **Sulit:** Publikasikan instrumen karya Anda (meski berupa skrip bersahaja yang dirancang dari latihan Pelajaran 2–3) ke platform Gumroad dengan penetapan harga komersial, sebarkan produk tersebut pada satu komunitas kreator, lalu evaluasi pencapaian Anda pada pekan pertama.
 
-## Templat
+## Template
 
 - [`templates/micro-tool-product-page.md`](templates/micro-tool-product-page.md) — Panduan penyusunan narasi produk Gumroad/LemonSqueezy, kalkulasi skema harga, serta panduan konfigurasi program afiliasi.
 

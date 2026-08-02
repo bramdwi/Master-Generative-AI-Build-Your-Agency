@@ -115,7 +115,7 @@ Untuk pabrik konten yang mengirimkan proyek klien, menggunakan `/sync-lipsync` m
 
 ---
 
-## Templat
+## Template
 
 * [`templates/lipsync-spec-sheet.md`](templates/lipsync-spec-sheet.md) — daftar periksa persiapan visual dan audio serta log sinkronisasi.
 

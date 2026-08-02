@@ -1,6 +1,6 @@
-# Templat Pitch Sponsor
+# Template Pitch Sponsor
 
-Gunakan templat ini untuk mengajukan sponsor merek untuk film pendek AI atau drama mikro vertikal Anda.
+Gunakan template ini untuk mengajukan sponsor merek untuk film pendek AI atau drama mikro vertikal Anda.
 
 ---
 

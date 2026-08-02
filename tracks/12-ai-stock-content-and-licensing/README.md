@@ -14,7 +14,7 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
 * [`templates/stock-metadata-template.md`](templates/stock-metadata-template.md) — Skema penandaan metadata, panduan ruang penyalinan, dan daftar periksa pengiriman agensi.
 * [`templates/stock-licensing-calculator.md`](templates/stock-licensing-calculator.md) — Kalkulator royalti, pelacak sindikasi multi-platform, dan model pertumbuhan portofolio.

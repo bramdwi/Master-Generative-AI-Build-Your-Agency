@@ -104,7 +104,7 @@ Gunakan editor IPTC (ExifTool atau stock tagger) untuk menyematkan 30+ kata kunc
 
 ---
 
-## Templat
+## Template
 
 * [`templates/stock-metadata-template.md`](templates/stock-metadata-template.md) — Skema penandaan metadata, panduan ruang penyalinan, dan daftar periksa pengiriman agensi.
 

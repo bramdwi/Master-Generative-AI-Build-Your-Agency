@@ -24,7 +24,7 @@ graph TD
 | Stasiun | Pemilik / Alat | Masukan yang Dibutuhkan | Pembayaran / Keluaran | Waktu Sasaran |
 |---|---|---|---|:---:|
 | **1. Ide** | LLM / Reddit / Tren | Kata kunci khusus | Pengait judul & 3 sudut skrip | 5 menit |
-| **2. Skrip** | Claude 3.5 / Templat Skrip | Topik yang dinilai | Teks skrip 150 kata | 10 menit |
+| **2. Skrip** | Claude 3.5 / Template Skrip | Topik yang dinilai | Teks skrip 150 kata | 10 menit |
 | **3. Suara** | SebelasLabs / TTS API | Teks skrip | Trek suara `.wav`/`.mp3` yang diedit | 5 menit |
 | **4. Pencatatan** | Lembar Log Narasi | Berkas audio | Perangko potong milidetik | 3 menit |
 | **5. Visual** | muapi / Stok / Kanvas | Deskripsi visual | 5-10 klip latar belakang | 15 menit |

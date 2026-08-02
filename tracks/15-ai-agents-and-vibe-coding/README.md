@@ -15,10 +15,10 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
-* [`templates/tool-scope-definition.md`](templates/tool-scope-definition.md) — Templat spesifikasi 1 halaman untuk mencakup alat mikro yang dapat dijual sebelum meminta agen Anda.
-* [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Templat perintah sistem awal untuk menyiapkan agen pengkodean Anda untuk pembuatan kode yang bersih.
+* [`templates/tool-scope-definition.md`](templates/tool-scope-definition.md) — Template spesifikasi 1 halaman untuk mencakup alat mikro yang dapat dijual sebelum meminta agen Anda.
+* [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Template perintah sistem awal untuk menyiapkan agen pengkodean Anda untuk pembuatan kode yang bersih.
 * [`templates/micro-tool-product-page.md`](templates/micro-tool-product-page.md) — Struktur laman landas dengan konversi tinggi dan kerangka salinan penjualan untuk alat mikro pembuat.
 * [`templates/tool-monetization-calculator.md`](templates/tool-monetization-calculator.md) — Kalkulator ekonomi unit, rumus pass-through biaya API, matriks harga SaaS 3 tingkat, dan model periode pengembalian.
 * [`templates/examples/vibe-coding-workspace.jpg`](templates/examples/vibe-coding-workspace.jpg) — Penyiapan stasiun kerja pengkodean getaran pengembang 8k fotorealistik ([vibe-coding-workspace-motion.mp4](templates/examples/vibe-coding-workspace-motion.mp4) / [.gif](templates/examples/vibe-coding-workspace-motion.gif)).

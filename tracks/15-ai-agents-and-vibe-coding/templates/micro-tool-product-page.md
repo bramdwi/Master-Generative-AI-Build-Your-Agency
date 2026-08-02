@@ -1,4 +1,4 @@
-# Templat Salinan Halaman Produk Alat Mikro
+# Template Salinan Halaman Produk Alat Mikro
 
 Gunakan ini untuk menulis daftar produk Gumroad atau LemonSqueezy Anda. Halaman produk dengan konversi tinggi memimpin dengan penghematan waktu, bukan daftar fitur.
 
@@ -100,5 +100,5 @@ __KODE INLINE_0__
 | **Jalan Karet** | Dasbor → Afiliasi → Tambahkan Afiliasi | 30–40% |
 | **Perasan Lemon** | Afiliasi → Buat Program | 30–40% |
 
-**Templat pesan penjangkauan afiliasi:**
+**Template pesan penjangkauan afiliasi:**
 > *"Hai [Nama Pembuat Konten], saya baru saja meluncurkan alat yang [mendukung nilai satu kalimat]. Karena audiens Anda tumpang tindih dengan [tipe pembeli], menurut saya mereka akan merasakan manfaatnya. Saya menawarkan komisi 35% — Anda akan mendapatkan $[X] per penjualan tanpa upaya berkelanjutan. Ingin saya mengirimi Anda salinan gratis untuk dicoba?"*

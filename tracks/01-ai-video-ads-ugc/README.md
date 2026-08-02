@@ -4,7 +4,7 @@
 
 Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (templat skrip, daftar periksa, lembar harga) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (template skrip, daftar periksa, lembar harga) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -25,7 +25,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Mengapa sinkronisasi wajah/suara avatar — bukan skrip — biasanya yang membuat iklan ditolak
 - Konteks harga sebenarnya: tarif pertunjukan $10-$55/iklan, pengikut agensi $1.500-$3.000/bln
 
-**Templat:** [`ugc-script-template.md`](templates/ugc-script-template.md) · [`ad-brief-checklist.md`](templates/ad-brief-checklist.md)
+**Template:** [`ugc-script-template.md`](templates/ugc-script-template.md) · [`ad-brief-checklist.md`](templates/ad-brief-checklist.md)
 
 ### 2.[Character & Face Consistency](02-character-consistency.md)
 
@@ -35,7 +35,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Tiga teknik jangkar, dari yang terlemah hingga yang terkuat: hanya perintah → pengondisian gambar referensi → identitas terlatih/terkunci (LoRA)
 - Alur kerja pemeriksaan penyimpangan, dan kapan tiket pelatihan LoRA satu kali akan terbayar dengan sendirinya
 
-**Templat:** [`character-consistency-checklist.md`](templates/character-consistency-checklist.md)
+**Template:** [`character-consistency-checklist.md`](templates/character-consistency-checklist.md)
 
 ### 3.[Building a 10-Ad Batch](03-building-an-ad-batch.md)
 
@@ -45,7 +45,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Mengapa memvariasikan semuanya sekaligus membuat hasil tidak terbaca
 - Mengirimkan batch dengan rencana pengujian yang benar-benar dapat digunakan klien
 
-**Templat:** [`batch-matrix-template.md`](templates/batch-matrix-template.md)
+**Template:** [`batch-matrix-template.md`](templates/batch-matrix-template.md)
 
 ### 4.[Pricing & Selling UGC Ads as a Service](04-pricing-and-selling-ugc.md)
 
@@ -55,7 +55,7 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Membangun portofolio dari beberapa bagian pertama Anda
 - Penjangkauan yang mengarah dengan sampel yang sudah selesai, bukan proses Anda
 
-**Templat:** [`outreach-template.md`](templates/outreach-template.md) · [`retainer-proposal-template.md`](templates/retainer-proposal-template.md)
+**Template:** [`outreach-template.md`](templates/outreach-template.md) · [`retainer-proposal-template.md`](templates/retainer-proposal-template.md)
 
 ### 5.[Case Study Teardown](05-case-study-teardown.md)
 
@@ -65,8 +65,8 @@ Lima modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Mengubah "iklan tersebut berkinerja baik" menjadi kesimpulan struktural yang dapat digunakan kembali
 - Berfungsi ganda sebagai alat penjualan: pembongkaran gratis sebagai pembuka calon pelanggan
 
-**Templat:** [`teardown-worksheet.md`](templates/teardown-worksheet.md)
+**Template:** [`teardown-worksheet.md`](templates/teardown-worksheet.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 14 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

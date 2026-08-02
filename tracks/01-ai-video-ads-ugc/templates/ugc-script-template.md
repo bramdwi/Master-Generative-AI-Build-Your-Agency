@@ -1,6 +1,6 @@
-# Templat Skrip UGC
+# Template Skrip UGC
 
-Dari [Module 1: How AI UGC Actually Works](../01-how-ugc-works.md). Salin templat kosong di bawah untuk skrip baru — contoh yang diisi di atas adalah skrip nyata dari Contoh yang Dikerjakan modul tersebut, disimpan di sini sehingga Anda memiliki sesuatu untuk dicocokkan polanya alih-alih menatap tanda kurung.
+Dari [Module 1: How AI UGC Actually Works](../01-how-ugc-works.md). Salin template kosong di bawah untuk skrip baru — contoh yang diisi di atas adalah skrip nyata dari Contoh yang Dikerjakan modul tersebut, disimpan di sini sehingga Anda memiliki sesuatu untuk dicocokkan polanya alih-alih menatap tanda kurung.
 
 ## Contoh yang terisi (pemasangan telepon GripMount, $28)
 
@@ -20,7 +20,7 @@ Mengapa setiap ketukan melakukan tugasnya:
 - **Bukti** memasangkan demo visual dengan durasi konkret ("dua minggu, termasuk jalan berlubang") — angka yang dibaca lebih kredibel daripada kata sifat.
 - **CTA** menyatakan harga dengan jelas dan mengaitkan urgensi dengan kasus penggunaan nyata (perjalanan), hanya satu tindakan.
 
-## Templat kosong — isi ini
+## Template kosong — isi ini
 
 **Produk:** ___________
 **Panjang target:** 25-30 detik (~75-90 kata)

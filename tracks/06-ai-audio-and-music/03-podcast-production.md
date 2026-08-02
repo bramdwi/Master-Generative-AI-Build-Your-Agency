@@ -121,7 +121,7 @@ Untuk pembuat konten pemula, menggunakan Audacity atau Adobe Audition memberi An
 
 ---
 
-## Templat
+## Template
 
 * [`templates/podcast-production-sheet.md`](templates/podcast-production-sheet.md) — node pemerataan, gerbang kebisingan, rasio kompresi, dan penguasaan target LUFS.
 

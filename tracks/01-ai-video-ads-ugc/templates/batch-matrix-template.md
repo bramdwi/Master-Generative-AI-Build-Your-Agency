@@ -1,4 +1,4 @@
-# Templat Matriks Batch
+# Template Matriks Batch
 
 Dari [Module 3: Building a 10-Ad Batch](../03-building-an-ad-batch.md). Isi satu baris per iklan sebelum memproduksi apa pun — variasikan hanya hook dan/atau sudut penjualan per iklan, jangan keduanya secara acak.
 
@@ -17,7 +17,7 @@ Dari [Module 3: Building a 10-Ad Batch](../03-building-an-ad-batch.md). Isi satu
 
 Hanya pengait dan sudut yang berubah — semuanya tetap, jadi pemenang memberi tahu Anda bahwa itu adalah *pengait*, bukan variabel lainnya. Lihat Alat Bandingkan Modul 3 untuk mengetahui cara sebenarnya membaca hasil (hook rate terlebih dahulu, kemudian CPA).
 
-## Templat kosong
+## Template kosong
 
 **Produk:** ___________
 **Konstanta (sama di setiap iklan):** produk, titik bukti inti, CTA

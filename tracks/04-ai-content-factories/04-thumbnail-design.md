@@ -122,7 +122,7 @@ Untuk pabrik konten volume, menggunakan `nano-banana-2` melalui muapi adalah jal
 
 ---
 
-## Templat
+## Template
 
 * [`templates/thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md) — perintah gambar yang diuji untuk latar belakang RKT tinggi.
 

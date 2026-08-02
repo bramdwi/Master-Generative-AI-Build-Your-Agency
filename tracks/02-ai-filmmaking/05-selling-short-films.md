@@ -83,7 +83,7 @@ Jangkau perwakilan pemberi lisensi jaringan video vertikal. Tawarkan kepada mere
 | --- | --- | --- |
 | **FilmFreeway** | Direktori pusat untuk pengiriman festival film secara global. Termasuk filter untuk kategori anggaran, genre, dan "AI Film". | Mendapatkan kredensial, memenangkan hadiah uang tunai, dan siaran pers. |
 | **Penjangkauan Merek Langsung (Email/LinkedIn)** | Menjangkau manajer pemasaran secara langsung untuk menjual penempatan produk. | Arus kas jangka pendek dan kemitraan komersial langsung. |
-| **Whop / Gumroad** | Platform hosting e-niaga untuk menjual aset atau permintaan video digital. | Menjual templat, aset visual, atau paket LUT ke pembuat konten lain. |
+| **Whop / Gumroad** | Platform hosting e-niaga untuk menjual aset atau permintaan video digital. | Menjual template, aset visual, atau paket LUT ke pembuat konten lain. |
 
 Untuk monetisasi langsung, penjangkauan terhadap merek dan pemberian lisensi pada platform vertikal memberikan pendapatan yang cepat dan dapat diprediksi. Festival harus diperlakukan sebagai saluran pemasaran untuk meningkatkan kredibilitas Anda dan membenarkan tarif yang lebih tinggi untuk kesepakatan merek di masa depan.
 
@@ -102,9 +102,9 @@ Targetkan merek yang sudah banyak beriklan di media sosial (lihat Meta Ad Librar
 2. **Sedang:** Tulis email dingin ke merek jam tangan atau perlengkapan teknologi asli, yang mengusulkan integrasi visual berdurasi 5 detik tanpa hambatan dalam video pendek bertema perjalanan.
 3. **Sulit:** Buat draf lembar persyaratan lisensi lengkap untuk serial drama vertikal 10 episode, yang menjelaskan eksklusivitas regional, tahapan pembayaran di muka, dan persyaratan bagi hasil.
 
-## Templat
+## Template
 
-Templat yang dapat digunakan kembali yang dihasilkan modul ini:
+Template yang dapat digunakan kembali yang dihasilkan modul ini:
 
 - [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-template.md) — struktur promosi email yang menarik untuk sponsorship.
 - [`templates/licensing-agreement-sheet.md`](templates/licensing-agreement-sheet.md) — lembar persyaratan yang menguraikan struktur perizinan.

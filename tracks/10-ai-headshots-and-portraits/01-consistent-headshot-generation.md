@@ -113,7 +113,7 @@ Periksa render pada zoom 100%:
 
 ---
 
-## Templat
+## Template
 
 * [`templates/headshot-style-guide.md`](templates/headshot-style-guide.md) — Perintah pengaturan pencahayaan, deskriptor lemari pakaian, dan perpustakaan perintah negatif.
 

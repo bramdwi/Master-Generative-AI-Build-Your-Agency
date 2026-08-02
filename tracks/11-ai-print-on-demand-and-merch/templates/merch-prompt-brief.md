@@ -1,6 +1,6 @@
-# Templat Panduan Gaya & Singkat Vektor AI Print-on-Demand
+# Template Panduan Gaya & Singkat Vektor AI Print-on-Demand
 
-Gunakan templat ini untuk menyusun perintah seni vektor yang dioptimalkan untuk pakaian, spesifikasi penghapusan latar belakang, dan penskalaan resolusi 300 DPI.
+Gunakan template ini untuk menyusun perintah seni vektor yang dioptimalkan untuk pakaian, spesifikasi penghapusan latar belakang, dan penskalaan resolusi 300 DPI.
 
 ---
 

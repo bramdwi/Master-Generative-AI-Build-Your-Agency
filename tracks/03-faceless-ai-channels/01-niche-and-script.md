@@ -130,10 +130,10 @@ Frontier LLM (Claude/Gemini) adalah pilihan jalur pipa terbaik. Dengan mengonfig
 
 ---
 
-## Templat
+## Template
 
 * [`templates/niche-evaluation-matrix.md`](templates/niche-evaluation-matrix.md) — lembar skor untuk menilai ceruk potensial.
-* [`templates/retention-script-template.md`](templates/retention-script-template.md) — templat terstruktur untuk menulis skrip dengan retensi tinggi.
+* [`templates/retention-script-template.md`](templates/retention-script-template.md) — template terstruktur untuk menulis skrip dengan retensi tinggi.
 
 ---
 

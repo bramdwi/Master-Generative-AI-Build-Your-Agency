@@ -123,9 +123,9 @@ Komunitas pembuat konten AI, server Discord (seperti Runway, Midjourney, muapi),
 2. **Sedang:** Susun naskah film bergenre *thriller* berdurasi 60 detik menggunakan tata letak terintegrasi: bagi menjadi 5 adegan, rangkai deskripsi visual, baris *voiceover*, serta instruksi visual yang presisi untuk setiap adegan.
 3. **Sulit:** Manfaatkan LLM berbasis teks untuk memproduksi tiga variasi instruksi visual pada satu adegan, dengan hanya memvariasikan jenis lensa kamera (misalnya, potret 85 mm, sudut lebar 24 mm, atau *anamorphic*), lalu uraikan bagaimana penyesuaian tersebut mentransformasi lanskap emosional cerita.
 
-## Templat
+## Template
 
-Templat siap guna yang dihasilkan oleh modul ini — Anda dapat melengkapi serta memanfaatkannya kembali untuk kebutuhan proyek riil:
+Template siap guna yang dihasilkan oleh modul ini — Anda dapat melengkapi serta memanfaatkannya kembali untuk kebutuhan proyek riil:
 
 - [`templates/screenplay-prompt-template.md`](templates/screenplay-prompt-template.md) — tata letak skenario yang dirancang khusus untuk memproduksi instruksi gambar maupun video.
 - [`templates/ai-film-brief.md`](templates/ai-film-brief.md) — ringkasan inisiasi proyek guna mengunci esensi estetika serta batasan visual.

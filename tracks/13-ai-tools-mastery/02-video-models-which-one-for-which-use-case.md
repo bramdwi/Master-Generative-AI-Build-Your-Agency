@@ -84,7 +84,7 @@ Konfigurasikan intensitas *motion strength*:
 2. **Sedang:** Bandingkan presisi kendali kamera antara Runway Gen-3 berbanding Kling 1.5 mengandalkan gambar *keyframe* yang sama.
 3. **Sulit:** Sajikan alur adegan video 3 *shot* dengan konsistensi tata cahaya yang terjaga menggunakan *keyframe* I2V di seluruh transisi.
 
-## Templat
+## Template
 
 - [`templates/video-audio-stack-matrix.md`](templates/video-audio-stack-matrix.md) — Parameter kendali gerak, panduan pergerakan kamera, serta tolak ukur kecepatan pemrosesan model.
 

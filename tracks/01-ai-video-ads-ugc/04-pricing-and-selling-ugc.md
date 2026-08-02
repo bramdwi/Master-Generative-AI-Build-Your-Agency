@@ -63,7 +63,7 @@ Modul ini berfokus pada keahlian bisnis, bukan teknik produksi — komparasi too
 
 **Angka riil dan cara menyampaikannya:** Studi kasus menunjukkan brand secara individual mampu menjalankan ad berformat AI-UGC dengan ad spend mencapai $600K+/bulan — sampaikan ini sebagai bukti bahwa format ini bekerja dalam skala besar, tanpa mengindikasikan bahwa Anda secara pribadi akan mereplikasi angka ad spend tersebut. Saat mempublikasikan hasil kerja Anda, tampilkan angka nyata beserta metrik pengukurannya (lihat modul lintas-track "Show Your Real Numbers") — ini menjadi nilai kepercayaan utama Anda dibanding pesaing yang menyampaikan klaim secara samar.
 
-**Mengelola revisi:** Memenangkan kesepakatan bukanlah akhir pengerjaan — setiap skema harga di atas memerlukan batasan putaran revisi yang dinyatakan *sebelum* Anda memberikan estimasi. Satu putaran revisi gratis merupakan standar umum; cantumkan sebagai "1 putaran revisi termasuk" dalam proposal/penawaran (lihat templat retainer), dan perlakukan permintaan di luar itu sebagai pengerjaan baru. Dua kondisi yang sering terjadi:
+**Mengelola revisi:** Memenangkan kesepakatan bukanlah akhir pengerjaan — setiap skema harga di atas memerlukan batasan putaran revisi yang dinyatakan *sebelum* Anda memberikan estimasi. Satu putaran revisi gratis merupakan standar umum; cantumkan sebagai "1 putaran revisi termasuk" dalam proposal/penawaran (lihat template retainer), dan perlakukan permintaan di luar itu sebagai pengerjaan baru. Dua kondisi yang sering terjadi:
 
 * **Client menghendaki sesuatu yang tidak dapat dihasilkan model dengan baik** (interaksi produk yang sangat spesifik, meniru ad pesaing secara persis) — sampaikan secara jujur dan tawarkan alternatif terdekat. Client lebih menghargai kejelasan ketimbang janji yang tidak pasti.
 * **Umpan balik yang samar** ("buat tampilannya lebih menarik") — ubah menjadi pertanyaan spesifik ("apakah yang dimaksud adalah pemotongan ritme lebih cepat, hook berbeda, atau CTA berbeda?") sebelum melakukan perbaikan. Menebak secara keliru akan membuang alokasi putaran revisi kedua belah pihak.
@@ -74,12 +74,12 @@ Modul ini berfokus pada keahlian bisnis, bukan teknik produksi — komparasi too
 2. **Sedang:** Susun pesan cold outreach untuk brand DTC nyata, termasuk sampel ad yang Anda produksi untuk kategori produk mereka.
 3. **Sulit:** Rancang proposal retainer (cakupan, jumlah ad bulanan, harga, kebijakan revisi) seolah-olah menawarkan kepada brand nyata setelah menyelesaikan 2 proyek sukses.
 
-## Templat
+## Template
 
-Templat siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
+Template siap pakai yang dihasilkan oleh modul ini — lengkapi dan manfaatkan kembali untuk proyek nyata:
 
-* [`templates/outreach-template.md`](templates/outreach-template.md) — templat pesan cold outreach untuk menawarkan pengerjaan berbasis proyek.
-* [`templates/retainer-proposal-template.md`](templates/retainer-proposal-template.md) — struktur templat penawaran retainer.
+* [`templates/outreach-template.md`](templates/outreach-template.md) — template pesan cold outreach untuk menawarkan pengerjaan berbasis proyek.
+* [`templates/retainer-proposal-template.md`](templates/retainer-proposal-template.md) — struktur template penawaran retainer.
 
 ---
 

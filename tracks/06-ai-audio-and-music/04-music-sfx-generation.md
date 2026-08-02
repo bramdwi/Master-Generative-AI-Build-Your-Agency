@@ -122,7 +122,7 @@ Untuk saluran pemasaran B2B, Soundraw sangat efektif karena Anda dapat menyenyap
 
 ---
 
-## Templat
+## Template
 
 * [`templates/audio-prompt-library.md`](templates/audio-prompt-library.md) — trek musik berulang, penanda nuansa emosional, dan kunci prompt efek suara transisi.
 

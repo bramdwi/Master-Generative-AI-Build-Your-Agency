@@ -109,9 +109,9 @@ Untuk agensi kecil, Stripe Billing adalah alat pembuatan faktur standar. Kirimka
 
 ---
 
-## Templat
+## Template
 
-* [`templates/agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) — templat proposal kontrak yang mencakup cakupan, jadwal, dan pembayaran.
+* [`templates/agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) — template proposal kontrak yang mencakup cakupan, jadwal, dan pembayaran.
 * [`templates/bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md) — rentang harga dan margin untuk reel/short massal.
 
 ---

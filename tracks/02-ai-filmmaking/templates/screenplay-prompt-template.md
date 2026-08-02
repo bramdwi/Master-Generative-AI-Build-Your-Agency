@@ -1,6 +1,6 @@
-# Templat Prompt Skenario AI
+# Template Prompt Skenario AI
 
-Gunakan templat ini untuk memformat skrip agar dioptimalkan untuk generator video AI (misalnya, Kling, Luma Dream Machine, Runway).
+Gunakan template ini untuk memformat skrip agar dioptimalkan untuk generator video AI (misalnya, Kling, Luma Dream Machine, Runway).
 
 ---
 

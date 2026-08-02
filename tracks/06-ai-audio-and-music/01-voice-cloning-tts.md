@@ -115,7 +115,7 @@ ElevenLabs merupakan acuan utama untuk kebutuhan kloning vokal komersial berpres
 
 ---
 
-## Templat
+## Template
 
 * [`templates/voice-cloning-spec.md`](templates/voice-cloning-spec.md) — panduan peranti keras, parameter noise gate, dan log stabilitas.
 

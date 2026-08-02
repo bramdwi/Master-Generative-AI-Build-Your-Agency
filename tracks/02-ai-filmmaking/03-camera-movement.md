@@ -108,9 +108,9 @@ Platform penyedia aset *stock*, pengembang *indie game* yang membutuhkan keterse
 2. **Sedang:** Hasilkan citra *close-up* karakter memanfaatkan *start frame* dari *storyboard*. Lakukan eksperimentasi pada parameter *motion strength*: jalankan *render* masing-masing pada nilai kekuatan 2, 5, dan 8. Catat pada tingkat berapa nilai kekuatan tersebut mulai merusak detail anatomi wajah.
 3. **Sulit:** Ciptakan sebuah transisi adegan yang mengombinasikan teknik *first frame* dan *last frame conditioning*. Kunci *frame* pertama sebagai komposisi *indoor shot* dan *frame* terakhir sebagai *outdoor shot*, sehingga menghasilkan pergerakan kamera yang mengalir mulus melintasi celah pintu.
 
-## Templat
+## Template
 
-Templat siap guna yang dihasilkan oleh modul ini:
+Template siap guna yang dihasilkan oleh modul ini:
 
 - [`templates/motion-prompt-library.md`](templates/motion-prompt-library.md) — pustaka frasa pergerakan kamera.
 - [`templates/cinematography-cheat-sheet.md`](templates/cinematography-cheat-sheet.md) — lembar panduan komprehensif untuk peristilahan tata letak visual.

@@ -136,13 +136,13 @@ Komunitas sineas independen, forum sutradara, platform Upwork, hingga direktori 
 2. **Sedang:** Hasilkan 3 frame storyboard (WS, MS, CU) untuk karakter yang tengah duduk di bangku taman pada momen golden hour, sembari memelihara kontinuitas karakter dan warna di ketiga pengambilan gambar tersebut.
 3. **Sulit:** Susun alur storyboard di mana karakter bertransisi dari lokasi interior (berpendar hangat) menuju area eksterior (berpendar dingin di siang hari). Gubah prompt transisi yang melukiskan bagaimana pergeseran cahaya menerpa wajah karakter tanpa merusak atribut busana maupun identitas utamanya.
 
-## Templat
+## Template
 
-Templat siap guna yang dihasilkan oleh modul ini:
+Template siap guna yang dihasilkan oleh modul ini:
 
-- [`templates/storyboard-script-template.md`](templates/storyboard-script-template.md) — templat perincian untuk menyusun pengambilan gambar storyboard AI dan perintah Image-to-Video.
+- [`templates/storyboard-script-template.md`](templates/storyboard-script-template.md) — template perincian untuk menyusun pengambilan gambar storyboard AI dan perintah Image-to-Video.
 - [`templates/shot-list-template.md`](templates/shot-list-template.md) — pelacak untuk mencatat bingkai, bingkai kamera, dan petunjuknya.
-- [`templates/style-guide-template.md`](templates/style-guide-template.md) — templat untuk mengunci awalan cepat, rasio aspek, dan palet warna film Anda.
+- [`templates/style-guide-template.md`](templates/style-guide-template.md) — template untuk mengunci awalan cepat, rasio aspek, dan palet warna film Anda.
 
 ---
 

@@ -16,7 +16,7 @@
 
 ---
 
-## 🛠️ Templat & Contoh yang Dapat Digunakan Kembali
+## 🛠️ Template & Contoh yang Dapat Digunakan Kembali
 
 * [`templates/agency-pricing-calculator.md`](templates/agency-pricing-calculator.md) — Rumus penetapan harga proyek berbasis nilai, matriks 3 tingkat, dan model ekonomi penahan bulanan.
 * [`templates/freelance-client-contract.md`](templates/freelance-client-contract.md) — Perjanjian Layanan Utama (MSA), Pernyataan Kerja (SOW), batas revisi, dan klausul transfer IP AI.

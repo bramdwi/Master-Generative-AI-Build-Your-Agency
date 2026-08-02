@@ -106,9 +106,9 @@ Setelah berhasil menyerahkan paket listing perdana mereka, presentasikan **Broke
 2. **Sedang:** Lakukan virtual staging pada 3 gambar ruangan kosong tersebut lalu susun 3 grafis perbandingan sebelum/sesudah.
 3. **Sulit:** Susun 3 naskah cold email pitch yang terpersonalisasi mengandalkan template di atas, sisipkan grafis sebelum/sesudah Anda, lalu kirimkan kepada masing-masing listing agent.
 
-## Templat
+## Template
 
-- [`templates/agency-outreach-template.md`](templates/agency-outreach-template.md) — Templat cold email, naskah video Loom, serta perjanjian kemitraan real estate photographer.
+- [`templates/agency-outreach-template.md`](templates/agency-outreach-template.md) — Template cold email, naskah video Loom, serta perjanjian kemitraan real estate photographer.
 
 ---
 

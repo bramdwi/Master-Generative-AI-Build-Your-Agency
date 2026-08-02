@@ -1,4 +1,4 @@
-# Templat Proposal Pengikut
+# Template Proposal Pengikut
 
 Dari [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-selling-ugc.md). Promosikan ini setelah 2-3 proyek selesai — baris "mengapa ini berhasil" harus mengarah pada iklan yang ditayangkan secara nyata, bukan klaim kemampuan umum.
 
@@ -13,7 +13,7 @@ Dari [Module 4: Pricing & Selling UGC Ads as a Service](../04-pricing-and-sellin
 
 **Mengapa cara ini berhasil:** Batch pengujian GripMount yang kami jalankan bulan lalu (Iklan #2, hook pertama yang bermasalah) mengungguli tingkat hook materi iklan asli — penahan ini menjaga irama pengujian yang sama tetap berjalan, bukan hanya sekali saja.
 
-## Templat kosong
+## Template kosong
 
 **Klien:** ___________
 **Cakupan:** [X] varian iklan per bulan, di seluruh kelompok [Y].

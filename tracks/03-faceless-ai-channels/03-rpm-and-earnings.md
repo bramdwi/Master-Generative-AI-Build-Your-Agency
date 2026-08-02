@@ -113,7 +113,7 @@ Analisis AdSense hanya menampilkan pendapatan iklan. Untuk menjalankan bisnis ya
 
 ---
 
-## Templat
+## Template
 
 * [`templates/channel-profitability-calculator.md`](templates/channel-profitability-calculator.md) — lembar audit bulanan untuk penayangan, penjualan langsung, biaya perangkat lunak, dan margin bersih.
 

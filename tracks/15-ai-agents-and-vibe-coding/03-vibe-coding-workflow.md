@@ -127,9 +127,9 @@ Tanyakan kepada agen: *"Buat README.md dan requirements.txt untuk proyek ini."* 
 2. **Medium:** Jalankan sesi Vibe-Coding 4 fase penuh untuk membuat skrip yang membaca daftar nama toko Etsy dan menghasilkan 5 kata kunci ide produk khusus niche per toko.
 3. **Sulit:** Selesaikan perulangan Prompt → Build → Test → Ship lengkap untuk alat pilihan Anda, unggah ke halaman draf Gumroad, dan tulis salinan deskripsi produk.
 
-## Templat
+## Template
 
-- [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Templat perencanaan sesi, kerangka kerja Prompt agen, dan lembar spesifikasi alat.
+- [`templates/vibe-coding-session-brief.md`](templates/vibe-coding-session-brief.md) — Template perencanaan sesi, kerangka kerja Prompt agen, dan lembar spesifikasi alat.
 
 ---
 

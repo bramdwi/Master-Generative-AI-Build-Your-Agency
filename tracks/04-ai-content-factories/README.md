@@ -4,7 +4,7 @@
 
 Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga — klik langsung, tanpa subfolder. Setiap modul mengikuti struktur yang sama: Masalah → Konsep → Lakukan → Bandingkan Alat → Luncurkan → Latihan.
 
-**"Templat" di bawah** = templat yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, cetak biru loop, proposal) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
+**"Template" di bawah** = template yang dapat digunakan kembali yang dihasilkan setiap modul (lembar spesifikasi, cetak biru loop, proposal) — file sebenarnya yang Anda isi dan gunakan kembali, disimpan di [`templates/`](templates/).
 
 | # | Modul | Waktu | Membutuhkan |
 |:---:|---|:---:|---|
@@ -25,7 +25,7 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Petakan dan pisahkan kumpulan video ke dalam stasiun-stasiun yang terpisah dan searah.
 - Audit parameter media ekspor terhadap spesifikasi platform yang ketat untuk menghindari putaran revisi.
 
-**Templat:** [`pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) · [`asset-specs-checklist.md`](templates/asset-specs-checklist.md)
+**Template:** [`pipeline-flowchart-template.md`](templates/pipeline-flowchart-template.md) · [`asset-specs-checklist.md`](templates/asset-specs-checklist.md)
 
 ### 2.[Building a TikTok/Reels Factory](02-tiktok-reels-factory.md)
 
@@ -35,7 +35,7 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Gaya teks otomatis kata mikro (1-3 kata) menggunakan garis tebal kontras tinggi dan penyorotan kata kunci berwarna kuning.
 - Posisikan hamparan teks garis waktu tepat di dalam kisi zona aman untuk menghindari ikon antarmuka yang tumpang tindih.
 
-**Templat:** [`tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md)
+**Template:** [`tiktok-reels-editor-preset.md`](templates/tiktok-reels-editor-preset.md)
 
 ### 3.[Building a YouTube Shorts Factory](03-youtube-shorts-factory.md)
 
@@ -45,7 +45,7 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Pangkas frame keheningan ekor hingga milidetik untuk menyembunyikan batas loop.
 - Kunci level audio latar belakang di seluruh transisi loop untuk menjaga pemutaran ulang video senyap dan berkelanjutan.
 
-**Templat:** [`shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md)
+**Template:** [`shorts-looping-blueprint.md`](templates/shorts-looping-blueprint.md)
 
 ### 4.[AI Thumbnail Design](04-thumbnail-design.md)
 
@@ -55,7 +55,7 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Posisikan subjek utama dan hamparan teks pendek dan tebal menggunakan pembagian aturan sepertiga.
 - Kontras dan saturasi gambar sebesar 10-15% untuk memeriksa keterbacaan pada ukuran koin seluler.
 
-**Templat:** [`thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md)
+**Template:** [`thumbnail-prompt-library.md`](templates/thumbnail-prompt-library.md)
 
 ### 5.[Batching & Scheduling at Volume](05-batching-and-scheduling.md)
 
@@ -65,7 +65,7 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Antrean jangka pendek bulanan dan otomatisasi rilis menggunakan platform asli Studios.
 - Menyindikasikan video vertikal di berbagai platform menggunakan generator kliping otomatis.
 
-**Templat:** [`30-day-production-calendar.md`](templates/30-day-production-calendar.md)
+**Template:** [`30-day-production-calendar.md`](templates/30-day-production-calendar.md)
 
 ### 6.[Selling Content-Factory Output as a Service](06-selling-content-services.md)
 
@@ -75,8 +75,8 @@ Enam modul, secara berurutan. Masing-masing adalah satu file penurunan harga —
 - Sesuaikan proposal layanan perusahaan yang merinci jadwal pengiriman dan batas revisi.
 - Buat faktur dan kumpulkan pembayaran penahan di muka menggunakan tautan penagihan Stripe berulang.
 
-**Templat:** [`agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) · [`bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md)
+**Template:** [`agency-retainer-proposal.md`](templates/agency-retainer-proposal.md) · [`bulk-pricing-sheet.md`](templates/bulk-pricing-sheet.md)
 
 ---
 
-Semua templat ada di [`templates/`](templates/). Untuk status di 12 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).
+Semua template ada di [`templates/`](templates/). Untuk status di 12 trek lainnya, lihat [ROADMAP.md](../../ROADMAP.md).

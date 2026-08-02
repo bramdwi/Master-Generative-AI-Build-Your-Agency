@@ -1,4 +1,4 @@
-# Templat Definisi Lingkup Alat
+# Template Definisi Lingkup Alat
 
 Gunakan ini sebelum membuat alat mikro apa pun. Menjawab 4 pertanyaan ini mencegah scope creep dan memastikan agen menerima instruksi yang jelas dan tidak ambigu.
 

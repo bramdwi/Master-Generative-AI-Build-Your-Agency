@@ -1,6 +1,6 @@
-# Templat Penawaran Layanan yang Diproduksi
+# Template Penawaran Layanan yang Diproduksi
 
-Gunakan templat ini untuk mengemas, memberi harga, dan menjual pengikut fotografi produk AI kepada merek.
+Gunakan template ini untuk mengemas, memberi harga, dan menjual pengikut fotografi produk AI kepada merek.
 
 ## 1. Paket Layanan
 
@@ -40,7 +40,7 @@ Gunakan templat ini untuk mengemas, memberi harga, dan menjual pengikut fotograf
 
 * [ ] Menerima foto produk PNG resolusi tinggi dari klien.
 * [ ] Isolasi masker produk menggunakan penghapusan latar belakang otomatis.
-* [ ] Hasilkan 10 latar belakang pengujian menggunakan templat singkat.
+* [ ] Hasilkan 10 latar belakang pengujian menggunakan template singkat.
 * [ ] Gabungkan lapisan produk terisolasi ke latar belakang yang dihasilkan.
 * [ ] Terapkan bayangan kontak dan kecocokan warna pencahayaan sekitar.
 * [ ] Ekspor file dalam format WebP dan JPEG resolusi tinggi.
