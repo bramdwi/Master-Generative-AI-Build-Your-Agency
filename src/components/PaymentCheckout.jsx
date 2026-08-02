@@ -261,7 +261,7 @@ export default function PaymentCheckout({
                 textDecoration: 'none'
               }}
             >
-              Bayar Langsung via Midtrans ↗
+              Buka Halaman Midtrans ↗
             </a>
           )}
           <button
@@ -302,6 +302,32 @@ export default function PaymentCheckout({
             <ArrowLeft size={16} />
             Kembali
           </button>
+        </div>
+
+        {/* Guidance Note for Midtrans Production Channel Activation */}
+        <div style={{
+          marginTop: '1.5rem',
+          padding: '1rem',
+          background: 'rgba(239, 68, 68, 0.1)',
+          border: '1px solid rgba(239, 68, 68, 0.25)',
+          borderRadius: '12px',
+          textAlign: 'left',
+          fontSize: '0.8rem',
+          color: '#fca5a5',
+          lineHeight: 1.5
+        }}>
+          <div style={{ fontWeight: 700, color: 'white', marginBottom: '0.375rem', display: 'flex', alignItems: 'center', gap: '6px' }}>
+            💡 Kenapa muncul "No payment channels available"?
+          </div>
+          <div>
+            Akun Midtrans Production <strong>sahabat-ai</strong> perlu mengaktifkan kanal pembayaran (QRIS, GoPay, Bank Transfer) di 
+            <a href="https://dashboard.midtrans.com" target="_blank" rel="noopener noreferrer" style={{ color: '#60a5fa', marginLeft: '4px', textDecoration: 'underline' }}>
+              Dashboard Midtrans (Settings → Payment Methods)
+            </a>.
+          </div>
+          <div style={{ marginTop: '0.5rem', color: '#cbd5e1' }}>
+            <strong>Untuk testing instan sekarang:</strong> Kamu bisa gunakan <strong>Sandbox Keys</strong> dari <a href="https://dashboard.sandbox.midtrans.com" target="_blank" rel="noopener noreferrer" style={{ color: '#60a5fa', textDecoration: 'underline' }}>Midtrans Sandbox Dashboard</a> (semua kanal QRIS & GoPay aktif 100% untuk testing).
+          </div>
         </div>
       </div>
     );
