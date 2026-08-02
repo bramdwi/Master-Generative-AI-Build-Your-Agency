@@ -8,9 +8,9 @@
     "build": "node scripts/build-course-data.js && vite build",
     "preview": "vite preview",
     "sync-data": "node scripts/build-course-data.js",
-    "server": "cd server && node index.js",
-    "server:dev": "cd server && node --watch index.js",
-    "dev:full": "node scripts/build-course-data.js && (cd server && node index.js &) && vite"
+    "server": "(lsof -ti :3001 | xargs kill -9 2>/dev/null || true) && cd server && node index.js",
+    "server:dev": "(lsof -ti :3001 | xargs kill -9 2>/dev/null || true) && cd server && node --watch index.js",
+    "dev:full": "node scripts/build-course-data.js && (lsof -ti :3001 | xargs kill -9 2>/dev/null || true; cd server && node index.js &) && vite"
   },
   "dependencies": {
     "canvas-confetti": "^1.9.4",
