@@ -70,10 +70,12 @@ export default function PaymentCheckout({
   const [status, setStatus] = useState('idle'); // idle | loading | processing | success | error | pending
   const [errorMsg, setErrorMsg] = useState('');
   const [orderId, setOrderId] = useState(null);
+  const [redirectUrl, setRedirectUrl] = useState(null);
 
   const initiatePayment = useCallback(async () => {
     setStatus('loading');
     setErrorMsg('');
+    setRedirectUrl(null);
 
     try {
       // 1. Create transaction on backend
@@ -94,6 +96,7 @@ export default function PaymentCheckout({
 
       const data = await response.json();
       setOrderId(data.orderId);
+      setRedirectUrl(data.redirect_url);
       setStatus('processing');
 
       // 2. Trigger Midtrans Snap popup
@@ -102,7 +105,6 @@ export default function PaymentCheckout({
           onSuccess: (result) => {
             console.log('✅ Payment success:', result);
             setStatus('success');
-            // Delay to show success animation, then activate subscription
             setTimeout(() => {
               onSuccess(plan, data.orderId, result);
             }, 2000);
@@ -110,7 +112,6 @@ export default function PaymentCheckout({
           onPending: (result) => {
             console.log('⏳ Payment pending:', result);
             setStatus('pending');
-            // Still activate - they can continue while payment settles
             setTimeout(() => {
               onSuccess(plan, data.orderId, result);
             }, 3000);
@@ -118,33 +119,25 @@ export default function PaymentCheckout({
           onError: (result) => {
             console.error('❌ Payment error:', result);
             setStatus('error');
-            setErrorMsg('Pembayaran gagal. Silakan coba lagi.');
+            setErrorMsg('Pembayaran gagal atau dibatalkan. Kamu juga bisa bayar langsung via link Midtrans.');
           },
           onClose: () => {
             console.log('🚫 Payment popup closed');
-            if (status === 'processing') {
-              setStatus('idle');
-            }
+            setStatus('idle');
           }
         });
+      } else if (data.redirect_url) {
+        // Snap.js fallback -> redirect directly
+        window.location.href = data.redirect_url;
       } else {
-        // Snap.js not loaded — fallback to redirect URL
-        if (data.redirect_url) {
-          window.open(data.redirect_url, '_blank');
-          setStatus('pending');
-          setTimeout(() => {
-            onSuccess(plan, data.orderId, { fallback: true });
-          }, 3000);
-        } else {
-          throw new Error('Midtrans Snap belum dimuat. Refresh halaman dan coba lagi.');
-        }
+        throw new Error('Midtrans Snap belum dimuat. Refresh halaman dan coba lagi.');
       }
     } catch (error) {
       console.error('Payment initiation error:', error);
       setStatus('error');
       setErrorMsg(error.message || 'Terjadi kesalahan. Silakan coba lagi.');
     }
-  }, [plan, onSuccess, status]);
+  }, [plan, onSuccess]);
 
   // ──── SUCCESS STATE ────
   if (status === 'success') {
@@ -243,7 +236,29 @@ export default function PaymentCheckout({
         <p style={{ color: '#9ca3af', fontSize: '0.9rem', marginBottom: '1.25rem' }}>
           {errorMsg}
         </p>
-        <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center' }}>
+        <div style={{ display: 'flex', gap: '0.75rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+          {redirectUrl && (
+            <a
+              href={redirectUrl}
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px',
+                padding: '0.6rem 1.25rem',
+                borderRadius: '10px',
+                border: 'none',
+                background: 'linear-gradient(90deg, #10b981, #059669)',
+                color: 'white',
+                fontSize: '0.9rem',
+                fontWeight: 700,
+                textDecoration: 'none'
+              }}
+            >
+              Bayar Langsung via Midtrans ↗
+            </a>
+          )}
           <button
             onClick={() => { setStatus('idle'); setErrorMsg(''); }}
             style={{

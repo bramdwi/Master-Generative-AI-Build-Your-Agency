@@ -14,10 +14,14 @@ app.use(cors({
 }));
 app.use(express.json());
 
-// Initialize Midtrans Snap
+// Initialize Midtrans Snap with auto-detection for Production vs Sandbox keys
+const serverKey = process.env.MIDTRANS_SERVER_KEY || '';
+const isProductionMode = process.env.MIDTRANS_IS_PRODUCTION === 'true' || 
+  (serverKey.startsWith('Mid-server-') && !serverKey.startsWith('SB-'));
+
 const snap = new midtransClient.Snap({
-  isProduction: process.env.MIDTRANS_IS_PRODUCTION === 'true',
-  serverKey: process.env.MIDTRANS_SERVER_KEY,
+  isProduction: isProductionMode,
+  serverKey: serverKey,
   clientKey: process.env.MIDTRANS_CLIENT_KEY
 });
 
