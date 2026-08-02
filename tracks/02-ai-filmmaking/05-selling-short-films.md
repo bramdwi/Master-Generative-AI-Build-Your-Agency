@@ -45,7 +45,7 @@ Gunakan [`templates/sponsorship-pitch-template.md`](templates/sponsorship-pitch-
 
 ### Langkah 3: Promosikan Brand Sponsorships
 Telusuri merek menengah yang estetikanya sesuai dengan tema film Anda.
-- *Contoh:* Jika Anda membuat film fiksi ilmiah, targetkan perusahaan aksesori meja atau perangkat lunak premium. Jika Anda membuat drama, targetkan merek fesyen atau perawatan kulit.
+- *Contoh:* Jika Anda membuat film fiksi ilmiah, targetkan perusahaan aksesori meja atau perangkat lunak premium. Jika Anda membuat drama, targetkan merek fashion atau perawatan kulit.
 - Kirim penawaran Anda dengan menawarkan integrasi produk yang lancar ke dalam dunia narasi Anda. Membebankan biaya di muka (**$300–$1.000** untuk kampanye awal).
 
 ### Langkah 4: Kirim ke AI Film Festivals

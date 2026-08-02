@@ -50,7 +50,7 @@ Komunitas berbayar yang mengajarkan hal seperti ini (seperti Skool/Whop, seharga
 | 5 | [Avatar & Influencer AI](tracks/05-ai-avatars-and-influencers/) | Karakter AI konsisten sebagai aset bisnis | 5 | ✅ Tersedia |
 | 6 | [Audio & Musik AI](tracks/06-ai-audio-and-music/) | Kloning suara, dubbing, podcast, musik | 5 | ✅ Tersedia |
 | 7 | [Fotografi Produk AI](tracks/07-ai-product-photography/) | Foto produk kualitas studio tanpa fotografer | 4 | ✅ Tersedia |
-| 8 | [Fesyen AI & Virtual Try-On](tracks/08-ai-fashion-and-virtual-tryon/) | Fitting baju virtual untuk e-commerce fesyen | 4 | ✅ Tersedia |
+| 8 | [Fashion AI & Virtual Try-On](tracks/08-ai-fashion-and-virtual-tryon/) | Fitting baju virtual untuk e-commerce fashion | 4 | ✅ Tersedia |
 | 9 | [Staging Real Estat AI](tracks/09-ai-real-estate-staging/) | Foto ruangan kosong → ruangan ber-furnitur | 3 | ✅ Tersedia |
 | 10 | [Headshots & Potret AI](tracks/10-ai-headshots-and-portraits/) | Foto profil & headshot profesional konsisten | 4 | ✅ Tersedia |
 | 11 | [Print-on-Demand & Merch AI](tracks/11-ai-print-on-demand-and-merch/) | Seni AI laris di produk fisik merchandise | 4 | ✅ Tersedia |
@@ -124,11 +124,11 @@ Keterangan status: ✅ tersedia · 🚧 dalam pengerjaan · ⬜ segera hadir
 3. Menjual Foto Produk sebagai Layanan Paket
 4. Workflow Masal untuk Katalog Produk
 
-## Track 8 — Fesyen AI & Virtual Try-On ✅
-1. Virtual Fitting Baju untuk E-Commerce Fesyen
+## Track 8 — Fashion AI & Virtual Try-On ✅
+1. Virtual Fitting Baju untuk E-Commerce Fashion
 2. Lookbook Studio Berkonversi Tinggi
 3. Konsistensi Ukuran & Layout Pakaian
-4. Kasus Konversi Penjualan Fesyen
+4. Kasus Konversi Penjualan Fashion
 
 ## Track 9 — Staging Real Estat AI ✅
 1. Pipeline Ruangan Kosong → Ruangan Berisi Furnitur

@@ -53,11 +53,11 @@ Keterangan status: ✅ tersedia · 🚧 dalam pengerjaan · ⬜ segera hadir
 3. Menjual Foto Produk sebagai Layanan Paket
 4. Alur Kerja Masal untuk Katalog Produk
 
-## Trek 8 — Fesyen AI & Uji Coba Virtual ✅
-1. Baju Pas Virtual untuk E-Commerce Fesyen
+## Trek 8 — Fashion AI & Uji Coba Virtual ✅
+1. Baju Pas Virtual untuk E-Commerce Fashion
 2. Lookbook Studio Berkonversi Tinggi
 3. Konsistensi Ukuran & Tata Letak Pakaian
-4. Kasus Konversi Penjualan Fesyen
+4. Kasus Konversi Penjualan Fashion
 
 ## Trek 9 — Mementaskan Real Estat AI ✅
 1. Pipeline Ruangan Kosong → Ruangan Berisi Furnitur

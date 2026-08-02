@@ -316,8 +316,8 @@ export const trackTranslationsID = {
     desc: 'Ubah foto produk biasa menjadi visual iklan profesional tanpa studio foto.'
   },
   '08-ai-fashion-and-virtual-tryon': {
-    title: 'Fesyen AI & Virtual Try-On',
-    desc: 'Model pakaian virtual dan lookbook digital untuk e-commerce fesyen.'
+    title: 'Fashion AI & Virtual Try-On',
+    desc: 'Model pakaian virtual dan lookbook digital untuk e-commerce fashion.'
   },
   '09-ai-real-estate-staging': {
     title: 'Virtual Staging Real Estat AI',

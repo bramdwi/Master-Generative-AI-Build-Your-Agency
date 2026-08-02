@@ -41,7 +41,7 @@ const termMap = [
   [/\bBefore\/After Conversion Case Studies\b/g, 'Studi Kasus Konversi Penjualan Sebelum vs Sesudah'],
   [/\bSelling as a Productized Service\b/g, 'Menjual Foto Produk sebagai Layanan Paket'],
   [/\bBatch Workflows for Catalogs\b/g, 'Workflow Masal untuk Katalog Produk'],
-  [/\bGarment Try-on for Fashion E-commerce\b/g, 'Virtual Fitting Baju untuk E-Commerce Fesyen'],
+  [/\bGarment Try-on for Fashion E-commerce\b/g, 'Virtual Fitting Baju untuk E-Commerce Fashion'],
   [/\bHigh-converting Studio Lookbooks\b/g, 'Lookbook Studio Berkonversi Tinggi'],
   [/\bSizing & Layout Consistency\b/g, 'Konsistensi Ukuran & Layout Pakaian'],
   [/\bEmpty Room → Staged Room Pipeline\b/g, 'Pipeline Ruangan Kosong → Ruangan Berisi Furnitur'],
