@@ -99,7 +99,7 @@ export default function PaymentCheckout({
       setRedirectUrl(data.redirect_url);
       setStatus('processing');
 
-      // 2. Trigger Midtrans Snap popup
+      // 2. Trigger Midtrans Snap popup if available
       if (window.snap) {
         window.snap.pay(data.token, {
           onSuccess: (result) => {
@@ -119,7 +119,8 @@ export default function PaymentCheckout({
           onError: (result) => {
             console.error('❌ Payment error:', result);
             setStatus('error');
-            setErrorMsg('Pembayaran gagal atau dibatalkan. Kamu juga bisa bayar langsung via link Midtrans.');
+            const msg = result?.status_message || (Array.isArray(result?.error_messages) ? result.error_messages.join(', ') : null);
+            setErrorMsg(msg || 'Pembayaran belum diselesaikan atau gagal. Kamu bisa mencoba lagi atau bayar via link Midtrans.');
           },
           onClose: () => {
             console.log('🚫 Payment popup closed');
@@ -127,15 +128,19 @@ export default function PaymentCheckout({
           }
         });
       } else if (data.redirect_url) {
-        // Snap.js fallback -> redirect directly
-        window.location.href = data.redirect_url;
+        // Snap.js fallback -> open redirect URL directly
+        window.open(data.redirect_url, '_blank');
+        setStatus('pending');
+        setTimeout(() => {
+          onSuccess(plan, data.orderId, { fallback: true });
+        }, 4000);
       } else {
-        throw new Error('Midtrans Snap belum dimuat. Refresh halaman dan coba lagi.');
+        throw new Error('Midtrans Snap belum dimuat. Silakan refresh halaman.');
       }
     } catch (error) {
       console.error('Payment initiation error:', error);
       setStatus('error');
-      setErrorMsg(error.message || 'Terjadi kesalahan. Silakan coba lagi.');
+      setErrorMsg(error.message || 'Terjadi kesalahan saat menghubungkan ke gateway Midtrans.');
     }
   }, [plan, onSuccess]);
 

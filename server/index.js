@@ -79,16 +79,6 @@ app.post('/api/create-transaction', async (req, res) => {
         first_name: customerName || 'Kreator',
         email: customerEmail || 'kreator@kampuskreatorai.com'
       },
-      // Enable specific payment methods
-      enabled_payments: [
-        'gopay',
-        'shopeepay', 
-        'dana',
-        'other_qris',
-        'bank_transfer',
-        'credit_card',
-        'cstore'
-      ],
       callbacks: {
         finish: `${process.env.FRONTEND_URL || 'http://localhost:3000'}?payment=success&order_id=${orderId}`
       }
